@@ -1,0 +1,1500 @@
+--- PDF page 1 ---
+ARTICLE IN PRESS
+Article in Press
+Transport and retention of laundry microplastic 
+fibres in slow sand filtration systems
+Scientific Reports
+Received: 26 November 2025
+Accepted: 19 February 2026
+Cite this article as: Gao F., Busquets R. & 
+Campos L.C. Transport and retention of 
+laundry microplastic fibres in slow sand 
+filtration systems. Sci Rep (2026). https://
+doi.org/10.1038/s41598-026-41438-x
+Fan Gao, Rosa Busquets & Luiza C. Campos
+We are providing an unedited version of this manuscript to give early access to its 
+findings. Before final publication, the manuscript will undergo further editing. Please 
+note there may be errors present which affect the content, and all legal disclaimers 
+apply.
+If this paper is publishing under a Transparent Peer Review model then Peer 
+Review reports will publish with the final article.
+https://doi.org/10.1038/s41598-026-41438-x
+© The Author(s) 2026. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, 
+adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, 
+provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included 
+in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative 
+Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission 
+directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+
+--- PDF page 2 ---
+Transport and retention of laundry microplastic fibres in slow sand 
+filtration systems
+Fan Gao1, Rosa Busquets2,1 **, Luiza C. Campos1,*
+ 
+1 Centre for Urban Sustainability and Resilience,  Department of Civil, 
+Environmental and Geomatic Engineering, University College London, 
+Gower St, Bloomsbury, London, WC1E 6BT, United Kingdom 
+2 Faculty of Health, Science, Social Care and Education, School of Pharmacy 
+and Chemistry, Kingston University, Penrhyn Road, Kingston Upon Thames, 
+KT1 2EE, United Kingdom
+* Corresponding author: Luiza C. Campos (l.campos@ucl.ac.uk) 
+** Corresponding author: Rosa Busquets (r.busquets@kingston.ac.uk)
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 3 ---
+Abstract
+This study investigates the transport and retention of microplastic fibres 
+(MFs) in slow sand filtration (SSF) systems using coarse and fine sand media 
+under varying flow conditions. SSF is one of the most energy-efficient and 
+cost-effective tertiary treatment methods. This study examined the 
+performance of SSF for treating washing machine effluents heavily 
+contaminated with MFs, such as those from washing machine discharge. 
+Fine sand filters (with effective grain size of 0.2 mm) consistently retained 
+significantly fewer MFs in the effluent than coarse sand filters (with an 
+effective grain size of 0.6 mm), by a factor of 1.3 ± 0.2, with retention 
+occurring predominantly within the upper 0-10 cm of the filter bed, 
+highlighting the dominant role of the surface layer in MF capture. Between 
+83.9% and 93.6% of MFs in the filter effluents were 10-50 μm in length, with 
+10-20 μm fibres forming the dominant fraction across filtration rates of 5, 
+10, and 20 cm/h. Increasing filtration rate promoted deeper MF penetration 
+into the filter bed, reduced overall retention, and increased MF 
+breakthrough. Dissolved organic carbon removal was slightly higher in fine 
+sand filters than in coarse sand filters, and effluent pH increased modestly 
+with longer retention times. The highest MF removal efficiencies were 
+achieved at the lowest filtration rate (5 cm/h), where removal reached 92.0% 
+and 95.0% for coarse and fine sand, respectively. These trends are 
+consistent with a mechanistic interpretation in which MF transport and 
+retention are governed by interception, straining, and limited diffusion 
+within the porous media, rather than simple size exclusion. SSF therefore 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 4 ---
+represents a promising low-energy treatment option for mitigating MF 
+release from wastewater effluents, particularly for fibres larger than 10 μm.  
+Keywords: Microfibres; laundering; porous media; sand filter; water 
+treatment
+Introduction
+Microplastic fibres (MFs), a dominant type of microplastics (0.1 μm–5 mm), 
+are widely distributed in aquatic, terrestrial, and atmospheric 
+environments[1,2]. Their prevalence is largely attributed to the extensive 
+use of synthetic textiles and fishing materials, which shed fibres through 
+wear and degradation [3]. MFs are increasingly recognised as a risk to 
+ecological and human health [1,2,4]. Notably, over 97.0% of microplastics 
+detected in the human respiratory system are MFs [5], and polyester MFs 
+(>3 μm) have been identified in all regions of lung tissue at concentrations 
+of approximately one fibre per gram[6]. microplastics smaller than 1 μm are 
+categorised as nanoplastics [7,8,9], however, their environmental fate 
+remains poorly characterised due to analytical limitations and an 
+incomplete understanding of their transport and retention in engineered 
+treatment systems. 
+Microplastics can be ingested by biota and undergo translocation across 
+biological membranes, leading to potential physiological effects [10,11]. In 
+addition, microplastics have demonstrated strong adsorption capacities for 
+co-occurring contaminants, including heavy metals [12], polycyclic aromatic 
+hydrocarbons[13], and antibiotics [14]. Among these, MFs have shown 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 5 ---
+particular significance in facilitating the transport and distribution of 
+environmental pollutants [15], owing to their high surface-area-to-volume 
+ratio and persistence in aquatic environments.
+MFs enter the environment through multiple pathways, with domestic 
+laundry wastewater identified as a major source [16,17]. A single synthetic 
+garment can release 3,000-465,000 MFs/m² per wash [18], which are 
+subsequently transported to wastewater treatment plants (WWTPs) via 
+household washing machine effluent. Fibres are frequently reported as the 
+dominant microplastic form across various regions [10,19,20,21,22]. To reduce 
+MF loads at the source, France has proposed legislation requiring filters in 
+washing machines [23]. However, source-control measures are not 
+universally implemented, in countries with limited wastewater 
+infrastructure, such as India, Pakistan, and the Democratic Republic of 
+Congo, 63.0%, 92.0%, and 84.0% of municipal sewage, respectively, is 
+discharged untreated into natural waters[24,25,26]. Even in advanced WWTPs, 
+MFs are not effectively removed. Estimated daily discharges range from 
+20,000 to 2.1 million MFs, with reports from cities including Plymouth (UK)  
+[27], Nanjing (China) [28], Cádiz (Spain) [29], and Vancouver (Canada) [30]. 
+Microplastics within the 0.1-500 μm range are considered the most 
+challenging to control [31]. Particles >500 μm are largely removed during 
+physical and secondary treatment processes [32,33,34], whereas smaller 
+microplastics (<100 μm) remain technically challenging to eliminate due to 
+limitations of conventional treatment technologies [35]. Importantly, 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 6 ---
+reported microplastic removal efficiencies are typically calculated based on 
+particle concentrations rather than mass or volume, making them highly 
+sensitive to changes in particle size distributions and to in situ particle 
+generation during treatment. The elongated and flexible morphology of MFs 
+further complicates their removal, as their long, thin shape allows 
+alignment with flow streamlines and passage through fine filtration media. 
+Consequently, some studies have reported negative MF removal 
+efficiencies, where effluent particle counts exceed influent values (e.g. 
+−15.3%)[36]. Such observations cannot be attributed to poor retention alone 
+but are more plausibly explained by in situ generation of secondary 
+microplastics within treatment processes. Mechanical shear forces 
+associated with rapid mixing, pumping, and aeration can induce 
+fragmentation of larger plastic particles and fibres into smaller 
+microplastics, thereby increasing particle  concentrations [37,38]. This 
+mechanism has been experimentally demonstrated in laboratory studies 
+simulating mechanical mixing, which reported substantial plastic 
+fragmentation and the formation of nanoplastics under shear 
+conditions[39,40]. Furthermore, aeration may enhance fibre resuspension 
+and turbulence within treatment units, reducing effective capture efficiency 
+while simultaneously promoting fragmentation, particularly for elongated 
+and flexible fibres such as MFs.
+Previous studies into the transport and removal of nanoparticles (solid 
+plastic particles with diameters <1 µm) in aqueous systems have yielded 
+important mechanistic insights into particle behaviour within porous 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 7 ---
+media[41,42,43]. Extensive research on engineered nanoparticles and colloids 
+has demonstrated that particle retention in sand and other granular media 
+is not governed solely by pore size exclusion, but rather by a combination 
+of advection, Brownian diffusion, interception, and physicochemical 
+interactions between particles and collector surfaces [44,45,46]. Nanoparticle 
+removal has been reported to be highly sensitive to solution chemistry, 
+especially ionic strength, pH, and the presence of divalent cations, as these 
+parameters regulate electrostatic interactions and attachment 
+efficiencies[47,48]. Natural organic matter can further enhance nanoparticle 
+mobility by stabilising particles through steric and electrosteric effects, 
+which may promote deeper penetration and breakthrough in porous 
+media[49,50]. More recent studies have extended these findings to 
+nanoplastics, reporting similar transport behaviour and limited retention in 
+sand filtration under unfavourable attachment conditions [41,51]. These 
+studies provide a valuable conceptual framework for interpreting the 
+transport, retention, and breakthrough behaviour of small microplastics and 
+fibres in sand-based filtration systems.
+Sand filtration has long been recognised as an effective and accessible 
+technology for mitigating microplastic pollution due to its operational 
+simplicity, low cost, and compatibility with existing water and wastewater 
+treatment systems. Most previous research has focused on rapid sand 
+filtration (RSF), where the removal efficiency of microplastic is strongly 
+influenced by particle size, shape, and filtration conditions. Wang et al. [52] 
+reported that quartz sand filters removed less than 35.0% of small, 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 8 ---
+micrometre-sized microplastics, whereas larger particles (45-90 μm) were 
+completely eliminated, achieving an overall efficiency of 83.4% for 10 μm 
+polystyrene microbeads. These results indicate that conventional RSF 
+systems are more effective for spherical or granular microplastics, while 
+fibrous forms such as MFs remain more difficult to capture due to their 
+elongated morphology and flexible structure. 
+Pulido-Reyes et al. [41] investigated the retention of nanoplastics during 
+conventional drinking water treatment, including sand filtration. Their study 
+simulated slow sand filtration (SSF) using coarse sand media (mean grain 
+diameter 0.450 mm; uniformity coefficient 1.7-1.8) operated at filtration 
+rates of 0.28 and 1.02 m/h. While this work provided valuable insight into 
+nanoplastic transport and retention behaviour, it did not address the 
+removal of MFs, which differ substantially in size, density, and surface 
+properties, leading to distinct pore-scale and hydrodynamic behaviour 
+within porous media.
+In wastewater treatment systems, the majority of microplastics are 
+removed during primary and secondary stages. Michielssen et al. [53] 
+reported that approximately 78.0% of microplastics are captured through 
+sedimentation and flotation in primary treatment, with a further 20.0% 
+removed during secondary biological processes. Tertiary treatment stages 
+such as RSF therefore act primarily as polishing steps. Studies by Bayo et 
+al.[54] and Tibbetts et al. [55] demonstrated that RSF can achieve global 
+microplastic removal efficiencies ranging between 64.0% and 75.0%, 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 9 ---
+substantially reducing the abundance of microplastics in treated effluents 
+and receiving waters. Filter design parameters, including grain size, 
+filtration rate, and contact time, are key factors influencing microplastic 
+retention. Wulandari et al. [56] reported that effectively sized silica sand 
+could remove between 85.0% and 97.0% of larger microplastics, while 
+Wijaya et al.[57] achieved efficiencies up to 95.0% when combining sand and 
+gravel media.
+Despite this progress, the performance of SSF in removing MFs remains 
+poorly understood. SSF offers several unique advantages, including low 
+energy demand, long hydraulic retention times, and the formation of a 
+biologically active surface layer (schmutzdecke) at the top of the sand bed. 
+This layer has been shown to function as a thin, porous, fibrous matrix, 
+characterised by increasing surface area and decreasing porosity resulting 
+from filamentous microbial growth. Previous experimental and modelling 
+studies have demonstrated that schmutzdecke development enhances 
+particle retention by promoting physical straining, interception, and particle 
+attachment within this biologically active layer[58,59,60,61]. More recently, the 
+schmutzdecke has been reported to effectively remove fine suspended 
+particles in full-scale drinking water treatment plants, further supporting its 
+role as a key contributor to filtration performance [41]. However, although 
+microplastic removal in sand filtration has been previously investigated, the 
+performance of SSF in removing microplastic fibres (MFs) remains poorly 
+quantified under realistic operating conditions using real laundry 
+wastewater.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 10 ---
+Unlike most existing studies that rely on synthetic particles or spherical 
+microplastics, this study focuses specifically on the transport and retention 
+behaviour of microplastic fibres under SSF conditions. Few studies have 
+systematically examined fibre transport, capture, penetration, and release 
+in SSF systems, and current mechanistic interpretations are often 
+extrapolated from non-fibrous particles despite the fundamentally different 
+geometry and transport behaviour of fibres. To address these gaps, the 
+present study systematically evaluates MF transport and retention in SSF 
+systems using fine and coarse sands under varying filtration rates and bed 
+depths. By uniquely integrating effluent-based performance assessment 
+with depth-resolved quantification of retained fibres, this work provides 
+fibre-specific mechanistic insights into capture, penetration, and release 
+processes. This combined approach goes beyond bulk removal metrics and 
+demonstrates the practical potential of SSF as a sustainable, low-energy 
+technology for mitigating microfibre pollution in wastewater.
+Materials and methods
+Materials
+ A commercially available 100.0% polyester synthetic fleece blanket (size 
+1.68 × 2.29 m) was washed, and the wastewater containing MFs was 
+collected from the washing machine outlet. The polyester blanket was 
+chosen because polyester MFs are the most prevalent type of MFs in 
+wastewater, accounting for 96.3% of those found in the influent water in 
+WWTPs[62]. Additionally, its distinct colours (red and blue) facilitated visual 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 11 ---
+discrimination from airborne fibres originating from laboratory clothing and 
+background contamination. A commercial detergent (Ariel) was used to 
+wash the polyester blanket, sourced from a local supermarket in the London 
+area, at a concentration of 0.1g/L, using tap water (pH 7.7 ± 0.1; turbidity: 
+0.2 ± 0.1 NTU) supplied by Thames Water for residential use.  
+The MFs were collected using a domestic front-loading washing machine 
+(Beko, WM5100W, UK) set to the following conditions: small load (45 L), 
+30 °C wash cycle lasting 30 min; comprising a 10-min wash, a 12-min rinse, 
+and an 8-min spin at 1200 rpm. For each batch, 50 L of washing machine 
+wastewater was collected twice per week into a clean polyethylene 
+container. The container was manually agitated to prepare samples for the 
+subsequent filtration tests. Samples of the washing machine wastewater 
+were collected and analysed daily over the storage period. The results of 
+MF concentrations and average length are shown in Table S1. This 
+monitoring was conducted as a quality control measure to ensure the 
+stability of MF characteristics during storage and to verify that sample 
+handling did not affect the measured concentrations or size distributions. 
+To minimise contamination, white cotton laboratory coats and nitrile gloves 
+were worn throughout the experiments, and their colours were intentionally 
+different from those of the blanket (predominantly blue and red).
+Filtration System
+A schematic representation of the experimental setup is shown in Fig. S1 in 
+the Supplementary Materials. Eight polymethyl methacrylate columns were 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 12 ---
+constructed, each with a total height of 70 cm and an inner diameter of 38 
+mm (cross-sectional area = 11.34 cm 2). The bottom of each column was 
+packed with 5 cm of pre-washed gravel (2-5 mm) and topped with 50 cm of 
+filter medium consisting of fine sand and coarse quartz sand of 99.8% SiO2 
+purity, with effective sizes of 0.20 mm and 0.60 mm, respectively. The 
+morphology and grain size characteristics of the sand media are presented 
+in Fig. S4, including particle surface features, grain size distributions, and 
+key physical properties relevant to SSF performance. 
+The effective sizes of the sand are within the usual range recommended for 
+sand filtration[63].  For the sand used in this study, the ratios of the column 
+diameter to the filter media diameter were 190 and 63, respectively, which 
+were sufficiently large to prevent wall effects during media packing [64]. An 
+overflow pipe was installed 5 cm above the filter medium, and a filter 
+effluent pipe was positioned 1 cm from the bottom. The filter effluent pipe 
+included a valve to control the filtration rate. The filters, numbered 1 to 8, 
+contained different media: columns 1-4 were filled with 50 cm of coarse 
+sand (effective size 0.6 mm), and columns 5-8 with 50 cm of fine sand 
+(effective size 0.2 mm), respectively. Columns 1-3 and 5-7 were run with 
+wastewater, while columns 4 and 8 used Milli-Q water, as depicted in Fig. 
+S1.
+ 
+A peristaltic pump was used to deliver washing machine wastewater into 
+the filters. The quartz sand used as the filter medium was cleaned by 
+sequential soaking in concentrated hydrochloric acid, sodium hydroxide, 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 13 ---
+and 30.0% hydrogen peroxide, each for at least 24 h. Following each 
+treatment, the sand was thoroughly rinsed with ultrapure water (PURITE 
+Select Analyst 320 system, CAT. L300275, UK; filtered through 0.2 μm 
+membrane filters) until a neutral pH was achieved. The sand was then dried 
+overnight at 60 °C and subsequently calcined at 850 °C for 8 h. The cleaned 
+sand was stored under vacuum until further use[65].
+To assess airborne MF contamination in the lab, blank samples were 
+collected using two parallel filtration columns filled with ultrapure water: 
+one containing coarse sand and the other fine sand. 
+Washing machine wastewater samples from the sand filtration were 
+collected, and turbidity was tested every 24 h, until it was less than 1 NTU, 
+and the removals of both total coliforms and Escherichia coli were greater 
+than 99.0%, indicating filter maturation [66].  Wastewater from the washing 
+machine was used in this study, and laundry wastewater contaminated with 
+MFs was filtered through the eight matured filters. The filtration system was 
+operated continuously at room temperature (20.3 ± 2°C) at three filtration 
+rates: 5 cm/h, 10 cm/h, and 20 cm/h [67,68]. The filtration rate of all filters 
+was monitored twice a day and adjusted by the regulating valves on the 
+filter effluent tubes when needed. The flowrates were fixed at 0.06 L/h, 0.11 
+L/h, and 0.23 L/h for 5 cm/h, 10 cm/h, and 20 cm/h, respectively. A minimum 
+water supernatant level was maintained at 1 cm above the sand filter media, 
+and the duration of every filtration run lasted 3 weeks.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 14 ---
+Replicate filter effluent samples were collected every 24 h to quantify the 
+target MFs in laundry wastewater samples before and after filtration. Along 
+with the filter effluent samples, pH and conductivity were measured. 
+Concentrations of PO 43-, SO 42-, NO 2-, NO 3-, NH 4+, and dissolved organic 
+carbon (DOC) were determined once a week following the procedures 
+described previously[69].
+Elution Experiments
+Sand filter samples were collected at different depths of the sand media at 
+the end of the filtration experiment (0-10 cm, 10-20 cm, 20-30 cm, 30-40 
+cm, and 40-50 cm from top to bottom). This was achieved by dividing the 
+sand filtration columns into five sequential segments along the depth to 
+determine the MFs retained in each section. A photograph of the columns 
+used is shown in Fig.S1.
+Each 10 cm sand layer was transferred to a clean glass beaker and rinsed 
+five times with 2.5 L of Milli-Q water pre-filtered through 0.48 µm filter paper 
+(PURITE Select Analyst 320 system, CAT. L300275, UK ), with manual 
+stirring using a glass rod to release the MFs retained in the sand filters [70]. 
+The rinsing water was collected and filtered through a 0.45 μm mixed 
+cellulose ester membranes (Millipore, UK) after each washing process[71]. 
+Quantification and Characterisation of MFs
+Samples were pretreated based on a method described in previous studies, 
+with adjustments as needed[72]. First, 100 mL water samples were vacuum 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 15 ---
+filtered through 0.45 μm mixed cellulose ester membranes (47mm 
+diameter, Millipore, UK), rinsed with 150-200 mL of 30.0% (w/w) hydrogen 
+peroxide (Thermo Scientific Chemicals, Netherlands) into glass beakers, 
+covered with foil and shaken for 4 h in a constant temperature control 
+incubated shaker (IKA, KS 3000 i, Germany) at 60 ± 2 ℃ for digestion [73]. 
+To further enhance the oxidation reaction of the organic matter in the water 
+samples, 1 mL of FeSO 4 ∙ 7H2O (Fisher Scientific, UK) was added and left 
+for 6 h at room temperature[74]. 
+Density separation was then performed using saturated ZnCl2 solution (1.6 
+g/cm3) to isolate polyester MFs (density 1.38-1.40 g/cm3) by flotation[75,76]. 
+After 6 h of incubation, samples were filtered through 0.45 µm mixed 
+cellulose ester membranes. The membranes were dried in a desiccator and 
+stored in covered glass Petri dishes prior to analysis. MFs were examined 
+using a stereo microscope (Carl Zeiss Discovery V.8, Göttingen, Germany), 
+and images were captured using an Axiocam 305 Colour digital camera. MF 
+concentration and length were quantified using Fiji/ImageJ software. 
+Removal efficiency was calculated based on particle concentrations in 
+influent and effluent samples and expressed as percentages. 
+Data Analysis
+Physical and chemical parameters, including turbidity, pH, DOC, ion 
+concentrations, and MF removal efficiencies under different filtration 
+conditions, were compared using one-way ANOVA.  All MF counts and water 
+quality measurements were performed in triplicate. Statistical analyses 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 16 ---
+were conducted using OriginPro 2021, while MF length distributions across 
+depth intervals were analysed using R (v4.3.1) with the tidyverse (v2.0.0), 
+ggvegan (v0.1-0), and ggplot2 (v3.4.2) packages.  
+Results and Discussion
+Characterisation of Polyester Microfibres 
+The polyester MFs released during the laundering process were 
+characterised by widths of 4-10 µm and lengths of 10-130 µm (Table S1), 
+corresponding to length-to-width (aspect) ratios in the range of 
+approximately 2.5 to 32.5[77,78,45,79,80]. Blue, red, and transparent cylindrical 
+fibres dominated, with shorter fibres (10-50 µm) occurring most frequently. 
+This length distribution aligns with fragmentation trends reported during 
+domestic washing [81,82,83], and the predominance of small, flexible fibres 
+suggests transport and retention behaviour distinct from that of spherical 
+microplastics during filtration.
+The effective pore throat sizes of the sand media were substantially larger 
+than the diameters of the investigated MFs but overlapped with their 
+lengths. Fine sand media exhibited a higher frequency of narrow pore 
+throats and slit-like constrictions, whereas coarse sand contained larger, 
+more open pore spaces. For the fine sand (effective grain size 0.20 mm), 
+characteristic pore throat diameters are typically in the range of 6-25 
+µm[77,84,85], while coarse sand (effective grain size 0.60 mm) exhibits 
+markedly larger pore throats, typically ranging from 20 to 180 µm [77,79,86]. 
+In contrast, the polyester MFs had diameters of only 4-10 µm but lengths of 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 17 ---
+10-130 µm, indicating that MF retention is not governed by simple 
+diameter-based size exclusion but instead depends on fibre length relative 
+to pore throat dimensions.
+Wastewater Quality During Filtration
+The turbidity and pH of filter effluents from coarse and fine SSF at filtration 
+rates of 5, 10, and 20 cm/h were monitored, as suspended microplastics 
+and fine particles can influence turbidity and overall water quality [87]. As 
+shown in Fig. 1a, fine sand generally achieved greater turbidity reduction 
+than coarse sand, attributable to its smaller grain size, larger surface area, 
+and improved particle retention, in agreement with Fitriani et al. [88]. 
+Turbidity removal decreased with increasing filtration rate, reflecting 
+reduced contact time and higher pore-water velocities. 
+Effluent pH (Fig. 1b) was consistently slightly higher in fine-sand SSF than 
+in coarse sand at all filtration rates, likely reflecting enhanced ion exchange 
+and buffering capacity associated with the greater internal surface area of 
+fine media [89,90]. Longer retention time further increased pH because 
+extended water–media contact favours ion exchange and carbonate 
+equilibrium shifts. A comparable rise, from pH 7.0 to 8.5, was reported in 
+sand media reactors by Fitriani et al. [88]. Although these changes were 
+modest, they may be relevant for treatment systems sensitive to minor pH 
+variations.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 18 ---
+Retention time and filter media also influenced DOC removal, decreasing 
+concentrations from an average of 3.7 mg/L in the influent to 0.5 mg/L in 
+the effluent. Fine sand, with its smaller pore spaces and larger surface area, 
+enhanced particulate removal and likely supported greater microbial 
+activity and sorptive processes, leading to more consistent DOC reduction, 
+consistent with Attiani et al.[91]. As shown in Fig. 1c, fine-sand SSF showed 
+significantly (p ≤ 0.05) higher and more stable DOC removal than coarse 
+SSF across all filtration rates. Longer retention time promotes removal of 
+natural organic matter (NOM) and organic precursors [67], even in the 
+absence of a visibly developed schmutzdecke. Based on Fig. 1c, average 
+DOC removal efficiencies for coarse and fine SSF were 35.0% and 33.0%, 
+respectively.
+The concentrations of major inorganic ions in the raw washing machine 
+wastewater and SSF effluents are summarised in Tables S3 and S4. Fine 
+sand filters consistently achieved greater phosphate removal than coarse 
+sand filters, particularly at lower filtration rates (5 and 10 cm h⁻¹), while 
+nitrate concentrations increased over time in both media, indicating 
+biological nitrification during filter maturation [69]. Sulphate concentrations 
+showed only minor variations across treatments, suggesting largely 
+conservative behaviour. Together, these patterns indicate that fine media 
+and longer retention times favour biological activity and sorptive processes 
+within SSF systems, consistent with progressive filter maturation and 
+schmutzdecke development, which enhance phosphate removal and 
+nitrogen transformations[92].
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 19 ---
+ 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 20 ---
+Fig. 1 Variation in water parameters (n = 3) in slow sand filtration system 
+at different filtration rates: (a) turbidity, (b) pH, (c) DOC concentrations for 
+coarse and fine sand filtration at three filtration rates. Error bars represent 
+the standard deviation of triplicate measurements.
+MF Concentration and Length Distribution in Filter Effluents
+In this study, the treated laundry wastewater had pH 7.4 ± 0.1, turbidity 
+4.5 ± 0.1 NTU, UV-254 absorbance 0.1 ± 0.001, electrical conductivity 593 
+± 1 μS/cm, and DO 3.3 ± 0.1 mg/L. MF concentrations ranged from 1,280 
+to 1,805 MFs/L over multiple washing machine cycles.
+The concentration of MFs released in the filter effluents from coarse and 
+fine sand SSF, and the corresponding length distributions at 5 cm/h, are 
+shown in Fig. 2. Distributions at 10 and 20 cm/h, representative of rates 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 21 ---
+used in industry, are presented in Figs. S2 and S3. Both filtration rate and 
+sand particle size significantly influenced MF discharge. No MFs shorter than 
+10 μm were detected in the filtrate, reflecting the optical resolution limit of 
+the stereomicroscope (≈7 µm). The influent contained fibres as small as 10 
+μm, and each filtration run lasted three weeks.  
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 22 ---
+Fig. 2 Average concentration of MFs in the filter effluents from (a) coarse 
+and (b) fine sand filtration at a filtration rate of 5 cm/h. Error bars represent 
+the standard deviation from triplicate measurement (n=3). Dotted data 
+points indicate the size ranges of MFs detected in the effluents.
+Compared with coarse SSF, fine SSF released 1,564 ± 56 fewer MFs/L during 
+the first five days. MFs 10-30 μm in length showed a marked declining trend 
+over time (Fig. 2). As the filter matured, inter-granular spaces became 
+partially clogged with retained MFs and suspended particles, forming a 
+natural barrier that significantly (p ≤ 0.05) enhanced filtration efficiency 
+and improved capture of shorter MFs. Overall, coarse SSF discharged MFs 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 23 ---
+at a rate 1.3 ± 0.2 times higher than fine SSF across all filtration rates. 
+Differences between coarse and fine SSF became more pronounced at 
+higher filtration rates, reflecting the larger porosity and wider pore throats 
+in the coarse sand, which reduced its ability to retain 10-40 μm fibres. In 
+contrast, the narrower pores of the fine sand filter were more effective at 
+trapping MFs, consistent with previous observations for fibrous particles[93].
+MFs measuring 10-50 μm were the dominant size fraction in the effluents 
+from both coarse and fine filters at all filtration rates (Fig. 2). Ziajahromi et 
+al.[94] reported a similar dominance of short fibres, noting a minimum 
+detectable MF length of 25 μm within this range. Negrete et al. [95] likewise 
+observed that synthetic fibres longer than 250 μm were retained by sand 
+filters (grain size 1.0 mm) in a conventional DWTP. As filtration rate 
+increased (Figs. S2-S3), MF concentrations in the effluents rose for both 
+media. For example, 1,895 ± 83 MFs (10-20 μm) were detected after one 
+day of coarse sand filtration at 5 cm/h, increasing to 2,157 ± 151 and 2,993 
+± 186 MFs at 10 and 20 cm/h, respectively.
+The lowest MF concentrations occurred at 5 cm/h for both media, likely due 
+to reduced velocity and extended contact time, which enhance adsorption 
+and interception[96]. In coarse SSF, 10-20 μm MFs accounted for the largest 
+proportion of effluent fibres at all filtration rates. MFs >50 μm were less 
+prevalent, with fewer than 50 MFs/L exceeding 100 μm detected in coarse-
+sand effluents at 5 and 10 cm/h, and even fewer in fine-sand effluents. 
+Smaller grain size in the fine SSF created narrower pore spaces that 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 24 ---
+improved sieving and interception; reduced pore throat size lowers the 
+probability of fibre passage, particularly for elongated MFs. Longer fibres 
+are also more prone to tangling and twisting, increasing their likelihood of 
+entrapment[97].
+Effect of Filtration Rate on MF Removal
+Sand filtration proved effective for MF removal from washing machine 
+effluents. At 5 cm/h, removal efficiencies of 92.0% and 95.0% were 
+achieved for coarse and fine filters, respectively, with no significant 
+temporal variation (p > 0.05) (Fig. 3). Higher filtration rates led to a decline 
+in performance, particularly in early operation. When the rate increased 
+from 5 to 10 cm/h, removal decreased from 86.0% to 71.0% for coarse 
+media and from 92.0% to 81.0% for fine media.
+Filtration rate is a critical design and operational parameter. As expected, 
+slower filtration enhanced MF removal due to longer contact time and 
+extended particle–media interaction [98]. The highest removal rates were 
+observed at 5 cm/h, ranging from 88.6-92.6% (coarse SSF) and 87.5-95.1% 
+(fine SSF), with no statistically significant difference between media. At 10 
+cm/h, all filters maintained removal >85.0% after 21 days, whereas 
+performance dropped to 70.9% (coarse) and 81.2% (fine) at 20 cm/h (p < 
+0.05). Reduced retention time and increased hydraulic shear at higher rates 
+promote breakthrough of elongated MFs and reduce interception 
+opportunities. ANOVA confirmed that fine sand filter operated at 5 cm/h 
+yielded the most consistent overall performance (p < 0.05).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 25 ---
+Fig. 3 Removal of MFs from washing machine effluent by coarse (effective 
+grain size 0.6 mm) and fine (effective grain size 0.2 mm) sand in SSF 
+systems operated at 5, 10, and 20 cm/h.
+Filtration rate regulates both attachment and detachment of microplastics 
+in filtration systems [41,51]. At lower rates, extended residence time 
+increases the probability of contact and attachment, while lower 
+hydrodynamic shear and re-entrainment forces enhance retention [84]. At 
+higher rates, although collision frequency between particles and collectors 
+may rise, elevated shear and torque acting on retained MFs can induce roll-
+off and detachment, reducing overall efficiency. This dynamic explains the 
+observed decline at 20 cm/h despite the use of fine sand.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 26 ---
+Previous studies on microplastic removal via sand filtration have mostly 
+used synthetic wastewater or broader microplastic classes. In contrast, the 
+present study evaluates MF removal using real laundry wastewater under 
+controlled filtration rates and defined media conditions, thereby providing 
+a more realistic assessment of SSF performance. The results demonstrate 
+that MF removal efficiency depends strongly on both media type and 
+filtration rate, in agreement with existing studies, while offering new insight 
+into fibre-specific transport and retention mechanisms. Wang, Lin & Chen[76] 
+reported sand filtration (grain size 1.4-2.5 mm) in DWTPs removed 30.9-
+49.3% of synthetic fibres >50 μm. Dalmau-Soler et al. [99] observed 78.0% 
+± 9 removal for synthetic fibres (20 μm-5 mm) after sand filtration (0.8–1.6 
+mm) in a DWTP in Catalonia. Dronjak et al. [100] reported overall removal of 
+98.3% for synthetic fibres (20 μm-5 mm) after combined treatment 
+including clarifiers, sand filtration, granular activated carbon, and advanced 
+processes.
+Vertical Distribution of MFs Within the Sand Bed
+As shown in Fig. 4, MF penetration depth increased as fibre size decreased, 
+in agreement with Tumwet et al.[101] and Alhusban[102]. Shorter fibres were 
+therefore able to migrate deeper into the sand bed, whereas longer fibres 
+were preferentially retained near the surface. This has implications for small 
+plastics, including nanoplastics released from treatment works [103], which 
+are more likely to penetrate deeper into filtration media or bypass retention 
+entirely, posing challenges for effective removal.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 27 ---
+These patterns are consistent with studies in which larger microplastics 
+accumulate near the sand surface, while finer particles infiltrate deeper 
+layers[104]. In soil and infiltration systems, microplastics may also act as 
+vectors for co-contaminants, facilitating the downward migration of 
+associated pollutants into subsurface environments[105]. Collectively, these 
+findings indicate that particle size is a primary determinant of penetration 
+depth and spatial distribution, whereas density appears to play a secondary 
+role[105]. Smaller plastic fragments are therefore more readily transported 
+through porous media, while larger fragments preferentially settle and 
+accumulate near the bed surface.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 28 ---
+Fig.4 Average penetration of microplastic fibres (MFs) across the depth of 
+(a) coarse and (b) fine sand filters at filtration rates of 5, 10, and 20 cm/h.  
+Error bars represent the standard deviation from triplicate measurements 
+(n = 3).
+Solution chemistry also influenced MF retention and transport. The 
+observed pH range pH (7.0~8.5) and DOC (3.66 mg/L) are broadly 
+consistent with conditions under which DLVO-type interactions may affect 
+particle attachment[106]. However, we note that surface interaction energies 
+and zeta potentials were not directly measured, precluding quantitative 
+verification of these interactions. At higher pH or elevated DOC, increased 
+surface charge and steric hindrance can reduce fibre attachment to sand 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 29 ---
+grains, as adsorbed organic matter forms hydrated conditioning films that 
+physically hinder close fibre-collector contact, lowering removal 
+efficiency[50,107,108]. In this study, filtrate pH ranged from 7.0 to 8.5. Quartz 
+sand surfaces are known to become increasingly negatively charged over 
+this pH range due to deprotonation of surface silanol groups (≡Si–OH → ≡Si–
+O⁻).  Reported zeta potentials typically shift from approximately −30 mV at 
+pH 7.0 to below −50 mV at pH 8.0-9.0[109].
+Previous studies have shown that microplastic mobility generally increases 
+as pH rises from 5.0 to 9.0, driven by reductions in hydrodynamic diameter 
+and enhanced Brownian motion[110]. Dong et al.[111] reported similar trends 
+for PET MFs, with increased mobility increasing at lower electrolyte 
+concentrations, higher pH, and elevated humic acid levels. Although DOC 
+and humic substances are also predominantly negatively charged, their 
+adsorption onto mineral surfaces can generate conditioning films that 
+modify surface roughness and interaction distances, potentially enhancing 
+steric stabilisation while simultaneously increasing opportunities for 
+physical interception rather than electrostatic attachment [112,113,114]. 
+Intrinsic particle properties, particularly fibre length and aspect ratio, 
+therefore play a dominant role in MF transport behaviour.
+In sand soils, the smallest microplastics (~21 µm) exhibited the greatest 
+mobility[115]. Engdahl[116] likewise suggested that shorter fibres bypass low-
+velocity regions more readily, which may explain why MFs detected at 40-
+50 cm depth predominantly measured ~25 μm in length and ~6 μm in width. 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 30 ---
+This corresponds to an aspect ratio of approximately 4, substantially lower 
+than that of longer fibres retained in the upper filter layers. Higher aspect 
+ratios are known to increase interception probability and mechanical 
+entanglement within porous media due to increased rotational constraints 
+and contact area[101,117, 118].
+Although aggregation can strongly influence the transport of spherical 
+nanoparticles and microplastics by increasing effective particle size and 
+attachment probability[49,50], MF transport in porous media is expected to 
+be governed primarily by interception, bending, and mechanical 
+entanglement arising from their elongated geometry and flexibility [15,116]. 
+As a result, fibre-fibre aggregation is likely to play a secondary and transient 
+role under typical filtration conditions, contributing to enhanced retention 
+only when local concentrations or physicochemical conditions favour 
+temporary fibre clustering[119].
+Overall, most MFs accumulated within the upper 0-10 cm of both coarse 
+and fine sand filters at all filtration rates. MF penetration profiles varied with 
+filtration rate. At 10 and 20 cm/h, the distribution in coarse SSF followed: 0-
+10 cm > 10-20 cm > 20-30 cm > 40-50 cm > 30-40 cm, while the fine sand 
+filter followed: 0-10 cm > 10-20 cm > 20-30 cm > 30-40 cm > 40-50 cm. 
+This variation is attributed to differences in sand porosity, surface 
+roughness, and flow resistance. Decreased porosity and narrower pore 
+throats  increase colloid deposition in column systems, and reducing local 
+pore size through finer media enhances MF retention [120]. The measured 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 31 ---
+porosity of unpacked coarse and fine sand columns was 38.6% ± 0.1 and 
+42.4% ± 0.1, respectively, at a filtration rate of 5 cm/h.
+Mechanistic Interpretation
+The superior MF removal efficiency of fine-sand SSF across all filtration rates 
+can be attributed to a combination of mechanical filtration mechanisms, 
+surface interaction forces, and time-dependent pore narrowing (ripening). 
+Fine sand has smaller grains, a greater collector surface area, and a higher 
+pore throat frequency per unit depth, which enhances hydrodynamic 
+contact efficiency (η) [110] and increases the likelihood of fibre-collector 
+encounters.
+Upon near-contact, MF retention is governed by a combination of DLVO-
+type surface interactions and non-DLVO mechanisms, including steric 
+effects, surface roughness, and physical straining. The pH range (7.0-8.5) 
+and measurable DOC suggest the formation of conditioning films on sand 
+surfaces, which may alter effective interaction distances rather than simply 
+reducing electrostatic repulsion. Once a fibre reaches the collector surface 
+by direct interception or size exclusion, it is more likely to remain attached. 
+Increasing ionic strength reduces electrostatic double-layer repulsion, 
+thereby decreasing particle mobilisation and promoting retention. The 
+observed trends are therefore qualitatively consistent with DLVO theory, 
+while recognising that MF retention in SSF is dominated by coupled 
+mechanical and physico-chemical mechanisms rather than electrostatic 
+interactions alone.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 32 ---
+Time-dependent changes in filtration performance further support a 
+ripening-controlled retention mechanism. Accumulation of fibres and 
+suspended particulates in the upper 0-10 cm of the sand bed partially clogs 
+pore spaces, reducing local pore-throat size and increasing surface 
+roughness[51]. This process creates additional straining sites and decreases 
+the probability of fibre detachment. The progressive decline in 10-30 μm 
+fibres in the effluent over time, particularly in fine sand filters, is consistent 
+with ripening-driven enhancement of MF retention.
+The dominant mechanisms governing MF transport and retention in the 
+present SSF systems (sedimentation, interception, and diffusion) are 
+summarised conceptually in Fig. 5, which supports the mechanistic 
+interpretation of the experimental results. The combined effects of collector 
+geometry, near-surface attachment, and filter ripening explain the higher 
+MF removal efficiencies observed for fine sand. MF capture mechanisms 
+may be interpreted within the framework of clean-bed filtration theory [44], 
+which identifies: (A) sedimentation, where larger or denser MFs deviate 
+from flowlines due to gravitational or inertia forces; (B) interception, where 
+elongated fibres following streamlines contact sand grains owing to their 
+finite length and proximity to collector surfaces; and (C) diffusion, where 
+smaller MFs deviate from streamlines via Brownian motion and collide with 
+collectors. Although originally developed for spherical particles, this 
+conceptual framework remains applicable for fibre transport when 
+interception and straining dominate over electrostatic attachment.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 33 ---
+MF retention was not governed by simple size exclusion based on fibre 
+diameter, but instead dominated by interception, straining, bending, and 
+mechanical entanglement within the pore network [44,45,116]. Elongated 
+fibres whose lengths exceeded local pore-throat dimensions were more 
+likely to be retained through interception and twisting, whereas shorter 
+fibres were able to align with streamlines and penetrate deeper into the 
+filter bed, particularly at higher filtration rates[46,116].
+According to clean-bed filtration theory, the relationship between influent 
+and effluent particle concentrations is given by:
+C C0 =  exp [-3(1-ε)ηαL
+2dC ]                                                                    
+(1)
+Where C0 is the influent particle concentration (mg/L); C is the filter effluent 
+concentration (mg/L); ε  is the bed porosity (dimensionless); η is the 
+transport efficiency (dimensionless); α is attachment efficiency 
+(dimensionless); L is bed depth (m); dC is the collector (media grain) 
+diameter (m). 
+Fibre orientation during transport was not directly resolved in this study, 
+and although flow velocity is expected to influence fibre alignment with 
+streamlines, thereby affecting interception and entanglement, the present 
+mechanistic interpretation based on clean-bed filtration theory and 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 34 ---
+effluent-based observations rather than direct in situ measurements of fibre 
+orientation.
+Fig. 5 Conceptual schematic illustrating the dominant mechanisms 
+governing microplastic fibre (MF) transport and retention during slow sand 
+filtration. (A) Sedimentation, where larger or denser fibres deviate from flow 
+streamlines due to gravitational or inertial forces; (B) Interception, where 
+elongated fibres following streamlines contact sand grains as a result of 
+their finite length and proximity to collector surfaces; and (C) Diffusion, 
+where smaller fibres undergo Brownian motion and collide with collector 
+surfaces independently of streamline trajectories. The schematic is based 
+on clean-bed filtration theory [44] and is intended to illustrate the 
+mechanistic interpretation of MF capture inferred from experimental 
+observations rather than direct in situ visualisation.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 35 ---
+These mechanistic insights highlight the importance of media selection and 
+hydraulic control in optimising SSF for MF removal. As illustrated in Fig. 6, 
+which compares MF capture pathways in coarse and fine sands, the 
+dominance of interception and straining in fine-sand systems underscores 
+the value of smaller grain sizes and longer residence times, whereas 
+excessive filtration rates promote fibre detachment and breakthrough. In 
+contrast, coarse sand relies more heavily on sedimentation and limited 
+interception, resulting in lower overall capture efficiency and deeper fibre 
+penetration. Maintaining low filtration velocities, well-graded fine media, 
+and progressive ripening is therefore critical for sustained SSF performance.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 36 ---
+Fig.6 Microfibres (MFs) captured by (a) coarse and (b) fine sand filters at a 
+depth of 0-10 cm, under a filtration rate of 5 cm/h. Blue arrows indicate the 
+locations of retained fibres.
+Practical Implications 
+This study highlights the operational advantages and limitations of fine 
+sand in filtration systems, particularly for MF retention. Fine sand offers a 
+clear advantage over coarse sand for MF removal, as its smaller grain size 
+creates reduced pore spaces that enhance mechanical straining and 
+promote more consistent surface-level retention [119]. Its greater surface 
+area also supports microbial colonisation and adsorption processes, which 
+may assist in the degradation of co-occurring organic pollutants. Although 
+biological processes such as biofilm development were not directly 
+examined in this study, and no visible schmutzdecke formed during the 
+experimental period, these processes are expected to play an important 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 37 ---
+role in enhancing filtration efficiency [67] and will be investigated in future 
+work.
+All experiments were conducted under downward-flow conditions, 
+consistent with conventional SSF operation, where particle accumulation 
+occurs primarily within the upper sand layer and filter cleaning is achieved 
+by surface scraping rather than backwashing. Consequently, the potential 
+influence of alternative flow orientations (e.g. up-flow filtration) was not 
+examined. Previous studies have reported higher particle deposition rates 
+under up-flow compared with down-flow configurations in porous media[121], 
+suggesting that flow orientation may be an important design consideration 
+for other filtration systems and warrants further investigation beyond the 
+scope of SSF-focused applications.
+Despite its advantages, fine sand also presents operational challenges. Its 
+lower permeability increases hydraulic resistance, potentially limiting 
+filtration rates and necessitating more frequent maintenance to prevent 
+clogging[122], particularly in systems treating greywater or raw wastewater 
+with high particulate loads [123]. In large-scale or high-throughput 
+applications, this may require additional operational controls or energy 
+inputs to maintain stable flow conditions.
+MFs predominantly accumulated within the upper 0-10 cm of the sand bed 
+(26.8% ± 1.7 and 30.3% ± 3.4 for coarse and fine SSF, respectively), with 
+direct implications for filter maintenance. In conventional practice, this 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 38 ---
+fouled surface layer is periodically scraped and washed prior to reuse or 
+replacement. This operation presents a potential secondary pollution 
+pathway, as the wash water may contain concentrated MFs. Surface 
+accumulation of MFs may also promote clogging and progressively reduce 
+filtration efficiency, potentially allowing smaller or detached fibres to pass 
+into the effluent. We observed that the average concentration of MFs 
+released during rinsing of the upper 0-10 cm sand layer at the end of the 
+filtration period, for both filters, was slightly lower (by approximately 4.9%) 
+than the concentration measured in the raw washing machine wastewater 
+(Table S2). These findings highlight the importance of appropriate 
+management and treatment of filter-cleaning wastewater at full scale, as 
+the release of accumulated fibres during cleaning could otherwise 
+represent a secondary source of microplastic pollution.
+To mitigate these risks, treatment of sand wash water, for example, via 
+membrane filtration or flocculation, should be considered prior to discharge 
+or reuse. Operators should also establish clear waste-handling protocols to 
+prevent the reintroduction of captured MFs into the environment.
+While fine sand provides superior MF retention and enhances overall 
+filtration performance, its application must be balanced against hydraulic 
+efficiency, maintenance frequency, and responsible waste management. 
+Future SSF designs should integrate media optimisation with wash-water 
+recovery and treatment strategies to ensure environmentally sustainable 
+and regulatory-compliant microplastic control.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 39 ---
+Conclusion
+This study demonstrates that SSF is an effective and sustainable process 
+for the removal of MFs while simultaneously improving the physico-
+chemical quality of washing machine effluents across a range of filtration 
+rates. At the lowest tested filtration rate (5 cm/h), MF removal efficiencies 
+reached 92.0% (coarse sand) and 95.0% (fine sand), decreasing to 71.0% 
+and 81.0%, respectively, at the highest rate (20 cm/h) due to reduced 
+residence time and increased hydraulic shear. Across all experiments, the 
+fine SSF consistently released 1.3 ± 0.2 times fewer MFs than coarse SSF 
+and achieved significantly higher overall removal efficiency (p < 0.05). The 
+majority of retained MFs measured 10-50 μm in length, with effluent 
+concentrations ranging from 1,895 ± 83 MFs/L at 5 cm/h to 2,993 ± 187 
+MFs/L at 20 cm/h.
+Filtration rate also influenced turbidity and organic matter removal. Fine-
+sand SSF reduced turbidity by an average of 89.0% ± 3%, compared with 
+82.0% ± 4.0% for coarse sand, with removal efficiency declining by 
+approximately 12.0% at 20 cm/h due to shortened water-media contact 
+time. Effluent pH ranged between 7.4 ± 0.1 and 8.1 ± 0.1, increasing 
+slightly with longer retention times and finer media, likely as a result of 
+enhanced ion exchange and mineral dissolution processes. DOC 
+concentrations decreased from 3.66 mg/L in the influent to 0.49 mg/L in the 
+fine-sand effluent, corresponding to average removals of 35.0% ± 2 for 
+coarse SSF and 33.0% ± 2 for fine SSF.
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 40 ---
+MFs predominantly accumulated within the upper 0-10 cm of the sand bed, 
+highlighting the critical role of this surface layer in maintaining removal 
+efficiency and limiting operational downtime. The observed mobility of 
+fibres ≤20 μm in length, together with the measured pH range (7.0-8.5), 
+underscores the combined influence of fibre size, media characteristics, 
+and water chemistry on MF transport and retention behaviour.
+While this study primarily focused on the physical and physico-chemical 
+mechanisms governing MF removal, the biological component of SSF, 
+particularly biofilm development and microbial interactions, was not 
+explicitly investigated. Future research should address these biological 
+processes, which are expected to further influence fibre capture, retention 
+stability, and potential biodegradation within the filter bed.
+Additional work should also evaluate SSF performance under full-scale 
+wastewater treatment plant conditions, investigate layered or hybrid 
+filtration configurations to balance removal efficiency with hydraulic 
+performance, and develop monitoring and predictive tools to detect 
+potential MF breakthrough. Finally, effective management and treatment of 
+MF-laden wash water will also be essential to achieving fully sustainable 
+and circular strategies for microplastic control.
+Appendix: Supplementary Materials 
+List of supporting information:
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 41 ---
+Fig. S1 Schematic representation of the slow sand filtration experiment for 
+the removal of microplastic fibres. 
+Fig. S2 Average concentration of microplastic fibres (MFs) in the effluent 
+of the (a) coarse and (b) fine sand filters at a filtration rate of 10 cm/h. 
+Fig. S3 Average concentration of microplastic fibres (MFs) in the effluent 
+of the (a) coarse and (b) fine sand filters at a filtration rate of 20 cm/h.
+Fig. S4 Characterisation of the coarse and fine sands used in the filtration 
+units.
+Table S1 Concentration and length of microfibres in raw washing machine 
+wastewater and in the supernatant water of the filter during the tests
+Table S2. Average concentration of microfibres released from the top 0-10 
+cm of the coarse and fine sand filter beds after five rinses with 2.5 L of Milli-
+Q water each time.
+Table S3 Nitrite, nitrate, phosphate, sulphate, and ammonium 
+concentrations in the raw washing machine wastewater
+Table S4 Nitrite, nitrate, phosphate, sulphate, and ammonium 
+concentrations in the filter effluent during the tests
+Acknowledgements 
+The authors would like to thank Professor Beatrice Baudet (Department of 
+Civil, Environmental and Geomatic Engineering, University College London) 
+for her assistance with the use of the stereomicroscope.
+Funding
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 42 ---
+This research did not receive any specific grant from funding agencies in 
+the public, commercial, or not-for-profit sectors.
+Data availability
+The authors confirm that the data supporting the findings of this study are 
+available upon reasonable request.
+Declaration
+A generative artificial intelligence tool (ChatGPT 4.0) was used to explore 
+preliminary layout options for Fig. 6. All scientific content and final artwork 
+were generated and verified by the authors.
+Author contributions
+F.G.: Writing – original draft, Visualization, Validation, Methodology, 
+Investigation, Formal analysis. R.B.: Writing – review & editing, Supervision, 
+Resources, Methodology, Conceptualisation. L.C.C: Writing – review & 
+editing, Supervision, Resources, Project administration, Methodology, 
+Conceptualization.
+References
+[1] Jansen, M. et al. United Nations Environment Programme (UNEP), 
+Plastics in the environment in the context of UV radiation, climate 
+change and the Montreal Protocol. Preprint at 
+https://link.springer.com/article/10.1007/s43630-024-00552-3 (2024).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 43 ---
+[2] Thompson, R. C., Courtene-Jones, W., Boucher, J., Pahl, S., 
+Raubenheimer, K., & Koelmans, A. A. Twenty years of microplastic 
+pollution research—what have we learned?. Science 386, eadl2746 
+(2024).
+[3] Li, C., Busquets, R., & Campos, L. C. Assessment of microplastics in 
+freshwater systems: A review. Sci. Total Environ. 707, 135578 (2020).
+[4] Landrigan, P. J. et al. The Lancet Countdown on health and plastics. The 
+Lancet 406, 1044-1062 (2025).
+[5] Baeza-Martínez, C. et al. First evidence of microplastics isolated in 
+European citizens’ lower airway. J. Hazard. Mater. 438, 129439 (2022).
+[6] Jenner, L. C., Rotchell, J. M., Bennett, R. T., Cowen, M., Tentzeris, V., & 
+Sadofsky, L. R. Detection of microplastics in human lung tissue using 
+μFTIR spectroscopy. Sci. Total Environ. 831, 154907 (2022).
+[7] Kershaw, P. J., & Rochman, C. M. Sources, fate and effects of 
+microplastics in the marine environment: part 2 of a global assessment. 
+Preprint at https://unesdoc.unesco.org/ark:/48223/pf0000247517 
+(2015).
+[8] Vethaak, A. D., & Legler, J. Microplastics and human health. Science 371, 
+672-674 (2021).
+[9] Ali, N., Katsouli, J., Marczylo, E. L., Gant, T. W., Wright, S., & De La Serna, 
+J. B. The potential impacts of micro-and-nano plastics on various organ 
+systems in humans. EBioMedicine, 99, 104901 (2024).
+[10] Maw, M. M., Boontanon, N., Aung, H. K. Z. Z., Jindal, R., Fujii, S., 
+Visvanathan, C., & Boontanon, S. K. Microplastics in wastewater and 
+sludge from centralized and decentralized wastewater treatment plants: 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 44 ---
+Effects of treatment systems and microplastic characteristics. 
+Chemosphere 361, 142536 (2024).
+[11] Saemi-Komsari, M., Esmaeili, H. R., Keshavarzi, B., Busquets, R., 
+Abbasi, K., Birami, F. A., & Masoumi, A. Trophic transfer, 
+bioaccumulation and translocation of microplastics in an international 
+listed wetland on the Montreux record. Environ. Res . 257, 119172 
+(2024).
+[12] Li, Y., Chen, M., Gong, J., Song, B., Shen, M., & Zeng, G. Effects of 
+virgin microplastics on the transport of Cd (II) in Xiangjiang River 
+sediment. Chemosphere 283, 131197 (2021).
+[13] Pirvu, F. et al. Sorption of PAHs onto microplastics in Romanian 
+surface waters and sediments: Environmental toxicity and human 
+health risk with emphasis on pediatric exposure. Water Res . 287, 
+124483 (2025).
+[14] Cheng, P. et al. Role of biochar in reducing polyethylene and 
+polylactic acid microplastic co-contamination with antibiotics in soil-
+vegetable systems. Process Saf. Environ. Prot. 201, 107541 (2025).
+[15] Han, W., Hou, Y., Yu, Y., Lu, Z., & Qiu, Y. Fibrous and filmy 
+microplastics exert opposite effects on the mobility of nanoplastics in 
+saturated porous media. J. Hazard. Mater. 434, 128912 (2022).
+[16] Napper, I. E., & Thompson, R. C. Release of synthetic microplastic 
+plastic fibres from domestic washing machines: Effects of fabric type 
+and washing conditions. Mar. Pollut. Bull. 112, 39-45 (2016).
+[17] Wakkaf, T. et al. Characterization of microplastics in the surface 
+waters of an urban lagoon (Bizerte lagoon, Southern Mediterranean 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 45 ---
+Sea): Composition, density, distribution, and influence of environmental 
+factors. Mar. Pollut. Bull. 160, 111625 (2020).
+[18] Belzagui, F., Crespi, M., Álvarez, A., Gutiérrez-Bouzán, C., & Vilaseca, 
+M. Microplastics' emissions: Microfibers’ detachment from textile 
+garments. Environ. Pollut. 248, 1028-1035 (2019).
+[19] Xu, X., Jian, Y., Xue, Y., Hou, Q., & Wang, L. Microplastics in the 
+wastewater treatment plants (WWTPs): occurrence and removal. 
+Chemosphere 235, 1089-1096 (2019).
+[20] Wang, F. et al. Occurrence and distribution of microplastics in 
+domestic, industrial, agricultural and aquacultural wastewater sources: 
+A case study in Changzhou, China. Water Res. 182, 115956 (2020).
+[21] Maddah, H. A. Evaluating treatment units for the optimization of large 
+textile WWTPs: A game theoretic approach. J. Environ. Manag . 390, 
+126335 (2025).
+[22] Hamidavi, F., Gadkari, S., & Lee, J. Microplastic fiber filtration: 
+Exploring operational parameters and their impact on ultrafiltration 
+membrane performance. J. Water Process Eng. 77, 108436 (2025).
+[23] EU Commission. Regulation 2023/2055–Restriction of microplastics 
+intentionally added to products. Preprint at https://single-market-
+economy.ec.europa.eu/sectors/chemicals/reach/restrictions/commissio
+n-regulation-eu-20232055-restriction-microplastics-intentionally-
+added-products_en (2023).
+[24] Saravanan, V. S. The dichotomous world of sanitation 
+management:‘Matter out of place’in Urban India. Appl. Geogr . 165, 
+103228 (2024).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 46 ---
+[25] Sachs, J. D., Lafortune, G., Fuller, G., & Iablonovski, G. Sustainable 
+development report 2025. Preprint at 
+https://dashboards.sdgindex.org/chapters/ (2025).
+[26] UN-Water. Proportion of domestic wastewater flow safely treated 
+worldwide in 2022, by selected countries. Preprint at  
+https://www.statista.com/statistics/1428895/wastewater-safely-treated 
+worldwide-by-country (2024).
+[27] Napper, I. E., Parker-Jurd, F. N. F., Wright, S. L., & Thompson, R. C. 
+Examining the release of synthetic microfibres to the environment via 
+two major pathways: Atmospheric deposition and treated wastewater 
+effluent. Sci. Total Environ. 857, 159317 (2023).
+[28] Yuan, F., Zhao, H., Sun, H., Sun, Y., Zhao, J., & Xia, T. Investigation of 
+microplastics in sludge from five wastewater treatment plants in 
+Nanjing, China. J. Environ. Manag. 301, 113793 (2022).
+[29] Franco, A. A., Arellano, J. M., Albendín, G., Rodríguez-Barroso, R., 
+Quiroga, J. M., & Coello, M. D. Microplastic pollution in wastewater 
+treatment plants in the city of Cádiz: Abundance, removal efficiency and 
+presence in receiving water body. Sci. Total Environ . 776, 145795 
+(2021).
+[30] Gies, E. A., LeNoble, J. L., Noël, M., Etemadifar, A., Bishay, F., Hall, E. 
+R., & Ross, P. S. Retention of microplastics in a major secondary 
+wastewater treatment plant in Vancouver, Canada. Mar. Pollut. Bull . 
+133, 553-561 (2018).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 47 ---
+[31] Lee, J. H. et al. Nationwide evaluation of microplastic properties in 
+municipal wastewater treatment plants in South Korea. Environ. Pollut. 
+358, 124433 (2024).
+[32] Liu, W. et al. A review of the removal of microplastics in global 
+wastewater treatment plants: Characteristics and mechanisms. Environ. 
+Int. 146, 106277 (2021).
+[33] Kwon, H. J., Hidayaturrahman, H., Peera, S. G., & Lee, T. G. Elimination 
+of microplastics at different stages in wastewater treatment plants. 
+Water 14, 2404 (2022).
+[34] Ziajahromi, S., Neale, P. A., Silveira, I. T., Chua, A., & Leusch, F. D. An 
+audit of microplastic abundance throughout three Australian 
+wastewater treatment plants. Chemosphere 263, 128294 (2021).
+[35] Freeman, S. et al. Between source and sea: The role of wastewater 
+treatment in reducing marine microplastics. J. Environ. Manag . 266, 
+110642 (2020).
+[36] Gao, S., Wu, Q., Zhang, B., Peng, M., Zeng, J., & Zhu, L. Significant 
+effects of rural wastewater treatment plants in reducing microplastic 
+pollution: A perspective from China's southwest area. J. Hazard. Mater. 
+480, 136488 (2024).
+[37] Cai, Y., Yang, T., Mitrano, D. M., Heuberger, M., Hufenus, R., & Nowack, 
+B. Systematic study of microplastic fiber release from 12 different 
+polyester textiles during washing. Environ. Sci. Technol. 54, 4847-4855 
+(2020).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 48 ---
+[38] Feisal, N. A. S., Ibrahim, T. N. B. T., Ahmad, M. A., Cheah, W. Y., & 
+Kamaludin, N. H. The potential of using microalgae for microplastic 
+degradation in aquatic ecosystem. Algal Res. 103825 (2024).
+[39] Enfrin, M., Lee, J., Gibert, Y., Basheer, F., Kong, L., & Dumée, L. F. 
+Release of hazardous nanoplastic contaminants due to microplastics 
+fragmentation under shear stress forces. J. Hazard. Mater. 384, 121393 
+(2020).
+[40] Pramanik, B. K., Pramanik, S. K., & Monira, S. Understanding the 
+fragmentation of microplastics into nano-plastics and removal of 
+nano/microplastics from wastewater using membrane, air flotation and 
+nano-ferrofluid processes. Chemosphere 282, 131053 (2021).
+[41] Pulido-Reyes, G., Magherini, L., Bianco, C., Sethi, R., von Gunten, U., 
+Kaegi, R., & Mitrano, D. M. Nanoplastics removal during drinking water 
+treatment: Laboratory-and pilot-scale experiments and modeling. J. 
+Hazard. Mater. 436, 129011 (2022).
+[42] Hartmann, N. B. et al. Response to the letter to the editor regarding 
+our feature “are we speaking the same language? Recommendations 
+for a definition and categorization framework for plastic debris”. Environ. 
+Sci. Technol. 53, 4678-4679 (2019).
+[43] Koelmans, A. A., Nor, N. H. M., Hermsen, E., Kooi, M., Mintenig, S. M., 
+& De France, J. Microplastics in freshwaters and drinking water: Critical 
+review and assessment of data quality. Water Res. 155, 410-422 (2019).
+[44] Yao, K. M., Habibian, M. T., & O'Melia, C. R. Water and waste water 
+filtration. Concepts and applications. Environ. Sci. Technol . 5, 1105-
+1112 (1971).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 49 ---
+[45] Bradford, S. A., Simunek, J., Bettahar, M., Van Genuchten, M. T., & 
+Yates, S. R. Modeling colloid attachment, straining, and exclusion in 
+saturated porous media. Environ. Sci. Technol. 37, 2242-2250 (2003).
+[46] Tufenkji, N., & Elimelech, M. Correlation equation for predicting 
+single-collector efficiency in physicochemical filtration in saturated 
+porous media. Environ. Sci. Technol. 38, 529-536 (2004).
+[47] Elimelech, M., Gregory, J., Jia, X., & Williams, R. A. Transport of 
+colloidal materials in ground water. Particle Deposition & Aggregation  
+361-375 (Butterworth-Heinemann, 1995).
+[48] Franchi, A., & O'Melia, C. R. Effects of natural organic matter and 
+solution chemistry on the deposition and reentrainment of colloids in 
+porous media. Environ. Sci. Technol. 37, 1122-1129 (2003).
+[49] Petosa, A. R., Jaisi, D. P., Quevedo, I. R., Elimelech, M., & Tufenkji, N. 
+Aggregation and deposition of engineered nanomaterials in aquatic 
+environments: role of physicochemical interactions. Environ. Sci. 
+Technol. 44, 6532-6549 (2010).
+[50] Phenrat, T., Song, J. E., Cisneros, C. M., Schoenfelder, D. P., Tilton, R. 
+D., & Lowry, G. V. Estimating attachment of nano-and submicrometer-
+particles coated with organic macromolecules in porous media: 
+development of an empirical model. Environ. Sci. Technol . 44, 4531-
+4538 (2010).
+[51] He, L., Rong, H., Wu, D., Li, M., Wang, C., & Tong, M. Influence of 
+biofilm on the transport and deposition behaviors of nano-and micro-
+plastic particles in quartz sand. Water Res. 178, 115808 (2020).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 50 ---
+[52] Wang, X. S. et al. Quantitively analyzing the variation of micrometer-
+sized microplastic during water treatment with the flow cytometry-
+fluorescent beads method. ACS ES&T Eng. 1, 1668-1677 (2021).
+[53] Michielssen, M. R., Michielssen, E. R., Ni, J., & Duhaime, M. B. Fate of 
+microplastics and other small anthropogenic litter (SAL) in wastewater 
+treatment plants depends on unit processes employed. Environ. Sci.: 
+Water Res. Technol. 2, 1064-1073 (2016).
+[54] Bayo, J., López-Castellanos, J., & Olmos, S. Membrane bioreactor and 
+rapid sand filtration for the removal of microplastics in an urban 
+wastewater treatment plant. Mar. Pollut. Bull. 156, 111211 (2020).
+[55] Tibbetts, J., Krause, S., Lynch, I., & Sambrook Smith, G. H. Abundance, 
+distribution, and drivers of microplastic contamination in urban river 
+environments. Water 10, 1597 (2018).
+[56] Wulandari, M., Marpaung, K., Prasaningtyas, A., Yorika, R., Harfadli, 
+M. M. A., & Zulfikar, A. Performance of rapid sand filter dual media for 
+microplastic removal in the water: the effect of microplastic size and 
+effective size of filter media. J. Community Based Environ. Eng. Manag. 
+8, 103-110 (2024).
+[57] Wijaya, B. M. A., Saiful, S., Fathanah, U., & Arahman, N. Identification 
+of Microplastic Pollution in Surface Water and Removal Strategies Using 
+a Combination of Gravel-Zeolite Filter. IOP Conf. Ser.: Earth Environ. Sci. 
+1477, 012034, (2025).
+[58] Nakamoto, N. Schmutzdecke sampler reduces filter bed damage. 
+Opflow 19, 1-4 (1993).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 51 ---
+[59] Nakamoto, N. M. Role of filamentous diatom as an automatic pourifier 
+in a slow sand filter. Advances in Slow Sand and Alternative Biological 
+Filtration, 139-148 (Wiley, 1996).
+[60] Campos, L. C., Smith, S. R., & Graham, N. J. Deterministic-based 
+model of slow sand filtration. I: Model development. J. Environ. Eng. 132, 
+872-886 (2006).
+[61] Campos, L. C., Smith, S. R., & Graham, N. J. Deterministic-based 
+model of slow sand filtration. II: Model application. J. Environ. Eng. 132, 
+887-894 (2006).
+[62] Lares, M., Ncibi, M. C., Sillanpää, M., & Sillanpää, M. Occurrence, 
+identification and removal of microplastic particles and fibers in 
+conventional activated sludge process and advanced MBR technology. 
+Water Res. 133, 236-246 (2018).
+[63] Li, J., Campos, L. C., Zhang, L., & Xie, W. Sand and sand-GAC filtration 
+technologies in removing PPCPs: A review. Sci. Total Environ . 848, 
+157680 (2022).
+[64] Lang, J. S., Giron, J. J., Hansen, A. T., Trussell, R. R., & Jr, W. E. H. 
+Investigating filter performance as a function of the ratio of filter size to 
+media size. J. Am. Water Works Assoc. 85, 122-130 (1993).
+[65] Zhang, M. et al. Improved removal performance of Gram-negative 
+and Gram-positive bacteria in sand filtration system with arginine 
+modified biochar amendment. Water Res. 211, 118006 (2022).
+[66] Tebbutt, T. H. Y. Principles of Water Quality Control. 238-256 (Elsevier, 
+1997).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 52 ---
+[67] Campos, L. C., Su, M. F. J., Graham, N. J. D., & Smith, S. R. Biomass 
+development in slow sand filters. Water Res. 36, 4543-4551 (2002).
+[68] D'Alessio, M., Yoneyama, B., Kirs, M., Kisand, V., & Ray, C. 
+Pharmaceutically active compounds: Their removal during slow sand 
+filtration and their impact on slow sand filtration bacterial removal. Sci. 
+Total Environ. 524, 124-135 (2015).
+[69] Li, J., Zhou, Q., & Campos, L. C. The application of GAC sandwich slow 
+sand filtration to remove pharmaceutical and personal care products. 
+Sci. Total Environ. 635, 1182-1190 (2018).
+[70] Lant, N. J., Hayward, A. S., Peththawadu, M. M., Sheridan, K. J., & Dean, 
+J. R. Microfiber release from real soiled consumer laundry and the 
+impact of fabric care products and washing conditions. PlOS One 15, 
+e0233332 (2020).
+[71] Zhang, S., Yang, X., Gertsen, H., Peters, P., Salánki, T., & Geissen, V. 
+A simple method for the extraction and identification of light density 
+microplastics from soil. Sci. Total Environ. 616, 1056-1065 (2018).
+[72] Zhang, B., Wu, Q., Gao, S., Ruan, Y., Qi, G., Guo, K., & Zeng, J. 
+Distribution and removal mechanism of microplastics in urban 
+wastewater plants systems via different processes. Environ. Pollut. 320, 
+121076 (2023).
+[73] Alvim, C. B., Bes-Piá, M. A., & Mendoza-Roca, J. A. Separation and 
+identification of microplastics from primary and secondary effluents and 
+activated sludge from wastewater treatment plants. Chem. Eng. J. 402, 
+126293 (2020).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 53 ---
+[74] Masura, J., Baker, J. E., Foster, G. D., Arthur, C., & Herring, C. 
+Laboratory methods for the analysis of microplastics in the marine 
+environment: recommendations for quantifying synthetic particles in 
+waters and sediments. Preprint at https://doi.org/10.25607/OBP-604 
+(2015).
+[75] Hajipour, A., & Shams-Nateri, A. The effect of fabric density on the 
+quality of digital printing on polyester. Fibers Polym . 18, 2462-2468 
+(2017).
+[76] Wang, Z., Lin, T., & Chen, W. Occurrence and removal of microplastics 
+in an advanced drinking water treatment plant (ADWTP). Sci. Total 
+Environ. 700, 134520 (2020).
+[77] Zhong, X., Liu, L., Wang, H., Xu, Z., Chen, H., Wang, X., & Zhu, Y. 
+Characteristics and origins of the modal pore throat structure in weakly 
+cemented sandy conglomerate reservoirs. J. Pet. Sci. Eng. 208, 109470 
+(2022).
+[78] Tamminga, M., Hengstmann, E., Deuke, A. K., & Fischer, E. K. 
+Microplastic concentrations, characteristics, and fluxes in water bodies 
+of the Tollense catchment, Germany, with regard to different sampling 
+systems. Environ. Sci. Pollut. Res. 29, 11345-11358 (2022).
+[79] Bradford, S. A., Yates, S. R., Bettahar, M., & Simunek, J. Physical 
+factors affecting the transport and fate of colloids in saturated porous 
+media. Water Resour. Res. 38, 63-1 (2002).
+[80] McDowell‐Boyer, L. M., Hunt, J. R., & Sitar, N. Particle transport 
+through porous media. Water Resour. Res. 22, 1901-1921 (1986).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 54 ---
+[81] Mishra, S., Dash, D., & Das, A. P. Detection, characterization and 
+possible biofragmentation of synthetic microfibers released from 
+domestic laundering wastewater as an emerging source of marine 
+pollution. Mar. Pollut. Bull. 185, 114254 (2022).
+[82] Das, A., Dey, S., & Das, A. P. Ecotoxicological impacts of synthetic 
+microfiber pollutants and development of sustainable mitigation 
+strategies. Environ. Chem. Ecotoxicol. 7, 201-210 (2024).
+[83] Balasaraswathi, S. R., & Rathinamoorthy, R. Microfiber Release during 
+Apparel Manufacturing process–A greater concern than Domestic 
+Laundering. Emerg. Contam. 11, 100559 (2025).
+[84] Dong, S. et al. Transport and retention patterns of fragmental 
+microplastics in saturated and unsaturated porous media: A real-time 
+pore-scale visualization. Water Res. 214, 118195 (2022).
+[85] Bai, H. J., Lassabatere, L., & Lamy, E. Colloid transport in aggregated 
+porous media with intra-and interaggregate porosities. Ind. Eng. Chem. 
+Res. 57, 6553-6567 (2018).
+[86] Bear, J. Dynamics of Fluids in Porous Media. 13-19 (American Elsevier 
+Publishing Company, 1972).
+[87] Li, C., Busquets, R., Moruzzi, R. B., & Campos, L. C. Preliminary study 
+on low-density polystyrene microplastics bead removal from drinking 
+water by coagulation-flocculation and sedimentation. J. Water Process 
+Eng. 44, 102346 (2021).
+[88] Fitriani, N., Theresia, L., O'Marga, T. T. N., Kurniawan, S. B., 
+Supriyanto, A., Abdullah, S. R. S., & Rietveld, L. C. Performance of a 
+modified and intermittently operated slow sand filter with two different 
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 55 ---
+mediums in removing turbidity, ammonia, and phosphate with varying 
+acclimatization periods. Heliyon 9, e22577 (2023).
+[89] Sivasankar, V., & Ramachandramoorthy, T. Water softening 
+behaviour of sand materials—Mimicking natural zeolites in some 
+locations of Rameswaram Island, India. Chem. Eng. J. 171, 24-32 (2011).
+[90] Stowell, F. P. The adsorption of ions from sea-water by sand. J. Mar. 
+Biol. Assoc. U.K. 14, 955-966 (1927).
+[91] Attiani, V., Smidt, H., & van der Wielen, P. W. Investigating spatial and 
+temporal dynamics in microbial community composition of multiple full-
+scale slow sand filters in drinking water treatment. Water Res . 282, 
+123751 (2025).
+[92] Nakhla, G., & Farooq, S. Simultaneous nitrification–denitrification in 
+slow sand filters. J. Hazard. Mater. 96, 291-303 (2003).
+[93] Chabi, K. et al. Rapid sand filtration for< 10 μm-sized microplastic 
+removal in tap water treatment: Efficiency and adsorption mechanisms. 
+Sci. Total Environ. 912, 169074 (2024).
+[94] Ziajahromi, S., Neale, P. A., Rintoul, L., & Leusch, F. D. Wastewater 
+treatment plants as a pathway for microplastics: development of a new 
+approach to sample wastewater-based microplastics. Water Res. 112, 
+93-99 (2017).
+[95] Velasco, A. N., Gentile, S. R., Zimmermann, S., Le Coustumer, P., & 
+Stoll, S. Contamination and removal efficiency of microplastics and 
+synthetic fibres in a conventional drinking water treatment plant in 
+Geneva, Switzerland. Sci. Total Environ. 880, 163270 (2023).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 56 ---
+[96] Elhaya, N., Fadeli, S. E., Abbassi, A., Erraji, E. M., & Barkouch, Y. 
+Generalized Richards model of slow sand filtration to remove lead 
+pollutant from polluted waters: study of velocity effect. Desalin. Water 
+Treat. 320, 100728 (2024).
+[97] He, H., Wu, T., Chen, Y. F., & Yang, Z. A pore-scale investigation of 
+microplastics migration and deposition during unsaturated flow in 
+porous media. Sci. Total Environ. 858, 159934 (2023).
+[98] Xu, L., Campos, L. C., Li, J., Karu, K., & Ciric, L. Removal of antibiotics 
+in sand, GAC, GAC sandwich and anthracite/sand biofiltration systems. 
+Chemosphere 275, 130004 (2021).
+[99] Dalmau-Soler, J., Ballesteros-Cano, R., Boleda, M. R., Paraira, M., 
+Ferrer, N., & Lacorte, S. Microplastics from headwaters to tap water: 
+occurrence and removal in a drinking water treatment plant in 
+Barcelona Metropolitan area (Catalonia, NE Spain). Environ. Sci. Pollut. 
+Res. 28, 59462-59472 (2021).
+[100] Dronjak, L. et al. Screening of microplastics in water and sludge lines 
+of a drinking water treatment plant in Catalonia, Spain. Water Res. 225, 
+119185 (2022).
+[101] Tumwet, F. C., Serbe, R., Kleint, T., & Scheytt, T. Effect of 
+fragmentation on the transport of polyvinyl chloride and low-density 
+polyethylene in saturated quartz sand. Sci. Total Environ. 836, 155657 
+(2022).
+[102] Alhusban, Z. Microplastic infiltration into mobile sediments. Sci. Total 
+Environ. 919, 170847 (2024).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 57 ---
+[103] Iskandarani, S., Manjunath, S., Busquets, R., Raeli, L., Saikaly, P. E., & 
+Campos, L. C. Characterization of nanoplastics and small-sized 
+microplastics in sewage treatment. Sci. Rep. 15, 30089 (2025).
+[104] Lo, H. S., Xu, X., Wong, C. Y., & Cheung, S. G. Comparisons of 
+microplastic pollution between mudflats and sandy beaches in Hong 
+Kong. Environ. Pollut. 236, 208-217 (2018).
+[105] Garai, S. et al. Microplastics in the soil–water–food nexus: Inclusive 
+insight into global research findings. Sci. Total Environ . 946, 173891 
+(2024).
+[106] Wang, X., Diao, Y., Dan, Y., Liu, F., Wang, H., Sang, W., & Zhang, Y. 
+Effects of solution chemistry and humic acid on transport and deposition 
+of aged microplastics in unsaturated porous media. Chemosphere 309, 
+136658 (2022).
+[107] Parshotam, S., Zhang, W., Rehl, B., Darlington, A., Sikder, M. D. H., 
+Brown, A., & Gibbs, J. M. Revealing silica’s pH-dependent second 
+harmonic generation response with overcharging. J. Phys. Chem. C 127, 
+8389-8398 (2023).
+[108] Domingos, R. F., Tufenkji, N., & Wilkinson, K. J. Aggregation of 
+titanium dioxide nanoparticles: role of a fulvic acid. Environ. Sci. Technol. 
+43, 1282-1286 (2009).
+[109] Kosmulski, M., Ma̧czka, E., Janusz, W., & Rosenholm, J. B. 
+Multiinstrument study of the electrophoretic mobility of quartz. J. Colloid 
+Interface Sci. 250, 99-103 (2002).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 58 ---
+[110] Wang, Y., Xu, L., Chen, H., & Zhang, M. Retention and transport 
+behavior of microplastic particles in water-saturated porous media. Sci. 
+Total Environ. 808, 152154 (2022).
+[111] Dong, S., Xia, J., Sheng, L., Wang, W., Liu, H., & Gao, B. Transport 
+characteristics of fragmental polyethylene glycol terephthalate (PET) 
+microplastics in porous media under various chemical conditions. 
+Chemosphere 276, 130214 (2021).
+[112] Kaiser, K., & Guggenberger, G. Sorptive stabilization of organic matter 
+by microporous goethite: sorption into small pores vs. surface 
+complexation. Eur. J. Soil Sci. 58, 45-59 (2007).
+[113] Hahn, M. W., Abadzic, D., & O'Melia, C. R. Aquasols: On the role of 
+secondary minima. Environ. Sci. Technol. 38, 5915-5924 (2004).
+[114] Amirbahman, A., & Olson, T. M. Transport of humic matter-coated 
+hematite in packed beds. Environ. Sci. Technol. 27, 2807-2813 (1993).
+[115] O'Connor, D., Pan, S., Shen, Z., Song, Y., Jin, Y., Wu, W. M., & Hou, D. 
+Microplastics undergo accelerated vertical migration in sand soil due to 
+small size and wet-dry cycles. Environ. Pollut. 249, 527-534 (2019).
+[116] Engdahl, N. B. Simulating the mobility of micro-plastics and other 
+fiber-like objects in saturated porous media using constrained random 
+walks. Adv. Water Resour. 121, 277-284 (2018).
+[117] Zambrano, M. C., Pawlak, J. J., Daystar, J., Ankeny, M., Cheng, J. J., & 
+Venditti, R. A. Microfibers generated from the laundering of cotton, 
+rayon and polyester based fabrics and their aquatic biodegradation. Mar. 
+Pollut. Bull. 142, 394-407 (2019).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 59 ---
+[118] Rillig, M. C., Ingraffia, R., & de Souza Machado, A. A. Microplastic 
+incorporation into soil in agroecosystems. Front. Plant Sci . 8, 1805 
+(2017).
+[119] Lüscher, S. M., & Jo, H. Y. A synthetic microplastic fiber-manufacturing 
+method and analysis of airborne microplastic fiber transport behavior in 
+porous media. Sci. Total Environ. 838, 155888 (2022).
+[120] Hsieh, L., He, L., Zhang, M., Lv, W., Yang, K., & Tong, M. Addition of 
+biochar as thin preamble layer into sand filtration columns could 
+improve the microplastics removal from water. Water Res. 221, 118783 
+(2022).
+[121] Chrysikopoulos, C. V., & Syngouna, V. I. Effect of gravity on colloid 
+transport through water-saturated columns packed with glass beads: 
+modeling and experiments. Environ. Sci. Technol. 48, 6805-6813 (2014).
+[122] Grace, M. A., Healy, M. G., & Clifford, E. Performance and surface 
+clogging in intermittently loaded and slow sand filters containing novel 
+media. J. Environ. Manag. 180, 102-110 (2016).
+[123] Kaetzl, K., Lübken, M., Nettmann, E., Krimmler, S., & Wichern, M. Slow 
+sand filtration of raw wastewater using biochar as an alternative 
+filtration media. Sci. Rep. 10, 1229 (2020).
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 60 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 61 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 62 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 63 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 64 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 65 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 66 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 67 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 68 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 69 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS
+
+--- PDF page 70 ---
+ACCEPTED MANUSCRIPTARTICLE IN PRESSARTICLE IN PRESS
+ARTICLE IN PRESSARTICLE IN PRESS

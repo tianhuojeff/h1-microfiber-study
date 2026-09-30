@@ -1,0 +1,21 @@
+[
+  {
+    "kind": "page",
+    "url": "https://www.nature.com/articles/s44454-025-00020-2",
+    "status": 200,
+    "final_url": "https://www.nature.com/articles/s44454-025-00020-2",
+    "bytes": 448718,
+    "content_type": "text/html; charset=utf-8",
+    "saved": "h1-study\\literature_20260921\\metadata\\hamann2025_publisher.html"
+  },
+  {
+    "kind": "pdf",
+    "url": "https://www.nature.com/articles/s44454-025-00020-2.pdf",
+    "status": 200,
+    "final_url": "https://www.nature.com/articles/s44454-025-00020-2.pdf",
+    "bytes": 3644788,
+    "content_type": "application/pdf",
+    "saved": "h1-study\\literature_20260921\\papers\\L07_Hamann2025_self_cleaning_filter.pdf",
+    "sha256": "9f98e2d56c87e21cb47eb54f0f153900db76b7ef05aeb2d8e627ce6a4fdf8ac9"
+  }
+]

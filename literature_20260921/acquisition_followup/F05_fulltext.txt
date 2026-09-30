@@ -1,0 +1,1452 @@
+=== PDF PAGE 1 ===
+UvA-DARE is a service provided by the library of the University of Amsterdam (https://dare.uva.nl)
+UvA-DARE (Digital Academic Repository)
+Psychological outcomes from a citizen science study on microplastics from
+household clothes washing
+Brick, C.; Bosshard, A.; Boven, B.; Hijink, J.; Praetorius, A.; Jacobs, L.
+DOI
+10.1039/D5VA00037H
+Publication date
+2025
+Document Version
+Final published version
+Published in
+Environmental Science: Advances
+License
+CC BY
+Link to publication
+Citation for published version (APA):
+Brick, C., Bosshard, A., Boven, B., Hijink, J., Praetorius, A., & Jacobs, L. (2025).
+Psychological outcomes from a citizen science study on microplastics from household clothes
+washing. Environmental Science: Advances, 7. https://doi.org/10.1039/D5VA00037H
+General rights
+It is not permitted to download or to forward/distribute the text or part of it without the consent of the author(s)
+and/or copyright holder(s), other than for strictly personal, individual use, unless the work is under an open
+content license (like Creative Commons).
+Disclaimer/Complaints regulations
+If you believe that digital publication of certain material infringes any of your rights or (privacy) interests, please
+let the Library know, stating your reasons. In case of a legitimate complaint, the Library will make the material
+inaccessible and/or remove it from the website. Please Ask the Library: https://uba.uva.nl/en/contact, or a letter
+to: Library of the University of Amsterdam, Secretariat, P.O. Box 19185, 1000 GD Amsterdam, The Netherlands.
+You will be contacted as soon as possible.
+Download date:21 Sept 2026
+
+=== PDF PAGE 2 ===
+Psychological outcomes from a citizen science
+study on microplastics from household clothes
+washing†
+Cameron Brick, *ab Anna Bosshard, a Bernou Boven, c Julia Hijink, c
+Antonia Praetorius c and Lies Jacobs cd
+Microplastic pollution in the form of synthetic microﬁbers is an increasing concern to human and ecological
+health, and household clothes washing is a major contributor to microplastic emissions. Consumer choices
+and washing behaviors could reduce this pollution, yet the psychological and behavioral drivers of these
+actions remain unknown. We present a pre-registered, three-month citizen science project in which
+Dutch residents used micro ﬁber-capturing laundry bags at home. The citizen scientists completed pre-
+and post-study surveys of psychological factors such as identity, norms, perceived responsibility, and
+intentions, as well as washing behaviors like load size and washing temperature. After the study, citizen
+scientists increased modestly in problem awareness and perceived responsibility, but there were no
+signiﬁcant changes in identity, personal norms, social norms about sustainability, perceived behavioral
+control, or intentions to use a laundry bag. To assess generalizability, we also compared the citizen
+scientists to a control sample of urban Dutch residents. The washing behaviors were weakly or
+uncorrelated with demographics or with psychological factors, suggesting that interventions on washing
+behaviors might focus on habits and skill development rather than trying to increase pro-environmental
+motivation. These results also suggest that interventions tested in citizen scientists may translate better
+to other populations than was previously suggested. Citizen science is a viable method for studying
+household washing under real-world conditions and provides insights for designing targeted behavioral
+interventions.
+Environmental signi cance
+Microplastic pollution is an accelerating environmental threat, with synthetic micro bers from household laundry contributing signi cantly to aquatic and
+terrestrial contamination. These persistent pollutants enter ecosystems, are ingested by organisms, and have toxicological e ﬀects. While technological solutions
+exist, their eﬀectiveness depends on widespread behavioral adoption, yet little is known about the psychological and behavioral factors that drive such changes.
+This study shows how citizen science can be used as a tool for both data collection and behavior change and to assess whether participation shi s environmental
+attitudes and actions. The ndings here challenge assumptions that citizen science automatically fosters pro-environmental behavior, highlighting the need for
+targeted, evidence-based interventions to reduce micro ber emissions at the household level.
+Microplastics are tiny pieces of plastic ( #5 mm) in the air, land,
+or water that mostly result from the breakdown of consumer
+products and industrial waste. Microplastic pollution is accel-
+erating and uniquely threatens ecosystems due to its persis-
+tence, potential for ingestion by organisms, and adverse
+eﬀects.
+1 These fragments also threaten human health a er
+being inhaled or ingested. 2 A major source of household emis-
+sions of microplastics is textiles, 3 particularly the synthetic
+microbers generated during textile washing. 4,5 One class of
+technological solutions to reduce textile-related microplastic
+emissions includes promoting natural bers (cotton, wool, silk)
+in textile manufacturing, as well as ‘semi-synthetic’ bers made
+from bio-based feedstocks ( e.g., wood pulp).
+6 However, natural
+bers o en contain chemical additives, and semi-synthetic
+bers have been chemically transformed such that they o en
+resemble synthetic bers, e.g., they have low biodegradability.
+Regardless, the vast majority of textiles are still made from fossil
+fuels (e.g., polyester, acrylic, and nylon). So long as a majority of
+textiles are made from traditional plastics, consumer behavior
+represents a meaningful opportunity to limit microplastic
+aDepartment of Psychology, University of Amsterdam, Amsterdam, The Netherlands.
+E-mail: c.brick@uva.nl
+bDepartment of Psychology, University of Inland Norway, Elverum, Norway
+cDepartment of Ecosystem and Landscape Dynamics, Institute for Biodiversity and
+Ecosystem Dynamics, University of Amsterdam, Amsterdam, The Netherlands
+dDepartment of Earth and Environmental Sciences, KU Leuven, Leuven, Belgium
+† Electronic supplementary information (ESI) available. See DOI:
+https://doi.org/10.1039/d5va00037h
+Cite this: Environ. Sci.: Adv.,2 0 2 5 ,4,
+1079
+Received 14th February 2025
+Accepted 6th May 2025
+DOI: 10.1039/d5va00037h
+rsc.li/esadvances
+© 2025 The Author(s). Published by the Royal Society of Chemistry Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 | 1079
+Environmental Science
+Advances
+PAPER
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+View Journal
+ | View Issue
+
+=== PDF PAGE 3 ===
+emissions from households. Increasing consumer awareness of
+microplastic sources by actively involving participants in
+research on micro ber release during home washing could
+yield multiple bene ts, including a reduction in microplastic
+emissions.
+Citizen science
+We de ne Citizen science as public participation in scienti c
+research and knowledge production, 7 similar to community-
+based monitoring and participatory research. Citizen science
+has a high potential for addressing sustainability challenges
+through the combination of democratization and productivity
+goals.
+8 Democratization relates to the potential capacity of
+citizen science to help share decision making power and facil-
+itate a two-way dialogue between scientists and citizens during
+the research process.
+9 Productivity refers to the increased
+potential to study environmental issues because citizen science
+can provide more data across diverse locations and across time.
+For example, most environmental Sustainable Development
+Goal (SDG) indicators lack data, and citizen science is already
+contributing to SDG monitoring.
+10 The study of household
+microplastic emissions particularly informs SDG 6: clean water
+and sanitation. Overall, citizen science appears to be a reliable,
+aﬀordable, and scalable tool for research projects on pollution
+sources and levels.
+8
+Citizen science is o en claimed to facilitate transformative
+change around environmental issues, such as in a white paper
+by the European Union, 11 but it is not clear whether this change
+is occurring. This is important because the answer informs
+whether to prioritize study designs including citizen science.
+There are two key inferential gaps: (1) citizen science programs
+may have transformative potential particularly for individual
+skills, but transformation may not occur at the organizational
+and institutional levels; and (2) there are wide claims that
+participation increases learning, but the claims about trans-
+formation are more o en based on assumptions than evidence
+because learning oen goes unreported or unevaluated.
+12 These
+issues persist because impact assessment on participants is still
+rare: a review of 77 citizen science projects reported that only
+16% reported baseline, outcome, or impact data.
+13 Another
+review of 31 citizen science projects on environmental topics
+found that participation primarily enhanced skills and knowl-
+edge more than changing attitudes, values, or behaviors, and
+that only 26% of projects measured behavior.
+14 Overall, it was
+rare that citizen science projects measured attitudes, knowl-
+edge, and/or behavior before and aer participation.
+15,16 In sum,
+citizen science is providing a new interface between scientists
+and the general public, but it remains unknown whether this
+contact changes the participants, or what the consequences are
+for individual behaviors that a ﬀect the environment.
+From a measurement validity perspective,
+17 most citizen
+science impact assessments were ad-hoc, rarely involved
+psychologists or experts on survey design, and therefore had
+substantial measurement problems. For example, in one review
+the psychological predictors like values correlated above r = 0.4
+with environmentally signi cant behaviors, which represents
+a very large relationship with a behavior.
+14 In environmental
+psychology, such magnitudes are usually seen when the
+behavior measures are vague, Likert-type self-reports that were
+assessed similarly to the attitudes or values measures.
+18,19 We
+would not expect such large correlations beyond shared
+measured variance because pro-environmental behaviors such
+as clothes washing choices are driven also by physical context
+and other people.
+20 Helpfully, validity concerns are being raised
+in citizen science impact assessment, 21 and more attention to
+validity would strengthen the quality of future studies. Among
+related elds, environmental psychology may be uniquely
+poised to contribute expertise in psychometric validation,
+survey design, and behavior measurement to these citizen
+science e ﬀorts.
+Impact assessment goals
+In environmental psychology, there is no dominant overarching
+theory. A recent commentary 22 encouraged a shi  from tradi-
+tional deductive approaches toward more descriptive and
+inductive research. We designed this study and the research
+goals with these inductive goals in mind, e.g., in prioritizing
+a multiple time point design with hands-on behaviors (not just
+self-report).
+There are three psychological inferences it would be valuable
+to test in citizen science projects on environmental issues. First,
+the e ﬀectiveness of citizen science projects aligns with core
+theories on pro-environmental behavior like the norm activation
+model
+23 and value-belief-norm theory. 24 Intensive hands-on
+engagement with environmental issues could make people
+more aware, foster a sense of responsibility, and sense that their
+actions can make a di ﬀerence. Strong tests require causal infer-
+ence and would be greatly aided by multiple time periods of data
+(i.e., pre- and post-tests). Second, the relevance of di ﬀerent
+person characteristics for motivating action can vary across
+behaviors and context.
+20 Thus, testing is needed to establish
+whether to focus impact assessments or interventions on envi-
+ronmentalism ( e.g., pro-environmental norms and identities),
+perceptions about a problem ( e.g., awareness and responsibility
+for micro ber pollution), or beliefs about the behavior ( e.g.,
+whether the behavior is perceived as e ﬀective, easy, or having
+negative side eﬀects). The third key inference we suggest testing
+is whether citizen scientist results are generalizable. The citizen
+science literature is rapidly expanding, but demographic and
+psychological characteristics are rarely compared to outside
+samples cf.
+25 Limited evidence suggests that citizen scientists are
+more environmentally concerned, more White, and dispropor-
+tionately come from more economically advantaged areas.
+26,27
+Such comparisons are necessary to infer that the results also
+apply to di ﬀerent communities and could be used to design
+eﬀective interventions and policies for the general public.
+Current study
+We present one of the rst studies on micro ber pollution
+from home washing in partnership with citizen scientists. 28
+1080 | Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 © 2025 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Advances Paper
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 4 ===
+Until now, it has been unclea r what types of individuals in
+what situations are w illing to engage in pro-environmental
+washing behaviors such as e ﬀortfully ltering microplastics.
+T oa d d r e s st h i sc h a l l e n g e ,w ep r esent a pre-registered study. 29
+We recruited citizen scientists in the Amsterdam region of
+Netherlands to conduct at- home capturing of micro ber
+emissions from clothes washin g using laundry bags. They not
+only collected data, but engaged in self-education, behavioral
+skills training, and impact as sessment through pre- and post-
+surveys. Additionally, we sur veyed a large comparison group
+f r o mu r b a nr e g i o n so ft h es a m ec o u n t r yt oc o m p a r et h e
+demographics and psychological characteristics with the
+citizen scientists, and also to investigate with more statistical
+power which psychological factors were associated with
+intentions and behavior.
+Hypothesis 1
+Aer completing the citizen scientist project and monitoring
+their microplastics, citizen scientists will report more environ-
+mentalist identity, social norms about sustainability, knowl-
+edge of micro ber pollution, awareness about the harms of
+microber pollution, perceived responsibility, outcome eﬃ cacy,
+personal norms, perceived behavioral control, and intentions to
+use laundry bags.
+Hypothesis 2
+The citizen scientists compared to the sample of urban resi-
+dents of the Netherlands will be more female and educated (2a),
+and have higher environmentalist identity, social norms about
+sustainability, objective knowledge of micro ber pollution,
+awareness of harms, perception of responsibility, outcome
+eﬃ cacy, personal norms, perceived behavioral control, and
+positive attitudes towards laundry bags (2b).
+Hypothesis 3
+The intention to use laundry bags, watching a video on micro-
+ber pollution for more time, reporting lower washing
+temperatures, wearing clothing more before washing, more
+time between washing, and washing more full loads will be
+positively associated with being younger, female, and more
+educated (3a) and the psychological factors in Hypothesis 1
+(3b), tested in a separate online sample. A er the pre-
+registration, the order and numbering of the hypotheses was
+updated for clarity, but the content of the hypotheses stayed the
+same.
+Method
+Design and procedure
+The analysis plan was pre-registered at https://osf.io/edwum
+and all deviations are disclosed. All participants gave
+informed consent, and the study received ethical approval
+from the University of Amsterdam (2022-SP-15548, 2022-SP-
+15651).
+Citizen scientists procedure
+This study included a 3-month intervention and an online
+survey. Aer a baseline survey, during a period of around three
+months participants were asked to wash their clothes 10 times
+in a Guppy Friend® laundry bag (Fig. 1). These bags collect
+microbers normally released into wastewater during home
+washing. A er each washing cycle, participants collected the
+emitted micro bers from the bag with a lint roller and sent
+a picture of the lint sheet to the researchers for ber analysis.
+For each washing cycle, participants also reported their washing
+machine settings and the type, weight, and textiles of the
+washed garments via an online form. Finally, participants
+repeated the baseline survey.
+Fig. 1 The Guppy Friend® Laundry Bag.
+© 2025 The Author(s). Published by the Royal Society of Chemistry Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 | 1081
+Paper Environmental Science: Advances
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 5 ===
+Control survey procedure (Urban Dutch)
+The control participant only responded to a cross-sectional
+online survey without performing the physical data collection
+with washing bags. The purpose of this group was to assess the
+generalizability of the citizen scientist results and to provide
+well-powered tests of the associations between psychological
+predictors and pro-environmental washing intentions and
+behaviors.
+Participants
+Citizen scientist participants
+One hundred participants, at least 16 years old and who lived in
+the Netherlands, were recruited through the researchers'
+networks, emails to environmental organizations, Twitter/X
+posts, printed yers at the university, and the psychology
+student participant pool. In sum, this convenience sample was
+recruited with digital and physical advertisements (see OSF for
+these les). Most participants lived in Amsterdam or the
+surrounding area (Fig. 2); that the participants had a relation-
+ship with the Amsterdam metropolitan region was preferred by
+the funder. Psychology students could earn six research credits.
+The nal sample of 57 participants completed the three-month
+(10 washes) citizen science project and the follow-up survey (43
+more only completed 1 –2 washes and/or did not complete the
+nal questionnaire and were excluded). The mean age of the
+nal sample of 57 was 39.5 years (SD = 17.5). Of the partici-
+pants, 41 identi ed as women (72%), 12 as men (21%), two as
+non-binary or gender uid (4%), and the gender identity of two
+was not provided (4%).
+Power analysis (Hypothesis 1). The desired sample size was
+determined based on recruitment feasibility ( N = 100). An
+a priori power analysis in the R package pwr was run with alpha
+= 0.05 and N = 100. Based on the nal sample of N = 57 aer
+attrition, a second power analysis with G *Power
+30 suggested
+80% power to detect pre-post e ﬀects of jdj $ 0.33 and 95%
+power to detect e ﬀects of jdj $ 0.44 (one-sided, Wilcoxon
+signed-rank test, matched pairs).
+Power analysis (Hypothesis 2). A sensitivity power analysis
+(not pre-registered due to an oversight) suggested 80% power to
+detect di ﬀerences of jdj $ 0.34 and 95% power to detect
+diﬀerences of jdj $ 0.45 between the citizen scientists ( n = 57)
+and control participants ( n = 814)
+Control survey participants (Urban Dutch)
+The control group of urban Dutch residents completed a cross-
+sectional survey on washing habits and environmental atti-
+tudes, which helps assess the generalizability of the citizen
+scientist data. Participants who lived in the Netherlands and
+were at least 16 years old were recruited through the online
+platform Panelclix and were compensated 1 EUR. To enhance
+comparability with the citizen scientists, we targeted residents
+of large Dutch cities (Amsterdam, Rotterdam, The Hague,
+Utrecht). Fig. 2 shows participant residence based on postcodes.
+The analyzed sample included 814 control participants, M (SD)
+age = 47.4 (16.1) years. 428 participants (53%) identi ed as
+women, 284 (35%) identi ed as men, and two (<1%) identi ed
+as non-binary. The gender identity of the remaining partici-
+pants was either unclear (28 participants, 3%) from the open
+text responses or not provided (72 participants, 9%).
+Fig. 2 Participant residence from Dutch postcodes. Note. 13 participants of the control survey (Urban Dutch) ( n = 814) did not provide
+postcodes.
+1082 | Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 © 2025 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Advances Paper
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 6 ===
+Power analysis (Hypothesis 3). The sample size was deter-
+mined by available funding and by the sample size at which
+correlations stabilize ( n = 250).
+31 An a priori power analysis in
+the R package pwr32 was run for the pre-registration with alpha
+= 0.05 and N = 622. Based on the nal sample of N = 814,
+a second power analysis suggested 80% power to detect corre-
+lations of jrj $ 0.10 and 95% power to detect correlations of jrj $
+0.13.
+Measures
+There were two citizen scientist surveys (baseline and post-
+intervention), and one control survey of urban Dutch resi-
+dents. Items apply to all three unless otherwise indicated and all
+surveys were in Dutch. For readers, we provide the originals and
+machine translations to English
+33 at https://osf.io/65dz4/.
+Demographics
+Gender identity was measured with an open question and was
+coded by researchers as woman, man, non-binary or gender
+uid, or missing. Age was measured using integer years.
+Education was measured using seven categories (highest level
+of completed Dutch education). Work situation was measured
+using 11 categories; the citizen science survey initially had 10
+categories, and we added studying a er coding the open
+responses. Location was measured with the rst four numbers
+of Dutch postcodes, which only provides neighborhood-level
+resolution of a few thousand people and so preserves more
+privacy.
+Washing behaviors. Participants of the control survey re-
+ported 14 features of their washing behaviors. Many laundry
+and clothing variables could interact in complex ways, and there
+is mixed evidence about their e ﬀects on micro ber emissions.
+We report temperature, wears tops, wears bottoms, days until
+full load of laundry, and typical load size here because these
+behaviors have the clearest environmental consequences
+(energy, water, and carbon emissions), and these factors are
+most plausibly related to micro ber emissions. The remaining
+impacts are shown in ESI Table S1. †
+Temperature
+Participants gave percentage estimates of how o en they wash
+at 20 ° C or lower , 30 °C, 40 °C, 60 °C, 90 °C, and the white
+clothes program (hot). Lower scores are more pro-
+environmental.
+Days until full load
+Participants indicated in integer days how long before they run
+a full load of laundry.
+Wears tops
+Participants indicated a er how many wears they wash shirts,
+sweaters, and blouses. The options were: a er one wear,
+1 aer
+wearing it twice, 2 and a er three or more wears. 3
+Wears bottoms
+Participants indicated a er how many wears they wash pants
+and skirts with the same response options as for the tops.
+Washing a full load
+Participants indicated how full their washing machine usually
+is: 1
+4 full (0.25), 1
+2
+full (0.5), 3
+4
+full (0.75), or completely full. 1
+Psychological variables
+The below items were rated from strongly disagree 1 to strongly
+agree5 unless otherwise indicated. Internal consistency of scales
+was assessed with McDonald's omega ( u). The pre-registration
+said that when u < 0.6 for two-item scales, single face-valid
+items would be chosen to represent the construct, and we
+report robustness checks using the other items in Tables 3 and
+4.
+Environmentalist identity. We used a four-item measure.
+34
+An example item was: “I identify with other environmentalists ”.
+The scale had excellent internal consistency in the control
+survey ( u = 0.90) and good internal consistency in the citizen
+science surveys at baseline ( u = 0.86) and post-intervention ( u
+= 0.83).
+Social norms about sustainability. We created a two-item
+scale based on. 35 An example item was: “People I care about
+make conscious choices to reduce their environmental
+impacts”. The scale had good internal consistency in the control
+survey ( u = 0.78), questionable internal consistency in the
+citizen science survey at baseline ( u = 0.63), and acceptable
+internal consistency post-intervention ( u = 0.74).
+Perceived knowledge about micro bers. We created this
+item ad hoc. In the control survey, the item was: “How much do
+you know about synthetic micro bers?”. In the citizen science
+baseline survey, the item was: “Before you came in contact with
+the [ .] project, which statement applied most to you? ” and
+answers ranged from “This is the rst time I have read about
+synthetic micro bers”
+1 to “I have advanced knowledge on this
+topic”.4
+Objective knowledge about microbers. We created this item
+ad hoc. Respondents were asked to rank four sources of
+microplastics according to their perceived contribution to
+ocean pollution. The response choices were washing synthetic
+textiles, tyres, plastic packaging, and personal care products , with
+24 potential ranking combinations. We then scored responses
+on a scale from low knowledge
+1 to high knowledge, 5 assigning
+ranks to predetermined combinations (see ESI †).
+Awareness of harms of micro ber pollution. We created
+a two-item scale based on. 35 An example item was: “Microber
+release through washing harms marine animals and plants ”. The
+scale had acceptable internal consistency in the control survey
+(u = 0.77), questionable internal consistency in the citizen
+science survey at baseline ( u = 0.66), and unacceptable internal
+consistency post-intervention ( u = 0.54). Following the pre-
+registration, only one item was used to represent the
+construct: “The release of micro bers from washing harms marine
+animals and plants ”.
+© 2025 The Author(s). Published by the Royal Society of Chemistry Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 | 1083
+Paper Environmental Science: Advances
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 7 ===
+Perceived responsibility. We created a two-item scale based
+on.35 An example item was: “I am partly responsible for the impact
+of micro bers on marine animals and plants ”. The scale had
+acceptable internal consistency in the control survey ( u = 0.79),
+questionable internal consistency in the citizen science survey
+at baseline (u = 0.64), and acceptable internal consistency post-
+intervention ( u = 0.71).
+Knowledge of laundry bags. We created these items ad hoc. In
+the control survey, the item was: “Have you heard of these or
+similar laundry bags for synthetic clothes before? ”. In the base-
+line citizen science survey, the item was: “Except for information
+you might have received through the [.] project, have you heard
+of these or similar laundry bags for synthetic clothes before? ”.
+The response options were: “This is the rst time I have read about
+laundry bags for synthetic clothes” (control survey) or “I have read/
+heard about laundry bags for synthetic clothes for the rst time via
+the [.]p r o j e c t” (baseline survey citizen scientists),1 “Ih a v eh e a r d
+about laundry bags for synthetic clothes before ”,2 and “Ih a v eu s e d
+laundry bags for synthetic clothes at home ”.3
+Outcome e ﬃ cacy. We created a two-item scale based on. 35
+The scale had unacceptable internal consistency in the control
+survey ( u = 0.03), the citizen science survey at baseline ( u =
+0.41), and post-intervention ( u = 0.41). Following the pre-
+registration, only one item was used to represent the
+construct: “Based on the information above, I think that I can
+reduce the harm of micro ber pollution by washing synthetic
+clothes in a laundry bag ”. In the post-intervention survey, the
+item was slightly di ﬀerent, starting with: “Based on my experi-
+ence over the past few weeks, I feel .”. We provide sensitivity
+analyses using the alternative item ( “Washing synthetic clothes
+in a laundry bag seems like a drop in the ocean compared to
+what fashion companies and retailers could do (e.g., work with
+less polluting materials) ”.
+Personal norm. We created a two-item scale of personal
+norms to use laundry bags based on.
+35 The scale had acceptable
+internal consistency in the control survey ( u = 0.72), but it was
+questionable in the citizen science survey post-intervention ( u
+= 0.65), and unacceptable in the baseline survey ( u = 0.40).
+Therefore, only one item was used to represent the construct: “I
+feel a strong personal obligation to reduce synthetic micro ber
+release through washing ”.
+Perceived e ﬀort. We planned to create a four-item scale of
+perceived behavioral control. The scale had poor internal
+consistency in the control survey ( u = 0.56), and it was unac-
+ceptable in the citizen science survey baseline ( u = 0.32) and
+post-intervention survey ( u = 0.36), and item removal did not
+suﬃ ciently improve scale reliability. Therefore, only one item
+(“Washing synthetic clothes in a laundry bag seems/is e ﬀortful”)
+was analyzed further and for clarity we renamed the construct to
+perceived e ﬀort.
+Attitudes beyond environmentalism. As pre-registered, we
+included two individual items to assess general attitudes
+towards laundry bags. The items were: “Washing synthetic
+clothes in a laundry bag seems to prevent clothes from getting
+cleaned properly ” and “Washing synthetic clothes in a laundry
+bag seems to preserve clothing quality for a longer time ”.
+Behaviors
+Intention to use laundry bags. We created this item ad hoc.
+In the control survey, the item was: “I intend to always use
+a laundry bag when washing synthetic clothes ” and in the citizen
+science survey, the item was: “Beyond participating in the project,
+I intend to always use a laundry bag when washing synthetic
+clothes”.
+Video-watching. In the control survey, participants had the
+option to watch a short video about synthetic micro ber
+pollution and solutions.
+36 We recorded how many seconds
+participants stayed on the page and more time was interpreted
+as seeking information about environmental issues. We Win-
+sorized the variable at 2.46 minutes (147.6 s) because that was
+the duration of the video (not pre-registered). Most people
+skipped the video (see ESI Fig. S1 † for the distribution). This
+oor e ﬀect may have suppressed correlations with this
+outcome.
+Exclusions
+In the control survey, participants who indicated that they were
+not responsible for laundry were excluded from the analyses ( N
+= 62) (pre-registered). We also excluded 285 participants who
+completed less than half of the survey and therefore missed
+most key variables and excluded 18 participants who showed
+zero variability on the 21 items with a 5-point Likert scale (not
+pre-registered). These exclusions did not change the main
+results: see robustness tests in ESI Tables S5 –S7.†
+Results
+Because many variables were ordinal and some variables were
+non-normally distributed, we conducted non-parametric tests:
+Wilcoxon signed-rank tests for within-group di ﬀerences
+(Hypothesis 1), Wilcoxon rank sum and Chi-square tests for
+between-group di ﬀerences (Hypothesis 2), and Spearman
+correlations (r
+s) for associations (Hypothesis 3). Wilcoxon e ﬀect
+sizes ( r) can be interpreted in magnitude like Pearson's
+correlations.37
+Demographics are in Table 1. Consistent with Hypothesis 2a,
+the citizen scientists were more female (75% vs. 60%), c2(1, 767)
+= 3.89, p = 0.024, and had more education, W = 17 844, p =
+0.003, r = 0.10, than the control participants (urban Dutch). The
+groups had similar rates of having heard of the washing bags:
+citizen scientists (29%), control (19%), c2(1) = 2.21, p = 0.14.
+Both groups had low rates of having used such bags: citizen
+scientists (4%), control (3%): no di ﬀerence c
+2(1) = 0.00, p = 1.
+Eﬀects of citizen science participation
+Fig. 3a and b show the key psychological variables before and
+aer the citizen science project and Supplementary Table S2 †
+has the descriptives. In support of Hypothesis 1, there were
+moderate increases in awareness about the negative impacts of
+microber emissions, V = 66, r = 0.38, p = 0.003, and perceived
+responsibility about microber emissions, V = 144, r = 0.35, p =
+0.007. Against Hypothesis 1, outcome e ﬃ cacy moderately
+decreased (i.e., perceiving that the bags can make a di ﬀerence),
+1084 | Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 © 2025 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Advances Paper
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 8 ===
+V = 281, r = 0.34, p = 0.005. However, this result was not robust
+when using another e ﬃ cacy item ( “perceiving the bags as a drop
+in the ocean compared to actions by fashion companies and
+retailers”, which we excluded from the e ﬃ cacy composite due to
+low internal consistency; V = 107, r = 0.22, p = 0.07). There were
+no changes in environmentalist identity, V = 384, r = 0.15, p =
+0.27; social norms about sustainability, V = 371, r = 0.10, p =
+0.59; objective knowledge about micro ber emissions, V = 206,
+r = 0.06, p = 0.81; personal norms, V = 182, r = 0.01, p = 0.86;
+nor intentions to use laundry bags, V = 339, r = 0.06, p = 0.67.
+There were inconsistent results for the four items intended to
+measure perceived behavioral control, which turned out to have
+limited overlap. We selected ‘perceived e ﬀort’ to represent
+behavioral control, and it did not change, V = 226, r = 0.10, p =
+0.67. Similarly, robustness checks of the other control items
+revealed no changes in the belief that bags are di ﬃ cult to
+remember, V =
+200, r = 0.18, p = 0.337, but a er participation,
+citizen scientists thought the bags were somewhat more
+aﬀordable, V = 389, r = 0.29, p = 0.046, and more durable, V =
+96, r = 0.49, p < 0.001.
+Exploratory analyses revealed no change in attitudes about
+the bags preserving clothing quality, V = 85, r = 0.13, p = 0.33,
+and a large decrease in concerns that the bags would prevent
+clothes from being properly cleaned, V = 335, r = 0.53, p < 0.001.
+ESI Fig. S3 and S4 † show the robustness checks and exploratory
+analyses.
+Psychographic di ﬀerences between citizen scientists and
+control participants (Urban Dutch)
+Fig. 3a and b show the key psychological variables among
+citizen scientists and the control sample and ESI Table S3 † has
+the descriptives. In line with Hypothesis 2b, the citizen scien-
+tists compared to control were higher in identifying with envi-
+ronmentalists, W = 11 340, r = 0.22, p < 0.001, awareness of the
+harms of micro ber pollution to animals and plants, W = 17
+890, r = 0.10, p = 0.004, perceived responsibility, W = 13 024, r
+= 0.20, p < 0.001, outcome e ﬃ cacy, W = 17 476, r = 0.11,
+p =
+0.002, personal norms W = 18 255, r = 0.09, p = 008, perceived
+behavioral control W = 27 478, r = 0.09, p = 0.007, and believed
+less that laundry bags prevent clothes cleaning W = 27 562, r =
+0.10, p = 0.005. However, contrary to Hypothesis 1b, there were
+no group di ﬀerences in social norms about sustainability, W =
+23 820, r = 0.01, p = 0.73, objective knowledge about micro ber
+pollution, W = 18 018, r = 0.04, p = 0.19, nor believing that
+clothes retain their quality when washed in a laundry bag, W =
+22 644, r = 0.00, p = 0.92. ESI Table S3 † has robustness checks
+and exploratory analyses.
+Demographic predictors of pro-environmental intentions and
+behaviors in the control survey (Urban Dutch)
+Table 2 shows relationships between demographics, intentions
+to use microber bags, video-watching, and washing behaviors.
+Women reported slightly stronger intentions than men to use
+laundry bags, r
+s(710) = 0.13, p < 0.001, but there was no gender
+eﬀect on video watching, rs(679) = −0.02, p = 0.63. Younger
+people had slightly higher intentions to use laundry bags,
+r
+s(808) = −0.08, p = 0.032, but older people watched moderately
+more of the video, rs(776) = 0.43, p < 0.001. Being more
+educated was weakly associated with more intentions to use
+laundry bags, r
+s(795) = 0.10, p < 0.007, but less video watching,
+rs(762) = −0.10, p = 0.008.
+We also assessed relationships between demographics
+and washing behaviors: temperature, wears tops, wears
+bottoms, days until full load of laundry, and typical load size.
+Gender was unrelated to most washing behaviors, but women
+wore tops slightly fewer times before washing them than
+men, r
+s(711) = −0.08, p = 0.026, and took slightly fewer days
+to ll a laundry, rs(702) = −0.09, p = 0.024. More education
+was related to wearing bottoms more frequently before
+washing, r
+s(796) = 0.27, p < 0.001, washing fuller machines,
+rs(796) = 0.27, p = 0.001, and taking more days before doing
+laundry, rs(783) = 0.27, p < 0.001. Older people wore tops,
+rs(808) = 0.27, p < 0.001, and bottoms, rs(809) = 0.12, p =
+0.001, more o en before washing than younger people, and
+took more days before doing laundry, rs(794) = 0.11, p =
+0.002. None of the demographics related to washing
+temperatures, all p
+s > 0.59. Overall, the results did not
+support Hypothesis 3a.
+Table 1 Demographics
+Age M (SD) years
+Citizen
+scientists
+Control
+(Urban
+Dutch)
+n = 57 n = 814
+39.5 (17.5) 47.4 (16.1)
+N % N %
+Gender
+Woman 41 72 428 53
+Man 12 21 284 35
+Non-binary or gender uid 2 4 2 <1
+Unclear 2 4 100 12
+Highest completed education
+Secondary school 11 19 136 17
+Secondary vocational 0 0 205 25
+University of applied sciences 13 23 175 21
+University (Bachelor's) 8 14 90 11
+University (Master's) 20 35 165 20
+Doctoral degree 5 9 26 3
+Other 16 2
+Occupational status (multiple possible)
+Homemaking 12 21 321 39
+Full-time employed 13 23 360 44
+Part-time employed 26 46 156 19
+Full-time self-employed 2 4 45 6
+Part-time self-employed 8 14 43 5
+Unemployed (job-seeking) 0 0 23 3
+Unemployed (not job-seeking) 3 5 26 3
+Retired 7 12 126 15
+Unable to work 2 4 44 5
+Studying 6 11 9 1
+Other 1 2 4 <1
+© 2025 The Author(s). Published by the Royal Society of Chemistry Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 | 1085
+Paper Environmental Science: Advances
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 9 ===
+Psychological predictors of pro-
+environmental intent and washing
+behaviors in the control survey (Urban
+Dutch)
+Table 3 and Fig. 4 show the relationships between psychological
+variables and intentions to use laundry bags and time spent on
+a video on micro ber pollution. Supporting Hypothesis 3b, all
+psychological variables were correlated with the intention to use
+a laundry bag. The strongest correlations were personal norms
+r
+s(812) = 0.56, p < 0.001, believing the bags are e ﬀective, rs(812)
+= 0.40, environmentalist identity, rs(812) = 0.36, p < 0.001, and
+believing that washing clothes in the bags preserves quality,
+rs(812) = 0.32, p < 0.001. Believing that the bags prevent
+cleaning, rs(812) = −0.24, p < 0.001, and perceived eﬀort, rs(812)
+= −0.21, p < 0.001, were weakly negatively correlated with
+intentions.
+In line with Hypothesis 3b, most psychological variables
+were correlated with video-watching, but these correlations
+were all weak. The strongest correlations were environmentalist
+identity, r
+s(779) = 0.18, p < 0.001, awareness of micro ber
+harms to animals and plants, rs(779) = 0.15, p < 0.001, and
+personal norms, rs(779) = 0.13, p < 0.00. Perceived e ﬀort was
+related to less video-watching, rs(779) = −0.12, p < 0.001. Last,
+Fig. 3 (a)Pre-registered participation outcomes with pre-post changes ( ps < 0.05). Note. The red dots indicate means, the boxes indicate
+interquartile ranges, and the lines in the boxes indicate medians. The points are jittered and partially transparent to better show the distribution s.
+(b) Pre-registered participation outcomes without pre-post changes ( ps $ 0.05). Note. The red dots indicate means, the boxes indicate inter-
+quartile ranges, and the lines in the boxes indicate medians. The points are jittered and partially transparent to better show the distributions.
+1086 | Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 © 2025 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Advances Paper
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 10 ===
+intention to use the laundry bags was unrelated to video-
+watching time, rs(779) = 0.04, p = 0.25.
+Table 4 and Fig. 5 show the relationships between psycho-
+logical variables and ve washing behaviors. Contrary to
+Hypothesis 3b, none of the psychological variables correlated
+with self-reported laundry temperature, all ps > 0.24. In support
+of Hypothesis 3b, awareness micro ber harms to animals and
+plants, rs(812) = 0.07, p = 0.04, perceived responsibility, rs(812)
+= 0.08, p = 0.03, and perceived micro ber knowledge, rs(812) =
+0.07, p = 0.04, were weakly related to wearing tops more
+frequently before washing. Moreover, environmentalist iden-
+tity, r
+s(811) = 0.09, p = 0.01, awareness of micro ber harms to
+animals and plants, rs(811) = 0.15, p < 0.001, perceived
+responsibility rs(811) = 0.17, p < 0.001, and perceived microber
+knowledge, rs(811) = 0.15, p < 0.001 were weakly related to
+wearing clothes more before washing. Awareness of micro ber
+harms to animals and plants, rs(812) = 0.17, p < 0.001 and
+perceived responsibility rs(812) = 0.13, p < 0.001, were weakly
+related to washing clothes at full loads.
+Environmentalist identity, rs(797) = 0.10, p = 0.01, aware-
+ness of micro ber harms to animals and plants, rs(797) = 0.18,
+p < 0.001, and perceived responsibility, rs(797) = 0.12, p < 0.001,
+also weakly related to waiting more days until doing laundry.
+The other psychological variables were unrelated to these
+washing behaviors, all p
+s > 0.06.
+Discussion
+Microber emissions from household clothes washing is
+a major contributor to microplastic pollution. 3 Changing
+Table 2 Spearman correlations between demographics and intention to use laundry bags and video-watching and washing behaviors in the
+control survey (Hypothesis 3) ( Ns = 703-814)a
+Range M (SD)
+Gender Age Education
+0–11 6 –88 1 –6
+0.60 (0.49) 47.4 (16.1) 3.03 (1.48)
+Intention to use laundry bags 1 –5 2.92 (0.97) 0.13 −0.08 0.10
+Video-watching (sec) 0.02 –2.46 0.63 (0.93) −0.02 0.43 −0.10
+Temperature (°C) 20 –95 40.99 (9.39) 0.02 −0.01 −0.02
+Wears tops (freq.) 1 –3 2.03 (0.68) −0.08 0.27 0.00
+Wears bottoms (freq.) 1 –3 2.50 (0.69) −0.02 0.12 0.13
+Washing a full load ( 1
+4 to full) 0 –1 0.84 (0.18) 0.05 0.02 0.11
+Days until full load 1 –60 7.72 (5.78) −0.09 0.11 0.13
+a Spearman's rho correlations ( rs). Correlations jrsj $ 0.08 are signi cant at p < 0.05, jrsj $ 0.10 at p < 0.01, and jrsj $ 0.12 at p < 0.001.
+Table 3 Spearman correlations between psychological variables and the intention to use laundry bags and video-watching in the control survey
+(Hypothesis 3) ( Ns = 683–814)a
+Range M (SD)
+Intention to
+use laundry bags
+Video-watching
+(sec)
+1–5 0.02 –2.46
+2.92 (0.97) 0.63 (0.93)
+Social norms 1 –5 3.16 (0.79) 0.30 0.08
+Environmentalist identity 1 –5 3.33 (0.73) 0.36 0.18
+Awareness (harming animals and plants) 1 –5 3.90 (0.84) 0.21 0.15
+Awareness (harming health) robustness 1–5 3.74 (0.84) 0.25 0.08
+Perceived responsibility 1 –5 3.61 (0.76) 0.30 0.10
+Outcome eﬃ cacy (reduce harm) 1 –5 3.59 (0.87) 0.40 0.09
+Outcome eﬃ cacy (drop in the ocean) robustness 1–5 3.64 (0.95) −0.14 0.01
+Personal norm (responsibility to act) 1 –5 3.25 (0.94) 0.56 0.13
+Personal norm (right thing to do) robustness 1–5 3.50 (0.79) 0.54 0.08
+Perceived eﬀort 1 –5 2.72 (1.02) −0.21 −0.12
+Using bags is hard to remember robustness 1–5 2.90 (0.98) −0.21 −0.15
+Bags are a ﬀordablerobustness 1–5 2.53 (1.04) 0.42 0.01
+Bags are durable robustness 1–5 3.25 (0.70) 0.21 0.02
+Bags preserve quality 1 –5 3.22 (0.73) 0.32 0.05
+Bags limit cleaning 1 –5 3.07 (0.87) −0.24 −0.05
+Perceived microber knowledge 1 –4 1.85 (0.75) 0.16 0.07
+Objective microber knowledge 1 –4 2.15 (0.94) 0.08 0.01
+a Spearman's rho correlations ( rs). Correlations jrsj $ 0.07 are signi cant at p < 0.05, jrsj $ 0.09 at p < 0.01, and jrsj $ 0.12 at p < 0.001.
+© 2025 The Author(s). Published by the Royal Society of Chemistry Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 | 1087
+Paper Environmental Science: Advances
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 11 ===
+household behavior requires engaging the public and collecting
+at-home data, and citizen science has a unique potential to
+achieve these goals.
+8 However, previous work rarely assessed
+whether study participation changed the individuals. We pre-
+sented the rst study of typical, real-world household clothes
+washing and micro ber ltration, and demonstrated the
+feasibility of citizen science for studying attitudes and behaviors
+over time. We also surveyed a control group of nearby residents,
+which allowed for testing the generalizability of the citizen
+scientists and higher-powered analyses of whether psycholog-
+ical and demographic factors were associated with pro-
+environmental, emissions-reducing washing behaviors. The
+current study was a relatively severe test of these hypotheses
+compared to previous work
+21 due to tools from psychology such
+as analysis pre-registration (less exibility during data analysis),
+moderately high measurement validity during scale selection,
+and outcome-independent veri cation during analysis, which
+together make these results more credible.
+Specically, previous work o en reported that citizen
+scientists learn or change from their participation, but looking
+closely, that learning was usually unreported or unevaluated.
+12
+In contrast, the current study was longitudinal (multiple time
+points), and designed in collaboration with social psychologists
+to directly assess before-a er changes in knowledge, concern,
+etc., which responds directly to calls for greater validity in the
+citizen science literature.
+21 The changes we observed were
+relatively modest compared to previous claims, which we
+explain with the lack of previous validation and that many
+citizen scientists already reported high environmental concern,
+etc., at baseline, leading to ceiling e ﬀects. Future work could
+rescale the wording of these scale items to avoid ceiling e ﬀects.
+Generalizability
+The citizen scientists were more likely to be female and highly
+educated than the control sample of urban Dutch residents,
+which was consistent with Hypothesis 2a and aligns with
+previous ndings.
+26,27 In terms of psychological factors, the
+citizen scientists identi ed more as environmentalists and
+perceived greater environmental responsibility than the control,
+and there were no signi cant diﬀerences in other psychological
+factors such as social norms about sustainability and microber
+knowledge, which provides mixed support for Hypothesis 2b.
+Fig. 4 Spearman correlations between psychological variables and
+Intention to use laundry bags and video-watching in the control survey
+(Hypothesis 3) ( Ns = 683-814). Note. The boxes represent the inter-
+quartile range of correlation coe ﬃ cients, and each solid line repre-
+sents the median correlation. The dotted lines indicate that
+correlations were signi ﬁcant at p < 0.05 ( jrsj $ 0.07). 68.6% of
+participants stayed on the page of the video for less than 15 seconds.
+The distribution of video-watching is shown in Fig. S1, † and the ﬂoor
+eﬀect may limit correlation size.
+Table 4 Correlations between psychological variables and washing behaviors in the control survey (Urban Dutch) ( Ns = 702-814)a
+Range M (SD)
+Temperature
+(°C)
+Wears tops
+(freq.)
+Wears bottoms
+(freq.)
+Washing a full
+load (1
+4 to full)
+Days until
+full load
+20–95 1 –31 –30 –11 –60
+41.0 (9.39) 2.03 (0.68) 2.50 (0.69) 0.84 (0.18) 7.72 (5.78)
+Social norms 1 –5 3.16 (0.79) 0.02 −0.01 0.01 0.01 −0.04
+Environmentalist identity 1 –5 3.33 (0.73) −0.01 0.05 0.09 0.07 0.10
+Awareness (harming animals and plants) 1 –5 3.90 (0.84) −0.01 0.07 0.17 0.17 0.18
+Awareness (harming health) robustness 1–5 3.74 (0.84) −0.02 0.06 0.10 0.09 0.09
+Perceived responsibility 1 –5 3.61 (0.76) −0.04 0.08 0.15 0.13 0.12
+Perceived microber knowledge 1 –4 1.85 (0.75) 0.01 0.07 0.09 0.06 0.03
+Objective microber knowledge 1 –5 2.15 (0.94) −0.02 −0.02 −0.05 0.03 −0.05
+a Spearman's rho correlations ( rs). Correlations jrsj $ 0.07 are signi cant at p < 0.05 (apart from the correlation between environmentalist identity
+and washing a full load); jrsj $ 0.10 are signi cant at p < 0.01; and jrsj $ .12 are signi cant at p < 0.001.
+1088 | Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 © 2025 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Advances Paper
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 12 ===
+Generally, we expect that the general public would be less
+environmentally concerned than both of these samples that
+agreed to provide data for a study on microplastics and clothes
+washing, and neither sample was representative to the entire
+Dutch population, e.g., the study samples had more women.
+Measuring these demographic and psychological di ﬀerences is
+necessary before claiming that interventions on citizen scien-
+tists would be e ﬀective in other populations. If these demo-
+graphic factors were strongly correlated with key environmental
+behaviors, this would be a greater concern for generalizability
+(see Behavioral Insights below).
+Impact of citizen science participation
+Awareness and perceived responsibility increased modestly
+aer citizen science participation, but there were no signi cant
+changes in psychological outcomes such as environmentalist
+identity, personal norms, social norms about sustainability,
+perceived behavioral control, or intentions to use a laundry bag
+to capture micro bers. We interpret the results as weak to
+mixed evidence for Hypothesis 2. Unexpectedly, a er partici-
+pation the citizen scientists perceived themselves as less
+capable of reducing micro ber pollution by washing clothes in
+a laundry bag. This nding could have been in uenced by
+slightly di ﬀerent item phrasing at sign-up ( “based on
+information [about laundry bags] you just read ”) vs. post-
+intervention ( “based on your experience in the past weeks ”).
+Moreover, this nding was not robust to using an alternative
+item for measuring outcome e ﬃ cacy (that using bags is a ‘drop
+in the ocean ’ compared to structural changes), but it is
+consistent with a recent qualitative nding that when re ecting
+on the topic, people may feel powerless to reduce microplastic
+pollution.
+38 The decrease across our study may have occurred
+because the ber collection process was challenging for
+participants: they had to use the bag, let the bag dry, use a lint
+roller on the inside of the bag, and then remove the lint sheet
+and take a picture. Because the released bers are tiny and
+many are light colored against a light background, it is possible
+the participants did not see many bers or much bene t from
+their eﬀortful behavior. There is anecdotal support for this idea.
+At the conclusion of the study, we held a workshop to share and
+discuss the ndings with the citizen scientists, and some were
+surprised at the amount of bers that were visible on an
+enlarged, high-resolution scan of a lint sheet.
+The evidence here was ambiguous about any decrease in
+perceived eﬃ cacy, but there are promising directions to explore
+any such decreases. Citizen science participants may in some
+cases shi  their perceived responsibility for environmental
+issues from the individual to the collective or governmental
+(e.g., regulation, technology, and large-scale ltration).
+39 We
+Fig. 5 Correlations between Psychological Variables and Washing Behaviors in the Control Survey (Urban Dutch) (Ns = 702-814). Note. The
+boxes represent the interquartile range of correlation coe ﬃ cients, and each solid line represents the median correlation. The dotted lines
+indicate which correlations were signi ﬁcant at p < 0.05: jrsj $ 0.07.
+© 2025 The Author(s). Published by the Royal Society of Chemistry Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 | 1089
+Paper Environmental Science: Advances
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 13 ===
+recommend that future work measures other types of environ-
+mental change eﬃ cacy such as governmental 40 and see whether
+it also changes a er citizen science participation. Overall, the
+citizen scientists only changed their psychological perceptions
+in minor ways despite the intensiveness of the intervention. The
+citizen scientists had high starting awareness, personal norm,
+and eﬃ cacy. Perhaps they believed that they could easily reduce
+microplastics, but participation led to being confronted with
+the complexity and di ﬃ culty of the problem. Further, explor-
+atory analyses suggested that a er participation, the citizen
+scientists saw the bags as more durable and a ﬀordable, and
+they were less concerned that the bags would prevent cleaning,
+compared to before participation. Future work could also focus
+on how citizen science engagement changes practical percep-
+tions like these, rather than abstract goals like environmental
+protection.
+Behavioral Insights from the control group
+With the large control group sample, there was enough statis-
+tical power to identify small relationships between psycholog-
+ical factors and intentions to use the laundry bags, watching
+a video about micro bers, and self-reported washing behaviors.
+Overall, the observed relationships with intentions were small
+to moderate and in the predicted direction (Table 2). The largest
+correlations were with intentions to use a laundry bag to capture
+microplastics, such as r = 0.5–0.6 with personal norms,
+outcome e ﬃ cacy, and nding the bags a ﬀordable.
+Participants were also given the opportunity to watch an
+informative video about microplastics. Most participants skip-
+ped the video (ESI Fig. S1 †), and this oor eﬀect of viewing time
+limited testing relationships with other factors. As expected
+from this restricted range, there were only modest correlations
+like that participants who saw themselves as environmentalists
+watched more of the video, r = 0.18. Also, participants who
+expected that using the bags would be e ﬀortful watched less of
+the video, r = −0.13. It is unclear from this study whether
+psychological factors would be important for other types of
+information seeking about environmental issues, but these
+ndings do not constitute strong evidence of this claim.
+Participants also reported ve behaviors related to greater
+environmental impact of home clothes washing such as the
+temperature and how o en they run loads. The largest rela-
+tionships with a psychological predictor, and still modest in
+size, were that participants with more awareness of microplastic
+harms to animals and plants waited more days before running
+a full load, r = 0.18, and wore their tops and bottoms more
+before washing. Mostly, the psychological factors were unre-
+lated to the self-reported washing behaviors. This pattern of
+null results is notable because of the relatively high attention in
+this study to validity and severe testing,
+17 and suggests that
+environmentalism and attitudes towards micro ber pollution
+may not be important for these behaviors. However, further
+studies with other psychological factors and improved
+measures of behavior ( e.g., beyond self-report) would be needed
+to make a strong claim. One possibility is that washing behavior
+is not perceived as particularly environmentally relevant, and
+therefore less moralized compared to behaviors like littering or
+recycling.
+Across the board, control group demographics were weakly
+associated or not associated with the environmental behavioral
+outcomes. Two ndings were that older participants watched
+the video for longer r = 0.43, and also reported wearing their
+tops (clothing) for more times prior to washing them r = 0.27.
+Overall, whether participants were female, more educated, or
+older did not relate much to environmentally signi cant deci-
+sions around clothes washing, so we reject Hypothesis 3. We
+infer that the demographic di ﬀerences between citizen scien-
+tists and the general public in terms of gender and age, and
+whether this generalizability threatens inferences from the
+citizen scientists to the public, may therefore be only a small
+concern for these clothes washing behaviors. It is unknown
+whether such demographic di ﬀerences might be more associ-
+ated with other environmentally signi cant behaviors.
+Practical implications
+This study further demonstrates that citizen science can e ﬀec-
+tively engage the public in environmental research, in this case
+providing valuable data on household micro ber emissions.
+However, the limited psychological changes observed suggest
+that future interventions should go beyond raising awareness,
+focusing instead on structural and contextual barriers, such as
+cost, convenience, and the perceived e ﬀectiveness of solutions
+to reduce micro ber emissions. For example, scientists could
+pivot from individual, voluntary behavior to support for policy
+change such as micro ber ltration systems in washing
+machines, or subsidies or incentives to adopt ltration or other
+mitigating technology. Similarly, upgrading or prioritizing
+wastewater treatment plant ltration could have a more
+substantial impact on reducing micro ber pollution than
+individual consumer actions alone. For example, a future
+project could inform citizen scientists about how water ltra-
+tion and processing occurs locally,
+41 and then engage them in
+behaviors that in uence policy.
+Limitations
+We explicitly tested the generalizability of the sample to urban
+Dutch residents, but it is unknown how these results would
+generalize to less urban or non-Dutch consumers. In general,
+we speculate that citizen scientists would have completed more
+years of formal education than people who would not volunteer
+for a time-consuming partnership in scienti c studies (as
+observed here). We speculate that in populations with greater
+nancial and time concerns, it would be more diﬃ cult to recruit
+and retain citizen scientists, but there might also be fewer
+ceiling eﬀects for variables like environmental concern.
+Another key limitation is the small sample size of the citizen
+scientists, which caused higher variance in the estimates and
+limited the statistical power to detect small pre-post changes.
+There was also high drop-out before the follow-up survey, as is
+typical for e ﬀortful citizen science projects in our experience,
+likely because of the intensiveness of the required tasks about
+using the fabric bags and collecting and photographing the
+1090 | Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 © 2025 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Advances Paper
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 14 ===
+resulting micro ber sheets. Such dropout is unlikely to have
+occurred at random, so the dropout could also have a ﬀected the
+pre-post tests. Future work could reduce the participant burden
+by using a washing machine lter rather than a manual bag or
+aim to boost retention in other ways like more frequent feed-
+back or higher reimbursement. These issues do not a ﬀect the
+relationships tested in the larger control sample for Hypothesis
+3.
+Another limitation was the reliance on self-report measures.
+Behavioral traces would potentially be another way to record
+how oen washing machines are run or with what settings such
+as load size and temperature. Given the high drop-out rate, the
+intensity of the procedure, and the challenges in processing the
+microber scans, the citizen science data collection methods
+could be improved. For example, researchers could use a ltra-
+tion device attached to the washer that might have advantages
+in the physical-chemical potential (e.g., capturing bers from all
+washed textiles, not just those that were put in the bag). Also,
+participation across many wash cycles would be a reduced
+burden for participants, although installing the ltration device
+could act as a hurdle for participation.
+Conclusions
+We assessed the feasibility of citizen scientists monitoring their
+washing behavior and ltering microplastics at home. Another
+goal was evaluating the impact of participation on attitudes and
+future intentions to reduce microplastic emissions ( e.g.,b y
+using a laundry bag). These goals were overall met. Citizen
+science appears well-suited to studying household washing
+behaviors. The main claims of citizen science having trans-
+formative potential can be well-tested with impact assessments,
+validated pre- and post-measures, and focusing on behavior-
+specic constructs like attitudes towards the e ﬀectiveness of
+the laundry bags. Some of these methods are particularly strong
+in environmental psychology, so further links may be helpful
+between researchers studying environmental outcomes and
+researchers specialized in survey design and behavior
+measurement. In terms of demography and psychological
+factors like identity and awareness, citizen scientists are
+diﬀerent from the general population, but because those factors
+were mostly unrelated to washing behaviors in a control group,
+our study provides initial evidence that such demographic
+diﬀerences may not be a major concern in this domain. It is also
+possible that measurement or sample issues led to false nega-
+tive ndings, so evidence from other samples and behaviors
+would be valuable to add more credibility to this claim.
+According to a major review, the most e ﬀective behavior
+change interventions targeted behavioral skills, attitudes
+towards the behavior, and habits.
+42 Our results are broadly
+consistent with this pattern because factors like environmental
+awareness and knowledge were largely unchanged by partici-
+pation as citizen scientists, and largely unrelated to the key
+washing behaviors that drive environmental impact. This is also
+consistent with a four-country study showing that psychological
+factors were mostly unrelated to greenhouse gas emissions
+from purchasing jeans and t-shirts.
+43 For future research aimed
+at reducing the environmental impact of micro bers, we
+suggest less emphasis on changing concerns and knowledge in
+citizen scientists and the general public. It makes intuitive
+sense that factors like concern are central to pro-environmental
+behavior, but in practice, there are increasing claims that
+environmental behaviors are poorly explained by concern
+alone.
+22 Instead, we recommend identifying the structural,
+contextual, and personal factors that might drive behavior, and
+empirically testing whether they are related and whether citizen
+science participation a ﬀects those behaviors.
+18 Such work has
+a high potential to identify the most important factors driving
+washing decisions. Ultimately, reducing household micro ber
+emissions will be most e ﬀective when it combines these
+insights with top-down environmental policies that reduce ber
+emissions and/or improve capture ( e.g., at the wastewater
+treatment level) with less e ﬀort by individual consumers.
+Data availability
+All (anonymized) data, materials, analysis code, and gures are
+publicly available at https://osf.io/65dz4.
+Author contributions
+Conceptualization (all), data curation (CB, AB, BB, AP, LJ),
+formal analysis (AB), funding acquisition (CB, AP, LJ), investi-
+gation (CB, AB, BB, AP, LJ), methodology (all), project admin-
+istration (LJ), supervision (CB, AP, LJ), visualization (AB, CB),
+writing – original dra (AB, CB), writing – review & editing (all).
+See https://credit.niso.org.
+Conﬂicts of interest
+We report no con icts of interest.
+Acknowledgements
+We thank the University of Amsterdam for a 2022 Sustainable
+Prosperity Seed Grant; the NWO for project CIFINDER
+NWA.1228.192.197 (to AP); and the German PhD Scholarship
+Foundation (to AB).
+References
+1 R. C. Thompson, W. Courtene-Jones, J. Boucher, S. Pahl,
+K. Raubenheimer and A. A. Koelmans, Twenty years of
+microplastic pollution research-what have we learned?,
+Science, 2024, 386(6720), eadl2746. https://www.science.org/
+doi/10.1126/science.adl2746.
+2 D. Eerkes-Medrano, H. A. Leslie and B. Quinn, Microplastics
+in drinking water: A review and assessment, Curr. Opin.
+Environ. Sci. Health , 2019, 7,6 9 –75. https://
+www.sciencedirect.com/science/article/abs/pii/
+S2468584418300436.
+3 A. P. Periyasamy and A. Tehrani-Bagha, A review on
+microplastic emission from textile materials and its
+reduction techniques, Polym. Degrad. Stab. , 2022,
+© 2025 The Author(s). Published by the Royal Society of Chemistry Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 | 1091
+Paper Environmental Science: Advances
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 15 ===
+199(109901), 109901, DOI: 10.1016/
+j.polymdegradstab.2022.109901.
+4 E. Hernandez, B. Nowack and D. M. Mitrano, Polyester
+textiles as a source of microplastics from households: A
+mechanistic study to understand micro ber release during
+washing, Environ. Sci. Technol. , 2017, 51(12), 7036 –7046,
+DOI: 10.1021/acs.est.7b01750.
+5 I. E. Napper and R. C. Thompson, Release of synthetic
+microplastic plastic bres from domestic washing
+machines: E ﬀects of fabric type and washing conditions,
+Mar. Pollut. Bull. , 2016, 112(1–2), 39 –45. https://
+www.sciencedirect.com/science/article/pii/
+S0025326X16307639.
+6 S. N. Athey and L. M. Erdle, Are we underestimating
+anthropogenic micro ber pollution? A critical review of
+occurrence, methods, and reporting, Environ. Toxicol.
+Chem., 2022, 41(4), 822 –837, DOI: 10.1002/etc.5173.
+7 D. Fraisl, G. Hager, B. Bedessem, M. Gold, P.-Y. Hsing,
+F. Danielsen, et al. , Citizen science in environmental and
+ecological sciences, Nat. Rev. Methods Primers , 2022, 2(1),
+1–20. https://www.nature.com/articles/s43586-022-00144-4.
+8 H. Sauermann, K. Vohland, V. Antoniou, B. Bal ´azs, C. Göbel,
+K. Karatzas, et al. , Citizen science and sustainability
+transitions, Resour. Policy , 2020, 49(5), 103978, DOI:
+10.1016/j.respol.2020.103978.
+9 N. Constant and L. Roberts, Narratives as a mode of research
+evaluation in citizen science: understanding broader science
+communication impacts, J. Sci. Commun. , 2017, 16(04), A03.
+https://jcom.sissa.it/article/pubid/JCOM_1604_2017_A03/.
+10 D. Fraisl, J. Campbell, L. See, U. Wehn, J. Wardlaw, M. Gold,
+et al. , Mapping citizen science contributions to the UN
+sustainable development goals, Sustain. Sci. , 2020, 15(6),
+1735–1751, DOI: 10.1007/s11625-020-00833-7.
+11 S. F. Serrano, T. Holocher-Ertl, B. Kieslinger, G. F. Sanz and
+C. G. Silva,
+White paper on citizen science for Europe, European
+Union, 2014, https://ec.europa.eu/futurium/en/system/les/
+ged/socientize_white_paper_on_citizen_science.pdf.
+12 G. Bela, T. Peltola, J. C. Young, B. Bal ´azs, I. Arpin, G. Pataki,
+et al. , Learning and the transformative potential of citizen
+science, Conserv. Biol. , 2016, 30(5), 990 –999, DOI: 10.1111/
+cobi.12762.
+13 U. Wehn, M. Gharesifard, L. Ceccaroni, H. Joyce, R. Ajates,
+S. Woods, et al. , Impact assessment of citizen science:
+state of the art and guiding principles for a consolidated
+approach, Sustain. Sci. , 2021, 16(5), 1683 –1699, DOI:
+10.1007/s11625-021-00959-2.
+14 A. Adamou, Y. Georgiou, D. Paraskeva-Hadjichambi and
+A. C. Hadjichambis, Environmental Citizen Science
+initiatives as a springboard towards the education for
+Environmental Citizenship: A systematic literature review
+of empirical research, Sustainability, 2021, 13(24), 13692.
+https://www.mdpi.com/2071-1050/13/24/13692.
+15 K. R. Vegt, J. E. Elberse, B. T. Rutjens, M. H. Voogt and
+F. Ba ˆadoudi, Impacts of citizen science on trust between
+stakeholders and trust in science in a polarized context, J.
+Environ. Pol. Plan. , 2023, 1 –14, DOI: 10.1080/
+1523908X.2023.2253164.
+16 R. C. Jordan, S. A. Gray, D. V. Howe, W. R. Brooks and
+J. G. Ehrenfeld, Knowledge gain and behavioral change in
+citizen-science programs: Citizen-scientist knowledge gain,
+Conserv. Biol. , 2011, 25(6), 1148 –1154, DOI: 10.1111/j.1523-
+1739.2011.01745.x.
+17 J. K. Flake and E. I. Fried, Measurement Schmeasurement:
+Questionable Measurement Practices and How to Avoid
+Them, Adv. Methods Pract. Psychol. Sci. , 2020, 3(4), 456 –
+465, DOI: 10.1177/2515245920952393.
+18 K. S. Nielsen, V. Cologna, F. Lange, C. Brick and P. Stern, The
+case for impact-focused environmental psychology, J.
+Environ. Psychol. , 2021, 74, 101559, DOI: 10.1016/
+j.jenvp.2021.101559.
+19 F. Lange, S. Berger, K. Byrka, A. Brügger, L. Henn,
+A. C. Sparks, et al. , Beyond self-reports: A call for more
+behavior in environmental psychology, J. Environ. Psychol. ,
+2023, 101965. https://www.sciencedirect.com/science/
+article/pii/S0272494423000130.
+20 F. Lange, What is measured in pro-environmental behavior
+research?, J. Environ. Psychol. , 2024, (102381), 102381, DOI:
+10.1016/j.jenvp.2024.102381.
+21 L. Somerwill and U. Wehn, How to measure the impact of
+citizen science on environmental attitudes, behaviour and
+knowledge? A review of state-of-the-art approaches,
+Environ. Sci. Eur. , 2022, 34(1), 1 –29, DOI: 10.1186/s12302-
+022-00596-1.
+22 K. S. Nielsen, V. Cologna, J. M. Bauer, S. Berger, C. Brick,
+T. Dietz, et al. , Realizing the full potential of behavioural
+science for climate change mitigation, Nat. Clim. Change ,
+2024, 14(4), 322 –330. https://www.nature.com/articles/
+s41558-024-01951-1.
+23 E. van der Wer ﬀ and L. Steg, One model to predict them all:
+Predicting energy behaviours with the norm activation
+model, Energy Res. Soc. Sci. , 2015, 6,8 –14. https://
+hdl.handle.net/11370/1eab2b8f-4d94-4340-a7c7-
+c2e8add28a65.
+24 J. M. Nolan and P. W. Schultz, Prosocial behavior and
+environmental action, The Oxford Handbook of Prosocial
+Behavior. 2015, vol. 787, pp. 626 –652. https://
+psycnet.apa.org/fulltext/2015-47040-030.pdf.
+25 C.-S. Wichmann, D. Fischer, S. M. Geiger, D. Honorato-
+Zimmer, K. Knickmeier, K. Kruse, et al. , Promoting pro-
+environmental behavior through citizen science? A case
+study with Chilean schoolchildren on marine plastic
+pollution, Mar. Policy , 2022, 141(105035), 105035. https://
+www.sciencedirect.com/science/article/abs/pii/
+S0308597X22000823.
+26 M. J. O. Pocock, D. S. Chapman, L. J. Sheppard and H. E. Roy,
+Choosing and Using Citizen Science: a Guide to when and How
+to Use Citizen Science to Monitor Biodiversity and the
+Environment, NERC/Centre for Ecology & Hydrology,
+Wallingford, 2014, https://nora.nerc.ac.uk/id/eprint/
+510644/1/N510644CR.pdf.
+27 S. J. Hobbs and P. C. L. White, Motivations and barriers in
+relation to community participation in biodiversity
+recording, J. Nat. Conserv. , 2012, 20(6), 364 –373. https://
+1092 | Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 © 2025 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Advances Paper
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+=== PDF PAGE 16 ===
+www.sciencedirect.com/science/article/pii/
+S1617138112000933.
+28 M. Abourich, A. Bellamy, A. Ajji and D. Claveau-Mallet,
+Washing machine lters to mitigate microplastics release:
+Citizen science study to estimate micro bers capture
+potential and assess their social acceptability, Environ.
+Chall., 2024, 16, 100984, DOI: 10.1016/j.envc.2024.100984.
+29 J. P. Simmons, L. D. Nelson and U. Simonsohn, False-
+positive psychology: Undisclosed exibility in data
+collection and analysis allows presenting anything as
+signicant, Psychol. Sci. , 2011, 22(11), 1359 –1366. http://
+pss.sagepub.com/content/22/11/1359.
+30 F. Faul, E. Erdfelder, A.-G. Lang and A. Buchner, G *Power 3:
+a exible statistical power analysis program for the social,
+behavioral, and biomedical sciences, Behav. Res. Methods ,
+2007, 39(2), 175 –191, DOI: 10.3758/BF03193146.
+31 F. D. Schönbrodt and M. Perugini, At what sample size do
+correlations stabilize?, J. Res. Pers. , 2013, 47(5), 609 –612.
+https://www.sciencedirect.com/science/article/pii/
+S0092656613000858.
+32 S. Champely, Basic Functions for Power Analysis [R Package
+Pwr] [Internet] , Comprehensive R Archive Network (CRAN),
+2020, https://CRAN.R-project.org/package=pwr.
+33 DeepL Translate [Internet]. Online translation so ware,
+2017, https://www.deepl.com/translator.
+34 C. Brick and C. K. Lai, Explicit (but not implicit)
+environmentalist identity predicts pro-environmental
+behavior and policy preferences, J. Environ. Psychol. , 2018,
+58,8 –17. http://www.sciencedirect.com/science/article/pii/
+S0272494418300549.
+35 T. Joanes, W. Gwozdz and C. A. Klöckner, Reducing personal
+clothing consumption: A cross-cultural validation of the
+comprehensive action determination model, J. Environ.
+Psychol., 2020, 71, 101396. https://www.sciencedirect.com/
+science/article/pii/S0272494418307114.
+36 The Story of Stu ﬀ Project, The Story of Micro
+bers, YouTube,
+2017, https://www.youtube.com/watch?v=BqkekY5t7KY.
+37 J. Cohen, Statistical power analysis for the behavioral sciences ,
+Routledge, London, England, 2nd edn, 2013, p. , p. 567,
+https://www.taylorfrancis.com/books/mono/10.4324/
+9780203771587/statistical-power-analysis-behavioral-
+sciences-jacob-cohen.
+38 L. Fian, L. M. Schmidlechner, U. Felt, T. Hofmann,
+M. P. White and S. Pahl, Microplastics in food and drink:
+perceptions of the risks, challenges, and solutions among
+individuals in the ‘farm-to-fork’ food chain, J. Risk Res. ,
+2024, 1 –24. https://www.tandfonline.com/doi/abs/10.1080/
+13669877.2024.2431900.
+39 N. Chater and G. Loewenstein, The i-frame and the s-frame:
+how focusing on individual-level solutions has led
+behavioral public policy astray, 2022, https://
+papers.ssrn.com/abstract=4046264.
+40 M. H. C. Meijers, A. Wonneberger, R. Azrout, R. Torfad ´ottir
+“Heather” and C. Brick, Introducing and testing the
+personal-collective-governmental e ﬃ cacy typology: How
+personal, collective, and governmental e ﬃ cacy subtypes
+are associated with di ﬀerential environmental actions, J.
+Environ. Psychol. , 2023, 85, 101915, https://
+www.sciencedirect.com/science/article/pii/
+S0272494422001608.
+41 S. Z. Attari, K. Poinsatte-Jones and K. Hinton, Perceptions of
+water systems, Judgm. Decis. Mak. , 2017, 12(3), 314 –327.
+https://www.cambridge.org/core/services/aop-cambridge-
+core/content/view/
+3B5DE03F9D2D3FDD2AA70E2629A61273/
+S193029750000591Xa.pdf/div-class-title-perceptions-of-
+water-systems-div.pdf.
+42 D. Albarrac´ın, B. Fayaz-Farkhad and J. A. Granados Samayoa,
+Determinants of behaviour and their e ﬃ cacy as targets of
+behavioural change interventions, Nat. Rev. Psychol. , 2024,
+3(6), 377 –392, DOI: 10.1038/s44159-024-00305-0.
+43 K. S. Nielsen, C. Brick, W. Hofmann, T. Joanes, F. Lange and
+W. Gwozdz, The motivation –impact gap in pro-
+environmental clothing consumption, Nat Sustainability ,
+2022, 1 –4. https://www.nature.com/articles/s41893-022-
+00888-7
+.
+© 2025 The Author(s). Published by the Royal Society of Chemistry Environ. Sci.: Adv.,2 0 2 5 ,4,1 0 7 9–1093 | 1093
+Paper Environmental Science: Advances
+Open Access Article. Published on 13 May 2025. Downloaded on 1/14/2026 2:14:48 PM. 
+ This article is licensed under a 
+Creative Commons Attribution 3.0 Unported Licence.
+View Article Online

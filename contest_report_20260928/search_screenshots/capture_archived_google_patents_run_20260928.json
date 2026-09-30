@@ -1,0 +1,27 @@
+{
+  "capturedAt": "2026-09-28T03:02:47.580Z",
+  "requestedUrl": "file:///C:/Users/tianhuo/Documents/codex第一个项目/h1-study/team_package_20260928/sources/WO2021116933A1.html",
+  "finalUrl": "file:///C:/Users/tianhuo/Documents/codex%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/h1-study/team_package_20260928/sources/WO2021116933A1.html",
+  "httpStatus": 200,
+  "title": "WO2021116933A1 - Microplastic compactor and method of compacting microplastics - Google Patents",
+  "sourceHtml": "C:/Users/tianhuo/Documents/codex第一个项目/h1-study/team_package_20260928/sources/WO2021116933A1.html",
+  "visibleTextChecks": [
+    "WO2021116933A1",
+    "Microplastic compactor",
+    "Google Patents"
+  ],
+  "screenshots": [
+    {
+      "file": "C:/Users/tianhuo/Documents/codex第一个项目/h1-study/contest_report_20260928/search_screenshots/google_patents_archived_public_record_WO2021116933A1_20260928.png",
+      "sha256": "497ED4172B807083456A0D5332B59883133006A9A915335ED7F796DA84227B93",
+      "byteLength": 116059,
+      "scope": "archived-page header and bibliographic area"
+    },
+    {
+      "file": "C:/Users/tianhuo/Documents/codex第一个项目/h1-study/contest_report_20260928/search_screenshots/google_patents_archived_also_published_as_WO2021116933A1_20260928.png",
+      "sha256": "4A9415DF6225981693FC60505A1F042E100AF704B08EC52C126EDC110AB24F67",
+      "byteLength": 173992,
+      "scope": "archived-page Also Published As section including CN115087774A"
+    }
+  ]
+}

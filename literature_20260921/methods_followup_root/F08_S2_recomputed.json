@@ -1,0 +1,32 @@
+{
+  "scope": "Recompute from author S2 Table printed rounded values; retain source without alteration.",
+  "n": 79,
+  "load_kg": {
+    "n": 79,
+    "mean": 3.131645569620253,
+    "sample_sd": 1.0235827354729685
+  },
+  "fiber_mg": {
+    "n": 79,
+    "mean": 316.99493670886073,
+    "sample_sd": 136.79580412175096
+  },
+  "reported_ppm": {
+    "n": 79,
+    "mean": 113.97936708860759,
+    "sample_sd": 66.78777042093422
+  },
+  "low_load_ppm": {
+    "n": 57,
+    "mean": 132.37263157894736,
+    "sample_sd": 68.57759568876068
+  },
+  "high_load_ppm": {
+    "n": 22,
+    "mean": 66.32409090909091,
+    "sample_sd": 27.009069492459098
+  },
+  "max_abs_difference_printed_ppm_vs_mass_ratio": 0.02736842105264259,
+  "source_docx_sha256": "141aed4873f95b30819d045653ff0b94c232bfeb64a5250d7312ad5a3b3d5ce7",
+  "interpretation": "S2 has 79 numbered observations; it supports the abstract and Fig2 sample count while the main paragraph n=72 remains an unresolved textual discrepancy, not silently corrected."
+}

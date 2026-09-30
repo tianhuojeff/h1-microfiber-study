@@ -1,0 +1,176 @@
+[
+  {
+    "id": "C01",
+    "problem": "现稿结论把“证据组织方法”放在技术问题之前",
+    "required_action": "重写正文主线与结论，优先回答结构、动作、顺序和路径差异",
+    "acceptance": "新旧正文对照与技术结论索引",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C02",
+    "problem": "旧稿以“实际移出 0/14、最终去向实证 0/14”构成主要证据缺口链",
+    "required_action": "撤下作为主分析的缺口链；未验证问题移至局限和验证建议，不用缺实测否定技术披露",
+    "acceptance": "新图表及对应段落",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C03",
+    "problem": "“文本移出路径 4/14”疑似混用不同判定条件",
+    "required_action": "对全部现有样本重新编码；旧数字在修订正文中暂停使用",
+    "acceptance": "逐件判定表、证据定位、自动复算",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C04",
+    "problem": "CN112914464A 被排除于文本移出路径",
+    "required_action": "核查原文权利要求 22—23 及必要的前后项，辨别容器移除、排空、拆分和处置叙述",
+    "acceptance": "具体版本、原文摘录及边界判断；权项号必须实核",
+    "status": "primary_text_issue_resolved; whole-report propagation pending",
+    "evidence": [
+      "data/analysis_master.json",
+      "evidence/priority_review_cards.md"
+    ],
+    "verified_at": "2026-09-29T23:13:03.436332+08:00"
+  },
+  {
+    "id": "C05",
+    "problem": "CN115637570A 仅记为“可拆过滤袋，具体倒出未知”",
+    "required_action": "核查权利要求 8 及说明书关于开门、取出过滤袋、清理的内容；不要以缺少实测倒出记录否认文本路径",
+    "acceptance": "过滤袋承载关系与操作定位",
+    "status": "primary_text_issue_resolved; whole-report propagation pending",
+    "evidence": [
+      "data/analysis_master.json",
+      "evidence/priority_review_cards.md"
+    ],
+    "verified_at": "2026-09-29T23:13:03.436332+08:00"
+  },
+  {
+    "id": "C06",
+    "problem": "CN222043626U 仅记为“收集盒可拆，实际移出未知”",
+    "required_action": "核查说明书关于拆盖、露出并取出收集盒、是否需要断开管路的披露",
+    "acceptance": "拆装动作、部件关系与原文定位",
+    "status": "primary_text_issue_resolved; whole-report propagation pending",
+    "evidence": [
+      "data/analysis_master.json",
+      "evidence/priority_review_cards.md"
+    ],
+    "verified_at": "2026-09-29T23:13:03.436332+08:00"
+  },
+  {
+    "id": "C07",
+    "problem": "“残留液降低／去除 2/14”字段混合不同对象",
+    "required_action": "分开腔体排液、固体脱水、循环液路和泄漏／残留验证；重核全部样本",
+    "acceptance": "新字段字典与复算表",
+    "status": "dictionary_done; all-sample_recode_pending",
+    "evidence": [
+      "data/field_dictionary.md"
+    ]
+  },
+  {
+    "id": "C08",
+    "problem": "CN115087774A／WO2021116933A1 存在分水压缩线索，但旧“残留”仍未知",
+    "required_action": "核查各自版本的相关权利要求，尤其既有审查提到的权利要求 24；不得直接互换 CN 与 WO 项号",
+    "acceptance": "对应文本证据及跨版本差异",
+    "status": "primary_text_issue_resolved; whole-report propagation pending",
+    "evidence": [
+      "data/analysis_master.json",
+      "evidence/priority_review_cards.md"
+    ],
+    "verified_at": "2026-09-29T23:13:03.436332+08:00"
+  },
+  {
+    "id": "C09",
+    "problem": "核心样本未建立满足参赛要求的法律状态清单",
+    "required_action": "逐件识别授权成员、法域、核验时点和状态来源；分层组织样本",
+    "acceptance": "法律状态与样本资格表",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C10",
+    "problem": "CN115637570A 可能已有 CN115637570B 授权版本",
+    "required_action": "把 B 文本作为待核线索，核对授权关联、公告日期和当前状态；不要把旧助手说法当成已核事实",
+    "acceptance": "官方或权威原始记录及授权文本",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C11",
+    "problem": "主矩阵和团队包矩阵存在 5 个样本行差异",
+    "required_action": "对 CN115700309A、CN118273060A、WO2022084677A1、WO2024199585A1、WO2024250011A1 逐字段比对原文；不直接认定较新文件全部正确",
+    "acceptance": "字段级差异表、裁定及新版本哈希",
+    "status": "six_fields_primary_text_decided; final_export_pending",
+    "evidence": [
+      "data/matrix_conflict_decisions.json",
+      "data/analysis_master.json"
+    ]
+  },
+  {
+    "id": "C12",
+    "problem": "旧稿检索截图主要为已保存专利页的离线回放",
+    "required_action": "保留其真实属性；补真实、有限的定向检索记录，不倒填日期",
+    "acceptance": "补充检索日志、原始结果与截图",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C13",
+    "problem": "一次即时命中 98 没有完整导出",
+    "required_action": "不建立“98→16→14”筛选漏斗，不伪造记录，不用 98 作比例分母",
+    "acceptance": "新检索叙述及统计检查",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C14",
+    "problem": "构建脚本存在写死的样本数量、日期、范围、图注等内容",
+    "required_action": "将动态事实从当前数据和配置读取，不用旧固定字符串覆盖新正文",
+    "acceptance": "更新脚本、构建日志和一致性测试",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C15",
+    "problem": "旧构建函数遇 Markdown 表格行直接跳过",
+    "required_action": "支持真实 Word 表格或其他经过核验的表格渲染，避免关键矩阵在 DOCX 中消失",
+    "acceptance": "MD／DOCX／PDF 表格行数、关键单元格与页图核验",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C16",
+    "problem": "权项文本空文件或抽取不全可能被误读为没有内容",
+    "required_action": "检查 WO2024199585A1 等文件的读取完整性；必要时回原 PDF 页面，不能以 0 字节抽取本作负向证据",
+    "acceptance": "页面定位与读取完整性记录",
+    "status": "WO2024199585A1_empty_claims_handled_by_original_pages; wider_read_completeness_pending",
+    "evidence": [
+      "evidence/WO2024199585A1_physical28.png",
+      "evidence/WO2024199585A1_physical29.png"
+    ]
+  },
+  {
+    "id": "C17",
+    "problem": "“只能读取独立项”或把说明书披露弱化为无证据",
+    "required_action": "分开技术披露来源与权利要求限定，纳入相关从属项和本发明实施方式",
+    "acceptance": "新证据字段及正反例复核",
+    "status": "pending",
+    "evidence": []
+  },
+  {
+    "id": "C18",
+    "problem": "README、路线图、记忆仍可能把旧计数／旧完成状态当当前事实",
+    "required_action": "增加修订接续记录和当前版本入口，保留历史但撤销其当前效力",
+    "acceptance": "当前入口、规则区块、状态清单",
+    "status": "current_entry_and_rules_corrected; final_P7_release_pending",
+    "evidence": [
+      "../../../../AGENTS.md",
+      "../../../AGENTS.md",
+      "../../../current_release.json",
+      "handoff.md",
+      "QA/P0_P1_acceptance.json"
+    ]
+  }
+]

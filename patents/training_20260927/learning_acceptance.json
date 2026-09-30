@@ -1,0 +1,29 @@
+[
+  {
+    "file_id": 143,
+    "transcript_sha256": "95143510e52bfb31d5ff866897aa8bdd78d0d9318de8333b62c4d02b4ee1875b",
+    "complete_transcript_read": true,
+    "key_visual_review": true,
+    "raw_asr_not_verbatim_verified": true,
+    "duration_seconds": 3445.253,
+    "frame_directory": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\任务\\2026-09-27-专利培训复核\\frames\\143"
+  },
+  {
+    "file_id": 147,
+    "transcript_sha256": "956e804ecec75a38b410d214a3702cb154bc677c4d7943abb9f80d8fa6899e48",
+    "complete_transcript_read": true,
+    "key_visual_review": true,
+    "raw_asr_not_verbatim_verified": true,
+    "duration_seconds": 2761.568,
+    "frame_directory": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\任务\\2026-09-27-专利培训复核\\frames\\147"
+  },
+  {
+    "file_id": 146,
+    "transcript_sha256": "a496ee0b7206a6840b847fab5cd4d56d49bddd08a7aeba822476ade18b1f1698",
+    "complete_transcript_read": true,
+    "key_visual_review": true,
+    "raw_asr_not_verbatim_verified": true,
+    "duration_seconds": 3496.192,
+    "frame_directory": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\任务\\2026-09-27-专利培训复核\\frames\\146"
+  }
+]

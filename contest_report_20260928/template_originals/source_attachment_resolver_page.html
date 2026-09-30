@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css"/>
+
+
+    <link rel="stylesheet" href="/static/bootstrap/icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/lightbox/css/lightbox.css">
+
+    <!-- bootstrap需要jQuery -->
+    <script src="/static/js/jquery-1.9.1.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="/static/lightbox/js/lightbox.js"></script>
+
+    <script src="https://img.iduodou.com/images/web/js/vue.min.v3.2.31.js"></script>
+    <script src="/static/js/vue/axios.min.js"></script>
+
+    <script src="/static/js/common.js"></script>
+    <script src="/static/layer/layer.js"></script>
+    <script src="/static/js/clipboard.min.js"></script>
+    <script src="/static/js/clipboard-polyfill.promise.js"></script>
+
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+
+    <script src="/static/js/jsQR.min.js"></script>
+    <script src="/static/js/jquery-qrcode-0.18.0.min.js"></script>
+    <title>打开小程序</title>
+    <link rel="shortcut icon" type="image/ico" href="/static/images/open_logo.png">
+    <style type="text/css">
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #F7F7F7;
+            font-size: 18px;
+        }
+
+        .container {
+            padding-top: 40px;
+        }
+
+        .xcx_name {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+
+        .sure_btn {
+            background: #FFFFFF;
+            display: flex;
+            align-items: center;
+            border: 0;
+            width: 100%;
+            padding: 24px 0;
+            border-radius: 8px;
+            margin-top: 40px;
+            box-shadow: 0 0 8px #eeeeee;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            margin-left: 20px;
+        }
+
+        .text {
+            margin-left: 10px;
+            color: #333333;
+        }
+
+        .tips {
+            font-size: 17px;
+            text-align: left;
+        }
+
+        .sub_tips {
+            font-size: 14px;
+            color: #555555;
+            text-align: left;
+            margin-top: 3px;
+            font-weight: 300;
+        }
+
+        .rg_icon {
+            width: 26px;
+            height: 26px;
+            margin-left: auto;
+            margin-right: 20px;
+        }
+
+        .sure_btn:focus {
+            outline: none;
+        }
+
+        .qr_code {
+            max-width: 380px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            margin: 20px auto;
+            padding: 40px 0;
+            box-shadow: 0 4px 6px 0 rgba(0,0,0,.08);
+        }
+
+        .code_title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+
+        .code_img {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .code {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .logo_icon {
+            display: block;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            border-radius: 50%;
+            border: 6px solid #FFFFFF;
+            background: #FFFFFF;
+        }
+
+        .code_tips {
+            width: 300px;
+            margin: 20px auto 0;
+            text-align: center;
+            font-size: 16px;
+            color: #888888;
+        }
+
+        .canvas {
+            position: fixed;
+            left: -10000px;
+            bottom: -10000px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div class="content">
+        <div class="container">
+            <div class="xcx_name">{{name}}</div>
+            <a href="javascript:void(0);" target="_blank" @click="downloadFile" class="sure_btn" v-if="!detail.uuid || !showCode">
+                <img class="icon" :src="detail.uuid ? ('/static' + detail.icon) : '/static/images/loading2.gif'"/>
+                <div class="text">
+                    <div class="tips">{{detail.name || errorTips}}</div>
+                    <div class="sub_tips">点击按钮开始下载文件</div>
+                </div>
+                <img class="rg_icon" src="/static/images/down.png"/>
+            </a>
+
+            <div class="qr_code" v-if="detail.uuid && showCode">
+                <div class="code_title">{{detail.name}}</div>
+                <div class="code_img">
+                    <img class="code" @error="onCodeError" :src="'http://docx.here325.com/doc/qr/code?uuid=' + detail.uuid"/>
+<!--                    <img class="logo_icon" src="/static/images/open_logo.png"/>-->
+                </div>
+                <div class="code_tips">请使用微信扫一扫，扫描查看/下载文档</div>
+            </div>
+        </div>
+    </div>
+
+    <canvas class="canvas" id="qrCodeCanvas" width="660" height="660"></canvas>
+</div>
+
+</body>
+
+<!-- TODO 未完工的页面，当前页用于在非微信环境下打开小程序的备选网页 -->
+<!-- TODO 个人小程序不支持从网页端唤起 -->
+
+<script type="application/javascript">
+    axios.defaults.withCredentials = true;
+    axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
+    const app = Vue.createApp({
+        data() {
+            return {
+                xcx: '',
+                uuid: '',
+                detail: {},
+                xcxLink: '',
+                downLink: '',
+                errorTips: '正在加载中',
+                isMobile: true,
+                isAliApp: false,
+                showCode: true
+            }
+        },
+        mounted() {
+            let param = this.getQueryString();
+            let uuid = param['uuid'];
+            this.xcx = param['xcx'];
+            this.uuid = uuid;
+            this.loadDetail(uuid);
+
+            this.xcx = param['xcx'];
+            this.name = param['name'];
+
+            //是否移动端
+            this.isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            //是否支付宝
+            this.isAliApp = /AliApp/i.test(navigator.userAgent);
+            this.initQrCode();
+        },
+        methods: {
+            initQrCode: function() {
+                let href = window.location.href;
+                //this.codeUrl = this.getViewCodeUrl(href);
+            },
+            onCodeError: function () {
+                this.showCode = false;
+            },
+            getQueryString: function() {
+                let url = location.search, param = {};
+                if (url.indexOf('?') < 0) return param;
+
+                let str = url.substr(1);
+                let arr = str.split('&');
+                for (let i in arr) {
+                    param[arr[i].split('=')[0]] = decodeURI(arr[i].split('=')[1]);
+                }
+                return param;
+            },
+            getViewCodeUrl: function (text) {
+                let canvas = $("#qrCodeCanvas")[0];
+                let ctx = canvas.getContext("2d");
+                ctx.fillStyle = "#FFFFFF";
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                $("#qrCodeCanvas").qrcode({
+                    render: 'canvas',
+                    text: text,
+                    mode: 4,
+                    size: 600,
+                    left: 30,
+                    top: 30,
+                    background: '#FFFFFF'
+                });
+
+                let base64Url = canvas.toDataURL("image/png");
+                return base64Url;
+            },
+            loadDetail: function (uuid) {
+                let self = this;
+                let params = new URLSearchParams();
+                params.append("uuid", this.uuid);
+                axios.post('/attachment/detail/web', params).then(function (res) {
+                    let detail = res.data.data;
+                    self.detail = detail;
+                    self.initXcxInfo(detail)
+                });
+            },
+            //获取小程序跳转参数
+            initXcxInfo: function(detail) {
+                let appid = detail.appid;
+                let pathStr = detail.path;
+                let pathArr = pathStr.split('?');
+                let path = pathArr[0];
+                let query = encodeURIComponent(pathArr[1]);
+                this.downLink = detail.url;
+                this.xcxLink = 'weixin://dl/business/?appid=' + appid + '&path=' + path + '&query=' + query + '&env_version=release';
+            },
+            downloadFile: function () {
+                let detail = this.detail;
+                let url = detail.url;
+                if (url.indexOf('.pdf') > 0 || url.indexOf('.PDF') > 0) {
+                    this.startDownload(url, detail.name);
+                    //this.downloadPdf(url, detail.name);
+                } else {
+                    this.startDownload(url, detail.name);
+                }
+            },
+            downloadPdf: function(url, filename) {
+                let self = this;
+                fetch(url, {
+                    method: 'get',
+                    responseType: 'arraybuffer',
+                }).then(function (res) {
+                    if (res.status !== 200) {
+                        return res.json()
+                    }
+                    return res.arrayBuffer()
+                }).then((blobRes) => {
+                    // 生成 Blob 对象，设置 type 等信息
+                    const e = new Blob([blobRes], {
+                        type: 'application/octet-stream',
+                        'Content-Disposition':'attachment'
+                    })
+                    const link = window.URL.createObjectURL(e)
+                    self.startDownload(link, filename)
+                }).catch(err => {
+                    console.error(err)
+                })
+            },
+            startDownload: function(url, filename){
+                let a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                a.click();
+                this.addDownCount();
+            },
+            addDownCount: function () {
+                let detail = this.detail;
+                let params = new URLSearchParams();
+                params.append("id", detail.id);
+                axios.post('/attachment/down/done/h5', params).then(function (res) {
+                    console.log(res);
+                });
+            }
+        }
+    }).mount('#app');
+</script>
+</html>

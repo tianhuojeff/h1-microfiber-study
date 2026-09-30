@@ -1,0 +1,16 @@
+{
+  "source": "CN115298383A PDF p20 [0123]-[0129]",
+  "area_m2": 0.04908738521234052,
+  "free_volume_L": 14.726215563702155,
+  "bed_volume_L": 12.271846303085129,
+  "estimated_dry_sand_mass_kg": 18.46299276299158,
+  "clean_6Lmin_superficial_velocity_m_s": 0.0020371832715762603,
+  "minimum_fluidization_flow_L_s": 9.5720401164064,
+  "30L_s_superficial_velocity_m_s": 0.6111549814728781,
+  "30L_s_over_minimum": 3.1341281101173237,
+  "dry_bed_weight_per_area_Pa": 3689.7862500000006,
+  "water_head_2000Pa_cm": 20.38735983690112,
+  "water_head_4000Pa_cm": 40.77471967380224,
+  "15L_at6Lmin_min": 2.5,
+  "scope": "Arithmetic audit of disclosed example; not empirical validation. Dry bed estimate neglects air buoyancy; blower operating point unknown."
+}

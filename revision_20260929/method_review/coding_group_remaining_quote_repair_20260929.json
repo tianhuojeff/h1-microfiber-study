@@ -1,0 +1,38 @@
+{
+  "schema_version": "technical-coding-v1-quote-repair-20260929",
+  "scope": "Six failed ellipsis quotes only. Each replacement is a contiguous literal fragment from the stated saved source; apply only after parent-level semantic review.",
+  "repairs": [
+    {
+      "publication": "CN115298383A", "field": "transfer", "judgment": "explicit",
+      "replacement_evidence": [{"source_path":"h1-study/team_package_20260928/sources/CN115298383A_claims.txt","source_sha256":"4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748","locator":"claim 19","quote":"进一步包含在所述流化再生阶段之后的至少一个步骤，包含从所述再生阶段收集所述微纤维，优选通过位于所述颗粒介质(30)的流化再生装置下游的膜过滤器和/或旋流室。","evidence_type":"claim"}],
+      "verification_status":"literal_and_hash_verified"
+    },
+    {
+      "publication": "CN116282270A", "field": "cleaning", "judgment": "explicit",
+      "replacement_evidence": [{"source_path":"h1-study/team_package_20260928/sources/CN116282270A.html","source_sha256":"68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15","locator":"description p0012 [0009]","quote":"通过所述低压区将污水总管内的污水吸入到中空套管内，同时将所述第一单元中被截留在微塑料过滤网上的固体杂质吸出，对微塑料过滤网形成反冲洗；","evidence_type":"description"}],
+      "verification_status":"literal_and_hash_verified"
+    },
+    {
+      "publication": "CN116282270A", "field": "transfer", "judgment": "explicit",
+      "replacement_evidence": [
+        {"source_path":"h1-study/team_package_20260928/sources/CN116282270A.html","source_sha256":"68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15","locator":"description p0030 [0027]","quote":"滤网上的微塑料等固体杂质随增压后的污水则沿着中空套管通过切向入口进入旋流器中，","evidence_type":"description"},
+        {"source_path":"h1-study/team_package_20260928/sources/CN116282270A.html","source_sha256":"68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15","locator":"description p0030 [0027]","quote":"进入微塑料收集腔中，实现微塑料等固体杂质与水的分离。","evidence_type":"description"}
+      ], "verification_status":"literal_and_hash_verified"
+    },
+    {
+      "publication": "CN117702432A", "field": "state_switch", "judgment": "explicit",
+      "replacement_evidence": [{"source_path":"h1-study/team_package_20260928/sources/CN117702432A_claims.txt","source_sha256":"DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81","locator":"claim 1","quote":"每一所述控制阀门能够开启或关闭，以将相邻两个过滤腔室中的一个连通于所述进水口和所述出水口，并通过所述连通的对应过滤腔室的过滤网进行过滤。","evidence_type":"claim"}],
+      "verification_status":"literal_and_hash_verified"
+    },
+    {
+      "publication": "WO2023047385A1", "field": "transfer", "judgment": "explicit",
+      "replacement_evidence": [{"source_path":"h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt","source_sha256":"35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707","locator":"claim 1","quote":"and a secondary flow mechanism that delivers the micro-sized particles from the microparticle filter to a removable collection chamber.","evidence_type":"claim"}],
+      "verification_status":"literal_and_hash_verified"
+    },
+    {
+      "publication": "WO2023047385A1", "field": "removal", "judgment": "explicit",
+      "replacement_evidence": [{"source_path":"h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt","source_sha256":"35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707","locator":"claim 1","quote":"and a secondary flow mechanism that delivers the micro-sized particles from the microparticle filter to a removable collection chamber.","evidence_type":"claim"}],
+      "verification_status":"literal_and_hash_verified"
+    }
+  ]
+}

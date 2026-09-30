@@ -1,0 +1,2882 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-29",
+  "status": "working_NOT_ACCEPTED",
+  "final_statistics_allowed": false,
+  "legal_gate": "all_14_candidate_status_unknown",
+  "inputs": [
+    {
+      "file": "coding_group_review_cases.json",
+      "sha256": "288fc2913d36fa1d392d7db4638431f560a674dc9adcdc874d56711836afd7f7"
+    },
+    {
+      "file": "matrix_audit/coding_group_conflicts.json",
+      "sha256": "59bee5d3cc4c99216d15838eb3dc244f23005065335874b1c727009c787b0936"
+    },
+    {
+      "file": "method_review/coding_group_remaining.json",
+      "sha256": "5caac1352aa5ebb20172e8eaeedfa9525904987c81430c7cc3cae297b14081dc"
+    }
+  ],
+  "records": [
+    {
+      "publication": "CN112914464A",
+      "family_id": "72658993",
+      "reviewed_version": "CN112914464A",
+      "legal_status_as_of": "unknown",
+      "analysis_date": "2026-09-29",
+      "sources": [
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+          "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+          "url": "https://patents.google.com/patent/CN112914464A/zh",
+          "source_kind": "saved_publication_full_text_mirror"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "explicit",
+          "summary": "泵31经反冲洗管线42和入口27反冲洗主过滤设备26；不是仅有容器移除。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0035]",
+              "html_id": "p0055",
+              "quote": "在阀33的最底位置处，泵31可借助于反冲洗管线42将水泵送到过滤器设备26的反冲洗入口27中。因此，过滤设备26可被反冲洗，或者积聚在其中的过滤物质可从其中移除，这是非常重要的。所述过滤物质可通过过滤物质管线44朝向转换抽屉20输送，以便在转换抽屉20处被收集，如引言中已解释的。泵31以及阀33和38还由洗衣机11的控制器46致动。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "反冲洗使过滤物质从过滤设备26经管线44转移至转换抽屉内的过滤物质容器；带液转移。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0035]",
+              "html_id": "p0055",
+              "quote": "在阀33的最底位置处，泵31可借助于反冲洗管线42将水泵送到过滤器设备26的反冲洗入口27中。因此，过滤设备26可被反冲洗，或者积聚在其中的过滤物质可从其中移除，这是非常重要的。所述过滤物质可通过过滤物质管线44朝向转换抽屉20输送，以便在转换抽屉20处被收集，如引言中已解释的。泵31以及阀33和38还由洗衣机11的控制器46致动。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0037]",
+              "html_id": "p0057",
+              "quote": "在左手侧区域中，转换抽屉20具有呈一种凹入腔室的形式的过滤物质接收器60或过滤物质容器63，类似于右侧上的洗涤剂接收器50或洗涤剂容器53。收集的过滤物质65被直接引入到过滤物质接收器60或过滤物质容器63中，使得过滤物质65与过滤物质接收器60或过滤物质容器63的壁接触。示意性地图示的过滤物质入口68用于引入过滤物质65，并延伸通过闭合的过滤物质容器63的原本闭合的上壁。如上文已解释的，所述过滤物质65由泵31经由反冲洗管线42移动到过滤器设备26的反冲洗入口27中，并因此从过滤器设备26移动出。因此，所述过滤物质65不在过滤物质容器63中产生，而是仅收集在其中以用于集中处置。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "solids_dewatering": {
+          "judgment": "explicit",
+          "summary": "可选实施例在收集容器底设置额外过滤器62及底部出口，使水流走并回导水装置，以浓缩/增稠并减少过滤物质含水量；属于收集后分离，非所有实施例必有。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0038]",
+              "html_id": "p0058",
+              "quote": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或包含较少的水，也就是说是更干燥的，则该额外的过滤器62是有利的。因此，在过滤物质容器63中或其上具有额外过滤器62的该实施例较少关注作为水清洁的重新过滤，而是较多关注过滤物质的进一步集中或增稠。额外的过滤器应当呈简单的设计，因为它可能与过滤物质一起被直接处置或丢弃。与过滤器设备26对比，额外的过滤器也不需要可反冲洗或可多次使用。例如，额外的过滤器可非常简单地由滤纸或过滤无纺布组成。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "chamber_drainage": {
+          "judgment": "unresolved",
+          "summary": "权22排空的是过滤物质容器内容物；当前所审段未落实单独的维护前腔体残液排空程序，不能将权22直接归为残液排空。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求22",
+              "html_id": "cl0022",
+              "quote": "22.用于操作根据权利要求1所述的家庭用具的方法，其中，所述过滤物质容器和/或所述洗涤剂容器从所述家庭用具移除，其中所述过滤物质容器被排空或被移除以用于排空，并且其中所述洗涤剂容器被排空或被移除以用于填充满。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0038]",
+              "html_id": "p0058",
+              "quote": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或包含较少的水，也就是说是更干燥的，则该额外的过滤器62是有利的。因此，在过滤物质容器63中或其上具有额外过滤器62的该实施例较少关注作为水清洁的重新过滤，而是较多关注过滤物质的进一步集中或增稠。额外的过滤器应当呈简单的设计，因为它可能与过滤物质一起被直接处置或丢弃。与过滤器设备26对比，额外的过滤器也不需要可反冲洗或可多次使用。例如，额外的过滤器可非常简单地由滤纸或过滤无纺布组成。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "待查其他实施例是否另有明确排空程序；收集物排空和腔内残液排空不同。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "主过滤出水经水管29、泵31，可排至流出物18或返回滚筒/抽屉；反冲洗支路送过滤物质至容器；可选二次过滤水回导水装置/水管22。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0033]",
+              "html_id": "p0053",
+              "quote": "水管线22从转换抽屉20导引至滚筒14，或者导引至滚筒14中，或者导引至在其中布置滚筒的滚筒接收器中。水流入物16在这里通向转换抽屉20，其中流入的新鲜水也可仅流过。备选地，水流入物16也可通向水管线22。贮槽出口23从滚筒14或对应的滚筒接收器导引出，并借助于出口管线24导引至过滤器设备26中。所述过滤器设备26呈精细过滤器的形式，并且它特别地用于从排放的或循环的水中过滤出小颗粒，诸如洗涤衣物的纤维磨损颗粒，特别是在由塑料或所谓的微纤维(也就是说微塑料)构成的纤维的情况下。经过滤的水可通过水管线29流到泵31。过滤器设备26可设计成例如如从引言中所提到的现有技术中已知的那样。此外，过滤器设备26也可借助于阀和管线(这里未图示)绕过。因此，例如，仅当在洗衣机11中洗涤具有分离出所陈述的由塑料(如所谓的微塑料)构成的小颗粒或纤维的人造或合成纤维的衣物时，过滤器设备26才可被使用或连接到水回路中。对于这种检测，可使用操作者输入装置，或者备选地，这可借助于传感器来建立。作为精细过滤器，过滤器设备26也可呈多级设计，也就是说具有一个接一个的多个过滤装置，有利地作为壳体中的结构单元。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0034]",
+              "html_id": "p0054",
+              "quote": "可呈三通阀或四通阀的形式的阀33位于泵31的后方。直路径导引至从洗衣机11出来的流出物18。朝向顶部的路径导引至返回管线36，返回管线36导引至呈三通阀的形式的阀38。因此，泵31可将水直接泵回到滚筒14中。备选地，泵31可将水通过另外的返回管线36泵送到转换抽屉20，例如，以便以这种方式将洗涤剂从所述转换抽屉冲洗或输送到水管线22中，并且因此输送到滚筒14中。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0035]",
+              "html_id": "p0055",
+              "quote": "在阀33的最底位置处，泵31可借助于反冲洗管线42将水泵送到过滤器设备26的反冲洗入口27中。因此，过滤设备26可被反冲洗，或者积聚在其中的过滤物质可从其中移除，这是非常重要的。所述过滤物质可通过过滤物质管线44朝向转换抽屉20输送，以便在转换抽屉20处被收集，如引言中已解释的。泵31以及阀33和38还由洗衣机11的控制器46致动。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0038]",
+              "html_id": "p0058",
+              "quote": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或包含较少的水，也就是说是更干燥的，则该额外的过滤器62是有利的。因此，在过滤物质容器63中或其上具有额外过滤器62的该实施例较少关注作为水清洁的重新过滤，而是较多关注过滤物质的进一步集中或增稠。额外的过滤器应当呈简单的设计，因为它可能与过滤物质一起被直接处置或丢弃。与过滤器设备26对比，额外的过滤器也不需要可反冲洗或可多次使用。例如，额外的过滤器可非常简单地由滤纸或过滤无纺布组成。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "权22明示过滤物质容器移除及排空/移除后排空；权23为整体结构单元移除后机械拆分容器；权25柔性双腔袋移除；不同实施方式分别保留。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求22",
+              "html_id": "cl0022",
+              "quote": "22.用于操作根据权利要求1所述的家庭用具的方法，其中，所述过滤物质容器和/或所述洗涤剂容器从所述家庭用具移除，其中所述过滤物质容器被排空或被移除以用于排空，并且其中所述洗涤剂容器被排空或被移除以用于填充满。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求23",
+              "html_id": "cl0023",
+              "quote": "23.根据权利要求22所述的方法，其特征在于，当移除所述过滤物质容器和/或所述洗涤剂容器时，在从所述家庭用具移除所述整个结构单元之后，将相应的所述容器从所述结构单元机械地拆分，其中所述拆分的容器或两个容器被处置或被交给处置公司。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求25",
+              "html_id": "cl0025",
+              "quote": "25.根据权利要求22所述的方法，其特征在于，所述洗涤剂容器和所述过滤物质容器共同呈根据权利要求14所述的柔性双腔室袋的形式，其中所述双腔室袋布置在所述用于洗涤剂和过滤物质的单个公共接收器中，并从所述单个公共接收器中移除，其中所述双腔室袋被处置或被交给处置公司。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求26",
+              "html_id": "cl0026",
+              "quote": "26.根据权利要求22所述的方法，其特征在于，为了移除所述过滤物质容器和所述洗涤剂容器的目的，将所述整个结构单元从所述家庭用具移除并处置，其中，随后将具有填充的洗涤剂容器和空的过滤物质容器的新结构单元插入到所述家庭用具中。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。",
+          "removal_object": [
+            "collection_chamber",
+            "collection_bag"
+          ],
+          "integrated_or_separate": "可单独容器、双腔袋或完整结构单元；非同一实施例全部并存",
+          "text_disclosed_only": true
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "控制器驱动泵及阀33/38，切换排水、回水和反冲洗；后续由用户按填充水平指示移除容器。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0034]",
+              "html_id": "p0054",
+              "quote": "可呈三通阀或四通阀的形式的阀33位于泵31的后方。直路径导引至从洗衣机11出来的流出物18。朝向顶部的路径导引至返回管线36，返回管线36导引至呈三通阀的形式的阀38。因此，泵31可将水直接泵回到滚筒14中。备选地，泵31可将水通过另外的返回管线36泵送到转换抽屉20，例如，以便以这种方式将洗涤剂从所述转换抽屉冲洗或输送到水管线22中，并且因此输送到滚筒14中。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "说明书[0035]",
+              "html_id": "p0055",
+              "quote": "在阀33的最底位置处，泵31可借助于反冲洗管线42将水泵送到过滤器设备26的反冲洗入口27中。因此，过滤设备26可被反冲洗，或者积聚在其中的过滤物质可从其中移除，这是非常重要的。所述过滤物质可通过过滤物质管线44朝向转换抽屉20输送，以便在转换抽屉20处被收集，如引言中已解释的。泵31以及阀33和38还由洗衣机11的控制器46致动。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求21",
+              "html_id": "cl0021",
+              "quote": "21.用于操作根据权利要求1所述的家庭用具的方法，其中，监测所述洗涤剂容器的填充水平和/或所述过滤物质容器的填充水平，并且一旦已下降至低于预限定的洗涤剂填充水平或者已超过预限定的过滤物质填充水平，就向所述使用者作出指示。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求22",
+              "html_id": "cl0022",
+              "quote": "22.用于操作根据权利要求1所述的家庭用具的方法，其中，所述过滤物质容器和/或所述洗涤剂容器从所述家庭用具移除，其中所述过滤物质容器被排空或被移除以用于排空，并且其中所述洗涤剂容器被排空或被移除以用于填充满。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "袋的可闭合通路、内外连接件密封；权28明示袋移除后关闭通路，新袋插入前打开用于连接。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求16",
+              "html_id": "cl0016",
+              "quote": "16.根据权利要求12所述的家庭用具，其特征在于，袋具有可闭合的通路，其中用于所述袋的对应的所述接收器具有内部连接件，其中所述袋可经由所述通路以封锁方式连接到所述接收器的所述内部连接件，其中所述接收器还具有用于封锁到所述导水装置或到所述家庭用具的连接的外部连接件，其中所述内部连接件和所述外部连接件以液体引导方式彼此连接。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求17",
+              "html_id": "cl0017",
+              "quote": "17.根据权利要求16所述的家庭用具，其特征在于，所述内部连接件和所述外部连接件经由开放的穿过通道彼此连接，其中所述内部连接件和所述外部连接件具有密封装置。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求28",
+              "html_id": "cl0028",
+              "quote": "28.根据权利要求22所述的方法，其特征在于，袋具有根据权利要求16所述的可闭合的通路，其中，所述通路在从所述结构单元移除所述袋之后闭合，并且其中，在将新的袋插入到所述结构单元中之前，所述通路被打开，以用于封锁到所述接收器的所述内部连接件的连接的目的。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "endpoint": {
+          "judgment": "explicit",
+          "summary": "处置、交处置公司或清洁后重复使用为公开操作方案；未给最终环境处置效果试验。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求23",
+              "html_id": "cl0023",
+              "quote": "23.根据权利要求22所述的方法，其特征在于，当移除所述过滤物质容器和/或所述洗涤剂容器时，在从所述家庭用具移除所述整个结构单元之后，将相应的所述容器从所述结构单元机械地拆分，其中所述拆分的容器或两个容器被处置或被交给处置公司。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求25",
+              "html_id": "cl0025",
+              "quote": "25.根据权利要求22所述的方法，其特征在于，所述洗涤剂容器和所述过滤物质容器共同呈根据权利要求14所述的柔性双腔室袋的形式，其中所述双腔室袋布置在所述用于洗涤剂和过滤物质的单个公共接收器中，并从所述单个公共接收器中移除，其中所述双腔室袋被处置或被交给处置公司。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+              "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+              "locator": "权利要求27",
+              "html_id": "cl0027",
+              "quote": "27.根据权利要求26所述的方法，其特征在于，所述结构单元被清洁以用于重复使用，其中所述过滤物质被适当地处置，其中所述洗涤剂容器利用洗涤剂填充。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "图1反冲洗与图2可选二次过滤支路",
+          "steps": [
+            "过滤设备26截留",
+            "阀切至反冲洗，泵使颗粒带液进入收集容器",
+            "可选额外过滤器62让水返回、过滤物质浓缩",
+            "容器移除/排空（具体整体/分体结构另选）"
+          ],
+          "evidence_locators": [
+            "p0055",
+            "p0057",
+            "p0058",
+            "cl0022"
+          ],
+          "ordering_certainty": "inferred"
+        },
+        {
+          "variant": "权22—24分体移除方法",
+          "steps": [
+            "从用具移除整个结构单元",
+            "机械拆分容器",
+            "处置或交处置公司，替换空过滤物质容器",
+            "结构单元插回用具"
+          ],
+          "evidence_locators": [
+            "cl0022",
+            "cl0023",
+            "cl0024"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": [
+        "仅对所列公开文本技术披露编码；官方当前有效状态及授权版本仍待核。",
+        "技术结构/步骤披露不等于实施效果实证。"
+      ]
+    },
+    {
+      "publication": "CN115637570A",
+      "family_id": "84940183",
+      "reviewed_version": "CN115637570A",
+      "legal_status_as_of": "unknown",
+      "analysis_date": "2026-09-29",
+      "sources": [
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+          "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+          "url": "https://patents.google.com/patent/CN115637570A/zh",
+          "source_kind": "saved_publication_full_text_mirror"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "explicit",
+          "summary": "螺杆带动螺旋叶片，清除/搅动滤网沉积微纤维；刮送与清理由同一旋转动作实现，但叶片与网有间隙。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "权利要求1",
+              "html_id": "cl0001",
+              "quote": "1.一种微纤维过滤器，包括， 过滤器筒体(121)，两端分别设有进水口(123)和出水口(124)； 过滤网(122)，安装在所述过滤器筒体(121)内，沿所述过滤器筒体(121)中轴线的延伸方向设置； 螺杆(125)，一端沿所述过滤器筒体(121)的轴向插设在所述过滤器筒体(121)内； 螺旋叶片(126)，设置在所述螺杆(125)的外周上，与所述过滤网(122)之间留有间隙； 其特征在于：还包括微纤维收集装置(127)，设置在所述过滤器筒体(121)靠近所述出水口(124)的位置； 所述螺旋叶片(126)的旋进方向与所述过滤器筒体(121)内水流的流动方向相同，用于将所述过滤网(122)上的微纤维刮入到所述微纤维收集装置(127)中。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0052]",
+              "html_id": "p0057",
+              "quote": "在上述方案中，通过螺杆125的转动使螺旋叶片126旋转推进，刮掉沉积在过滤网122上的微纤维，借助水流的流动，将微纤维收集到微纤维收集装置127内，延长微纤维过滤器12的使用寿命。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0057]",
+              "html_id": "p0062",
+              "quote": "通过将旋转叶片与靠近过滤器筒体121上部侧壁128的过滤网122之间的间隙130设置成大于旋转叶片与靠近过滤器筒体121下部侧壁129的过滤网122之间的间隙130，可以为进水水流的流动提供较大空间；并且随着旋转叶片的旋转推进，可以搅动附着在下部过滤网122上的微纤维沉积层，使其翻滚到过滤器筒体121的上部区域内，不仅可以稀释微纤维的浓度，延缓下部过滤网122上微纤维的沉积，使微纤维分布地更加均匀；还避免旋转叶片与靠近过滤器筒体121内上部侧壁128的过滤网122之间的间隙130设置的过小，受到的阻力较大，使过滤器筒体121的进水口123处水流湍急，导致微纤维很快地沉积在进水口123处，影响微纤维过滤器12的使用寿命。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "叶片旋进方向与水流同向，借助水流把微纤维刮送至靠近出水口的收集装置；不能写成干态螺旋输送。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "权利要求1",
+              "html_id": "cl0001",
+              "quote": "1.一种微纤维过滤器，包括， 过滤器筒体(121)，两端分别设有进水口(123)和出水口(124)； 过滤网(122)，安装在所述过滤器筒体(121)内，沿所述过滤器筒体(121)中轴线的延伸方向设置； 螺杆(125)，一端沿所述过滤器筒体(121)的轴向插设在所述过滤器筒体(121)内； 螺旋叶片(126)，设置在所述螺杆(125)的外周上，与所述过滤网(122)之间留有间隙； 其特征在于：还包括微纤维收集装置(127)，设置在所述过滤器筒体(121)靠近所述出水口(124)的位置； 所述螺旋叶片(126)的旋进方向与所述过滤器筒体(121)内水流的流动方向相同，用于将所述过滤网(122)上的微纤维刮入到所述微纤维收集装置(127)中。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0052]",
+              "html_id": "p0057",
+              "quote": "在上述方案中，通过螺杆125的转动使螺旋叶片126旋转推进，刮掉沉积在过滤网122上的微纤维，借助水流的流动，将微纤维收集到微纤维收集装置127内，延长微纤维过滤器12的使用寿命。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0054]",
+              "html_id": "p0059",
+              "quote": "通过将进水口123和出水口124分别设置在过滤器筒体121的两端，可以延长水流的流动路径。螺杆125可以顺时针旋转，使螺旋叶片126的旋进方向与过滤器筒体121内水流的流动方向相同，以将过滤网122上的微纤维刮入到微纤维收集装置127中。本发明由于借助了水流的流动，可以提高微纤维的收集效率。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "solids_dewatering": {
+          "judgment": "unresolved",
+          "summary": "未在已核权项和相关实施段落实专门降低收集物含水量的动作；过滤袋及出水口本身不足以证明脱水。",
+          "evidence": [],
+          "unknown_reason": "尚未穷尽所有实施细节；不将正常过滤等同收集物脱水。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "chamber_drainage": {
+          "judgment": "unresolved",
+          "summary": "未在已核段落实取袋前腔体排空程序。",
+          "evidence": [],
+          "unknown_reason": "门盖取袋披露不说明取出前残液如何排空。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "进水口进入滤网内部，过滤水经筒下部与网之间排水流道至出水口；收集物受水流辅助迁移。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "权利要求1",
+              "html_id": "cl0001",
+              "quote": "1.一种微纤维过滤器，包括， 过滤器筒体(121)，两端分别设有进水口(123)和出水口(124)； 过滤网(122)，安装在所述过滤器筒体(121)内，沿所述过滤器筒体(121)中轴线的延伸方向设置； 螺杆(125)，一端沿所述过滤器筒体(121)的轴向插设在所述过滤器筒体(121)内； 螺旋叶片(126)，设置在所述螺杆(125)的外周上，与所述过滤网(122)之间留有间隙； 其特征在于：还包括微纤维收集装置(127)，设置在所述过滤器筒体(121)靠近所述出水口(124)的位置； 所述螺旋叶片(126)的旋进方向与所述过滤器筒体(121)内水流的流动方向相同，用于将所述过滤网(122)上的微纤维刮入到所述微纤维收集装置(127)中。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0056]",
+              "html_id": "p0061",
+              "quote": "如图3所示，进水口与过滤网的内部连通，水流从进水口123流入到过滤网122中进行过滤后，沿着箭头指示的方向从出水口124流出。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0058]",
+              "html_id": "p0063",
+              "quote": "可以理解的是，靠近所述过滤器筒体121下部侧壁129的过滤网122与过滤器筒体121下部侧壁129之间设有排水流道。过滤后的水经排水流道从排水口流出。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "权8可拆过滤袋与说明书[0078]开前门取出过滤袋/微纤维过滤器清理，共同支持文本移出路径。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "权利要求8",
+              "html_id": "cl0008",
+              "quote": "8.根据权利要求1所述的一种微纤维过滤器，其特征在于：还包括， 过滤袋，可拆卸地设置在所述微纤维收集装置(127)中。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0077]",
+              "html_id": "p0082",
+              "quote": "外壳10，所述外壳10的前面板上开设有安装口11，所述微纤维收集装置127可拆卸地设置在所述微纤维过滤器12与所述安装口11对应的位置。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0078]",
+              "html_id": "p0083",
+              "quote": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。",
+          "removal_object": [
+            "collection_bag",
+            "filter_element"
+          ],
+          "integrated_or_separate": "过滤袋位于收集装置内；也允许取出过滤器，属于不同取出对象",
+          "text_disclosed_only": true
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "可选传感器检测积聚量，控制器启停电机进行间歇旋转清理；不据此推断取袋时阀门联锁。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0066]",
+              "html_id": "p0071",
+              "quote": "在一些实施方式中，所述微纤维过滤器12还包括传感器，安装在所述过滤器筒体121内，用于检测所述过滤网122上的微纤维含量；",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0067]",
+              "html_id": "p0072",
+              "quote": "控制器，与所述传感器和驱动电机131电连接，用于控制驱动电机131的运转。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0068]",
+              "html_id": "p0073",
+              "quote": "在上述方案中，当传感器检测到微纤维过滤器12中微纤维较多时，控制器控制驱动电机131开始运转，此时螺杆125按照顺时针方向旋转，使螺旋叶片126的旋进方向与过滤器筒体121内水流的流动方向相同，以将过滤网122上的微纤维刮入到微纤维收集装置127中。当传感器检测到微纤维过滤器12中微纤维较少时，控制器控制驱动电机131停止运转。可以理解的是，驱动电机131可以间歇性地转动。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "前面板安装口/门盖提供取袋或过滤器通道；该段未明确密封件和水管拆接顺序。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "权利要求10",
+              "html_id": "cl0010",
+              "quote": "10.根据权利要求9所述的一种洗衣机，其特征在于：所述洗衣机(1)包括， 外壳(10)，所述外壳(10)的前面板上开设有安装口(11)，所述微纤维收集装置(127)可拆卸地设置在所述微纤维过滤器(12)与所述安装口(11)对应的位置。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0077]",
+              "html_id": "p0082",
+              "quote": "外壳10，所述外壳10的前面板上开设有安装口11，所述微纤维收集装置127可拆卸地设置在所述微纤维过滤器12与所述安装口11对应的位置。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0078]",
+              "html_id": "p0083",
+              "quote": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "endpoint": {
+          "judgment": "unresolved",
+          "summary": "文本给取出清理安排，未在所核段说明清理后纤维最终处置方式。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+              "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+              "locator": "说明书[0078]",
+              "html_id": "p0083",
+              "quote": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "取袋不自动证明不滴漏或安全处置。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "螺旋水辅助刮送与前门维护",
+          "steps": [
+            "水流进入并经过滤网",
+            "螺杆旋转，清理与送往收集装置合并",
+            "袋积累微纤维后经前门取出清理"
+          ],
+          "evidence_locators": [
+            "p0057",
+            "p0061",
+            "p0073",
+            "p0079",
+            "p0083"
+          ],
+          "ordering_certainty": "inferred"
+        }
+      ],
+      "boundary_notes": [
+        "仅对所列公开文本技术披露编码；官方当前有效状态及授权版本仍待核。",
+        "技术结构/步骤披露不等于实施效果实证。",
+        "说明书[0074]在过滤袋积聚语境中写“更换过滤网122”，保留原文疑点，取袋结论以[0078]为直接依据。授权B版须另行比对，不能把A版权8复制为B版权8。"
+      ]
+    },
+    {
+      "publication": "CN222043626U",
+      "family_id": "93508213",
+      "reviewed_version": "CN222043626U",
+      "legal_status_as_of": "unknown",
+      "analysis_date": "2026-09-29",
+      "sources": [
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+          "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+          "url": "https://patents.google.com/patent/CN222043626U/zh",
+          "source_kind": "saved_publication_full_text_mirror"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "unresolved",
+          "summary": "明确取盒/取网后进行人工清理的维护安排；未披露自动清网机构，具体除渣动作仍未限定。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0052]",
+              "html_id": "p0057",
+              "quote": "本申请实施例提供的过滤组件300和洗衣机1中，通过在洗衣机1的排水管200路上设置过滤组件300，可以实现对微塑料的过滤与收集，减少微塑料对生态的污染；在壳体310中设置收集盒320，可以在清洗过滤网330时只拆出收集盒320，无需将壳体310与排水管200进行拆卸，既方便清洁，又能提高壳体310与排水管200连接的稳定性和可靠性，减少漏水情况的发生。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0059]",
+              "html_id": "p0064",
+              "quote": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳313之间增加密封圈来实现。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0063]",
+              "html_id": "p0068",
+              "quote": "示例性的，收集盒320包括盒体323和安装管324。盒体323是收集盒320的主要组成部分，盒体323可以适应主壳313的形状而进行设计，比如盒体323可以为方柱形、圆柱形等。至少一个过滤网330设置于盒体323内，盒体323可以设置有门盖(图中未示意出)，以便于将其内部的过滤网330取出进行清理。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "人工清理意图明确，但主过滤表面的具体去除动作待核，不能编码自动清理。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "transfer": {
+          "judgment": "unresolved",
+          "summary": "微塑料在盒内过滤网上就地拦截；取盒是维护移出，未在所核段找到从主滤面到另一独立收集位置的转移机构。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "权利要求1",
+              "html_id": "zh-cl0001",
+              "quote": "1.一种过滤组件，应用于洗衣机中，所述洗衣机包括可拆卸连接的本体和排水管，所述过滤组件安装于所述排水管上；其特征在于，所述过滤组件包括： 壳体，设置有相对的第一进水口和第一出水口； 收集盒，设置于所述壳体内，且与所述壳体可拆卸连接，所述收集盒对应所述第一进水口设有第二进水口，对应所述第一出水口设置有第二出水口； 至少一个过滤网，设置于所述收集盒内，且每一所述过滤网均正对所述第二进水口和所述第二出水口，以拦截进入所述收集盒的微塑料。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0048]",
+              "html_id": "p0053",
+              "quote": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集盒320进行拆出。示例性的，收集盒320对应第一进水口311设有第二进水口321，对应第一出水口312设有第二出水口322，以便于排水管200内的水进入收集盒320进行过滤。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0050]",
+              "html_id": "p0055",
+              "quote": "至少一个过滤网330设置在收集盒320内，且每一过滤网330均正对第二进水口321和第二出水口322，以拦截进入收集盒320的微塑料。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "进水带颗粒入盒不等同截留后独立转移。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "solids_dewatering": {
+          "judgment": "unresolved",
+          "summary": "收集盒网孔及双滤网用于过滤；当前所核段没有独立降低已收集固体含水量的操作说明。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0049]",
+              "html_id": "p0054",
+              "quote": "其中，水进入收集盒320的方式并不限于上述第二进水口321和第二出水口322，还可以将收集盒320整体设置为具有网孔的结构，从而既可以方便水进入收集盒320，又可以实现对水的多重过滤效果，提高微塑料的收集效率。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0068]",
+              "html_id": "p0073",
+              "quote": "需要说明的是，本申请实施例的收集盒320既可以是上述封闭的盒状结构，通过第二进水口321和第二出水口322实现进水过滤与排出，收集盒320还可以是具有网孔的网状结构，从而可以实现对微塑料的多重过滤效果。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "不能仅凭滤网/网孔归为脱水。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "chamber_drainage": {
+          "judgment": "unresolved",
+          "summary": "所核维护段未给拆盖取盒前排空腔内液体的程序。",
+          "evidence": [],
+          "unknown_reason": "正常排水通路不等同维护排空。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "洗衣机排水管→壳体第一进水口→盒第二进水口→过滤网→第二/第一出水口→排水管；另一实施例盒整体为网孔结构。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "权利要求1",
+              "html_id": "zh-cl0001",
+              "quote": "1.一种过滤组件，应用于洗衣机中，所述洗衣机包括可拆卸连接的本体和排水管，所述过滤组件安装于所述排水管上；其特征在于，所述过滤组件包括： 壳体，设置有相对的第一进水口和第一出水口； 收集盒，设置于所述壳体内，且与所述壳体可拆卸连接，所述收集盒对应所述第一进水口设有第二进水口，对应所述第一出水口设置有第二出水口； 至少一个过滤网，设置于所述收集盒内，且每一所述过滤网均正对所述第二进水口和所述第二出水口，以拦截进入所述收集盒的微塑料。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "权利要求9",
+              "html_id": "zh-cl0009",
+              "quote": "9.根据权利要求4所述的过滤组件，其特征在于，所述壳体还包括进水管和出水管，所述进水管和所述出水管相对设置于所述主壳的两侧，所述第一进水口设置于所述进水管，所述第一出水口设置于所述出水管。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0039]",
+              "html_id": "p0044",
+              "quote": "示例性的，洗衣机1包括本体100和排水管200，本体100也即是包括箱体、内筒、显示面板以及控制板等部件的结构。本体100可以对衣物进行盛装以及处理，也即本体100是清洗衣物的主要部件。排水管200与本体100可拆卸连接，诸如通过插接管进行插接连接，排水管200用于将本体100处理衣物完成后的污水排出，诸如通过排水口排到下水道中。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0048]",
+              "html_id": "p0053",
+              "quote": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集盒320进行拆出。示例性的，收集盒320对应第一进水口311设有第二进水口321，对应第一出水口312设有第二出水口322，以便于排水管200内的水进入收集盒320进行过滤。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0061]",
+              "html_id": "p0066",
+              "quote": "示例性的，壳体310还包括进水管317和出水管318，进水管317和出水管318相对设置于主壳313的两侧，并分别凸出于主壳313，以便于与排水管200进行连接。可以理解的是，第一进水口311设置于进水管317，第一出水口312设置于出水管318，从而便于排水管200的水进入，并经过微塑料的过滤与收集后再排出。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0068]",
+              "html_id": "p0073",
+              "quote": "需要说明的是，本申请实施例的收集盒320既可以是上述封闭的盒状结构，通过第二进水口321和第二出水口322实现进水过滤与排出，收集盒320还可以是具有网孔的网状结构，从而可以实现对微塑料的多重过滤效果。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "拆开盖板露出收集盒供用户取出；安装管沿滑槽装入/拆出盒体；无需拆开壳体与排水管连接即清理。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "权利要求7",
+              "html_id": "zh-cl0007",
+              "quote": "7.根据权利要求6所述的过滤组件，其特征在于，所述主壳设置有滑槽，所述壳体还包括弹性件，所述弹性件朝向所述安装管凸出于所述主壳设置，以限位所述安装管；所述安装管能够在所述滑槽内滑动，以将所述盒体装入或者拆出所述主壳。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0048]",
+              "html_id": "p0053",
+              "quote": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集盒320进行拆出。示例性的，收集盒320对应第一进水口311设有第二进水口321，对应第一出水口312设有第二出水口322，以便于排水管200内的水进入收集盒320进行过滤。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0059]",
+              "html_id": "p0064",
+              "quote": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳313之间增加密封圈来实现。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0066]",
+              "html_id": "p0071",
+              "quote": "其中，请结合图1至图5并参阅图6和图7所示，图6为本申请实施例提供的壳体中部分结构的结构示意图，图7为图2所示的过滤组件沿B-B的剖面结构示意图。主壳313设置有滑槽313a，滑槽313a的一端贯通主壳313，以便于安装管324滑入；滑槽313a的另一端适应安装管324的形状而设置，可以起到对安装管324向下运动的限位。壳体310还包括弹性件319，弹性件319朝向安装管324凸出于主壳313设置在滑槽313a内，以从滑槽313a的底端相对方向对安装管324进行限位。安装管324能够在滑槽313a内滑动，以将盒体323装入或者拆出主壳313。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。",
+          "removal_object": [
+            "collection_box",
+            "combined_filter_collector"
+          ],
+          "integrated_or_separate": "盒可脱离壳体，但过滤网在盒内，非主滤网之外的独立集渣袋",
+          "text_disclosed_only": true
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "维护时拆盖、取盒；装回盒后盖板连接且密封进入过滤状态；进出水关闭或联锁顺序未明确。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0059]",
+              "html_id": "p0064",
+              "quote": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳313之间增加密封圈来实现。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0066]",
+              "html_id": "p0071",
+              "quote": "其中，请结合图1至图5并参阅图6和图7所示，图6为本申请实施例提供的壳体中部分结构的结构示意图，图7为图2所示的过滤组件沿B-B的剖面结构示意图。主壳313设置有滑槽313a，滑槽313a的一端贯通主壳313，以便于安装管324滑入；滑槽313a的另一端适应安装管324的形状而设置，可以起到对安装管324向下运动的限位。壳体310还包括弹性件319，弹性件319朝向安装管324凸出于主壳313设置在滑槽313a内，以从滑槽313a的底端相对方向对安装管324进行限位。安装管324能够在滑槽313a内滑动，以将盒体323装入或者拆出主壳313。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0067]",
+              "html_id": "p0072",
+              "quote": "需要说明的是，将收集盒320安装进入主壳313的过程为：安装管324沿滑槽313a进入直至到滑槽313a底部，在这个过程中，安装管324将弹性件319压缩至主壳313内，也即不凸出于主壳313，待安装管324达到滑槽313a底部时，弹性件319在自身弹性力作用下回复到初始位置，也即凸出于主壳313，从而滑槽313a与弹性件319配合实现对安装管324上下方向运动的限位，也即将安装管324固定，此时盒体323也即到达相应位置，可以防止安装管324晃动导致的微塑料的过滤以及收集效果不佳的问题。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "盖板与主壳可拆，卡扣连接；可加密封圈；盒滑槽/弹性件限位。明确无需拆壳体与排水管连接。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "权利要求5",
+              "html_id": "zh-cl0005",
+              "quote": "5.根据权利要求4所述的过滤组件，其特征在于，所述壳体还包括第一卡扣件和第二卡扣件，所述第一卡扣件和所述第二卡扣件分别设置于所述主壳和所述盖板上，所述第一卡扣件与所述第二卡扣件卡接连接。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0048]",
+              "html_id": "p0053",
+              "quote": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集盒320进行拆出。示例性的，收集盒320对应第一进水口311设有第二进水口321，对应第一出水口312设有第二出水口322，以便于排水管200内的水进入收集盒320进行过滤。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0059]",
+              "html_id": "p0064",
+              "quote": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳313之间增加密封圈来实现。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0066]",
+              "html_id": "p0071",
+              "quote": "其中，请结合图1至图5并参阅图6和图7所示，图6为本申请实施例提供的壳体中部分结构的结构示意图，图7为图2所示的过滤组件沿B-B的剖面结构示意图。主壳313设置有滑槽313a，滑槽313a的一端贯通主壳313，以便于安装管324滑入；滑槽313a的另一端适应安装管324的形状而设置，可以起到对安装管324向下运动的限位。壳体310还包括弹性件319，弹性件319朝向安装管324凸出于主壳313设置在滑槽313a内，以从滑槽313a的底端相对方向对安装管324进行限位。安装管324能够在滑槽313a内滑动，以将盒体323装入或者拆出主壳313。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0067]",
+              "html_id": "p0072",
+              "quote": "需要说明的是，将收集盒320安装进入主壳313的过程为：安装管324沿滑槽313a进入直至到滑槽313a底部，在这个过程中，安装管324将弹性件319压缩至主壳313内，也即不凸出于主壳313，待安装管324达到滑槽313a底部时，弹性件319在自身弹性力作用下回复到初始位置，也即凸出于主壳313，从而滑槽313a与弹性件319配合实现对安装管324上下方向运动的限位，也即将安装管324固定，此时盒体323也即到达相应位置，可以防止安装管324晃动导致的微塑料的过滤以及收集效果不佳的问题。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "endpoint": {
+          "judgment": "unresolved",
+          "summary": "可拆盒便于统一清理，但所核段未给盒内纤维清理后的最终去向。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+              "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+              "locator": "说明书[0048]",
+              "html_id": "p0053",
+              "quote": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集盒320进行拆出。示例性的，收集盒320对应第一进水口311设有第二进水口321，对应第一出水口312设有第二出水口322，以便于排水管200内的水进入收集盒320进行过滤。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "不能将可拆出清理扩展为环保最终处置实证。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "可拆盒实施方式",
+          "steps": [
+            "排水经盒内滤网就地拦截",
+            "拆开盖板",
+            "取出收集盒进行清理",
+            "安装管沿滑槽装入并限位",
+            "盖板连接密封恢复过滤"
+          ],
+          "evidence_locators": [
+            "zh-cl0001",
+            "p0064",
+            "p0071",
+            "p0072"
+          ],
+          "ordering_certainty": "inferred"
+        }
+      ],
+      "boundary_notes": [
+        "仅对所列公开文本技术披露编码；官方当前有效状态及授权版本仍待核。",
+        "技术结构/步骤披露不等于实施效果实证。"
+      ]
+    },
+    {
+      "publication": "CN115087774A",
+      "family_id": "69171968",
+      "reviewed_version": "CN115087774A",
+      "legal_status_as_of": "unknown",
+      "analysis_date": "2026-09-29",
+      "sources": [
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+          "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+          "url": "https://patents.google.com/patent/CN115087774A/zh",
+          "source_kind": "saved_publication_full_text_mirror"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "unresolved",
+          "summary": "板移动收集并压实微塑料；不能据此认定主滤网再生，所核段未说明滤面清理动作。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求1",
+              "html_id": "cl0001",
+              "quote": "1.一种用于从废料流出物中提取并压缩微塑料的压实器，所述压实器包括： 腔室； 入口，其用于将废料流出物供应到所述腔室中； 在所述腔室内的至少一个板，其能够在非压缩位置与压缩位置之间移动；以及 驱动单元，其用于在所述非压缩位置与所述压缩位置之间驱动所述至少一个板； 以及排放出口，其被布置成允许压缩的微塑料的排放， 其中所述压实器在使用中用于从废料流出物中提取并压缩所述微塑料，且其中所述至少一个板被布置成将所述压缩的微塑料移动到所述排放出口， 其中所述压实器被布置成使得在使用中，所述压缩的微塑料通过所述至少一个板的所述移动经由所述排放出口从所述压实器自动排放。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求24",
+              "html_id": "cl0024",
+              "quote": "24.一种操作根据权利要求1至23所述的类型的压实器的方法，其包括以下步骤： 接收流出物的流动； 将板从非压缩位置驱动穿过所述流出物到压缩位置，以用于将水与所述流出物分离且压缩包含微塑料的所得材料； 将所述板返回到非压缩位置； 排放压缩的微塑料。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "压实分水与滤网清理分栏；没有将压实编码为再生。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "板向压缩位移动收集/挤压微塑料，返程释放或使固体与排放口对准，再排出。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求1",
+              "html_id": "cl0001",
+              "quote": "1.一种用于从废料流出物中提取并压缩微塑料的压实器，所述压实器包括： 腔室； 入口，其用于将废料流出物供应到所述腔室中； 在所述腔室内的至少一个板，其能够在非压缩位置与压缩位置之间移动；以及 驱动单元，其用于在所述非压缩位置与所述压缩位置之间驱动所述至少一个板； 以及排放出口，其被布置成允许压缩的微塑料的排放， 其中所述压实器在使用中用于从废料流出物中提取并压缩所述微塑料，且其中所述至少一个板被布置成将所述压缩的微塑料移动到所述排放出口， 其中所述压实器被布置成使得在使用中，所述压缩的微塑料通过所述至少一个板的所述移动经由所述排放出口从所述压实器自动排放。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0054]",
+              "html_id": "p0059",
+              "quote": "驱动单元205可包括用于将板204从非压缩位置移动到压缩位置的线性致动器。线性致动器可被冲压驱动，从而产生线性往复运动。在前向冲程中，板204通过腔室201内的任何废料流出物203从非压缩位置移动到压缩位置，收集任何积聚的废料物质，且抵靠着腔室201的壁移动并挤压此积聚的废料物质。在后向冲程中，板204从压缩位置移动回到非压缩位置，释放现压缩的废料物质，所述废料物质被推动到用于通过排放出口206排放的位置中。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0060]",
+              "html_id": "p0065",
+              "quote": "积聚的微塑料在板204a与204b之间压缩以形成压缩的固体盘。板204a和204b返回到其非压缩位置，且在这样做时，移动压缩的微塑料207以通过适当致动驱动单元204a和204b而对准以便通过排放出口206进行排放。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "solids_dewatering": {
+          "judgment": "explicit",
+          "summary": "权24驱动板穿过流出物以分离水并压缩微塑料；实施例板/腔壁可透水并挤出剩余液体。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求24",
+              "html_id": "cl0024",
+              "quote": "24.一种操作根据权利要求1至23所述的类型的压实器的方法，其包括以下步骤： 接收流出物的流动； 将板从非压缩位置驱动穿过所述流出物到压缩位置，以用于将水与所述流出物分离且压缩包含微塑料的所得材料； 将所述板返回到非压缩位置； 排放压缩的微塑料。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0052]",
+              "html_id": "p0057",
+              "quote": "压实器200的元件是可渗透的以允许水在腔室被压缩时逸出。可渗透结构的孔隙直径可达50微米左右，使得大于此大小的所有微纤维都不能通过。如下文所论述，其它大小是可能的。可渗透结构可为板204，所述板可由刚性网状物或由框架支撑的柔性网状物制成。在此实施例中，水通过排水通道208从板204后方的腔室后部逸出，如图3d中所展示。替代地，腔室201的后壁211可为可渗透的，且提供排水通道212以将废水远离压实器而转移，如图3e中所展示。替代地或另外，排放出口206可为可通过可渗透翻板213关闭的，如图3d和3e中所展示，所述翻板在流出物的压缩期间处于关闭位置，并且打开以允许压缩的颗粒掉落。可在入口处提供翻板214以防止流出物在压缩阶段期间从入口逸出。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0063]",
+              "html_id": "p0068",
+              "quote": "图6a、6b和6c展示废料流出物203在处于非压缩配置、其压缩配置且接着处于其排放配置时通过压实器200的通道。在排空洗涤机集水槽，或通过未展示的废料软管后，废料流出物203通过入口202进入压实器200的腔室201。驱动构件205经激活以沿着腔室201驱动第一板204a，从而在废料流出物203通过其网状物型板行进时从所述废料流出物内收集微塑料纤维。经过滤的水或废水209通过板204a，以用于通过废水出口208排放。积聚的微塑料纤维一起被驱动，并且被驱动到彼此中并且被驱动到第二板204b中，如图6b中所展示。通过在板204a与204b之间压缩微塑料纤维，挤出任何其余的液体，且纤维自身变为压实的，从而形成固体块或盘。此固体块包括压缩的微塑料207，所述压缩的微塑料已通过挤压有效地干燥，因此形成颗粒或盘。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "chamber_drainage": {
+          "judgment": "explicit",
+          "summary": "说明书[0066]自动排放实施例明示板返程及其余废水排出打开排放口；这支持该阶段排出残余废水，未证明整个腔完全干燥。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0066]",
+              "html_id": "p0071",
+              "quote": "用户通过打开活板门或可拆卸盖(未展示)从腔室201检索压缩的微塑料207。在其它实施例中，压缩的微塑料207的排放可为过程的自动化部分，由此第一板204a的返回路径和任何其余的废水209的排出打开排放出口206，或释放锁扣以便这样做。压缩的微塑料207从压实器200的腔室201中掉落。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "透水板后部排水通道208、透水后壁通道212等为可选方案；图8—9实施例入口/出口止回阀、压缩冲程泵出废水并可经管804回系统再过滤。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求18",
+              "html_id": "cl0018",
+              "quote": "18.根据前述权利要求中任一项所述的压实器，其中所述腔室包括废水出口，所述废水出口被布置成将废水排出所述腔室。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求19",
+              "html_id": "cl0019",
+              "quote": "19.根据权利要求18所述的压实器，其中所述出口和入口包含止回阀。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0052]",
+              "html_id": "p0057",
+              "quote": "压实器200的元件是可渗透的以允许水在腔室被压缩时逸出。可渗透结构的孔隙直径可达50微米左右，使得大于此大小的所有微纤维都不能通过。如下文所论述，其它大小是可能的。可渗透结构可为板204，所述板可由刚性网状物或由框架支撑的柔性网状物制成。在此实施例中，水通过排水通道208从板204后方的腔室后部逸出，如图3d中所展示。替代地，腔室201的后壁211可为可渗透的，且提供排水通道212以将废水远离压实器而转移，如图3e中所展示。替代地或另外，排放出口206可为可通过可渗透翻板213关闭的，如图3d和3e中所展示，所述翻板在流出物的压缩期间处于关闭位置，并且打开以允许压缩的颗粒掉落。可在入口处提供翻板214以防止流出物在压缩阶段期间从入口逸出。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0069]",
+              "html_id": "p0074",
+              "quote": "图8展示本发明的另一实施例，其包含分别在入口和出口上添加止回阀801、802以及朝向翻板702移动的入口。在此布置中，在活塞的压缩冲程之后抽出活塞的动作具有将流出物抽吸到腔室201中的作用。在活塞的压缩冲程期间推动所述活塞的动作关闭入口止回阀801且将废水泵出出口208。在图9中，可以看到此布置的使用，因为从流出物中提取的水可经由管道804泵送回到系统中，在必要时可对其进行再过滤。如果网状物705的孔径较大，例如为400um，那么可能需要这样做。此布置实际上是可潜在地替换洗涤机中的泵的泵。用户可反复地操作抽屉，或此可作为驱动器上的活塞自动操作，直到洗涤机的滚筒中的流出物被排空，且流出物已通过过滤和压实阶段，以去除和回收从洗涤机排空的废料流体中提取的所得固体材料。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "权1由板运动通过排放出口自动排出压缩微塑料，权24给分水—回程—排放；说明书另述开活板门/可拆盖取出与自动掉落方案。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求1",
+              "html_id": "cl0001",
+              "quote": "1.一种用于从废料流出物中提取并压缩微塑料的压实器，所述压实器包括： 腔室； 入口，其用于将废料流出物供应到所述腔室中； 在所述腔室内的至少一个板，其能够在非压缩位置与压缩位置之间移动；以及 驱动单元，其用于在所述非压缩位置与所述压缩位置之间驱动所述至少一个板； 以及排放出口，其被布置成允许压缩的微塑料的排放， 其中所述压实器在使用中用于从废料流出物中提取并压缩所述微塑料，且其中所述至少一个板被布置成将所述压缩的微塑料移动到所述排放出口， 其中所述压实器被布置成使得在使用中，所述压缩的微塑料通过所述至少一个板的所述移动经由所述排放出口从所述压实器自动排放。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求24",
+              "html_id": "cl0024",
+              "quote": "24.一种操作根据权利要求1至23所述的类型的压实器的方法，其包括以下步骤： 接收流出物的流动； 将板从非压缩位置驱动穿过所述流出物到压缩位置，以用于将水与所述流出物分离且压缩包含微塑料的所得材料； 将所述板返回到非压缩位置； 排放压缩的微塑料。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0051]",
+              "html_id": "p0056",
+              "quote": "排放出口206可被配置在腔室201内，使得当排放出口206打开时，压缩的微塑料207的固体块在重力作用下从腔室201中掉落。替代地，排放机构可并入腔室201内以迫使压缩的微塑料207通过排放出口(未展示)。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0066]",
+              "html_id": "p0071",
+              "quote": "用户通过打开活板门或可拆卸盖(未展示)从腔室201检索压缩的微塑料207。在其它实施例中，压缩的微塑料207的排放可为过程的自动化部分，由此第一板204a的返回路径和任何其余的废水209的排出打开排放出口206，或释放锁扣以便这样做。压缩的微塑料207从压实器200的腔室201中掉落。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。",
+          "removal_object": [
+            "loose_or_compacted_solids"
+          ],
+          "integrated_or_separate": "直接排出压缩固体，非取走收集盒；下游容器非本段必要限定",
+          "text_disclosed_only": true
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "图3入口阀开启接收流出物/排放口关闭，板压缩后返程并打开出口；图6两板与锁存器产生压缩、回程掉落、复位；图8—9止回阀方案单列。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0049]",
+              "html_id": "p0054",
+              "quote": "图3a到3c展示处于基本形式的压实器200的一个实施例，其包括用于通过入口202接收废料流出物203的腔室201。排放出口206设置于腔室201内。板204安置于腔室201内且联接到驱动单元205。图3a展示在接合驱动构件之前处于缩回位置或非压缩位置的板。在入口202附近提供入口阀(未展示)，其可控制流出物到腔室201中的流动。流出物的流动是不连续的；其由入口阀控制，以填充腔室，然后关闭。替代地，入口阀可经操作以使得分离器的集水槽被排空到腔室201中，然后关闭，以使得集水槽可再填充。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0050]",
+              "html_id": "p0055",
+              "quote": "可以打开和关闭排放出口206。在操作循环期间，打开入口阀以使流出物进入腔室201，同时关闭出口以使得流出物无法逸出。如图3b中所展示，驱动单元205可驱动板204穿过已进入腔室201的废料流出物203，在所述腔室中，所述板将微塑料物质压实，确切地说是通过板204与腔室201的壁之间的压缩来进行的。从废料流出物203中有效地收集微塑料物质，并进行挤压，去除所有液体，且产生压缩的微塑料的固体块。可通过操作驱动单元205在相反的方向上抽出板204，以释放固体块，如图3c中所展示。打开出口以释放压缩的微塑料和分离的流体两者。压缩的微塑料呈用户可以轻松方便地处置的形式。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0065]",
+              "html_id": "p0070",
+              "quote": "当驱动构件205a反转时，第一板204a被远离第二板204b驱动，且第一板204a返回到其起始位置，如图6c中所展示。锁存的第二板保持在其所在的位置，且接着压缩的微塑料颗粒自由地从排放出口206掉落。循环通过第二板移动回到其未锁存的起始位置而复位。这可以通过在第一板204a返回到其起始点时释放锁存器的推杆实现。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0069]",
+              "html_id": "p0074",
+              "quote": "图8展示本发明的另一实施例，其包含分别在入口和出口上添加止回阀801、802以及朝向翻板702移动的入口。在此布置中，在活塞的压缩冲程之后抽出活塞的动作具有将流出物抽吸到腔室201中的作用。在活塞的压缩冲程期间推动所述活塞的动作关闭入口止回阀801且将废水泵出出口208。在图9中，可以看到此布置的使用，因为从流出物中提取的水可经由管道804泵送回到系统中，在必要时可对其进行再过滤。如果网状物705的孔径较大，例如为400um，那么可能需要这样做。此布置实际上是可潜在地替换洗涤机中的泵的泵。用户可反复地操作抽屉，或此可作为驱动器上的活塞自动操作，直到洗涤机的滚筒中的流出物被排空，且流出物已通过过滤和压实阶段，以去除和回收从洗涤机排空的废料流体中提取的所得固体材料。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "排放出口可由透水翻板或可拆卸盖关闭；入口翻板防压缩时逆向逸出，止回阀属于另一具体布置。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "权利要求22",
+              "html_id": "cl0022",
+              "quote": "22.根据前述权利要求中任一项所述的压实器，其中所述排放出口包括可拆卸盖。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0052]",
+              "html_id": "p0057",
+              "quote": "压实器200的元件是可渗透的以允许水在腔室被压缩时逸出。可渗透结构的孔隙直径可达50微米左右，使得大于此大小的所有微纤维都不能通过。如下文所论述，其它大小是可能的。可渗透结构可为板204，所述板可由刚性网状物或由框架支撑的柔性网状物制成。在此实施例中，水通过排水通道208从板204后方的腔室后部逸出，如图3d中所展示。替代地，腔室201的后壁211可为可渗透的，且提供排水通道212以将废水远离压实器而转移，如图3e中所展示。替代地或另外，排放出口206可为可通过可渗透翻板213关闭的，如图3d和3e中所展示，所述翻板在流出物的压缩期间处于关闭位置，并且打开以允许压缩的颗粒掉落。可在入口处提供翻板214以防止流出物在压缩阶段期间从入口逸出。",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0069]",
+              "html_id": "p0074",
+              "quote": "图8展示本发明的另一实施例，其包含分别在入口和出口上添加止回阀801、802以及朝向翻板702移动的入口。在此布置中，在活塞的压缩冲程之后抽出活塞的动作具有将流出物抽吸到腔室201中的作用。在活塞的压缩冲程期间推动所述活塞的动作关闭入口止回阀801且将废水泵出出口208。在图9中，可以看到此布置的使用，因为从流出物中提取的水可经由管道804泵送回到系统中，在必要时可对其进行再过滤。如果网状物705的孔径较大，例如为400um，那么可能需要这样做。此布置实际上是可潜在地替换洗涤机中的泵的泵。用户可反复地操作抽屉，或此可作为驱动器上的活塞自动操作，直到洗涤机的滚筒中的流出物被排空，且流出物已通过过滤和压实阶段，以去除和回收从洗涤机排空的废料流体中提取的所得固体材料。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        },
+        "endpoint": {
+          "judgment": "unresolved",
+          "summary": "压缩成块便于用户处置为文本陈述；所核段未确定最终处置介质/设施或环境绩效。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+              "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+              "locator": "说明书[0050]",
+              "html_id": "p0055",
+              "quote": "可以打开和关闭排放出口206。在操作循环期间，打开入口阀以使流出物进入腔室201，同时关闭出口以使得流出物无法逸出。如图3b中所展示，驱动单元205可驱动板204穿过已进入腔室201的废料流出物203，在所述腔室中，所述板将微塑料物质压实，确切地说是通过板204与腔室201的壁之间的压缩来进行的。从废料流出物203中有效地收集微塑料物质，并进行挤压，去除所有液体，且产生压缩的微塑料的固体块。可通过操作驱动单元205在相反的方向上抽出板204，以释放固体块，如图3c中所展示。打开出口以释放压缩的微塑料和分离的流体两者。压缩的微塑料呈用户可以轻松方便地处置的形式。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "易处置的设计主张不是处置效果测量。",
+          "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "权24基本方法",
+          "steps": [
+            "接收流出物",
+            "板由非压缩位置到压缩位置以分水并压缩",
+            "板返回非压缩位置",
+            "排放压缩微塑料"
+          ],
+          "evidence_locators": [
+            "cl0024"
+          ],
+          "ordering_certainty": "explicit"
+        },
+        {
+          "variant": "图6双板锁存方案",
+          "steps": [
+            "透水板收集纤维并由废水出口排水",
+            "两板压缩挤出剩余液体",
+            "第一板返程，第二板锁存，固体掉落",
+            "解锁第二板复位"
+          ],
+          "evidence_locators": [
+            "p0068",
+            "p0070"
+          ],
+          "ordering_certainty": "explicit"
+        },
+        {
+          "variant": "图8—9止回阀回路",
+          "steps": [
+            "回程抽吸流出物进腔",
+            "压缩冲程关闭入口止回阀并将废水泵出",
+            "水可经804回系统再过滤",
+            "重复循环直到滚筒排空"
+          ],
+          "evidence_locators": [
+            "p0074"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": [
+        "仅对所列公开文本技术披露编码；官方当前有效状态及授权版本仍待核。",
+        "技术结构/步骤披露不等于实施效果实证。"
+      ]
+    },
+    {
+      "publication": "CN115700309A",
+      "family_id": "85120837",
+      "reviewed_version": "CN115700309A local saved HTML/claims",
+      "legal_status": "unknown_not_reviewed",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+          "sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/CN115700309A_claims.txt",
+          "sha256": "e7aa175275d4a59e4660349a30c85ae999b21f9920b8ed33dc238e56d6fde38b"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "explicit",
+          "summary": "清洗颗粒随水流摩擦过滤腔体内壁和过滤机构外壁。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+              "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+              "locator": "说明书[n0062] (HTML p0067)",
+              "quote": "清洗颗粒680，设于过滤腔体610内，用于随水流摩擦碰撞清洗过滤腔体610内壁和过滤机构620外壁；",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "清洁时杂质随水经排污口至回收装置，属于带液转移。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+              "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+              "locator": "说明书实施例（排污操作）",
+              "quote": "过滤杂质501在离心力和激荡水流的作用下，从过滤机构620外壁上剥离，融入过滤腔体610内的水中，再由排污口6103排出过滤腔体610。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "无流量/残余量。",
+          "review_scope": "HTML说明书及权项"
+        },
+        "solids_dewatering": {
+          "judgment": "not_found",
+          "summary": "未找到明确降低过滤杂质含水量的动作。",
+          "evidence": [],
+          "unknown_reason": "审查权项和排污实施例；分离过滤不等于固体脱水。",
+          "review_scope": "HTML全文相关段与权项"
+        },
+        "chamber_drainage": {
+          "judgment": "unresolved",
+          "summary": "进水冲污/排污流路不足以证明维护阶段腔体排空。",
+          "evidence": [],
+          "unknown_reason": "未找到真正腔体排空的连续原文。",
+          "review_scope": "HTML全文及权项"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "过滤后的清水可导入盛水筒重复利用，或汇入排水管路排出。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+              "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+              "locator": "说明书[n0042] (HTML p0045)",
+              "quote": "本发明中，回收装置中设置过滤组件，对进入回收腔室的污水进行过滤，从而将其中的过滤杂质从水中分离出来，避免了过滤杂质与水混合在一起难以处理的情况。同时，过滤后的清水可以导入盛水筒重复利用，或者汇入排水管路排出，而不会造成细微线屑影响生态环境的问题。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "回收装置壳体可从箱体抽出，用户可清理其内过滤杂质；未明示倒出。",
+          "removal_object": [
+            "collection_chamber"
+          ],
+          "integrated_or_separate": "separate",
+          "text_disclosed_only": true,
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+              "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+              "locator": "说明书[n0115] (HTML p0120)",
+              "quote": "本实施例中，所述洗衣机还包括箱体10，盛水筒100和过滤装置600均设置于箱体10内。壳体510可插入/抽出的设置在箱体10上，用户可将回收装置500从箱体10内抽出进行清理。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "无实际倒出记录。",
+          "review_scope": "HTML与权10"
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "循环过滤时回水控制阀导通、排污控制阀关闭；排污时反向切换。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+              "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+              "locator": "说明书[n0108] (HTML p0113)",
+              "quote": "在上述方案中，对盛水筒100中的洗涤水进行循环过滤时，回水控制阀231打开导通回水管路230，排污控制阀关闭241切断排污管路240，在循环泵400的作用下，洗涤水依次通过盛水筒排水管260、排水管路210、循环管路220、过滤装置600，最终由回水管路230重新回到盛水筒100中。当需要排出过滤装置600中残留的过滤杂质501时，回水控制阀231关闭切断回水管路230，洗涤水无法从过滤水出口6102流出，同时排污控制阀241打开导通排污管路240，可以保证进入过滤装置600的水均由排污口6103流出，将过滤杂质501从过滤装置600中充分带出。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "出水接头与密封支撑部之间由密封件封堵。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+              "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+              "locator": "说明书[n0024] (HTML p0027)",
+              "quote": "所述过滤机构具有可转动的插设在所述密封支撑部中的出水接头，所述出水接头上套设轴承；所述轴承朝向过滤腔体内部的一侧设置有密封件，所述密封件封堵出水接头与密封支撑部之间的间隙。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "未找到具体最终处置去向或实测。",
+          "evidence": [],
+          "unknown_reason": "生态益处和“收集处理”不构成终点。",
+          "review_scope": "HTML全文及权项"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "排污实施例",
+          "steps": [
+            "循环过滤：回水阀开、排污阀关",
+            "排污：回水阀关、排污阀开",
+            "杂质随水经排污口到回收装置",
+            "壳体可抽出清理"
+          ],
+          "evidence_locators": [
+            "说明书实施例（回水/排污阀）",
+            "说明书回收装置段"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": "技术披露编码；不判断授权或有效性。"
+    },
+    {
+      "publication": "CN118273060A",
+      "family_id": "91644784",
+      "reviewed_version": "CN118273060A local saved HTML/claims",
+      "legal_status": "unknown_not_reviewed",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/CN118273060A.html",
+          "sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/CN118273060A_claims.txt",
+          "sha256": "63609d932bc5db530b6fc8f9029d78128034ebf6b31e67088823c20f3f1913c5"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "not_found",
+          "summary": "未找到从滤介质去除沉积物的清洗动作。",
+          "evidence": [],
+          "unknown_reason": "审查权1-19及说明书维护段。",
+          "review_scope": "HTML全文相关段及权项"
+        },
+        "transfer": {
+          "judgment": "not_found",
+          "summary": "未找到截留物从滤介质转移至收集位置的路径。",
+          "evidence": [],
+          "unknown_reason": "过滤器组可移动不等于截留物转移。",
+          "review_scope": "HTML全文相关段及权项"
+        },
+        "solids_dewatering": {
+          "judgment": "not_found",
+          "summary": "未找到降低截留物含水量。",
+          "evidence": [],
+          "unknown_reason": "无明确脱水动作。",
+          "review_scope": "HTML全文相关段及权项"
+        },
+        "chamber_drainage": {
+          "judgment": "not_found",
+          "summary": "未找到维护阶段排空过滤室。",
+          "evidence": [],
+          "unknown_reason": "正常入口/出口不计维护排液。",
+          "review_scope": "HTML全文相关段及权项"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "待过滤水经入口口部流入，已过滤水经出口口部流出。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN118273060A.html",
+              "source_sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5",
+              "locator": "说明书[0017] (HTML p0020)",
+              "quote": "本文所述的用于过滤水的过滤器组件，优选地用于过滤从洗衣机的洗衣机滚筒出来的水，其中，所述过滤器组件能流体地连接到与所述洗衣机滚筒流体连接的洗衣机管道，其中，所述过滤器组件包括：i)壳体组，包括过滤室，所述壳体组包括：-壳体主体，沿着轴线延伸，所述壳体主体包括侧壁、底壁和入口开口，所述侧壁基本上平行于所述轴线，所述底壁优选地基本上正交于所述轴线，所述入口开口与所述底壁相对并且在周边上由开口边缘界定，其中，所述壳体主体包括入口口部和出口口部，待过滤的水流过所述入口口部，已过滤的水流过所述出口口部；-盖装置，包括帽构件和操作构件，所述帽构件能插入到所述入口开口中，从而密封地接合所述开口边缘；ii)过滤器组，适于容纳在所述过滤室中，将所述过滤室分成脏区域和清洁区域，其中，所述过滤器组包括过滤介质和联接到所述过滤介质的过滤器结构，所述过滤器结构包括封头板；其中，所述帽构件具有贯通开口，并且所述封头板包括定心元件；其中，所述操作构件能穿过所述贯通开口与所述定心元件接合，其中，所述操作构件接合所述帽构件并且使所述封头板与所述帽构件密封接合。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "解锁时盖装置和过滤器组可相对壳体主体轴向移动；未明示独立集渣物移出。",
+          "removal_object": [
+            "filter_element"
+          ],
+          "integrated_or_separate": "integrated",
+          "text_disclosed_only": true,
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN118273060A.html",
+              "source_sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5",
+              "locator": "权0016] (HTML zh-cl0016)",
+              "quote": "16.根据前述权利要求中任一项所述的过滤器组件(1)，其中，所述壳体组(2)还包括止动构件(7)，所述止动构件能处于锁定位置和解锁位置，在所述锁定位置中，所述盖装置(4)和所述过滤器组(5)的轴向运动被锁定，在所述解锁位置中，所述盖装置(4)和所述过滤器组(5)能从所述壳体主体(3)轴向地移动和轴向地移动到所述壳体主体。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "权16可移出滤器组；未据此推断有独立集渣腔或已实测取渣。"
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "止动构件锁定/解锁盖装置和过滤器组的轴向运动。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN118273060A.html",
+              "source_sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5",
+              "locator": "说明书[0174] (HTML p0179)",
+              "quote": "根据优选实施方式，壳体组2还包括可定位在锁定位置和解锁位置的止动构件7，在锁定位置中，盖装置4和过滤器组5的轴向运动被锁定，在解锁位置中，盖装置4和过滤器组5可沿着轴线X-X从壳体3轴向移动和轴向移动到壳体3。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "帽构件插入入口开口并与开口边缘密封接合。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN118273060A.html",
+              "source_sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5",
+              "locator": "权1 (HTML zh-cl0001)",
+              "quote": "1.一种用于过滤水的过滤器组件(1)，优选地用于过滤从洗衣机(900)的洗衣机滚筒(910)出来的水，其中，所述过滤器组件(1)能流体地连接到与所述洗衣机滚筒(910)流体连接的洗衣机管道(950)，其中，所述过滤器组件(1)包括： i)壳体组(2)，包括过滤室(20)，所述壳体组包括： -壳体主体(3)，沿着轴线(X-X)延伸，所述壳体主体包括侧壁(31)、底壁(32)和入口开口(33)，所述侧壁基本上平行于所述轴线(X-X)，所述底壁优选地基本上正交于所述轴线(X-X)，所述入口开口与所述底壁(32)相对并且在周边上由开口边缘(313)界定，其中，所述壳体主体(3)包括入口口部(301)和出口口部(302)，待过滤的水流过所述入口口部，已过滤的水流过所述出口口部； -盖装置(4)，包括帽构件(40)和操作构件(41)，所述帽构件能插入到所述入口开口(33)中，从而密封地接合所述开口边缘(313)； ii)过滤器组(5)，适于容纳在所述过滤室(20)中，将所述过滤室分成脏区域和清洁区域，其中，所述过滤器组(5)包括过滤介质(50)和联接到所述过滤介质(50)的过滤器结构(51)，所述过滤器结构包括封头板(510)； 其中，所述帽构件(40)具有贯通开口(401)，并且所述封头板(510)包括定心元件(511)； 其中，所述操作构件(41)能穿过所述贯通开口(401)与所述定心元件(511)接合，其中，所述操作构件(41)接合所述帽构件(40)并且使所述封头板(510)与所述帽构件(40)密封接合。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "此公开版本的所引权项或说明书段落；可选实施例不外推为全部方案。"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "未找到移出后固体去向或实测。",
+          "evidence": [],
+          "unknown_reason": "审查范围内无处置文本。",
+          "review_scope": "HTML全文相关段及权项"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "维护访问",
+          "steps": [
+            "止动件由锁定转解锁",
+            "盖装置和过滤器组轴向移出"
+          ],
+          "evidence_locators": [
+            "权16"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": "移出的是组件，不能自动推定固体已被取出。"
+    },
+    {
+      "publication": "WO2022084677A1",
+      "family_id": "78536409",
+      "reviewed_version": "WO2022084677A1 local saved HTML/claims",
+      "legal_status": "unknown_not_reviewed",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/WO2022084677A1.html",
+          "sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/WO2022084677A1_claims.txt",
+          "sha256": "9d019c8b97ba213115a9e5618e82c2d6feea025583d19404e786b752fdda7a81"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "explicit",
+          "summary": "旋转滤介质使残渣甩离滤介质。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1_claims.txt",
+              "source_sha256": "9d019c8b97ba213115a9e5618e82c2d6feea025583d19404e786b752fdda7a81",
+              "locator": "权3",
+              "quote": "a rotary actuator configured to rotate the filter medium to throw filter residue off the filter medium",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "无清洗效果量化。",
+          "review_scope": "权1-43及相关说明书"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "第二构型开口时，移渣装置将滤渣从滤腔移至外置收集腔。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1.html",
+              "source_sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe",
+              "locator": "说明书[0012] (HTML p0012)",
+              "quote": "According to a first aspect of the present disclosure there is provided a microparticle filter suitable for filtering microparticles from effluent from a textile treatment apparatus, the filter comprising: a filter chamber comprising chamber walls, an inlet and an outlet; a filter medium contained within the filter chamber, the filter medium configured to filter cellulose microparticles from the effluent forming a filter residue and providing a filtered effluent to the outlet; a filter residue collection chamber located external to the filter chamber; a filter residue removal apparatus; and wherein the chamber walls comprise an opening and a moveable member movable between a first and a second configuration; wherein: in the first configuration the moveable member closes the opening to seal the filter chamber so that entry of the effluent into the filter chamber is through the inlet only, and exit of the filtered effluent from the filter chamber is through the outlet only; and in the second configuration the moveable member is removed from the opening so that the filter residue removal apparatus is operable to remove filter residue from the within the filter chamber to the filter residue collection chamber through the opening.",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文未通过精确连续片段检查，已撤回。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "solids_dewatering": {
+          "judgment": "explicit",
+          "summary": "第一构型排出滤腔液体以降低滤渣含水量；未给含水率。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1.html",
+              "source_sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe",
+              "locator": "说明书[0013] (HTML p0013)",
+              "quote": "The microparticle filter may be operable to drain effluent from the filter chamber in the first configuration to reduce the water content of the filter residue before it is removed from the filter chamber. The microparticle filter may be configured so that effluent may drain from the microparticle filter. Draining may optionally be passive, i.e. under the influence of gravity, or may be active, e.g. by pumping or circulating air or applying a vacuum.",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文未通过精确连续片段检查，已撤回。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "chamber_drainage": {
+          "judgment": "explicit",
+          "summary": "供液停止后，说明书实施例记载滤腔残余液经出口排出；不推出零残液。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1.html",
+              "source_sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe",
+              "locator": "说明书[0247] (HTML p0247)",
+              "quote": "In operation, the microparticle filter 700 is placed in the first configuration as shown in figure 7a, with the cylindrical wall 705a of the moveable member against base wall 702a, closing the opening 711 so that the filter residue collection chamber 707 is inaccessible from within the filter chamber 701. Effluent enters the filter medium 706 from the inlet 703. The effluent is filtered as it passes through the cylindrical wall of filter medium 706 and exits the filter chamber through the frustrum 702b and outlet 704. During filtration of the effluent, filtered particles will accumulate as a filter residue on the outside of the cylindrical surface of the filter medium 706. After the supply of effluent has stopped, residual liquid in the filter chamber 701 is drained from the filter chamber via the outlet 704. Then the filter is placed in the second configuration as shown in figure 7b by moving the moveable member, vertically upwards away from the base wall 702a. Thus, providing the opening 711 between the moveable member and the filter chamber 701 . The filter residue is then transferred from the internal surface of the cylindrical filter medium to the filter residue collection chamber 707 by the filter residue removal apparatus. The actuator 709 of the filter residue removal apparatus spins the filter medium 706 to throw residue out of the off the surface of the filter medium 706 through opening 711. The filter residue may then be thrown directly into filter residue collection chamber 707 or may be thrown into collection wall 714 and fall into the collection chamber 707. After the residue is transferred, the microparticle filter 700 may resume the first configuration to resume filtration of effluent.",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文未通过精确连续片段检查，已撤回。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "第一构型中流体只由入口进入、过滤液只由出口离开。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1.html",
+              "source_sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe",
+              "locator": "说明书[0012] (HTML p0012)",
+              "quote": "According to a first aspect of the present disclosure there is provided a microparticle filter suitable for filtering microparticles from effluent from a textile treatment apparatus, the filter comprising: a filter chamber comprising chamber walls, an inlet and an outlet; a filter medium contained within the filter chamber, the filter medium configured to filter cellulose microparticles from the effluent forming a filter residue and providing a filtered effluent to the outlet; a filter residue collection chamber located external to the filter chamber; a filter residue removal apparatus; and wherein the chamber walls comprise an opening and a moveable member movable between a first and a second configuration; wherein: in the first configuration the moveable member closes the opening to seal the filter chamber so that entry of the effluent into the filter chamber is through the inlet only, and exit of the filtered effluent from the filter chamber is through the outlet only; and in the second configuration the moveable member is removed from the opening so that the filter residue removal apparatus is operable to remove filter residue from the within the filter chamber to the filter residue collection chamber through the opening.",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "初轮引文未通过精确连续片段检查，已撤回。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "说明书可选实施例中，收集腔可从设备拆下以协助用户倒空滤渣。",
+          "removal_object": [
+            "collection_chamber"
+          ],
+          "integrated_or_separate": "separate",
+          "text_disclosed_only": true,
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\WO2022084677A1.html",
+              "source_sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe",
+              "locator": "说明书[0097] (HTML p0097)",
+              "quote": "The filter residue collection chamber may be removable from the microparticle filter to assist a user to empty residue therefrom. Where the microparticle filter is comprised as part of a textile treatment apparatus the filter residue collection chamber may be removable from the microparticle filter and the textile treatment apparatus. The filter residue apparatus may comprise a detachable connection to removably connect the filter residue collection chamber to the microparticle filter. Non limiting examples of detachable connections include latches, such as toggle latches and depressible tongue latches, quick release mechanisms tongue and groove arrangements, amongst others. Optionally, the filter residue collection chamber may comprise a portion that is detachable from the remainder of the filter residue collection chamber, for example, a drawer or tray that can be removed for emptying.",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "此公开版本的所引权项或说明书段落；可选实施例不外推为全部方案。"
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "平面滤介质可选实施例中，过滤后转第二构型、接触元件跨滤面移动，再恢复第一构型。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\WO2022084677A1.html",
+              "source_sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe",
+              "locator": "说明书[0053] (HTML p0053)",
+              "quote": "Where the filter medium is planar, the contact element may move linearly from one side of the filter to an opposing side. For example, the contact element may be in a first position at one edge of the filter medium away from the opening during filtration of effluent. After filtration of effluent, the microparticle filter may be placed in the second configuration, then the contact element may be moved across the surface of the filter medium to an opposing edge into a second position which is proximal to, adjacent to or through the opening. The contact element may then return to the first position and the microparticle filter restored to the first configuration. In embodiments where the filter medium is planar, the contact element may rotate about an axis. The axis may be the central axis of the filter chamber. Alternatively, the axis may be noncentral to the filter medium e.g. so that the contact element rotates similar to a windscreen wiper.",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "此公开版本的所引权项或说明书段落；可选实施例不外推为全部方案。"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "第一构型可动件与腔壁配合密封滤腔。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1_claims.txt",
+              "source_sha256": "9d019c8b97ba213115a9e5618e82c2d6feea025583d19404e786b752fdda7a81",
+              "locator": "权1",
+              "quote": "the moveable member cooperates with the chamber walls to seal the filter chamber",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "收集腔连接拆卸细节有限。",
+          "review_scope": "权1-43"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "未找到收集腔倒空后的处置或实测。",
+          "evidence": [],
+          "unknown_reason": "只见assist a user to empty。",
+          "review_scope": "权1-43及相关说明书"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "排液后移渣",
+          "steps": [
+            "第一构型过滤/排液降低含水量",
+            "滤腔无effluent",
+            "转第二构型开口",
+            "移渣至外置收集腔",
+            "收集腔可拆出倒空"
+          ],
+          "evidence_locators": [
+            "权1、27-30、35"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": "不把dewatered写成完全干燥。"
+    },
+    {
+      "publication": "WO2024199585A1",
+      "family_id": "90826597",
+      "reviewed_version": "WO2024199585A1 local saved German/English HTML; local PDF retained but text extraction unavailable",
+      "legal_status": "unknown_not_reviewed",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/WO2024199585A1.html",
+          "sha256": "90ad20901b829d34f9429e698989cf50fabc2cfbd053cd3a82ce5a88607954be"
+        },
+        {
+          "path": "h1-study/patents/WO2024199585A1.pdf",
+          "sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c"
+        },
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+          "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+          "url": "https://patents.google.com/patent/WO2024199585A1/en",
+          "source_kind": "original_WO_publication_PDF"
+        },
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+          "source_sha256": "8fb0347462fbeecd05a6d23effb6716c40d625a489d4a1108ea9f91f2660cedf",
+          "source_kind": "root_visual_transcription"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "unresolved",
+          "summary": "待以本地原件中同一定位的连续原文短引文复核。",
+          "evidence": [],
+          "unknown_reason": "初轮引文未通过精确连续片段检查，已撤回。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "transfer": {
+          "judgment": "unresolved",
+          "summary": "待以本地原件中同一定位的连续原文短引文复核。",
+          "evidence": [],
+          "unknown_reason": "初轮引文未通过精确连续片段检查，已撤回。",
+          "review_scope": "本地保存全文待精确引文复核"
+        },
+        "solids_dewatering": {
+          "judgment": "explicit",
+          "summary": "可选下游离心分离截留物附着液，或由压机压缩并去除残余液；这是收集物含水量降低，不是过滤腔排空。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+              "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+              "locator": "物理14页/印刷12页第3—5行",
+              "quote": "beispielsweise einer Zentrifuge, um am Retentat anhaftendes Fluid abzutrennen",
+              "evidence_type": "description",
+              "verification_method": "root_visual_readback_of_rendered_original_pdf",
+              "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+              "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\description-14.png",
+              "page_image_sha256": "c54a99885de27eef751b5d4a0a2587d214cfff2ef25bbf786f5615f64e1cef24"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+              "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+              "locator": "物理14页/印刷12页第6—8行",
+              "quote": "Ferner und zusätzlich kann das Retentat in eine Presse münden, die das Retentat zusammendrücken und verbliebenes Fluid aus dem Retentat entfernen kann.",
+              "evidence_type": "description",
+              "verification_method": "root_visual_readback_of_rendered_original_pdf",
+              "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+              "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\description-14.png",
+              "page_image_sha256": "c54a99885de27eef751b5d4a0a2587d214cfff2ef25bbf786f5615f64e1cef24"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "原PDF物理14、15、26、27页主代理完整目视回读；其余页不据此作否定。"
+        },
+        "chamber_drainage": {
+          "judgment": "unresolved",
+          "summary": "未在本轮将抽取不足的PDF说明书内容编码为排空。",
+          "evidence": [],
+          "unknown_reason": "权9的排出不等于维护阶段腔体排空。",
+          "review_scope": "HTML权项及PDF待人工读回"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "主过滤液经网状/多孔滤结构侧向进入滤液出口13；截留物流经出口14导出或抽吸并容器收集。外部离心/压机脱出液终点在所读页未说明。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+              "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+              "locator": "物理26页/印刷24页权1",
+              "quote": "das Fluid lateral durch die maschen- oder porenförmige Filterstruktur (5) des Filterelements (3) und den Filtratablauf (13) austritt,",
+              "evidence_type": "claim",
+              "verification_method": "root_visual_readback_of_rendered_original_pdf",
+              "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+              "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\claims-26.png",
+              "page_image_sha256": "bf19770993a41b6f93f5bd587dd355e61d768e6607f34e7b92a4ecbf63b92dcb"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+              "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+              "locator": "物理26页/印刷24页权1",
+              "quote": "zentral im Bereich des Filterelements (3) über einen Retentatablauf (14) ableitbar oder absaugbar und in einem Behälter (7) auffangbar und entnehmbar ist,",
+              "evidence_type": "claim",
+              "verification_method": "root_visual_readback_of_rendered_original_pdf",
+              "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+              "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\claims-26.png",
+              "page_image_sha256": "bf19770993a41b6f93f5bd587dd355e61d768e6607f34e7b92a4ecbf63b92dcb"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "原PDF物理14、15、26、27页主代理完整目视回读；其余页不据此作否定。"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "权1/8明示截留物在容器收集并从容器取出；权5另述滤元可单独取出/清洗。未据此认定收集容器本身可拆卸。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+              "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+              "locator": "物理27页/印刷25页权8",
+              "quote": "dass das Retentat in einem Behälter (7) auffangbar und aus dem Behälter (7) entnehmbar ist.",
+              "evidence_type": "claim",
+              "verification_method": "root_visual_readback_of_rendered_original_pdf",
+              "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+              "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\claims-27.png",
+              "page_image_sha256": "5674fc3b7285b6c095f6bfe1df26786714d990d2124af263fd15dee6d64fe526"
+            },
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+              "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+              "locator": "物理27页/印刷25页权5",
+              "quote": "dass das Filterelement (3) mit der maschen- oder porenförmigen Filterstruktur (5) einzeln aus der bionischen Vorrichtung (1) entnehm- und/oder waschbar ist.",
+              "evidence_type": "claim",
+              "verification_method": "root_visual_readback_of_rendered_original_pdf",
+              "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+              "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\claims-27.png",
+              "page_image_sha256": "5674fc3b7285b6c095f6bfe1df26786714d990d2124af263fd15dee6d64fe526"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "原PDF物理14、15、26、27页主代理完整目视回读；其余页不据此作否定。",
+          "removal_object": [
+            "loose_or_compacted_solids",
+            "filter_element"
+          ],
+          "integrated_or_separate": "截留物从容器取出；滤元单独取出是另一特征，容器可拆未据此证明",
+          "text_disclosed_only": true
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "实施例滤液出口阀关闭、截留物出口阀打开可加强抽吸以收集颗粒；阀控制也支持压力脉冲清理，但具体周期/时长未知。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+              "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+              "locator": "物理15页/印刷13页第7—10行",
+              "quote": "Dieser wird stärker, wenn beispielsweise ein Ventil im Bereich des Filtratablaufs schließt, während im Bereich des Retentatablaufs beispielsweise ein Ventil öffnet.",
+              "evidence_type": "description",
+              "verification_method": "root_visual_readback_of_rendered_original_pdf",
+              "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+              "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\description-15.png",
+              "page_image_sha256": "f633ab0c1f5dc78c21085a2efc9070b837130955d24775daf2f75b4e2033349f"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "原PDF物理14、15、26、27页主代理完整目视回读；其余页不据此作否定。"
+        },
+        "seals_connections": {
+          "judgment": "not_found",
+          "summary": "未找到与取出直接关联的密封/连接拆卸步骤。",
+          "evidence": [],
+          "unknown_reason": "本轮不以概念性滤元结构推断。",
+          "review_scope": "HTML全文相关段及权项"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "未找到移出后处置或实测。",
+          "evidence": [],
+          "unknown_reason": "排出/回流不等于最终处置。",
+          "review_scope": "HTML全文相关段及权项"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "容器收集取出",
+          "steps": [
+            "截留物经出口14导出/抽吸",
+            "容器收集",
+            "从容器取出截留物"
+          ],
+          "evidence_locators": [
+            "原PDF物理15页/印刷13页第4—15行；权1/8"
+          ],
+          "ordering_certainty": "explicit"
+        },
+        {
+          "variant": "可选直接进一步处理",
+          "steps": [
+            "截留物流直接导向进一步处理",
+            "离心分离附着液，或追加压机压缩去液"
+          ],
+          "evidence_locators": [
+            "原PDF物理14页/印刷12页第1—8行"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": [
+        "权9/14 HTML保留德文原句；PDF原件优先核验项标为unresolved，未将英译冒充PDF原文。",
+        "主代理已目视核原PDF：权8取出主体为截留物，不是“可拆收集容器”；外部离心/压机是可选路线，不能强拼为必要序列。"
+      ]
+    },
+    {
+      "publication": "WO2024250011A1",
+      "family_id": "91737942",
+      "reviewed_version": "WO2024250011A1 local saved HTML/claims",
+      "legal_status": "unknown_not_reviewed",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/WO2024250011A1.html",
+          "sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/WO2024250011A1_claims.txt",
+          "sha256": "72bbb21d347ab0d72e8d36a1f3d788a0b9482cbb7f335d761331553ae54d0c01"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "explicit",
+          "summary": "说明书[0051]披露离心力和未限定pulse将褶皱滤面微纤维击落；未入权项。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1.html",
+              "source_sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284",
+              "locator": "说明书[0051]",
+              "quote": "leverage the centrifugal force and a pulse to knock them off again",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "pulse来源/时序未明。",
+          "review_scope": "HTML全文及权项1-23"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "说明书[0051]称微纤维移至单独储存腔；未入权项。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1.html",
+              "source_sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284",
+              "locator": "说明书[0051]",
+              "quote": "move the microfibers to a separate compartment where they get stored",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "该腔结构/位置/流路未知。",
+          "review_scope": "HTML全文及权项1-23"
+        },
+        "solids_dewatering": {
+          "judgment": "not_found",
+          "summary": "未找到降低截留物含水量。",
+          "evidence": [],
+          "unknown_reason": "重力自排水为设备水，不等于截留物脱水。",
+          "review_scope": "HTML全文及权项1-23"
+        },
+        "chamber_drainage": {
+          "judgment": "unresolved",
+          "summary": "说明书仅披露非使用时将设备铰接翻起、借重力排水；不等同于维护阶段过滤腔排空。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1.html",
+              "source_sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284",
+              "locator": "说明书[0056] (HTML p0056)",
+              "quote": "[0058] FIG. 1 illustrates a filter device 100 having an elongated shape and generally flat profile with a contoured shape that matches the style of an agitator inside the drum of a washing machine. An outer shell or housing 102 has a hard shell with a filleted rectangular shape that hugs the drum, reduces the chance that clothing, towels, bedding, or other textiles will get stuck or trapped by the housing 102. A reusable inner core 320 (FIG. 3A) inspired by a popsicle stick mold allows for easy loading and unloading of the filter without having to touch the inner filter 210 (FIG. 2). A self-drainage design flips upwards with a hinge to use gravity when not in use to drain away water, which can be best seen in FIG. 3B. A mesh filter 220 can be easily loaded into the housing 102 by, for example, push rivets that are pressed into corresponding mounting holes 330a (FIG. 3C), which are hidden in the mounting base 310. FIG. 4 illustrates how the mesh filter 220 is inserted into the mounting base 310 by press-fitting the push rivets into place into their corresponding mounting holes 330a. By flipping the device up in the orientation shown in FIG. 3C, visual inspection of the filter is possible while also allowing water to drain away from the device 100.",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "原文只说明非使用时翻起设备借重力排水；未说明维护前过滤腔残液排空。",
+          "review_scope": "HTML全文及权项1-23"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "洗衣水穿过壳体开口和多级滤器；自排水水由重力离开设备，终点未明。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1_claims.txt",
+              "source_sha256": "72bbb21d347ab0d72e8d36a1f3d788a0b9482cbb7f335d761331553ae54d0c01",
+              "locator": "权17",
+              "quote": "a housing having a plurality of openings through which the laundry water is configured to pass",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "无管路/最终液体去向。",
+          "review_scope": "HTML全文及权项1-23"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "权1明示可拆多孔内滤器；没有明确说明所拆者承载的固体如何取出。",
+          "removal_object": [
+            "filter_element"
+          ],
+          "integrated_or_separate": "integrated",
+          "text_disclosed_only": true,
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1_claims.txt",
+              "source_sha256": "72bbb21d347ab0d72e8d36a1f3d788a0b9482cbb7f335d761331553ae54d0c01",
+              "locator": "权1",
+              "quote": "a hard, protective outer shell and a removable, porous inner filter",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": "仅可拆滤器，不把其推定为收集容器移出。",
+          "review_scope": "权1-23及HTML"
+        },
+        "state_switch": {
+          "judgment": "inferred",
+          "summary": "铰接翻起位置用于非使用时重力排水；未见过滤/清理阀序列。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1.html",
+              "source_sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284",
+              "locator": "说明书[0058]",
+              "quote": "flips upwards with a hinge to use gravity when not in use to drain away water",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "“switch”仅由位置文字推断，非明确控制序列。",
+          "review_scope": "HTML全文及权项1-23"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "说明书披露两半外壳可选用卡扣、螺钉或铰接连接。",
+          "evidence": [
+            {
+              "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\WO2024250011A1.html",
+              "source_sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284",
+              "locator": "说明书[0009] (HTML p0009)",
+              "quote": "[0006] According to an aspect of the present disclosure, a device for filtering microfibers from the laundry water during a normal washing cycle is disclosed, the device comprising a hard, protective outer shell and a removable, porous inner filter. The porous inner filter can include an electrospun PLA or cellulose mesh. The porous inner filter can include a PLA or cellulose foam. [0007] The rigid, outer shell can be made up of two hemispherical halves with varying permeability. The halves can be connected via flexural and snap fit or via a screw or hinge mechanism.",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "",
+          "review_scope": "此公开版本的所引权项或说明书段落；可选实施例不外推为全部方案。"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "未找到separate compartment后续倒空、处置或实测。",
+          "evidence": [],
+          "unknown_reason": "“stored”不说明最终去向。",
+          "review_scope": "HTML全文及权项1-23"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "说明书[0051]概念维护路线",
+          "steps": [
+            "褶皱滤面捕集微纤维",
+            "离心力和pulse击落",
+            "移至separate compartment储存"
+          ],
+          "evidence_locators": [
+            "说明书[0051]"
+          ],
+          "ordering_certainty": "explicit"
+        },
+        {
+          "variant": "设备自排水",
+          "steps": [
+            "非使用时铰接翻起",
+            "利用重力排水"
+          ],
+          "evidence_locators": [
+            "说明书[0058]"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": "两路线来自不同说明书段，未拼作同一装置流程；未称separate compartment为外置集渣腔。"
+    },
+    {
+      "publication": "CN115298383A",
+      "family_id": "provisional-CN115298383A",
+      "reviewed_version": "CN115298383A public text",
+      "legal_status": "unknown",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/CN115298383A.html",
+          "url": "https://patents.google.com/patent/CN115298383A/zh",
+          "sha256": "78E6BC2D1F0F5828A42891071F7CA12C54DF153E1957438F2F944C3E3E50285D"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+          "url": "https://patents.google.com/patent/CN115298383A/zh",
+          "sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "explicit",
+          "summary": "过滤阶段后对颗粒介质进行流化再生；该项针对介质再生。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+              "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+              "locator": "claim 14(B)",
+              "quote": "进行流化再生的阶段",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-20"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "流化再生后，微纤维由再生装置下游的膜过滤器和/或旋流室收集。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+              "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+              "locator": "claim 19",
+              "quote": "进一步包含在所述流化再生阶段之后的至少一个步骤，包含从所述再生阶段收集所述微纤维，优选通过位于所述颗粒介质(30)的流化再生装置下游的膜过滤器和/或旋流室。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-20"
+        },
+        "solids_dewatering": {
+          "judgment": "not_found",
+          "summary": "已审权项只写颗粒介质干燥，未见明确降低已收集微纤维/固体含水量。",
+          "evidence": [],
+          "unknown_reason": "claim 17 concerns drying the particle medium, not expressly captured solids.",
+          "review_scope": "claims 1-20；HTML说明书中脱水/排液相关段落"
+        },
+        "chamber_drainage": {
+          "judgment": "not_found",
+          "summary": "已审文本披露正常出液与旁路，未见维护或移出阶段排空过滤腔的步骤。",
+          "evidence": [],
+          "unknown_reason": "normal liquid outlet is not chamber drainage under the manual.",
+          "review_scope": "claims 1-20"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "流出液穿过颗粒介质后，经支撑件下方开口排出；积液时可由旁路绕过介质。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+              "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+              "locator": "claim 1",
+              "quote": "用于排放所述流出液的装置(110)，包含至少一个提供在所述外壳(10)中并置于所述颗粒介质(30)的所述支撑件(20)的下方的开口(110)，",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+              "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+              "locator": "claim 3",
+              "quote": "以便在所述流出液积聚在所述外壳(10)中的位于所述颗粒介质(30)上方的所述自由体积(40)中时从旁路绕过所述颗粒介质。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-20"
+        },
+        "removal": {
+          "judgment": "not_found",
+          "summary": "虽披露再生后收集微纤维，未见承载目标物的容器移出或固体向用户侧排出的路径。",
+          "evidence": [],
+          "unknown_reason": "collection alone does not establish a user removal path.",
+          "review_scope": "claims 1-20；HTML说明书"
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "过滤与流化再生为分列阶段，控制装置列出双通阀、三通阀、止回阀和旋转六通阀。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+              "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+              "locator": "claim 8",
+              "quote": "所述控制装置包含至少一个双通阀(51，52，53，54，55)和/或至少一个三通阀(58，61)和/或至少一个止回阀(57，59，60)和/或旋转六通阀(62)。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+              "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+              "locator": "claim 14",
+              "quote": "A.进行至少一个过滤所述微纤维的阶段，",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+              "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+              "locator": "claim 14",
+              "quote": "B)通过将用于连接至所述颗粒介质(30)流化再生装置的所述装置(120，130)与所述颗粒介质(30)流化再生装置连接，进行流化再生的阶段。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-20"
+        },
+        "seals_connections": {
+          "judgment": "not_found",
+          "summary": "未见为移出收集物必须拆开的盖、密封或连接。",
+          "evidence": [],
+          "unknown_reason": "connections to regeneration apparatus do not identify a user-removal seal.",
+          "review_scope": "claims 1-20"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "文本仅称收集为后续回收创造可能，未见实际处置、再利用操作或效果实测。",
+          "evidence": [],
+          "unknown_reason": "possibility is not endpoint evidence.",
+          "review_scope": "claims 1-20；HTML说明书"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "claims 14,17,19",
+          "steps": [
+            "filter effluent through particle medium",
+            "connect fluidisation-regeneration apparatus after filtration",
+            "optional medium discharge/drying before regeneration",
+            "collect microfibres from regeneration downstream"
+          ],
+          "evidence_locators": [
+            "claims 14,17,19"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": "No conclusion about legal validity or measured effect."
+    },
+    {
+      "publication": "CN116282270A",
+      "family_id": "provisional-CN116282270A",
+      "reviewed_version": "CN116282270A public text",
+      "legal_status": "unknown",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/CN116282270A.html",
+          "url": "https://patents.google.com/patent/CN116282270A/zh",
+          "sha256": "68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/CN116282270A_claims.txt",
+          "url": "https://patents.google.com/patent/CN116282270A/zh",
+          "sha256": "C3D091F157CB5BECA42B57E7FF05F3B5E5BDF70271DAC0B96813C9B575699B93"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "explicit",
+          "summary": "叶轮形成低压，将滤网上截留固体吸出，对滤网形成反冲洗。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A.html",
+              "source_sha256": "68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15",
+              "locator": "description p0012 [0009]",
+              "quote": "通过所述低压区将污水总管内的污水吸入到中空套管内，同时将所述第一单元中被截留在微塑料过滤网上的固体杂质吸出，对微塑料过滤网形成反冲洗；",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims and description p0010-p0036"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "反冲洗携带固体经中空套管和旋流器进入微塑料收集腔。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A.html",
+              "source_sha256": "68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15",
+              "locator": "description p0030 [0027]",
+              "quote": "滤网上的微塑料等固体杂质随增压后的污水则沿着中空套管通过切向入口进入旋流器中，",
+              "evidence_type": "description"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A.html",
+              "source_sha256": "68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15",
+              "locator": "description p0030 [0027]",
+              "quote": "进入微塑料收集腔中，实现微塑料等固体杂质与水的分离。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims and description p0010-p0036"
+        },
+        "solids_dewatering": {
+          "judgment": "unresolved",
+          "summary": "说明书称旋流实现固体与水分离，但未明确已进入收集腔的固体含水量降低或形成浓缩固体流，不能按脱水计为明确披露。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A.html",
+              "source_sha256": "68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15",
+              "locator": "p0030 [0027]",
+              "quote": "实现微塑料等固体杂质与水的分离。",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": "旋流固液分离不自动证明收集物含水量降低；需要固体流或浓缩/脱水的明确证据。",
+          "review_scope": "description p0030 [0027] and claims 1-5"
+        },
+        "chamber_drainage": {
+          "judgment": "not_found",
+          "summary": "未见维护阶段排空过滤腔或旋流腔；正常过滤出口和旋流溢流口不计为腔体排空。",
+          "evidence": [],
+          "unknown_reason": "overflow/filtered outlets are normal process-liquid routes.",
+          "review_scope": "claims 1-5；description p0010-p0036"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "漂洗污水过滤后从排出管出口排出；旋流器溢流口连接旋流净化出水管。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A_claims.txt",
+              "source_sha256": "C3D091F157CB5BECA42B57E7FF05F3B5E5BDF70271DAC0B96813C9B575699B93",
+              "locator": "claim 1",
+              "quote": "经过滤后漂洗污水经所述漂洗污水排出管路的出口排出；",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A_claims.txt",
+              "source_sha256": "C3D091F157CB5BECA42B57E7FF05F3B5E5BDF70271DAC0B96813C9B575699B93",
+              "locator": "claim 3",
+              "quote": "所述溢流口用于和所述旋流净化出水管连接；",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-5"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "收集腔为分体式螺纹连接，说明书明确可由洗衣机外部拆卸并定期收集其中微塑料。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A.html",
+              "source_sha256": "68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15",
+              "locator": "p0036 [0033]",
+              "quote": "方便从洗衣机外部拆卸和定期对收集腔内的微塑料进行收集",
+              "evidence_type": "description"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "description p0027,p0036",
+          "removal_object": [
+            "collection_chamber"
+          ],
+          "integrated_or_separate": "separate",
+          "text_disclosed_only": true
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "漂洗过滤、甩干时叶轮反冲洗和旋流分离对应不同明示运行步骤；不把它们写成同一动作。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A_claims.txt",
+              "source_sha256": "C3D091F157CB5BECA42B57E7FF05F3B5E5BDF70271DAC0B96813C9B575699B93",
+              "locator": "claim 1",
+              "quote": "所述第一单元用于处理洗衣机的漂洗污水，",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A_claims.txt",
+              "source_sha256": "C3D091F157CB5BECA42B57E7FF05F3B5E5BDF70271DAC0B96813C9B575699B93",
+              "locator": "claim 1",
+              "quote": "所述第二单元用于处理洗衣机的甩干污水；",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A_claims.txt",
+              "source_sha256": "C3D091F157CB5BECA42B57E7FF05F3B5E5BDF70271DAC0B96813C9B575699B93",
+              "locator": "claim 1",
+              "quote": "所述第三单元用于对来自于所述第二单元中空套管内的带有固体杂质的已被增压的甩干污水进行旋流分离；",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-5"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "收集腔采用分体式螺纹连接。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN116282270A_claims.txt",
+              "source_sha256": "C3D091F157CB5BECA42B57E7FF05F3B5E5BDF70271DAC0B96813C9B575699B93",
+              "locator": "claim 4",
+              "quote": "所述收集腔采用分体式螺纹连接结构",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-5"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "已见定期收集，未见收集后处置、再利用或终点效果实测。",
+          "evidence": [],
+          "unknown_reason": "collection is not final disposition.",
+          "review_scope": "claims 1-5；description p0010-p0036"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "method in claim 1 / description p0030",
+          "steps": [
+            "rinse water passes filter and solids are retained",
+            "during spin, impeller suction backwashes retained solids",
+            "pressurised solids-bearing water enters cyclone",
+            "solids flow to collection chamber; clarified water leaves overflow"
+          ],
+          "evidence_locators": [
+            "claim 1",
+            "p0030 [0027]"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": "Description supports technical path; no measured recovery/disposal result coded."
+    },
+    {
+      "publication": "CN117702432A",
+      "family_id": "provisional-CN117702432A",
+      "reviewed_version": "CN117702432A public text",
+      "legal_status": "unknown",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/CN117702432A.html",
+          "url": "https://patents.google.com/patent/CN117702432A/zh",
+          "sha256": "9FA4FF02688811243B49AC3FEE8C9C6F5F4966F7DD72F06E01D7663C07714438"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+          "url": "https://patents.google.com/patent/CN117702432A/zh",
+          "sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "not_found",
+          "summary": "披露多过滤腔选择，未见从滤网表面去除沉积物的清理动作。",
+          "evidence": [],
+          "unknown_reason": "opening cover/replaceable access is not stated as cleaning action.",
+          "review_scope": "claims 1-10；HTML说明书"
+        },
+        "transfer": {
+          "judgment": "not_found",
+          "summary": "截留在被选择的过滤腔内进行，未见将截留固体移至收集或处理位置。",
+          "evidence": [],
+          "unknown_reason": "guided water flow is not solids transfer.",
+          "review_scope": "claims 1-10；HTML说明书"
+        },
+        "solids_dewatering": {
+          "judgment": "not_found",
+          "summary": "未见压实、沥液或明确降低截留固体含水量。",
+          "evidence": [],
+          "unknown_reason": "water outlet is normal filtration outlet.",
+          "review_scope": "claims 1-10；HTML说明书"
+        },
+        "chamber_drainage": {
+          "judgment": "not_found",
+          "summary": "未见维护阶段的过滤腔排空；正常出水不计入。",
+          "evidence": [],
+          "unknown_reason": "normal outlet does not meet drainage definition.",
+          "review_scope": "claims 1-10；HTML说明书"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "控制阀使一个过滤腔连通进、出水口，导流筋引导水由进水口流向出水口。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+              "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+              "locator": "claim 1",
+              "quote": "以将相邻两个过滤腔室中的一个连通于所述进水口和所述出水口，",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+              "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+              "locator": "claim 6",
+              "quote": "以引导水流自所述进水口流向所述出水口。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-10"
+        },
+        "removal": {
+          "judgment": "not_found",
+          "summary": "盖体可拆，但未明示移出承载目标物的滤网/收集器或排出固体；不能因可拆盖而推定移出路径。",
+          "evidence": [],
+          "unknown_reason": "detachable cover alone is insufficient under removal rule.",
+          "review_scope": "claims 1-10；HTML说明书"
+        },
+        "state_switch": {
+          "judgment": "explicit",
+          "summary": "控制阀开闭，以选择相邻腔中的一个与进、出水口连通。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+              "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+              "locator": "claim 1",
+              "quote": "每一所述控制阀门能够开启或关闭，以将相邻两个过滤腔室中的一个连通于所述进水口和所述出水口，并通过所述连通的对应过滤腔室的过滤网进行过滤。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-10"
+        },
+        "seals_connections": {
+          "judgment": "explicit",
+          "summary": "盖体与主壳可拆卸连接以盖封或露出主壳，另以第一、第二卡扣件卡接。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+              "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+              "locator": "claim 2",
+              "quote": "盖体，与所述主壳可拆卸连接，以盖封或者露出所述主壳，",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+              "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+              "locator": "claim 9",
+              "quote": "所述第二卡扣件与所述第一卡扣件卡接连接，",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-10"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "未见截留固体移出后的处置、再利用或实测终点。",
+          "evidence": [],
+          "unknown_reason": "none stated.",
+          "review_scope": "claims 1-10；HTML说明书"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "claims 1,4,6",
+          "steps": [
+            "open/close valve to select one filtering chamber",
+            "water enters selected chamber",
+            "water is guided through its filter to outlet"
+          ],
+          "evidence_locators": [
+            "claims 1,4,6"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": "Detachable cover is encoded as connection/seal only, not removal."
+    },
+    {
+      "publication": "CN120500565A",
+      "family_id": "provisional-CN120500565A",
+      "reviewed_version": "CN120500565A public text",
+      "legal_status": "unknown",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/CN120500565A.html",
+          "url": "https://patents.google.com/patent/CN120500565A/zh",
+          "sha256": "F47CBD39C8C21842FB5B5140377DECE6B8421369BC765D6C183FF970E6A41E1D"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/CN120500565A_claims.txt",
+          "url": "https://patents.google.com/patent/CN120500565A/zh",
+          "sha256": "FDBB7E2B6C760BB7FF449A2307A530EB73E8046C6745272A286E1EC51D0A4FCE"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "explicit",
+          "summary": "开口下游的引导部分将水导向过滤器侧表面，使附着颗粒分离。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN120500565A_claims.txt",
+              "source_sha256": "FDBB7E2B6C760BB7FF449A2307A530EB73E8046C6745272A286E1EC51D0A4FCE",
+              "locator": "claim 3",
+              "quote": "将粘附到所述过滤器的所述侧表面的颗粒分离",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-19"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "被分离颗粒被导向过滤器底部；仅按文本所示移动编码，不延伸为独立收集容器。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN120500565A_claims.txt",
+              "source_sha256": "FDBB7E2B6C760BB7FF449A2307A530EB73E8046C6745272A286E1EC51D0A4FCE",
+              "locator": "claim 3",
+              "quote": "将分离的颗粒导向至所述过滤器的底部分",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-19"
+        },
+        "solids_dewatering": {
+          "judgment": "not_found",
+          "summary": "未见明确降低截留固体含水量的结构或作用。",
+          "evidence": [],
+          "unknown_reason": "outlet/discharge portion does not state dewatering.",
+          "review_scope": "claims 1-19；HTML说明书"
+        },
+        "chamber_drainage": {
+          "judgment": "not_found",
+          "summary": "未见维护阶段腔体排空；水出口和抽屉排放部分属于正常液路，不能据此编码。",
+          "evidence": [],
+          "unknown_reason": "water outlet and drawer discharge portion are not expressly maintenance drainage.",
+          "review_scope": "claims 1-19；HTML说明书"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "洗涤水依次经第一腔室、开口、过滤器后由水出口排放；抽屉排放部分与水出口连通。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN120500565A_claims.txt",
+              "source_sha256": "FDBB7E2B6C760BB7FF449A2307A530EB73E8046C6745272A286E1EC51D0A4FCE",
+              "locator": "claims 1,10",
+              "quote": "依次穿过所述第一腔室、所述开口和所述过滤器，并且通过所述水出口被排放",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-19"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "过滤器可从第二腔室拆卸；容纳其的抽屉可向前抽出，过滤器可由抽屉敞开顶部移除。仅编码为滤器元件，不推定独立集渣盒。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN120500565A_claims.txt",
+              "source_sha256": "FDBB7E2B6C760BB7FF449A2307A530EB73E8046C6745272A286E1EC51D0A4FCE",
+              "locator": "claim 8",
+              "quote": "所述过滤器能从所述第二腔室拆卸。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN120500565A_claims.txt",
+              "source_sha256": "FDBB7E2B6C760BB7FF449A2307A530EB73E8046C6745272A286E1EC51D0A4FCE",
+              "locator": "claim 9",
+              "quote": "所述抽屉能沿着向前方向从所述第二腔室抽出。",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN120500565A_claims.txt",
+              "source_sha256": "FDBB7E2B6C760BB7FF449A2307A530EB73E8046C6745272A286E1EC51D0A4FCE",
+              "locator": "claim 11",
+              "quote": "所述过滤器能通过所述抽屉的敞开顶部从所述抽屉移除。",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-19",
+          "removal_object": [
+            "filter_element"
+          ],
+          "integrated_or_separate": "integrated",
+          "text_disclosed_only": true
+        },
+        "state_switch": {
+          "judgment": "not_found",
+          "summary": "已审权项为连续流路和维护拆卸，未见过滤、清理、排液或排渣间的离散切换结构/步骤。",
+          "evidence": [],
+          "unknown_reason": "未在审查范围找到阀、门、电机或连通关系的状态切换披露。",
+          "review_scope": "claims 1-19；HTML说明书"
+        },
+        "seals_connections": {
+          "judgment": "not_found",
+          "summary": "未见移出阶段必须拆开的密封、盖体或连接。",
+          "evidence": [],
+          "unknown_reason": "detachable filter/drawer does not itself identify a seal.",
+          "review_scope": "claims 1-19；HTML说明书"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "未见移出后固体的处置、再利用或实测效果。",
+          "evidence": [],
+          "unknown_reason": "none stated.",
+          "review_scope": "claims 1-19；HTML说明书"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "claims 1,3,8-11",
+          "steps": [
+            "water passes first chamber, opening and filter",
+            "guide water separates adherent particles and directs them to filter bottom",
+            "for maintenance, drawer/filter can be removed"
+          ],
+          "evidence_locators": [
+            "claims 1,3,8-11"
+          ],
+          "ordering_certainty": "explicit"
+        }
+      ],
+      "boundary_notes": "Removal is filter element only; no independent target-bearing collection box is inferred."
+    },
+    {
+      "publication": "WO2023047385A1",
+      "family_id": "provisional-WO2023047385A1",
+      "reviewed_version": "WO2023047385A1 public text",
+      "legal_status": "unknown",
+      "sources": [
+        {
+          "path": "h1-study/team_package_20260928/sources/WO2023047385A1.html",
+          "url": "https://patents.google.com/patent/WO2023047385A1/en",
+          "sha256": "9BC464945AC23CAFFA6350E6DFCFF736DB9BB7462A1E81C652518D6555673491"
+        },
+        {
+          "path": "h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt",
+          "url": "https://patents.google.com/patent/WO2023047385A1/en",
+          "sha256": "35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707"
+        }
+      ],
+      "fields": {
+        "cleaning": {
+          "judgment": "inferred",
+          "summary": "抽吸将携带截留颗粒的疏水材料送至收集腔；由此恢复过滤表面仅为结构推断，原文未明确称为清理。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt",
+              "source_sha256": "35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707",
+              "locator": "claim 7",
+              "quote": "a suction mechanism that suctions the hydrophobic material and the captured micro-sized particles to the removable collection chamber",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-48"
+        },
+        "transfer": {
+          "judgment": "explicit",
+          "summary": "二次流机构将微颗粒从微颗粒过滤器送至可移出收集腔。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt",
+              "source_sha256": "35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707",
+              "locator": "claim 1",
+              "quote": "and a secondary flow mechanism that delivers the micro-sized particles from the microparticle filter to a removable collection chamber.",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-48"
+        },
+        "solids_dewatering": {
+          "judgment": "not_found",
+          "summary": "收集腔允许工艺液流出，但未见明确降低截留固体含水量。",
+          "evidence": [],
+          "unknown_reason": "liquid outlet alone is insufficient under manual.",
+          "review_scope": "claims 1-48；description [0062]-[0104]"
+        },
+        "chamber_drainage": {
+          "judgment": "not_found",
+          "summary": "未见过滤器或收集腔在维护/清理阶段排空；运行中液体流出不等于腔体排空。",
+          "evidence": [],
+          "unknown_reason": "fluid flowing out during operation is not chamber drainage.",
+          "review_scope": "claims 1-48；description [0062]-[0104]"
+        },
+        "liquid_route": {
+          "judgment": "explicit",
+          "summary": "二次流是工艺液的回流部分，在回流泵腔与可移出收集腔之间导向；收集腔允许工艺液流出。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt",
+              "source_sha256": "35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707",
+              "locator": "claim 19",
+              "quote": "wherein the removable collection chamber includes a hydrogel filter that captures the micro-sized particles and allows the process fluid to flow out from the removable collection chamber.",
+              "evidence_type": "claim"
+            },
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt",
+              "source_sha256": "35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707",
+              "locator": "claim 21",
+              "quote": "wherein a secondary flow of the process fluid is a recycled portion of the process fluid that is directed between a backflow pump chamber and the removable collection chamber.",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-48"
+        },
+        "removal": {
+          "judgment": "explicit",
+          "summary": "权利要求明确接收微颗粒的为可移出收集腔；移出对象编码为收集腔。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt",
+              "source_sha256": "35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707",
+              "locator": "claim 1",
+              "quote": "and a secondary flow mechanism that delivers the micro-sized particles from the microparticle filter to a removable collection chamber.",
+              "evidence_type": "claim"
+            }
+          ],
+          "unknown_reason": null,
+          "review_scope": "claims 1-48",
+          "removal_object": [
+            "collection_chamber"
+          ],
+          "integrated_or_separate": "separate",
+          "text_disclosed_only": true
+        },
+        "state_switch": {
+          "judgment": "not_found",
+          "summary": "披露二次流与回流，但未见在过滤、排液、移出间切换的阀、门或电机状态序列。",
+          "evidence": [],
+          "unknown_reason": "no explicit state switch identified.",
+          "review_scope": "claims 1-48；description [0062]-[0104]"
+        },
+        "seals_connections": {
+          "judgment": "not_found",
+          "summary": "可移出收集腔被提及，但未见其移出时必须解除的盖、密封或连接细节。",
+          "evidence": [],
+          "unknown_reason": "removable chamber is stated without connection details.",
+          "review_scope": "claims 1-48；description [0062]-[0104]"
+        },
+        "endpoint": {
+          "judgment": "not_found",
+          "summary": "未见移出后处置、再利用或实测终点。",
+          "evidence": [],
+          "unknown_reason": "none stated.",
+          "review_scope": "claims 1-48；description [0062]-[0104]"
+        }
+      },
+      "sequence": [
+        {
+          "variant": "claims 17-21",
+          "steps": [
+            "主过滤器和微颗粒过滤器分离颗粒",
+            "二次回流将颗粒导向可移出收集腔",
+            "收集腔截留颗粒并允许工艺液流出"
+          ],
+          "evidence_locators": [
+            "claims 17,19-21"
+          ],
+          "ordering_certainty": "inferred"
+        }
+      ],
+      "boundary_notes": "清理仅为结构推断；多组从属项不拼作单一必然串行方案；未编码性能或终端处置结果。"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "source": "h1-study/literature_20260921/supplements/hamann2025_data.xlsx",
+  "source_sha256": "99682d2076b04c72402462e132ec9c69ba1f112bfa11f3ae3f9d016502f8444e",
+  "worksheet": "volume-flow",
+  "column_headers": [
+    "inlet",
+    "element",
+    "mixer",
+    "microplastic",
+    "menge_g",
+    "total_volume",
+    "filt_volume",
+    "p_conc",
+    "siphon",
+    "ventile",
+    "SipH",
+    "time",
+    "messung"
+  ],
+  "time_unit": "The source column is named time and target rows use time=15; Supplementary Note 2 describes this as the 15 L point. messung is treated as seconds because the text reports seconds.",
+  "independence_rule": "n values are 15 L records, not confirmed independent trials; the workbook has no run identifier. Rows at time=5,10,15,20 from one run are not independent repeats.",
+  "missing_or_non_numeric_in_target_sets": {},
+  "targets": {
+    "siphon_no_no_15L": {
+      "name": "no siphon/no valves",
+      "criteria": {
+        "inlet": "snail",
+        "element": "none",
+        "mixer": 0,
+        "microplastic": "none",
+        "siphon": "no",
+        "ventile": "no",
+        "time": 15
+      },
+      "source_rows": [
+        607,
+        608,
+        609,
+        610,
+        611
+      ],
+      "n_rows": 5,
+      "n_valid_messung": 5,
+      "messung_values": [
+        67,
+        65,
+        64,
+        64,
+        64
+      ],
+      "mean": 64.8,
+      "sample_sd": 1.3038404810405297,
+      "missing_messung_rows": [],
+      "independent_trial_n": "not verifiable: no run identifier",
+      "SipH_values": [
+        "X"
+      ]
+    },
+    "siphon_yes_no_15L": {
+      "name": "siphon/no valves",
+      "criteria": {
+        "inlet": "snail",
+        "element": "none",
+        "mixer": 0,
+        "microplastic": "none",
+        "siphon": "yes",
+        "ventile": "no",
+        "time": 15
+      },
+      "source_rows": [
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "n_rows": 5,
+      "n_valid_messung": 5,
+      "messung_values": [
+        144,
+        141,
+        91,
+        95,
+        90
+      ],
+      "mean": 112.2,
+      "sample_sd": 27.743467699622556,
+      "missing_messung_rows": [],
+      "independent_trial_n": "not verifiable: no run identifier",
+      "SipH_values": [
+        "O"
+      ]
+    },
+    "cleaning_no_valves_block1_15L": {
+      "name": "Small-11 cotton no valves block 1",
+      "criteria": {
+        "rows": "637-641"
+      },
+      "source_rows": [
+        637,
+        638,
+        639,
+        640,
+        641
+      ],
+      "n_rows": 5,
+      "n_valid_messung": 5,
+      "messung_values": [
+        82,
+        80,
+        78,
+        85,
+        80
+      ],
+      "mean": 81,
+      "sample_sd": 2.6457513110645907,
+      "missing_messung_rows": [],
+      "independent_trial_n": "not verifiable: no run identifier",
+      "SipH_values": [
+        "X"
+      ],
+      "siphon_values": [
+        "no"
+      ]
+    },
+    "cleaning_no_valves_block2_15L": {
+      "name": "Small-11 cotton no valves block 2",
+      "criteria": {
+        "rows": "653-657"
+      },
+      "source_rows": [
+        653,
+        654,
+        655,
+        656,
+        657
+      ],
+      "n_rows": 5,
+      "n_valid_messung": 5,
+      "messung_values": [
+        76,
+        75,
+        88,
+        86,
+        75
+      ],
+      "mean": 80,
+      "sample_sd": 6.442049363362563,
+      "missing_messung_rows": [],
+      "independent_trial_n": "not verifiable: no run identifier",
+      "SipH_values": [
+        "X"
+      ],
+      "siphon_values": [
+        "no"
+      ]
+    },
+    "cleaning_no_valves_combined_15L": {
+      "name": "Small-11 cotton no valves combined",
+      "criteria": {
+        "rows": "637-641 and 653-657"
+      },
+      "source_rows": [
+        637,
+        638,
+        639,
+        640,
+        641,
+        653,
+        654,
+        655,
+        656,
+        657
+      ],
+      "n_rows": 10,
+      "n_valid_messung": 10,
+      "messung_values": [
+        82,
+        80,
+        78,
+        85,
+        80,
+        76,
+        75,
+        88,
+        86,
+        75
+      ],
+      "mean": 80.5,
+      "sample_sd": 4.672615256292062,
+      "missing_messung_rows": [],
+      "independent_trial_n": "not verifiable: no run identifier",
+      "SipH_values": [
+        "X"
+      ],
+      "siphon_values": [
+        "no"
+      ]
+    },
+    "cleaning_valves_yes_15L": {
+      "name": "Small-11 cotton with valves",
+      "criteria": {
+        "inlet": "snail",
+        "element": "Small-11",
+        "mixer": 5,
+        "microplastic": "cotton",
+        "siphon": "no",
+        "ventile": "yes",
+        "time": 15
+      },
+      "source_rows": [
+        717,
+        718,
+        719,
+        720,
+        721
+      ],
+      "n_rows": 5,
+      "n_valid_messung": 5,
+      "messung_values": [
+        75,
+        78,
+        68,
+        73,
+        79
+      ],
+      "mean": 74.6,
+      "sample_sd": 4.39317652729776,
+      "missing_messung_rows": [],
+      "independent_trial_n": "not verifiable: no run identifier",
+      "SipH_values": [
+        "X"
+      ],
+      "siphon_values": [
+        "no"
+      ]
+    },
+    "ratios": {
+      "siphon_time_ratio_percent_of_baseline": 173.14814814814815,
+      "siphon_percent_increase": 73.14814814814817,
+      "cleaning_time_ratio_percent_of_no_valves_combined": 92.67080745341613,
+      "cleaning_percent_reduction": 7.3291925465838625
+    }
+  },
+  "claims": {
+    "siphon_text": "Supplementary Note 2 says siphon increases time by around160%.",
+    "siphon_observed": "112.2 s versus 64.8 s; 173.1% of baseline, or +73.1% increase.",
+    "cleaning_text": "Supplementary Note 2 says cleaning reduces 15 L time to 93%.",
+    "cleaning_observed": "74.6 s versus 80.5 s combined no-valves baseline; 92.67% of baseline, or 7.33% reduction.",
+    "status": "Siphon increase-by-160-percent not reproduced under explicit filters. Cleaning time rounds to 93 percent of the combined same-label baseline, but source labels conflict with the stated siphon method and independent run IDs are absent; no causal or lifespan claim."
+  },
+  "source_label_conflict": "Supplementary Note 2 prose refers to Supplementary Figure 4 for volume-flow results, while the local supplement figure caption labels the corresponding volume-flow results Supplementary Figure 5; both references are retained without resolution.",
+  "method_conflicts": {
+    "cleaning_text_says": "Supplementary Note 2 cleaning paragraph says a siphon was formed and cleaning occurred after 10 L and 20 L.",
+    "cleaning_table_labels": "The selected cleaning rows 637-641,653-657,717-721 all have siphon=no and SipH=X; only ventile differs (no versus yes).",
+    "consequence": "The numerical 93% comparison is reported as a label-based table comparison; causal attribution to the Note2 siphon/cleaning method is not confirmed."
+  },
+  "volume_plan_boundary": "The 15 L point occurs after the planned 10 L cleaning event but before the planned 20 L event; it cannot represent two cleaning events."
+}

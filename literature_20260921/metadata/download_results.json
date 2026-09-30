@@ -1,0 +1,103 @@
+[
+  {
+    "filename": "L01_McIlwraith2019_laundry_microfibers.pdf",
+    "bytes": 491863,
+    "sha256": "2e841e4b50775f0d5a3c498c2dfa60b0e66f4dfbeb6d7f59b22f657d1eeecf6b",
+    "pdf_header": "%PDF",
+    "pages": 6,
+    "extracted_characters": 38916,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L01_McIlwraith2019_laundry_microfibers.txt"
+  },
+  {
+    "filename": "L02_Erdle2021_filter_community_pilot.pdf",
+    "bytes": 1554768,
+    "sha256": "3ae1efca177c32fa76761c060ed85f378f3778dbfc6fadb314164725c416e428",
+    "pdf_header": "%PDF",
+    "pages": 9,
+    "extracted_characters": 53325,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L02_Erdle2021_filter_community_pilot.txt"
+  },
+  {
+    "filename": "L03_Napper2020_device_efficiency.pdf",
+    "bytes": 331130,
+    "sha256": "26fe183b935fa52849d02d5644a4254bcf2ac780b404906b183b3854d010b18e",
+    "pdf_header": "%PDF",
+    "pages": 19,
+    "extracted_characters": 41040,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L03_Napper2020_device_efficiency.txt"
+  },
+  {
+    "filename": "L04_Le2022_laundry_wastewater_review.pdf",
+    "bytes": 739868,
+    "sha256": "70cf7cf252f75dc9c2795e49322ea54f8d9f760ae5906b62934db7d942fe60a7",
+    "pdf_header": "%PDF",
+    "pages": 38,
+    "extracted_characters": 57090,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L04_Le2022_laundry_wastewater_review.txt"
+  },
+  {
+    "filename": "L05_Belzagui2023_sustainable_filtering.pdf",
+    "bytes": 611166,
+    "sha256": "23b91aab5b9dade57fdb19f83040588248a8420cb394155bf01a54af80f0a0c7",
+    "pdf_header": "%PDF",
+    "pages": 12,
+    "extracted_characters": 42543,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L05_Belzagui2023_sustainable_filtering.txt"
+  },
+  {
+    "filename": "L09_Vassilenko2021_laundry_shedding.pdf",
+    "bytes": 2081844,
+    "sha256": "5ea4e1bae24338cee248d3b09c959db018211ca600b698aa0b562840b68f55e9",
+    "pdf_header": "%PDF",
+    "pages": 17,
+    "extracted_characters": 57728,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L09_Vassilenko2021_laundry_shedding.txt"
+  },
+  {
+    "filename": "L11_Belzagui2022_alternatives_review.pdf",
+    "bytes": 2075157,
+    "sha256": "a725eb9b1b73166aa6e710bb45f5dd67bbe1b42666fdcfe1b4a4dd3522265ac0",
+    "pdf_header": "%PDF",
+    "pages": 12,
+    "extracted_characters": 102694,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L11_Belzagui2022_alternatives_review.txt"
+  },
+  {
+    "filename": "L07_Hamann2025_self_cleaning_filter.pdf",
+    "bytes": 3644788,
+    "sha256": "9f98e2d56c87e21cb47eb54f0f153900db76b7ef05aeb2d8e627ce6a4fdf8ac9",
+    "pdf_header": "%PDF",
+    "pages": 13,
+    "extracted_characters": 78698,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L07_Hamann2025_self_cleaning_filter.txt"
+  },
+  {
+    "filename": "L12_Browne2020_pore_size_polymer.pdf",
+    "bytes": 1679317,
+    "sha256": "79631f4836b44e9a84e998619698e14b1270d415b6a751ab281a6c857c50f62f",
+    "pdf_header": "%PDF",
+    "pages": 17,
+    "extracted_characters": 51991,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L12_Browne2020_pore_size_polymer.txt"
+  },
+  {
+    "filename": "L13_Gao2026_slow_sand_accepted_manuscript.pdf",
+    "bytes": 9194041,
+    "sha256": "7bd47a09199cf3096727bcd08aec2a636ab98491b95c742496dfb90a31816054",
+    "pdf_header": "%PDF",
+    "pages": 70,
+    "watermark_only_pages": 11,
+    "extracted_characters": 86566,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L13_Gao2026_slow_sand_accepted_manuscript.txt"
+  },
+  {
+    "filename": "L14_Brick2025_citizen_science_laundry_behavior.pdf",
+    "bytes": 1687026,
+    "sha256": "00d7cad7f186c2ba3eef9c88491a91f8b765542a050410789c9b60a5fce4fd0d",
+    "pdf_header": "%PDF",
+    "pages": 16,
+    "institutional_cover_pages": 1,
+    "extracted_characters": 76315,
+    "text_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\literature_20260921\\texts\\L14_Brick2025_citizen_science_laundry_behavior.txt"
+  }
+]

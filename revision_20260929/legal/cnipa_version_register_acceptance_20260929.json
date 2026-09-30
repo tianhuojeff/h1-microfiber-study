@@ -1,0 +1,19 @@
+{
+  "changed_publications": [
+    "CN115087774A",
+    "CN115298383A",
+    "CN115637570A",
+    "CN115700309A",
+    "CN116282270A",
+    "CN117702432A",
+    "CN118273060A",
+    "CN120500565A"
+  ],
+  "B_versions": [
+    "CN115637570A",
+    "CN116282270A"
+  ],
+  "all_status_unknown": true,
+  "source_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+  "register_sha256": "c532f6648638d039c494c5fd4614e15fdc76ee264fdf76ee94ae5d7c5354f043"
+}

@@ -1,0 +1,57 @@
+{
+  "status": "literal_and_hash_verified_only",
+  "repaired_fields": 6,
+  "checked_evidence": [
+    {
+      "publication": "CN115298383A",
+      "field": "transfer",
+      "locator": "claim 19",
+      "sha256_ok": true,
+      "literal_ok": true
+    },
+    {
+      "publication": "CN116282270A",
+      "field": "cleaning",
+      "locator": "description p0012 [0009]",
+      "sha256_ok": true,
+      "literal_ok": true
+    },
+    {
+      "publication": "CN116282270A",
+      "field": "transfer",
+      "locator": "description p0030 [0027]",
+      "sha256_ok": true,
+      "literal_ok": true
+    },
+    {
+      "publication": "CN116282270A",
+      "field": "transfer",
+      "locator": "description p0030 [0027]",
+      "sha256_ok": true,
+      "literal_ok": true
+    },
+    {
+      "publication": "CN117702432A",
+      "field": "state_switch",
+      "locator": "claim 1",
+      "sha256_ok": true,
+      "literal_ok": true
+    },
+    {
+      "publication": "WO2023047385A1",
+      "field": "transfer",
+      "locator": "claim 1",
+      "sha256_ok": true,
+      "literal_ok": true
+    },
+    {
+      "publication": "WO2023047385A1",
+      "field": "removal",
+      "locator": "claim 1",
+      "sha256_ok": true,
+      "literal_ok": true
+    }
+  ],
+  "before_sha256": "d3a757b43cda0f33665b304d9d52dec49b78d85b0989eff013356fb8bdd05b5d",
+  "after_sha256": "4b37961d17e9ab25d957dd198103d622e3a1695ea9bb605fb5b104b215895b86"
+}

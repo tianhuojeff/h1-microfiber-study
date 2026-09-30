@@ -1,0 +1,21 @@
+{
+  "source": "h1-study\\literature_20260921\\acquisition_followup\\supplements\\F02_S1_Data.xlsx",
+  "sha256": "f143b7130bd5444dba65819019f1df98ebfb9db2fe1b094aea617244c98a7f6f",
+  "sheet": "Polyester",
+  "cells": [
+    "J34",
+    "J35",
+    "J36"
+  ],
+  "means_g": [
+    0.34399902909090885,
+    0.1108030181818184,
+    0.0901443854545454
+  ],
+  "reduction_percent": [
+    67.78972938538834,
+    73.79516282567099
+  ],
+  "water_increase_percent": 66.66666666666666,
+  "interpretation": "Raw means support results-section pore-size ordering; 2mm value does not exactly reproduce reported 65%; abstract/results disagreement retained."
+}

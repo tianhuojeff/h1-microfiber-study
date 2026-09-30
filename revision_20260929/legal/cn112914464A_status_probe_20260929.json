@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-09-29",
+  "sample": {
+    "jurisdiction": "CN",
+    "application_no": "CN202011417030.4",
+    "publication_no": "CN112914464A",
+    "related_ep_document": "EP3832001 / EP20198101.6",
+    "related_ep_limit": "The separately verified Netherlands EPV-ceased-effect event does not state the legal status of this CN application."
+  },
+  "non_official_lead_only": {
+    "url": "https://patents.google.com/patent/CN112914464A/zh",
+    "raw_file": "raw_official_20260929/google_lead_CN112914464A_20260929.html",
+    "sha256": "F7B1BDE005C76CA658BB2D155F49C78DBBCFF0BEE2C9992AA3141CD1CD014C22",
+    "observed": "Page simultaneously labels the case Pending and lists 2026-03-24 WD01, 'Invention patent application deemed withdrawn after publication'.",
+    "use": "A contradiction requiring official CNIPA record verification; it is not an adopted CN legal-status finding."
+  },
+  "official_cnipa_route": {
+    "official_query_system_notice_url": "https://www.cnipa.gov.cn/art/2023/2/9/art_75_182038.html",
+    "official_query_system_url": "https://cpquery.cponline.cnipa.gov.cn/",
+    "known_official_guidance_url": "https://www.cnipa.gov.cn/jact/front/comquestiondetail.do?comquestid=19216&sysid=12",
+    "checked_result": "The CPQuery home route returned HTTP 412 Precondition Failed to this direct request; no individual CN202011417030.4 record was displayed.",
+    "official_guidance_fact": "CNIPA's published Q&A says online legal-status information is for reference because publication and system entry may lag; it says the timely accurate legal status is the CNIPA patent-register record, obtainable by patent-register extract.",
+    "saved_official_material": [
+      {"file":"raw_official_20260929/cnipa_2023_query_system_notice.html","sha256":"4F9CC156D94694B5FE9AC4221707042389C42F1FDFD66AC38D088E972E3A717B"},
+      {"file":"raw_official_20260929/cnipa_legal_status_query_qa.html","sha256":"926DFB20B90B6AB51D5EB1C01859B0AC4FBD17B493D5BB017310724F2E3A94A1"},
+      {"file":"raw_official_20260929/cnipa_public_service_platform.html","sha256":"E5DBEAE404B0D5662EAE2F249DBD82D6A25D51A455C75E9AC8B08226F8BE399B"}
+    ]
+  },
+  "status_suggestion": {
+    "status_as_of_2026_09_29": "unknown",
+    "reason": "No readable official individual CNIPA record or CNIPA patent-register extract was obtained. The only WD01 assertion is a non-official aggregation lead and conflicts with that page's own Pending label.",
+    "allowed_statement": "CN112914464A has an unverified non-official WD01 lead dated 2026-03-24; official CNIPA confirmation is still required.",
+    "forbidden_statement": [
+      "CN112914464A is withdrawn.",
+      "CN112914464A is pending/effective.",
+      "The Netherlands event determines the CN application."
+    ],
+    "research_use": "Do not count this CN publication as a confirmed effective core patent. It may remain a separately labelled technical-text comparator until official status is obtained."
+  }
+}

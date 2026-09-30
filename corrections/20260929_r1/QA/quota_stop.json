@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-09-29T23:28:08.625879+08:00",
+  "source_tool": "mcp__codex_app__get_usage_limits",
+  "limit_id": "codex",
+  "window_minutes": 10080,
+  "used_percent": 40,
+  "remaining_percent": 60,
+  "requested_stop_remaining_percent": 60,
+  "action": "stop_research_save_checkpoint_waiting",
+  "reset_credit_used": false
+}

@@ -1,0 +1,161 @@
+{
+  "publication": "WO2024199585A1",
+  "fields": {
+    "solids_dewatering": {
+      "judgment": "explicit",
+      "summary": "可选下游离心分离截留物附着液，或由压机压缩并去除残余液；这是收集物含水量降低，不是过滤腔排空。",
+      "evidence": [
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+          "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+          "locator": "物理14页/印刷12页第3—5行",
+          "quote": "beispielsweise einer Zentrifuge, um am Retentat anhaftendes Fluid abzutrennen",
+          "evidence_type": "description",
+          "verification_method": "root_visual_readback_of_rendered_original_pdf",
+          "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+          "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\description-14.png",
+          "page_image_sha256": "c54a99885de27eef751b5d4a0a2587d214cfff2ef25bbf786f5615f64e1cef24"
+        },
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+          "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+          "locator": "物理14页/印刷12页第6—8行",
+          "quote": "Ferner und zusätzlich kann das Retentat in eine Presse münden, die das Retentat zusammendrücken und verbliebenes Fluid aus dem Retentat entfernen kann.",
+          "evidence_type": "description",
+          "verification_method": "root_visual_readback_of_rendered_original_pdf",
+          "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+          "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\description-14.png",
+          "page_image_sha256": "c54a99885de27eef751b5d4a0a2587d214cfff2ef25bbf786f5615f64e1cef24"
+        }
+      ],
+      "unknown_reason": "",
+      "review_scope": "原PDF物理14、15、26、27页主代理完整目视回读；其余页不据此作否定。"
+    },
+    "removal": {
+      "judgment": "explicit",
+      "summary": "权1/8明示截留物在容器收集并从容器取出；权5另述滤元可单独取出/清洗。未据此认定收集容器本身可拆卸。",
+      "evidence": [
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+          "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+          "locator": "物理27页/印刷25页权8",
+          "quote": "dass das Retentat in einem Behälter (7) auffangbar und aus dem Behälter (7) entnehmbar ist.",
+          "evidence_type": "claim",
+          "verification_method": "root_visual_readback_of_rendered_original_pdf",
+          "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+          "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\claims-27.png",
+          "page_image_sha256": "5674fc3b7285b6c095f6bfe1df26786714d990d2124af263fd15dee6d64fe526"
+        },
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+          "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+          "locator": "物理27页/印刷25页权5",
+          "quote": "dass das Filterelement (3) mit der maschen- oder porenförmigen Filterstruktur (5) einzeln aus der bionischen Vorrichtung (1) entnehm- und/oder waschbar ist.",
+          "evidence_type": "claim",
+          "verification_method": "root_visual_readback_of_rendered_original_pdf",
+          "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+          "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\claims-27.png",
+          "page_image_sha256": "5674fc3b7285b6c095f6bfe1df26786714d990d2124af263fd15dee6d64fe526"
+        }
+      ],
+      "unknown_reason": "",
+      "review_scope": "原PDF物理14、15、26、27页主代理完整目视回读；其余页不据此作否定。",
+      "removal_object": [
+        "loose_or_compacted_solids",
+        "filter_element"
+      ],
+      "integrated_or_separate": "截留物从容器取出；滤元单独取出是另一特征，容器可拆未据此证明",
+      "text_disclosed_only": true
+    },
+    "liquid_route": {
+      "judgment": "explicit",
+      "summary": "主过滤液经网状/多孔滤结构侧向进入滤液出口13；截留物流经出口14导出或抽吸并容器收集。外部离心/压机脱出液终点在所读页未说明。",
+      "evidence": [
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+          "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+          "locator": "物理26页/印刷24页权1",
+          "quote": "das Fluid lateral durch die maschen- oder porenförmige Filterstruktur (5) des Filterelements (3) und den Filtratablauf (13) austritt,",
+          "evidence_type": "claim",
+          "verification_method": "root_visual_readback_of_rendered_original_pdf",
+          "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+          "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\claims-26.png",
+          "page_image_sha256": "bf19770993a41b6f93f5bd587dd355e61d768e6607f34e7b92a4ecbf63b92dcb"
+        },
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+          "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+          "locator": "物理26页/印刷24页权1",
+          "quote": "zentral im Bereich des Filterelements (3) über einen Retentatablauf (14) ableitbar oder absaugbar und in einem Behälter (7) auffangbar und entnehmbar ist,",
+          "evidence_type": "claim",
+          "verification_method": "root_visual_readback_of_rendered_original_pdf",
+          "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+          "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\claims-26.png",
+          "page_image_sha256": "bf19770993a41b6f93f5bd587dd355e61d768e6607f34e7b92a4ecbf63b92dcb"
+        }
+      ],
+      "unknown_reason": "",
+      "review_scope": "原PDF物理14、15、26、27页主代理完整目视回读；其余页不据此作否定。"
+    },
+    "state_switch": {
+      "judgment": "explicit",
+      "summary": "实施例滤液出口阀关闭、截留物出口阀打开可加强抽吸以收集颗粒；阀控制也支持压力脉冲清理，但具体周期/时长未知。",
+      "evidence": [
+        {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+          "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+          "locator": "物理15页/印刷13页第7—10行",
+          "quote": "Dieser wird stärker, wenn beispielsweise ein Ventil im Bereich des Filtratablaufs schließt, während im Bereich des Retentatablaufs beispielsweise ein Ventil öffnet.",
+          "evidence_type": "description",
+          "verification_method": "root_visual_readback_of_rendered_original_pdf",
+          "transcription_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+          "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\wo2024199585_pages\\description-15.png",
+          "page_image_sha256": "f633ab0c1f5dc78c21085a2efc9070b837130955d24775daf2f75b4e2033349f"
+        }
+      ],
+      "unknown_reason": "",
+      "review_scope": "原PDF物理14、15、26、27页主代理完整目视回读；其余页不据此作否定。"
+    }
+  },
+  "additional_sources": [
+    {
+      "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\WO2024199585A1.pdf",
+      "source_sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+      "url": "https://patents.google.com/patent/WO2024199585A1/en",
+      "source_kind": "original_WO_publication_PDF"
+    },
+    {
+      "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\WO2024199585A1_原页人工回读.md",
+      "source_sha256": "8fb0347462fbeecd05a6d23effb6716c40d625a489d4a1108ea9f91f2660cedf",
+      "source_kind": "root_visual_transcription"
+    }
+  ],
+  "sequence": [
+    {
+      "variant": "容器收集取出",
+      "steps": [
+        "截留物经出口14导出/抽吸",
+        "容器收集",
+        "从容器取出截留物"
+      ],
+      "evidence_locators": [
+        "原PDF物理15页/印刷13页第4—15行；权1/8"
+      ],
+      "ordering_certainty": "explicit"
+    },
+    {
+      "variant": "可选直接进一步处理",
+      "steps": [
+        "截留物流直接导向进一步处理",
+        "离心分离附着液，或追加压机压缩去液"
+      ],
+      "evidence_locators": [
+        "原PDF物理14页/印刷12页第1—8行"
+      ],
+      "ordering_certainty": "explicit"
+    }
+  ],
+  "additional_boundary_notes": [
+    "主代理已目视核原PDF：权8取出主体为截留物，不是“可拆收集容器”；外部离心/压机是可选路线，不能强拼为必要序列。"
+  ]
+}

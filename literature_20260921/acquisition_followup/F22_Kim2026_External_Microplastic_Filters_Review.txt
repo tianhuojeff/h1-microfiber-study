@@ -1,0 +1,1263 @@
+--- PAGE 1 ---\nAcademic Editor: José Ignacio Calvo
+Received: 10 June 2026
+Revised: 6 July 2026
+Accepted: 8 July 2026
+Published: 13 July 2026
+Copyright: © 2026 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license.
+Review
+External Microplastic Filters for Washing Machines: Advances,
+Technical Challenges, and Biofouling Mitigation
+Hyeri Song 1,†
+ , Yeo Min Kim 2,† , Da Hyun Yoo 2, Sun Ae Kim 2,* and Chanhyuk Park 1,*
+1 Department of Environmental Science and Engineering, Ewha Womans University,
+Seoul 03760, Republic of Korea
+2 Department of Food Science and Biotechnology, Ewha Womans University, Seoul 03760, Republic of Korea
+* Correspondence: sunaekim@ewha.ac.kr (S.A.K.); chp@ewha.ac.kr (C.P .)
+† These authors contributed equally to this work.
+Abstract
+Laundry-derived microplastic fibers are major source of environmental microplastic pol-
+lution. Because conventional wastewater treatment processes cannot completely remove
+fibrous microplastics, washing machine-mounted filters have been developed as a promis-
+ing source-control approach for the reduction in microfiber emissions. This review thus
+summarizes recent advances in external filtration systems and membrane-based tech-
+nologies for laundry wastewater treatment. The characteristics of laundry wastewater,
+microfiber release behavior, and recent regulatory trends are discussed together with the
+performance of commercially available filtration systems. The applicability of advanced
+membrane materials, including ceramic membranes, for high-efficiency microfiber separa-
+tion is also highlighted. Particular attention is given to the microbial contamination and
+biofouling of microplastic filters, which can affect their filtration efficiency, operational
+stability, and household hygiene. This review also discusses the potential reuse of captured
+microplastics for membrane fabrication as a sustainable pathway for waste valorization
+and circular resource utilization. Finally, current limitations and future perspectives for
+the development of efficient, hygienic, and sustainable laundry microplastic filtration
+technologies are discussed.
+Keywords: capture; filter; laundry wastewater; microplastic; nanoplastic; washing machine
+1. Introduction
+Microplastics released from laundry wastewater are a significant source of environ-
+mental pollution, particularly in urban aquatic systems [1], with the synthetic microfibers
+generated during domestic washing processes becoming one of the dominant contributors
+to microplastic contamination [2]. In particular, a single laundry cycle can release millions
+of microfibers into wastewater streams [3], and textile washing is estimated to account for
+approximately 35% of primary microplastics entering the oceans [4]. These fibers, which are
+typically smaller than 5 mm, originate primarily from synthetic textiles such as polyester,
+nylon, and acrylic, and their release has increased with the growing global demand for
+synthetic clothing [5,6].
+A major concern associated with microplastic fibers is their persistence and resulting
+environmental impact [7]. Due to their resistance to biodegradation, microfibers accumu-
+late in aquatic environments and pose risks to both ecosystems and human health [ 4,8].
+Microplastics can act as carriers for hazardous pollutants, microorganisms, and algae, facil-
+itating their transport and potentially forming toxic aggregates through adsorption [8–11].
+Membranes 2026, 16, 238 https://doi.org/10.3390/membranes16070238\n\n--- PAGE 2 ---\nMembranes 2026, 16, 238 2 of 24
+Aquatic organisms can also ingest microfibers through filtration or misidentification as
+food, leading to physical damage such as intestinal blockage and inflammation [ 12–15].
+Notably, microfibers have been reported to account for a significant proportion of the
+microplastics found in aquatic organisms, illustrating their ecological significance.
+Once released, laundry-derived fibers are transported to wastewater treatment plants
+(WWTPs), where influent concentrations have been reported to range from 1 to 10,044 parti-
+cles per liter, with maximum values reaching 31,400 particles per liter in some cases [16,17].
+Despite the widespread use of conventional wastewater treatment processes, the removal of
+microplastic fibers remains incomplete [18]. Their length, flexibility, and low density allow
+them to remain suspended during primary treatment, while their irregular morphology
+reduces the efficiency of conventional filtration systems [4,5,19,20]. Although secondary
+biological processes can partially remove microplastics, their non-biodegradable nature
+limits the overall removal efficiency [14]. Advanced tertiary treatments, such as membrane
+bioreactors (MBRs) and rapid filtration, are capable of achieving high microplastic removal
+rates, but their high capital and operating costs have restricted their widespread imple-
+mentation [21]. In addition, microplastics captured during treatment may accumulate in
+sewage sludge and be reintroduced into the environment if the sludge is used for land
+applications [22].
+These limitations highlight the importance of source-control strategies that prevent the
+release of microplastics at the point of generation [23]. For this reason, external microplastic
+filters installed in washing machines have gained increasing attention as a practical and scal-
+able solution. These systems capture microfibers directly from the laundry effluent before
+they enter wastewater streams [24]. Recent developments have focused on improving the
+capture efficiency of these filters by optimizing their pore size, filtration materials, and struc-
+tural configurations. However, several technical challenges remain, including the pressure
+drop across the membrane, clogging, their relatively low durability, and high maintenance
+requirements [25]. In particular, biofouling, which is the accumulation of microorganisms
+and extracellular polymeric substances (EPSs) on the filter surface, is a serious but often
+overlooked factor influencing filter performance [26]. Because laundry wastewater con-
+tains a diverse microbial community and various forms of organic matter, microplastic
+filters can become sites for microbial attachment and biofilm formation [27]. Much of the
+current understanding of biofouling derives from membrane-based filtration systems and
+from the internal wetted components of household washing machines—including their
+built-in drain filters—where biofilm formation has been documented. Whether external
+microplastic filters are similarly susceptible has not yet been directly examined, and because
+laundry conditions such as surfactant load and fluctuating temperatures differ from those
+of conventional membrane systems, filter biofouling is treated here as an extrapolation that
+warrants dedicated investigation.
+Several recent reviews have addressed laundry-derived microfiber pollution from
+complementary but distinct perspectives: Luzi et al. [ 28] critically examined the release
+of microfibers from textiles, emphasizing the washing-related factors that govern fiber
+shedding, the lack of standardized quantification protocols, and the legislative landscape,
+whereas Ramasamy et al. [29] systematically benchmarked commercial and laboratory-scale
+microfiber filters in terms of filtration efficiency, durability, disposal, and sustainability.
+Both works establish that point-of-use retention devices are promising yet limited by
+modest, variable capture efficiencies and considerable maintenance demands. In contrast,
+the present review approaches external washing-machine filters from a membrane-process
+and materials standpoint and extends the discussion to dimensions largely absent from
+prior reviews—namely, the application of established membrane materials such as ceramic
+microfiltration (MF) and ultrafiltration (UF) membranes as fouling-resistant, high-efficiency
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 3 ---\nMembranes 2026, 16, 238 3 of 24
+alternatives to conventional mesh filters, the microbial colonization and biofouling of
+microplastic filters and its implications for filtration performance and household hygiene,
+and the upcycling of captured microplastics into membrane materials—thereby positioning
+biofouling mitigation and resource valorization as central to the sustainable deployment of
+laundry microplastic filtration technologies.
+This review provides a comprehensive overview of external microplastic filters for
+washing machines. It first introduces the characteristics of laundry wastewater and existing
+microplastic removal technologies, followed by a detailed analysis of recent advances in
+filter design, regulatory and policy trends, and key parameters governing the microplastic
+capture efficiency. Particular emphasis is placed on summarizing biofouling mechanisms
+and mitigation strategies designed to ensure sustainable and long-term filter performance.
+Finally, current technical limitations, future research directions, and the broader applicabil-
+ity of these technologies to other microplastic sources are discussed.
+2. Characteristics and Treatment of Laundry Wastewater
+2.1. Water Quality of Laundry Effluent
+Laundry wastewater is a complex form of contaminated graywater or industrial ef-
+fluent containing detergent residues, fabric-derived particles, organic matter, oils, grease,
+and trace metals [30,31], with its composition varying greatly depending on the operat-
+ing conditions (e.g., laundry type, scale of operation, detergent formulation and dosage,
+washing temperature, and cycle frequency) [32,33]. In general, household laundry wastew-
+ater has lower pollutant loads and variability than that derived from commercial and
+industrial facilities such as hotels, hospitals, and large-scale laundries, which generally
+have higher concentrations of suspended solids (SSs), organic matter, surfactants, and dis-
+solved ions [30]. Therefore, source-specific characterization is required to design effective
+treatment and reuse strategies and to meet discharge standards.
+Previous studies have characterized laundry wastewater using key physicochemical
+parameters, including pH, biochemical oxygen demand (BOD), chemical oxygen demand
+(COD), total SS (TSS), total dissolved solids (TDS), electrical conductivity, turbidity, and
+surfactant concentration (Table 1). The pH of laundry wastewater is primarily governed
+by alkaline detergent builders such as sodium hydroxide, sodium silicate, and sodium
+carbonate [34]. Household laundry wastewater typically has a near-neutral pH (6–9),
+whereas commercial and industrial effluents have a wider range (pH 5–12), often with
+strong alkalinity [35–38]. In terms of organic load, household laundry wastewater gen-
+erally has a BOD of 40–266 mg/L and a COD of 429–1755 mg/L [35,39–41], indicating a
+relatively high fraction of non-biodegradable organic matter compared to typical municipal
+wastewater. Commercial and industrial laundry wastewater tends to have higher organic
+loads, with a BOD of 190–542 mg/L and a COD of 323–1710 mg/L [ 35,37,42,43]. TSSs
+have also been reported to have a range of 141–469 mg/L in household wastewater and
+60–1116 mg/L in commercial and industrial wastewater [35,36,39,44], which can impose a
+substantial burden on downstream treatment processes such as sedimentation, filtration,
+and membrane separation.
+Laundry wastewater also has a high ionic strength due to its detergent components, as
+indicated by electrical conductivity and TDS measurements. Household laundry wastew-
+ater generally has a conductivity of 641–5760 µS/cm and TDS levels of 229–2000 mg/L,
+while the TDS levels of commercial and industrial wastewater can exceed 6000 mg/L in
+some cases [35,36,41,44–46]. Turbidity and color also vary widely depending on the source,
+with turbidity levels of 25–281 NTU found in household laundry wastewater, compared to
+92–858 NTU for commercial and industrial wastewater [35,38,39,41]. Surfactants, particu-
+larly anionic surfactants such as linear alkylbenzene sulfonate (LAS), are key pollutants in
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 4 ---\nMembranes 2026, 16, 238 4 of 24
+laundry wastewater. Their concentrations range from approximately 16 mg/L in house-
+hold laundry wastewater to 9–59 mg/L in commercial and industrial wastewater, with
+values as high as 164 mg/L reported depending on detergent usage and washing condi-
+tions [37,39,42,47]. These compounds can inhibit biological treatment processes, are toxic
+for aquatic environments, and can cause operational issues such as foaming [48,49].
+Among the reported laundry wastewater characteristics, BOD, COD, TSS, and surfac-
+tant concentrations are the water quality parameters most relevant to external filter fouling.
+High BOD and COD indicate increased biodegradable and organic matter loading, which
+can facilitate microbial growth and biofilm development on filter surfaces [26]. Elevated
+TSS promotes the formation of cake layers that increase hydraulic resistance and reduce
+permeate flux [ 50,51]. In addition, residual surfactants can enhance the adsorption of
+organic matter and microbial adhesion, thereby accelerating fouling [27]. Therefore, these
+parameters should be considered in the design and operation of external washing-machine
+filters to achieve stable long-term filtration performance.
+Table 1. Summary of the physicochemical characteristics of domestic, commercial, and industrial
+laundry wastewater worldwide.
+Category Country pH BOD
+(mg/L)
+COD
+(mg/L)
+TSS
+(mg/L)
+Conductivity
+(µS/cm)
+TDS
+(mg/L)
+T urbidity
+(NTU) Ref.
+Domestic
+Laundry
+Wastewater
+Oman 6.8–7.7 40–80 997–1204 260–525 1560–5760 428–2000 32.8–135 [35]
+India 8.5 ± 0.5 265.7 ± 142.9 1754.7 ± 1064.6 469.1 ± 289.4 - 1837.7 ± 552.6 281.8 ± 136.8 [39]
+Nigeria 8.8–9.0 144–211.2 428.6–531.3 228.9–460 - 229–461 25.3–39.4 [41]
+India 9.1 ± 1.4 186.5 ± 108.8 1545.8 ± 346.2 141.2 ± 35.6 641.6 ± 404.8 710.4 ± 125.2 108.6 ± 75.7 [36]
+Commercial
+Laundry
+Wastewater
+Oman 10.4–10.9 80–220 323–755 814–1116 4110–13,800 6380–8849 91.9–150 [35]
+Brazil 5.6 ± 0.9 - 1710 ± 968 80 ± 60 - - - [37]
+Canada 10.4 ± 0.5 - 579.3 ± 30 60 ± 10 494 ± 20 - 110 ± 5 [44]
+USA 12.5 ± 0.5 - 1138 ± 58 359 ± 82 724 ± 123 357 ± 52 858 ± 111 [38]
+Poland 7.9–9.0 335–542 727–944 - 2009–5747 - - [43]
+Industrial
+Laundry
+Wastewater
+Poland 8.2 370–390 631–768 - - - - [47]
+France 6.5–9.0 445 ± 114 835 ± 176 <500 - - - [52]
+- 7.5–8.5 190–210 686–1088 - 1800–2300 - - [42]
+Values are presented as reported in the original sources, either as ranges (min–max) or as mean± standard deviation.
+2.2. Current Treatment Methods for Laundry Wastewater
+The treatment of laundry wastewater depends strongly on its source and pollutant
+load. Household laundry wastewater is typically discharged as municipal sewage and
+treated at public WWTPs, whereas commercial and industrial effluents originating from
+laundries, hotels, hospitals, and textile facilities are classified as industrial wastewater and
+treated on-site or at centralized industrial treatment facilities [53]. Accordingly, treatment
+strategies vary in complexity and are selected based on influence characteristics, discharge
+regulations, reuse requirements, and economic feasibility [54,55]. Processes widely used
+for laundry wastewater treatment include coagulation–sedimentation, biological treatment,
+filtration, advanced oxidation, membrane separation, and electrochemical methods, which
+are often integrated into hybrid systems [55].
+Conventional treatment typically proceeds through sequential stages of pretreatment,
+primary sedimentation, biological treatment, and secondary sedimentation, and emerging
+pretreatment technologies such as microbubble flotation have recently been investigated
+for the removal of microplastics and fine suspended solids [56,57]. The activated sludge
+process, which serves as the core technology in most wastewater treatment plants, achieves
+high removal efficiencies of approximately 90.8% for BOD and 95.5% for SS, and its mi-
+croplastic removal efficiency has been reported to exceed 90% [58,59].
+To meet stricter discharge standards or enable water reuse, tertiary treatment is imple-
+mented following biological treatment. Activated carbon adsorption effectively removes
+dissolved organic matter, surfactants, color, and odor [60,61], whereas advanced oxidation
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 5 ---\nMembranes 2026, 16, 238 5 of 24
+processes such as ozonation, UV/H2O2, and the Fenton reaction generate hydroxyl radicals
+that degrade refractory organic pollutants [62]. Industrial laundry wastewater, which is
+characterized by a high and highly variable pollutant load, often cannot meet discharge
+standards through a single process and thus requires multistage treatment integrating
+physicochemical and biological processes [31]. For instance, an extended aeration activated
+sludge (EAAS) process achieved removal efficiencies of approximately 90% for COD and
+71% for surfactants, while a downstream UV/O 3 oxidation unit further degraded the
+residual organic pollutants [42].
+Despite significant advances in laundry wastewater treatment technologies, the com-
+plete removal of microfibers remains challenging. Owing to their elongated shape, flex-
+ibility, and low density, microfibers can remain suspended during treatment, allowing a
+fraction to escape with treated effluent or become concentrated in sewage sludge [18,22].
+Consequently, relying solely on downstream wastewater treatment is insufficient to effec-
+tively prevent microfiber emissions into the environment. A complementary source-control
+strategy is therefore needed to capture microfibers at the point of generation before they en-
+ter the wastewater stream [23]. External microplastic filters installed on washing-machine
+drain lines provide a practical solution because they can be readily implemented at the
+household level without requiring additional centralized infrastructure. By capturing mi-
+crofibers at their highest concentration, these filters can reduce the loading on wastewater
+treatment plants while limiting microfiber release into receiving aquatic environments [24].
+Thus, external microplastic filters should be regarded as a complementary technology that
+enhances, rather than replaces, existing wastewater treatment systems.
+2.3. Emerging Techniques for the Removal of Microplastics from Laundry Wastewater
+In addition to conventional treatment processes, membrane-based technologies have
+proven to be highly effective for the removal of microplastics and microfibers from laundry
+wastewater [24]. Membrane separation processes, such as MF and UF, can efficiently re-
+move SS, microorganisms, and microplastics; thus, they have been increasingly employed
+in advanced treatment and water reuse systems [63,64]. For example, MBRs, which inte-
+grate activated sludge processes with MF/UF membranes, achieve efficient solid–liquid
+separation without the need for secondary clarification. As a result, MBR systems can
+achieve the near-complete removal of SS and substantially reduce microplastic concentra-
+tions [53], with a pilot-scale MBR treating municipal wastewater achieving a microplastic
+removal efficiency exceeding 99%, reducing the concentration from 6.9 particles/L to
+0.005 particles/L and outperforming conventional activated sludge processes [21].
+A number of studies have investigated the specific use of membrane-based systems
+for laundry wastewater treatment [47,65,66]. Hybrid processes combining coagulation and
+UF membranes have demonstrated synergistic effects, achieving a microplastic removal ef-
+ficiency of up to 96 ± 2% [67]. In addition, high-speed ceramic MF/UF membrane systems
+have achieved stable and efficient microplastic removal under realistic operating condi-
+tions [25]. For example, a comparative analysis of ceramic SiC-based MF and ZrO2-based
+UF membranes has reported removal efficiencies of 98.6% and 99.2%, respectively, with
+UF membranes producing superior effluent quality due to their finer pore structures [68].
+Collectively, these findings highlight the robustness, reliability, and scalability of membrane
+technologies for microplastic removal and their potential for wastewater reuse.
+Nevertheless, despite their high performance, membrane-based systems face several
+limitations, including high capital and operating costs, membrane fouling, and high energy
+demands. These constraints have restricted their widespread application, particularly in
+decentralized or household-scale systems [69,70].
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 6 ---\nMembranes 2026, 16, 238 6 of 24
+3. Development of External Microplastic Filters for Washing Machines
+In response to growing concerns over microfiber pollution from domestic laundry,
+governments worldwide are increasingly introducing regulatory and policy measures
+targeting source control. In particular, the mandatory installation of microplastic filters in
+washing machines has become a key strategy to reduce emissions at the point of generation
+(Figure 1). This section reviews recent regulatory developments in major regions, along
+with corresponding technological responses from industry (Table 2).
+Figure 1. Representative commercial external microplastic filters for washing machines (a) PlanetCare
+2.0 Microfiber Filter (PlanetCare, Ljubljana, Slovenia), (b) Less Microfiber Filter (Samsung Electronics,
+Suwon, Republic of Korea), ( c) VORTX filter (CLEANR, Cleveland, OH, USA), ( d) MicroPlastics
+LUV-R (Environmental Enhancements, Dartmouth, NS, Canada), ( e) Filtrol 160 (Wexco, Milaca,
+MN, USA), (f) Microplastic Filter (Electrolux, Stockholm, Sweden), and (g) XF3 (Xeros Technology,
+Rotherham, UK).
+Table 2. Summary of legislative and policy measures for mandatory microplastic filters in washing
+machines by country/region.
+County/Region Year
+Enacted/Proposed Key Legislative or Policy Implementation
+Timeline
+Required Pore
+Size/Removal Efficiency Ref.
+France 2020 Mandatory filter in all new
+washing machines From 2025 Not specified [71]
+California (USA) 2023 Mandatory filters ≤ 100 µm Target 2029 ≤100 µm [72]
+Oregon (USA) 2025 Mandatory filters ≤ 100 µm in new
+washing machines From 1 January 2030 ≤100 µm [73]
+European Union Proposed Mandatory filters with > 90% re-
+moval efficiency in new machines TBD Not specified [74]
+United Kingdom 2024 Bill mandating filters in all new
+washing machines
+Second reading in
+2025 >90% removal [75]
+Australia 2021
+Phased introduction of filters in
+residential and
+commercial machines
+From 1 July 2030 Not specified [76]
+Ontario (Canada) Proposed Filters manda-
+tory in all new machines From 2028 ≤100 µm [77]
+South Korea Proposed Special Act includes consideration
+of mandatory filters TBD Not specified [78]
+France has taken a leading role by enacting the Anti-Waste Law in 2020, which man-
+dates that all new washing machines sold from 2025 must be equipped with microfiber
+filters. This represents the first legally binding national regulation of its kind and has
+established a global benchmark for microplastic mitigation policies [ 71]. In the United
+States, regulatory efforts are being pursued at the state level. For example, California
+introduced Assembly Bill (AB) 1628 in 2023 to require filters capable of capturing particles
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 7 ---\nMembranes 2026, 16, 238 7 of 24
+smaller than 100 µm by 2029; although it was vetoed, follow-up legislation (AB 2214) has
+since been proposed. Similarly, Oregon introduced Senate Bill 526 in 2025, which mandates
+the installation of microfiber filters in all new washing machines from 2030, along with
+labeling requirements for proper use and maintenance [72,73].
+At the regional level, the European Union has recognized laundry-derived microplas-
+tics as an important environmental concern within broader policy frameworks, including
+Circular Economy Action Plan, although no binding requirements for washing-machine
+microplastic filters have yet been adopted [74]. In contrast, the United Kingdom has in-
+troduced the Microplastic Filters (Washing Machines) Bill, which proposes mandatory
+installation of washing-machine filters capable of achieving approximately 90% microfiber
+removal efficiency [75]. Other countries are following similar trajectories; Australia is plan-
+ning the phased implementation of mandatory filters starting in 2030 under its National
+Plastics Plan [76], while Ontario in Canada is advancing legislation requiring filters in new
+machines starting in 2028 [77]. In South Korea, although binding regulations have not yet
+been enacted, legislative proposals and policy discussions are actively underway , including the
+proposed Special Act on Microplastics Management and the Ministry of Environment’s Plastic
+Reduction Roadmap, both of which consider mandatory filter installation as a key measure [78].
+Collectively , these developments indicate a clear global trend toward regulatory standardization
+and the mandatory adoption of microplastic filtration technologies.
+Major appliance manufacturers and technology providers are actively responding
+to these regulatory developments through both operational optimization and product
+innovation [79]. One widely adopted approach is the implementation of microfiber-reducing
+washing cycles at the software level. For example, Samsung Electronics, in collaboration with
+Patagonia, has introduced the “Less Microfiber Cycle”, which reduces fabric friction and water
+flow , achieving up to a 54% reduction in the release of microfibers [80]. Similarly , LG Electronics
+has developed a microplastic-reducing cycle accessible via its smart appliance platform [81].
+Various filtration technologies have also been commercialized to directly capture
+microfibers from laundry effluent. These systems can generally be classified as either
+built-in filters integrated within the washing machines or external filters connected to the
+drainage line, with the two approaches offering distinct advantages in terms of installation,
+maintenance, and filtration performance. Reported microfiber removal rates using these
+technologies typically range from approximately 89% to over 98% depending on the filter
+configuration, pore size, and operating conditions. However, actual efficiencies can be
+lower in standardized laundry cycle experiments; an evaluation of three commercial filters
+reported capture rates of approximately 35–68%, revealing a trade-off between capture
+efficiency and hydraulic performance [51].
+As summarized in Table 3, the pore sizes of commercial external microplastic filters
+typically range from 45 to 200 µm [82,83]. In general, smaller pore sizes improve microfiber
+capture efficiency but also accelerate clogging, leading to increased hydraulic resistance
+and more frequent maintenance. Some commercial designs incorporate bypass channels
+that divert the flow once the filter becomes clogged, temporarily suspending filtration until
+the filter is cleaned [84,85]. However, operational performance depends not only on pore
+size but also on the filter maintenance strategy. For example, passive reusable mesh filters
+generally require more frequent cleaning than filters equipped with active self-cleaning
+mechanisms, even when the latter have comparable or finer pore sizes [ 82,86,87]. Fur-
+thermore, direct comparison of reported capture efficiencies remains challenging because
+testing conditions—including textile type, washing protocol, quantification method, and
+cycle number—vary considerably among studies and manufacturers. These observations
+highlight the need for standardized testing protocols to enable meaningful performance
+comparisons across commercial filtration technologies [51].
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 8 ---\nMembranes 2026, 16, 238 8 of 24
+Table 3. Specifications and reported performance of representative commercial external microplastic
+filters for washing machines shown in Figure 1.
+Product Pore Size Capture Efficiency Clogging Behavior Maintenance Interval Ref.
+(a) PlanetCare 2.0
+– 98% Auto-stop with error alert on
+drain-path obstruction
+~20 washes/cartridge; cartridges
+returned to manufacturer
+[88]
+200 µm 25 ± 20%
+Multi-layer medium distributes
+capture through depth,
+limiting clogging
+[83]
+(b) Less Microfiber Filter 65–70 µm ≤98% Blade-sweep suppresses mesh
+accumulation Clean ~every 30 cycles [89]
+(c) VORTX 50 µm >90% Vortex + self-cleaning limit mesh
+accumulation
+Pod replaced ~every 5 washes; mesh
+cleaned/reused ~every 20–30 [87]
+(d) MicroPlastics LUV-R
+150 µm 87–100% Dynamic capture (lint raises retention
+but obstructs housing); back-pressure
+<5 psi after ~1 week
+Clean ~every 2–3 cycles [86]
+285 and 175 µm 29 ± 15% Clean ~every 3 week
+(4-person household) [83]
+150 µm 87% - [23]
+(e) Filtrol 160 100 µm 89–100% Bypass opens when saturated (prevents
+overflow, suspends capture) Clean ~every 8–10 cycles [85]
+≤87% [84]
+(f) Microplastic Filter 45 µm ≤90% Red float indicates obstruction Clean weekly; ~6-month service life [82]
+(g) XF3 60 µm
+>99% Self-cleaning spin minimizes emptying Lasts washing-machine lifetime [90]
+78% – Captured fibers to household waste
+~every 30 cycles [83]
+For products (a), (d), and (g), the reported values include data from both the current and previous product generations.
+In addition to conventional filtration technologies, ceramic membranes are promising
+high-performance alternatives for the removal of microfibers from laundry wastewater.
+Evaluation of microfiber transport and retention behavior using real laundry wastewa-
+ter has demonstrated that polyethersulfone (PES) and zirconia–titania (ZT) membranes
+can achieve near-complete microfiber retention, with removal efficiencies of 99.88% and
+99.96%, respectively, while simultaneously exhibiting enhanced organic matter removal [24].
+Ceramic membranes also have an inherently hydrophilic surface that participates in rela-
+tively weak interactions with organic foulants, thus reducing their susceptibility to mem-
+brane fouling. As a result, ceramic membranes have been reported to exhibit an approxi-
+mately 1.5–2.0 times lower fouling propensity than conventional polymeric membranes
+while producing a high-quality permeate, which offers significant advantages for mem-
+brane cleaning and water reuse applications [91]. In parallel, innovative filtration concepts
+incorporating biomimetic structures and reusable filter designs have been actively developed to
+improve sustainability and long-term operational stability [92–95]. In addition, complementary
+consumer-oriented products, including laundry balls and filtration bags, have been introduced
+as low-cost and easily deployable mitigation strategies for reducing microfiber emissions [23,83].
+Overall, there has been a global move toward mandatory microplastic filtration, which
+has promoted technological innovation and market expansion. However, differences in reg-
+ulatory standards, such as pore size thresholds, target removal efficiencies, and certification
+protocols, and practical challenges related to maintenance, user compliance, and long-term
+performance remain unresolved [96]. There is thus a need for standardized evaluation
+methods and robust filter designs that improve fouling resistance and durability, ensuring
+the effective and sustainable implementation of microplastic filtration technologies.
+4. Upcycling of Captured Microplastics into Membrane Materials
+The microplastics captured from laundry wastewater filters and treatment processes
+are primarily composed of thermoplastic polymers such as polyethylene terephthalate
+(PET), polystyrene (PS), and polyvinyl chloride (PVC) [97]. Rather than being disposed of
+through landfilling or incineration, these materials have the potential to be used as alterna-
+tive feedstocks for membrane fabrication, in line with circular economy principles [98,99].
+This approach simultaneously reduces plastic waste and generates value-added functional
+materials for water treatment applications (Figure 2).
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 9 ---\nMembranes 2026, 16, 238 9 of 24
+Figure 2. Schematic illustration of the capture and upcycling pathways for laundry-derived microplas-
+tics. (a) Filtration-based capture of microplastics from laundry wastewater, reducing the release of
+microplastics into the environment. (b) Pretreatment and upcycling of captured microplastics into
+(i) polymeric membranes through NIPS or electrospinning, and (ii) ceramic membranes through
+surface modification and pore forming processes.
+Captured microplastics are particularly suitable for membrane fabrication because
+of their thermoplastic nature and favorable physicochemical properties [ 99,100]. Poly-
+mers such as PET, PS, and PVC have glass transition temperatures that are higher than
+ambient conditions and can be readily processed using solvent dissolution or thermal
+methods [99,101]. As a result, they are compatible with widely used membrane fabri-
+cation techniques, including non-solvent induced phase separation (NIPS) and electro-
+spinning [102]. In addition, a significant fraction of microplastics in laundry wastewater
+originates from textile fibers, particularly PET and polyamide (PA); these plastics typi-
+cally have a high molecular weight and good mechanical strength, which are beneficial
+characteristics for membrane-forming materials [97,103].
+The structure and performance of membranes are governed by a four-component
+system that consists of a polymer matrix, solvent, additives, and non-solvent [104]. While
+conventional membrane materials such as PVDF, PSf, and PES are widely used [ 105],
+waste-derived polymers, including PET, PS, and PVC, are increasingly being investigated
+as sustainable alternatives. However, the heterogeneous composition and potential impuri-
+ties present in waste microplastics require the use of pretreatment steps such as washing,
+filtration, and purification to ensure consistent dope solution properties and membrane per-
+formance [99]. A growing body of research has demonstrated the feasibility of fabricating
+high-performance membranes from waste polymers [99,106,107]. For example, electrospun
+nanofiber membranes derived from waste PET offer a high porosity (~77%), strong hy-
+drophobicity (contact angle > 130◦), and excellent desalination performance in membrane
+distillation, achieving salt rejection rates of up to 99.9% [ 108]. NIPS-based membranes
+incorporating waste PET with additives such as LiCl and zeolite have also been shown
+to effectively remove heavy metals and turbidity [109], while PEG-modified recycled PET
+membranes have demonstrated a performance comparable to commercial membranes in
+MBR systems [110]. Similarly, waste PVC membranes modified with gum arabic exhibit en-
+hanced hydrophilicity, increased permeability, and improved fouling resistance [111], while
+waste PS-based membranes have proven to be suitable for UF applications, particularly
+when combined with nanomaterials for surface modification [112].
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 10 ---\nMembranes 2026, 16, 238 10 of 24
+Captured microplastics can also be employed as functional components in the fab-
+rication of ceramic membranes [ 113,114]. In particular, PS particles are widely used as
+pore-forming agents due to their uniform size distribution and clean thermal decompo-
+sition behavior [115]. Their incorporation into ceramic matrices such as TiO2 and Al2O3
+leads to the formation of well-controlled porous structures with high permeability and
+tunable mechanical properties [ 116,117]. In addition, recycled polymer materials have
+been employed as surface modifiers for ceramic membranes, improving their antifouling
+performance and energy efficiency [118].
+Although previous studies have demonstrated the technical feasibility of producing
+membranes from waste polymers, translating this approach to microplastics recovered from
+laundry wastewater remains considerably more challenging. Unlike conventional plastic
+waste, laundry-derived microplastics are often contaminated with detergent residues,
+organic matter, and trace metals, necessitating multi-step washing and purification prior to
+reuse. These additional treatment processes generate secondary wastewater and increase
+both water consumption and processing costs [119,120].
+Another major challenge is the heterogeneous polymer composition of captured mi-
+croplastics. Laundry-derived microplastics typically consist of mixed polymers, including
+acrylic, polyamide (PA), polyester (PET), and polypropylene (PP) [3]. Because these poly-
+mers are generally incompatible during melt processing, direct recycling without prior
+separation results in materials with poor mechanical properties, limiting their suitability for
+membrane fabrication [121]. However, efficient separation of micrometer-sized mixed mi-
+croplastics remains technically challenging. Existing sorting technologies, such as density
+separation, Fourier-transform near-infrared (FT-NIR) spectroscopy, and electrostatic sepa-
+ration, were primarily developed for larger and more homogeneous plastic waste streams.
+Furthermore, density separation alone cannot effectively distinguish polymers with over-
+lapping density ranges, often requiring additional sensor-based sorting or purification
+steps that increase energy consumption and operational costs [120,122].
+Economic feasibility also remains a major limitation. Because laundry-derived mi-
+croplastics are generally at relatively low concentrations, significant energy and processing
+are required for their collection, concentration, separation, and purification. Consequently,
+current recovery technologies are not yet economically competitive with conventional
+plastic recycling systems [ 123]. Therefore, although microfiber upcycling represents a
+promising long-term strategy, further advances in collection, separation, and purification
+technologies will be essential before its large-scale implementation becomes practical.
+Overall, existing laboratory-scale studies, most of which utilize relatively homoge-
+neous conventional plastic waste rather than laundry-derived microplastics, demonstrate
+the technical potential of producing membrane materials from recycled polymers. However,
+translating this concept to microplastics captured by external washing-machine filters re-
+mains challenging because of the low concentration of recoverable material, heterogeneous
+polymer composition, contamination by detergent residues and organic matter, and the
+need for energy-intensive collection, separation, and purification processes. These technical
+challenges are further compounded by the uncertain economic viability of recovering and
+processing such small quantities of microplastics.
+Consequently, microfiber upcycling should currently be regarded as a promising long-
+term research direction rather than a readily deployable waste-management strategy. Future
+studies should evaluate the full environmental and economic performance of this approach
+through life-cycle assessment, techno-economic analysis, and pilot-scale demonstrations.
+If these challenges can be overcome, recycling captured microplastics into membrane
+materials could contribute to a circular economy by transforming waste into value-added
+materials for water treatment and other environmental applications [124].
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 11 ---\nMembranes 2026, 16, 238 11 of 24
+5. Microbial Presence and Biofouling in Laundry Wastewater
+The primary objective of laundering textiles is not only the removal of visible dirt
+but also the reduction in organic and microbial contamination to hygienically accept-
+able levels [125]. However, although laundering substantially decreases microbial loads,
+complete microbial elimination is rarely achieved under typical household washing condi-
+tions [126,127]. The degree of microbial reduction is strongly influenced by the operational
+parameters, including the washing temperature, detergent formulation, and cycle dura-
+tion. Hygienic decontamination of vegetative pathogens such asStaphylococcus aureusand
+Pseudomonas aeruginosais generally enhanced at higher temperatures, particularly within the
+40–60 ◦C range, and may be improved further with the use of activated-oxygen bleach or longer
+washing cycles [128,129]. In contrast, low-temperature washing (<40◦C), including cold-water
+cycles for energy conservation, offers limited microbial inactivation and allows opportunistic
+and biofilm-forming microorganisms to persist during the laundering process [127,128].
+A large fraction of the microorganisms on textiles is detached during the washing cycle
+due to continuous mechanical agitation and subsequently discharged into the laundry effluent.
+Laundry wastewater offers a favorable environment for microbial persistence due to the presence
+of organic substrates derived from body fluids, desquamated skin cells, and textile residues,
+together with residual surfactants and moderate operating temperatures. Consequently , laundry
+wastewater is an effective carrier of a diverse range of microbial communities and may support
+their transport and proliferation under suitable environmental conditions.
+Microbial characterization studies have reported high levels of microbes in laun-
+dry wastewater, with reported bacterial concentrations ranging from approximately
+104 to 105 cells/mL based on total cell counts [ 126]. These authors also found that vi-
+able bacterial counts in greywater effluent from washing machines operated at 30 ◦C were
+comparable to, or even exceeded, those detected in the influent water, suggesting that laun-
+dering may selectively enrich certain detergent-tolerant and biofilm-associated taxa in the
+discharged wastewater (Figure 3a) [126]. At the community level, laundering significantly
+alters bacterial composition, with Gammaproteobacteria becoming particularly enriched in
+laundry effluent (Figure 3b). At a finer taxonomic resolution, dominant genera frequently
+identified in laundry wastewater and washing-machine-associated niches include Enhy-
+drobacter, Staphylococcus, Corynebacterium, and Pseudomonas (Figure 3c) [126,130–134]. These
+microorganisms are characterized by their strong adaptability to fluctuating environmental
+conditions and resistance to detergents and nutrient-limited environments. In addition to
+bacteria, fungi and yeasts have also been detected in laundry wastewater, indicating that
+this effluent supports diverse microbial communities [127,135,136].
+Several studies have reported the presence of clinically relevant microorganisms on
+laundered textiles and within internal components of household washing machines, includ-
+ing ESKAPE (Enterococcus faecium, Staphylococcus aureus, Klebsiella pneumoniae, Acinetobacter
+baumannii, Pseudomonas aeruginosa, and Enterobacter spp.) pathogens, which are recognized
+for their ability to acquire and disseminate antimicrobial resistance. Whitehead et al. re-
+ported that public washing machines can mediate microbial cross-contamination between
+laundered textiles, with multiple ESKAPE pathogens, including S. aureus, K. pneumoniae,
+and A. baumannii, detected on the laundered fabrics [137]. Although their study did not
+directly analyze laundry effluent, their findings supported concerns regarding the redistri-
+bution of clinically important microorganisms during laundering processes. In a notable
+hospital-associated case, Schmithausen et al. [138]) reported persistent colonization of an
+extended-spectrumβ-lactamase (ESBL)-producingKlebsiella oxytocawithin the residual water
+and detergent-drawer compartments of a household washing machine used in a German peri-
+natal care setting. The organism was subsequently transmitted to newborns via contaminated
+laundered textiles until the washing machine was removed from service [138].
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 12 ---\nMembranes 2026, 16, 238 12 of 24
+A comparison of previous studies investigating microbial communities associated with
+washing machines is summarized in Table 4. Reported microbial loads vary considerably
+among sampling sites and are consistently highest at persistently wet, difficult-to-clean
+locations, such as front-load door seals (up to ~6.50 log CFU/swab) and detergent-drawer
+water port (up to ~6.28 log CFU/swab), while lower loads are generally observed on drum
+walls and agitator surfaces. Across independent studies employing different sampling
+and analytical methods, Pseudomonas, Acinetobacter, Staphylococcus, and Micrococcus were
+consistently identified as dominant bacterial genera, together with fungi such asRhodotorula,
+Candida, and Cladosporium. Importantly, all of these observations were obtained from
+internal washing-machine components or washing-related water; no studies have directly
+characterized microbial communities on external microplastic filters. Nevertheless, the
+consistently high microbial loads observed at wet, particle-retaining internal sites suggest
+that household washing machines provide conditions favorable for microbial colonization.
+Whether comparable microbial accumulation and biofilm formation occur on external
+microplastic filters remains unknown and warrants dedicated investigation.
+Table 4. Summary of previous studies investigating microbial communities in household washing
+machines and washing-related water.
+Ref. Analysis Methods Sampling Sites Microbial Counts Dominant Taxa
+[127]
+Culture-based method;
+16S rRNA gene/ITS
+amplicon sequencing
+Top-load machines
+Drum wall Bacteria: 3.71 ± 1.02 log CFU/swab
+Fungi: 1.53 ± 0.34 log CFU/swab
+Bacteria: Pseudomonas,
+Micrococcus,
+Sphingomonas,
+Staphylococcus
+Fungi: Aspergillus,
+Cladosporium, Penicillium,
+Trichoderma
+Drum gasket Bacteria: 3.79 ± 1.73 log CFU/swab
+Fungi: 2.27 ± 0.87 log CFU/swab
+Drum lower edge Bacteria: 2.05 ± 0.9 log CFU/swab
+Fungi: 1.27 ± 0.07 log CFU/swab
+Agitator spindle Bacteria: 2.68 ± 0.36 log CFU/swab
+Fungi: 1.1 ± 0.5 log CFU/swab
+Fabric softener reservoir Bacteria: 2.46 ± 1.49 log CFU/swab
+Fungi: 1.30 ± 0 log CFU/swab
+Front-load machines
+Drum wall Bacteria: 3.32 ± 1.44 log CFU/swab
+Fungi: 1.68 ± 0.53 log CFU/swab
+Door seal Bacteria: 6.50 ± 2.46 log CFU/swab
+Fungi: 3.25 ± 1.4 log CFU/swab
+Water spray port Bacteria: 4.90 ± 2.94 log CFU/swab
+Fungi: 2.48 ± 1.64 log CFU/swab
+Drum lower edge Bacteria: 5.02 ± 2.67 log CFU/swab
+Fungi: 2.39 ± 1.11 log CFU/swab
+Detergent drawer Bacteria: 4.71 ± 2.80 log CFU/swab
+Fungi: 2.87 ± 1.63 log CFU/swab
+Detergent drawer
+water port
+Bacteria: 6.28 ± 2.54 log CFU/swab
+Fungi: 3.63 ± 1.35 log CFU/swab
+[136]
+Culture-based method;
+16S rRNA gene amplicon
+sequencing
+Washing solution elution Bacteria: >700 CFU/100 cm2
+Fungi: >50 CFU/100 cm2
+Bacteria: Pseudomonas,
+Enhydrobacter,
+Brevibacterium,
+Acinetobacter
+Fungi: Cyphellophora
+Outer wall, base,
+rubber ring - Enhydrobacter,
+Brevibacterium
+[139] Culture-based method;
+MALDI Biotyper
+Detergent drawer Bacteria: 1.1 ± 0.74 × 104 CFU/cm2
+Rhizobium radiobacter,
+Pseudomonas,
+Acinetobacter,
+Staphylococcus,
+Micrococcus
+Detergent drawer chamber Bacteria: 4.2 ± 3.0 × 104 CFU/cm2
+Pseudomonas,
+Acinetobacter,
+Staphylococcus,
+Micrococcus
+Top of rubber door seal Bacteria: 11.1 ± 9.2 × 101 CFU/cm2
+Micrococcus,
+Staphylococcus,
+Acinetobacter,
+Pseudomonas
+Bottom of rubber door seal Bacteria: 3.1 ± 1.9 × 104 CFU/cm2
+Micrococcus,
+Acinetobacter,
+Pseudomonas,
+Staphylococcus
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 13 ---\nMembranes 2026, 16, 238 13 of 24
+Table 4. Cont.
+Ref. Analysis Methods Sampling Sites Microbial Counts Dominant Taxa
+[134] 16S rRNA gene
+pyrosequencing
+Detergent drawer
+-
+Pseudomonas,
+Brevundimonas
+Rubber door seal
+Acinetobacter,
+Pseudomonas,
+Enhydrobacter, Moraxella
+osloensis
+Sump Pseudomonas, Acidovorax
+Fibers collected from the washing solution
+Pseudomonas,
+Acinetobacter,
+Enhydrobacter, Moraxella
+osloensis
+[135] Culture-based method Detergent drawer, Rubber door seal -
+Bacteria: Micrococcus
+luteus, Pseudomonas
+aeruginosa, Sphingomonas
+Fungi: Fusarium
+oxysporum, Fusarium
+solani, Candida
+parapsilosis, Exophiala
+phaeomuriformis
+[126]
+Culture-based method;
+16S rRNA gene
+pyrosequencing
+Effluent Water Bacteria: 1.32 × 104~4.06 × 105
+cells/mL
+Enhydrobacter,
+Staphylococcus,
+Corynebacterium,
+Pseudomonas
+[140] 16S rRNA gene/ITS
+pyrosequencing
+Rubber door seal
+-
+Bacteria: Acinetobacter,
+Brevundimonas,
+Pseudomonas
+Fungi:
+Meyerozyma/Candida,
+Cladosporium, Nectria,
+Wallemia muriae,
+Rhodotorula mucilaginosa
+Detergent drawer
+Bacteria: Proteobacteria
+(p), Rhizobiales (o),
+Ochrobactrum
+Fungi: Candida
+parapsilosis, Rhodotorula
+minuta, Rhodotorula
+slooffiae
+[141] Culture-based method Rubber door seal Bacteria: ~103~104 CFU/cm2
+-Detergent drawer Bacteria: ~10−1~103 CFU/cm2
+[142] Culture-based method Rubber door seal -
+Pseudomonas putida,
+Pseudomonas aeruginosa,
+Klebsiella pneumoniae
+The coexistence of organic matter, surfactants, suspended solids, and microplastic
+fibers in laundry wastewater also promotes microbial aggregation and biofilm forma-
+tion. Microorganisms can readily associate with particulate matter, including synthetic
+microfibers, forming complex aggregates that promote microbial persistence and transport.
+These fiber-associated microbial assemblages, commonly referred to as the plastisphere,
+can become biofilm-producing communities that develop on hydrophobic polymeric sur-
+faces [143,144]. Due to their persistent and hydrophobic nature, microplastic surfaces provide
+favorable conditions for rapid microbial adhesion, irreversible attachment, and subsequent
+EPS-mediated biofilm development [143,145]. Through repeated washing cycles, these microbial
+communities are continuously discharged into wastewater streams, contributing to elevated
+microbial loads and increasing the potential for downstream contamination.
+These studies demonstrate that clinically relevant microorganisms can colonize laun-
+dered textiles and internal washing-machine components. However, whether similar
+microbial colonization occurs on external microplastic filters has not yet been directly in-
+vestigated. Importantly, external microplastic filters installed in washing machine drainage
+systems are the primary interception point for both microplastic fibers and associated
+microorganisms. The accumulation of organic matter and retained particulates within these
+filters creates favorable conditions for microbial attachment and proliferation, potentially
+transforming the filters into hotspots for biofilm formation. Biofilm formation has been
+well documented on the internal wetted components of household washing machines.
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 14 ---\nMembranes 2026, 16, 238 14 of 24
+For example, Gattlen et al. identified pronounced biofilm growth on built-in drain filters,
+outer-drum metal surfaces, and rubber tubing, with approximately 30% of the recovered
+isolates classified as potential human pathogens [ 142]. Although external microplastic
+filters similarly retain microfibers and organic matter between cleaning intervals,no studies
+have directly characterized microbial colonization or biofilm formation on these filters. There-
+fore, the potential for biofilm accumulation and associated hygiene risks on external filters is
+inferred from analogous systems and should be regarded as an important research gap requiring
+experimental validation. These observations highlight the importance of considering microbial
+dynamics and biofouling behavior in the design and operation of laundry wastewater filtration
+systems, with microbial accumulation on filter surfaces potentially affecting filtration efficiency ,
+hydraulic resistance, pressure buildup, and long-term operational stability .
+ 
+ 
+ 
+Figure 3. Representative microbial communities and biofouling in laundry-associated wastewater
+systems: (a) bacterial cell counts in influent water and laundry effluent for five household washing
+machines (WM1–WM5), determined by flow cytometry and selective plating [ 126], ( b) relative
+abundance of bacterial taxa at the class level in influent tap water, effluent water, and cotton textile
+samples before and after laundering in a household washing machine [126], (c) relative abundance of
+bacterial taxa at the genus level at four sampling sites within household washing machines (door
+seal, detergent drawer, sump, and fibers recovered from the washing solution) [134].
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 15 ---\nMembranes 2026, 16, 238 15 of 24
+6. Microbial Colonization of Microplastic Filters
+As discussed in the previous section, laundry wastewater contains a diverse range
+of microbial communities that are continuously transported during the washing process.
+These microorganisms, originating from textiles, human skin, and environmental sources,
+are discharged with the laundry effluent and often pass through washing machine-mounted
+microplastic filters. During this process, suspended microorganisms are likely to be physi-
+cally retained or adsorbed onto the filter surface along with microplastic fibers and other
+particulates [146]. Accordingly, microplastic filters can become potential accumulation
+sites where microorganisms can concentrate and persist (Figure 4). Despite this, studies
+directly investigating microbial communities or biofilm formation within washing machine
+microplastic filters remain scarce, highlighting a critical knowledge gap in understanding
+their microbiological behavior.
+Figure 4. Schematic illustration of microbial accumulation and biofilm development on microplastic
+filters in washing machines.
+The structure and function of microplastic filters enhance their susceptibility to mi-
+crobial colonization. These filters typically consist of fine mesh or porous media de-
+signed to capture small particles, resulting in a high surface area available for microbial
+attachment [147]. In addition, microplastics retained within the filter can act as a substrate
+for microbial adhesion. Due to its hydrophobic properties, the microplastic surface readily
+facilitates microbial attachment and supports the formation of the plastisphere [144,148].
+These plastisphere communities can include opportunistic or pathogenic microorgan-
+isms and exhibit unique functional characteristics, thus increasing the potential hygienic
+risks [149,150].
+Microplastic filters also accumulate the organic matter and residual detergents present
+in laundry wastewater. These substances can act as carbon and nutrient sources, promoting
+microbial growth within the filter matrix [37,147]. Biofilm development generally proceeds
+through sequential stages: reversible attachment, irreversible attachment, EPS-driven
+maturation, and partial detachment followed by recolonization [151]. During maturation,
+attached microorganisms secrete EPS, which strengthen surface adhesion, bind retained
+microplastic fibers, organic matter, and microbial cells into a cohesive matrix, and protect
+embedded microorganisms from environmental stresses [152]. This process facilitates the
+formation of complex biofouling layers composed of microorganisms, microplastics, and
+accumulated organic matter [153]. Over time, these biofilms can become increasingly dense
+and resistant to removal via physical cleaning.
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 16 ---\nMembranes 2026, 16, 238 16 of 24
+The surfactants present in laundry wastewater further complicate this colonization
+process. Synthetic surfactants such as sodium dodecyl sulfate (SDS) are amphiphilic
+compounds that reduce surface tension and can inhibit microbial attachment, and they
+have been reported to suppress biofilm formation in a variety of industrial, medical, and
+environmental systems [154]. Inhibitory effects have been observed above threshold con-
+centrations [155]. However, the applicability of these findings to external washing-machine
+filters remains uncertain. Most available studies have been conducted using single mi-
+crobial strains and SDS-based model systems, whereas the surfactants most commonly
+found in laundry detergents, such as linear alkylbenzene sulfonate, have received com-
+paratively little attention. In addition, surfactant effects are highly substrate-dependent,
+and biofilm inhibition observed on some materials may not apply to hydrophobic plastic
+surfaces, where microbial attachment can instead be promoted [155]. Furthermore, because
+surfactant antimicrobial activity depends on both concentration and exposure time, the
+relatively short duration of household washing cycles may be insufficient to eliminate
+mature biofilms or microorganisms embedded within retained microfiber layers [136]. Con-
+sequently, the overall influence of laundry surfactants on biofilm development in external
+microplastic filters remains unresolved and requires further investigation.
+The development of microbial biofilms within external microplastic filters may have
+important implications for both filtration performance and hygiene. Under realistic
+washing-machine operating conditions, the accumulation of retained microfibers on com-
+mercial filters has been shown to increase the pressure gradient across the filter and reduce
+drainage flow over repeated wash cycles, illustrating the trade-off between microfiber
+capture efficiency and hydraulic performance [ 51]. Similarly, progressive clogging and
+flow-rate reduction have been identified as key factors limiting the long-term performance
+of external filters [96]. Biofilm growth is expected to further exacerbate this physical fouling
+by colonizing the retained microfiber layer, narrowing the effective pore size, and increas-
+ing hydraulic resistance [156,157]. Consequently, excessive fouling may reduce drainage
+rates, increase mechanical stress on the filter, and potentially induce bypass flow, thereby
+compromising filtration performance and reliability [158].
+However, these mechanisms are inferred primarily from studies of MBRs and granular
+filtration systems rather than from external washing-machine microplastic filters. To
+date, no studies have quantitatively measured the contribution of biofilm development
+to pressure-drop increases over successive washing cycles. Therefore, systematic, cycle-
+resolved measurements that distinguish physical clogging by retained microfibers from
+biofilm-induced hydraulic resistance remain an important research priority.
+In addition to operational issues, microbial growth within filters may pose hygienic
+concerns. The proliferation of odor-causing bacteria, such as Moraxella osloensis, which
+has been identified as a major contributor to washing machine malodor, can lead to un-
+pleasant odors and lower user acceptability [134,141,159,160]. In addition, if filters are not
+properly maintained, microbial metabolites and volatile compounds may be released back
+into the washing system or indoor environment, potentially resulting in the secondary
+contamination of laundered textiles [126,127].
+The potential hygiene risks associated with external microplastic filters remain largely
+hypothetical, as no studies have directly characterized microbial colonization or pathogen
+persistence on these filters. Nevertheless, washing machines are recognized as poten-
+tial reservoirs and transmission routes for opportunistic microorganisms, particularly
+when laundering contaminated textiles. For example, laundry associated with healthcare-
+related activities, such as workwear worn by healthcare professionals or textiles used in
+home-based patient care, may introduce clinically relevant microorganisms into household
+laundry wastewater [ 161]. By analogy with other particle-retaining filtration systems,
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 17 ---\nMembranes 2026, 16, 238 17 of 24
+such microorganisms could accumulate within external filters and persist through re-
+peated washing cycles, potentially increasing the risk of household-level recontamination.
+Likewise, biofilms are well known to facilitate horizontal gene transfer, including the
+dissemination of antimicrobial resistance genes [162]. If comparable biofilms develop on
+external microplastic filters, they could similarly contribute to the persistence and spread of
+antimicrobial resistance in household environments. In addition, because most commercial
+external filters require manual disassembly, cleaning,and disposal of retained debris, main-
+tenance activities could expose users to accumulated microorganisms and biofilm-associated
+contaminants. However, these potential hygiene risks are inferred from studies of internal
+washing-machine components and related filtration systems rather than from direct observa-
+tions of external microplastic filters. Experimental studies are therefore needed to evaluate
+microbial colonization, biofilm formation, and their implications for household hygiene.
+7. Conclusions
+Laundry-derived microplastic fibers are a major source of environmental microplastic
+pollution due to their continuous release during domestic laundering and persistence in
+aquatic environments. Washing machine-mounted microplastic filters are a promising
+source-control technology capable of reducing microfiber discharge before wastewater
+release. This review summarized recent advances in microfiber capture technologies,
+including internal and external filtration systems and membrane-based approaches to
+laundry wastewater treatment. In addition to microfiber removal, the potential upcycling
+of captured microplastics into polymeric and ceramic membrane materials is a sustainable
+strategy for waste valorization and circular resource utilization. Membrane-based systems,
+particularly ceramic membranes, have demonstrated high microfiber removal efficiencies
+and favorable antifouling characteristics, highlighting their potential for advanced water
+treatment applications. Importantly, this review also emphasized the overlooked issue
+of microbial accumulation and biofouling within laundry wastewater filtration systems.
+Laundry effluent contains various microorganisms that can become associated with retained
+microplastic fibers and accumulated organic matter, promoting biofilm formation within
+the filter. This biofouling may negatively affect filtration performance, operational stability,
+and household hygiene, while also raising concerns regarding pathogen persistence and
+antibiotic resistance dissemination.
+Author Contributions: Conceptualization, H.S. and Y.M.K.; methodology, H.S. and Y.M.K.; for-
+mal analysis, H.S. and Y.M.K.; investigation, H.S., Y.M.K. and D.H.Y.; resources, S.A.K. and C.P .;
+writing—original draft preparation, H.S. and Y.M.K.; writing—review and editing, D.H.Y., S.A.K.
+and C.P .; supervision, S.A.K. and C.P .; funding acquisition, C.P . All authors have read and agreed to
+the published version of the manuscript.
+Funding: This work was supported by the National Research Foundation of Korea funded by the
+Ministry of Science and ICT (No. RS-2025-00513912). This work was also supported by the Ewha
+Womans University research grant of 2026.
+Data Availability Statement: No new data were created or analyzed in this study. Data sharing is
+not applicable to this article.
+Conflicts of Interest: The authors declare no conflict of interest.
+References
+1. Chouchene, K.; Silva, A.L.P .; Costa, A.; Marinho, A.; Duarte, A.C.; Rocha-Santos, T.; da Costa, J.P . Textile Microfibers: Emissions,
+Quantification and Analytical Characterization. A Household Laundry Perspective.Green Anal. Chem.2025, 14, 100293. [CrossRef]
+2. De Falco, F.; Di Pace, E.; Cocca, M.; Avella, M. The Contribution of Washing Processes of Synthetic Clothes to Microplastic
+Pollution. Sci. Rep. 2019, 9, 6633. [CrossRef] [PubMed]
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 18 ---\nMembranes 2026, 16, 238 18 of 24
+3. Napper, I.E.; Thompson, R.C. Release of Synthetic Microplastic Plastic Fibres from Domestic Washing Machines: Effects of Fabric
+Type and Washing Conditions. Mar. Pollut. Bull. 2016, 112, 39–45. [CrossRef]
+4. Boucher, J.; Friot, D. Primary Microplastics in the Oceans: A Global Evaluation of Sources; IUCN International Union for Conservation
+of Nature: Gland, Switzerland, 2017.
+5. Henry, B.; Laitala, K.; Klepp, I.G. Microfibres from Apparel and Home Textiles: Prospects for Including Microplastics in
+Environmental Sustainability Assessment. Sci. Total Environ. 2019, 652, 483–494. [CrossRef] [PubMed]
+6. Gupta, A.; Kumar, S.; Bajpai, Y.; Chaturvedi, K.; Johri, P .; Tiwari, R.K.; Vivekanand, V .; Trivedi, M. Pharmaceutically Active
+Micropollutants: Origin, Hazards and Removal. Front. Microbiol. 2024, 15, 1339469. [CrossRef] [PubMed]
+7. Rebelein, A.; Int-Veen, I.; Kammann, U.; Scharsack, J.P . Microplastic Fibers—Underestimated Threat to Aquatic Organisms? Sci.
+Total Environ. 2021, 777, 146045. [CrossRef] [PubMed]
+8. Le, L.-T.; Nguyen, K.-Q.N.; Nguyen, P .-T.; Duong, H.C.; Bui, X.-T.; Hoang, N.B.; Nghiem, L.D. Microfibers in Laundry Wastewater:
+Problem and Solution. Sci. Total Environ. 2022, 852, 158412. [CrossRef] [PubMed]
+9. Newman, M.C.; Roberts, M.H.; Hale, R.C. Endocrine Disruption in Fishes and Invertebrates: Issues for Saltwater Ecological Risk
+Assessment. In Coastal and Estuarine Risk Assessment; Lewis Publishers: London, UK, 2002; p. 347.
+10. Amelia, T.S.M.; Khalik, W.M.A.W.M.; Ong, M.C.; Shao, Y.T.; Pan, H.-J.; Bhubalan, K. Marine Microplastics as Vectors of Major
+Ocean Pollutants and Its Hazards to the Marine Ecosystem and Humans. Prog. Earth Planet. Sci. 2021, 8, 12. [CrossRef]
+11. Kwon, J.-H.; Chang, S.; Hong, S.H.; Shim, W.J. Microplastics as a Vector of Hydrophobic Contaminants: Importance of Hydropho-
+bic Additives. Integr. Environ. Assess. Manag. 2017, 13, 494–499. [CrossRef] [PubMed]
+12. Savoca, S.; Capillo, G.; Mancuso, M.; Faggio, C.; Panarello, G.; Crupi, R.; Bonsignore, M.; D’Urso, L.; Compagnini, G.; Neri, F.;
+et al. Detection of Artificial Cellulose Microfibers in Boops Boops from the Northern Coasts of Sicily (Central Mediterranean). Sci.
+Total Environ. 2019, 691, 455–465. [CrossRef] [PubMed]
+13. Zantis, L.J.; Carroll, E.L.; Nelms, S.E.; Bosker, T. Marine Mammals and Microplastics: A Systematic Review and Call for
+Standardisation. Environ. Pollut. 2021, 269, 116142. [CrossRef] [PubMed]
+14. Issac, M.N.; Kandasubramanian, B. Effect of Microplastics in Water and Aquatic Systems. Environ. Sci. Pollut. Res. 2021, 28,
+19544–19562. [CrossRef] [PubMed]
+15. Qiao, R.; Deng, Y.; Zhang, S.; Wolosker, M.B.; Zhu, Q.; Ren, H.; Zhang, Y. Accumulation of Different Shapes of Microplastics
+Initiates Intestinal Injury and Gut Microbiota Dysbiosis in the Gut of Zebrafish. Chemosphere 2019, 236, 124334. [CrossRef]
+[PubMed]
+16. Mizukami-Murata, S.; Tsushima, I.; Abe, S.; Kitamura, T.; Okayasu, Y. Effects of Laundry-Derived Microplastic Fibers on Larval
+Japanese Medaka (Oryzias latipes). Sci. Total Environ. 2025, 983, 179657. [CrossRef] [PubMed]
+17. Sun, J.; Dai, X.; Wang, Q.; van Loosdrecht, M.C.M.; Ni, B.-J. Microplastics in Wastewater Treatment Plants: Detection, Occurrence
+and Removal. Water Res. 2019, 152, 21–37. [CrossRef] [PubMed]
+18. Iyare, P .U.; Ouki, S.K.; Bond, T. Microplastics Removal in Wastewater Treatment Plants: A Critical Review.Environ. Sci. Water Res.
+Technol. 2020, 6, 2664–2675. [CrossRef]
+19. Hyeon, Y.; Kim, S.; Ok, E.; Park, C. A Fluid Imaging Flow Cytometry for Rapid Characterization and Realistic Evaluation
+of Microplastic Fiber Transport in Ceramic Membranes for Laundry Wastewater Treatment. Chem. Eng. J. 2023, 454, 140028.
+[CrossRef]
+20. Carr, S.A.; Liu, J.; Tesoro, A.G. Transport and Fate of Microplastic Particles in Wastewater Treatment Plants.Water Res. 2016, 91,
+174–182. [CrossRef] [PubMed]
+21. Talvitie, J.; Mikola, A.; Koistinen, A.; Setälä, O. Solutions to Microplastic Pollution—Removal of Microplastics from Wastewater
+Effluent with Advanced Wastewater Treatment Technologies.Water Res. 2017, 123, 401–407. [CrossRef] [PubMed]
+22. Mahon, A.M.; O’Connell, B.; Healy, M.G.; O’Connor, I.; Officer, R.; Nash, R.; Morrison, L. Microplastics in Sewage Sludge: Effects
+of Treatment. Environ. Sci. Technol. 2017, 51, 810–818. [CrossRef] [PubMed]
+23. McIlwraith, H.K.; Lin, J.; Erdle, L.M.; Mallos, N.; Diamond, M.L.; Rochman, C.M. Capturing Microfibers—Marketed Technologies
+Reduce Microfiber Emissions from Washing Machines. Mar. Pollut. Bull. 2019, 139, 40–45. [CrossRef] [PubMed]
+24. Kim, S.; Hyeon, Y.; Rho, H.; Park, C. Ceramic Membranes as a Potential High-Performance Alternative to Microplastic Filters for
+Household Washing Machines. Sep. Purif. Technol. 2024, 344, 127278. [CrossRef]
+25. So, Y.; Kim, S.Y.; Kim, S.; Park, C. Innovative Approaches to High-Speed Ceramic Membrane Filtration for Microplastic Mitigation
+in Urban Wastewater Treatment Facilities.Sep. Purif. Technol. 2025, 363, 132013. [CrossRef]
+26. Flemming, H.-C.; Schaule, G.; Griebe, T.; Schmitt, J.; Tamachkiarowa, A. Biofouling—The Achilles Heel of Membrane Processes.
+Desalination 1997, 113, 215–225. [CrossRef]
+27. Vanysacker, L.; Denis, C.; Declerck, P .; Piasecka, A.; Vankelecom, I.F.J. Microbial Adhesion and Biofilm Formation on Microfiltra-
+tion Membranes: A Detailed Characterization Using Model Organisms with Increasing Complexity. BioMed Res. Int. 2013, 2013,
+470867. [CrossRef] [PubMed]
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 19 ---\nMembranes 2026, 16, 238 19 of 24
+28. Luzi, B.; Miino, M.C.; Rada, E.C.; Zullo, R.; Baltrocchi, A.P .D.; Torretta, V .; Galafassi, S. Critical Review of Microfiber Release from
+Textiles: Results, Comparative Challenges, Mitigation Strategies, and Legislative Perspectives. Chemosphere 2025, 378, 144394.
+[CrossRef] [PubMed]
+29. Ramasamy, R.; Nallendiran, L.; Subramanian, R.B. Microfiber Filters for Laundry: A Systematic Review of Effectiveness and
+Future Research Directions for Pollution Mitigation. Water Air Soil Pollut. 2025, 236, 381. [CrossRef]
+30. Klimonda, A.; Kowalska, I. Water Recovery from Laundry Wastewater by Integrated Purification Systems.Membranes 2025, 15,
+125. [CrossRef] [PubMed]
+31. Ho, K.C.; Teow, Y.H.; Sum, J.Y.; Ng, Z.J.; Mohammad, A.W. Water Pathways through the Ages: Integrated Laundry Wastewater
+Treatment for Pollution Prevention. Sci. Total Environ. 2021, 760, 143966. [CrossRef] [PubMed]
+32. López Zavala, M.; Espinoza Estrada, E. The Contribution of the Type of Detergent to Domestic Laundry Graywater Composition
+and Its Effect on Treatment Performance. Water 2016, 8, 214. [CrossRef]
+33. Shaikh, I.N.; Ahammed, M.M. Effect of Washing Method and Detergent Type on Laundry Greywater Characteristics.J. Water
+Process Eng. 2024, 66, 106103. [CrossRef]
+34. Yu, Y.; Zhao, J.; Bayly, A.E. Development of Surfactants and Builders in Detergent Formulations.Chin. J. Chem. Eng. 2008, 16,
+517–527. [CrossRef]
+35. Alhinai, A.S. Laundry Wastewater Characterization and Treatment for Reuse Purposes in Oman. InTowards a Sustainable Water
+Future; ICE Publishing: London, UK, 2021; pp. 211–219.
+36. Edwin, G.A.; Gopalsamy, P .; Muthu, N. Characterization of Domestic Gray Water from Point Source to Determine the Potential
+for Urban Residential Reuse: A Short Review. Appl. Water Sci. 2014, 4, 39–49. [CrossRef]
+37. Braga, J.K.; Varesche, M.B.A. Commercial Laundry Water Characterisation. Am. J. Anal. Chem. 2014, 5, 8–16. [CrossRef]
+38. Kim, H.-C.; Shang, X.; Huang, J.-H.; Dempsey, B.A. Treating Laundry Waste Water: Cationic Polymers for Removal of Contami-
+nants and Decreased Fouling in Microfiltration. J. Membr. Sci. 2014, 456, 167–174. [CrossRef]
+39. Khapra, R.; Singh, N. Physical, Chemical, and Biological Evaluation of Domestic Laundry Greywater Discharges to Attract
+Reclamation Strategies and Reuse Applications in Urban Settings. Environ. Qual. Manag. 2024, 33, 209–221. [CrossRef]
+40. Son, D.-J.; Jeong, D.-H.; Park, K.-H. Correlation Analysis between TOC and Organic Matter Indices in Influent and Effluent of
+Public Sewage Treatment Facilities. J. Converg. Inf. Technol. 2021, 11, 122–129. [CrossRef]
+41. Omolara, L. Sustainable Water Supply: Potential of Recycling Laundry Wastewater for Domestic Use. J. Civ. Eng. Environ. Sci.
+2017, 4, 56–60. [CrossRef]
+42. Benis, K.Z.; Behnami, A.; Aghayani, E.; Farabi, S.; Pourakbar, M. Water Recovery and On-Site Reuse of Laundry Wastewater by a
+Facile and Cost-Effective System: Combined Biological and Advanced Oxidation Process. Sci. Total Environ. 2021, 789, 148068.
+[CrossRef] [PubMed]
+43. Bering, S.; Mazur, J.; Tarnowski, K.; Janus, M.; Mozia, S.; Morawski, A.W. The Application of Moving Bed Bio-Reactor (MBBR) in
+Commercial Laundry Wastewater Treatment.Sci. Total Environ. 2018, 627, 1638–1643. [CrossRef] [PubMed]
+44. Kumar, S.; Khosravanipour Mostafazadeh, A.; Kumar, L.R.; Drogui, P .; Tyagi, R.D. Treatment of Laundry Wastewater Using
+Extracellular Polymeric Substances (EPS). Environ. Syst. Res. 2023, 12, 10. [CrossRef]
+45. Kong, S.-H. Evaluation on I/I and Mixed Characteristics of Sewage Using Data of Electrical Conductivity. Master’s Thesis,
+University of Seou, Seoul, Republic of Korea, 2010.
+46. Dehghani, M.H.; Beydokhti, T.T. Investigating the Quality and Quantity of Effluent in Wastewater Treatment Plants of Iran: A
+Case Study of Tehran. MethodsX 2018, 5, 871–880. [CrossRef] [PubMed]
+47. Mozia, S.; Janus, M.; Bering, S.; Tarnowski, K.; Mazur, J.; Szyma ´ nski, K.; Morawski, A.W. Hybrid System Coupling Moving Bed
+Bioreactor with UV/O3 Oxidation and Membrane Separation Units for Treatment of Industrial Laundry Wastewater.Materials
+2020, 13, 2648. [CrossRef] [PubMed]
+48. Klimonda, A.; Kowalska, I. From Environmental Threat to Control: A Review of Technologies for Removal of Quaternary
+Ammonium Compounds from Wastewater. Membranes 2025, 16, 1. [CrossRef] [PubMed]
+49. Arora, J.; Ranjan, A.; Chauhan, A.; Biswas, R.; Rajput, V .D.; Sushkova, S.; Mandzhieva, S.; Minkina, T.; Jindal, T. Surfactant
+Pollution, an Emerging Threat to Ecosystem: Approaches for Effective Bacterial Degradation. J. Appl. Microbiol. 2022, 133,
+1229–1244. [CrossRef] [PubMed]
+50. Khery, Y.; Daniar, S.E.; Mat Nawi, N.I.; Bilad, M.R.; Wibisono, Y.; Nufida, B.A.; Ahmadi, A.; Jaafar, J.; Huda, N.; Kobun, R. Ultra-
+Low-Pressure Membrane Filtration for Simultaneous Recovery of Detergent and Water from Laundry Wastewater.Membranes
+2022, 12, 591. [CrossRef] [PubMed]
+51. Sheikhi, M.; Bianco, C.; Tiraferri, A.; Sethi, R. Evaluating Microfiber Emissions and Point-of-Use Filtration Efficiency in Household
+Washing and Drying Cycles. J. Hazard. Mater. 2025, 489, 137646. [CrossRef] [PubMed]
+52. Lacalamita, D.; Mongioví, C.; Crini, G. Chemical Oxygen Demand and Biochemical Oxygen Demand Analysis of Discharge
+Waters from Laundry Industry: Monitoring, Temporal Variability, and Biodegradability.Front. Environ. Sci. 2024, 12, 1387041.
+[CrossRef]
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 20 ---\nMembranes 2026, 16, 238 20 of 24
+53. Tchobanoglous, G.; Stensel, H.D.; Tsuchihashi, R.; Burton, F.; Abu-Orf, M.; Bowden, G.; Pfrang, W. Wastewater Engineering:
+Treatment and Resource Recovery; McGraw-Hill Education: New York, NY, USA, 2014.
+54. Li, F.; Wichmann, K.; Otterpohl, R. Review of the Technological Approaches for Grey Water Treatment and Reuses. Sci. Total
+Environ. 2009, 407, 3439–3449. [CrossRef] [PubMed]
+55. Crini, G.; Lacalamita, D.; Lichtfouse, E.; Morin-Crini, N.; Liu, C.; Wilson, L.D.; Picos-Corrales, L.A.; Akhere, M.A.; Sotiropoulou,
+M.; Bradu, C.; et al. Characterization and Treatment of Industrial Laundry Wastewaters: A Review. Environ. Chem. Lett. 2024, 22,
+2257–2292. [CrossRef]
+56. Ahn, J.-H.; Oh, H.; Oh, D. Investigation of Microplastics Behavior and Properties in Public Sewage Treatment Plant and
+Pre-Treatment with Microbubbles. J. Korea Acad.-Ind. Coop. Soc. 2023, 24, 755–761. [CrossRef]
+57. Joe Jung, H.; Wook Lee, J.; Heui Kwak, D. Evaluation of Initial Collision-Attachment Coefficient and Flotation Characteristics
+Using Population Balance in Microbubble Flotation Process for Microplastics Separation. J. Korean Soc. Water Environ. 2021, 37,
+10–19. [CrossRef]
+58. Ahn, J.-H.; Oh, H.-C.; Kim, S.-K. Microplastics Behavior and Pre-Treatment in Public Wastewater Treatment Process. In
+Proceedings of the Korea Academia-Industrial Cooperation Society Spring Conference, Jeju-si, Republic of Korea, 25–27 May
+2023; pp. 94–97.
+59. Park, K.-H.; Kwon, Y.-D. A Study on the Characteristics of Process for the Sewage Treatment in Korea.J. Korean Soc. Environ. Anal.
+2012, 15, 9–14. [CrossRef]
+60. Rajala, R.L.; Pulkkanen, M.; Pessi, M.; Heinonen-Tanski, H. Removal of Microbes from Municipal Wastewater Effluent by Rapid
+Sand Filtration and Subsequent UV Irradiation. Water Sci. Technol. 2003, 47, 157–162. [CrossRef] [PubMed]
+61. Cetinkaya Atesci, Z.; Inan, H. Removal of Microfiber and Surfactants from Household Laundry Washing Effluents by Powdered
+Activated Carbon: Kinetics and Isotherm Studies. Water Sci. Technol. 2023, 88, 1578–1593. [CrossRef] [PubMed]
+62. Sturm, M.T.; Myers, E.; Schober, D.; Thege, C.; Korzin, A.; Schuhen, K. Adaptable Process Design as a Key for Sustainability
+Upgrades in Wastewater Treatment: Comparative Study on the Removal of Micropollutants by Advanced Oxidation and Granular
+Activated Carbon Processing at a German Municipal Wastewater Treatment Plant.Sustainability 2022, 14, 11605. [CrossRef]
+63. Acarer, S. A Review of Microplastic Removal from Water and Wastewater by Membrane Technologies.Water Sci. Technol. 2023, 88,
+199–219. [CrossRef] [PubMed]
+64. Sharma, A.; Kumari, S.; Chopade, R.L.; Pandit, P .P .; Rai, A.R.; Nagar, V .; Awasthi, G.; Singh, A.; Awasthi, K.K.; Sankhla, M.S. An
+Assessment of the Impact of Structure and Type of Microplastics on Ultrafiltration Technology for Microplastic Remediation.Sci.
+Prog. 2023, 106, 00368504231176399. [CrossRef] [PubMed]
+65. Šostar-Turk, S.; Petrini´ c, I.; Simoniˇ c, M. Laundry Wastewater Treatment Using Coagulation and Membrane Filtration.Resour.
+Conserv. Recycl. 2005, 44, 185–196. [CrossRef]
+66. Kim, S.; Park, C. Potential of Ceramic Ultrafiltration Membranes for the Treatment of Anionic Surfactants in Laundry Wastewater
+for Greywater Reuse. J. Water Process Eng. 2021, 44, 102373. [CrossRef]
+67. Luu, T.T.; Truong, D.Q.; Nguyen, V .N.; Jeong, S.; Nguyen, T.T.T.; Do, V .M.; Vigneswaran, S.; Nguyen, T.V . Removal of Microplastics
+from Laundry Wastewater Using Coagulation and Membrane Combination: A Laboratory-Scale Study. Membranes 2025, 15, 47.
+[CrossRef] [PubMed]
+68. Luogo, B.D.P .; Salim, T.; Zhang, W.; Hartmann, N.B.; Malpei, F.; Candelario, V .M. Reuse of Water in Laundry Applications with
+Micro- and Ultrafiltration Ceramic Membrane. Membranes 2022, 12, 223. [CrossRef] [PubMed]
+69. Devaisy, S.; Kandasamy, J.; Nguyen, T.V .; Ratnaweera, H.; Vigneswaran, S. Membranes in Water Reclamation: Treatment, Reuse
+and Concentrate Management. Membranes 2023, 13, 605. [CrossRef] [PubMed]
+70. Cecconet, D.; Callegari, A.; Hlavínek, P .; Capodaglio, A.G. Membrane Bioreactors for Sustainable, Fit-for-Purpose Greywater
+Treatment: A Critical Review. Clean Technol. Environ. Policy 2019, 21, 745–762. [CrossRef]
+71. French Republic. LOI N◦ 2020-105 Du 10 Février 2020 Relative à La Lutte Contre Le Gaspillage et à L’économie Circulaire; JORF: Paris,
+France, 2020.
+72. California State Legislature. Assembly Bill No. 1628: Microfiber Filtration; California State Legislature: Sacramento, CA, USA, 2023.
+73. Oregon Legislative. Assembly Senate Bill 526: Relating to Microfibers; Oregon Legislative: Salem, OR, USA, 2025.
+74. The Pew Charitable Trusts. EU Should Seize Opportunity to Curb Microplastic Pollution from Apparel. Available on-
+line: https://www.pew.org/en/research-and-analysis/articles/2025/12/19/eu-should-seize-opportunity-to-curb-microplastic-
+pollution-from-apparel (accessed on 5 July 2026).
+75. UK Parliament. Microplastic Filters (Washing Machines) Bill; UK Parliament: London, UK, 2024.
+76. Department of Agriculture, Water and the Environment. National Plastics Plan 2021; Department of Agriculture, Water and the
+Environment: Canberra, ACT, Australia, 2021.
+77. Legislative Assembly of Ontario. Bill 279, Environmental Protection Amendment Act (Microplastics Filters for Washing Machines),
+2021; Legislative Assembly of Ontario: Toronto, ON, Canada, 2021.
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 21 ---\nMembranes 2026, 16, 238 21 of 24
+78. National Assembly of the Republic of Korea. Special Act on the Reduction and Management of Microplastics (Bill No. 2203652) ;
+National Assembly of the Republic of Korea: Seoul, Republic of Korea, 2024.
+79. Choi, J.; Lee, J.; Yun, H.; Kim, S.; Wiesner, M.; Park, C. Micro- and Nanoplastics in Laundry Wastewater: Capture, Recovery, and
+Upcycling toward Circular Valorization. Chem. Eng. J. 2026, 530, 173633. [CrossRef]
+80. Vincent Stanley. Toward an End to Microfiber Pollution. Available online: https://www.patagonia.co.kr/stories/view/255
+(accessed on 9 June 2026).
+81. LG Electronics. Collaboration Between LG Electronics and Patagonia to Protect Fabrics and Reduce Microplastic Pollution.
+Available online: https://www.lge.co.kr/story/life/thinq-discover-clothing-030 (accessed on 9 June 2026).
+82. Electrolux. AB Microplastics Filter. Available online: https://www.electrolux.com.my/microplastics-filter/ (accessed on 5 July
+2026).
+83. Napper, I.E.; Barrett, A.C.; Thompson, R.C. The Efficiency of Devices Intended to Reduce Microfibre Release during Clothes
+Washing. Sci. Total Environ. 2020, 738, 140412. [CrossRef] [PubMed]
+84. Erdle, L.M.; Nouri Parto, D.; Sweetnam, D.; Rochman, C.M. Washing Machine Filters Reduce Microfiber Emissions: Evidence
+from a Community-Scale Pilot in Parry Sound, Ontario. Front. Mar. Sci. 2021, 8, 777865. [CrossRef]
+85. Filtrol FAQ’s & Resources. Available online: https://www.filtrol.net/faq (accessed on 5 July 2026).
+86. Environmental Enhancements Inc. LUV-R Washing Machine Microplastics Filter. Available online: https://environmentalenhan-
+cements.com/washing-machine-microplastics-filter-luv-r/ (accessed on 5 July 2026).
+87. CleanR. CleanR Filter. Available online: https://cleanr.life/cleanrfilter/ (accessed on 5 July 2026).
+88. PlanetCare. PlanetCare 2.0 Starter Kit. Available online: https://planetcare.org/products/planetcare-2-0-starter-kit (accessed on
+5 July 2026).
+89. Samsung Electronics. Samsung Launches Less Microfiber Filter to Protect Oceans from Laundry Plastics. Available online:
+https://news.samsung.com/global/samsung-launches-less-microfiber-filter-to-protect-oceans-from-laundry-plastics (accessed
+on 5 July 2026).
+90. Xeros Technology Group. XF3 Microfibre Filter. Available online: https://xerostech.com/product/draft-xf3/ (accessed on 5 July
+2026).
+91. Kim, S.; Park, C. Fouling Behavior and Cleaning Strategies of Ceramic Ultrafiltration Membranes for the Treatment and Reuse of
+Laundry Wastewater. J. Water Process Eng. 2022, 48, 102840. [CrossRef]
+92. Belzagui, F.; Gutiérrez-Bouzán, C.; Carrillo-Navarrete, F.; López-Grimau, V . Sustainable Filtering Systems to Reduce Microfiber
+Emissions from Textiles during Household Laundering. Polymers 2023, 15, 3023. [CrossRef] [PubMed]
+93. Hamann, L.; Reuß, C.; Herzog, H.; Schreiber, K.; Geitner, C.; Blanke, A. A Self-Cleaning, Bio-Inspired High Retention Filter for a
+Major Entry Path of Microplastics. npj Emerg. Contam. 2025, 1, 18. [CrossRef]
+94. Masselter, T.; Schaumann, U.; Kampowski, T.; Ulrich, K.; Thielen, M.; Bold, G.; Speck, T. Improvement of a Microfiber Filter for
+Domestic Washing Machines. Bioinspir. Biomim. 2023, 18, 016017. [CrossRef] [PubMed]
+95. Sheraz, M.; Han, S.; Lee, K.E.; Yanilmaz, M.; Kwon, M.; Kim, J.; Sim, J.; Kim, J. Innovative Tarantula Hair-Inspired Washing
+Machine Filters for Enhanced Microfiber Capture. Sci. Total Environ. 2024, 926, 171807. [CrossRef] [PubMed]
+96. Abourich, M.; Bellamy, A.; Ajji, A.; Claveau-Mallet, D. Washing Machine Filters to Mitigate Microplastics Release: Citizen Science
+Study to Estimate Microfibers Capture Potential and Assess Their Social Acceptability.Environ. Chall. 2024, 16, 100984. [CrossRef]
+97. Šaravanja, A.; Puši´ c, T.; Dekani´ c, T. Microplastics in Wastewater by Washing Polyester Fabrics.Materials 2022, 15, 2683. [CrossRef]
+[PubMed]
+98. Goh, P .S.; Othman, M.H.D.; Matsuura, T. Waste Reutilization in Polymeric Membrane Fabrication: A New Direction in Membranes
+for Separation. Membranes 2021, 11, 782. [CrossRef] [PubMed]
+99. Esfahani, M.R.; Weinman, S.T. Membranes from Upcycled Waste Plastics: Current Status, Challenges, and Future Outlook.Curr.
+Opin. Chem. Eng. 2025, 48, 101106. [CrossRef]
+100. Tai, S.L.; Abidin, M.N.Z.; Ma’amor, A.; Hashim, N.A.; Hashim, M.L.H. Polyethylene Terephthalate Membrane: A Review of
+Fabrication Techniques, Separation Processes, and Modifications. Sep. Purif. Technol. 2025, 354, 129343. [CrossRef]
+101. Stevens, M.P . Polymer Chemistry: An Introduction; Advanced Book Program; Oxford University Press: Oxford, UK, 1990.
+102. Balu, R.; Dutta, N.K.; Roy Choudhury, N. Plastic Waste Upcycling: A Sustainable Solution for Waste Management, Product
+Development, and Circular Economy. Polymers 2022, 14, 4788. [CrossRef] [PubMed]
+103. Dalla Fontana, G.; Mossotti, R.; Montarsolo, A. Assessment of Microplastics Release from Polyester Fabrics: The Impact of
+Different Washing Conditions. Environ. Pollut. 2020, 264, 113960. [CrossRef] [PubMed]
+104. Guillen, G.R.; Pan, Y.; Li, M.; Hoek, E.M.V . Preparation and Characterization of Membranes Formed by Nonsolvent Induced
+Phase Separation: A Review. Ind. Eng. Chem. Res. 2011, 50, 3798–3817. [CrossRef]
+105. Dong, X.; Lu, D.; Harris, T.A.L.; Escobar, I.C. Polymers and Solvents Used in Membrane Fabrication: A Review Focusing on
+Sustainable Membrane Development. Membranes 2021, 11, 309. [CrossRef] [PubMed]
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 22 ---\nMembranes 2026, 16, 238 22 of 24
+106. Hussain, S.; Wadgama, M.H.; Khan, A.L.; Yasin, M.; Akhtar, F.H. Upcycling Poly(Ethylene Terephthalate) by Fabricating
+Membranes for Desalination. ACS Sustain. Chem. Eng. 2023, 11, 726–732. [CrossRef]
+107. Razzaq, A.U.; Esfahani, M.R. Upcycled PVC Support Layer from Waste PVC Pipe for Thin Film Composite Nanofiltration
+Membranes. Sep. Purif. Technol. 2024, 340, 126747. [CrossRef]
+108. Xu, G.R.; An, X.C.; Das, R.; Xu, K.; Xing, Y.L.; Hu, Y.X. Application of Electrospun Nanofibrous Amphiphobic Membrane Using
+Low-Cost Poly (Ethylene Terephthalate) for Robust Membrane Distillation. J. Water Process Eng. 2020, 36, 101351. [CrossRef]
+109. Ali, B.T.I.; Kusumawati, Y.; Jaafar, J.; Sulistiono, D.O.; Widiastuti, N. Low-Cost Membrane from Polyethylene Terephthalate Bottle
+Waste for Water Purification and Chromium Removal: Modification and Application.RSC Adv. 2023, 13, 8985–8995. [CrossRef]
+[PubMed]
+110. Pongmuksuwan, P .; Kitisatorn, W. Recycled Poly(Ethylene Terephthalate) for Membrane Material in Membrane Bioreactor.Mater.
+Today Proc. 2023, 77, 1154–1159. [CrossRef]
+111. Aji, M.M.; Narendren, S.; Purkait, M.K.; Katiyar, V . Biopolymer (Gum Arabic) Incorporation in Waste Polyvinylchloride Membrane
+for the Enhancement of Hydrophilicity and Natural Organic Matter Removal in Water. J. Water Process Eng. 2020, 38, 101569.
+[CrossRef]
+112. Adamczak, M.; Kami ´ nska, G.; Bohdziewicz, J. Application of Waste Polymers as Basic Material for Ultrafiltration Membranes
+Preparation. Water 2020, 12, 179. [CrossRef]
+113. Dong, Y.; Yang, X.; Li, H.; Xia, Z.; Yang, J. The Fabrication of Porous Al2O3 Ceramics with Ultra-High Mechanical Strength and
+Oil Conductivity via Reaction Bonding and the Addition of Pore-Forming Agents. Materials 2025, 18, 3574. [CrossRef] [PubMed]
+114. Konegger, T.; Williams, L.F.; Bordia, R.K. Planar, Polysilazane-Derived Porous Ceramic Supports for Membrane and Catalysis
+Applications. J. Am. Ceram. Soc. 2015, 98, 3047–3053. [CrossRef] [PubMed]
+115. Tian, C.; Wu, J.M.; Wu, Y.R.; Liu, C.L.; Lin, X.; Shi, Y.S. Effect of Polystyrene Addition on Properties of Porous Si3N4 Ceramics
+Fabricated by Digital Light Processing. Ceram. Int. 2023, 49, 27040–27049. [CrossRef]
+116. Zhang, Z.; Gu, Q.; Ng, T.C.A.; Zhang, J.; Zhang, X.; Zhang, L.; Zhang, X.; Wang, H.; Ng, H.Y.; Wang, J. Hierarchically Porous
+Interlayer for Highly Permeable and Fouling-Resistant Ceramic Membranes in Water Treatment.Sep. Purif. Technol. 2022, 293,
+121092. [CrossRef]
+117. Du, J.; Ai, D.; Xiao, X.; Song, J.; Li, Y.; Chen, Y.; Wang, L.; Zhu, K. Rational Design and Porosity of Porous Alumina Ceramic
+Membrane for Air Bearing. Membranes 2021, 11, 872. [CrossRef] [PubMed]
+118. Pasternak, G.; Ormeno-Cano, N.; Rutkowski, P . Recycled Waste Polypropylene Composite Ceramic Membranes for Extended
+Lifetime of Microbial Fuel Cells. Chem. Eng. J. 2021, 425, 130707. [CrossRef]
+119. Soto, J.M.; Martín-Lara, M.A.; Blázquez, G.; Godoy, V .; Quesada, L.; Calero, M. Novel Pre-Treatment of Dirty Post-Consumer
+Polyethylene Film for Its Mechanical Recycling. Process Saf. Environ. Prot. 2020, 139, 315–324. [CrossRef]
+120. Nikiema, J.; Asiedu, Z. A Review of the Cost and Effectiveness of Solutions to Address Plastic Pollution. Environ. Sci. Pollut. Res.
+2022, 29, 24547–24573. [CrossRef] [PubMed]
+121. Titone, V .; Gulino, E.F.; La Mantia, F.P . Recycling of Heterogeneous Mixed Waste Polymers Through Reactive Mixing.Polymers
+2023, 15, 1367. [CrossRef] [PubMed]
+122. Wang, H.; Zhang, Y.; Wang, C. Surface Modification and Selective Flotation of Waste Plastics for Effective Recycling—A Review.
+Sep. Purif. Technol. 2019, 226, 75–94. [CrossRef]
+123. Jiang, X.; Bateer, B. A Systematic Review of Plastic Recycling: Technology, Environmental Impact and Economic Evaluation.
+Waste Manag. Res. J. Sustain. Circ. Econ. 2025, 43, 1159–1178. [CrossRef] [PubMed]
+124. Rasheed, A.; Sikarwar, D.; Das, S. Life Cycle and Techno-Economic Assessment of Microplastics Remediation Technologies and
+Policies. In Microplastics in the Environment; Wiley: Hoboken, NJ, USA, 2025; pp. 599–610.
+125. Bockmühl, D.P .; Schages, J.; Rehberg, L. Laundry and textile hygiene in healthcare and beyond.Microb. Cell 2019, 6, 299–306.
+[CrossRef] [PubMed]
+126. Callewaert, C.; Van Nevel, S.; Kerckhof, F.-M.; Granitsiotis, M.S.; Boon, N. Bacterial exchange in household washing machines.
+Front. Microbiol. 2015, 6, 1381. [CrossRef] [PubMed]
+127. Whitehead, K.; Eppinger, J.; Srinivasan, V .; Ugalde, J.A. Microbial cross contamination in household laundering and microbial
+ecology of household washing machines. Front. Microbiol. 2025, 16, 1667606. [CrossRef] [PubMed]
+128. Abney, S.E.; Ijaz, M.K.; McKinney, J.; Gerba, C.P . Laundry hygiene and odor control: State of the science.Appl. Environ. Microbiol.
+2021, 87, e03002–e03020. [CrossRef] [PubMed]
+129. Honisch, M.; Stamminger, R.; Bockmühl, D.P . Impact of wash cycle time, temperature and detergent formulation on the hygiene
+effectiveness of domestic laundering. J. Appl. Microbiol. 2014, 117, 1787–1797. [CrossRef] [PubMed]
+130. Ambreetha, S.; Zincke, D.; Balachandar, D.; Mathee, K. Genomic and metabolic versatility of Pseudomonas aeruginosa contributes
+to its inter-kingdom transmission and survival. J. Med. Microbiol. 2024, 73, 001791. [CrossRef] [PubMed]
+131. Kranjec, C.; Morales Angeles, D.; Torrissen Mårli, M.; Fernández, L.; García, P .; Kjos, M.; Diep, D.B. Staphylococcal biofilms:
+Challenges and novel therapeutic perspectives. Antibiotics 2021, 10, 131. [CrossRef] [PubMed]
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 23 ---\nMembranes 2026, 16, 238 23 of 24
+132. Mahapatra, A.; Padhi, N.; Mahapatra, D.; Bhatt, M.; Sahoo, D.; Jena, S.; Dash, D.; Chayani, N. Study of biofilm in bacteria from
+water pipelines. J. Clin. Diagn. Res. 2015, 9, DC9–DC11. [CrossRef] [PubMed]
+133. Silva, V .; Pereira, J.E.; Maltez, L.; Poeta, P .; Igrejas, G. Influence of environmental factors on biofilm formation of Staphylococci
+isolated from wastewater and surface water. Pathogens 2022, 11, 1069. [CrossRef] [PubMed]
+134. Jacksch, S.; Kaiser, D.; Weis, S.; Weide, M.; Ratering, S.; Schnell, S.; Egert, M. Influence of sampling site and other environmental
+factors on the bacterial community composition of domestic washing machines. Microorganisms 2020, 8, 30. [CrossRef] [PubMed]
+135. Babiˇ c, M.N.; Zalar, P .; Ženko, B.; Schroers, H.J.; Džeroski, S.; Gunde-Cimerman, N.Candida and Fusarium species known as
+opportunistic human pathogens from customer-accessible parts of residential washing machines. Fungal Biol. 2015, 119, 95–113.
+[CrossRef] [PubMed]
+136. Chen, T.; Zhang, S.; Yang, J.; Li, Y.; Kogure, E.; Zhu, Y.; Xiong, W.; Chen, E.; Shi, G. Metabarcoding analysis of microorganisms
+inside household washing machines in Shanghai, China. Microorganisms 2024, 12, 160. [CrossRef] [PubMed]
+137. Whitehead, K.; Eppinger, J.; Srinivasan, V .; Ijaz, M.K.; Nims, R.W.; McKinney, J. Potential for microbial cross contamination of
+laundry from public washing machines. Microbiol. Res. 2022, 13, 995–1006. [CrossRef]
+138. Schmithausen, R.M.; Sib, E.; Exner, M.; Hack, S.; Rösing, C.; Ciorba, P .; Bierbaum, G.; Savin, M.; Bloomfield, S.F.; Kaase, M.; et al.
+The washing machine as a reservoir for transmission of extended-spectrum-beta-lactamase (CTX-M-15)-producing Klebsiella
+oxytoca ST201 to newborns. Appl. Environ. Microbiol. 2019, 85, e01435. [CrossRef] [PubMed]
+139. Jacksch, S.; Zohra, H.; Weide, M.; Schnell, S.; Egert, M. Cultivation-based quantification and identification of bacteria at two
+hygienic key sides of domestic washing machines. Microorganisms 2021, 9, 905. [CrossRef] [PubMed]
+140. Nix, I.D.; Frontzek, A.; Bockmühl, D.P . Characterization of microbial communities in household washing machines. Tenside
+Surfactants Deterg. 2015, 52, 432–440. [CrossRef]
+141. Stapleton, K.; Hill, K.; Day, K.; Perry, J.D.; Dean, J.R. The potential impact of washing machines on laundry malodour generation.
+Lett. Appl. Microbiol. 2013, 56, 299–306. [CrossRef] [PubMed]
+142. Gattlen, J.; Amberg, C.; Zinn, M.; Mauclaire, L. Biofilms isolated from washing machines from three continents and their tolerance
+to a standard detergent. Biofouling 2010, 26, 873–882. [CrossRef] [PubMed]
+143. Rummel, C.D.; Jahnke, A.; Gorokhova, E.; Kühnel, D.; Schmitt-Jansen, M. Impacts of biofilm formation on the fate and potential
+effects of microplastic in the aquatic environment. Environ. Sci. Technol. Lett. 2017, 4, 258–267. [CrossRef]
+144. Zettler, E.R.; Mincer, T.J.; Amaral-Zettler, L.A. Life in the “plastisphere”: Microbial communities on plastic marine debris.Environ.
+Sci. Technol. 2013, 47, 7137–7146. [CrossRef] [PubMed]
+145. Donlan, R. Biofilms: Microbial life on surfaces. Emerg. Infect. Dis. 2002, 8, 881–890. [CrossRef] [PubMed]
+146. Kandasamy, J.; Vigneswaran, S.; Hoang, T.; Chaudhary, D. Adsorption and Biological Filtration in Wastewater Treatment; EOLSS
+Publications: Oxford, UK, 2009; Volume 1, pp. 173–204.
+147. Park, B.; Yoon, H.-J.; Park, H. Development and efficiency evaluation of microplastic removal filter for laundry machines. Water
+2025, 17, 358. [CrossRef]
+148. McCormick, A.; Hoellein, T.J.; Mason, S.A.; Schluep, J.; Kelly, J.J. Microplastic is an abundant and distinct microbial habitat in an
+urban river. Environ. Sci. Technol. 2014, 48, 11863–11871. [CrossRef] [PubMed]
+149. Joo, S.H.; Knauer, K.; Su, C.; Toborek, M. Antibiotic resistance in plastisphere.J. Environ. Chem. Eng. 2025, 13, 115217. [CrossRef]
+[PubMed]
+150. Zhang, X.; Dong, Z.; Zhang, S.; Ma, J.; Liu, S. Microplastic biofilm as hotspots of antibiotic resistance genes and potential
+pathogens. npj Biofilms Microbiomes 2025, 12, 24. [CrossRef] [PubMed]
+151. He, S.; Jia, M.; Xiang, Y.; Song, B.; Xiong, W.; Cao, J.; Peng, H.; Yang, Y.; Wang, W.; Yang, Z.; et al. Biofilm on microplastics in
+aqueous environment: Physicochemical properties and environmental implications. J. Hazard. Mater. 2022, 424, 127286. [CrossRef]
+[PubMed]
+152. Oberbeckmann, S.; Löder, M.G.; Labrenz, M. Marine microplastic-associated biofilms—A review. Environ. Chem. 2015, 12, 551–562.
+[CrossRef]
+153. Hube, S.; Veronelli, S.; Li, T.; Burkhardt, M.; Brynjólfsson, S.; Wu, B. Microplastics affect membrane biofouling and microbial
+communities during gravity-driven membrane filtration of primary wastewater. Chemosphere 2024, 353, 141650. [CrossRef]
+[PubMed]
+154. Gill, S.P .; Hunter, W.R.; Coulson, L.E.; Banat, I.M.; Schelker, J. Synthetic and biological surfactant effects on freshwater biofilm
+community composition and metabolic activity. Appl. Microbiol. Biotechnol. 2022, 106, 6847–6859. [CrossRef] [PubMed]
+155. Ueda, Y.; Mashima, K.; Miyazaki, M.; Hara, S.; Takata, T.; Kamimura, H.; Takagi, S.; Jimi, S. Inhibitory effects of polysorbate 80 on
+MRSA biofilm formed on different substrates including dermal tissue. Sci. Rep. 2019, 9, 3128. [CrossRef] [PubMed]
+156. Mafirad, S.; Mehrnia, M.R.; Azami, H.; Sarrafzadeh, M.H. Effects of biofilm formation on membrane performance in submerged
+membrane bioreactors. Biofouling 2011, 27, 477–485. [CrossRef] [PubMed]
+157. Samari-Kermani, M.; de Vries, E.T.; Schijven, J.F.; Raoof, A. A closer look at the role of biofilms in water filtration: Bridging
+microscopic insights with system performance. J. Water Process Eng. 2024, 67, 106104. [CrossRef]
+https://doi.org/10.3390/membranes16070238\n\n--- PAGE 24 ---\nMembranes 2026, 16, 238 24 of 24
+158. Nguyen, T.; Roddick, F.A.; Fan, L. Biofouling of water treatment membranes: A review of the underlying causes, monitoring
+techniques and control measures. Membranes 2012, 2, 804–840. [CrossRef] [PubMed]
+159. Kubota, H.; Mitani, A.; Niwano, Y.; Takeuchi, K.; Tanaka, A.; Yamaguchi, N.; Kawamura, Y.; Hitomi, J. Moraxella species are
+primarily responsible for generating malodor in laundry. Appl. Environ. Microbiol. 2012, 78, 3317–3324. [CrossRef] [PubMed]
+160. Osta-Ustarroz, P .; Theobald, A.J.; Whitehead, K.A. Microbial colonization, biofilm formation, and malodour of washing machine
+surfaces and fabrics and the evolution of detergents in response to consumer demands and environmental concerns. Antibiotics
+2024, 13, 1227. [CrossRef] [PubMed]
+161. Horn-Lodewyk, J.; Wainwright, T.; Lessing, K.C.; Otto, D.; Fourie, J.H. Optimal home and hospital laundering of reusable surgical
+scrubs: Systematic literature review. Health SA Gesondheid 2023, 28, 2097. [CrossRef] [PubMed]
+162. Michaelis, C.; Grohmann, E. Horizontal gene transfer of antibiotic resistance genes in biofilms. Antibiotics 2023, 12, 328. [CrossRef]
+[PubMed]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+https://doi.org/10.3390/membranes16070238

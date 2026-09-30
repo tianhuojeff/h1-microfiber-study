@@ -1,0 +1,327 @@
+{
+  "schema": "H1 R1 official-status fact register v1",
+  "verified_at": "2026-09-29",
+  "scope": "14 directed-family technical samples. This register records public-source access facts only; it makes no legal conclusion.",
+  "rule": "A/B/U suffixes and Google status labels are not proof of legal validity. Every unverified status remains unknown.",
+  "official_access": {
+    "CNIPA_PSS": {
+      "url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "checked_at": "2026-09-29",
+      "result": "HTTP 412 Precondition Failed from this non-login request",
+      "supports": "Official CNIPA entry point identified; direct automated access was rejected.",
+      "does_not_support": "Any CN grant, maintenance, lapse or validity finding."
+    },
+    "CNIPA_CPQuery": {
+      "url": "https://cpquery.cponline.cnipa.gov.cn/chinesepatent/index",
+      "checked_at": "2026-09-29",
+      "result": "HTTP 412 Precondition Failed from this non-login request. CNIPA official system guide states unified identity authentication is required.",
+      "supports": "Official case-query entry identified; access requires login and the direct request was rejected.",
+      "does_not_support": "Any individual current legal-status or fee finding."
+    },
+    "EPO_Register": {
+      "url": "https://register.epo.org/smartSearch?searchMode=smart&query=ap%3DEP20198101.6",
+      "checked_at": "2026-09-29",
+      "result": "Corrected 2026-09-29: EP3832001 is a publication number, not the application-number parameter. The first URL was an invalid-record attempt and is superseded. The correct known application is EP20198101.6; direct smart-search request returned HTTP 403 in this environment.",
+      "supports": "Official EPO Register entry point identified; direct automated access was rejected.",
+      "does_not_support": "Any EPO-wide present legal-status finding. A separate Netherlands official-bulletin event is recorded in the second-round addendum."
+    },
+    "WIPO_PATENTSCOPE": {
+      "url_template": "https://patentscope.wipo.int/search/en/detail.jsf?docId={publication}",
+      "checked_at": "2026-09-29",
+      "result": "HTTP 200 returned a CAPTCHA page (not a bibliographic/legal record) for sampled WO publications",
+      "supports": "Official PATENTSCOPE entry route and an access-control record.",
+      "does_not_support": "PCT national-phase or present national legal status."
+    }
+  },
+  "records": [
+    {
+      "sample": "CN112914464A",
+      "jurisdiction": "CN",
+      "application_no": "CN202011417030.4A",
+      "publication_no": "CN112914464A",
+      "grant_no": null,
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA PSS request rejected HTTP 412; individual record not read.",
+      "status_as_of": "unknown",
+      "supports": "Only official-entry availability/obstacle.",
+      "does_not_support": "Whether the CN application is granted, pending, withdrawn, lapsed or effective.",
+      "gap": "Read official CNIPA record and any grant/maintenance event; EP3832001B1 is an external related-document lead, not verified as this CN record's legal status.",
+      "related_text": "Google lead (non-status evidence) links EP3832001A1/B1; official EPO lookup blocked."
+    },
+    {
+      "sample": "CN115087774A",
+      "jurisdiction": "CN",
+      "application_no": "CN202080095888.5A",
+      "publication_no": "CN115087774A",
+      "grant_no": null,
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA authoritative document confirms the A publication row; individual current legal-status record remains unread (PSS HTTP 412).",
+      "status_as_of": "unknown",
+      "supports": "A publication-version and publication-date fact only.",
+      "does_not_support": "Current validity, maintenance, lapse, withdrawal, or pending status.",
+      "gap": "Read CNIPA record and corresponding WO/EP/GB national entries; confirm any grant and current maintenance separately.",
+      "related_text": "WO2021116933A1 and GB2576859B are non-official discovery leads only; not used to infer CN status.",
+      "official_version_source": {
+        "authority": "CNIPA authoritative document through 2026-06-30",
+        "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+        "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+        "records": [
+          "CN,115087774,A,20220920"
+        ],
+        "checked_at": "2026-09-29"
+      }
+    },
+    {
+      "sample": "CN115298383A",
+      "jurisdiction": "CN",
+      "application_no": "CN202180023137.7A",
+      "publication_no": "CN115298383A",
+      "grant_no": null,
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA authoritative document confirms the A publication row; individual current legal-status record remains unread (PSS HTTP 412).",
+      "status_as_of": "unknown",
+      "supports": "A publication-version and publication-date fact only.",
+      "does_not_support": "Current validity, maintenance, lapse, withdrawal, or pending status.",
+      "gap": "Official CNIPA bibliographic and legal-event record.",
+      "official_version_source": {
+        "authority": "CNIPA authoritative document through 2026-06-30",
+        "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+        "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+        "records": [
+          "CN,115298383,A,20221104"
+        ],
+        "checked_at": "2026-09-29"
+      }
+    },
+    {
+      "sample": "CN115637570A",
+      "jurisdiction": "CN",
+      "application_no": "202110818324.6",
+      "publication_no": "CN115637570A",
+      "grant_no": "CN115637570B",
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA archive A/B rows reread; publication PDF page 1 establishes application number 202110818324.6. Current single unauthenticated CPQuery entry request returned HTTP 412 at 2026-09-29T21:11:30+08:00; no individual legal-status or fee record was read.",
+      "status_as_of": "unknown",
+      "supports": "A/B publication-version and publication-date facts only.",
+      "does_not_support": "Current validity, maintenance, lapse, withdrawal, or pending status.",
+      "gap": "Read individual CNIPA register/legal-status and maintenance history as of the analysis date.",
+      "related_text": "Google page was used only to locate the claimed B-version lead; no Google status label was adopted.",
+      "official_version_source": {
+        "authority": "CNIPA authoritative document through 2026-06-30",
+        "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+        "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+        "records": [
+          "CN,115637570,A,20230124",
+          "CN,115637570,B,20260217"
+        ],
+        "checked_at": "2026-09-29"
+      },
+      "application_no_previous_aggregator_identifier": "CN202110818324.6A",
+      "application_number_evidence": {
+        "source_type": "CNIPA-issued application-publication PDF mirrored by Google Patents, not a current official register",
+        "source_url": "https://patentimages.storage.googleapis.com/d1/de/63/bced35d87bb972/CN115637570A.pdf",
+        "pdf_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+        "page": 1,
+        "field": "(21) application number",
+        "title": "一种微纤维过滤器及洗衣机",
+        "applicants_at_publication": [
+          "青岛海尔洗衣机有限公司",
+          "青岛海尔智能技术研发有限公司",
+          "海尔智家股份有限公司"
+        ],
+        "publication_number": "CN115637570A",
+        "publication_date": "2023-01-24",
+        "visual_readback": true,
+        "official_archive_crosscheck": "cn115637570_probe_20260929_2112/official_archive_crosscheck.json"
+      },
+      "latest_access_observation": {
+        "checked_at": "2026-09-29T21:11:30.523795+08:00",
+        "url": "https://cpquery.cponline.cnipa.gov.cn/chinesepatent/index",
+        "method": "single unauthenticated urllib request; no retry",
+        "http_status": 412,
+        "error": "HTTP Error 412: Precondition Failed",
+        "response_bytes": 2470,
+        "response_sha256": "3ca00de25681d34990b81d0bc6826d3403c5da6c9dfb580fc49b95f285bf4868",
+        "case_record_read": false,
+        "browser_session_checked": false,
+        "limitation": "This establishes rejection of this unauthenticated request only; it does not diagnose the current signed-in browser or prove that login fixes it."
+      }
+    },
+    {
+      "sample": "CN115700309A",
+      "jurisdiction": "CN",
+      "application_no": "CN202110828941.4A",
+      "publication_no": "CN115700309A",
+      "grant_no": null,
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA authoritative document confirms the A publication row; individual current legal-status record remains unread (PSS HTTP 412).",
+      "status_as_of": "unknown",
+      "supports": "A publication-version and publication-date fact only.",
+      "does_not_support": "Current validity, maintenance, lapse, withdrawal, or pending status.",
+      "gap": "Official CNIPA bibliographic and legal-event record.",
+      "official_version_source": {
+        "authority": "CNIPA authoritative document through 2026-06-30",
+        "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+        "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+        "records": [
+          "CN,115700309,A,20230207"
+        ],
+        "checked_at": "2026-09-29"
+      }
+    },
+    {
+      "sample": "CN116282270A",
+      "jurisdiction": "CN",
+      "application_no": "CN202310406372.3A",
+      "publication_no": "CN116282270A",
+      "grant_no": "CN116282270B",
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA authoritative document confirms A and B publication rows; individual current legal-status record remains unread (PSS HTTP 412).",
+      "status_as_of": "unknown",
+      "supports": "A/B publication-version and publication-date facts only.",
+      "does_not_support": "Current validity, maintenance, lapse, withdrawal, or pending status.",
+      "gap": "Read individual CNIPA register/legal-status and maintenance history as of the analysis date.",
+      "official_version_source": {
+        "authority": "CNIPA authoritative document through 2026-06-30",
+        "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+        "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+        "records": [
+          "CN,116282270,A,20230623",
+          "CN,116282270,B,20231208"
+        ],
+        "checked_at": "2026-09-29"
+      }
+    },
+    {
+      "sample": "CN117702432A",
+      "jurisdiction": "CN",
+      "application_no": "CN202410040736.5A",
+      "publication_no": "CN117702432A",
+      "grant_no": null,
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA authoritative document confirms the A publication row; individual current legal-status record remains unread (PSS HTTP 412).",
+      "status_as_of": "unknown",
+      "supports": "A publication-version and publication-date fact only.",
+      "does_not_support": "Current validity, maintenance, lapse, withdrawal, or pending status.",
+      "gap": "Official CNIPA bibliographic and legal-event record.",
+      "official_version_source": {
+        "authority": "CNIPA authoritative document through 2026-06-30",
+        "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+        "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+        "records": [
+          "CN,117702432,A,20240315"
+        ],
+        "checked_at": "2026-09-29"
+      }
+    },
+    {
+      "sample": "CN118273060A",
+      "jurisdiction": "CN",
+      "application_no": "CN202211732838.0A",
+      "publication_no": "CN118273060A",
+      "grant_no": null,
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA authoritative document confirms the A publication row; individual current legal-status record remains unread (PSS HTTP 412).",
+      "status_as_of": "unknown",
+      "supports": "A publication-version and publication-date fact only.",
+      "does_not_support": "Current validity, maintenance, lapse, withdrawal, or pending status.",
+      "gap": "Official CNIPA bibliographic and legal-event record.",
+      "official_version_source": {
+        "authority": "CNIPA authoritative document through 2026-06-30",
+        "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+        "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+        "records": [
+          "CN,118273060,A,20240702"
+        ],
+        "checked_at": "2026-09-29"
+      }
+    },
+    {
+      "sample": "CN120500565A",
+      "jurisdiction": "CN",
+      "application_no": null,
+      "publication_no": "CN120500565A",
+      "grant_no": null,
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA authoritative document confirms the A publication row; individual current legal-status record remains unread (PSS HTTP 412).",
+      "status_as_of": "unknown",
+      "supports": "A publication-version and publication-date fact only.",
+      "does_not_support": "Current validity, maintenance, lapse, withdrawal, or pending status.",
+      "gap": "Official CNIPA record first; application number is still unverified.",
+      "official_version_source": {
+        "authority": "CNIPA authoritative document through 2026-06-30",
+        "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+        "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+        "records": [
+          "CN,120500565,A,20250815"
+        ],
+        "checked_at": "2026-09-29"
+      }
+    },
+    {
+      "sample": "CN222043626U",
+      "jurisdiction": "CN",
+      "application_no": "CN202420066261.2U",
+      "publication_no": "CN222043626U",
+      "grant_no": "CN222043626U (utility-model publication kind; no maintenance finding)",
+      "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+      "official_record": "CNIPA PSS request rejected HTTP 412; individual record not read.",
+      "status_as_of": "unknown",
+      "supports": "Only official-entry availability/obstacle.",
+      "does_not_support": "Whether the utility model is presently maintained/effective.",
+      "gap": "Official CNIPA utility-model legal-event and annual-fee/termination information."
+    },
+    {
+      "sample": "WO2022084677A1",
+      "jurisdiction": "WO",
+      "application_no": "PCT/GB2021/052722",
+      "publication_no": "WO2022084677A1",
+      "grant_no": null,
+      "official_url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2022084677A1",
+      "official_record": "HTTP 200 but CAPTCHA page, not the requested record.",
+      "status_as_of": "unknown",
+      "supports": "Only that this official route was checked and gated.",
+      "does_not_support": "International/national-phase legal status or effectiveness.",
+      "gap": "PATENTSCOPE bibliographic record plus selected national-phase official registers."
+    },
+    {
+      "sample": "WO2023047385A1",
+      "jurisdiction": "WO",
+      "application_no": "PCT/IB2022/059184",
+      "publication_no": "WO2023047385A1",
+      "grant_no": null,
+      "official_url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023047385A1",
+      "official_record": "HTTP 200 but CAPTCHA page, not the requested record.",
+      "status_as_of": "unknown",
+      "supports": "Only that this official route was checked and gated.",
+      "does_not_support": "International/national-phase legal status or effectiveness.",
+      "gap": "PATENTSCOPE bibliographic record plus selected national-phase official registers."
+    },
+    {
+      "sample": "WO2024199585A1",
+      "jurisdiction": "WO",
+      "application_no": "PCT/DE2024/100267",
+      "publication_no": "WO2024199585A1",
+      "grant_no": null,
+      "official_url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024199585A1",
+      "official_record": "Official detail route identified; sampled PATENTSCOPE requests returned CAPTCHA rather than record.",
+      "status_as_of": "unknown",
+      "supports": "No present legal fact.",
+      "does_not_support": "International/national-phase legal status or effectiveness.",
+      "gap": "PATENTSCOPE bibliographic record and national-phase official registers."
+    },
+    {
+      "sample": "WO2024250011A1",
+      "jurisdiction": "WO",
+      "application_no": "PCT/US2024/032274",
+      "publication_no": "WO2024250011A1",
+      "grant_no": null,
+      "official_url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024250011A1",
+      "official_record": "Official detail route identified; sampled PATENTSCOPE requests returned CAPTCHA rather than record.",
+      "status_as_of": "unknown",
+      "supports": "No present legal fact.",
+      "does_not_support": "International/national-phase legal status or effectiveness.",
+      "gap": "PATENTSCOPE bibliographic record and national-phase official registers."
+    }
+  ]
+}

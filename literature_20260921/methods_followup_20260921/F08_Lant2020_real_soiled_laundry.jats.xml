@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0233332</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-19-32053</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3">
+<subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Materials</subject><subj-group><subject>Surfactants</subject><subj-group><subject>Detergents</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Materials</subject><subj-group><subject>Fibers</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Polymer chemistry</subject><subj-group><subject>Macromolecules</subject><subj-group><subject>Polymers</subject><subj-group><subject>Polyesters</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Physical sciences</subject><subj-group><subject>Materials science</subject><subj-group><subject>Materials</subject><subj-group><subject>Polymers</subject><subj-group><subject>Polyesters</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Polymer chemistry</subject><subj-group><subject>Polymers</subject><subj-group><subject>Polyesters</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Engineering and technology</subject><subj-group><subject>Equipment</subject><subj-group><subject>Laboratory equipment</subject><subj-group><subject>Filter paper</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Research and analysis methods</subject><subj-group><subject>Microscopy</subject><subj-group><subject>Light microscopy</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>Europe</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Research and analysis methods</subject><subj-group><subject>Microscopy</subject><subj-group><subject>Light microscopy</subject><subj-group><subject>Polarized light microscopy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Agriculture</subject><subj-group><subject>Animal products</subject><subj-group><subject>Wool</subject></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Microfiber release from real soiled consumer laundry and the impact of fabric care products and washing conditions</article-title>
+<alt-title alt-title-type="running-head">Microfiber release from real soiled consumer laundry and impact of fabric care products and washing conditions</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-5939-0125</contrib-id>
+<name name-style="western">
+<surname>Lant</surname>
+<given-names>Neil J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Hayward</surname>
+<given-names>Adam S.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Peththawadu</surname>
+<given-names>Madusha M. D.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-9389-3578</contrib-id>
+<name name-style="western">
+<surname>Sheridan</surname>
+<given-names>Kelly J.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-5729-356X</contrib-id>
+<name name-style="western">
+<surname>Dean</surname>
+<given-names>John R.</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Procter &amp; Gamble, Newcastle Innovation Center, Newcastle upon Tyne, United Kingdom</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Applied Sciences, Northumbria University, Newcastle upon Tyne, United Kingdom</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Annamalai</surname>
+<given-names>Pratheep K.</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Queensland, AUSTRALIA</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>NJL and ASH are employed by Procter &amp; Gamble. This does not alter our adherence to PLOS ONE policies on sharing data and materials.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">lant.n@pg.com</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>5</day>
+<month>6</month>
+<year>2020</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2020</year>
+</pub-date>
+<volume>15</volume>
+<issue>6</issue>
+<elocation-id>e0233332</elocation-id>
+<history>
+<date date-type="received">
+<day>18</day>
+<month>11</month>
+<year>2019</year>
+</date>
+<date date-type="accepted">
+<day>16</day>
+<month>4</month>
+<year>2020</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2020</copyright-year>
+<copyright-holder>Lant et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0233332"/>
+<abstract>
+<p>Fiber release during domestic textile washing is a cause of marine microplastic pollution, but better understanding of the magnitude of the issue and role of fabric care products, appliances and washing cycles is needed. Soiled consumer wash loads from U.K. households were found to release a mean of 114 ± 66.8 ppm (mg microfiber per kg fabric) (n = 79) fibers during typical washing conditions and these were mainly composed of natural fibers. Microfiber release decreased with increasing wash load size and hence decreasing water to fabric ratio, with mean microfiber release from wash loads in the mass range 1.0–3.5 kg (n = 57) found to be 132.4 ± 68.6 ppm, significantly (p = 3.3 x 10<sup>−8</sup>) higher than the 66.3 ± 27.0 ppm of those in the 3.5–6.0 kg range (n = 22). In further tests with similar soiled consumer wash loads, moving to colder and quicker washing cycles (i.e. 15°C for 30 mins, as opposed to 40°C for 85 mins) significantly reduced microfiber generation by 30% (p = 0.036) and reduced whiteness loss by 42% (p = 0.000) through reduced dye transfer and soil re-deposition, compared to conventional 40°C cycles. In multicycle technical testing, detergent pods were selected for investigation and found to have no impact on microfiber release compared to washing in water alone. Fabric softeners were also found to have no direct impact on microfiber release in testing under both European and North American washing conditions. Extended testing of polyester fleece garments up to a 48-wash cycle history under European conditions found that microfiber release significantly reduced to a consistent low level of 28.7 ± 10.9 ppm from eight through 64 washes. Emerging North American High-Efficiency top-loading washing machines generated significantly lower microfiber release than traditional top-loading machines, likely due to their lower water fill volumes and hence lower water to fabric ratio, with a 69.7% reduction observed for polyester fleece (n = 32, p = 7.9 x 10<sup>−6</sup>) and 37.4% reduction for polyester T-shirt (n = 32, p = 0.0032). These results conclude that consumers can directly reduce the levels of microfibers generated per wash during domestic textile washing by using colder and quicker wash cycles, washing complete (but not overfilled) loads, and (in North America) converting to High-Efficiency washing machines. Moving to colder and quicker cycles will also indirectly reduce microfiber release by extending the lifetime of clothing, leading to fewer new garments being purchased and hence lower incidence of the high microfiber release occurring during the first few washes of a new item.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100004357</institution-id>
+<institution>Procter and Gamble</institution>
+</institution-wrap>
+</funding-source>
+</award-group>
+<funding-statement>This work was sponsored by Procter &amp; Gamble, a manufacturer of detergents and fabric softeners. The funder provided support in the form of salaries for N.J.L. and A.S.H. and decision to publish but did not have any additional role in the study design, data collection and analysis or preparation of the manuscript. The specific roles of these authors are articulated in the ‘author contributions’ section.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="8"/>
+<table-count count="1"/>
+<page-count count="18"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<sec id="sec002">
+<title>Role of laundry in the microfiber issue</title>
+<p>Microplastic pollution, and its impact on marine ecosystems, is now recognized as a significant environmental issue [<xref ref-type="bibr" rid="pone.0233332.ref001">1</xref>]. The formulation of plastic microbeads in consumer products was initially considered to be an important cause, although more recent findings suggest that microfibers generated during washing of synthetic textiles and released to waste water is likely to be a more significant contributor [<xref ref-type="bibr" rid="pone.0233332.ref002">2</xref>–<xref ref-type="bibr" rid="pone.0233332.ref004">4</xref>]. Analysis of fiber contamination in European marine sediments suggests that the issue is not restricted to synthetic fibers with detection of significant quantities of cellulosic fibers [<xref ref-type="bibr" rid="pone.0233332.ref005">5</xref>], despite natural fibers such as cotton and rayon being significantly more biodegradable than synthetic fibers such as polyester [<xref ref-type="bibr" rid="pone.0233332.ref006">6</xref>]. Recent analysis of fibers released during tumble drying [<xref ref-type="bibr" rid="pone.0233332.ref007">7</xref>] suggests that the environmental impact of contaminants present in or on the microfibers might also be an important consideration.</p>
+</sec>
+<sec id="sec003">
+<title>Potential solutions</title>
+<p>Several textile design principles have been established which reduce microfiber release during laundering such as avoiding loose knits and fleeces [<xref ref-type="bibr" rid="pone.0233332.ref008">8</xref>], and more research is being undertaken to complete understanding and encourage their adoption by the textile industry. Many textile construction parameters are relevant [<xref ref-type="bibr" rid="pone.0233332.ref009">9</xref>] including polymer type, polymer origin, yarn size, yarn length, brightness, twist, fabric construction, fabric finishing, and processes used for cutting, sewing, storage, washing and drying. Application of finishing treatments such as the ElectroFluidoDynamic (EFD) method [<xref ref-type="bibr" rid="pone.0233332.ref010">10</xref>] or pectin-based finishes [<xref ref-type="bibr" rid="pone.0233332.ref011">11</xref>] were also found to significantly reduce microfiber release.</p>
+<p>Installation of washing machine filters is also proposed to mitigate the issue [<xref ref-type="bibr" rid="pone.0233332.ref005">5</xref>], with the Lint LUV-R system showing high efficiency, especially when compared to the ‘Cora ball’ device [<xref ref-type="bibr" rid="pone.0233332.ref012">12</xref>]. However, although appliance manufacturers such as Arçelik A.Ş. (Istanbul, Turkey) are beginning to introduce washing machine filters [<xref ref-type="bibr" rid="pone.0233332.ref013">13</xref>], it is not yet clear whether the whole industry will follow on a global basis, and this is unlikely to be a complete solution given that much of the world’s population does not use a washing machine and filtration is not 100% efficient [<xref ref-type="bibr" rid="pone.0233332.ref013">13</xref>].</p>
+<p>Removal of microfibers at wastewater treatment plants is also being considered, although this also challenging as the microfibers would need to be eliminated from both effluent and sludge to prevent release into the environment [<xref ref-type="bibr" rid="pone.0233332.ref014">14</xref>,<xref ref-type="bibr" rid="pone.0233332.ref015">15</xref>].</p>
+</sec>
+<sec id="sec004">
+<title>Impact of fabric care products and washing conditions</title>
+<p>Changing consumers’ behavior relating to the purchase and care of clothing has the potential to rapidly reduce textile microfiber pollution. Therefore, several groups have been studying the impact of home laundering on microfiber release phenomena, as described in recent reviews [<xref ref-type="bibr" rid="pone.0233332.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0233332.ref017">17</xref>]. While there is consensus in some areas, for example that washing in colder water or quicker cycles reduces microfiber release, apparently conflicting conclusions have been reported in other areas such as the impact of detergent. Hernandez et al. [<xref ref-type="bibr" rid="pone.0233332.ref018">18</xref>] found that liquid and powder detergents cause increased microfiber release compared to washing in deionized water. Carney Almroth et al. [<xref ref-type="bibr" rid="pone.0233332.ref008">8</xref>] also reported that detergents cause significantly higher microfiber generation compared to washing in water alone for three out of four fabric samples tested. Napper and Thompson [<xref ref-type="bibr" rid="pone.0233332.ref019">19</xref>] also reported that ‘bio-detergent’ (enzyme-containing detergents) increased fiber loss in some cases but appeared to decrease or have no impact on fiber loss in others whereas Pirc et al. [<xref ref-type="bibr" rid="pone.0233332.ref020">20</xref>] concluded that the detergent has little impact. Yang et al. [<xref ref-type="bibr" rid="pone.0233332.ref021">21</xref>] found that use of a detergent significantly increased microfiber loss, especially for polyester fibers at lower wash temperatures. Recently, Cesa et al. [<xref ref-type="bibr" rid="pone.0233332.ref022">22</xref>] reported that detergent use can reduce microfiber release from synthetic clothing. Kelly et al. [<xref ref-type="bibr" rid="pone.0233332.ref023">23</xref>] reported that water to fabric ratio was an important factor in microfiber shedding levels, confirmed in both full-scale and model systems.</p>
+<p>Napper and Thompson [<xref ref-type="bibr" rid="pone.0233332.ref019">19</xref>] suggested that use of fabric softeners might exacerbate microfiber release under certain conditions, yet De Falco et al. [<xref ref-type="bibr" rid="pone.0233332.ref024">24</xref>] concluded that these products reduce microfiber release by more than 35% whereas Pirc et al. [<xref ref-type="bibr" rid="pone.0233332.ref020">20</xref>] concluded that fabric softeners have no impact. Several studies [<xref ref-type="bibr" rid="pone.0233332.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0233332.ref020">20</xref>,<xref ref-type="bibr" rid="pone.0233332.ref022">22</xref>,<xref ref-type="bibr" rid="pone.0233332.ref025">25</xref>,<xref ref-type="bibr" rid="pone.0233332.ref026">26</xref>] found that new fabrics generate most microfibers, although others [<xref ref-type="bibr" rid="pone.0233332.ref018">18</xref>] reported similar release levels over multiple cycles and one [<xref ref-type="bibr" rid="pone.0233332.ref027">27</xref>] concluded that artificially aged garments exhibit higher microfiber release than their new equivalents.</p>
+<p>These apparently conflicting conclusions may be caused by differences in test methodology, especially regarding the application of small-scale devices such as the Launder-Ometer<sup>®</sup> (SDL Atlas), or GyroWash (James Heal Ltd.) or Washtec P (Roaches) which are commonly used for small-scale simulation of washing for some aspects of textile testing such as dye fading or dye transfer. Although De Falco et al. [<xref ref-type="bibr" rid="pone.0233332.ref028">28</xref>] concluded that a GyroWash protocol provided a good estimation of full-scale testing, they did not study the impact of different parameters to fully validate such protocols. Recently, Kelly et al. [<xref ref-type="bibr" rid="pone.0233332.ref023">23</xref>] recommended use of a Tergotometer (Copley Scientific) for small-scale simulated laundry testing, providing evidence of correlation to full scale washing. All previous testing was conducted with clean wash loads, often involving new or artificially aged garments and homogenous loads comprising one or a few types of garment. Studies involving the reality of domestic laundry, with authentic soiled wash loads containing a mixture of garment types, soils, fibers, ages and textures have apparently not yet been published.</p>
+<p>In this study we measure the release of microfibers from typical soiled wash loads and the impact of moving to colder, quicker, wash cycles on microfiber generation and whiteness maintenance. We also expand the body of evidence regarding impact of detergent, rinse-added fabric softener, and garment age on microfiber generation using full scale testing involving sets of domestic washing machines typical of those used in Europe and North America. The findings will be relevant to the education of consumers in ways to reduce their environmental impact, to those involved in microfiber research within the textile and appliance industries, and to companies involved in the development and manufacture of fabric care products.</p>
+</sec>
+</sec>
+<sec id="sec005" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec006">
+<title>Textiles</title>
+<p>European soiled consumer wash loads were sourced from households in Newcastle upon Tyne, U.K. in the summer of 2017 for two separate experiments. Consent forms outlining the specific details of the research and handling of data were signed by all volunteers. These contained a mixture of washable apparel and household textiles, pre-sorted by the consumers into loads as they would for laundering at home. Each load was weighed prior to washing to enable calculation of microfiber release as a proportion of load mass. The washed loads were returned to the consumers immediately after testing. Photographs of typical baskets of soiled laundry are given in <xref ref-type="supplementary-material" rid="pone.0233332.s001">S1 Fig</xref>.</p>
+<p>Clean whiteness monitors (labelled W1-W18) were composed of small (5 cm × 5 cm) swatches of 18 different white T-shirt fabrics listed in <xref ref-type="supplementary-material" rid="pone.0233332.s004">S1 Table</xref>. These were tagged (using Tach-It<sup>®</sup> gun, Tach-It, S. Hackensack, N.J., U.S.A.) onto a 27 cm × 30 cm knitted cotton backing cloth supplied by Warwick Equest Ltd. (Consett, U.K.). These swatches were used to measure soil redeposition and dye transfer in testing the impact of moving to colder and quicker washing cycles on microfiber release.</p>
+<p>Evaluation of the impact of detergent and fabric softener was conducted using three (European tests) or four (U.S.A. top load tests) red Fruit of the Loom<sup>®</sup> full zip fleeces (product code 62–510, size XL, 100% pill-resistant polyester, density 300g/m<sup>2</sup>) per load or 10 black Fruit of the Loom<sup>®</sup> performance T-shirts (product code 61–390, size XL, 100% textured polyester, density 140g/m<sup>2</sup>). All new garments, including those used to prepare whiteness monitors listed in <xref ref-type="supplementary-material" rid="pone.0233332.s004">S1 Table</xref>, were purchased from BTC Activewear Ltd., Wednesbury, U.K.</p>
+</sec>
+<sec id="sec007">
+<title>Fabric care products</title>
+<p>European tests with liquid detergent were conducted using 70 ml Ariel<sup>®</sup> liquid per wash. European tests with detergent pods were conducted using one Ariel<sup>®</sup> 3in1 pod per wash.</p>
+<p>North American tests were conducted using one Tide<sup>®</sup> 3in1 detergent pod per wash. European fabric softener tests were conducted with 25 ml Lenor<sup>®</sup> Spring Awakening. North American fabric softener tests were conducted using 50 ml Ultra Downy<sup>®</sup> April Fresh. European and North American products were manufactured by Procter &amp; Gamble and sourced from retailers in the U.K., and U.S.A., respectively, during summer 2017.</p>
+</sec>
+<sec id="sec008">
+<title>Washing procedure</title>
+<sec id="sec009">
+<title>European testing</title>
+<p>All European washing tests were conducted using 10 grains per U.S. gallon hardness water and Miele<sup>®</sup> W3622 washing machines using either the 40°C Cotton Short (85 minutes total duration, 1600 rpm spin speed) or Cold Express (a quick cycle using unheated water at 15°C, 30 minutes total duration, 1600 rpm spin speed) programs. All European washing machine tests were conducted using sets of eight identical machines fed by the same water supply. Treatments were rotated between machines and run in quadruplicate, except for the extended wash (48 cycles) test which was run in quadruplicate for the 1, 4 and 8 cycle data and in duplicate for the 16, 32 and 64 cycle data. Fabrics were not dried between wash cycles in testing involving more than one wash cycle.</p>
+</sec>
+<sec id="sec010">
+<title>North American testing</title>
+<p>All North American washing tests were conducted using 6 grains per U.S. gallon water and 27°C water temperature. The North American traditional top-loader washing tests used Kenmore<sup>®</sup> 600 washing machines with 64 L fill volume and 18-minute Super wash cycle, with one rinse. North American High-Efficiency top-loader washing tests used Whirlpool<sup>®</sup> Cabrio washing machines with 30 L fill volume and an 18-minute wash (47-minute total cycle) Casual cycle. All North American washing machine tests were conducted using sets of four identical machines fed by the same water supply. Treatments were rotated between machines and run in quadruplicate. Fabrics were tumble dried between cycles using Miele<sup>®</sup> T8322 tumble dryers at a low temperature setting (50°C) for 1 h, as tumble drying is very common in the North American market although fibers released at this stage are collected by the dryer and disposed in household trash and hence are not released in waste water.</p>
+</sec>
+</sec>
+<sec id="sec011">
+<title>Microfiber and fabric analysis</title>
+<sec id="sec012">
+<title>Collection and mass measurement</title>
+<p>Microfibers were collected and quantified using the protocol described by Kelly et al. [<xref ref-type="bibr" rid="pone.0233332.ref023">23</xref>] which is based on the method of Napper and Thompson [<xref ref-type="bibr" rid="pone.0233332.ref019">19</xref>]. Washing machines were thoroughly cleaned prior to testing and confirmed to release no fibers by running a cycle without any garments inside. Water was collected into 25 L high density polyethylene containers from the drain hose of the washing machine for the complete wash and rinsing process. After each wash, any fibers remaining in the machine were washed out and collected by running an additional ‘washout’ cycle with no detergent after the fabrics were removed. All water from the test run and ‘washout’ cycle was then filtered through 20 μm CellMicroSieve<sup>®</sup> (BioDesign Inc., Carmel, N.Y., U.S.A.). Containers were thoroughly rinsed to collect all fibers. The residual fibers collected were washed with clean water, re-suspended in clean water and then filtered onto pre-weighed Whatman<sup>®</sup> No 541 filter paper (G.E. Life Sciences, Little Chalfont, U.K.) using a Büchner funnel under vacuum before drying overnight at 50°C. The mass of collected fibers was then calculated, corrected for the percentage loss in filter paper weight on drying which was determined by recording the mean percentage mass loss on drying of 10 similar papers. Microfiber release data is presented in parts per million (ppm), i.e. as mg of released fiber per kg initial dry fabric load mass. Washing machines were thoroughly cleaned between washes using an additional cleaning cycle; the efficiency of this process to prevent cross-contamination of fibers from one run to another was confirmed using the same methodology described in the Quality Assurance section of Kelly et al. [<xref ref-type="bibr" rid="pone.0233332.ref023">23</xref>] which involved the same washing machines as the present study.</p>
+</sec>
+<sec id="sec013">
+<title>Microfiber analysis</title>
+<p>Fibers were recovered from the center of the filter paper, using a mask of diameter 2 cm (<xref ref-type="fig" rid="pone.0233332.g001">Fig 1</xref>). Recovery was achieved by pressing the high-adhesive J-Lar<sup>®</sup> tape (WA Products, Essex, U.K.) on the 2 cm diameter sampling point. Initially, a single thumb press on the external surface of the J-Lar<sup>®</sup> tape allowed a localized pressure to be exerted; this was followed by additional pressure by dragging over the same sampling point a 2 kg weight. The dragging of the 2 kg weight allowed a constant pressure to be applied to aid fiber recovery on the J-Lar<sup>®</sup> tape. The J-Lar<sup>®</sup> tape was then carefully lifted and attached to a transparent A5 acetate sheet, which had been previously appropriately labelled. The entire recovery process with J-Lar<sup>®</sup> tape was repeated between 3 and 5 times (<xref ref-type="fig" rid="pone.0233332.g001">Fig 1</xref> shows 4 J-Lar<sup>®</sup> tape lifts), based on the exhaustive recovery of fibers, as evidenced by negligible fiber recovery on any subsequent filter paper transfer. Then, a fiber lifted J-Lar<sup>®</sup> tape containing a median-loaded amount of fibers was selected for further analysis and identification; the selection of the median-containing J-Lar<sup>®</sup> tape was based on visual inspection, by eye, to adequately reflect the distribution of fibers collected on the J-Lar<sup>®</sup> tape from the 1 to 3/5 micro-sampling points. All J-Lar<sup>®</sup> lift tape samples were mounted on their own unique labelled transparent A5 acetate sheet.</p>
+<fig id="pone.0233332.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Systematic process for colored fiber recovery and identification.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.g001" xlink:type="simple"/>
+</fig>
+<p>The selected median J-Lar<sup>®</sup> fiber tape was subsequently micro-sampled. This micro-sampling of the selected J-Lar<sup>®</sup> tape sample involved inversion of the tape to allow recovery of fibers with stainless steel HP Grade tweezers, type 5 (TAAB, Reading, U.K.). Micro-sampling was controlled via a selected window of initial diameter 0.1 mm that allowed recovery of 100 fibers; subsequently if 100 fibers were not recovered then the diameter of the sampling window was increased up to 1.0 mm. Recovery of fibers was carried out manually using stainless steel tweezers under a Low Power Microscope (x25 magnification, Leica M60, Leica, Milton Keynes, U.K.). An individual fiber was recovered and placed on a microscope slide containing a drop of Phytohistol<sup>®</sup> (Fisher Scientific, Loughborough, U.K.) and covered with a glass coverslip (diameter 9 mm, thickness number 1; VWR, Lutterworth, Leicestershire, U.K.); in total, 10 fibers in their inherent Phytohistol<sup>®</sup> drops were mounted on one microscope slide. In addition, it is noted that all 100 fibers, from the initial sample point, were randomly collected irrespective of color, size and shape i.e. no identification had been done at this stage, but excluded colorless fibers. Then initial fiber identification was carried out using a combination of High Power Microscope (x 400 magnification, Olympus CX23, Olympus, Hamburg, Germany) and Polarizing Light Microscopy (Ortholux, Leica, Milton Keynes, U.K.). Using visual identification of surface morphology of shape and characteristic features allowed the discrimination of fiber types e.g. ‘synthetic fibers’ (i.e. delusterant particles) from those of cotton (i.e. ribbon) and wool (i.e. scales). Further analysis of the ‘synthetic fibers’, using a Polarized Light Microscope (allowed generic identification of acrylic, nylon or polyester fibers. This was achieved by determining the birefringence value [<xref ref-type="bibr" rid="pone.0233332.ref029">29</xref>] that correlates to fiber type.</p>
+<p>Subsequently fiber identification was confirmed using an FT-IR Microscope (Spotlight 150i) coupled to a FT-NIR Spectrometer (Frontier) (Perkin Elmer, Beaconsfield, UK) which had previously been used to characterize fiber type using 100% authentic samples (i.e. acrylic, cotton, elastane, nylon, polyester, polyethylene, polypropylene, silk, viscose and wool) which themselves had previously been tape lifted to eliminate fiber cross-contamination.</p>
+<p>A total of 25 filter papers were randomly selected from 79 consumer washing loads to determine the mass of synthetic fibers retained. The initial acid digestion procedure using sulfuric acid of the filter papers, containing the washing effluent, dissolved the filter papers (cellulose), cotton and viscose fibers while the second digestion with sodium hypochlorite dissolved wool [<xref ref-type="bibr" rid="pone.0233332.ref030">30</xref>]. Preliminary testing of the method [<xref ref-type="bibr" rid="pone.0233332.ref030">30</xref>] was done using a range of 100% cotton, viscose, wool, acrylic, nylon and polyester materials; the results validated the identified method on specific fabric samples (as well as digestion of the filter paper). The procedure was then applied to the sampled filter papers from the real consumer fabric test loads.</p>
+<p>Filter paper containing the washing machine effluent was cut, using scissors, in to eight pieces and placed in a 250 ml beaker to which 150 ml of 75% H<sub>2</sub>SO<sub>4</sub> (Analytical grade; Fisher Scientific, Loughborough, U.K.) was added. The beaker was left to stand in a water bath at 30°C ± 2°C for 45 ± 5 mins and stirred with a glass rod every 5 mins. The resultant solution, and the residual solids, were quantitatively transferred using additional distilled water for a period of 10 mins, through a 180 μm stainless steel sieve. The solid residue was quantitatively transferred using tweezers, to a 250 ml beaker and 150 ml of 5% sodium hypochlorite (Fisher Scientific, Loughborough, U.K.) added to digest the wool. Again, the beaker was stood in the water bath at 30°C ± 2°C for 45 ± 5 mins and stirred every 5 mins. The final residue was collected on a 180 μm stainless steel sieve, with additional rinsing with distilled water for 10 mins. This final residue was collected by quantitatively transferring in to a 100 ml beaker with water and the wash filtrate was vacuum filtered on a pre-accurately weighed Fisher brand 11546873 (diameter 55 mm) filter paper (Fisher Scientific, Loughborough, U.K.) and dried at 110°C for 1.5 h. After drying, the percentage of collected synthetic fibers was then determined, based on the mass of collected fibers as described previously.</p>
+</sec>
+<sec id="sec014">
+<title>Whiteness monitor analysis</title>
+<p>After the wash, whiteness monitor fabrics W1-W18 were left to air dry for 24 h and then measured according to CIEDE2000 using a Gretag Macbeth Color-Eye<sup>®</sup> 7000A (X-Rite Ltd, Manchester, U.K.) spectrophotometer to determine the color difference between unwashed and washed fabric. Δ<italic>E</italic><sub>2000</sub> values were calculated using <xref ref-type="disp-formula" rid="pone.0233332.e001">Eq 1</xref> [<xref ref-type="bibr" rid="pone.0233332.ref031">31</xref>] for each whiteness monitor using the differences in lightness (L´), chroma (C´) and hue (H´) values between unwashed and washed fabric where <italic>k</italic><sub><italic>L</italic></sub><italic>S</italic><sub><italic>L</italic></sub> is a lightness weighting function, <italic>k</italic><sub><italic>C</italic></sub><italic>S</italic><sub><italic>C</italic></sub> is a chroma weighting function, <italic>k</italic><sub><italic>H</italic></sub><italic>S</italic><sub><italic>H</italic></sub> is a hue weighting function, and <italic>R</italic><sub><italic>T</italic></sub> is a rescaling factor. A whiteness loss of two Δ<italic>E</italic><sub>2000</sub> units is very noticeable to the eye.</p>
+<disp-formula id="pone.0233332.e001">
+<alternatives>
+<graphic id="pone.0233332.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0233332.e001" xlink:type="simple"/>
+<mml:math display="block" id="M1">
+<mml:mi mathvariant="normal">Δ</mml:mi><mml:msubsup><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mn>2000</mml:mn></mml:mrow><mml:mrow/></mml:msubsup><mml:msqrt><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:msup><mml:mrow><mml:mi mathvariant="normal">L</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>L</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>C</mml:mi><mml:mo>′</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>C</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>C</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>H</mml:mi><mml:mo>′</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>C</mml:mi><mml:mo>′</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>C</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>C</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>H</mml:mi><mml:mo>′</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>H</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:msqrt>
+</mml:math>
+</alternatives>
+<label>(1)</label>
+</disp-formula>
+</sec>
+</sec>
+</sec>
+<sec id="sec015" sec-type="conclusions">
+<title>Results and discussion</title>
+<sec id="sec016">
+<title>Microfiber release from real European soiled consumer wash loads</title>
+<sec id="sec017">
+<title>Gravimetric analysis</title>
+<p>U.K. soiled consumer loads (n = 72) were washed using the same detergent (70 ml Ariel liquid) and European conditions (40°C Cotton Short). See <xref ref-type="sec" rid="sec005">materials and methods</xref> section for more details of the general European washing procedure. The mean wash load mass was 3.13 ± 1.02 kg. A mean of 114 ± 66.8 ppm (range 18.6–368.3 ppm) microfiber release was measured and light microscopy images of typical filter papers are given in <xref ref-type="supplementary-material" rid="pone.0233332.s002">S2 Fig</xref>. Load masses and microfiber release data for each of the wash loads is given in <xref ref-type="supplementary-material" rid="pone.0233332.s005">S2 Table</xref> and a standard boxplot of the results is given in <xref ref-type="supplementary-material" rid="pone.0233332.s003">S3 Fig</xref>. A boxplot summarizes the mean (cross), median (horizontal line within the box), first quartile (low end of the box), third quartile (upper end of the box), upper limit excluding outliers (horizontal line at end of upper whisker), lower limit excluding outliers (horizontal line at end of lower whisker) and outliers (small circles above or below the whiskers). These results are similar to the range of 124–308 ppm observed by De Falco et al. [<xref ref-type="bibr" rid="pone.0233332.ref026">26</xref>] although their tests were mainly focused on new synthetic garments.</p>
+<p>According to the International Association for Soaps, Detergents and Maintenance Products (A.I.S.E.) [<xref ref-type="bibr" rid="pone.0233332.ref032">32</xref>], 35.6 billion wash loads are completed across 23 European countries each year, i.e. 1130 washes are started every second. Assuming the load size and release levels in our tests are typical, microfiber release will be around 357 mg/wash (114 ppm x 3.13 kg load) resulting in a total quantity of microfiber release from those 23 countries of around 12,709 tonnes per year.</p>
+<p><xref ref-type="fig" rid="pone.0233332.g002">Fig 2</xref> shows a correlation of wash load mass with ppm microfiber release, with a clear trend towards increasing fiber loss in smaller loads. The trend line relates to the equation y = 346.23x<sup>-1.158</sup> which has an R<sup>2</sup> value of 0.46 and p = 7.6 x 10<sup>−12</sup>. Of the 79 wash loads tested, 57 were in the mass range 1.0–3.5 kg and these had a mean of 132.4 ± 68.6 ppm microfiber release, compared to the 22 loads in the 3.5–6.0 kg range which had a mean 66.3 ± 27.0 ppm microfiber release, i.e. 50% lower, statistically significant at 99% confidence level (Student’s t-test p = 3.3 x 10<sup>−8</sup>). The smaller the wash load, the higher the water to fabric ratio, which will lead to increased flow of wash solution through the yarns. This suggests that consumers should aim to wash complete loads but use an appropriate quantity of detergent and refrain from overfilling the washing machine as that would have a negative impact on cleaning performance and potentially lead to mechanical failure of the appliance.</p>
+<fig id="pone.0233332.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Correlation of microfiber release from 79 European soiled consumer wash loads against load mass (n = 79).</title>
+<p>The trend line relates to the equation y = 346.23x<sup>-1.158</sup>; R<sup>2</sup> = 0.46; p = 7.6 x 10<sup>−12</sup>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.g002" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec018">
+<title>Fiber characterization – acid digestion</title>
+<p>The results (summarized in <xref ref-type="fig" rid="pone.0233332.g003">Fig 3</xref> from data in <xref ref-type="supplementary-material" rid="pone.0233332.s006">S3 Table</xref>) indicated that a significant portion, i.e. mean 96% (range 90–99%) of the fibers were natural, including cotton, wool and viscose while synthetic fibers, including acrylic, nylon and polyester, accounted for 4% (range 1–10%). This suggests that microfiber release from real consumer loads is dominated by natural fibers, rather than synthetic fibers during the washing process. This can be supported from environmental data [<xref ref-type="bibr" rid="pone.0233332.ref005">5</xref>,<xref ref-type="bibr" rid="pone.0233332.ref033">33</xref>].</p>
+<fig id="pone.0233332.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Percentage composition after fiber digestion.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.g003" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec019">
+<title>Fiber characterization using optical and FT-IR microscopy</title>
+<p>For the further analysis of fiber classification, three filter papers were randomly selected from 79 consumer washing loads and subjected to a systematic process of colored fiber recovery and identification (<xref ref-type="fig" rid="pone.0233332.g001">Fig 1</xref>). Colored fibers were identified as being cotton, wool, viscose or synthetic. However, this subjective procedure only identified the colored fibers and it was noted that several colorless fibers were left unidentified. While the colorless fibers were not identified it can be postulated that they were either cotton (natural) or undyed synthetic fibers. Fibers identified as synthetic were further examined using Polarized Light Microscope (PLM) to determine the generic fiber type [<xref ref-type="bibr" rid="pone.0233332.ref034">34</xref>]. It was found that the colored fiber percentage composition was on average 75%: 25% for natural: synthetic fibers (<xref ref-type="table" rid="pone.0233332.t001">Table 1</xref>). All fiber types identified with optical microscopy were subsequently confirmed using FT-IR microscopy.</p>
+<table-wrap id="pone.0233332.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.t001</object-id>
+<label>Table 1</label> <caption><title>Summary of colored fiber identification using optical and FT-IR microscopy.</title></caption>
+<alternatives>
+<graphic id="pone.0233332.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center" rowspan="3">Sample identification</th>
+<th align="center" colspan="4">% Natural</th>
+<th align="center" colspan="4">% Synthetic</th>
+</tr>
+<tr>
+<th align="center" rowspan="2">Total</th>
+<th align="center" colspan="3">Sub-set</th>
+<th align="center" rowspan="2">Total</th>
+<th align="center" colspan="3">Sub-set</th>
+</tr>
+<tr>
+<th align="center">cotton</th>
+<th align="center">viscose</th>
+<th align="center">wool</th>
+<th align="center">acrylic</th>
+<th align="center">nylon</th>
+<th align="center">polyester</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">#1</td>
+<td align="center">76</td>
+<td align="center">69</td>
+<td align="center">2</td>
+<td align="center">5</td>
+<td align="center">24</td>
+<td align="center">7</td>
+<td align="center">8</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td align="center">#28</td>
+<td align="center">71</td>
+<td align="center">64</td>
+<td align="center">1</td>
+<td align="center">6</td>
+<td align="center">29</td>
+<td align="center">14</td>
+<td align="center">6</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td align="center">#77</td>
+<td align="center">79</td>
+<td align="center">61</td>
+<td align="center">4</td>
+<td align="center">14</td>
+<td align="center">21</td>
+<td align="center">6</td>
+<td align="center">4</td>
+<td align="center">11</td>
+</tr>
+<tr>
+<td align="center"><bold>Average</bold></td>
+<td align="center">75</td>
+<td align="center" colspan="3"/>
+<td align="center">25</td>
+<td align="center" colspan="3"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+</sec>
+<sec id="sec020">
+<title>Impact of moving to cold/quick conditions on microfiber release from real European soiled consumer wash loads</title>
+<p>Further work was conducted to measure the impact of consumers moving from a conventional 40°C wash cycle to emerging cold and quick cycles found on European washing machines. Whiteness monitors were included to measure any impact of colder and quicker washing conditions on dye transfer and soil re-deposition. European soiled consumer loads (n = 38) were washed using the same detergent (70 ml Ariel liquid), with half (n = 19) using typical European conditions (40°C Cotton Short cycle) and the other half (n = 19) using a colder and quicker cycle (Cold Express). See <xref ref-type="sec" rid="sec005">materials and methods</xref> section for more details of the general European washing procedure. The average wash load mass was 2.69 kg for both treatments (± 0.77 kg and ± 0.76 kg for 40°C and Cold Express cycles, respectively). <xref ref-type="fig" rid="pone.0233332.g004">Fig 4</xref> is a standard boxplot of microfiber release using data from <xref ref-type="supplementary-material" rid="pone.0233332.s007">S4 Table</xref>, showing a 30% reduction from mean 181.6 ± 87.1 ppm for the 40°C cycle to 129.5 ± 42.9 ppm for the Cold Express cycle, statistically significant at 95% confidence level (Student’s t-test p = 0.036).</p>
+<fig id="pone.0233332.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Boxplot of microfiber release from soiled consumer wash loads in a 40°C cycle (n = 19) with cold express cycle (n = 19).</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.g004" xlink:type="simple"/>
+</fig>
+<p>The results suggest that temperature and wash duration, two factors known to impact soil removal, are also critical factors in liberation of microfibers from textiles during washing although further work is needed to determine their relative importance.</p>
+<p>Whiteness monitors were included in this test to determine the impact of changing washing condition on re-deposition of dyes and soils. These phenomena are important causes of garment integrity loss, leading to the graying of white items and white regions of mixed color items, as well as negatively impacting the shade of colored articles. <xref ref-type="fig" rid="pone.0233332.g005">Fig 5</xref>, based on data from <xref ref-type="supplementary-material" rid="pone.0233332.s008">S5 Table</xref>, compares the average color change (ΔE<sub>2000</sub>) on each of the 18 whiteness monitors (W1 to W18) washed for a single cycle in the 40°C and Cold Express conditions. The results show that there is an average 42.3% reduction in whiteness loss on moving from 40°C to Cold Express cycle, statistically significant at 99% confidence level (Student’s t-test p = 0.000). It is likely that these improvements in whiteness maintenance arise from multiple mechanisms, particularly reduced dye and soil removal from the fabrics, and reduced redeposition of dyes and soils from the wash solution.</p>
+<fig id="pone.0233332.g005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.g005</object-id>
+<label>Fig 5</label>
+<caption>
+<title>Comparison of whiteness loss from 40°C (n = 19) with cold express cycle (n = 19).</title>
+<p>Error bars represent the standard deviation.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.g005" xlink:type="simple"/>
+</fig>
+<p>These results confirm that a shift in European consumer behavior away from washing in standard 40°C cycles towards colder and quicker conditions could significantly reduce microfiber release and slow down other aspects of clothing integrity loss.</p>
+</sec>
+<sec id="sec021">
+<title>Impact of laundry detergent on microfiber loss</title>
+<p>The impact of laundry detergent on microfiber loss was evaluated using full zip fleece garments, over the course of 8 washes with microfiber release measured during the first, fourth and eighth cycle. Washing in the absence of detergent was compared with use of a detergent pod, with testing conducted under European conditions (40°C Cotton Short cycle). See <xref ref-type="sec" rid="sec005">materials and methods</xref> section for more details of the general European washing procedure.</p>
+<p>Results summarized in <xref ref-type="fig" rid="pone.0233332.g006">Fig 6</xref> from data in <xref ref-type="supplementary-material" rid="pone.0233332.s009">S6 Table</xref> show that the use of detergent has no significant impact on microfiber release (Student’s t-test p = 0.65), consistent with results published from Pirc et al. [<xref ref-type="bibr" rid="pone.0233332.ref020">20</xref>] but contradicting results published by Hernandez et al. [<xref ref-type="bibr" rid="pone.0233332.ref018">18</xref>] and Carney Almroth et al. [<xref ref-type="bibr" rid="pone.0233332.ref008">8</xref>] which concluded that detergent exacerbated fiber loss. The results also show a significant reduction in microfiber release after the first few cycles, in line with the results from Pirc et al. [<xref ref-type="bibr" rid="pone.0233332.ref020">20</xref>].</p>
+<fig id="pone.0233332.g006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.g006</object-id>
+<label>Fig 6</label>
+<caption>
+<title>Impact of using European detergent pod on microfiber release from polyester fleece (n = 24).</title>
+<p>Error bars represent the standard deviation.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.g006" xlink:type="simple"/>
+</fig>
+<p>The apparent discrepancy between our findings and those of Hernandez et al. [<xref ref-type="bibr" rid="pone.0233332.ref018">18</xref>] and Carney Almroth [<xref ref-type="bibr" rid="pone.0233332.ref008">8</xref>] might be driven by their use of the small-scale simulation devices Washtec P (Roaches) and GyroWash (James Heal Ltd.), respectively. This is corroborated by the good agreement between our findings and those of Pirc et al. [<xref ref-type="bibr" rid="pone.0233332.ref020">20</xref>] which also involved testing in full-scale domestic washing machines. It is likely that these small-scale devices do not adequately replicate the physical processes involved in domestic washing, i.e. they are able to simulate mainly chemical processes such as action of bleaching ingredients but not more physical processes such as unplucking and breakage of fibers, or release of free microfiber debris from the yarn interiors.</p>
+</sec>
+<sec id="sec022">
+<title>Impact of fabric softener on microfiber loss and long-term effects</title>
+<sec id="sec023">
+<title>European testing</title>
+<p>Further European testing using the same full zip fleece garments was conducted to understand the impact of fabric softener use and determine whether the trend of reducing microfiber release with increasing number of wash cycle continues in the longer term. Testing was conducted under European conditions (40°C Cotton Short cycle). See <xref ref-type="sec" rid="sec005">materials and methods</xref> section for more details of the general European washing procedure. The results summarized in <xref ref-type="fig" rid="pone.0233332.g007">Fig 7</xref> from data in <xref ref-type="supplementary-material" rid="pone.0233332.s010">S7 Table</xref> show that use of fabric softener has no significant impact on microfiber release (Student’s t-test p = 0.50). Microfiber release reaches steady low level after eight cycles and does not increase at a later stage in the 48-wash duration of the test. Mean microfiber release for all data between eight and 48 cycles, inclusive, was found to be of 28.7 ± 10.9 ppm. While being consistent with results from Pirc et al. [<xref ref-type="bibr" rid="pone.0233332.ref020">20</xref>], this finding that older garments show less microfiber loss than new garments contradicts previous studies by Hartline et al. [<xref ref-type="bibr" rid="pone.0233332.ref027">27</xref>] although their testing involved an artificial textile aging process involving 24 hours continuous agitation in a traditional North American top-loading washing machine. It is possible that the latter method damages the garments to the extent that fraying occurs, which would be expected to result in increased fiber loss. We did not observe any evidence of such fraying in our 48-cycle study with full-zip fleeces, but it is important to recognize that our tests did not involve any wearing of the garments and this aspect of aging could influence microfiber release.</p>
+<fig id="pone.0233332.g007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.g007</object-id>
+<label>Fig 7</label>
+<caption>
+<title>Impact of fabric softener on microfiber release from polyester fleece: European conditions (n = 36).</title>
+<p>Error bars represent the standard deviation.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.g007" xlink:type="simple"/>
+</fig>
+</sec>
+<sec id="sec024">
+<title>North American testing</title>
+<p>Further testing was conducted to show that these conclusions are equally valid in two types of North American top-loading machines using two different garment types. The North American washing machine market has historically been dominated by large top-loading washing machines with a vertical axis screw-like rotating agitator and high wash water volumes (~64 L). These traditional appliances are now being gradually replaced by High-Efficiency appliances with significantly lower water consumption, with both top-loading and front-loading versions available. Top-loading High-Efficiency appliances use around half the wash water volume of traditional appliances and use a rotating impeller on the base of the drum for agitation. Front-loading High-Efficiency machines have a similar design to European appliances. See <xref ref-type="sec" rid="sec005">materials and methods</xref> section for more details of the general North American washing procedure. The results from testing the same full zip fleece and a performance T-shirt in both a traditional U.S.A. washing machine and a High-Efficiency top-loading washing machine are summarized in <xref ref-type="fig" rid="pone.0233332.g008">Fig 8</xref> from data in <xref ref-type="supplementary-material" rid="pone.0233332.s011">S8 Table</xref>. In line with the European results, fabric softener was not found to have any impact on microfiber release. However, the High-Efficiency top-loading machines caused significantly lower levels of microfiber release compared to the traditional appliance. On average, the full zip fleece and performance T-shirt showed 69.7% (statistically significant; Student’s t-test p = 7.9 x 10<sup>−6</sup>) and 37.4% (statistically significant; Student’s t-test p = 0.0032) lower microfiber release, respectively, for the High-Efficiency washing machine compared to the traditional appliance. Although High-Efficiency washing machines have several differences compared to traditional machines, including the agitation system, their significantly lower wash water volume and consequently much lower water to fabric ratio is likely to be a key factor in the observed reduction in microfiber release, based on recent testing under European conditions [<xref ref-type="bibr" rid="pone.0233332.ref023">23</xref>]. This difference in water to fabric ratio could be having an impact on the mechanisms of microfiber loss.</p>
+<fig id="pone.0233332.g008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0233332.g008</object-id>
+<label>Fig 8</label>
+<caption>
+<title>Impact of fabric softener on microfiber release from polyester fleece and performance T-shirt (n = 64).</title>
+<p>U.S.A. Traditional Top Loader (T-TL) and High-Efficiency Top-Loader (HE-TL) conditions. Error bars represent the standard deviation.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.g008" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+</sec>
+<sec id="sec025" sec-type="conclusions">
+<title>Conclusions</title>
+<p>Real consumer wash loads release significant levels of microfibers into water treatment systems, although these are predominantly natural fibers which, being staple fibers, are likely to be more easily released compared to synthetic fibers which are often present in the form of filament yarns. Microfiber release can be significantly reduced using colder and quicker washing cycles and washing complete but not over-filled loads. Such interventions have other garment-care benefits that will enhance the useful lifetime of clothing with broader environmental impact benefits. Reduced whiteness loss was measured in the present study although colder and quicker washing cycles are also likely to have other benefits including reduced dye fading, reduced pilling and abrasive damage, and reduced incidence of holes and tears. Reducing such fabric integrity loss could lead to fewer garments being discarded [<xref ref-type="bibr" rid="pone.0233332.ref035">35</xref>] and longer garment lifetimes, leading to significantly reduced environmental impact.</p>
+<p>The main barrier to consumers adopting colder and quicker washing cycles is concern that they will not achieve the desired level of cleaning and malodor removal, calling for further advances in cold water cleaning technology such as enzymes to eliminate the performance gap between conventional warm cycles and colder and quicker alternatives.</p>
+<p>In North America, where the appliance market is currently divided between traditional top-loading washing machines and emerging High-Efficiency machines with lower water volumes, results are supportive of converting to High-Efficiency appliances as a way of significantly reducing microfiber generation in addition to the other environmental benefits of High-Efficiency washing machines such as 35–50% less water consumption and about 50% less energy per load [<xref ref-type="bibr" rid="pone.0233332.ref036">36</xref>].</p>
+<p>The results from testing under European and North American conditions suggest that high water to fabric ratio is an important driver of microfiber loss, likely driven by increased flow of water through yarns and hence increased fiber extraction. This provides an additional reason why the appliance industry should continue to develop approaches to reduce water consumption in laundry.</p>
+<p>Our results also found that the use of detergent pods or fabric softener had no impact on microfiber release, and that garments showed the highest level of release in the first few washes and did not increase after a long multicycle wash history. Although fabric softener did not have any direct impact on microfiber loss, further work is needed to fully understand whether use of this product could lead to a significant indirect reduction in microfiber levels by extending the lifetime of textiles and reducing their level of replacement with new items that will cause a high level of microfiber release in their first few wash cycles. Additional work is also needed to fully understand the impact of powdered laundry detergents on microfiber release. From a methodology standpoint this is more challenging as these products are inherently less soluble than liquid detergents which makes gravimetric analysis of released fibers more difficult. Although there are several compositional differences between powder detergents and liquids, including the presence of alkalinity sources and bleach in the former, these are unlikely to exacerbate the fundamental fiber unplucking and breakage mechanisms involved in microfiber release, but this needs to be confirmed.</p>
+<p>The apparent contradiction of the present results with some earlier reports is likely to be driven by differences in test methodology, particularly in that the present study was completed using only sets of full-scale washing machine rather than miniaturized model systems such as the GyroWash, Washtec or Launder-Ometer<sup>®</sup> and did not involve any artificial garment aging processes. This suggests that further work is needed to develop and validate appropriate test methods against the reality of consumer washing conditions and garment aging, especially if they will form the basis of further improvements in textile design, appliance design, or recommendations to consumers about how they can reduce their impact on microfiber pollution through choices relating to laundry products and processes, including choice of appliances and their programs. Different methods may be justified for textile comparisons (e.g. involving tests without detergents) and studies involving different fabric care products and washing conditions. Therefore, it is important that any new methods emerging in this area come with a clear scope of application and are appropriately validated on this basis.</p>
+<p>Finding an ultimate solution to the pollution of marine ecosystems by microfibers released during laundering will likely require significant interventions in both textile manufacturing processes (e.g. to reduce the inherent release profile of items, and/or conduct filtered pre-washing to remove the most labile fibers) and washing machine appliance design (e.g. to introduce filtering systems). In the meantime, consumers can be assured that their continued use of liquid detergents and fabric softeners will not exacerbate the issue, and that they can significantly reduce their contribution to the issue by washing in colder and quicker cycles, washing complete but not overfilled loads and, in North America, transitioning to High-Efficiency washing machines.</p>
+</sec>
+<sec id="sec026">
+<title>Supporting information</title>
+<supplementary-material id="pone.0233332.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Images of typical real wash loads.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s002" xlink:type="simple">
+<label>S2 Fig</label>
+<caption>
+<title>Light microscopy images of example filtered fibers.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s003" xlink:type="simple">
+<label>S3 Fig</label>
+<caption>
+<title>Boxplot of microfiber release from 79 European soiled consumer wash loads (n = 79).</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s004" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>List of whiteness monitor fabrics.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s005" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>Load masses and microfiber masses for 79 European soiled consumer wash loads (n = 79).</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s006" xlink:type="simple">
+<label>S3 Table</label>
+<caption>
+<title>Digestion of fibers.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s007" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s007" xlink:type="simple">
+<label>S4 Table</label>
+<caption>
+<title>Microfiber release from soiled consumer wash loads in a 40°C cycle (n = 19) with cold express cycle (n = 19).</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s008" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s008" xlink:type="simple">
+<label>S5 Table</label>
+<caption>
+<title>Comparison of whiteness loss (ΔE2000) from 40°C (n = 19) with cold express cycle (n = 19) on 18 fabric types.</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s009" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s009" xlink:type="simple">
+<label>S6 Table</label>
+<caption>
+<title>Impact of using European detergent pod on microfiber release from polyester fleece (n = 24).</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s010" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s010" xlink:type="simple">
+<label>S7 Table</label>
+<caption>
+<title>Impact of fabric softener on microfiber release from polyester fleece: European conditions (n = 36).</title>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0233332.s011" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s011" xlink:type="simple">
+<label>S8 Table</label>
+<caption>
+<title>Impact of fabric softener on microfiber release from polyester fleece and performance T-shirt (n = 64).</title>
+<p><bold>U.S.A.</bold> Traditional Top Loader (T-TL) and High-Efficiency Top-Loader (HE-TL) conditions.</p>
+<p>(DOCX)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ack>
+<p>The authors sincerely thank Liam Medina, Blessing Adetayo Dina, Yvonne McMeekin, Hannah Whiteside and Claire Morley for assistance in the collection of experimental data.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0233332.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Taylor</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Gwinnett</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Robinson</surname> <given-names>LF</given-names></name>, <name name-style="western"><surname>Woodall</surname> <given-names>LC</given-names></name>. <article-title>Plastic microfibre ingestion by deep-sea organisms.</article-title> <source>Sci Rep</source>. <year>2016</year>;<volume>6</volume>: <fpage>1</fpage>–<lpage>9</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-016-0001-8" xlink:type="simple">10.1038/s41598-016-0001-8</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Browne</surname> <given-names>MA</given-names></name>, <name name-style="western"><surname>Crump</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Niven</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Teuten</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Tonkin</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Galloway</surname> <given-names>T</given-names></name>, <etal>et al</etal>. <article-title>Accumulation of microplastic on shorelines woldwide: Sources and sinks</article-title>. <source>Environ Sci Technol</source>. <year>2011</year>;<volume>45</volume>: <fpage>9175</fpage>–<lpage>9179</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/es201811s" xlink:type="simple">10.1021/es201811s</ext-link></comment> <object-id pub-id-type="pmid">21894925</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mishra</surname> <given-names>S</given-names></name>, <article-title>Rath C charan, Das AP. Marine microfiber pollution: A review on present status and future challenges</article-title>. <source>Mar Pollut Bull</source>. <year>2019</year>;<volume>140</volume>: <fpage>188</fpage>–<lpage>197</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.marpolbul.2019.01.039" xlink:type="simple">10.1016/j.marpolbul.2019.01.039</ext-link></comment> <object-id pub-id-type="pmid">30803634</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Boucher</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Friot</surname> <given-names>D</given-names></name>. <article-title>Primary microplastics in the oceans: A global evaluation of sources.</article-title> <source>Primary microplastics in the oceans: A global evaluation of sources.</source> <year>2017</year>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2305/iucn.ch.2017.01.en" xlink:type="simple">10.2305/iucn.ch.2017.01.en</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sanchez-Vidal</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Canals</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>De Haan</surname> <given-names>WP</given-names></name>. <article-title>The imprint of microfibres in Southern European deep seas.</article-title> <source>PLoS One.</source> <year>2018</year>;<volume>13</volume>: <fpage>1</fpage>–<lpage>12</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0207033" xlink:type="simple">10.1371/journal.pone.0207033</ext-link></comment> <object-id pub-id-type="pmid">30395638</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zambrano</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Pawlak</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Daystar</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Ankeny</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cheng</surname> <given-names>JJ</given-names></name>, <name name-style="western"><surname>Venditti</surname> <given-names>RA</given-names></name>. <article-title>Microfibers generated from the laundering of cotton, rayon and polyester based fabrics and their aquatic biodegradation</article-title>. <source>Mar Pollut Bull</source>. <year>2019</year>;<volume>142</volume>: <fpage>394</fpage>–<lpage>407</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.marpolbul.2019.02.062" xlink:type="simple">10.1016/j.marpolbul.2019.02.062</ext-link></comment> <object-id pub-id-type="pmid">31232317</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Turner</surname> <given-names>A.</given-names></name> <article-title>Trace elements in laundry dryer lint: A proxy for household contamination and discharges to waste water</article-title>. <source>Sci Total Environ</source>. <year>2019</year>;<volume>665</volume>: <fpage>568</fpage>–<lpage>573</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.scitotenv.2019.02.025" xlink:type="simple">10.1016/j.scitotenv.2019.02.025</ext-link></comment> <object-id pub-id-type="pmid">30776628</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carney Almroth</surname> <given-names>BM</given-names></name>, <name name-style="western"><surname>Åström</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Roslund</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Petersson</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Johansson</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Persson</surname> <given-names>NK</given-names></name>. <article-title>Quantifying shedding of synthetic fibers from textiles; a source of microplastics released into the environment.</article-title> <source>Environ Sci Pollut Res</source>. <year>2018</year>;<volume>25</volume>: <fpage>1191</fpage>–<lpage>1199</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11356-017-0528-7" xlink:type="simple">10.1007/s11356-017-0528-7</ext-link></comment> <object-id pub-id-type="pmid">29081044</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jönsson</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Arturin</surname> <given-names>OL</given-names></name>, <name name-style="western"><surname>Hanning</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Landin</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Holmström</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Roos</surname> <given-names>S</given-names></name>. <article-title>Microplastics shedding from textiles-developing analytical method for measurement of shed material representing release during domestic washing.</article-title> <source>Sustain</source>. <year>2018</year>;<volume>10</volume>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/su10072457" xlink:type="simple">10.3390/su10072457</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Falco</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Cocca</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Guarino</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Gentile</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Ambrogi</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>Ambrosio</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Novel finishing treatments of polyamide fabrics by electrofluidodynamic process to reduce microplastic release during washings</article-title>. <source>Polym Degrad Stab</source>. <year>2019</year>;<volume>165</volume>: <fpage>110</fpage>–<lpage>116</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.polymdegradstab.2019.05.001" xlink:type="simple">10.1016/j.polymdegradstab.2019.05.001</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Falco</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Gentile</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Avolio</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Errico</surname> <given-names>ME</given-names></name>, <name name-style="western"><surname>Di Pace</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Ambrogi</surname> <given-names>V</given-names></name>, <etal>et al</etal>. <article-title>Pectin based finishing to mitigate the impact of microplastics released by polyamide fabrics</article-title>. <source>Carbohydr Polym</source>. <year>2018</year>;<volume>198</volume>: <fpage>175</fpage>–<lpage>180</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.carbpol.2018.06.062" xlink:type="simple">10.1016/j.carbpol.2018.06.062</ext-link></comment> <object-id pub-id-type="pmid">30092988</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McIlwraith</surname> <given-names>HK</given-names></name>, <name name-style="western"><surname>Lin</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Erdle</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Mallos</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Diamond</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Rochman</surname> <given-names>CM</given-names></name>. <article-title>Capturing microfibers–marketed technologies reduce microfiber emissions from washing machines</article-title>. <source>Mar Pollut Bull</source>. <year>2019</year>;<volume>139</volume>: <fpage>40</fpage>–<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.marpolbul.2018.12.012" xlink:type="simple">10.1016/j.marpolbul.2018.12.012</ext-link></comment> <object-id pub-id-type="pmid">30686443</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref013"><label>13</label><mixed-citation publication-type="other" xlink:type="simple">Hussain D. World’s first washing machine with a built-in microplastic filter could be available by next year as manufacturer warns “time is running out” to save the environment. In: Mail Online [Internet]. 2019. Available: <ext-link ext-link-type="uri" xlink:href="https://www.dailymail.co.uk/sciencetech/article-7443607/Worlds-washing-machine-built-microplastic-filter-available-year.html" xlink:type="simple">https://www.dailymail.co.uk/sciencetech/article-7443607/Worlds-washing-machine-built-microplastic-filter-available-year.html</ext-link></mixed-citation></ref>
+<ref id="pone.0233332.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Talvitie</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Mikola</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Setälä</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Heinonen</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Koistinen</surname> <given-names>A</given-names></name>. <article-title>How well is microlitter purified from wastewater?–A detailed study on the stepwise removal of microlitter in a tertiary level wastewater treatment plant</article-title>. <source>Water Res</source>. <year>2017</year>;<volume>109</volume>: <fpage>164</fpage>–<lpage>172</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.watres.2016.11.046" xlink:type="simple">10.1016/j.watres.2016.11.046</ext-link></comment> <object-id pub-id-type="pmid">27883921</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Michielssen</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Michielssen</surname> <given-names>ER</given-names></name>, <name name-style="western"><surname>Ni</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Duhaime</surname> <given-names>MB</given-names></name>. <article-title>Fate of microplastics and other small anthropogenic litter (SAL) in wastewater treatment plants depends on unit processes employed.</article-title> <source>Environ Sci Water Res Technol</source>. <year>2016</year>;<volume>2</volume>: <fpage>1064</fpage>–<lpage>1073</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1039/c6ew00207b" xlink:type="simple">10.1039/c6ew00207b</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Salvador Cesa</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Turra</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Baruque-Ramos</surname> <given-names>J</given-names></name>. <article-title>Synthetic fibers as microplastics in the marine environment: A review from textile perspective with a focus on domestic washings</article-title>. <source>Sci Total Environ</source>. <year>2017</year>;<volume>598</volume>: <fpage>1116</fpage>–<lpage>1129</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.scitotenv.2017.04.172" xlink:type="simple">10.1016/j.scitotenv.2017.04.172</ext-link></comment> <object-id pub-id-type="pmid">28482459</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schöpel</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Stamminger</surname> <given-names>R</given-names></name>. <article-title>A Comprehensive Literature Study on Microfibres from Washing Machines.</article-title> <source>Tenside Surfactants Deterg.</source> <year>2019</year>;<volume>56</volume>: <fpage>94</fpage>–<lpage>104</lpage>.</mixed-citation></ref>
+<ref id="pone.0233332.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hernandez</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Nowack</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Mitrano</surname> <given-names>DM</given-names></name>. <article-title>Polyester Textiles as a Source of Microplastics from Households: A Mechanistic Study to Understand Microfiber Release during Washing</article-title>. <source>Environ Sci Technol</source>. <year>2017</year>;<volume>51</volume>: <fpage>7036</fpage>–<lpage>7046</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/acs.est.7b01750" xlink:type="simple">10.1021/acs.est.7b01750</ext-link></comment> <object-id pub-id-type="pmid">28537711</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Napper</surname> <given-names>IE</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>RC</given-names></name>. <article-title>Release of synthetic microplastic plastic fibres from domestic washing machines: Effects of fabric type and washing conditions</article-title>. <source>Mar Pollut Bull</source>. <year>2016</year>;<volume>112</volume>: <fpage>39</fpage>–<lpage>45</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.marpolbul.2016.09.025" xlink:type="simple">10.1016/j.marpolbul.2016.09.025</ext-link></comment> <object-id pub-id-type="pmid">27686821</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pirc</surname> <given-names>U</given-names></name>, <name name-style="western"><surname>Vidmar</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mozer</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Kržan</surname> <given-names>A</given-names></name>. <article-title>Emissions of microplastic fibers from microfiber fleece during domestic washing.</article-title> <source>Environ Sci Pollut Res</source>. <year>2016</year>;<volume>23</volume>: <fpage>22206</fpage>–<lpage>22211</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11356-016-7703-0" xlink:type="simple">10.1007/s11356-016-7703-0</ext-link></comment> <object-id pub-id-type="pmid">27658400</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yang</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Qiao</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Lei</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Li</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Kang</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Cui</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Microfiber release from different fabrics during washing</article-title>. <source>Environ Pollut</source>. <year>2019</year>;<volume>249</volume>: <fpage>136</fpage>–<lpage>143</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2019.03.011" xlink:type="simple">10.1016/j.envpol.2019.03.011</ext-link></comment> <object-id pub-id-type="pmid">30884392</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cesa</surname> <given-names>FS</given-names></name>, <name name-style="western"><surname>Turra</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Checon</surname> <given-names>HH</given-names></name>, <name name-style="western"><surname>Leonardi</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Baruque-ramos</surname> <given-names>J</given-names></name>. <article-title>Laundering and textile parameters influence fibers release in household washings</article-title>. <source>Environ Pollut</source>. <year>2019</year>; <fpage>113553</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2019.113553" xlink:type="simple">10.1016/j.envpol.2019.113553</ext-link></comment> <object-id pub-id-type="pmid">31761586</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kelly</surname> <given-names>MR</given-names></name>, <name name-style="western"><surname>Lant</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Kurr</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Burgess</surname> <given-names>JG</given-names></name>. <article-title>Importance of Water-Volume on the Release of Microplastic Fibers from Laundry</article-title>. <source>Environ Sci Technol</source>. <year>2019</year>;<volume>53</volume>: <fpage>11735</fpage>–<lpage>11744</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/acs.est.9b03022" xlink:type="simple">10.1021/acs.est.9b03022</ext-link></comment> <object-id pub-id-type="pmid">31460752</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Falco</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Gullo</surname> <given-names>MP</given-names></name>, <name name-style="western"><surname>Gentile</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Di Pace</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Cocca</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gelabert</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Evaluation of microplastic release caused by textile washing processes of synthetic fabrics</article-title>. <source>Environ Pollut</source>. <year>2018</year>;<volume>236</volume>: <fpage>916</fpage>–<lpage>925</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2017.10.057" xlink:type="simple">10.1016/j.envpol.2017.10.057</ext-link></comment> <object-id pub-id-type="pmid">29107418</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sillanpää</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sainio</surname> <given-names>P</given-names></name>. <article-title>Release of polyester and cotton fibers from textiles in machine washings.</article-title> <source>Environ Sci Pollut Res</source>. <year>2017</year>;<volume>24</volume>: <fpage>19313</fpage>–<lpage>19321</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11356-017-9621-1" xlink:type="simple">10.1007/s11356-017-9621-1</ext-link></comment> <object-id pub-id-type="pmid">28669092</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Falco</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Di Pace</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Cocca</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Avella</surname> <given-names>M</given-names></name>. <article-title>The contribution of washing processes of synthetic clothes to microplastic pollution.</article-title> <source>Sci Rep</source>. <year>2019</year>;<volume>9</volume>: <fpage>1</fpage>–<lpage>11</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-018-37186-2" xlink:type="simple">10.1038/s41598-018-37186-2</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hartline</surname> <given-names>NL</given-names></name>, <name name-style="western"><surname>Bruce</surname> <given-names>NJ</given-names></name>, <name name-style="western"><surname>Karba</surname> <given-names>SN</given-names></name>, <name name-style="western"><surname>Ruff</surname> <given-names>EO</given-names></name>, <name name-style="western"><surname>Sonar</surname> <given-names>SU</given-names></name>, <name name-style="western"><surname>Holden</surname> <given-names>PA</given-names></name>. <article-title>Microfiber Masses Recovered from Conventional Machine Washing of New or Aged Garments</article-title>. <source>Environ Sci Technol</source>. <year>2016</year>;<volume>50</volume>: <fpage>11532</fpage>–<lpage>11538</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1021/acs.est.6b03045" xlink:type="simple">10.1021/acs.est.6b03045</ext-link></comment> <object-id pub-id-type="pmid">27689236</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Falco</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Gentile</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Di Pace</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Avella</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Cocca</surname> <given-names>M</given-names></name>. <article-title>Quantification of microfibres released during washing of synthetic clothes in real conditions and at lab scale.</article-title> <source>Eur Phys J Plus.</source> <year>2018</year>;<fpage>133</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1140/epjp/i2018-12123-x" xlink:type="simple">10.1140/epjp/i2018-12123-x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref029"><label>29</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Robertson</surname> <given-names>J.</given-names></name>; <name name-style="western"><surname>Roux</surname> <given-names>C.</given-names></name>; <name name-style="western"><surname>Wiggins</surname> <given-names>KG</given-names></name>. <source>Forensic examination of fibres</source>. <edition designator="3">3rd ed</edition>. <publisher-name>Chapman &amp; Hall / CRC Press</publisher-name>; <year>2017</year>.</mixed-citation></ref>
+<ref id="pone.0233332.ref030"><label>30</label><mixed-citation publication-type="other" xlink:type="simple">A.S.T.M. D629–15, Standard Test Methods for Quantitative Analysis of Textiles. [cited 5 Nov 2019]. Available: <ext-link ext-link-type="uri" xlink:href="https://www.astm.org/Standards/D629.htm" xlink:type="simple">https://www.astm.org/Standards/D629.htm</ext-link></mixed-citation></ref>
+<ref id="pone.0233332.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sharma</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Dalal</surname> <given-names>EN</given-names></name>. <article-title>The CIEDE2000 color-difference formula: Implementation notes, supplementary test data, and mathematical observations.</article-title> <source>Color Res Appl</source>. <year>2005</year>;<volume>30</volume>: <fpage>21</fpage>–<lpage>30</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/col.20070" xlink:type="simple">10.1002/col.20070</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref032"><label>32</label><mixed-citation publication-type="other" xlink:type="simple">A.I.S.E. The Case for the “A.I.S.E Low Temperature Washing” Initiative Substantiation Dossier. Brussels; 2013.</mixed-citation></ref>
+<ref id="pone.0233332.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Watt</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Roux</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Robertson</surname> <given-names>J</given-names></name>. <article-title>The population of coloured textile fibres in domestic washing machines.</article-title> <source>Sci Justice—J Forensic Sci Soc</source>. <year>2005</year>;<volume>45</volume>: <fpage>75</fpage>–<lpage>83</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1355-0306(05)71632-4" xlink:type="simple">10.1016/S1355-0306(05)71632-4</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0233332.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Woodall</surname> <given-names>LC</given-names></name>, <name name-style="western"><surname>Gwinnett</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Packer</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Thompson</surname> <given-names>RC</given-names></name>, <name name-style="western"><surname>Robinson</surname> <given-names>LF</given-names></name>, <name name-style="western"><surname>Paterson</surname> <given-names>GLJ</given-names></name>. <article-title>Using a forensic science approach to minimize environmental contamination and to identify microfibres in marine sediments</article-title>. <source>Mar Pollut Bull</source>. <year>2015</year>;<volume>95</volume>: <fpage>40</fpage>–<lpage>46</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.marpolbul.2015.04.044" xlink:type="simple">10.1016/j.marpolbul.2015.04.044</ext-link></comment> <object-id pub-id-type="pmid">25936572</object-id></mixed-citation></ref>
+<ref id="pone.0233332.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Laitala</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Boks</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Klepp</surname> <given-names>IG</given-names></name>. <article-title>Making clothing last: A design approach for reducing the environmental impacts.</article-title> <source>Int J Des</source>. <year>2015</year>;<volume>9</volume>: <fpage>93</fpage>–<lpage>107</lpage>. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ijdesign.org/index.php/IJDesign/article/view/1613/696" xlink:type="simple">http://www.ijdesign.org/index.php/IJDesign/article/view/1613/696</ext-link></mixed-citation></ref>
+<ref id="pone.0233332.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen-Yu</surname> <given-names>JH</given-names></name>, <name name-style="western"><surname>Emmel</surname> <given-names>JA</given-names></name>. <article-title>Comparisons of fabric care performances between conventional and high-efficiency washers and dryers.</article-title> <source>Fash Text.</source> <year>2018</year>;<volume>5</volume>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s40691-018-0135-3" xlink:type="simple">10.1186/s40691-018-0135-3</ext-link></comment></mixed-citation></ref>
+</ref-list>
+</back>
+<sub-article article-type="aggregated-review-documents" id="pone.0233332.r001" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0233332.r001</article-id>
+<title-group>
+<article-title>Decision Letter 0</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Annamalai</surname>
+<given-names>Pratheep K.</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2020</copyright-year>
+<copyright-holder>Pratheep K. Annamalai</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0233332" document-id-type="doi" document-type="article" id="rel-obj001" link-type="peer-reviewed-article"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>0</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">3 Feb 2020</named-content>
+</p>
+<p>PONE-D-19-32053</p>
+<p>Microfiber Release from Real Soiled Consumer Laundry and the Impact of Fabric Care Products and Washing Conditions</p>
+<p>PLOS ONE</p>
+<p>Dear Dr Lant,</p>
+<p>Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we feel that it has merit but does not fully meet PLOS ONE’s publication criteria as it currently stands. Therefore, we invite you to submit a revised version of the manuscript that addresses the points raised during the review process.</p>
+<p>We would appreciate receiving your revised manuscript by Mar 19 2020 11:59PM. When you are ready to submit your revision, log on to <ext-link ext-link-type="uri" xlink:href="https://www.editorialmanager.com/pone/" xlink:type="simple">https://www.editorialmanager.com/pone/</ext-link> and select the 'Submissions Needing Revision' folder to locate your manuscript file.</p>
+<p>If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.</p>
+<p>To enhance the reproducibility of your results, we recommend that if applicable you deposit your laboratory protocols in protocols.io, where a protocol can be assigned its own identifier (DOI) such that it can be cited independently in the future. For instructions see: <ext-link ext-link-type="uri" xlink:href="http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols" xlink:type="simple">http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols</ext-link></p>
+<p>Please include the following items when submitting your revised manuscript:</p>
+<p><list list-type="bullet"><list-item><p>A rebuttal letter that responds to each point raised by the academic editor and reviewer(s). This letter should be uploaded as separate file and labeled 'Response to Reviewers'.</p></list-item><list-item><p>A marked-up copy of your manuscript that highlights changes made to the original version. This file should be uploaded as separate file and labeled 'Revised Manuscript with Track Changes'.</p></list-item><list-item><p>An unmarked version of your revised paper without tracked changes. This file should be uploaded as separate file and labeled 'Manuscript'.</p></list-item></list></p>
+<p>Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out.</p>
+<p>We look forward to receiving your revised manuscript.</p>
+<p>Kind regards,</p>
+<p>Pratheep K. Annamalai</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+<p>Journal Requirements:</p>
+<p>When submitting your revision, we need you to address these additional requirements:</p>
+<p>1. Please ensure that your manuscript meets PLOS ONE's style requirements, including those for file naming. The PLOS ONE style templates can be found at <ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/attachments/PLOSOne_formatting_sample_main_body.pdf" xlink:type="simple">http://www.plosone.org/attachments/PLOSOne_formatting_sample_main_body.pdf</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/attachments/PLOSOne_formatting_sample_title_authors_affiliations.pdf" xlink:type="simple">http://www.plosone.org/attachments/PLOSOne_formatting_sample_title_authors_affiliations.pdf</ext-link></p>
+<p>2. We note that Figures 1 and S1 in your submission contain copyrighted images. All PLOS content is published under the Creative Commons Attribution License (CC BY 4.0), which means that the manuscript, images, and Supporting Information files will be freely available online, and any third party is permitted to access, download, copy, distribute, and use these materials in any way, even commercially, with proper attribution. For more information, see our copyright guidelines: <ext-link ext-link-type="uri" xlink:href="http://journals.plos.org/plosone/s/licenses-and-copyright" xlink:type="simple">http://journals.plos.org/plosone/s/licenses-and-copyright</ext-link>.</p>
+<p>We require you to either (1) present written permission from the copyright holder to publish these figures specifically under the CC BY 4.0 license, or (2) remove the figures from your submission:</p>
+<p>1.         You may seek permission from the original copyright holder of Figures 1 and S1 to publish the content specifically under the CC BY 4.0 license.</p>
+<p>We recommend that you contact the original copyright holder with the Content Permission Form (<ext-link ext-link-type="uri" xlink:href="http://journals.plos.org/plosone/s/file?id=7c09/content-permission-form.pdf" xlink:type="simple">http://journals.plos.org/plosone/s/file?id=7c09/content-permission-form.pdf</ext-link>) and the following text:</p>
+<p>“I request permission for the open-access journal PLOS ONE to publish XXX under the Creative Commons Attribution License (CCAL) CC BY 4.0 (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">http://creativecommons.org/licenses/by/4.0/</ext-link>). Please be aware that this license allows unrestricted use and distribution, even commercially, by third parties. Please reply and provide explicit written permission to publish XXX under a CC BY license and complete the attached form.”</p>
+<p>Please upload the completed Content Permission Form or other proof of granted permissions as an "Other" file with your submission. </p>
+<p>In the figure caption of the copyrighted figure, please include the following text: “Reprinted from [ref] under a CC BY license, with permission from [name of publisher], original copyright [original copyright year].”</p>
+<p>2.    If you are unable to obtain permission from the original copyright holder to publish these figures under the CC BY 4.0 license or if the copyright holder’s requirements are incompatible with the CC BY 4.0 license, please either i) remove the figure or ii) supply a replacement figure that complies with the CC BY 4.0 license. Please check copyright information on all replacement figures and update the figure caption with source information. If applicable, please specify in the figure caption text when a figure is similar but not identical to the original image and is therefore for illustrative purposes only.</p>
+<p>3. Please clarify whether there was any ethical oversight over the study, and whether participants gave consent to take part in the study.</p>
+<p>4. Thank you for stating the following in the Financial Disclosure section:</p>
+<p><!-- <span class="ctl193_questionTreeView_0 treeViewLeafNode ctl193_questionTreeView_5" id="ctl193_questionTreeViewn6" style="border-style:none;font-size:1em;"> --><!-- <span class="nochildren" style="padding-left:4em; display:inline-block;"> -->"This work was sponsored by Procter &amp; Gamble, a manufacturer of detergents and fabric softeners. The funders provided support in the form of salaries for NJL and ASH."<!-- </span> --><!-- </span> --></p>
+<p>We note that one or more of the authors have an affiliation to the commercial funders of this research study : <!-- <span class="ctl193_questionTreeView_0 treeViewLeafNode ctl193_questionTreeView_5" id="ctl193_questionTreeViewn6" style="border-style:none;font-size:1em;"> --><!-- <span class="nochildren" style="padding-left:4em; display:inline-block;"> -->Procter &amp; Gamble<!-- </span> --><!-- </span> -->.</p>
+<p>1. Please provide an amended Funding Statement declaring this commercial affiliation, as well as a statement regarding the Role of Funders in your study. If the funding organization did not play a role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript and only provided financial support in the form of authors' salaries and/or research materials, please review your statements relating to the author contributions, and ensure you have specifically and accurately indicated the role(s) that these authors had in your study. You can update author roles in the Author Contributions section of the online submission form.</p>
+<p>Please also include the following statement within your amended Funding Statement.</p>
+<p>“The funder provided support in the form of salaries for authors [insert relevant initials], but did not have any additional role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript. The specific roles of these authors are articulated in the ‘author contributions’ section.”</p>
+<p>If your commercial affiliation did play a role in your study, please state and explain this role within your updated Funding Statement.</p>
+<p>2. Please also provide an updated Competing Interests Statement declaring this commercial affiliation along with any other relevant declarations relating to employment, consultancy, patents, products in development, or marketed products, etc.  </p>
+<p>Within your Competing Interests Statement, please confirm that this commercial affiliation does not alter your adherence to all PLOS ONE policies on sharing data and materials by including the following statement: "This does not alter our adherence to  PLOS ONE policies on sharing data and materials.” (as detailed online in our guide for authors <ext-link ext-link-type="uri" xlink:href="http://journals.plos.org/plosone/s/competing-interests" xlink:type="simple">http://journals.plos.org/plosone/s/competing-interests</ext-link>). If this adherence statement is not accurate and  there are restrictions on sharing of data and/or materials, please state these. Please note that we cannot proceed with consideration of your article until this information has been declared.</p>
+<p>Please include both an updated Funding Statement and Competing Interests Statement in your cover letter. We will change the online submission form on your behalf.</p>
+<p>Please know it is PLOS ONE policy for corresponding authors to declare, on behalf of all authors, all potential competing interests for the purposes of transparency. PLOS defines a competing interest as anything that interferes with, or could reasonably be perceived as interfering with, the full and objective presentation, peer review, editorial decision-making, or publication of research or non-research articles submitted to one of the journals. Competing interests can be financial or non-financial, professional, or personal. Competing interests can arise in relationship to an organization or another person. Please follow this link to our website for more details on competing interests: <ext-link ext-link-type="uri" xlink:href="http://journals.plos.org/plosone/s/competing-interests" xlink:type="simple">http://journals.plos.org/plosone/s/competing-interests</ext-link></p>
+<p>5. We note that you have stated that you will provide repository information for your data at acceptance. Should your manuscript be accepted for publication, we will hold it until you provide the relevant accession numbers or DOIs necessary to access your data. If you wish to make changes to your Data Availability statement, please describe these changes in your cover letter and we will update your Data Availability statement to reflect the information you provide.</p>
+<p>[Note: HTML markup is below. Please do not edit.]</p>
+<p>Reviewers' comments:</p>
+<p>Reviewer's Responses to Questions</p>
+<p><!-- <font color="black"> --><bold>Comments to the Author</bold></p>
+<p>1. Is the manuscript technically sound, and do the data support the conclusions?</p>
+<p>The manuscript must describe a technically sound piece of scientific research with data that supports the conclusions. Experiments must have been conducted rigorously, with appropriate controls, replication, and sample sizes. The conclusions must be drawn appropriately based on the data presented. <!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->2. Has the statistical analysis been performed appropriately and rigorously? <!-- </font> --></p>
+<p>Reviewer #1: I Don't Know</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->3. Have the authors made all data underlying the findings in their manuscript fully available?</p>
+<p>The <ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/static/policies.action#sharing" xlink:type="simple">PLOS Data policy</ext-link> requires authors to make all data underlying the findings described in their manuscript fully available without restriction, with rare exception (please refer to the Data Availability Statement in the manuscript PDF file). The data should be provided as part of the manuscript or its supporting information, or deposited to a public repository. For example, in addition to summary statistics, the data points behind means, medians and variance measures should be available. If there are restrictions on publicly sharing data—e.g. participant privacy or use of data from a third party—those must be specified.<!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: No</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->4. Is the manuscript presented in an intelligible fashion and written in standard English?</p>
+<p>PLOS ONE does not copyedit accepted manuscripts, so the language in submitted articles must be clear, correct, and unambiguous. Any typographical or grammatical errors should be corrected at revision, so please note any specific errors here.<!-- </font> --></p>
+<p>Reviewer #1: Yes</p>
+<p>Reviewer #2: Yes</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->5. Review Comments to the Author</p>
+<p>Please use the space provided to explain your answers to the questions above. You may also include additional comments for the author, including concerns about dual publication, research ethics, or publication ethics. (Please upload your review as an attachment if it exceeds 20,000 characters)<!-- </font> --></p>
+<p>Reviewer #1: The manuscript described the microfiber release from textiles. The topic is current and is having an increasing number of studies in the last few years. Authors should more clearly differentiate their study from those published before.</p>
+<p>1. More information about textile characteristics of yarn, fabric constructions, pilling, etc., should be added;</p>
+<p>2. The power of wahsing machine is very important. Please add it;</p>
+<p>3. Please add the washing procedure each time;</p>
+<p>4. The fiber characteristics shoud be added in the result section;</p>
+<p>5. Refine the conclusion section.</p>
+<p>Reviewer #2: Abstract</p>
+<p>Line 26 - "an average of over 100 ppm" - tell us what the average was, not a number that was below the average, also include the uncertainty and n = X</p>
+<p>Line 28 - 30 - give actual release data including uncertainties and either the p value that indicates a significant difference or don't mention the difference if it isn't significant</p>
+<p>Line 30 - 32 - what are quicker and colder washes - better to be quantitative</p>
+<p>Line34 - 36 - what about powder detergents which, I would guess, are probably more regularly used than pods or plain water</p>
+<p>LIne 41 - 44 - does colder quicker washes reduce the total fibre release or the fibre release per wash, what was the low level of fibre release?</p>
+<p>Methods</p>
+<p>Line 155 - any particular reason why you didn't use washing powder but used a liquid detergent - is this based on industry data on frequency of use of these different detergents?</p>
+<p>Line 173-4 - why weren't the fabrics dried between washes - surely that would reflect normal use and it could be that the wetting / drying cycle has a significant impact on fibre production.</p>
+<p>Line 186-188 - doesn't whether microfibres are collected by the drier or not depend on the type of tumble drier used? Don't condensing tumble driers also collect water which microfibres could end up in via suspensions?</p>
+<p>Line 211 - none the less in terms of quality control shouldn't you confirm in your study that this wash process is also working as presumably different machines / fabrics may behave differently?</p>
+<p>Lines 248 - 251 - what shapes and characteristics features related to synthetic fibres and which to cotton and wool?</p>
+<p>Line 253 - how was refractive index mesaured?</p>
+<p>From line 267 - this is about recovery of fibres from filter paper but haven't some fibres already been removed using tape as detailed in the previous section?</p>
+<p>Line 27 4 - what was the purpose of the sodium hypochlorite?</p>
+<p>Fig 2. R2 value of curve needs a p value to be meaningful - also need to state the type of equation used to fit the trend line</p>
+<p>Line 316 - 318 - give uncertainties and do stats. to see if these are significantly different.</p>
+<p>Line 330 - 333 - you need to make it clear here that you are assuming that your digestion dissolved e.g. the cotton and viscose fibres rather than testing for this and that you are relying on the reference [31] for this. I think these statements about what the digestion procedure digests belong in your methods since they are not your results. Also it isn't clear how you generated the data for Fig. 3 - did you weigh the solid residue between digestions?</p>
+<p>Ine 341 - won't this depend on the fabric composition?</p>
+<p>LIne 353 - unwise to rely on anecdotal evidence in a scientific publication. I would leave it that you don't know and didn't test the colourless fibres</p>
+<p>Line 358 - again, relying on anecdotal evidence - be clearer what this is here if you retain this.</p>
+<p>LIne 376 here you mention statistics when comparing two sets of data. Does that mean where you don't mention them the differences weren't significant. If you mention differences which weren't statistically significant elsewhere really you should remove these. The whole point of the stats. is that they allow you to know whether a difference is meanfingful or not, so if a difference isn't significant you can't say there is a difference.</p>
+<p>Fig. 4 - worth stating what the various lines on th ebox plot mean as different people use different protocols, e.g. means vs medians</p>
+<p>LIne 405 - why in the absence of detergent - is that typical behaviour?</p>
+<p>Fig. captions - as well as stating what the error bars are you need to say what n =</p>
+<p>Data is given in graphs but needs to be provided in tabular form without averaging in the Supplementary information for ease of use by others.</p>
+<p>**********</p>
+<p><!-- <font color="black"> -->6. PLOS authors have the option to publish the peer review history of their article (<ext-link ext-link-type="uri" xlink:href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process#loc-peer-review-history" xlink:type="simple">what does this mean?</ext-link>). If published, this will include your full peer review and any attached files.</p>
+<p>If you choose “no”, your identity will remain anonymous but your review may still be made public.</p>
+<p><bold>Do you want your identity to be public for this peer review?</bold> For information about this choice, including consent withdrawal, please see our <ext-link ext-link-type="uri" xlink:href="https://www.plos.org/privacy-policy" xlink:type="simple">Privacy Policy</ext-link>.<!-- </font> --></p>
+<p>Reviewer #1: Yes: Lihui An</p>
+<p>Reviewer #2: No</p>
+<p>[NOTE: If reviewer comments were submitted as an attachment file, they will be attached to this email and accessible via the submission site. Please log into your account, locate the manuscript record, and check for the action link "View Attachments". If this link does not appear, there are no attachment files to be viewed.]</p>
+<p>While revising your submission, please upload your figure files to the Preflight Analysis and Conversion Engine (PACE) digital diagnostic tool, <ext-link ext-link-type="uri" xlink:href="https://pacev2.apexcovantage.com/" xlink:type="simple">https://pacev2.apexcovantage.com/</ext-link>. PACE helps ensure that figures meet PLOS requirements. To use PACE, you must first register as a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you will find detailed instructions on how to use the tool. If you encounter any issues or have any questions when using PACE, please email us at <email xlink:type="simple">figures@plos.org</email>. Please note that Supporting Information files do not need this step.</p>
+</body>
+</sub-article>
+<sub-article article-type="author-comment" id="pone.0233332.r002">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0233332.r002</article-id>
+<title-group>
+<article-title>Author response to Decision Letter 0</article-title>
+</title-group>
+<related-object document-id="10.1371/journal.pone.0233332" document-id-type="doi" document-type="peer-reviewed-article" id="rel-obj002" link-type="rebutted-decision-letter" object-id="10.1371/journal.pone.0233332.r001" object-id-type="doi" object-type="decision-letter"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="author-response-date">26 Mar 2020</named-content>
+</p>
+<p>Dear Dr P. K. Annamalai,</p>
+<p>Re: Microfiber Release from Real Soiled Consumer Laundry and the Impact of Fabric Care Products and Washing Conditions – Response to Reviewers</p>
+<p> We thank the academic editor and reviewers for their careful consideration of our article and the feedback provided. A comprehensively revised version of the MS now been submitted, and as requested, we have provided clean and marked-up versions of the revised version. Each point raised by the reviewers has either been reflected in the amended MS and/or discussed in this letter. Taking each point from the decision letter in turn:</p>
+<p>• We have ensured that our manuscript meets PLOS ONE's style requirements, including those for file naming.</p>
+<p>• Figures 1 and S1 have been revised to ensure they are free of any copyrighted images. Specifically, the equipment images in Figure 1 have been replaced by those taken by the authors. All images in S1 were recorded by the authors and those images which included brand names have been removed. We certify that all images are free to be published under the Creative Commons Attribution License (CC BY 4.0). All figure files were confirmed to meet PLOS’s requirements using the PACE digital diagnostic tool.</p>
+<p>• Regarding ethical oversight, no humans or animals were involved in the study beyond those scientists directly involved in the work. Laundry loads were borrowed from volunteers on the understanding that they would be used in scientific research and returned to the volunteers after washing.</p>
+<p>• We have amended the funding statement using the suggested text, as follows: </p>
+<p>“The funder provided support in the form of salaries for N.J.L. and A.S.H. and decision to publish but did not have any additional role in the study design, data collection and analysis or preparation of the manuscript. The specific roles of these authors are articulated in the ‘author contributions’ section. This does not alter our adherence to PLOS ONE policies on sharing data and materials.”</p>
+<p>• The entire data set has now been included as supplementary tables. Thus, every data point used to generate each graph has now been presented in full. </p>
+<p>The following comments relate to the reviewers’ responses to questions:</p>
+<p>Q1: No response needed as both reviewers agreed that the manuscript is technically sound and that the data supports the conclusions. </p>
+<p>Q2: No response needed as no issues regarding statistical analysis were raised</p>
+<p>Q3: One reviewer commented that all data underlying the findings in the manuscript was not available. All data has now been included in the form of supplementary tables. </p>
+<p>Q4: No response needed as no issues regarding presentation and language were raised. The MS has been proof-read to eliminate typographical and grammatical errors. </p>
+<p>Q5: The miscellaneous comments in this section have been addressed in the table below: </p>
+<p>Comment Response</p>
+<p>The manuscript described the microfiber release from textiles. The topic is current and is having an increasing number of studies in the last few years. Authors should more clearly differentiate their study from those published before.</p>
+<p>1. More information about textile characteristics of yarn, fabric constructions, pilling, etc., should be added;</p>
+<p>2. The power of washing machine is very important. Please add it;</p>
+<p>3. Please add the washing procedure each time;</p>
+<p>4. The fiber characteristics should be added in the result Refine the conclusion section. 1. More textile characteristics from the supplier specification have been included. </p>
+<p>2. In European and North America (focus of these studies), power is not a distinguishing feature of any washing machines. It may be more important in markets with semi-automatic appliances. Power consumption data of European and North American washing machines is published in the manuals of these appliances, but this isn’t relevant. As full details of appliance models are provided, anyone requiring further information about any aspect of the washing machine can consult the manuals online. </p>
+<p>3. This has been done. It was missing in one instance and in all cases reference is made to the relevant general method in the materials and methods section.</p>
+<p>4. Done. Conclusion has also been sharpened up.</p>
+<p>Line 26 - "an average of over 100 ppm" - tell us what the average was, not a number that was below the average, also include the uncertainty and n = X Done</p>
+<p>Line 28 - 30 - give actual release data including uncertainties and either the p value that indicates a significant difference or don't mention the difference if it isn't significant Done</p>
+<p>Line 30 - 32 - what are quicker and colder washes - better to be quantitative Done</p>
+<p>Line 34 - 36 - what about powder detergents which, I would guess, are probably more regularly used than pods or plain water In Europe and North America, the focus of the present study, liquid detergents are much more popular than powders which are rapidly declining in market share. We may include powders in a future article focused on other markets such as Asia, Africa and Latin America where powder detergents are still the most popular detergent form.</p>
+<p>Line 41 - 44 - does colder quicker washes reduce the total fibre release or the fibre release per wash, what was the low level of fibre release? Updated to be more specific.</p>
+<p>Line 155 - any particular reason why you didn't use washing powder but used a liquid detergent - is this based on industry data on frequency of use of these different detergents? Yes. See above. Powders were recently described as ‘almost extinct’ in the USA and are declining in other regions. See this link for further details.</p>
+<p><ext-link ext-link-type="uri" xlink:href="https://cen.acs.org/business/consumer-products/Almost-extinct-US-powdered-laundry/97/i4" xlink:type="simple">https://cen.acs.org/business/consumer-products/Almost-extinct-US-powdered-laundry/97/i4</ext-link></p>
+<p>Line 173-4 - why weren't the fabrics dried between washes - surely that would reflect normal use and it could be that the wetting / drying cycle has a significant impact on fibre production. Line drying is the most common method of drying laundry outside North America. There is no literature precedent for indoor line drying causing significant fiber loss, so testing without such a line drying step is expected to yield similar results to continuous cycling in the absence of such a drying process. The same is not true for tumble drying as the air flow causes significant fiber loss, which is why the North America – focused testing included tumble drying.</p>
+<p>Line 186-188 - doesn't whether microfibres are collected by the drier or not depend on the type of tumble drier used? Don't condensing tumble driers also collect water which microfibres could end up in via suspensions? All tumble dryers will collect fibers in the lint filter, and these are disposed in dry household refuse so have not been implicated as a source of marine pollution. We have not encountered fibers in condenser dryers, but in any case, that type of appliance was not used in the present study. We chose typical tumble-drying conditions for the present study; a study of impact of tumble-drying conditions on subsequent microfiber loss in the wash process was not included.</p>
+<p>Line 211 - none the less in terms of quality control shouldn't you confirm in your study that this wash process is also working as presumably different machines / fabrics may behave differently? This has now been clarified. Rationale for not repeating the detail is that Kelly et al used the same washing machines and some of the same textiles as the present study.</p>
+<p>Lines 248 - 251 - what shapes and characteristics features related to synthetic fibres and which to cotton and wool? This has now been explained.</p>
+<p>Line 253 - how was refractive index measured? This section has been rewritten and a reference added.</p>
+<p>From line 267 - this is about recovery of fibres from filter paper but haven't some fibres already been removed using tape as detailed in the previous section? The protocol has been clarified with addition of a new paragraph.</p>
+<p>Line 274 - what was the purpose of the sodium hypochlorite? This has now been explained.</p>
+<p>Fig 2. R2 value of curve needs a p value to be meaningful - also need to state the type of equation used to fit the trend line Done. This has now been fully explained with requested data and equation in the text. It is now unambiguously clear that a squares equation has been applied.</p>
+<p>Line 316 - 318 - give uncertainties and do stats. to see if these are significantly different. This has been fully updated with stats.</p>
+<p>Line 330 - 333 - you need to make it clear here that you are assuming that your digestion dissolved e.g. the cotton and viscose fibres rather than testing for this and that you are relying on the reference [31] for this. I think these statements about what the digestion procedure digests belong in your methods since they are not your results. Also it isn't clear how you generated the data for Fig. 3 - did you weigh the solid residue between digestions? This has indeed been moved to the methods section and clarified.</p>
+<p>Line 341 - Won't this depend on the fabric composition? Absolutely. That is why we tested real mixed loads from consumers – that is an important novel aspect of our study. On the face of it, the high proportion of natural fibers in the released fiber mass is inconsistent with the high incidence of synthetic fibers in the general clothing market. This can be rationalized by the fact that most natural yarns are produced by spinning relatively short staple fibers whereas many synthetic yarns are spun from long filaments that are inherently more resistant to release. This point is discussed in the conclusions.</p>
+<p>Line 353 - Unwise to rely on anecdotal evidence in a scientific publication. I would leave it that you don't know and didn't test the colourless fibres. Agree. That section has been updated accordingly.</p>
+<p>Line 358 - Again, relying on anecdotal evidence - be clearer what this is here if you retain this. This sentence has been removed.</p>
+<p>Line 376 Here you mention statistics when comparing two sets of data. Does that mean where you don't mention them the differences weren't significant. If you mention differences which weren't statistically significant elsewhere really you should remove these. The whole point of the stats. is that they allow you to know whether a difference is meaningful or not, so if a difference isn't significant you can't say there is a difference. We describe significant differences, with supporting stats, in relation to the comparisons in Figures 4 and 5. We state that there are no significant differences between the comparisons involved in Figures 6 and 7, and this is evident from the standard deviations show in the graphs and additional data that is now included as supplementary tables.  </p>
+<p>Fig. 4 - Worth stating what the various lines on the box plot mean as different people use different protocols, e.g. means vs medians.  The box plot has now been fully described at first mention, which is the reference to S5 Fig.</p>
+<p>Line 405 - Why in the absence of detergent - is that typical behaviour? It is not typical for consumers to wash in the absence of detergent. The only purpose of making this comparison is to understand, on a single-variable basis, whether the detergent influences microfiber release. </p>
+<p>Fig. captions - as well as stating what the error bars are you need to say what n = Done</p>
+<p>Data is given in graphs but needs to be provided in tabular form without averaging in the Supplementary information for ease of use by others. Done</p>
+<p>We believe that the revisions have significantly improved the MS and hope that they will be sufficient to enable acceptance of the article. We look forward to hearing from you.</p>
+<p>Yours sincerely,</p>
+<p>Dr Neil J. Lant, on behalf of the authors.</p>
+<supplementary-material id="pone.0233332.s012" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0233332.s012" xlink:type="simple">
+<label>Attachment</label>
+<caption>
+<p>Submitted filename: <named-content content-type="submitted-filename">response to reviewers.pdf</named-content></p>
+</caption>
+</supplementary-material>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0233332.r003" specific-use="decision-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0233332.r003</article-id>
+<title-group>
+<article-title>Decision Letter 1</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Annamalai</surname>
+<given-names>Pratheep K.</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2020</copyright-year>
+<copyright-holder>Pratheep K. Annamalai</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0233332" document-id-type="doi" document-type="article" id="rel-obj003" link-type="peer-reviewed-article"/>
+<custom-meta-group>
+<custom-meta>
+<meta-name>Submission Version</meta-name>
+<meta-value>1</meta-value>
+</custom-meta>
+</custom-meta-group>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">5 May 2020</named-content>
+</p>
+<p>Microfiber Release from Real Soiled Consumer Laundry and the Impact of Fabric Care Products and Washing Conditions</p>
+<p>PONE-D-19-32053R1</p>
+<p>Dear Dr. Neil Lant</p>
+<p>Thank you again for submission to PLOS One and taking time for carefully revising the manuscript according the comments from reviewers. I am pleased to inform you that your revised manuscript has been judged scientifically suitable for publication and will be formally accepted for publication once it complies with all outstanding technical requirements.</p>
+<p>Within one week, you will receive an e-mail containing information on the amendments required prior to publication. When all required modifications have been addressed, you will receive a formal acceptance letter and your manuscript will proceed to our production department and be scheduled for publication.</p>
+<p>Shortly after the formal acceptance letter is sent, an invoice for payment will follow. To ensure an efficient production and billing process, please log into Editorial Manager at <ext-link ext-link-type="uri" xlink:href="https://www.editorialmanager.com/pone/" xlink:type="simple">https://www.editorialmanager.com/pone/</ext-link>, click the "Update My Information" link at the top of the page, and update your user information. If you have any billing related questions, please contact our Author Billing department directly at <email xlink:type="simple">authorbilling@plos.org</email>.</p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, you must inform our press team as soon as possible and no later than 48 hours after receiving the formal acceptance. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information, please contact <email xlink:type="simple">onepress@plos.org</email>.</p>
+<p>With kind regards,</p>
+<p>Pratheep K. Annamalai</p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+<sub-article article-type="editor-report" id="pone.0233332.r004" specific-use="acceptance-letter">
+<front-stub>
+<article-id pub-id-type="doi">10.1371/journal.pone.0233332.r004</article-id>
+<title-group>
+<article-title>Acceptance letter</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Annamalai</surname>
+<given-names>Pratheep K.</given-names>
+</name>
+<role>Academic Editor</role>
+</contrib>
+</contrib-group>
+<permissions>
+<copyright-year>2020</copyright-year>
+<copyright-holder>Pratheep K. Annamalai</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<related-object document-id="10.1371/journal.pone.0233332" document-id-type="doi" document-type="article" id="rel-obj004" link-type="peer-reviewed-article"/>
+</front-stub>
+<body>
+<p>
+<named-content content-type="letter-date">11 May 2020</named-content>
+</p>
+<p>PONE-D-19-32053R1 </p>
+<p>Microfiber Release from Real Soiled Consumer Laundry and the Impact of Fabric Care Products and Washing Conditions </p>
+<p>Dear Dr. Lant:</p>
+<p>I am pleased to inform you that your manuscript has been deemed suitable for publication in PLOS ONE. Congratulations! Your manuscript is now with our production department. </p>
+<p>If your institution or institutions have a press office, please notify them about your upcoming paper at this point, to enable them to help maximize its impact. If they will be preparing press materials for this manuscript, please inform our press team within the next 48 hours. Your manuscript will remain under strict press embargo until 2 pm Eastern Time on the date of publication. For more information please contact <email xlink:type="simple">onepress@plos.org</email>.</p>
+<p>For any other questions or concerns, please email <email xlink:type="simple">plosone@plos.org</email>. </p>
+<p>Thank you for submitting your work to PLOS ONE.</p>
+<p>With kind regards,</p>
+<p>PLOS ONE Editorial Office Staff</p>
+<p>on behalf of</p>
+<p>Dr. Pratheep K. Annamalai  </p>
+<p>Academic Editor</p>
+<p>PLOS ONE</p>
+</body>
+</sub-article>
+</article>

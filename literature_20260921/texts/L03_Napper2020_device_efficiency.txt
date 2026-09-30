@@ -1,0 +1,632 @@
+PEARL
+The efficiency of devices intended to reduce microfibre release during clothes
+washing
+Napper, Imogen E.; Barrett, Aaron C.; Thompson, Richard C.
+Published in:
+Science of the Total Environment
+DOI:
+10.1016/j.scitotenv.2020.140412
+Publication date:
+2020
+Link:
+Link to publication in PEARL
+Citation for published version (APA):
+Napper, I. E., Barrett, A. C., & Thompson, R. C. (2020). The efficiency of devices intended to
+reduce microfibre release during clothes washing. Science of the Total Environment, 738(0),
+140412-140412. https://doi.org/10.1016/j.scitotenv.2020.140412
+All content in PEARL is protected by copyright law. Author manuscripts are made available in accordance with
+publisher policies. Wherever possible please cite the published version using the details provided on the item
+record or document. In the absence of an open licence (e.g. Creative Commons), permissions for further reuse
+of content
+should be sought from the publisher or author.
+Download date: 20. Sept. 2026
+
+Disclaimer 1 
+‘This is a near final copy of the accepted paper as submitted for publication. Readers are 2 
+advised to refer to the final version of the paper which can be found at  3 
+ 4 
+https://www.sciencedirect.com/science/article/abs/pii/S0048969720339346?via%3Di5 
+hub  6 
+ 7 
+ 8 
+The efficiency of devices intended to reduce microfibre release during clothes 9 
+washing  10 
+ 11 
+Imogen E. Napper, Aaron C. Barrett, Richard C. Thompson 12 
+ 13 
+Abstract:  14 
+ 15 
+The washing of synthetic clothes is considered to be a substantial source of 16 
+microplastic to the environment. Therefore, various devices have been designed to 17 
+capture microfibres released from clothing during the washing cycle. In this study, we 18 
+compared 6 different devices which varied from prototypes to commercially available 19 
+products. These were designed to either be placed inside the drum during the 20 
+washing cycle or fitted externally to filter the effluent wastewater discharge. The aim 21 
+of this study was to examine the efficacy of these devices at mitigating microfibre 22 
+release from clothing during washing or capturing any microfibres released in the 23 
+effluent. When compared to the amount of microfibres entering the wastewater 24 
+without any device (control), the XFiltra filter was the most successful device. This 25 
+captured microfibres, reducing their release to wastewater by around 78%. The 26 
+Guppyfriend bag was the second most successful device, reducing microfibre 27 
+release to wastewater by around 54%; it appeared to mainly work by reducing 28 
+microfibre shedding from the clothing during the washing cycle. Despite some 29 
+potentially promising results it is important to recognise that fibres are also released 30 
+when garments are worn in everyday use. Researchers and industry need continue 31 
+to collaborate to better understand the best intervention points to reduce microfibre 32 
+shedding, by considering both product design and fibre capture.  33 
+ 34 
+
+Keywords: Microfibres; Washing Machines; Plastic Pollution; Microplastics; 35 
+Solutions 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+1.0 Introduction  42 
+ 43 
+Textiles have a wide range of applications, including clothing, upholstery and 44 
+carpeting, with global textile fibre production exceeding 106 million tons in 2018 (The 45 
+Fiber Year, 2019); approximately 63% of textile fibres produced are synthetic (e.g., 46 
+polyester, nylon) (The Fiber Year, 2019). Other textile fibre materials include natural 47 
+(e.g., cotton, wool) and semi-synthetic or regenerated fibres (e.g., rayon, acetate). 48 
+While these types of fibres are produced from natural materials, such as wood pulp 49 
+or cotton, natural and semi-synthetic fibres can be heavily modified with chemical 50 
+treatments and additives (e.g., colourants, flame retardants) (Lacasse and Baumann, 51 
+2004; Xue et al., 2017). In this paper the term microfibre will refer exclusively to 52 
+fibres (synthetic, semi-synthetic and natural) that are typically < 5 mm. 53 
+ 54 
+It has been suggested that a large proportion of the microfibres found in the marine 55 
+environment are released from textiles; with a key source being washing clothes 56 
+(Belzagui et al., 2019; Cesa et al., 2020; De Falco et al., 2018; Napper and 57 
+Thompson, 2016). On a global scale, Boucher and Friot, (2017) estimated that of all 58 
+primary microplastics in the world's oceans, 35% arise from laundry of synthetic 59 
+textiles; an estimated 2 - 13 million tons per year globally (Boucher and Friot, 2017; 60 
+Mishra et al., 2019). However, due to the lack of research on the release of natural 61 
+and semi-synthetic fibres, this value is likely substantially underestimated. 62 
+Microfibres can be released from clothing by mechanical stresses that fabrics 63 
+undergo during the washing process in a washing machine (Belzagui et al., 2019; 64 
+Cesa et al., 2020; De Falco et al., 2018; Napper and Thompson, 2016).  65 
+ 66 
+The first paper to highlight the importance of microfiber release form clothing was 67 
+that of Browne et al 2011  More recently, Napper and Thompson, (2016) estimated 68 
+
+that a typical wash (6 kg) could produce over 700,000 microfibres. Since then, there 69 
+has been further research focussing on microplastics from washing clothes using 70 
+filters with fine mesh to capture the microfibres released (5 μm mesh pore size in De 71 
+Falco et al., (2018) compared to 25 μm in Napper and Thompson, (2016)). As a 72 
+consequence, it has recently been estimated that over 6,000,000 microfibres could 73 
+be released from an average 6 kg wash (De Falco et al., 2018).  74 
+ 75 
+In addition to the pore size used to capture microfibers, release estimates can be 76 
+influenced by differences in materials tested (whole garments vs. textile swatches; 77 
+textile construction; material composition), load composition (mix loads; full loads; 78 
+single garments), laundering conditions (temperature; detergent use; cycle time; 79 
+water volume) and laundering methods (simulated laundering vs. household 80 
+appliances; model; fibre enumeration and characterization) (Belzagui et al., 2019; 81 
+Cesa et al., 2020; De Falco et al., 2018; Napper and Thompson, 2016). Currently, 82 
+there is little scientific consensus on factors influencing release or release estimates 83 
+across the field. 84 
+ 85 
+Microfibres released as a result of washing clothes, exit the washing machine via the 86 
+waste effluent. Depending on the place of use, this effluent either passes directly into 87 
+the environment or is sent to municipal wastewater treatment plants (WWTPs). In a 88 
+WWTP, microplastic removal from water can be up to 96% (Carr et al., 2016; Murphy 89 
+et al., 2016) prior to the water being released to the environment. 90 
+ 91 
+During intense rainfall events, influent to the WWTP can exceed the treatment 92 
+facilities' handling capacity resulting in the direct discharge of untreated wastewater 93 
+into rivers, lakes or coastal areas. These events, even if occasional, may have a 94 
+substantial impact on the total amount of microfibres released to natural 95 
+environments (Galafassi et al., 2019). Even if microfibres are intercepted during 96 
+wastewater treatment, the resultant sewage sludge is often returned to the land as a 97 
+fertilizer, hence microfibres are still released to the environment (Corradini et al., 98 
+2019; Gies et al., 2018; Kirchmann et al., 2017). For example, it has been estimated 99 
+that a secondary WWTP that serves a 650,000 population (Glasgow, UK) with a 100 
+removal efficiency of 98.41% could release 65 million microplastic particles 101 
+(including microfibres) every day (Murphy et al., 2016). A WWTP with a lower 102 
+
+retention ability (84%) and a greater population equivalent (1,200,000) could 103 
+discharge up to 160 million particles per day in its effluent (Magni et al., 2019). It has 104 
+been reported that the majority of particles detected in WWTPs are microfibres (Gies 105 
+et al., 2018; Gündoğdu et al., 2018; Leslie et al., 2017). 106 
+ 107 
+ 108 
+ 109 
+The number of microfibres entering into the marine environment from WWTP is likely 110 
+to be substantial. Additionally, there are other sources of microfibres into the 111 
+environment such as tumble drying (Pirc et al., 2016), the wearing of clothes (De 112 
+Falco et al., 2020) and industrial emissions (Xu et al., 2018). As a consequence, 113 
+microfibres are now found in aquatic habitats and organisms on a global scale (Avio 114 
+et al., 2020; Nelms et al., 2019; Obbard et al., 2014; Saturno et al., 2020). Several 115 
+recent studies revealed the presence of microfibres in various environments, 116 
+including freshwater and marine surface waters and sediments, as well as terrestrial 117 
+ecosystems (Ding et al., 2019; González-Pleiter et al., 2020; Liu et al., 2018; Luo et 118 
+al., 2019; Lusher et al., 2015; Miller et al., 2017; Simon-Sánchez et al., 2019; Taylor 119 
+et al., 2016; Woodall et al., 2014).  120 
+ 121 
+To mitigate microfibre release in laundry effluent, various devices have been 122 
+designed to divert and capture released microfibres. These include devices aimed to 123 
+go in the washing machine drum during a wash cycle and external filters fitted to the 124 
+washing machine drainpipe to filter microfibres from outgoing effluent. McIlwraith et 125 
+al., (2019) previously compared the removal efficiency of one in-drum device, the 126 
+Cora Ball, and one external washing machine filter, the Lint LUV-R. Based on 127 
+weight, the study reported microfibre reductions into the wastewater by 5% and 80% 128 
+for the Cora Ball and Lint LUV-R, respectively. 129 
+ 130 
+A range of other products are now available, or are being developed, that have the 131 
+specific intent to reduce microfibre release. However, there is little data comparing 132 
+efficacy among such devices. Given the accumulation of plastics in the environment 133 
+has been associated with a lack of thorough consideration and evaluation of 134 
+products at the design stage, it is therefore of key importance that any interventions 135 
+should be appropriately evaluated. Therefore, the overall aim of this study was to 136 
+
+examine which devices were the most effective at mitigating the release of 137 
+microfibers during a typical clothes wash. Efficiency in terms of reducing the release 138 
+of microfibers to waste water was also  compared with  control washes that had no 139 
+device present.  140 
+ 141 
+ 142 
+ 143 
+ 144 
+Our hypothesis assumed that devices would reduce microfibers entering the 145 
+wastewater from clothes as a consequence of laundering . We chose to quantify the 146 
+amount of microfibres by analysing the mass collected from the wastewater after 147 
+washing three jumpers; i.e. microfibres released and that were unsuccessfully 148 
+captured by the devices.  149 
+ 150 
+2.0 Method 151 
+ 152 
+2.1 Materials 153 
+ 154 
+Three different synthetic fabric types were included in the washing trials to represent 155 
+a typical mixed load (1.3 ± 0.2 kg). These were medium sized jumpers, sourced from 156 
+Primark (U.K.), made either of 100% polyester, 100% acrylic or 60% polyester / 40% 157 
+cotton blend. Each load consisted of a whole garment from each fabric type. In order 158 
+to identity each fabric type, microfibre samples from five replicates of each jumper 159 
+type were analysed by FT−IR microscopy in transmission mode with a Hyperion 160 
+1000 microscope coupled to a Vertex 70 spectrometer (Bruker). Any spectra were 161 
+recorded with 32 scans in the region of 4000 − 600 cm. The spectra obtained were 162 
+compared against a spectral database of synthetic polymers (BPAD polymer and 163 
+synthetic fibres ATR). Napper and Thompson, (2016) had previously shown that 164 
+garments had an initial peak of microfibre shedding in the first 1-4 washes and then 165 
+a consistent microfibre shed after the fifth wash. Therefore, prior to data collection, 166 
+any initial spike in microfibre loss from new clothes was reduced by washing each 167 
+fabric four times. 168 
+ 169 
+2.2 Devices Tested to Reduce Microfibres Released from Washing 170 
+
+ 171 
+The devices tested included three in-drum devices: the Guppyfriend washing bag 172 
+(Langbrett, Germany), a prototype Fourth Element washing bag (Fourth Element, 173 
+U.K.) and the Cora Ball (Cora Ball, VT, USA). Three external washing machine filters 174 
+were also tested, including: the Lint LUV-R (Environmental Enhancements, NS, 175 
+Canada), a prototype XFiltra (Xeros Technology Group, U.K.), and the PlanetCare 176 
+(PlanetCare Limited, U.K.) (Table 1). All devices were obtained in 2018; however, we 177 
+understand some manufactures (e.g PlanetCare and Fourth Element Washing Bag) 178 
+have been working on revised designs. Control washes using the same clothing but 179 
+without either an in-drum device or external filter were completed following the same 180 
+methodology. This determined how many fibres were released from the colthign in 181 
+the absence of any intervention device  and allowed is to calculate microfibre capture 182 
+efficiency.  183 
+ 184 
+There were four replicates of each device and each was used in conjunction with an 185 
+identical front-loading washing machine of 7 kg capacity (Hotpoint CarePlus 186 
+WMAOD743P; n = 4).. The mesh used in each device (minus Cora Ball which had 187 
+no mesh) was visualised by scanning electron microscopy (JEOL, 7001F; Plymouth 188 
+Electron Microscopy Centre) to assess the pore size. 189 
+ 190 
+Each device and controls were independently tested with four identical replicate 191 
+mixed clothing loads coupled with four separate washing machines. Each mixed 192 
+clothing load was washed 10 times, with data recorded after the 1st, 5th and 10th 193 
+wash (Fig. 1). The washing cycle setting was a 45-minute synthetic wash at 30° C 194 
+and 1000 R.P.M. This was chosen as a typical automatic programme chosen from 195 
+the washing machine options (14 programmes available in total). The washing 196 
+machines did not include weight measurement, so the volume of water used for each 197 
+wash was consistent throughout (approximately 50 L of water). No detergent or 198 
+conditioner was used as this would have left deposits affecting any weight change 199 
+recorded. Additionally, all of the clothing was unwashed and new, so no other foreign 200 
+contaminants would have affected the weight recorded (i.e. dirt). After washing the 201 
+mixed loads, each replicate was tumble dried in a condenser dryer using an 202 
+INDESIT IDC8T3 for 1 hour.  203 
+ 204 
+
+ 205 
+ 206 
+ 207 
+ 208 
+ 209 
+ 210 
+ 211 
+ 212 
+2.3 Analysis of Microfibres Captured/Released After Device Testing 213 
+ 214 
+For each wash, the mass of microfibres that evaded capture were recorded from 215 
+each device. After each washing cycle, effluent together with any microfibres which 216 
+were not caught by the devices were collected in a storage tank and then pumped 217 
+into a 1 μm filter cartridge (10’’, Sterner) which was stored in filter housing 218 
+(AQUAFILTER FHPR1-B1-AQ) (Fig. 2). Aluminium bungs were custom made to 219 
+block the bottom end of the cartridges; subsequently, the wastewater was pushed 220 
+through the cartridge leaving any microfibres trapped in its mesh. Cartridges were 221 
+weighed before and after each wash cycle. The dry weight was recorded for each 222 
+cartridge after being dried at 30°C to a constant weight and then weighed by a 223 
+Cubis® precision balance (Sartorius). The cartridges were wrapped in two layers of 224 
+foil during the drying process to stop microfibre loss or addition of contamination.  225 
+ 226 
+The weight of microfibres successfully captured as well as subjective observations 227 
+on the ease of use of the devices were recorded; this was completed to understand 228 
+the mechanism of each device, rather than just efficiency testing. For devices where 229 
+the consumer was expected to visually inspect and then remove the microfibres 230 
+(Cora Ball, Guppyfriend and Fourth Element washing bag) a timed 5-minute 231 
+inspection period was used to ensure a sensible and consistent consumer removal 232 
+effort scenario. This inspection period also provided substantially enough time to 233 
+remove the majority of collected microfibre mass. This was completed as a 234 
+consumer would (i.e. without gloves or forceps) and by one person, to reduce 235 
+variability among individuals. For the PlanetCare filters, the microfibres could not be 236 
+removed from the device due to being collected into a sealed filter. These filters are 237 
+
+intended to be returned to PlanetCare for recycling. Therefore, the dry weight 238 
+change of the PlanetCare filter itself was recorded.   239 
+ 240 
+ 241 
+ 242 
+ 243 
+ 244 
+ 245 
+ 246 
+2.4. Quality Assurance and Quality Control 247 
+ 248 
+During testing and analysis, all steps were conducted in a regularly cleaned 249 
+laboratory with controlled access. Care was taken to ensure any potential sources of 250 
+airborne contamination were minimised (Woodall et al., 2015).. Additionally, all 251 
+analytical equipment was shielded to mitigate any exposure or contamination 252 
+throughout the washing and drying process. During analysis (e.g. weighing or 253 
+sample preparation), procedural blanks were conducted after every 5th sample and 254 
+confirmed microplastic contamination was minimal with an average of 2 ± 1 255 
+microfibers filter-1. This was negligible to the amount of fibres being captured during 256 
+a wash cycle. After each washing machine cycle which involved mixed clothing 257 
+loads, cross contamination was minimized between washes, by running the washing-258 
+machine at 30 °C, 1000 R.P.M for 45 min with no fabric present. 259 
+ 260 
+2.5 Statistical Analysis  261 
+ 262 
+Normality of the data was confirmed by using QQ plots to examine distribution. 263 
+Differences between the six devices in terms of the mass of microfibres captured 264 
+and released were then analysed using 2-way ANOVAs with device and time point 265 
+as fixed factors. Examination of residuals of the fitted modules indicated the need for 266 
+transformation (logarithm transformation) of both datasets; residuals were unbiased 267 
+and homoscedastic after transformation. Post-hoc Tukey tests were used to identify 268 
+statistically significant differences between devices. Standard error of the mean was 269 
+used for all analysis.  270 
+ 271 
+
+3.0 Results 272 
+ 273 
+Washing a mixed load of clothes without any device (control testing), resulted in an 274 
+average of 0.44 g ± 0.04 g (mean + S.E) of microfibres being released into the 275 
+wastewater effluent per wash (Fig. 3A). This estimate (which is assumed to 276 
+represent 0% success in terms of microfibre shedding mitigation or capture) was 277 
+then compared against the mass of microfibres collected from wastewater effluent 278 
+with each device. Higher efficiency (%) equates to a more successful device. When 279 
+comparing between devices and control, the devices ranged between 21 – 78% 280 
+efficiency. XFiltra was the most successful device, reducing the number of 281 
+microfibres being released into the wastewater by 78 ± 5 %. The Guppyfriend 282 
+washing bag was the second most successful device at 54 ± 14 %. The Cora Ball 283 
+was the third most successful at 31 ± 8 %. The Lint LUV-R and PlanetCare had 284 
+similar results at 29 ± 15 % and 25 ± 20 %, respectively. The Fourth Element 285 
+washing bag was the least effective at 21 ± 9 % (Fig. 3A). 286 
+ 287 
+There were significant differences in the mass of microfibres released into 288 
+wastewater across devices (2-way ANOVA; p = < 0.008); these differences were 289 
+consistent across the three timepoints (Table 2). At the 0.05 level, the Guppyfriend 290 
+washing bag and XFiltra were the only devices to release significantly less 291 
+microfibres compared to controls (no device). There were no significant differences 292 
+between microfibre release by in-drum devices (Fig. 3A). XFiltra also released 293 
+significantly less microfibres than the Cora Ball, Fourth Element washing bags, Lint 294 
+LUV-R and Planetcare. 295 
+ 296 
+There was also a significant difference in the mass of microfibres successfully 297 
+captured by each device type (2-way ANOVA; p = < 0.000) (Fig. 3B). There was no 298 
+significant difference, at the 0.05 level, between Cora Ball, Guppyfriend and Fourth 299 
+Element washing bags (Fig. 3B). Trying to manually remove the microfibres from 300 
+devices added to the drum (Cora Ball, Guppyfriend and Fourth Element washing 301 
+bags) was time consuming as there was a large surface area to analyse and little 302 
+mass typically collected. With the Guppyfriend washing bag, microfibres typically 303 
+accumulated in the hem of material. However, for the external filters (XFiltra and Lint 304 
+LUV-R), microfibres would typically accumulate in a localised area. PlanetCare 305 
+
+captured microfibres were irretrievable due to the devices design; these filters are 306 
+intended to be returned to PlanetCare for recycling.  307 
+ 308 
+Scanning electron images were obtained to ass ess the pore size of the mesh used 309 
+in each device (apart from the Cora Ball, which contained no mesh) (Fig. 4) . The 310 
+largest pore size was the Lint LUV -R, which had 2 pore sizes: 285 µm and 175 311 
+µm. PlanetCare had the second largest pore size of 200 µm. XFiltra had a pore 312 
+size of 60 µm. The two bag devices (Guppyfriend and Forth Element  washing bag) 313 
+had the smallest pore size, of 50 µm.  314 
+ 315 
+ 316 
+4.0 Discussion 317 
+ 318 
+The XFiltra prototype device was the most successful device, capturing on average 319 
+78% of the microfibres per wash. It is possible that this device was more successful 320 
+firstly because it had the finest mesh pore size (60 μm) compared to the other filters 321 
+(PlanetCare & Lint LUV-R) which had pore sizes >175 μm, and secondarily, because 322 
+it was the only 'active device', in that it used a motor powered centrifugal separator 323 
+requiring an external electrical supply to facilitate the flow of the waste water through 324 
+the filtration mesh. There was also a large variation in efficiency between the 325 
+Guppyfriend and Fourth Element washing bags; 54% and 21%, respectively. Even 326 
+though each bag device had similar mesh pore size (50 µm), their shape and design 327 
+were different which could account for differences in efficiency.  328 
+ 329 
+Additionally, our results found that there was a significant difference in the mass of 330 
+microfibres captured by the devices. Devices directly placed into the washing 331 
+machine drum (Cora Ball, Guppyfriend and Fourth Element washing bags) were all 332 
+less successful at capturing microfibres than the filters, but were still found to reduce 333 
+microfibre emissions into the wastewater by 21 – 54%. This effect seems to have 334 
+resulted from reduced microfibre shedding by garments during the washing cycle 335 
+due to the design of these devices.  336 
+ 337 
+Previous research has demonstrated that the Cora Ball and the Lint LUV-R reduced 338 
+the weight of microfibres released after a washing cycle by 5% and 80%, 339 
+
+respectively (McIlwraith et al., 2019). However, we report that the Lint LUV-R to be 340 
+less successful at 29%, and the Cora Ball at 31%. One possible explanation for the 341 
+differences between studies could be because McIlwraith et al., (2019) did not focus 342 
+on microfibres smaller than 10 μm, whereas this study had a lower limit of 1 μm. 343 
+Additionally, there are differences in study design. McIlwraith et al. (2019) used 344 
+100% polyester fleece blankets, which have been reported to have high shedding 345 
+rates (Browne et al., 2011; Pirc et al., 2016; Sillanpää and Sainio, 2017). Their 346 
+research also used a top loading machine which is suspected to shed more 347 
+microfibres from clothing/fabric compared to a frontloading machine (Hartline et al., 348 
+2016).  349 
+ 350 
+Despite removing 21-78% of outgoing microfibres, the six devices tested in the 351 
+present study still released 0.10-0.35 g of microfibres per wash. As such they do not 352 
+offer a complete solution and alternative measures will likely still need to be taken to 353 
+address this issue. A combination of in-drum and external filter technologies used 354 
+together may cause less shedding and increased microfibre capture, whilst also 355 
+reducing the need to clean the filter as frequently.  356 
+ 357 
+Additionally, reducing shedding through changes in fabric design could be a more 358 
+overarching  mitigation strategy, as this is likely to help reduce emissions during all 359 
+use phases: wearing, washing and tumble drying (De Falco et al., 2020; Napper and 360 
+Thompson, 2016; Pirc et al., 2016). De Falco et al., (2020) estimated the quantity of 361 
+microfibres released into the air directly as a consequence of wearing clothes. Their 362 
+research found that 400 fibres gram-1 of fabric could be shed by items of clothing 363 
+during just 20 minutes of normal activity. Due to this, it is anticipated that 364 
+atmospheric deposition of microplastics, especially through the wearing of clothes, is 365 
+a substantial pathway into the environment. Microplastics are potentially transported 366 
+by wind, because of their small size and low density, from their original source 367 
+(Bergmann et al., 2019). 368 
+ 369 
+ 370 
+Other measures can be put in place to minimise microfibres shed in the washing 371 
+cycle. Only washing your clothes when required is a simple way to minimise 372 
+microfibre shedding. Research has also indicated that delicate wash cycles release 373 
+
+more microfibres per wash than a lower water-volume standard wash; showing that 374 
+simply reducing the water-volume-to-fabric ratio could also have an effect in reducing 375 
+the amount of microfibres generated (Kelly et al., 2019). Therefore, an effective 376 
+strategy would be using a combination of modified fabric design together with less 377 
+aggressive washing cycles and adding washing machine filters/in-drum devices.  378 
+ 379 
+More research is needed to establish how regularly consumers would actually clean 380 
+the devices (we considered a 5-minute clean to be a reasonably generous amount of 381 
+time). It is unclear what consumers would do with any microfibres removed; e.g. 382 
+dispose to landfill or wash them down the sink unintentionally to clean the device. 383 
+Clear labelling and instructions should be in place to ensure the proper disposal of 384 
+microfibres. There are further limitations to the widespread implementation of these 385 
+devices. For the in-drum devices, research should analyse whether garments being 386 
+laundered receive the same quality of cleaning. Due to the size of the washing bags, 387 
+the consumer is also limited in the number of clothes able to be laundered, so more 388 
+washes may be required. Additionally, the external washing machine filters will 389 
+require potential space for installation in washing machines. All devices vary in price 390 
+and are currently assumed to be purchased by the consumer, although there is the 391 
+potential for washing machine manufactures to incorporate filters internally in 392 
+production.  393 
+ 394 
+Other mitigation strategies that have been promoted include improvements to 395 
+WWTPs and a switch from synthetic to natural textiles. However, these solutions are 396 
+more unrealistic. WWTP microplastic removal can already be up to 96% (Carr et al., 397 
+2016; Murphy et al., 2016) prior to the water being released to the environment. 398 
+Upgrading WWTP with more efficient filtering systems could be expensive or 399 
+potentially not even possible with the system already in place (Conley et al., 2019). 400 
+Furthermore, replacing synthetic textiles with natural counterparts would typically be 401 
+more expensive and the impact of non-synthetic microfibres accumulating in the 402 
+environment is also currently unknown (Dris et al., 2017).  403 
+ 404 
+Many of the issues associated with current levels of plastic pollution have arisen 405 
+because of inadequate consideration at the industrial design stage of the 406 
+environmental consequences associated with production, use and disposal. Going 407 
+
+forward it is imperative we learn from these mistakes. From the perspective of 408 
+interventions to tackle current issues with laundering, this needs to be done in terms 409 
+of their efficacy in addressing the particular issue and potential unintended 410 
+environmental consequences. From an environmental perspective we can no longer 411 
+afford to produce devices and products in the hope they will be not be harmful, rather 412 
+we must rigorously assess performance, prior to release. Industries will continue to 413 
+develop solutions aimed to stem the flow of or capture plastic getting into the 414 
+environment. However, it is essential that any proposed solutions are fully tested for 415 
+their efficiency and evaluated to understand their potential benefit. 416 
+ 417 
+5.0 Conclusion 418 
+ 419 
+There is now considerable agreement and consensus about the issue of plastic 420 
+waste and pollution. However, some of the key challenges now lie, not just in 421 
+environmental science to help understand the problem, but robust evidence to inform 422 
+appropriate solutions. With growing concern about the accumulation of plastic and 423 
+microplastic (including concern about microfibre pollution) devices are being 424 
+developed with the intent to reduce the release of microfibres to the environment. 425 
+These solutions vary in their approach, such as providing consumer ease or being 426 
+the most effective. They also vary in market readiness. Our study has shown they 427 
+vary in their ability to address the issue of microfibre contamination. XFiltra and the 428 
+Guppyfriend washing bag significantly reduced the number of microfibres released 429 
+into the wastewater compared to no device being present. In order to help minimise 430 
+some of the avoidable environmental challenges that we currently face, it is essential 431 
+that technological advance is coupled, at the design stage, to appropriate 432 
+environmental science, in order to minimise unintended environmental 433 
+consequences.  434 
+ 435 
+ 436 
+ 437 
+ 438 
+ 439 
+References 440 
+ 441 
+
+Avio, C.G., Pittura, L., d’Errico, G., Abel, S., Amorello, S., Marino, G., Gorbi, S., 442 
+Regoli, F., 2020. Distribution and characterization of microplastic particles and 443 
+textile microfibers in Adriatic food webs: General insights for biomonitoring 444 
+strategies. Environ. Pollut. 258, 113766. doi:10.1016/j.envpol.2019.113766 445 
+Belzagui, F., Crespi, M., Álvarez, A., Gutiérrez-Bouzán, C., Vilaseca, M., 2019. 446 
+Microplastics’ emissions: Microfibers’ detachment from textile garments. 447 
+Environ. Pollut. 248, 1028–1035. doi:10.1016/j.envpol.2019.02.059 448 
+Bergmann, M., Mützel, S., Primpke, S., Tekman, M.B., Trachsel, J., Gerdts, G., 449 
+2019. White and wonderful? Microplastics prevail in snow from the Alps to the 450 
+Arctic. Sci. Adv. 5, eaax1157. doi:10.1126/sciadv.aax1157 451 
+Boucher, J., Friot, D., 2017. Primary Microplastics in the Oceans: a Global 452 
+Evaluation of Sources. Gland, Switzerland. 453 
+Browne, M.A., Crump, P., Niven, S.J., Teuten, E., Tonkin, A., Galloway, T., 454 
+Thompson, R., 2011. Accumulation of microplastic on shorelines woldwide: 455 
+Sources and sinks. Environ. Sci. Technol. 45, 9175–9179. 456 
+doi:10.1021/es201811s 457 
+Carr, S.A., Liu, J., Tesoro, A.G., 2016. Transport and fate of microplastic particles in 458 
+wastewater treatment plants. Water Res. 91, 174–182. 459 
+doi:10.1016/j.watres.2016.01.002 460 
+Cesa, F.S., Turra, A., Checon, H.H., Leonardi, B., Baruque-Ramos, J., 2020. 461 
+Laundering and textile parameters influence fibers release in household 462 
+washings. Environ. Pollut. 257, 113553. doi:10.1016/j.envpol.2019.113553 463 
+Conley, K., Clum, A., Deepe, J., Lane, H., Beckingham, B., 2019. Wastewater 464 
+treatment plants as a source of microplastics to an urban estuary: Removal 465 
+efficiencies and loading per capita over one year. Water Res. X 3, 100030. 466 
+doi:10.1016/j.wroa.2019.100030 467 
+Corradini, F., Meza, P., Eguiluz, R., Casado, F., Huerta-Lwanga, E., Geissen, V., 468 
+2019. Evidence of microplastic accumulation in agricultural soils from sewage 469 
+sludge disposal. Sci. Total Environ. 671, 411–420. 470 
+doi:10.1016/J.SCITOTENV.2019.03.368 471 
+De Falco, F., Cocca, M., Avella, M., Thompson, R.C., 2020. Microfibre release to 472 
+water, via laundering, and to air, via everyday use: a comparison between 473 
+polyester clothing with differing textile parameters. Environ. Sci. Technol. 54, 474 
+3288–3296. doi:10.1021/acs.est.9b06892 475 
+
+De Falco, F., Gullo, M.P., Gentile, G., Di Pace, E., Cocca, M., Gelabert, L., Brouta-476 
+Agnésa, M., Rovira, A., Escudero, R., Villalba, R., Mossotti, R., Montarsolo, A., 477 
+Gavignano, S., Tonin, C., Avella, M., 2018. Evaluation of microplastic release 478 
+caused by textile washing processes of synthetic fabrics. Environ. Pollut. 236, 479 
+916–925. doi:10.1016/J.ENVPOL.2017.10.057 480 
+Ding, L., Mao, R. fan, Guo, X., Yang, X., Zhang, Q., Yang, C., 2019. Microplastics in 481 
+surface waters and sediments of the Wei River, in the northwest of China. Sci. 482 
+Total Environ. 667, 427–434. doi:10.1016/J.SCITOTENV.2019.02.332 483 
+Dris, R., Gasperi, J., Mirande, C., Mandin, C., Guerrouache, M., Langlois, V., Tassin, 484 
+B., 2017. A first overview of textile fibers, including microplastics, in indoor and 485 
+outdoor environments. Environ. Pollut. 221, 453–458. 486 
+doi:10.1016/j.envpol.2016.12.013 487 
+Galafassi, S., Nizzetto, L., Volta, P., 2019. Plastic sources: A survey across scientific 488 
+and grey literature for their inventory and relative contribution to microplastics 489 
+pollution in natural environments, with an emphasis on surface water. Sci. Total 490 
+Environ. 693, 133499. doi:10.1016/j.scitotenv.2019.07.305 491 
+Gies, E.A., LeNoble, J.L., Noël, M., Etemadifar, A., Bishay, F., Hall, E.R., Ross, P.S., 492 
+2018. Retention of microplastics in a major secondary wastewater treatment 493 
+plant in Vancouver, Canada. Mar. Pollut. Bull. 133, 553–561. 494 
+doi:10.1016/j.marpolbul.2018.06.006 495 
+González-Pleiter, M., Velázquez, D., Edo, C., Carretero, O., Gago, J., Barón-Sola, 496 
+Á., Hernández, L.E., Yousef, I., Quesada, A., Leganés, F., Rosal, R., 497 
+Fernández-Piñas, F., 2020. Fibers spreading worldwide: Microplastics and other 498 
+anthropogenic litter in an Arctic freshwater lake. Sci. Total Environ. 722, 137904. 499 
+doi:10.1016/j.scitotenv.2020.137904 500 
+Gündoğdu, S., Çevik, C., Güzel, E., Kilercioğlu, S., 2018. Microplastics in municipal 501 
+wastewater treatment plants in Turkey: a comparison of the influent and 502 
+secondary effluent concentrations. Environ. Monit. Assess. 190, 626. 503 
+doi:10.1007/s10661-018-7010-y 504 
+Hartline, N.L., Bruce, N.J., Karba, S.N., Ruff, E.O., Sonar, S.U., Holden, P.A., 2016. 505 
+Microfiber Masses Recovered from Conventional Machine Washing of New or 506 
+Aged Garments. Environ. Sci. Technol. 50, 11532–11538. 507 
+doi:10.1021/acs.est.6b03045 508 
+Kelly, M.R., Lant, N.J., Kurr, M., Burgess, J.G., 2019. Importance of Water-Volume 509 
+
+on the Release of Microplastic Fibers from Laundry. Environ. Sci. Technol. 53, 510 
+11735–11744. doi:10.1021/acs.est.9b03022 511 
+Kirchmann, H., Börjesson, G., Kätterer, T., Cohen, Y., 2017. From agricultural use of 512 
+sewage sludge to nutrient extraction: A soil science outlook. Ambio 46, 143–513 
+154. doi:10.1007/s13280-016-0816-3 514 
+Lacasse, K., Baumann, W., 2004. Textile Chemicals - Environmental Data and 515 
+Facts. Springer, Berlin, Germany. 516 
+Leslie, H.A., Brandsma, S.H., van Velzen, M.J.M., Vethaak, A.D., 2017. 517 
+Microplastics en route: Field measurements in the Dutch river delta and 518 
+Amsterdam canals, wastewater treatment plants, North Sea sediments and 519 
+biota. Environ. Int. 101, 133–142. doi:10.1016/j.envint.2017.01.018 520 
+Liu, M., Lu, S., Song, Y., Lei, L., Hu, J., Lv, W., Zhou, W., Cao, C., Shi, H., Yang, X., 521 
+He, D., 2018. Microplastic and mesoplastic pollution in farmland soils in suburbs 522 
+of Shanghai, China. Environ. Pollut. 242, 855–862. 523 
+doi:10.1016/J.ENVPOL.2018.07.051 524 
+Luo, W., Su, L., Craig, N.J., Du, F., Wu, C., Shi, H., 2019. Comparison of 525 
+microplastic pollution in different water bodies from urban creeks to coastal 526 
+waters. Environ. Pollut. 246, 174–182. doi:10.1016/J.ENVPOL.2018.11.081 527 
+Lusher, A.L., Tirelli, V., O’Connor, I., Officer, R., Halsband, C., Galloway, T.S., 2015. 528 
+Microplastics in Arctic polar waters: the first reported values of particles in 529 
+surface and sub-surface samples. Sci. Rep. 5, 14947. doi:10.1038/srep14947 530 
+Magni, S., Binelli, A., Pittura, L., Avio, C.G., Della Torre, C., Parenti, C.C., Gorbi, S., 531 
+Regoli, F., 2019. The fate of microplastics in an Italian Wastewater Treatment 532 
+Plant. Sci. Total Environ. 652, 602–610. 533 
+doi:10.1016/J.SCITOTENV.2018.10.269 534 
+McIlwraith, H.K., Lin, J., Erdle, L.M., Mallos, N., Diamond, M.L., Rochman, C.M., 535 
+2019. Capturing microfibers – marketed technologies reduce microfiber 536 
+emissions from washing machines. Mar. Pollut. Bull. 139, 40–45. 537 
+doi:10.1016/J.MARPOLBUL.2018.12.012 538 
+Miller, R.Z., Watts, A.J.R., Winslow, B.O., Galloway, T.S., Barrows, A.P.W., 2017. 539 
+Mountains to the sea: River study of plastic and non-plastic microfiber pollution 540 
+in the northeast USA. Mar. Pollut. Bull. 124, 245–251. 541 
+doi:10.1016/J.MARPOLBUL.2017.07.028 542 
+Mishra, S., Rath, C. charan, Das, A.P., 2019. Marine microfiber pollution: A review 543 
+
+on present status and future challenges. Mar. Pollut. Bull. 544 
+doi:10.1016/j.marpolbul.2019.01.039 545 
+Murphy, F., Ewins, C., Carbonnier, F., Quinn, B., 2016. Wastewater Treatment 546 
+Works (WwTW) as a Source of Microplastics in the Aquatic Environment. 547 
+Environ. Sci. Technol. 50, 5800–5808. doi:10.1021/acs.est.5b05416 548 
+Napper, I.E.I., Thompson, R.C., 2016. Release of synthetic microplastic plastic fibres 549 
+from domestic washing machines: Effects of fabric type and washing conditions. 550 
+Mar. Pollut. Bull. 112, 39–45. doi:10.1016/j.marpolbul.2016.09.025 551 
+Nelms, S.E., Barnett, J., Brownlow, A., Davison, N.J., Deaville, R., Galloway, T.S., 552 
+Lindeque, P.K., Santillo, D., Godley, B.J., 2019. Microplastics in marine 553 
+mammals stranded around the British coast: ubiquitous but transitory? Sci. Rep. 554 
+9, 1075. doi:10.1038/s41598-018-37428-3 555 
+Obbard, R.W., Sadri, S., Wong, Y.Q., Khitun, A.A., Baker, I., Thompson, R.C., 2014. 556 
+Global warming releases microplastic legacy frozen in Arctic Sea ice. Earth’s 557 
+Futur. 2, 315–320. doi:10.1002/2014EF000240.Abstract 558 
+Pirc, U., Vidmar, M., Mozer, A., Kržan, A., 2016. Emissions of microplastic fibers 559 
+from microfiber fleece during domestic washing. Environ. Sci. Pollut. Res. 23, 560 
+22206–22211. doi:10.1007/s11356-016-7703-0 561 
+Saturno, J., Liboiron, M., Ammendolia, J., Healey, N., Earles, E., Duman, N., Schoot, 562 
+I., Morris, T., Favaro, B., 2020. Occurrence of plastics ingested by Atlantic cod 563 
+(Gadus morhua) destined for human consumption (Fogo Island, Newfoundland 564 
+and Labrador). Mar. Pollut. Bull. 153, 110993. 565 
+doi:10.1016/j.marpolbul.2020.110993 566 
+Sillanpää, M., Sainio, P., 2017. Release of polyester and cotton fibers from textiles in 567 
+machine washings. Environ. Sci. Pollut. Res. 24, 19313–19321. 568 
+doi:10.1007/s11356-017-9621-1 569 
+Simon-Sánchez, L., Grelaud, M., Garcia-Orellana, J., Ziveri, P., 2019. River Deltas 570 
+as hotspots of microplastic accumulation: The case study of the Ebro River (NW 571 
+Mediterranean). Sci. Total Environ. 687, 1186–1196. 572 
+doi:10.1016/J.SCITOTENV.2019.06.168 573 
+Taylor, M.L., Gwinnett, C., Robinson, L.F., Woodall, L.C., 2016. Plastic microfibre 574 
+ingestion by deep-sea organisms. Sci. Rep. 6, 33997. doi:10.1038/srep33997 575 
+The Fiber Year, 2019. The Fiber Year 2019; World Survey on Textiles & Nonwovens. 576 
+Frankfurt, Germany. 577 
+
+Woodall, L.C., Sanchez-Vidal, A., Canals, M., Paterson, G.L.J.J., Coppock, R., 578 
+Sleight, V., Calafat, A., Rogers, A.D., Narayanaswamy, B.E., Thompson, R.C., 579 
+2014. The deep sea is a major sink for microplastic debris. R. Soc. Open Sci. 1, 580 
+140317–140317. doi:10.1098/rsos.140317 581 
+Xu, C.K., Cheng, H., Liao, Z.J., 2018. Towards sustainable growth in the textile 582 
+industry: A case study of environmental policy in China. Polish J. Environ. Stud. 583 
+27, 2325–2336. doi:10.15244/pjoes/79720 584 
+Xue, J., Liu, W., Kannan, K., 2017. Bisphenols, Benzophenones, and Bisphenol A 585 
+Diglycidyl Ethers in Textiles and Infant Clothing. Environ. Sci. Technol. 51, 586 
+5279–5286. doi:10.1021/acs.est.7b00701 587 
+ 588 
+ 589 
+ 590 
+ 591 
+ 592 

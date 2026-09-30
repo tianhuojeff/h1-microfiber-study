@@ -1,0 +1,21 @@
+{
+  "run_date": "2026-09-28",
+  "timezone": "Asia/Shanghai",
+  "database": "Google Patents public search API",
+  "query": "TI=((laundry OR \"washing machine\") (microfiber OR microfibre OR microplastic))",
+  "query_url": "https://patents.google.com/xhr/query?url=q%3DTI%253D%2528%2528laundry%2520OR%2520%2522washing%2520machine%2522%2529%2520%2528microfiber%2520OR%2520microfibre%2520OR%2520microplastic%2529%2529",
+  "successful_request": {
+    "http_status": 200,
+    "observed_total_num_results": 98,
+    "observed_total_num_pages": null,
+    "response_type": "application/json"
+  },
+  "export_attempt": {
+    "purpose": "save raw paginated hit records for an auditable candidate corpus",
+    "outcome": "not_saved",
+    "reason": "subsequent request was rate-limited by GoogleSorry; no raw list or CSV is claimed",
+    "raw_hit_file": null,
+    "deduplicated_hit_file": null
+  },
+  "interpretation_limit": "The returned count is a live database count before any relevance screening or family deduplication. It is not completeness, a legal conclusion, or evidence of H1 performance."
+}

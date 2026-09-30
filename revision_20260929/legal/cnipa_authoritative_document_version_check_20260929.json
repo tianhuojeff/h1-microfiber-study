@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-09-29",
+  "source": {
+    "authority": "China National Intellectual Property Administration (CNIPA)",
+    "description_url": "https://www.cnipa.gov.cn/art/2023/1/31/art_3164_181829.html",
+    "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+    "raw_file": "raw_official_20260929/CN_quanweiwendang_20260630.zip",
+    "raw_file_bytes": 143531165,
+    "raw_file_sha256": "91CA661A0372A3CF5EC4134A33F89C41E5334441EA827478CE66D1173429CD39",
+    "coverage": "CNIPA describes the authoritative document as records of invention and utility-model publications, with country code, publication number, kind code and publication date, through 2026-06-30.",
+    "scope_limit": "This source establishes patent-document publication/version facts only. It does not establish maintenance, lapse, withdrawal, validity, or current legal status."
+  },
+  "records": [
+    {"sample":"CN115087774A","application_no":"CN202080095888.5","official_document_records":["CN,115087774,A,20220920"],"official_fact":"CN115087774A publication record dated 2022-09-20.","status_suggestion":"unknown; no B-version record in this authoritative-document cut-off."},
+    {"sample":"CN115298383A","application_no":"CN202180023137.7","official_document_records":["CN,115298383,A,20221104"],"official_fact":"CN115298383A publication record dated 2022-11-04.","status_suggestion":"unknown; no B-version record in this authoritative-document cut-off."},
+    {"sample":"CN115637570A","application_no":"CN202110818324.6","official_document_records":["CN,115637570,A,20230124","CN,115637570,B,20260217"],"official_fact":"CN115637570B is present in the CNIPA authoritative document with publication date 2026-02-17. CNIPA explains that CN publication numbers are assigned at application publication and patent-grant publication.","status_suggestion":"grant-publication version fact confirmed; current maintenance/effectiveness remains unknown until an official legal-status/register record is read."},
+    {"sample":"CN115700309A","application_no":"CN202110828941.4","official_document_records":["CN,115700309,A,20230207"],"official_fact":"CN115700309A publication record dated 2023-02-07.","status_suggestion":"unknown; no B-version record in this authoritative-document cut-off."},
+    {"sample":"CN116282270A","application_no":"CN202310406372.3","official_document_records":["CN,116282270,A,20230623","CN,116282270,B,20231208"],"official_fact":"CN116282270B is present in the CNIPA authoritative document with publication date 2023-12-08.","status_suggestion":"grant-publication version fact confirmed; current maintenance/effectiveness remains unknown until an official legal-status/register record is read."},
+    {"sample":"CN117702432A","application_no":"CN202410040736.5","official_document_records":["CN,117702432,A,20240315"],"official_fact":"CN117702432A publication record dated 2024-03-15.","status_suggestion":"unknown; no B-version record in this authoritative-document cut-off."},
+    {"sample":"CN118273060A","application_no":"CN202211732838.0","official_document_records":["CN,118273060,A,20240702"],"official_fact":"CN118273060A publication record dated 2024-07-02.","status_suggestion":"unknown; no B-version record in this authoritative-document cut-off."},
+    {"sample":"CN120500565A","application_no":null,"official_document_records":["CN,120500565,A,20250815"],"official_fact":"CN120500565A publication record dated 2025-08-15.","status_suggestion":"unknown; official authoritative-document record gives the publication/version, but the application number and legal status remain to be read from the individual official record."},
+    {"sample":"CN222043626U","application_no":"CN202420066261.2","official_document_records":[],"official_fact":"No matching U record was present in the downloaded authoritative-document text entry inspected.","status_suggestion":"unknown; query individual CNIPA publication/legal-status record. Absence in this inspected text entry is not evidence of non-publication or non-grant."}
+  ],
+  "not_in_this_source": [
+    "WO2022084677A1",
+    "WO2023047385A1",
+    "WO2024199585A1",
+    "WO2024250011A1"
+  ]
+}

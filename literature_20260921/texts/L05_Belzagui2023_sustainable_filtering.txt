@@ -1,0 +1,677 @@
+ 
+ 
+  
+ 
+Polymers 2023, 15, 3023. https://doi.org/10.3390/polym15143023 www.mdpi.com/journal/polymers 
+Article 
+Sustainable Filtering Systems to Reduce Microﬁber Emissions 
+from Textiles during Household Laundering 
+Francisco Belzagui †, Carmen Gutiérrez-Bouzán *, Fernando Carrillo-Navarrete and Víctor López-Grimau 
+Institute of Textile Research and Industrial Cooperation of Terrassa (INTEXTER), Universitat Politècnica de  
+Catalunya—Barcelona Tech , Colom 15, 08222 Terrassa, Spain 
+* Correspondence: m.carmen.gutierrez@upc.edu; Tel.: +34-937-398-008 
+† In memory of our friend Francisco. 
+Abstract: During laundering, s ynthetic textiles (polyester, polyamide, etc.) can release small ﬁber 
+debris with a length of <5 mm. These are a type of microplastics (MPs), usually referred to as micro-
+ﬁbers (MFs), which are considered high-concern pollutants due to their continuous and cumulative 
+entrance into the environment. Currently, as far as we know , there are no feasible alternatives to 
+remove them. In this work , four new and sustainable ﬁltering systems are proposed to retain the 
+MFs emitted from domestic washing machines. The ﬁlters contain a replaceable cartridge partially 
+ﬁlled with recycled low-density polyethylene pellets. The four designed ﬁltering systems of diﬀer-
+ent sizes were tested in a household washing machine determining the retention eﬃciency of the 
+MFs after several washing cycles. It was found that all four assessed ﬁlter arrangements have a good 
+performance for retaining MFs from the washers’ eﬄuents. Filter F1 (diameter of 4 cm and a height 
+of 30 cm) started retaining more than 50% of the MFs, at the 1 0th washing cycle , the retention 
+climbed to 66%, while in the 20th washing cycle , its retention was greater than 80%.  MF retention 
+was higher for ﬁlter F2 (diameter of 6.3 cm and a height of 41 cm), achieving a performance greater 
+than 90% in the 20th was hing cycle. Filter F3 was arranged by turning the F1 model ﬂow upside 
+down and the retention eﬃciency is higher compared with ﬁlter F1 values, reaching a retention 
+eﬃciency of almost 100 % in the 15th washing cycle. Finally, ﬁlter F4 arrangement was developed 
+using the existing washing machine ﬁlter, obtaining better performance than the F1 and F2 ﬁlters, 
+reaching eﬃciencies higher than 90 % at the 20th washing cycle.  In summary, d epending on the 
+arrangement, the microﬁber retention eﬃciency was  estimated between 52% and 86% in the 1st  
+washing cycle and up to 83% to 99% in the 20th. Additionally, all arrangements demonstrated that 
+the cartridges may last for more than 30 washing cycles before needing to be replaced. 
+Keywords: microplastic; microﬁber; ﬁltering device; textile washing; LDPE 
+ 
+1. Introduction 
+A signiﬁcant problem facing society in the 21st century is to ﬁnd routes for eﬀective 
+waste management. In developed countries, almost all of the plastic waste generated is 
+recycled, burned, or disposed in landﬁlls correctly. Only when plastic is improperly man-
+aged does it enter rivers and oceans. So, to solve the ocean plastic problem and to avoid 
+environmental damage, strategies like encouraging the development of eﬃcient alterna-
+tives for petroleum-based plastics, promoting reu se and recycling, and legislation to re-
+strict the negative eﬀects of the use of plastics are crucial, especially in developing coun-
+tries where plastic pollution of the world’s oceans occurs most frequently [1,2]. 
+According to their size, sources of plastic pollution in the ocean can be divided into 
+macroplastics and microplastics (MPs), with the latter posing serious harm to aquatic life 
+since they can cause bioaccumulation. Following the deﬁnition of the European Chemical 
+Agency (ECHA), microplastics (MPs) are fragments of chemically modiﬁed and/or non-
+biodegradable polymers with a length of <5 mm [3] . These particles have been widely 
+Citation: Belzagui, F.;  
+Gutiérrez-Bouzán, C.;  
+Carrillo-Navarrete, F.;  
+López-Grimau, V. Sustainable  
+Filtering Systems to Reduce  
+Microﬁber Emissions from Textiles 
+during Household Laundering.  
+Polymers 2023, 15, 3023. https:// 
+doi.org/10.3390/polym15143023 
+Academic Editors: Yanping Liu and 
+Xinxin Li 
+Received: 26 May 2023 
+Revised: 7 July 2023 
+Accepted: 11 July 2023 
+Published: 12 July 2023 
+ 
+Copyright: © 2023 by the authors. 
+Licensee MDPI, Basel, Switzerland. 
+This article is an open access article 
+distributed under the terms and 
+conditions of the Creative Commons 
+Attribution (CC BY) license 
+(https://creativecommons.org/license
+s/by/4.0/). 
+
+
+Polymers 2023, 15, 3023 2 of 12 
+ 
+ 
+encountered polluting every assessed ecosystem [4]. The estimations of the MPs concen-
+tration in the oceans are between 15 and 51 trillion buoyant MPs in the oceans and 14 
+million tons in the top 9 cm of sediments of the oceans [5–7]. Primary MPs are those emit-
+ted into the environment in a MPs size range (length between 100 µm and 5 mm); whilst 
+secondary are those generated in the environment from larger plastic debris [8]. On the 
+one hand, the most prevalent sources of primary microplastics comprise plastic pellets, 
+synthetic textiles, tires, road markings, marin e coatings, and personal care products. On 
+the second hand, secondary microplastics include microplastics coming from the frag-
+mentation of bags, bottles, and ropes [9]. Regarding their impacts, one of their more sig-
+niﬁcant is their ingestion across the trophic chain [10–13]. Additionally, some eﬀects of the 
+MPs on organisms have been found, for instance, their retention and endocrine disrup-
+tion, among others [14–17]. These particles can behave as vectors for organisms and hy-
+drophobic toxic compounds [18,19]. This contamination has been also found in products 
+for human consumption and polluting the air [20–26], hence, there are many pathways for 
+human exposure to MPs [27]. Nevertheless, the potential risks for human health are still 
+unknown [28–30]. 
+The microﬁbers (MFs) are one type of MPs  which have a length to diameter ratio of 
+>3 and a maximum length of 15 mm [ 3]. Textile MFs are among the most renown ed as 
+these have been widely found in the environment. These can be generated in the manu-
+facturing, use, cleaning, and ﬁnal disposal of a textile article [8]. This study is focused on 
+those generated in the household laundering process, which can detach millions of MFs 
+per washing cycle. The shed MFs can end up entering the aquatic en vironment since the 
+wastewater treatment plants, when there are any, cannot capture one hundred percent of 
+the MFs [31,32]. Consequently, until more ambit ious pollution prevention measures are 
+implemented, some solutions have been proposed to avoid contamination by this route. 
+For instance, in-drum accessories to reduce the generation of MFs or out -drum ﬁlters to 
+retain the already generated ones [33-35]. However, in the “retaining” alternatives, none 
+of the existing technologies has a ﬁnal treatment for the MFs. 
+This article aims to evaluate the performance of a new MFs ﬁltering technology. This 
+system can be applied to retain MFs in the equipment where these are emitted, like wash-
+ing machines and dryers, among others. The principal novelty is that this system uses 
+recycled thermoplastic pellets (low -density polyethylene (LDPE)) as the ﬁltering media. 
+Diﬀerent arrangements of the technology were tested to know which one is more eﬃcient 
+for the purpose of catching MFs. Finally, the outcomes of this ﬁlter were compared with 
+results reported in papers that tested other devices used with the same purpose.  One of 
+the main advantages of this ﬁlter is that once exhausted, the retai ned MFs can be immo-
+bilized. The ﬁltering media, consisting of thermoplastic pellets, can be merged, providing 
+the MFs with a matrix where these will be entrapped forming diﬀerent types of compo-
+sites. 
+In summary, the aim of this work is to evaluate the performance of four new ﬁltration 
+devices that use recycled LDPE pellets against the retention of MFs released during do-
+mestic washing. MF retention eﬃciency has been experimentally determined comparing 
+the performance of the four proposed devices. In addition, the eﬃciency of the studied 
+ﬁlter arrangements was compared with alternative proposals that have been previously 
+published by other authors. 
+2. Materials and Methods 
+2.1. Tested Filtering Arrangements 
+Four diﬀerent ﬁltering arrangements were tested in this study. Three of them were 
+external ﬁlters, named as F1 (ﬁlter 1), F2 (ﬁlter 2), and F3 (ﬁlter 3). The fourth arrangement 
+was a ﬁlter cartridge designed to be placed inside the existing washing machine ﬁlter (ﬁl-
+ter 4, F4). Schemes and dimensions of the arrangements are shown in Figure 1 (F1, F2, and 
+F3 ﬁlters) and Figure 2 (ﬁlter F4). It should be noticed that the ﬁlter arrangement F3 is the 
+
+Polymers 2023, 15, 3023 3 of 12 
+ 
+ 
+same as the F1 arrangement but changing the ﬂow direction, that is, the eﬄuent ﬂowed 
+from the bottom to the top, with the ﬁlter cartridge at the top. The ﬁlters basically have 
+three main sections: (S1) a coupling  sub-system to the washing machine, (S2) an empty 
+section to facilitate the water ﬂow and to provide space for the accumulation of MFs and 
+dirt, and (S3) the ﬁlter cartridge ﬁlled with pellets; whereas the F4 arrangement leverages 
+the internal ﬁlter of the washing machine to place the cartridge inside. The novelty of these 
+systems is the application of recycled thermoplastic polymers as the ﬁltering media. In 
+this work, recycled LDPE was employed in the form of pellets. These were usual commer-
+cial pellets, with a size of 3 to 5 mm on the bigger axis, and of 2 to 3 mm on the smaller 
+axis. All the LDPE pellet cartridges were structured to have a density of 0.5 to 0.6 g/cm
+3. 
+ 
+Figure 1. Scheme for the F1, F2, and F3 arrangements. The blue arrows show dimensions for F1 and 
+F3. The red arrows show dimensions for F2. The external ﬁlters (F1, F2, and F3) were made of trans-
+lucent PVC to be able to observe their inside while conducting the experiments and they were con-
+nected to the water outlet pipe of the washing machine. 
+ 
+Figure 2. Scheme for the F4 arrangement corresponding to the existing washer ﬁlter having 5 cm of 
+diameter and a total height of 9 cm. Blue arrows indicate the ﬂow direction. 
+PVC was selected as the ﬁlter structure material due to its higher resistance to aging 
+compared to other polymers commonly used in water pipes, such as HDPE or PP. In this 
+sense, Zhang et al. [3 6] conﬁrm in aging tests of rainwater facilities that P VC releases a 
+Ø
+Ø
+Ø
+Ø
+175 cm3
+
+
+Polymers 2023, 15, 3023 4 of 12 
+ 
+ 
+quantity of MPs almost 12 times lower than HDPE. On another hand, regarding the ma-
+terial contained in the replaceable cartridge, LDPE was selected because of its high aﬃnity 
+for the retention of MPs, as can be seen in previous literature where an LDPE ﬁlm is used 
+to capture and sample MPs released from PVC pipes [37]. 
+2.2. Materials and Pre-Treatments 
+Two types of black commercial polyester fabrics were selected. One was a woven 
+fabric while the other was a ﬂeece-knitted fabric. For each experimentation, an equal num-
+ber of pieces and weight (20 pieces, 280 g each piece) were distributed in two identical 
+commercial washing machines (FAGOR Innovation F-2180, FAGOR, Mondragón, Basque 
+Country, Spain), one for the control and the other to test each of the ﬁltering arrangements. 
+In this way, 70% (5.6 kg) of the maximum weight of these washers (8 kg) was introduced 
+in each washing machine. 
+Before data compilation, two independent pre-treatments were made. On one hand, 
+the washing machines were cle aned by doing two empty washing cycles. On the other 
+hand, the fabrics were washed for ﬁve consecutive washing cycles prior to data collection. 
+The latter pre- treatment was performed to achieve a constant detachment rate of MFs, 
+which has been reported to be from the 5th washing cycle [31,38]. 
+Afterward, the MF ﬁltering arrangements were independently tested versus a normal 
+discharge of a washing cycle. The ﬁltering arrangements were connected to one of the 
+washers, while the other washer was kept unmodiﬁed to obtain comparable reference data 
+of the concentration of MFs in the eﬄuent. Then, the fabrics were washed with the “cold” 
+program (30 min, 22 L of eﬄuent, 1000 RPM, water grid temperature ~25 °C). A common 
+detergent (Bosque Verde, SPB, Cheste, Valencia, Spain) was introduced to the w ashing 
+trials with a volume of 75 mL per cycle. 
+The eﬄuent of the washing cycles 1, 5, 10, 15, and 20 were collected and evaluated by 
+gravimetry. For this, from each eﬄuent, a sample of 10 L was separated while continu-
+ously stirring. Then, from this 10 L sample, 2 aliquots of 2 L were ﬁltered through 20 µm 
+polyamide ﬁlters. The polyamide ﬁlters were dried and weighed before and after the ﬁl-
+tration of the discharged water. The diﬀerence between the two  weights of the ﬁlter was 
+considered as the detached MFs. As each ﬁlter weight has 0.1 mg uncertainty and the ﬁlter 
+is weighted twice (before and after ﬁltering), we consider that the values of the MFs have 
+an uncertainty of ±0.2 mg. The retention eﬃciency of the ﬁltering arrangements was cal-
+culated as the relation between the MFs found in the washing eﬄuent with the ﬁlter de-
+vice versus the washing eﬄuents obtained without the ﬁltering system (See Equation (1)). 
+The results were expressed in the percentage of retained MFs: 
+𝑅𝑅= �1 − (𝐷𝐷2 − 𝐷𝐷1)
+(𝑁𝑁2 − 𝑁𝑁1)� ∙ 100% (1) 
+where 𝑅𝑅 is the retention eﬃciency, %;  
+𝐷𝐷2 − 𝐷𝐷1 is the diﬀerence between the mean values of the weight of the ﬁlters when a ﬁl-
+tering arrangement was applied, mg, and 
+𝑁𝑁2 − 𝑁𝑁1 is the diﬀerence between the mean values of the weight of the ﬁlters when no  
+ﬁltering arrangement was applied, mg. 
+In order to ﬁnd the replacement time intervals of the cartridges, after the 20th wash-
+ing cycle, the ﬁltering arrangements were operated until they were clogged. In these trials, 
+the eﬃciency was not measured. 
+2.3. Permeability Coeﬃcient and Porosity 
+The permeability coeﬃcient was evaluated by applying Darcy’s Law. The purpose 
+was to determine the resistance to the ﬂow of the devices when using LDPE as the ﬁltering 
+media with the conditions explained in the F iltering Arrangements section, speciﬁcally, 
+the density of the pellets. Darcy’s Law can be expressed by Equation (2): 
+
+Polymers 2023, 15, 3023 5 of 12 
+ 
+ 
+𝑄𝑄= 𝐾𝐾∆ℎ
+𝐿𝐿𝐴𝐴 (2) 
+where 𝑄𝑄 is the ﬂow of the ﬂuid, cm3/s; 𝐾𝐾 is the permeability coeﬃcient, cm/s; 
+∆ℎ is the diﬀerence between the heights of the ﬂuid at the inﬂuent and eﬄuent of the ﬁlter 
+(cm); 𝐿𝐿 is the height of the ﬁltering section, cm, and 𝐴𝐴 is the area of the ﬁltering section , 
+cm2. 
+On the other hand, the porosity was calculated by introducing LDPE pellets with a 
+density of 0.5 to 0.6 g/cm3 in a 100 mL recipient. Then, water was poured into the recipient 
+and its volume was measured. The porosity was calculated with Equation (3): 
+∅ = 𝑉𝑉𝑊𝑊
+𝑉𝑉𝑇𝑇
+ (3) 
+where ∅ is the porosity (dimensionless) and 𝑉𝑉𝑊𝑊 is the volume of water poured into the 
+𝑉𝑉𝑇𝑇 100 mL recipient ﬁlled with pellets. 
+3. Results and Discussion 
+3.1. Eﬃciency of the Filtering Arrangements 
+The four ﬁltering arrangements described in the methodology  section have been 
+tested to evaluate their MF retention performance. All the arrangements have shown a 
+statistically signiﬁcant diﬀerence between using or not using the ﬁltering system (p < 0.05 
+for all the cases, ANOVA). Regarding the tested models, as can be seen in Figure 3, the F1 
+arrangement has started retaining more than 50% of the MFs. It has also shown a constant 
+and positive eﬃciency growth. Hence, at the 10th washing cycle, the retention reached 
+66%, while in the 20th washing cycle, its retention was greater than 80%. In Figure 3, it can 
+also be seen that in the last tested washing cycles , the mass of MFs found in the ﬁltered 
+eﬄuent was lower than 1 mg. 
+ 
+Figure 3. Released MFs in the eﬄuent with F1 arrangement (outside smaller ﬁlter). 
+Additionally, the F1 arrangement was found to have a cartridge replacement time 
+interval of approximately 30 washing cycles before clogging. On the other hand, the F2 
+arrangement showed a similar trend. As explained before, the F2 was larger and had more 
+length and volume of ﬁltering media (LDPE pellets) than the F1. The F2 ﬁltering model 
+has shown a greater MF retention performance since the beginning (see Figure 4). In this 
+line, the F2 model started with a n MF retention greater than 55 %; in the 10th washing 
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+0
+1
+2
+3
+4
+5
+6
+1 5 10 15 20
+Retention Efficiency (%)
+Microfibers (mg)
+Washing Trial
+Filter F1
+No Filter [mg] F1 [mg] Retention %
+
+Polymers 2023, 15, 3023 6 of 12 
+ 
+ 
+cycle, it was already greater than 80%, reaching the performance that the F1 arrangement 
+had at the 20th cycle. The F2 ﬁlter achieved a performance greater than 90% in the 20th 
+washing cycle. This can be explained as a consequence of the larger length and volume of 
+section S3, which gives more ﬂow resistance and retention time to the MFs. Also, the vol-
+ume of section S2 was greater to give space and time for the ﬁltering process to occur, 
+meaning that the ﬁltering can be conducted smoothly. 
+ 
+Figure 4. Released MFs in the eﬄuent with F2 arrangement (outside larger ﬁlter). 
+As can be seen in Figure 5, in the last washing cycles, the MFs that were found in the 
+eﬄuent approached zero. Moreover, an extra advantage of using a larger ﬁlter i s the in-
+crease in the replacement time interval of the cartridges and the subsequent comfort for 
+the users. In this sense, the F2 arrangement was able to handle approximately more than 
+40 washing cycles before clogging, at least 10 more than the F1 model. 
+As explained in the methodology section, the F3 ﬁlter model was arranged by turning 
+the F1 model ﬂow upside down, that is, the eﬄuent ﬂowed from bottom to top. As can be 
+seen in Figure 5, the F3 arrangement started with a retention eﬃciency greater than 85%. 
+This means that the F3 has shown an initial higher performance in contrast with the other 
+tested arrangements. Moreover, from the 15th washing cycle, the retention eﬃciency was 
+almost 100%, indicating that the mass of MFs in the eﬄuent was almost completely elim-
+inated. Moreover, the replacement time interval of the F3 cartridge was also improved in 
+contrast to the F1 model reaching approximately 40 washing cycles. As these were identi-
+cal in size, the conceived reason for the improvement was that the MFs did  not create a 
+blockage at the begging of the ﬁltering section (S3). Hence, the MFs were easily retained 
+in the previous section (S2) and the ﬁltering process was smoother as well. 
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+0
+1
+2
+3
+4
+5
+6
+1 5 10 15 20
+Retention Efficiency (%)
+Microfibers (mg)
+Washing Trial
+Filter F2
+No Filter [mg] F2 [mg] Retention %
+
+Polymers 2023, 15, 3023 7 of 12 
+ 
+ 
+ 
+Figure 5. Released MFs in the eﬄuent with F3 arrangement (outside smaller ﬁlter with the bottom-
+up ﬂow). 
+Finally, as mentioned before, the F4 arrangement was developed to be installed using 
+the existing washing machine ﬁlter. This arrangement has shown a better starting perfor-
+mance than the F1 and F2 ﬁlters (see Figure 6). This might be explained as a consequence 
+of the roughly radial ﬁltering process that it ineluctably has (it has a concentric ﬂow from 
+the inside to the outside ). The F4 started with 65% of eﬃciency and reached >90% at the 
+20th washing cycle. As the F4 is constructed by using and surrounding the existing washer 
+ﬁlter, the cartridge lifetime will depend on its size. Yet, in washers with small , designed 
+ﬁlters, a prolongation of the existing ﬁlter can be designed. In this way , the main ad-
+vantage of this model is that it does  not need the installation of external arrangements. 
+Hence, the washers that have no space for external ﬁlters or that have the eﬄuent hose 
+welded to the discharge tube can still have an alternative to i nstall a catcher device  for 
+MFs. It should be mentioned that all the arrangements surpass the minimum expected by 
+the users as an “optimal” replacement frequency (found at 17 washes by [39]). 
+ 
+Figure 6. Released MFs in the eﬄuent with F4 arrangement system introduced in the existing 
+washer ﬁlter. 
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+0
+1
+2
+3
+4
+5
+6
+1 5 10 15 20
+Retention Efficiency (%)
+Microfibers (mg)
+Washing Trial
+Filter F3
+No Filter [mg] F3 [mg] Retention %
+0%
+20%
+40%
+60%
+80%
+100%
+0
+1
+2
+3
+4
+5
+6
+1 5 10 15 20
+Retention Efficiency (%)
+Microfibers (mg)
+Washing Trial
+Filter F4
+No Filter [mg] F4 [mg] Retention %
+
+Polymers 2023, 15, 3023 8 of 12 
+ 
+ 
+Theoretically, in all the cases , the ﬁltering capacity of this system is determined by 
+two main aspects. First, the lint that is formed between the MFs on and through the LDPE 
+pellets. This latter feature provides the ﬁlter with an initial bump to start. In other words, 
+the already retained MFs strengthen the ﬁltering capacity by forming a new lint layer that 
+catches more MFs. This can be seen in  Figure 7, where the eﬃciencies of the ﬁltering ar-
+rangements were found to be variable and positive (a linear trend with R2 > 0.9) through-
+out the trials. This was also empirically seen through the translucent PVC ﬁlters, where 
+the lint formed by the MFs was easily observed. In this sense, it was also appreciated that 
+the lint formed “hot spots” where the accumulation was greater. 
+ 
+Figure 7. Comparison of MF retention eﬃciency for all the ﬁltering arrangements. 
+Concerning the permeability coeﬃcient, it was estimated in the order of 10−3 m/s (1.3 
+to 1.5 cm/s). This parameter is related to th e structure of the ﬁltering media and deter-
+mines the resistance to the ﬂow that the device has when using 0.5 to 0.6 g /cm3 of LDPE 
+as the ﬁltering media. As it can be seen, the resulting value can be considered as “very 
+high” or “rapid” when compared to other similar ﬁltering media concerning the ﬁltration 
+mode (e.g., sand) [40]. In this sense, the eﬄuent of the washers can ﬂow through the ﬁlters 
+without any inconvenience. This latter feature was conﬁrmed in the experiments made to 
+assess the ﬁlter performance. Regarding the porosity, it was found at approximately 0.35, 
+which provides suﬃcient empty voids to let the water ﬂow but also enables retaining the 
+MFs. It should be mentioned that the ﬁlter is a dynamic system, meaning that it will 
+change most of the main parameters over functional time. However, as was seen through-
+out th e experiments, these alterations aﬀect the system by increasing the ﬁltering eﬃ-
+ciency. 
+Finally, once the ﬁlters are exhausted , the thermoplastic pellets and the MFs can be 
+reused by enclosing the MFs in the LDPE polymeric matrix by obtaining composites that 
+can be further used for diﬀerent purposes. In this regard, composites were obtained with 
+exhausted ﬁlters as has been previously published by the authors of [41]. 
+3.2. Comparison with Other MF Filtering Devices 
+With respect to other commercial ﬁlters, F1, F2, F3, and F4 have presented higher 
+performance than most of the devices found in the market (see Table 1). Particularly, the 
+F3 arrangement has shown the best retention eﬃciency. Two published studies have eval-
+uated the MF retention eﬃciency of the already commercialized devices. McIlwraith et al. 
+(2019) [42] tested the Cora Ball  and the Lint LUV-R. They used 545 g of a 100% polyester 
+R² = 0.9864 R² = 0.954 R² = 0.9394 R² = 0.9411
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Retained MFs (%)
+Washing trial
+F1 F2 F3 F4
+Linear (F1) Linear (F2) Linear (F3) Linear (F4)
+
+Polymers 2023, 15, 3023 9 of 12 
+ 
+ 
+ﬂeece blanket, washing at cold temperature, 30 min total washing time, 26.5 L of eﬄuent, 
+and a spin speed of 660 RPM. Excluding the mass of textiles used, the conditions are sim-
+ilar to the ones used in this study. However, they only evaluated the MF retention eﬃ-
+ciency at the 1st washing cycle. The ﬁltering procedure to assess the MF retention was 
+conducted through a 10 µm pore size ﬁlter. They reported that these technolog ies can 
+achieve a drop in MFs from 26% (Cora Ball) to 87% (Lint LUV-R). 
+On the other hand, Napper et al. (2020) [43] also tested some technologies. They used 
+three synthetic fabrics (jumpers) made of 100% polyester, 100% acrylic, and 60% polyes-
+ter/40% cotton. Each washing cycle was ﬁlled with 1300 g of textiles. To avoid the initial 
+peak that new garments have on the detachment  of MFs, they also washed the clothes 4 
+times before data collection. The front-loading washers were set at 30 °C, 1000 RPM, and 
+45 min. The reported outcomes corresponded to the average of the data collected after the 
+1st, 5th, and 10th wash. The ﬁlter pore size used was of 1 µm. They have reported that the 
+external device XFiltra [44] was the best device with an eﬃciency of 78%. Acco rding to 
+their study, two key features can explain the higher eﬃciency of this ﬁlter: the ﬁnest di-
+ameter pore in contrast with other external devices (60 µm vs. > 175 µm), and the usage 
+of an integrated pump, which might need extra energy supply. On the other hand, Planet-
+Care [45] aﬃrms that their device has a n MF retention eﬃciency of >90%, which contra-
+dicts the ﬁndings of Napper et al. (2020) [ 43]. The results of these studies and ours are 
+summarized in Table 1. 
+Table 1. Results reported by two diﬀerent publications regarding MF reduction devices and com-
+parison with the present study. 
+Device 
+McIlwraith et al., 2019 
+[42] 1 
+Napper et al., 2020 
+[43] 2 Our Work 
+Retention Eﬃciency (%) Retention Eﬃciency by Weight (%) By Count By Weight By Weight 
+In-Drum    Washing 1st 5th 10th 20th 
+Cora Ball (No mesh) 26 5 31 
+F4 64 76 77  GuppyFriend (50 µm) - - 54 
+4th element (50 µm) 3 - - 21 
+External Filters    Washing 1st 5th 10th 20th 
+Lint LUV-R (150 µm) 87 80 29 F1 52 58 66 83 
+XFiltra (60 µm) - - 78 F2 56 63 81 93 
+PlanetCare (200 µm) - - 25 F3 86 88 95 99 
+1 Outcomes are for the MF retention average from 1st washing cycle. 2 Outcomes are for the average 
+of the 1st, 5th, and 10th washing cycles’ data. 3 Napper et al. [43] was used for the reference of the 
+4th element washing bag. 
+As can be seen in Table 1, diﬀerent outcomes were reported for the same devices; 
+hence, further interlaboratory trials are required to achieve deﬁnitive conclusions. In ad-
+dition, it should be noted that, for a more accurate comparison, the results of McIlwraith 
+et al. (2019) must be compared with our 1st washing cycles’ outcomes, whilst the outcomes 
+of Napper et al. (2020) must be compared with the average of the outcomes obtained from 
+the 1st, 5th, and 10th washing cycles. These averages are 59% for F1, 67% for F2, 90% for 
+F3, and 72% for F4. 
+Moreover, it is important to underline that the ﬁnal disposal of the retained MFs is a 
+crucial concern still to be addressed. Napper et al. (2020) [43] indicated, for example, that 
+once the ﬁlters are cleaned by co llecting the MFs, these can be “ thrown into the everyday 
+household waste”. Hence, the MFs could also ﬁnish in the environment. In this work, the 
+ﬁltering devices are made of recycled materials and they have the additional advantage 
+
+Polymers 2023, 15, 3023 10 of 12 
+ 
+ 
+that the MFs can be further treated with the ﬁltering media, for example, to prepare com-
+posite materials [41]. 
+Finally, another parameter that must be considered is the time intervals to clean or 
+replace the ﬁlters. The Lint LUV-R needs to be cleaned every two to three loads of laundry 
+according to the manufacturers. Planet Care can be used for 20 washing cycles. XFiltra can 
+handle 30 washing loads [40]. In our case, the smaller arrangements F1 and F3 were found 
+to hold at least 30 washing cycles, whilst the F2 arrangeme nt can withstand at least 40 
+loads of washing. On the other hand, the in -drum F4 arrangement replacement interval 
+will depend on the size of the existing washing machine ﬁlter. Regarding the commercial 
+in-drum devices needed, they need to be cleaned once every load of laundry. According 
+to Herweyers et al. [36], the minimum cleaning time interval is between 15 and 17 washing 
+cycles. However, not all devices meet this requirement. In the case of the system assessed 
+in this study, the replacement time interval for the cartridges surpasses the u sers’ expec-
+tations. 
+4. Conclusions 
+As demonstrated in this research, ﬁlters are essential in retaining microﬁbers while 
+washing fabrics. By trapping the microﬁbers and restricting their release into the environ-
+ment, ﬁlters help to reduce the impact of microﬁber contamination on water eﬄuents. 
+Four diﬀerent models of a new textile microﬁber retaining system were evaluated. It 
+was found that all the assessed arrangements have a good performance for retaining mi-
+croﬁbers from the washers’ eﬄ uents. Depending on the model, the microﬁber retention 
+eﬃciency was estimated between 52% and 86% in the 1st washing cycle and up to 83% to 
+99% in the 20th. The best performance was found when the ﬂow of the washers’ eﬄuent 
+went from bottom to top,  being the ﬁltering media was at the top , that is, for ﬁlter F3 . 
+Moreover, all the arrangements showed a suﬃcient replacement time interval for the car-
+tridges, as these were capable of handling more than 30 washing cycles. It is important to 
+mention that one of the arrangements did  not need an external device as it was applied 
+by surrounding the existing washing machine ﬁlter. 
+In addition to the good performance of these ﬁlters, it should be highlighted that they 
+hold two relevant features. First, the usage of thermoplastic recycled waste for the ﬁltering 
+media and the shell, which strengthens the circular economy philosophy and produces a 
+“greener” product. Second, that the retained microﬁbers can be further and easily immo-
+bilized in the LDPE polymeric matrix by merging the ﬁltering media with the microﬁbers 
+inside. This latter feature can be harnessed to develop diﬀerent types of products, tackling 
+one of the main issues of the existing alternatives to reduce the microﬁbers, which is the 
+subsequent treatment of these pollutants. 
+Author Contributions: Conceptualization, F.B. and C.G. -B.; methodology, F.B., C.G .-B., and V.L.-
+G.; formal analysis, F.B., C.G .-B., and V.L.-G.; investigation, F.B. and C.G. -B.; resources, C.G.-B.; 
+writing—original draft preparation, F.B . and V.L.-G.; writing—review and editing, C.G .-B., V.L.-G., 
+and F.C.-N.; supervision, C.G.-B.; project administration. C.G. -B.; funding acquisition, C.G. -B. All 
+authors have read and agreed to the published version of the manuscript. 
+Funding: This research was funded by the Secretaria d’Universitats i Recerca del Departament 
+d’Empresa i Coneixement de la Generalitat de Catalunya (AGAUR 2018_DI_022). 
+Institutional Review Board Statement: Not applicable. 
+Data Availability Statement: Not applicable. 
+Conﬂicts of Interest: The authors declare no conﬂict s of interest. The funders had no role in the 
+design of the study; in the collection, analyses, or interpretation of data; in the writing of the manu-
+script, or in the decision to publish the results. 
+  
+
+Polymers 2023, 15, 3023 11 of 12 
+ 
+ 
+References 
+1. Hannah Ritchie and Max Roser (2018)—“Plastic  Pollution”. Available online: https://ourworldindata.org/plastic-pollution (ac-
+cessed on 1 June 2023). 
+2. Walker, T.R.; Xanthos, D. A call for Canada to move toward zero plastic waste by reducing and recycling single-use plastics. 
+Resour. Conserv. Recycl. 2018, 133, 99–100. https://doi.org/10.1016/j.resconrec.2018.02.014. 
+3. ECHA, Restriction Report—Proposal, 2019. Available online: https://echa.europa.eu/registry -of-restriction-intentions/-/dis-
+list/details/0b0236e18244cd73 (accessed on 1 July 2022). 
+4. Chen, G.; Li, Y.; Wang, J. Occurrence and ecological impact of microplastics in aquaculture ecosystems. Chemosphere 2021, 274, 
+129989. https://doi.org/10.1016/j.chemosphere.2021.129989. 
+5. van Sebille, E.; Wilcox, C.; Lebreton, L.; Maximenko, N.; Hardesty, B.D.; van Franeker, J.A.; Eriksen, M.; Siegel, D.; Galgani, F.; 
+Law, K.L. A global inventory of small ﬂoating plastic debris. Environ. Res. Lett. 2015, 10, 124006. https://doi.org/10.1088/1748-
+9326/10/12/124006. 
+6. UNEP and GRID-Arendal, Marine Litter Vital Graphics, United Nations Environment Programme and GRID-Arendal. Nairobi 
+and Arendal. 2016. Available online: http://www.unep.org/regionalseas/marinelitter/publications/docs/anl_oview.pdf (ac-
+cessed on 1 January 2023). 
+7. Barrett, J.; Chase, Z.; Zhang, J.; Holl, M.M.B.; Wil lis, K.; Williams, A.; Hardesty, B.D.; Wilcox, C.; Pennino, M.G. Microplastic 
+Pollution in Deep -Sea Sediments From the Great Australian Bight. Front. Mar. Sci.  2020, 7, 808. 
+https://doi.org/10.3389/fmars.2020.576170. 
+8. Boucher, J.; Friot, D. Primary Microplastics in the Oceans: A Global Evaluation of Sources; IUCN: Gland, Switzerland, 2017. 
+https://doi.org/dx.doi.org/10.2305/IUCN.CH.2017.01.en. 
+9. Watt, E.; Picard, M.; Maldonado, B.; Abdelwahab, M.A.; Mielewski, D.F.; Drzal, L.T.; Misra, M.; Mohanty, A.K. Ocean plastics: 
+Environmental implications and potential routes for mitigation — A perspective. RSC Adv. 2021, 11, 21447–21462. 
+https://doi.org/10.1039/D1RA00353D. 
+10. Collignon, A.; Hecq, J.H.; Glagani, F.; Voisin, P.; Collard, F.; Goﬀart, A. Neustonic microplastic and zooplankton in the No rth 
+Western Mediterranean Sea. Mar. Pollut. Bull. 2012, 64, 861–864. https://doi.org/10.1016/j.marpolbul.2012.01.011. 
+11. Fossi, M.C.; Coppola, D.; Baini, M.; Giannetti, M.; Guerranti, C.; Marsili, L.; Panti, C.; de Sabata, E.; Clò, S. Large ﬁlter feeding 
+marine organisms as indicators of microplastic in the pelagic environment: The case studies of the Mediterranean basking shark 
+(Cetorhinus maximus) and ﬁn whale (Balaenoptera physalus). Mar. Environ. Res. 2014, 100, 17–24. https://doi.org/10.1016/j.ma-
+renvres.2014.02.002. 
+12. GESAMP, Sources, Fate and Eﬀects of Microplastics in the Marine Environment: A Global Assessment. 2015. Available online: 
+http://ec.europa.eu/environment/marine/good-environmental-status/descriptor-10/pdf/GESAMP_microplastics full study.pdf 
+(accessed on 22 January 2022). 
+13. Keshavarzifard, M.; Vazirzadeh, A.; Shariﬁnia, M. Occurrence and characterization of microplastics in white shrimp, Metape-
+naeus aﬃnis, living in a habitat highly aﬀected by anthropogenic pressures, northwest Persian Gulf. Mar. Pollut. Bull. 2021, 169, 
+112581. https://doi.org/10.1016/j.marpolbul.2021.112581. 
+14. Rochman, C.M.; Kurobe, T.; Flores, I.; Teh, S.J. Early warning signs of endocrine disruption in adult ﬁsh from the ingestion of 
+polyethylene with and without sorbed chemical pollutants from the marine environment. Sci. Total Environ. 2014, 493, 656–661. 
+https://doi.org/10.1016/j.scitotenv.2014.06.051. 
+15. Jemec, A.; Horvat, P.; Kunej, U.; Bele, M.; Krzan, A. Uptake and eﬀects of microplastic textile ﬁbers on freshwater crustac ean 
+Daphnia magna. Environ. Pollut. 2016, 219, 201–209. https://doi.org/10.1016/j.envpol.2016.10.037. 
+16. Welden, N.A.C.; Cowie, P.R. E nvironment and gut morphology inﬂuence microplastic retention in langoustine, Nephrops 
+norvegicus. Environ. Pollut. 2016, 214, 859–865. https://doi.org/10.1016/j.envpol.2016.03.067. 
+17. Nelms, S.E.; Galloway, T.S.; Godley, B.J.; Jarvis, D.S.; Lindeque, P.K. Investigating microplastic trophic transfer in marine top 
+predators. Environ. Pollut. 2018, 238, 999–1007. https://doi.org/10.1016/j.envpol.2018.02.016. 
+18. Rochman, C.M.; Scherer, C.; Alvarez-Muñoz, D.; Brennholt, N.; Bourrain, X.; Buchinger, S.; Fries, E.; Grosbois, C.; Klasmeier, J.; 
+Marti, T.; et al. Plastics and Priority Pollutants: A Multiple Stressor in Aquatic Habitats. Environ. Sci. Technol. 2013, 47, 2439–
+2440. https://doi.org/10.1021/es400748b. 
+19. Browne, M.A.; Rochman, C.M.; Browne, M.A.; Halpern, B.S.; Hentschel, B.T.; Hoh, E.; Karapanagioti, H.K.; Rios-Mendoza, L.M.; 
+Takada, H.; Teh, S.; et al. Policy: Classify plastic waste as hazardous. Nature 2013, 494, 169–171. https://doi.org/10.1038/494169a. 
+20. Van Cauwenberghe, L.; Janssen, C.R. Microplastics in bivalves cultured for human consumption. Environ. Pollut. 2014, 193, 65–
+70. https://doi.org/10.1016/j.envpol.2014.06.010. 
+21. Rochman, C.M.; Kross, S.M.; Armstrong, J.B.; Bogan, M.T.; Darling, E.S.; Green, S.J.; Smyth, A.R.; Veríssimo, D. Scientiﬁc E vi-
+dence Supports a Ban on Microbeads. Environ. Sci. Technol. 2015, 49, 10759–10761. https://doi.org/10.1021/acs.est.5b03909. 
+22. Yang, Y.; Yang, J.; Wu, W.M.; Zhao, J.; Song, Y.; Gao, L.; Yang, R.; Jiang, L. Biodegradation and Mineralization of Polystyrene by 
+Plastic-Eating Mealworms: Part 2. Role of Gut Microorganisms. Environ. Sci. Technol . 2015, 49, 12087–12093. 
+https://doi.org/10.1021/acs.est.5b02663. 
+
+Polymers 2023, 15, 3023 12 of 12 
+ 
+ 
+23. Schymanski, D.; Goldbeck, C.; Humpf, H.U.; Fürst, P. Analysis of microplastics in water by micro-Raman spectroscopy: Release 
+of plastic particles from diﬀerent packaging into mineral water. Water Res. 2018, 129, 154 –162. https://doi.org/10.1016/j.wa-
+tres.2017.11.011. 
+24. Cox, K.D.; Covernton, G.A.; Davies, H.L.; Dower, J.F.; Juanes, F.; Dudas, S.E. Human Consumption of Microplastics. Environ. 
+Sci. Technol. 2019, 53, 7068–7074. https://doi.org/10.1021/acs.est.9b01517. 
+25. Ossmann, B.E. Microplastics in drinking water? Present state of knowledge and open questions. Curr. Opin. Food Sci . 2021, 41, 
+44–51. https://doi.org/10.1016/j.cofs.2021.02.011. 
+26. Rainieri, S.; Barranco, A. Microplastics, a food safety issue? Trends Food Sci. Technol . 2019, 84, 55–57. 
+https://doi.org/10.1016/j.tifs.2018.12.009. 
+27. Domenech, J.; Marcos, R. Pathways of human exposure to microplastics and estimation of the total burden. Curr. Opin. Food Sci. 
+2021, 39, 144–151. https://doi.org/10.1016/j.cofs.2021.01.004. 
+28. Li, Q.; Ma, C.; Zhang, Q.; Shi, H. Micr oplastics in shellﬁsh and implications for food safety. Curr. Opin. Food Sci. 2021, 40, 192–
+197. https://doi.org/10.1016/j.cofs.2021.04.017. 
+29. Vázquez-Rowe, I.; Ita-Nagy, D.; Kahhat, R. Microplastics in ﬁsheries and aquaculture: Implications to food sustai nability and 
+safety. Curr. Opin. Green Sustain. Chem. 2021, 29, 100464. https://doi.org/10.1016/j.cogsc.2021.100464. 
+30. Prata, J.C.; da Costa, J.P.; Lopes, I.; Andrady, A.L.; Duarte, A.C.; Rocha -Santos, T. A One Health perspective of the impacts of 
+microplastics on animal, human and environmental health. Sci. Total Environ . 2021, 777, 146094. https://doi.org/10.1016/j.sci-
+totenv.2021.146094. 
+31. Belzagui, F.; Crespi, M.; Álvarez, A.; Gutiérrez-Bouzán, C.; Vilaseca, M. Microplastics’ emissions: Microﬁbers’ detachment from 
+textile garments. Environ. Pollut. 2019, 248, 1028–1035. https://doi.org/10.1016/j.envpol.2019.02.059. 
+32. De Falco, F.; Di Pace, E.; Cocca, M.; Avella, M. The contribution of washing processes of synthetic clothes to microplastic pollu-
+tion. Sci. Rep. 2019, 9, 6633. https://doi.org/10.1038/s41598-019-43023-x. 
+33. CoraBall. The Cora Ball. 2019. Available online: https://coraball.com/ (accessed on 20 May 2022). 
+34. Environmental Enhancements. Lint LUV-R, MicroPlastics Lint LUV-R Washing Machine Discharge Filter; Environmental Enhance-
+ments: 2021, Dartmouth, NS, Canada . Available online: https://environmentalenhancements.com/store/index.php/prod-
+ucts/products-lint-ﬁlter (accessed on 22 January 2022). 
+35. Belzagui Elder, F. Microplastics and microﬁbers pollution: study of their environmental issues and evaluation of reduction 
+alternatives. Universitat Politècnica de Catalunya. Institut d'Investigació Tèxtil i Cooperació Industrial de Terrassa, 2022. 
+http://hdl.handle.net/2117/376938 
+36. Zhang, X.; Liu, C.; Liu, J.; Zhang, Z.; Gong, Y.; Li, H. Release of microplastics from typical rainwater facilities during ag ing 
+process. Sci. Total Environ. 2022, 813, 152674. https://doi.org/10.1016/j.scitotenv.2021.152674. 
+37. Ye, X.; Wang, P.; Wu, Y.; Zhou, Y.; Sheng, Y.; Lao, K. Microplastic acts as a vector for contaminants: The release behavior of 
+dibutyl phthalate from polyvinyl chloride pipe fragments in water phase. Environ. Sci. Pollut. Res. 2020, 27, 42082 –42091. 
+https://doi.org/10.1007/s11356-020-10136-0. 
+38. Pirc, U.; Vidmar, M.; Mozer, A.; Krzan, A. Emissions of microplastic ﬁbers from microﬁber ﬂeece during domestic washing. 
+Environ. Sci. Pollut. Res. 2016, 23, 22206–22211. https://doi.org/10.1007/s11356-016-7703-0. 
+39. Herweyers, L.; Carteny, C.C.; Scheelen, L.; Watts, R.; Du Bois, E. Consumers’ perceptions and attitudes toward products pre-
+venting microﬁber pollution in aquatic environments as a result of the domestic washing of synthetic clothes. Sustainability 2020, 
+12, 2244. https://doi.org/10.3390/su12062244. 
+40. Galvão, R.G.; Almeida, N.; Póvoas, Y.V.; de Azevedo Basto, P.E. Pervious concrete pavement system at polytechnic school of 
+university of pernambuco, Brazil: Product design conception. Electron. J. Geotech. Eng. 2016, 21, 4657–4668. 
+41. Belzagui, F.; Gutiérrez-Bouzán, C.; Carrillo-Navarrete, F. Novel Treatment to Immobilize and Use Textiles Microﬁbers Retained 
+in Polymeric Filters through Their Incorporation in Composite Materials. Polymers 2022, 14, 2971. 
+https://doi.org/10.3390/polym14152971. 
+42. McIlwraith, H.K.; Lin, J.; Erdle, L.M.; Mallos, N.; Diamond, M.L.; Rochman, C.M. Capturing microﬁbers —Marketed technolo-
+gies reduce microﬁber emissions from washing machines. Mar. Pollut. Bull. 2019, 139, 40–45. https://doi.org/10.1016/j.marpol-
+bul.2018.12.012. 
+43. Napper, I.E.; Barrett, A.C.; Thompson, R.C. The eﬃciency of devices intended to reduce microﬁbre release during clothes wash-
+ing. Sci. Total Environ. 2020, 738, 140412. https://doi.org/10.1016/j.scitotenv.2020.140412. 
+44. XFiltra, XFiltra, Xeros Technol. 2021. Available online: https://www.xerostech.com/technologies (accessed on 22 January 2022). 
+45. PlanetCare, PlanetCare. 2021. Available online: https://www.planetcare.org/en/ (accessed on 22 January 2022). 
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual au-
+thor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any in jury to 
+people or property resulting from any ideas, methods, instructions or products referred to in the content. 

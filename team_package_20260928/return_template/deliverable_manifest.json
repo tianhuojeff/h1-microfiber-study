@@ -1,0 +1,12 @@
+{
+  "role": null,
+  "author": null,
+  "date": null,
+  "input_snapshot": null,
+  "files": [],
+  "entrypoint": null,
+  "dependencies": [],
+  "run_command": null,
+  "not_done": [],
+  "issues": []
+}

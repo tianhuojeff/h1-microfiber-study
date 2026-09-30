@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180" role="img" aria-labelledby="title desc">
+  <title id="title">图1 冻结定向样本中流路与移出证据标签的同族计数</title>
+  <desc id="desc">14个冻结定向同族样本的多标签水平柱状图。任意液相通路或接口13，明确对外液相出口或排出9；可移出承载物或组件12，文本披露目标物或收集容器移出路径4，目标物实际取出、倒出或已验证移出0。各项可重叠，分母均为14。</desc>
+  <style>
+    .cn { font-family: "Microsoft YaHei", "Noto Sans CJK SC", "SimSun", sans-serif; fill: #17212b; }
+    .title { font-size: 39px; font-weight: 700; }
+    .subtitle { font-size: 22px; fill: #465567; }
+    .section { font-size: 26px; font-weight: 700; }
+    .label { font-size: 25px; font-weight: 500; }
+    .value { font-size: 26px; font-weight: 700; fill: #17212b; }
+    .axis { font-size: 19px; fill: #526170; }
+    .note { font-size: 20px; fill: #465567; }
+    .foot { font-size: 18px; fill: #526170; }
+    .grid { stroke: #cad3dc; stroke-width: 1; }
+    .axisline { stroke: #617080; stroke-width: 2; }
+  </style>
+  <rect width="1600" height="1180" fill="#ffffff"/>
+  <text class="cn title" x="100" y="82">图1　冻结同族样本的流路与移出证据标签</text>
+  <text class="cn subtitle" x="100" y="123">计数单位：具有该类文本披露的不同同族；所有比例的分母均为 14</text>
+
+  <rect x="100" y="166" width="1400" height="52" rx="8" fill="#eef4f8"/>
+  <text class="cn note" x="125" y="200">冻结定向人工样本 · 功能多标签、可重叠 · 仅描述本样本的文本披露，不能代表行业趋势或性能</text>
+
+  <text class="cn section" x="100" y="286">A. 液相通路：区分“任意通路/接口”与“明确对外出口/排出”</text>
+  <text class="cn axis" x="670" y="324">0</text><text class="cn axis" x="825" y="324">4</text><text class="cn axis" x="981" y="324">8</text><text class="cn axis" x="1133" y="324">12</text><text class="cn axis" x="1205" y="324">14</text>
+  <line class="axisline" x1="670" y1="340" x2="1220" y2="340"/>
+  <line class="grid" x1="827" y1="340" x2="827" y2="510"/><line class="grid" x1="984" y1="340" x2="984" y2="510"/><line class="grid" x1="1141" y1="340" x2="1141" y2="510"/><line class="grid" x1="1220" y1="340" x2="1220" y2="510"/>
+  <text class="cn label" x="100" y="390">任意液相通路/接口披露</text>
+  <text class="cn note" x="100" y="421">含内部连通、开口与接口</text>
+  <rect x="670" y="365" width="550" height="50" rx="5" fill="#e6edf3"/>
+  <rect x="670" y="365" width="511" height="50" rx="5" fill="#1677a8"/>
+  <text class="cn value" x="1245" y="400">13/14　92.9%</text>
+  <text class="cn label" x="100" y="474">明确对外液相出口/排出</text>
+  <text class="cn note" x="100" y="505">不含仅内部连通、循环流或出口未知</text>
+  <rect x="670" y="449" width="550" height="50" rx="5" fill="#e6edf3"/>
+  <rect x="670" y="449" width="354" height="50" rx="5" fill="#2b6f98"/>
+  <text class="cn value" x="1045" y="484">9/14　64.3%</text>
+
+  <line x1="100" y1="566" x2="1500" y2="566" stroke="#cad3dc" stroke-width="2"/>
+  <text class="cn section" x="100" y="629">B. 移出证据：结构可达性、文本路径与已验证实际移出须分开解读</text>
+  <text class="cn axis" x="670" y="667">0</text><text class="cn axis" x="825" y="667">4</text><text class="cn axis" x="981" y="667">8</text><text class="cn axis" x="1133" y="667">12</text><text class="cn axis" x="1205" y="667">14</text>
+  <line class="axisline" x1="670" y1="683" x2="1220" y2="683"/>
+  <line class="grid" x1="827" y1="683" x2="827" y2="943"/><line class="grid" x1="984" y1="683" x2="984" y2="943"/><line class="grid" x1="1141" y1="683" x2="1141" y2="943"/><line class="grid" x1="1220" y1="683" x2="1220" y2="943"/>
+  <text class="cn label" x="100" y="735">可移出承载物/组件</text>
+  <text class="cn note" x="100" y="766">可拆、可抽出或可替换的结构维护可达性</text>
+  <rect x="670" y="710" width="550" height="50" rx="5" fill="#f2ebf5"/>
+  <rect x="670" y="710" width="471" height="50" rx="5" fill="#7a4e9d"/>
+  <text class="cn value" x="1160" y="745">12/14　85.7%</text>
+  <text class="cn label" x="100" y="838">文本披露的目标物或收集容器移出路径</text>
+  <text class="cn note" x="100" y="869">设计文本给出的移出路径；不等同于实际操作成功</text>
+  <rect x="670" y="813" width="550" height="50" rx="5" fill="#f2ebf5"/>
+  <rect x="670" y="813" width="157" height="50" rx="5" fill="#a76f2b"/>
+  <text class="cn value" x="848" y="848">4/14　28.6%</text>
+  <text class="cn label" x="100" y="941">目标物实际取出/倒出或已验证移出</text>
+  <text class="cn note" x="100" y="972">需要已有发生或验证的记录；14 行均未留存此类证据</text>
+  <rect x="670" y="916" width="550" height="50" rx="5" fill="#f8e9e9"/>
+  <line x1="670" y1="916" x2="670" y2="966" stroke="#bd3b3b" stroke-width="8"/>
+  <text class="cn value" x="690" y="951">0/14　0.0%</text>
+
+  <line x1="100" y1="1028" x2="1500" y2="1028" stroke="#cad3dc" stroke-width="2"/>
+  <text class="cn foot" x="100" y="1067">数据来源：冻结样本数据说明与统计表_20260928.md，第 4.2、4.3 节（输入文件 SHA-256：CA23F9FD…A947）。</text>
+  <text class="cn foot" x="100" y="1102">读图提示：同一同族可拥有多个标签；柱长不是流程转化率，标签之间也不应相减。</text>
+  <text class="cn foot" x="100" y="1137">统计边界：14 个经人工全文复核的定向同族样本，截至 2026-09-28；不推断行业总体、市场份额或实际性能。</text>
+</svg>

@@ -1,0 +1,108 @@
+[
+  {
+    "publication": "CN115700309A",
+    "legacy_field": "固体移出",
+    "training_matrix_value": "从属链权10→9→8→1：含第一腔室的回收装置壳体可插入/抽出；过滤杂质在第一腔室收集，人工取出/倒出未限定",
+    "team_matrix_value": "权10壳体可抽出",
+    "decision": [
+      "回收壳体510可从洗衣机箱体10抽出，其第一腔室及过滤组件上表面承载过滤杂质；可经上侧敞口清理，也可另取出过滤组件。"
+    ],
+    "observation_ids": [
+      "CN115700309A-removal-recovery_housing"
+    ],
+    "status": "primary_text_decided; publication_roles_pending",
+    "source_matrix_hashes": [
+      "a7f5934ca7fae4344841826b6432c0732f1409dc25b88af4769ce681a5b0a22d",
+      "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488"
+    ]
+  },
+  {
+    "publication": "CN118273060A",
+    "legacy_field": "固体移出",
+    "training_matrix_value": "止动件解锁时，盖装置和过滤器组可从壳体主体轴向移出/装入（权16）；独立集渣移出未知",
+    "team_matrix_value": "滤器组与盖密封定位；独立集渣移出未知",
+    "decision": [
+      "止动构件解锁后，盖装置和过滤器组能沿轴线从壳体主体移动出；移出承载过滤介质的过滤器组，不能笼统归为独立集渣盒。"
+    ],
+    "observation_ids": [
+      "CN118273060A-removal-unlock_axial"
+    ],
+    "status": "primary_text_decided; publication_roles_pending",
+    "source_matrix_hashes": [
+      "a7f5934ca7fae4344841826b6432c0732f1409dc25b88af4769ce681a5b0a22d",
+      "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488"
+    ]
+  },
+  {
+    "publication": "WO2022084677A1",
+    "legacy_field": "残留",
+    "training_matrix_value": "可排出滤腔内液体以降低滤渣含水量；滤腔排空/滤渣非流动或已脱水时可移除（权27—30）；残余液量未知",
+    "team_matrix_value": "未知：当前定位不能判定",
+    "decision": [
+      "图1第一构型先停供液，再由104排出过滤腔101残液；完成排液后才将105移离111，进入第二构型转移滤渣。"
+    ],
+    "observation_ids": [
+      "WO2022084677A1-chamber_drainage-fig1_ab"
+    ],
+    "status": "primary_text_decided; publication_roles_pending",
+    "source_matrix_hashes": [
+      "a7f5934ca7fae4344841826b6432c0732f1409dc25b88af4769ce681a5b0a22d",
+      "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488"
+    ]
+  },
+  {
+    "publication": "WO2024199585A1",
+    "legacy_field": "再生/清理",
+    "training_matrix_value": "控制机构调节微塑料排出或回流，以清洗滤元（权9；方法权14）；清洁周期/时长未知",
+    "team_matrix_value": "短时清洁（说明书）",
+    "decision": [
+      "权9公开控制机构调节微塑料从滤元件区域导出或回流，特别用于清理滤元件；无固定清理时长。",
+      "权14公开通过模拟或数字控制机构清理滤元件；依附12或13，13再依附12。不能以背景所谓短时间作为本方案性能。",
+      "说明书阀控制可给滤壁压力脉冲，使附着微塑料/颗粒脱离，属于明确清理路径；不能推出最短周期或效率。"
+    ],
+    "observation_ids": [
+      "WO2024199585A1-cleaning-claim9",
+      "WO2024199585A1-cleaning-claim14",
+      "WO2024199585A1-cleaning-description_pressure_pulse"
+    ],
+    "status": "primary_text_decided; publication_roles_pending",
+    "source_matrix_hashes": [
+      "a7f5934ca7fae4344841826b6432c0732f1409dc25b88af4769ce681a5b0a22d",
+      "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488"
+    ]
+  },
+  {
+    "publication": "WO2024250011A1",
+    "legacy_field": "再生/清理",
+    "training_matrix_value": "说明书[0051]：离心力和未具体限定的脉冲将褶皱滤面所捕集微纤维击落；未入权项",
+    "team_matrix_value": "未知：当前定位不能判定",
+    "decision": [
+      "说明书[0051]明示用离心力与未具体限定的pulse使褶皱滤面微纤维脱离；脉冲来源、强度、流路和执行器未由该段给出。"
+    ],
+    "observation_ids": [
+      "WO2024250011A1-cleaning-description0051"
+    ],
+    "status": "primary_text_decided; publication_roles_pending",
+    "source_matrix_hashes": [
+      "a7f5934ca7fae4344841826b6432c0732f1409dc25b88af4769ce681a5b0a22d",
+      "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488"
+    ]
+  },
+  {
+    "publication": "WO2024250011A1",
+    "legacy_field": "转移",
+    "training_matrix_value": "说明书[0051]：微纤维移至单独储存腔；未入权项",
+    "team_matrix_value": "外置集渣转移未知",
+    "decision": [
+      "同段说明微纤维从滤面移至单独存储腔；仅能说明概念性起终点，不能补画管路阀门或称为已实现干渣输送。"
+    ],
+    "observation_ids": [
+      "WO2024250011A1-transfer-description0051"
+    ],
+    "status": "primary_text_decided; publication_roles_pending",
+    "source_matrix_hashes": [
+      "a7f5934ca7fae4344841826b6432c0732f1409dc25b88af4769ce681a5b0a22d",
+      "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "literal_and_hash_checked_not_semantic_final",
+  "records": 14,
+  "field_count": 126,
+  "literal_verified": 154,
+  "pdf_manual_prior_review": 7,
+  "errors": [],
+  "master_sha256": "7d25ea8e1eb1af8853eb973c5cce17fd6b6f3df0fc41f7b8279c4a3f90f3426e",
+  "final_statistics_allowed": false
+}

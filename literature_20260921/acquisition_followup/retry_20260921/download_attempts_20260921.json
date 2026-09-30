@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-21",
+  "scope": "one download attempt per exact regular PDF URL; no further retries",
+  "attempts": [
+    {
+      "alias": "F03",
+      "url": "https://iris.polito.it/retrieve/b68f537f-b448-4e45-b5df-b4da3d66387e/1-s2.0-S0304389425005606-main.pdf",
+      "local_file": "F03_iris_polito.pdf",
+      "status": "failed",
+      "error": "The SSL connection could not be established",
+      "pdf_header": null,
+      "pages": null,
+      "first_page_doi": null,
+      "sha256": null
+    },
+    {
+      "alias": "L08",
+      "url": "https://publications.polymtl.ca/59139/1/2024_Abourich_Washing_Machine_Filters_Mitigate_Microplastics.pdf",
+      "local_file": "L08_Abourich2024.pdf",
+      "status": "failed",
+      "error": "The SSL connection could not be established",
+      "pdf_header": null,
+      "pages": null,
+      "first_page_doi": null,
+      "sha256": null
+    }
+  ],
+  "interpretation": "Neither file was saved locally; web readability is not treated as local download success."
+}

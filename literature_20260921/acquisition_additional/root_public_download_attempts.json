@@ -1,0 +1,18 @@
+[
+  {
+    "name": "L08_Abourich2024_citizen_science",
+    "landing": "https://publications.polymtl.ca/59139/",
+    "url": "https://publications.polymtl.ca/59139/1/2024_Abourich_Washing_Machine_Filters_Mitigate_Microplastics.pdf",
+    "landing_error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+    "status": "failed",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "name": "L06_Park2025_laundry_filter",
+    "landing": "https://www.mdpi.com/2073-4441/17/3/358",
+    "url": "https://www.mdpi.com/2073-4441/17/3/358/pdf",
+    "landing_error": "HTTP Error 403: Forbidden",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

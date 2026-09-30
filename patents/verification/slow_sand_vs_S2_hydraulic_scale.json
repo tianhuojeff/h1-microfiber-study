@@ -1,0 +1,24 @@
+{
+  "assumptions": "Geometry-only area times superficial velocity; no performance, head loss, biofilm or scale-up validation. S2 6L/min is patent example, not measured user machine flow.",
+  "comparison_diameter_m": 0.25,
+  "rows": [
+    {
+      "filtration_rate_m_h": 0.05,
+      "flow_25cm_column_L_min": 0.0409061543436171,
+      "area_for_6L_min_m2": 7.199999999999999,
+      "ratio_6Lmin_to_scaled_flow": 146.67719555349075
+    },
+    {
+      "filtration_rate_m_h": 0.1,
+      "flow_25cm_column_L_min": 0.0818123086872342,
+      "area_for_6L_min_m2": 3.5999999999999996,
+      "ratio_6Lmin_to_scaled_flow": 73.33859777674537
+    },
+    {
+      "filtration_rate_m_h": 0.2,
+      "flow_25cm_column_L_min": 0.1636246173744684,
+      "area_for_6L_min_m2": 1.7999999999999998,
+      "ratio_6Lmin_to_scaled_flow": 36.66929888837269
+    }
+  ]
+}

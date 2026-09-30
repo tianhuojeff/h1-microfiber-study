@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-09-21T17:43:49.693792+08:00",
+  "review_source": "measurement_model_review.json",
+  "revised_document": "测量链计算口径与放行条件.md",
+  "sha256": "a0150624d71a2d98206bd5006cc90bd4c3cc614c3c88d0d3f38beb6ecab7093d",
+  "changes": {
+    "MM-01": "Explicit same-scale blank and matched recovery model; different-chain background requires separate model",
+    "MM-02": "Define common measurand and coherent estimation level; do not mechanically correct known input with terminal recovery",
+    "MM-03": "Propagate full joint covariance into closure and between-condition contrast",
+    "MM-04": "Separate measurement qualification from effect claim; predefine estimand, direction, interval, margin and unknown handling"
+  },
+  "root_revision_verified": true,
+  "second_independent_review": "not_completed",
+  "measurement_ready": false,
+  "effect_claim": "not_evaluated",
+  "experiment_data_created": false
+}

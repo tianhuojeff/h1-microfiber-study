@@ -1,0 +1,16 @@
+{
+  "url": "https://patentimages.storage.googleapis.com/12/39/2d/e7987f5f215a45/WO2024199585A1.pdf",
+  "pages": 39,
+  "sha256": "c600b753900e1ab6eff7e59455b5b76fcca177294a64b877bc6600d0e3f3e40c",
+  "characters": 847,
+  "retrieved_at": "2026-09-21T12:26:54.153800+08:00",
+  "publication": "WO2024199585A1",
+  "scope": "Technical research only; no legal status determination",
+  "text_extraction_status": "scanned PDF: ordinary text extraction unsuccessful; separator-only txt is not searchable full text",
+  "verified_pdf_pages": [
+    14,
+    26,
+    27
+  ],
+  "verification_note": "verification/WO2024199585A1-location.md"
+}

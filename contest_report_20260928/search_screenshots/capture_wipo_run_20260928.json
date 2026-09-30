@@ -1,0 +1,6 @@
+{
+  "capturedAt": "2026-09-28T02:59:00.546Z",
+  "requestedUrl": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2022084677",
+  "finalUrl": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2022084677",
+  "message": "Error: Unexpected page: title=ERROR 403 FORBIDDEN; url=https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2022084677"
+}

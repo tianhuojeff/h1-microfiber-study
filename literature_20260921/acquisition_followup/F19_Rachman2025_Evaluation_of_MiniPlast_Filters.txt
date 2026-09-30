@@ -1,0 +1,502 @@
+--- PAGE 1 ---\nJournal of Natural Resources and Environmental Management 
+http://dx.doi.org/10.29244/jpsl.15.3.472 
+ 
+ 
+ 
+Corresponding Author: Ranno Marlany Rachman   rannorachman@uho.ac.id        Department of Infrastructure and Environmental 
+Engineering, Faculty of Engineering, Halu Oleo University, Kendari, Indonesia. 
+ 
+© 2025 Rachman et al. This is an open-access article distributed under the terms of the Creative Commons Attribution (CC BY) license, allowing 
+unrestricted use, distribution, and reproduction in any medium, provided proper credit is given to the original authors. 
+Think twice before printing this journal paper. Save paper, trees, and Earth! 
+RESEARCH ARTICLE   
+Evaluation of MiniPlast Filters for Microplastic Removal from Laundry 
+Wastewater 
+Ranno Marlany Rachman, Gabrella Prananda Claudia, Wa Ode Sitti Warsita Mahapati 
+Department of Infrastructure and Environmental Engineering, Faculty of Engineering, Halu Oleo University, Kendari, 93232, Indonesia 
+ 
+Article History 
+Received 6 February 2024 
+Revised 1 June 2024 
+Accepted 17 October 2024 
+ 
+Keywords  
+clothes washing, 
+microplastics, MiniPlast 
+Filter, waste water 
+ 
+ 
+ 
+ 
+ 
+ 
+ABSTRACT  
+Microplastic pollution is considered a serious threat because it is associated with potential 
+environmental and human health damage due to its bioaccumulation properties and ecological 
+risks. An initiative emerged to make filters that have technical specif ications for quality products. 
+MiniPlast Filter is the newest type of filter innovation, implementing a sustainable system in its use 
+in society. This research aims to determine the working system of the MiniPlast Filter in removing 
+microplastics and the efficiency of eliminating microplastics using the MiniPlast Filter tool. The study 
+examines the effect of using the MiniPlast Filter (independent variable) on reducing microplastics in 
+laundry wastewater (dependent variable). This MiniPlast Filter can reduc e the possibility of 
+successfully and effectively spreading microplastics. Based on microscope observations with a dry 
+weight of 7.0 kg, clothes washed by filtering water containing microplastics with the colours of 
+microplastics, namely yellow, purple, re d, black, blue and green, were found in observations using 
+a light binocular microscope with a 10x magnification lens at the Botany Laboratory, Halu Oleo 
+University. It was found that the average number of microplastics without using the MiniPlast Filter 
+was 4,710 MPs, and the average number using the MiniPlast Filter was 390 MPs. 
+Introduction 
+Microplastics are a growing concern in both the scientific community and the media today [1]. These tiny 
+particles, typically less than 0.2 in ches (5 mm) in diameter, pose a significant threat to living organisms [2]. 
+Microplastics are commonly found in rivers, oceans, and soil and are often consumed by animals. Due to their 
+small size, microplastics are ubiquitous, present in environments rangi ng from tropical waters to the Arctic, 
+and from urban beaches to deep -sea ecosystems that are largely untouched by humans [3].  In Indonesia, 
+microplastics are found in ocean areas, estuaries, river sediments, fish stomachs, and coral reef sediments 
+[4]. Research indicates that the number of fish containing microplastics in Indonesia can be up to five times 
+higher than in the United States [5]. Fragments and fibre are the most frequently encountered forms of 
+microplastics, often originating from fishing gear, synthetic fibre clothing, and fishing nets. Microplastics from 
+textile fibres are released into wastewater during washing and are carried into the sea with each load of 
+laundry. Microfibres released from textiles during washing have been widely reported as a significant source 
+of microplastic pollution [6].  
+The laundry industry contributes to environmental pollution, particularly in water bodies, due to the waste 
+generated during the washing process [7]. Microplastic pollution is expected to increase with  the growing 
+number of laundry industries. As consumers continue to wash clothes, microplastics will remain in 
+wastewater, further exacerbating the issue [8].  Microplastic fibres, often made from synthetic materials like 
+nylon and polyester, are widely used in clothing. Polyester, in particular, is known for its durability and ability 
+to retain body heat, making it a popular choice for sportswear and outdoor clothing [9 ]. Nylon, originally 
+developed for military applications, is now commonly used for items like bags. A study by Napper & 
+Thompson [10]  found that a 6 kg load of laundry, consisting of cotton -polyester mixtures, could release an 
+estimated 137,951 fibres. The numbers rise to 496,030 and 728,789 fibres per load for pure polyester and 
+\n\n--- PAGE 2 ---\n 
+ 
+http://dx.doi.org/10.29244/jpsl.15.3.472  JPSL , 15(3)  | 473  
+ 
+acrylic fabri cs. This means that each wash can release over 700,000 fibres into the environment. 
+Unfortunately, most washing machines lack effective filters, and standard filters cannot capture microplastic 
+particles small enough to be seen by the human eye [11].  
+In re sponse to this growing issue, there has been an initiative to develop filters with specific technical 
+specifications designed to prevent the spread of microplastics into the environment. However, such 
+microplastic filters remain scarce worldwide [12]. Whil e these filters are produced in Europe and the United 
+States, consumers in Asian countries, including Indonesia, face higher costs due to the price of the product 
+and shipping fees, along with long wait times for delivery.  The MiniPlast Filter represents a  significant 
+advancement in filtration technology. This innovative device is designed to address the problem of 
+microplastic contamination by providing a sustainable solution for communities. The MiniPlast Filter prevents 
+microfibres from being released in to the environment during the laundry process. Its main components 
+include a stainless-steel filter, stainless fibres, and filter cloth. The MiniPlast Filter offers several advantages: 
+affordability, ease of use, high removal efficiency, and being the firs t microplastic filter developed in Asia.  
+However, this study aims to address a significant research gap. While existing studies focus on the general 
+need for microplastic filters, there is limited research exploring the specific aspects of these filters, s uch as 
+cost-effectiveness, efficiency, and the feasibility of local production. This study seeks to fill that gap by 
+evaluating these critical factors and assessing the potential for local production of the MiniPlast Filter in 
+Indonesia. Despite the growin g recognition of the issue, previous research has not thoroughly explored the 
+cost-effectiveness, operational efficiency, or the feasibility of manufacturing microplastic filters locally, 
+particularly in regions like Indonesia. This study aims to investiga te these overlooked aspects, providing a 
+more comprehensive understanding of the practicality and potential impact of the MiniPlast Filter in tackling 
+microplastic pollution in Southeast Asia.  
+Materials and Methods 
+Study Area   
+Study Area and Sampling  
+Sampling was conducted at Nazila Laundry, located on H.E.A Mokodompit Street, Anduonouhu, Kendari, 
+Southeast Sulawesi. Two types of water samples were collected: the first sample was from the wastewater 
+after the clothes -washing cycle, and the second sampl e was from the wastewater after the drying cycle. 
+Sampling took place at 10:00  Central Indonesia Time (CIT ), with four sample bottles used for collection.  
+Laboratory Analysis  
+The identification of microplastics in the clothes -washing wastewater was carried  out in the laboratory at 
+Halu Oleo University, specifically in the Pharmacy and Botany Labs. The samples were first filtered using a 
+Miniplast filter tool in the Pharmacy Lab. Then, the microplastics in the filtered water were identified using a 
+binocular light microscope with a 10x magnification lens in the Botany Lab, Faculty of Mathematics and 
+Natural Sciences, Halu Oleo University.  
+Filtration Process 
+In the Pharmacy Lab, a vacuum filtration system, including Buchner funnels and GF/ glass circle filter p aper, 
+was used to separate microplastic particles from the wastewater. This filtration process took approximately 
+3 hours per sample. The clothes -washing wastewater was divided into four sample bottles: two for the 
+washing cycle wastewater and two for the drying cycle wastewater. Each of these samples underwent 
+filtration, and the entire process took approximately 12 hours over two days. The first day of filtering was 
+from 10:00 to 19:00 CIT, and the second day’s filtering session lasted from 1 3:00 to 15:00 CIT. 
+Data Collection 
+The data collection procedure in this study was conducted using two different approaches: one without the 
+MiniPlast Filter and one with the MiniPlast Filter. For the procedure without the MiniPlast Filter, data was 
+collected over t wo consecutive days from 08:00 to 17:00 CIT. Two 1 -liter glass bottles were prepared to 
+collect wastewater samples from a local laundry industry. One bottle contained wastewater from the washing 
+process, while the other was filled with wastewater from the drying process of the washing machine.  
+Following sample collection, the equipment for filtration was prepared, including a vacuum filtration setup, 
+a 100 mm Buchner funnel, petri dishes, and 90 mm GF/glass circle filter papers. The Buchner funnel was \n\n--- PAGE 3 ---\nThis journal is © Rachman et al. 2025  JPSL , 15(3)  | 474  
+mounted onto the vacuum filtration apparatus, and a piece of filter paper was placed inside. The vacuum 
+pump was then activated to initiate filtration of the two samples. Upon completion, the filter paper was 
+carefully removed using tweezers and transferred to a petri dish for further processing. To eliminate residual 
+moisture, the filter paper was oven -dried at 105  °C for 20 minutes. After drying, microplastic particles 
+retained on the filter surface were identified and counted using a binocular light microscop e with a 10x 
+magnification lens. The results were recorded using the multi counter application to facilitate accurate data 
+entry and ensure consistency in microplastic quantification.  
+For the procedure utilizing the MiniPlast Filter, the vacuum filtration process was conducted over a single day 
+from 08:00 to 16:00 CIT, while the subsequent microplastic observation using a binocular microscope was 
+completed over two days, from 12:00 to 15:00 CIT each day. As in the previous method, two 1 -liter glass 
+bottles were used to collect wastewater from the washing and drying processes. The MiniPlast Filter system 
+was assembled using a stainless-steel filter, stainless steel fibres, and filter cloth, alongside the other required 
+equipment: a vacuum filtration unit, a 1 00 mm porcelain funnel, a petri dish, and 90 mm GF/glass circle filter 
+paper. The filtration process began with the porcelain funnel installed on the vacuum filtration system and 
+the filter paper placed inside. The MiniPlast Filter components were arranged  in sequence above the filter 
+paper. Once the vacuum pump was activated, the wastewater samples were passed through the filter. During 
+the first stage of filtration, the stainless-steel filter acted as a surface barrier, capturing larger particles. In the 
+second stage, the stainless -steel fibres trapped microplastics between the strands. The final stage employed 
+filter cloth with smaller pores to retain any particles that escaped the earlier stages.  
+After filtration, the filter paper was removed with tweeze rs and placed in a petri dish. It was then oven -dried 
+at 105 °C for 20 minutes. Once dried, the filter paper was examined under a binocular light microscope at 10x 
+magnification to identify and count the microplastic particles. The multi counter applicatio n was again used 
+to record the data accurately and efficiently.  The effectiveness of the MiniPlast Filter was evaluated using an 
+efficiency formula to calculate the percentage reduction in microplastics (Equation 1). The multi counter 
+application is used to simplify and improve the accuracy of the identification process and count the number 
+of microplastic particles in filtered samples. After filtering using the MiniPlast Filter and drying the sample in 
+the oven, the filter paper containing microplastics is  then analyzed using this application. This application 
+allows researchers to quickly and accurately count the microplastic particles on the filter paper.  
+Efficiency (%) =   
+𝑃𝑤𝑖𝑡ℎ𝑜𝑢𝑡 – 𝑃𝑤𝑖𝑡ℎ
+𝑃𝑤𝑖𝑡ℎ𝑜𝑢𝑡
+ 𝑥 100% (1) 
+Description: 
+ 𝑃𝑤𝑖𝑡ℎ𝑜𝑢𝑡: represents the number of microplastic particles without the MiniPlast Filter 
+𝑃𝑤𝑖𝑡ℎ : represents the number of microplastic particles with the MiniPlast Filter 
+Results 
+Miniplast Filter Working System 
+The MiniPlast  Filter working system applies a multi -stage filtration concept where three filters will pass 
+through microplastic particles after leaving the washing machine. In the first stage, the particles will pass 
+through a stainless filter, utilising the surface fi ltration principle where the microparticles can be retained on 
+the surface. Next, there is stainless fibre; the stage is expected to filter the microplastic particles and pass 
+through the filter gaps; the final stage is a cloth filter with a smaller pore s ize so that the remaining 
+microplastic particles that were not retained in the previous filtering can be filtered at this stage. The filter 
+cloth is conditioned at the final stage to reduce the filtering load and extend its service life. Filter cloth has 
+round and smooth strands, and the material is very resistant to alkali. This results in a very strong and stable 
+fabric that does not peel and is not affected by washing detergents (this type of filter is of good quality as it 
+prevents damage due to abrasio n and mechanical stress). Meanwhile, stainless steel filters are chosen 
+because they have good durability, are not easily damaged and have a long service life [13]. All materials that 
+make up the MiniPlast Filter do not use dyes and do not contain addictiv e ingredients. 
+Identification of the Amount of Microplastics from Clothes Washing Waste without Using a MiniPlast Filter 
+The first stage of research and observations in the pharmaceutical laboratory was a screening process using 
+materials such as a vacuum pump, Bucher funnel, oven, petri dish, 500 ml measuring cup and filter paper. 
+The Bucher funnel filters wastewater from washing clothes and then places filter paper in it to filter the dregs 
+from flowing clothes waste. The vacuum pump is useful for removing various gas molecules in a closed room. \n\n--- PAGE 4 ---\n 
+ 
+http://dx.doi.org/10.29244/jpsl.15.3.472  JPSL , 15(3)  | 475  
+ 
+Next, it will be thrown into an open area to ensure that the air pressure in the room reaches a certain level. 
+The measuring cup functions as a container for wastewater from washing clothes so that it doesn't spill  and 
+knows how many ml have been poured. Petri dishes are used as containers for filter paper for drying in the 
+oven so that observations can be made using a microscope in the Botany Laboratory.  The results of the 
+washing machine wastewater, categorized by  fiber color, can be seen in Figure 1, which displays the graphs 
+for both the milling and drying processes without the MiniPlast Filter. 
+ 
+Figure 1 . (a) Graph of washing machine milling wastewater (without MiniPlast filter); (b) washing machine drying 
+wastewater graph (without MiniPlast filter). 
+Identification of the Amount of Microplastics from Clothes Washing Waste Using MiniPlast Filter 
+It identifies the number of microplastics using a binocular light microscope with a 10x magnifying lens. The 
+special potential exists in using MiniPlast Filter as a filter media to reduce microplastics in clothing fibres used 
+in the laundry industry or hou seholds. The aim of making the MiniPlast Filter tool is to minimize the spread 
+of microplastics into the environment, especially water bodies so that it can also prevent negative impacts 
+that will be received by living creatures. This tool has a big opport unity to be commercialized because, so far, 
+no company or country has produced this tool in the Asian region. By using this tool, all communities have 
+taken part in protecting and preserving the environment.  In research, the difference between using a 
+MiniPlast Filter is the multi -stage filtration process or what is usually called multi -stage filtration, which 
+passes through 3 components, namely a stainless -steel filter, stainless fibre and a cloth filter, which has a 
+very good function in filtering clothes  washing wastewater and can remove microplastics. The following is an 
+analysis of data on the number of microplastics using the Miniplast Filter  (Figure 2). 
+ 
+Figure 2. (a) Washing machine milling wastewater graph (using MiniPlast filter); (b) graph of washing machine drying 
+wastewater (using MiniPlast filter). 
+\n\n--- PAGE 5 ---\nThis journal is © Rachman et al. 2025  JPSL , 15(3)  | 476  
+Comparison of the Amount of Microplastics in Clothes Washing Waste Using MiniPlast Filters and Without Using 
+MiniPlast Filters 
+Based on research, it was found that the MiniPlast Filter was able to remove a total of 91.71% of microplastics, 
+compared to previous research, which had the highest removal, namely Planetcare; this tool was able to 
+remove 90% of microplastics. The amount of microplastics in clothing washing waste with and without the 
+MiniPlast Filter reveals notable differences. When analyzing the washing waste, it becomes clear that the 
+presence of the filter impacts the amount of microplastics released. The MiniPlast Filter effectively reduces 
+the number of microplastics that enter the waste water during laundry. Without the filter, a higher 
+concentration of microplastics is found in the washing waste [14]. This comparison emphasizes the 
+importance of using the MiniPlast Filter to mitigate microplastic pollution. It can be seen in Table 1.  
+Table 1. Recapitulation of microplastic identification results. 
+No. Treatment Amount of microplastics 
+1 Without MiniPlast Filter 4,710 particles/L 
+2 Using MiniPlast Filter 390 particles/L 
+Percent (%) allowance 91.71% 
+Characteristics of the MiniPlast Filter (Filter Cloth) Tool 
+Filter cloth is a type of cloth made from cotton, nylon, polyester and polypropylene. The material is 
+determined by the kind of fluid and the level of filtration cleanliness [15]. In this research, the main 
+component of the MiniPlast Filter itself was used because of its small pore size so that the remaining particles 
+that were not retained in the previous component could be filtered at the final stage using a filter cloth [16]. 
+From previous research, the research analyzed the ability of the MiniPlast filter to remove microplastics from 
+clothing washing waste, carried out further testing on one of the components of the MiniPlast filter, namely 
+the filter cloth, by testing the tensile strength, elongation of the cloth, and cross -sectional photos of the filter 
+cloth to determine the pores of the cloth to support the removal of microplastics [17]. By using the MiniPlast 
+filter tool. From the test results of the MiniPlast Filter tool component, namely filter cloth. Testing has been 
+carried out in the Lab. Textile manufacturing and testing results at Indonesian Islamic University were 
+obtained: Testing nylon tensile strength and elongation, testing thickness of nylon fabric, and testing the air 
+permeability of nylon fabric (Table 2). Filter cloth is often also known as a press cloth filter, usually made from 
+polyamide (nylon), which has good resistance to acids, alkalis, and oxidation [18]. A longitudinal cross-section 
+of nylon or filter cloth is shown in Figure 3. 
+Table 2. Recapitulation of microplastic identification results . 
+Sample code Test 
+Tensile 
+strength
+(N) 
+Effect  
+value (%) 
+Nylon 
+fabric 
+thickness 
+(mm) 
+Air 
+penetrability 
+(cmH2O) 
+cm3/sec Cfm Direction 
+Cloth 1 (400 x 1.6 Mesh) Tensile strength 154.998 21.933 0.091 71.7       
+Cloth 2 (400 x 1.6 Mesh) Tensile strength 142.245 24.666 0.091 70.7 71.325 140 Fabric width  
+Cloth 3 (400 x 1.6 Mesh) Tensile strength 146.169 25.533 0.091 71.2       
+Average value (400 x 1.6 Mesh) - 147.804 24.044 0.091 71.2       
+Cloth 1 (400 Mesh) Tensile strength 173.637 32.133 0.091       Fabric length  
+Cloth 2 (400 Mesh) Tensile strength 174.618 27.533 0.091       Fabric length  
+Cloth 3 (400 Mesh) Tensile strength 169.713 27.066 0.091       Fabric length  
+Average value (400 Mesh) - 172.656 28.911 0.091         
+Cloth 1 (600 x 1 Mesh) Tensile strength 165.789 20.466 0.079 22.1     Fabric width  
+Cloth 2 (600 x 1 Mesh) Tensile strength 168.732 18.666 0.079 26.1 23.328 45.9 Fabric width 
+Cloth 3 (600 x 1 Mesh) Tensile strength 161.865 19.266 0.079 21.5     Fabric width  
+Average value (600 x 1 Mesh) - 165.462 19.466 0.079 23.23       
+Cloth 1 (600 Mesh) Tensile strength 143.226 18 0.079       Fabric length  
+Cloth 2 (600 Mesh) Tensile strength 145.188 18 0.079       Fabric length  
+Cloth 3 (600 Mesh) Tensile strength 143.226 17.733 0.079       Fabric length 
+Average value (600 Mesh) - 143.88 17.911 0.079         \n\n--- PAGE 6 ---\n 
+ 
+http://dx.doi.org/10.29244/jpsl.15.3.472  JPSL , 15(3)  | 477  
+ 
+Figure 3. Photo tests of longitudinal cross sections of nylon fabric, (a) photo 400 Mesh-1st; (b) photo 400 
+Mesh-2nd; (c) photo 400 Mesh-3th; (d) photo 600 Mesh-1st; (e) photo 600 Mesh-2nd; (f) photo 600 Mesh-
+3th. 
+Comparison of Similar Products in Removing Microplastics 
+Table 3 presents a comparison of the specifications for similar microplastic removal products currently 
+available on the market. The table includes details on the product names, prices, filter types, removal 
+efficiency, and the country of origin for each p roduct. The MiniPlast Filter is compared with three other 
+prominent filters: Planetcare, Fitrol, and the Lint Luv -R. Notably, the MiniPlast Filter stands out with its 
+impressive removal efficiency of 91.71%, which is higher than the removal efficiency of t he other products. 
+Additionally, the MiniPlast Filter offers a more affordable price point compared to the competitors, making 
+it an attractive option for consumers. This comparison highlights the potential advantages of the MiniPlast 
+Filter in terms of bo th efficiency and cost, particularly for addressing microplastic contamination in laundry 
+wastewater. 
+Table 3. Specifications for similar products. 
+Product name Planetcare Fitrol The Lint Luv-R MiniPlast Filter (Design) 
+Price €144.50  
+(± IDR 2,300,000.00) 
+$159.99  
+(± IDR 2,300,000.00) 
+$150  
+(± IDR 2,200,000.00) 
+± IDR 1,200,000.00 
+Filter type Catridge filter Fabric filter Stainless stell filter Multi-stage filter 
+Removal efficiency 90% 89% 87% 91.71% 
+Country of origin Europe USA USA Indonesia 
+Discussion 
+From the results of the identification of dried samples and observations using a microscope (Figure 1), it was 
+found that the microplastics resulting from clothing washing waste have the shape of elongated fibres like 
+ropes and are fibrous, thin, and resemble lines [19]. The number of microplastics without using the MiniPlast 
+Filter combined with milling water and drying water was 4 ,720 with the microplastic colours yellow, purple, 
+red, black, blue and green.  From the analysis results without using a filte r, it was found that the distribution 
+of microplastic fibres in washing machine drying wastewater showed a variety of colours: yellow, purple, red, 
+black, blue, and green [20]. The data is divided into two categories, represented by graphs (a) and (b), 
+indicating the concentration of microplastics in two separate samples or scenarios. In the first graph (a), a 
+total of 3,140 microplastic fibres were identified, with green fibres being the dominant group, comprising 
+1,446 particles. Other colours, such as yellow (424), blue (523), black (345), red (227), and purple (175), were 
+also present but in much smaller quantities. In graph (b), the total number of microplastic fibres detected 
+was 1,570.  
+Green remained the dominant colour, but with 576 microplastic fibres detected, a notable decrease from the 
+first sample. Yellow microplastics appeared in a slightly reduced amount (476), while purple, red, black, and 
+blue showed even lower numbers, with purple having only 35 fibres and red 60 fibres, the lowest recorded  
+among the colours represented. The high concentration of green fibres in both graphs is noteworthy. This 
+\n\n--- PAGE 7 ---\nThis journal is © Rachman et al. 2025  JPSL , 15(3)  | 478  
+could be attributed to the fact that green is a common colour in textiles, such as clothing and household 
+materials, which are major sources of microp lastics in washing wastewater [21]. Additionally, the decrease 
+in microplastic particles in graph (b) could be related to the presence or absence of a filtration system. This 
+factor may have influenced the reduction of microplastics in the second sample [2 2]. The analysis suggests 
+that the type and colour of microplastic fibres in washing wastewater can vary significantly. The prevalence 
+of green fibres and the lower amounts of others, such as purple and red, highlight the diversity of sources 
+contributing to microplastic contamination in wastewater [23]. Understanding these patterns can help refine 
+wastewater treatment methods, particularly in reducing the release of microplastics into the environment 
+[24]. 
+The results in Table 1 of this study clearly demon strate the effectiveness of the MiniPlast Filter in reducing 
+microplastic contamination in laundry wastewater. Without the use of the MiniPlast Filter, the wastewater 
+was found to contain 4,710 microplastic particles/L. However, after filtering the wastewater with the 
+MiniPlast Filter, the number of microplastic particles was significantly reduced to only 390 particles/L. This 
+reduction represents an impressive 91.71% decrease in microplastic concentration, ca lculated by comparing 
+the microplastic count before and after filtration. The high efficiency of the MiniPlast Filter in removing 
+microplastics highlights its potential as a viable solution to combat microplastic pollution, especially in 
+wastewater from la undry processes. These results underscore the MiniPlast Filter’s capacity to significantly 
+mitigate the environmental impact of microplastics by removing a substantial proportion of the particles, 
+making it an effective tool for ensuring cleaner water and a healthier environment.  
+The effectiveness of the filter is evident from the dramatic decrease in microplastic concentration, 
+emphasizing its crucial role in reducing microplastic pollution in laundry wastewater. Additionally, based on 
+the examination and analysis data, the microplastic particles in the sample were predominantly fibre-shaped, 
+with sizes ranging from <  500 μm to 4.5 mm. The identification process was carried out over two days, from 
+10:00 to 16:00 CIT, at the Botany Laboratory of the Faculty  of Mathematics and Natural Sciences, Halu Oleo 
+University, using a microscope. The samples, which had been filtered and dried at the Pharmacy Laboratory 
+of Halu Oleo University, provided critical data for this study. These findings further emphasize the M iniPlast 
+Filter's role in addressing microplastic contamination in laundry wastewater effectively, ensuring cleaner 
+water and a positive environmental impact.  
+The data in Table 2 presents the analysis of the tensile strength and elongation test values for nylon fabric 
+used in the MiniPlast Filter. Based on the data, the highest tensile strength for the 400 × 1.6 Mesh nylon 
+fabric was 154.998 N in the first test, measured in the weft direction (the width of the fabric). In the second 
+test, the tensile streng th increased to 174.618 N in the warp direction (the length of the fabric), indicating 
+that higher tensile strength values correspond to greater strength. For the 600 × 1 Mesh nylon  fabric, the 
+tensile strength in the second experiment was 168.732 N in the  weft direction, while the warp direction had 
+a tensile strength of 145.188 N. While the tensile strength in the second test was slightly lower than in the 
+first, the variation between the first, second, and third tests was minimal. Therefore, the tensile strength of 
+the fabric used in the MiniPlast Filter is considered adequate for its intended use. Regarding the elongation 
+values, the 400 × 1.6 Mesh nylon fabric demonstrated a noticeable trend where the elongation value 
+decreased in the warp direction fro m the first to the third trial, while the elongation value in the weft 
+direction increased over the same period. This suggests that the fabric is able to stretch more in the weft 
+direction without losing its structural integrity. For the 600 × 1 Mesh nylon  fabric, the elongation values in 
+both the warp and weft directions were consistent, with a slight decrease from the first to the third 
+experiment, indicating good elasticity and durability of the fabric [24].  
+Based on these results, it can be concluded t hat the filter cloth used in the MiniPlast Filter is of high quality. 
+The tensile strength and elongation data suggest that the fabric is both strong and flexible, making it well -
+suited for the filtration process [25]. The performance of the nylon fabric i n terms of tensile strength and 
+elongation is essential for the MiniPlast Filter's ability to effectively remove microplastics while maintaining 
+its integrity over time. Previous studies have shown that microplastic particle size affects the performance of  
+fabric filters, and the efficiency of these devices is crucial in reducing the release of microfibres during laundry 
+processes. In addition to the tensile strength and elongation tests, a photo test of the longitudinal cross -
+section of the nylon fabric us ed in the MiniPlast Filter was also conducted. This test aimed to determine the 
+structural properties of the filter cloth, further ensuring its suitability for microplastic removal. The results of 
+the cross -sectional analysis provide valuable insight into the fabric’s structure and its ability to trap 
+microplastics effectively, confirming the MiniPlast Filter as a reliable tool for reducing microplastic 
+contamination in laundry wastewater [26].  \n\n--- PAGE 8 ---\n 
+ 
+http://dx.doi.org/10.29244/jpsl.15.3.472  JPSL , 15(3)  | 479  
+ 
+Based on the image in Figure 3, the cross -sectional photo of th e 400 Mesh filter cloth from the third trial 
+reveals that it has tighter pore spaces compared to the first trial, both in the weft and warp directions. This 
+indicates an improvement in the filter cloth's density, making it more efficient at capturing micro plastics. 
+[27]. The cross-sectional photo of the 600 Mesh filter cloth also shows similar characteristics, with pores that 
+are relatively close together. As a result, the filter cloths have very small pores, which enhances their ability 
+to trap microplasti c fibres effectively. The tensile strength and elongation values, combined with the cross -
+sectional analysis, confirm that both the 400 Mesh and 600 Mesh filter cloths are highly effective components 
+for microplastic removal [28]. The 400 Mesh filter cloth , with pore sizes equivalent to 37 μm, 0.037 mm, or 
+0.0015 inches, is well -suited for trapping larger microplastics [29]. The 600 Mesh filter cloth, with smaller 
+pores measuring 20 μm, 0.02 mm, or 0.00079 inches, is even more efficient at filtering out finer microplastics. 
+These filter cloths’ small pore sizes, combined with their strength and flexibility, make them ideal for 
+effectively removing microplastic fibres from clothes -washing wastewater. The results from the cross -
+sectional photos, tensile streng th, elongation values, and analysis under a binocular microscope all 
+demonstrate that the filter cloths have a very small density, further proving their suitability for microplastic 
+filtration [30]. These findings emphasize the high performance and effecti veness of the MiniPlast Filter in 
+reducing microplastic contamination, making it a reliable solution for cleaner wastewater and a healthier 
+environment. 
+Table 3 compares the specifications of the MiniPlast Filter with similar microplastic removal products  
+currently available on the market, including planetcare, fitrol, and the Lint Luv -R. These products were 
+designed with similar objectives: to reduce microplastic contamination from laundry wastewater. The table 
+outlines key details such as product price, filter type, removal efficiency, and country of origin. Based on the 
+information in Table 3, it is clear that the MiniPlast Filter stands out as the first product in Asia specifically 
+designed to remove microplastics from clothes -washing wastewater. It off ers an impressive removal 
+efficiency of 91.71%, which surpasses the efficiency of other competing filters like planetcare (90%), fitrol 
+(89%), and the Lint Luv -R (87%) [31]. The MiniPlast Filter utilizes a multi -stage filter system, composed of 
+multiple la yers of filter media, to ensure thorough and efficient filtration of microplastics from washing 
+wastewater. In addition to its high efficiency, the MiniPlast Filter is priced at IDR 1,200,000, making it 
+significantly more affordable compared to the other f ilters, which range in price from approximately IDR 
+2,200,000 to IDR 2,300,000. This combination of superior filtration performance and cost -effectiveness 
+makes the MiniPlast Filter an attractive option for consumers seeking an affordable solution to micro plastic 
+pollution in laundry wastewater. This comparative analysis emphasizes the value and potential of the 
+MiniPlast Filter in addressing environmental concerns related to microplastic contamination [32].  
+Conclusions 
+Based on the results and description of the discussion in this research regarding the ability of the MiniPlast 
+Filter to remove microplastics, the author can draw the following conclusions:  Based on microscope 
+observations with a dry weight of 7.0 kg of clothes before washing by filtering water containing microplastics 
+with the colour of microplastics namely yellow, purple, red, black, blue and green, found in observations 
+using a light binocular microscope with a speed of 10x magnification of the average n umber The average 
+microplastic found without using the Miniplast Filter was 4,710 microplastic particles/L. Meanwhile, from the 
+washing wastewater, the colours of microplastics were yellow, purple, red, black, blue, and green. The results 
+of observations u sing light binocular microplastics with a 10x magnification lens showed that the average 
+number of microplastics using the Miniplast Filter was 390 microplastic particles/L. Based on the study and 
+data analysis, it can be concluded that the emissions of mi croplastic particles in washing wastewater after 
+using a filter have an efficiency of 91.71%. This MiniPlast Filter can reduce the possibility of microplastics 
+spreading in the environment, especially in water bodies, so it can successfully and effectively  remove 
+microplastic particles . 
+Author Contributions 
+RMR: Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, 
+Project Administration, Resources, Visualization, Writing - Original Draft, Writing - Review & Edi ting; GPC: 
+Conceptualization, Supervision, Validation;  WOSWM: Conceptualization, Supervision, Validation.  \n\n--- PAGE 9 ---\nThis journal is © Rachman et al. 2025  JPSL , 15(3)  | 480  
+Conflicts of Interest 
+There are no conflicts to declare . 
+References 
+1. Henderson, L .; Green, C . Making sense of microplastics? Public understandings of p lastic pollution.  
+Marine Pollution Bulletin 2020, 152, 110908. 
+2. Pironti, C.; Ricciardi, M.; Motta, O.; Miele, Y.; Proto, A.; Montano, L. Microplastics in the environment: 
+intake through the food web, human exposure and toxicological effects.  Toxics 2021, 9, 1–29. 
+3. Hijriah; Hidayat, A.; Bungin, E.R.; Muliawan, I.W. ; Masgode, M.B.; Rachman, R.M.; Sarie, F.; Serang, R.; 
+Hadid, M.; Rustam, M.S.P.A. Polusi dan Lingkungan ; Tohar Media: Makassar, ID, 2023;  
+4. Alamsyah, M.I.; Rachman, R.M.; Sriyani, R. Pengujiain Peman faatan Limbah Gelas Plastik Polypropylene 
+(PP) dalam Komposisi Campuran Beton. STABILITA: Jurnal Ilmiah Teknik Sipil  2021, 9, 21–26. 
+5. Masdiana; Gusty, S. ; Asmeati; Rachman, R.M. ; Dendo, E.A.R. ; Ampangallo, B.A. ; Aryadi, A. Revolusi 
+Plastik dan Lingkungan ; Tohar Media: Makassar, ID, 2023; ISBN 978 -623-8421-00-8. 
+6. Almroth, B.M.C; Åström, L.; Roslund, S.; Petersson, H.; Johansson, M.; Persson, N. Quantifying shedding 
+of synthetic fibres from textiles; a source of microplastics released into the environment.  Environmental 
+Science and Pollution Research 2018, 25, 1191–1199. 
+7. Cesa, F.S.; Turra, A.; Checon, H.H. ; Leonardi, B.; Baruque-Ramos, J. Laundering and textile parameters 
+influence fibres release in household washings.  Environmental Pollution  2020, 257, 113553. 
+8. Utami, A.R. Pengolahan Limbah Cair Laundry dengan Menggunakan Biosand Filter dan Activated Carbon. 
+Jurnal Teknik Sipil Untan  2013, 13, 59–72. 
+9. Kurniawan, M.A.; Nugroho, S.; Adnan, F.; Zulya, F.  Analisis Keterkaitan Kelimpahan Mikroplastik dengan 
+Keberadaan Sampah Plastik di Sungai Mahakam, Kecamatan Muara Kaman. Jurnal Teknologi Lingkungan 
+UNMUL 2023, 7, 20–30. 
+10. Napper, I.E. ; Thompson, R.C. Release of synthetic microplastic plastic fibres from domestic washing 
+machines: effects of fabric type and washing con ditions. Marine Pollution Bulletin 2016, 112, 39–45. 
+11. Periyasamy, A.P. Environmentally Friendly Approach to the Reduction of Microplastics during Domestic 
+Washing: Prospects for Machine Vision in Microplastics Reduction.  Toxics 2023, 11, 1–31. 
+12. Hale, R.C.; Seeley, M.E.; Guardia, M.J.L.; Mai, L.; Zeng, E.Y. A global perspective on microplastics. Journal 
+of Geophysical Research: Oceans  2020, 125, 1–40. 
+13. Li, S.; Baeyens, J.; Dewil, R.; Appels, L.; Zhang, H.; Deng, Y. Advances in rigid porous high temperature 
+filters. Renewable and Sustainable Energy Reviews  2021, 139, 110713. 
+14. Tang, N. ; Liu, X. ; Xing, W. Microplastics in wastewater treatment plants of Wuhan, Central China: 
+Abundance, removal, and potential source in household wastewater.  Science of the Total Environment 
+2020, 745, 141026. 
+15. Zerin, I.; Datta, E. A review article on applications of filter cloth. Int. J. Cloth. Sci. 2018, 5, 1–6. 
+16. Reineccius, J. ; Bresien, J. ; Waniek, J.J. Separation of microplastics from mass -limited samples by an 
+effective adsorption technique. Science of The Total Environment  2021, 788, 147881. 
+17. Angeslevä, M.; Salmimies, R.; Häkkinen, A. An improved procedure for calculating the pore size 
+distribution of filter cloths in capillary flow porometry. Textile Research Journal  2023, 93, 3004–3019. 
+18. Maja, V.; Sanja, V.; Teresa, R.S.; Jasmina, A.; Zoran, Č.; Jelena, R.; Aleksandra, T. Improving of an easy, 
+effective and low -cost method for isolation of microplastic fibres collected in drying machines 
+filters. Science of The Total Environment  2023, 892, 164549. 
+19. Cesa, F.S.; Turra, A.; Baruque-Ramos, J. Synthetic fibres as microplastics in the marine environment: a 
+review from textile perspective with a focus on domestic washings. Science of The Total Environment  
+2017, 598, 1116–1129. 
+20. Amrutha, K .; Warrier, A.K. The first report on the source -to-sink characterization of microplastic 
+pollution from a riverine environment in tropical India.  Science of the Total Environment  2020, 739, 
+140377. \n\n--- PAGE 10 ---\n 
+ 
+http://dx.doi.org/10.29244/jpsl.15.3.472  JPSL , 15(3)  | 481  
+ 
+21. Palacios-Marín, A.V.; Tausif, M. Fragmented fibre (including microplastic) pollution from textiles.  Textile 
+Progress 2021, 53, 123–182. 
+22. Kutralam-Muniasamy, G.; Pérez-Guevara, F.; Elizalde-Martínez, I.; Shruti, V.C. Branded milks –are they 
+immune from microplastics contamination? Science of the Total Envir onment 2020, 714, 136823. 
+23. Tarte, J.V.; Johir, M.A.H.; Tra, V.T.; Cai, Z.; Wang, Q.; Nghiem, L.D. Optimising microplastics analysis for 
+quantifying and identifying microplastic fibres in laundry wastewater. Science of The Total Environment  
+2024, 952, 175907. 
+24. Krishnan, R.Y.; Manikandan, S.; Subbaiya, R.; Karmegam, N.; Kim, W.; Govarthanan, M. Recent 
+approaches and advanced wastewater treatment technologies for mitigating emerging microplastics 
+contamination–A critical review. Science of the Total Enviro nment 2023, 858, 159681. 
+25. Azani, M.R.; Hassanpour, A. Electronic textiles (E -Textiles): Types, fabrication methods, and recent 
+strategies to overcome durability challenges (washability & flexibility). Journal of Materials Science: 
+Materials in Electronics  2024, 35, 1897. 
+26. Sembiring, E. ; Mahapati, W.O.S.W. ; Hidayat, S. Microplastics particle size affects cloth filter 
+performance. Journal of Water Process Engineering  2021, 42, 102166.  
+27. Napper, I.E. ; Barrett, A.C. ; Thompson, R.C. The efficiency of devices intended to reduce micro fibre 
+release during clothes washing.  Science of the Total Environment  2020, 738, 140412 
+28. Shahsavaripour, M.; Abbasi, S.; Mirzaee, M.; Amiri, H. Human occupational exposure to microplastics: A 
+cross-sectional study in a plastic products manufacturing plant. Science of The Total Environment  2023, 
+882, 163576. 
+29. LaRue, R.J.; Warren, A.; Latulippe, D.R. Evaluation of microplastic particle transmission in a 
+microfiltration process using fluorescence  measurements: Effect of pore size and flux. Journal of 
+Membrane Science 2024, 708, 123045. 
+30. Syverud, K.; Stenius, P. Strength and barrier properties of MFC films.  Cellulose 2009, 16, 75–85. 
+31. Charles, P.E.; Jebashalomi, V.; Rajaram, R.; Selvam, S. Present advances in strategies to mitigate the 
+microplastics contamination. In Meso-and Microplastic Risk Assessment in Marine Environments , Sekar, 
+S., Senapathi, V., Sabarathinam, C., Viswanathan, P.M., Eds.; Elsevier: London, UK, 2024; pp. 381–399, 
+ISBN 978-0-323-90980-8. 
+32. Gerigny, O.; Blanco, G.; Lips, U.; Buhhalko, N.; Chouteau, L.; Georges, E.; Meyers, N.; Vanavermaete, D.; 
+Galgani, F.; Ourgaud, M.; et al . Comparative analysis of microplastics detection methods applied to 
+marine sediments: a case study in the Bay of Marseille. Marine Pollution Bulletin  2024, 207, 116787. 

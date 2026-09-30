@@ -1,0 +1,20 @@
+{
+  "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+  "source_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+  "observed_at": "2026-09-29T21:15:19.568670+08:00",
+  "rows": [
+    {
+      "archive_member": "CN_╚¿═■╬─╡╡_20260630/╚¿═■╬─╡╡19850910-20260630/INVENTION 19850910-20260630.txt",
+      "line_number": 22022301,
+      "row": "CN,115637570,A,20230124",
+      "full_line": "CN,115637570,A,20230124,,ABST-zh,DESC-zh,CLMS-zh<CRLF>"
+    },
+    {
+      "archive_member": "CN_╚¿═■╬─╡╡_20260630/╚¿═■╬─╡╡19850910-20260630/INVENTION 19850910-20260630.txt",
+      "line_number": 22022302,
+      "row": "CN,115637570,B,20260217",
+      "full_line": "CN,115637570,B,20260217,,ABST-zh,DESC-zh,CLMS-zh<CRLF>"
+    }
+  ],
+  "limit": "publication numbers, kinds and dates only; not current legal status"
+}

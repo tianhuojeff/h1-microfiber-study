@@ -1,0 +1,32 @@
+[
+  {
+    "name": "hamann2025_main.pdf",
+    "source_url": "https://link.springer.com/content/pdf/10.1038/s44454-025-00020-2.pdf",
+    "timestamp": "2026-09-21T12:01:19.546359+08:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "hamann2025_supplement.docx",
+    "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44454-025-00020-2/MediaObjects/44454_2025_20_MOESM1_ESM.docx",
+    "timestamp": "2026-09-21T12:01:19.546359+08:00",
+    "status": 200,
+    "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44454-025-00020-2/MediaObjects/44454_2025_20_MOESM1_ESM.docx",
+    "content_type": "application/octet-stream",
+    "valid_format": true,
+    "bytes": 2917598,
+    "sha256": "06187f55337eeb21f92c06c3021942776d0d1b3d9c69d3b7733f2458ad423015",
+    "saved_path": "h1-study\\literature_20260921\\supplements\\hamann2025_supplement.docx"
+  },
+  {
+    "name": "hamann2025_data.xlsx",
+    "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44454-025-00020-2/MediaObjects/44454_2025_20_MOESM2_ESM.xlsx",
+    "timestamp": "2026-09-21T12:01:19.547363+08:00",
+    "status": 200,
+    "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44454-025-00020-2/MediaObjects/44454_2025_20_MOESM2_ESM.xlsx",
+    "content_type": "application/octet-stream",
+    "valid_format": true,
+    "bytes": 310292,
+    "sha256": "99682d2076b04c72402462e132ec9c69ba1f112bfa11f3ae3f9d016502f8444e",
+    "saved_path": "h1-study\\literature_20260921\\supplements\\hamann2025_data.xlsx"
+  }
+]

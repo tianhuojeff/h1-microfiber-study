@@ -1,0 +1,18 @@
+{
+  "scope": "The 11 PDF records accepted in root_download_acceptance.json. This is an extraction inventory, not a reading-completion or research-result claim.",
+  "page_marker": "Each corresponding text file retains page markers for page-level backtracking.",
+  "records": [
+    {"pdf_file":"L01_McIlwraith2019_laundry_microfibers.pdf","pdf_pages":6,"pdf_sha256":"2e841e4b50775f0d5a3c498c2dfa60b0e66f4dfbeb6d7f59b22f657d1eeecf6b","text_file":"texts/L01_McIlwraith2019_laundry_microfibers.txt","extracted_characters":38916},
+    {"pdf_file":"L02_Erdle2021_filter_community_pilot.pdf","pdf_pages":9,"pdf_sha256":"3ae1efca177c32fa76761c060ed85f378f3778dbfc6fadb314164725c416e428","text_file":"texts/L02_Erdle2021_filter_community_pilot.txt","extracted_characters":53325},
+    {"pdf_file":"L03_Napper2020_device_efficiency.pdf","pdf_pages":19,"pdf_sha256":"26fe183b935fa52849d02d5644a4254bcf2ac780b404906b183b3854d010b18e","text_file":"texts/L03_Napper2020_device_efficiency.txt","extracted_characters":41040},
+    {"pdf_file":"L04_Le2022_laundry_wastewater_review.pdf","pdf_pages":38,"pdf_sha256":"70cf7cf252f75dc9c2795e49322ea54f8d9f760ae5906b62934db7d942fe60a7","text_file":"texts/L04_Le2022_laundry_wastewater_review.txt","extracted_characters":57090},
+    {"pdf_file":"L05_Belzagui2023_sustainable_filtering.pdf","pdf_pages":12,"pdf_sha256":"23b91aab5b9dade57fdb19f83040588248a8420cb394155bf01a54af80f0a0c7","text_file":"texts/L05_Belzagui2023_sustainable_filtering.txt","extracted_characters":42543},
+    {"pdf_file":"L07_Hamann2025_self_cleaning_filter.pdf","pdf_pages":13,"pdf_sha256":"9f98e2d56c87e21cb47eb54f0f153900db76b7ef05aeb2d8e627ce6a4fdf8ac9","text_file":"texts/L07_Hamann2025_self_cleaning_filter.txt","extracted_characters":78698},
+    {"pdf_file":"L09_Vassilenko2021_laundry_shedding.pdf","pdf_pages":17,"pdf_sha256":"5ea4e1bae24338cee248d3b09c959db018211ca600b698aa0b562840b68f55e9","text_file":"texts/L09_Vassilenko2021_laundry_shedding.txt","extracted_characters":57728},
+    {"pdf_file":"L11_Belzagui2022_alternatives_review.pdf","pdf_pages":12,"pdf_sha256":"a725eb9b1b73166aa6e710bb45f5dd67bbe1b42666fdcfe1b4a4dd3522265ac0","text_file":"texts/L11_Belzagui2022_alternatives_review.txt","extracted_characters":102694},
+    {"pdf_file":"L12_Browne2020_pore_size_polymer.pdf","pdf_pages":17,"pdf_sha256":"79631f4836b44e9a84e998619698e14b1270d415b6a751ab281a6c857c50f62f","text_file":"texts/L12_Browne2020_pore_size_polymer.txt","extracted_characters":51991},
+    {"pdf_file":"L13_Gao2026_slow_sand_accepted_manuscript.pdf","pdf_pages":70,"pdf_sha256":"7bd47a09199cf3096727bcd08aec2a636ab98491b95c742496dfb90a31816054","text_file":"texts/L13_Gao2026_slow_sand_accepted_manuscript.txt","extracted_characters":86566,"watermark_only_pages":11},
+    {"pdf_file":"L14_Brick2025_citizen_science_laundry_behavior.pdf","pdf_pages":16,"pdf_sha256":"00d7cad7f186c2ba3eef9c88491a91f8b765542a050410789c9b60a5fce4fd0d","text_file":"texts/L14_Brick2025_citizen_science_laundry_behavior.txt","extracted_characters":76315,"institutional_cover_pages":1}
+  ],
+  "supplemental_texts_not_counted_as_primary_papers": ["texts/L07_Hamann2025_supplement.txt"]
+}

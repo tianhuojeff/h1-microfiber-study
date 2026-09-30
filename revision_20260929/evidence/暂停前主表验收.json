@@ -1,0 +1,47 @@
+{
+  "status": "NOT_ACCEPTED",
+  "records": 14,
+  "fields": 126,
+  "evidence_checked": 156,
+  "quote_or_hash_errors": [
+    [
+      "CN115298383A",
+      "transfer",
+      "continuous_quote_not_matched",
+      "claim 19"
+    ],
+    [
+      "CN116282270A",
+      "cleaning",
+      "continuous_quote_not_matched",
+      "p0012 [0009]"
+    ],
+    [
+      "CN116282270A",
+      "transfer",
+      "continuous_quote_not_matched",
+      "p0030 [0027]"
+    ],
+    [
+      "CN117702432A",
+      "state_switch",
+      "continuous_quote_not_matched",
+      "claims 1,4"
+    ],
+    [
+      "WO2023047385A1",
+      "transfer",
+      "continuous_quote_not_matched",
+      "claims 1,7"
+    ],
+    [
+      "WO2023047385A1",
+      "removal",
+      "continuous_quote_not_matched",
+      "claim 1"
+    ]
+  ],
+  "master_sha256": "d3a757b43cda0f33665b304d9d52dec49b78d85b0989eff013356fb8bdd05b5d",
+  "semantic_review": "pending",
+  "integration_correction": "First merge failed before writing master because boundary_notes was str in one subgroup; normalized before rerun. Taskline waiting transition did run independently."
+}

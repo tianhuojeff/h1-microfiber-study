@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-29T23:06:59.473020+08:00",
+  "baseline_files": 43,
+  "backup_hashes_match": true,
+  "root_previous_content_preserved": true,
+  "rules_count": 20,
+  "all_twenty_rules_present": true,
+  "original_spec_hash_matches": true,
+  "current_master_records": 14,
+  "current_publications": 16,
+  "pending": 14,
+  "formal_statistics_allowed": false,
+  "all_samples_have_version_mapping": true,
+  "family_key_correction": "P1_family_key_migration_correction.json"
+}

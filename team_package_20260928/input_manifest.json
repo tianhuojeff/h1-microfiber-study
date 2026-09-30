@@ -1,0 +1,448 @@
+{
+  "version": "2026-09-28-v1",
+  "publications": 16,
+  "families": 14,
+  "measurement_ready": false,
+  "files": [
+    {
+      "path": "inputs/14同族人工功能矩阵.json",
+      "bytes": 9518,
+      "sha256": "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488"
+    },
+    {
+      "path": "inputs/current_corpus.json",
+      "bytes": 10450,
+      "sha256": "fb9ed7e934a2d917b6a70e7a532d725eba4e433bc4c8c31cdda5fd31d36ece5d"
+    },
+    {
+      "path": "inputs/Gephi_edges.csv",
+      "bytes": 554,
+      "sha256": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c"
+    },
+    {
+      "path": "inputs/Gephi_nodes.csv",
+      "bytes": 1027,
+      "sha256": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052"
+    },
+    {
+      "path": "inputs/H1_候选技术差异与淘汰条件.md",
+      "bytes": 14686,
+      "sha256": "df9c6a4d0da2015366f02b4af943c00aec9e3ae9c261f69f8caf0075ee49d9ae"
+    },
+    {
+      "path": "inputs/H1_效果主张预注册骨架.md",
+      "bytes": 4161,
+      "sha256": "98f595b08f1a3cda01879dd6ecfc3688482c002c54febb7dc3b14a2434b6fe4a"
+    },
+    {
+      "path": "inputs/network_validation.json",
+      "bytes": 282,
+      "sha256": "60d9c898a9ac4c7089c62f10dee53e4722d2529895beefd6ef8e0c3e071de097"
+    },
+    {
+      "path": "inputs/人工功能矩阵_1.png",
+      "bytes": 275746,
+      "sha256": "fa667a944f696cc2c6853f8a17819019dbbddb259e255d55420b86954f3bff76"
+    },
+    {
+      "path": "inputs/人工功能矩阵_2.png",
+      "bytes": 268174,
+      "sha256": "4f103fa573c489848de580ca214ec3e9fbf5a949a502611703940030bedb6718"
+    },
+    {
+      "path": "inputs/共同申请网络.png",
+      "bytes": 104213,
+      "sha256": "cd7409ed9f4522ee5a6b2e83c142ee4924a8417d9cc2ebbae7343e203d2fa3be"
+    },
+    {
+      "path": "inputs/同族去重题录.csv",
+      "bytes": 2890,
+      "sha256": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8"
+    },
+    {
+      "path": "inputs/检索补全执行步骤.md",
+      "bytes": 2845,
+      "sha256": "29d510bd745d51e0f17ca9cafd0941e68be7bd9de658cc9d677f3d44183bcbee"
+    },
+    {
+      "path": "inputs/测量链计算口径与放行条件.md",
+      "bytes": 8009,
+      "sha256": "a0150624d71a2d98206bd5006cc90bd4c3cc614c3c88d0d3f38beb6ecab7093d"
+    },
+    {
+      "path": "inputs/重点路径物料对照.png",
+      "bytes": 173601,
+      "sha256": "fd4f8e49f6933cf7fa874210982ef84dcdd6ca418854f164772e01843b10dc3a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1579,
+      "sha256": "46f02aa5c258be3f59be719f609bd8744462822c5c9b16fa287f072bd1a32714"
+    },
+    {
+      "path": "return_template/01_data/README.md",
+      "bytes": 105,
+      "sha256": "70115abce7e288201e408e2ac525d260a2453785a50b76af960e10679affc751"
+    },
+    {
+      "path": "return_template/02_network/README.md",
+      "bytes": 105,
+      "sha256": "70115abce7e288201e408e2ac525d260a2453785a50b76af960e10679affc751"
+    },
+    {
+      "path": "return_template/03_features/README.md",
+      "bytes": 105,
+      "sha256": "70115abce7e288201e408e2ac525d260a2453785a50b76af960e10679affc751"
+    },
+    {
+      "path": "return_template/04_mechanical/README.md",
+      "bytes": 105,
+      "sha256": "70115abce7e288201e408e2ac525d260a2453785a50b76af960e10679affc751"
+    },
+    {
+      "path": "return_template/05_joint/README.md",
+      "bytes": 105,
+      "sha256": "70115abce7e288201e408e2ac525d260a2453785a50b76af960e10679affc751"
+    },
+    {
+      "path": "return_template/deliverable_manifest.json",
+      "bytes": 205,
+      "sha256": "b0cc36ffd91562915f4b304af9074089ae42ac87e61b8dec9f3d4bf0a411e322"
+    },
+    {
+      "path": "return_template/record_template.json",
+      "bytes": 460,
+      "sha256": "35dbd58ce0d2ccec8c325b18f44bc1b34f6a472e92d15d95e21b6042c3b4efd0"
+    },
+    {
+      "path": "sources/CN112914464A.html",
+      "bytes": 286723,
+      "sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18"
+    },
+    {
+      "path": "sources/CN112914464A_claims.txt",
+      "bytes": 9091,
+      "sha256": "be496c1c701d8c5aa676addf8a7c2900e8a0603877f000e5c9bde5baccae1c2a"
+    },
+    {
+      "path": "sources/CN115087774A.html",
+      "bytes": 254560,
+      "sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2"
+    },
+    {
+      "path": "sources/CN115087774A.pdf",
+      "bytes": 1804605,
+      "sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c"
+    },
+    {
+      "path": "sources/CN115087774A_claims.txt",
+      "bytes": 4041,
+      "sha256": "2fd9023d23b60e3fa8dfe169bd5cd5f2c98a624391f1771e5ecfedf7375b0306"
+    },
+    {
+      "path": "sources/CN115298383A.html",
+      "bytes": 267118,
+      "sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d"
+    },
+    {
+      "path": "sources/CN115298383A_claims.txt",
+      "bytes": 6599,
+      "sha256": "4bcbf01122fd44e56c9d942a3fd75d9900d2c38d63fc5463d2ab4953a03fe748"
+    },
+    {
+      "path": "sources/CN115637570A.html",
+      "bytes": 114860,
+      "sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1"
+    },
+    {
+      "path": "sources/CN115637570A_claims.txt",
+      "bytes": 3129,
+      "sha256": "137fa50015c90285b10449a5bdc02c1def66785d8ec17a475732bfbdc697eb88"
+    },
+    {
+      "path": "sources/CN115700309A.html",
+      "bytes": 173852,
+      "sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5"
+    },
+    {
+      "path": "sources/CN115700309A_claims.txt",
+      "bytes": 3494,
+      "sha256": "e7aa175275d4a59e4660349a30c85ae999b21f9920b8ed33dc238e56d6fde38b"
+    },
+    {
+      "path": "sources/CN116282270A.html",
+      "bytes": 117008,
+      "sha256": "68bc74f3c5487c52d14114c34e6b5291b5468bcf90fca7fcec50c92b0b7d9b15"
+    },
+    {
+      "path": "sources/CN116282270A.pdf",
+      "bytes": 919516,
+      "sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186"
+    },
+    {
+      "path": "sources/CN116282270A_claims.txt",
+      "bytes": 3596,
+      "sha256": "c3d091f157cb5beca42b57e7ff05f3b5e5bdf70271dac0b96813c9b575699b93"
+    },
+    {
+      "path": "sources/CN117702432A.html",
+      "bytes": 82331,
+      "sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438"
+    },
+    {
+      "path": "sources/CN117702432A_claims.txt",
+      "bytes": 3450,
+      "sha256": "df14109752632b06e5efa0ca8bcf7e5a9ec91c5e3c8e2abc48b82d348e08cf81"
+    },
+    {
+      "path": "sources/CN118273060A.html",
+      "bytes": 95502,
+      "sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5"
+    },
+    {
+      "path": "sources/CN118273060A_claims.txt",
+      "bytes": 6209,
+      "sha256": "63609d932bc5db530b6fc8f9029d78128034ebf6b31e67088823c20f3f1913c5"
+    },
+    {
+      "path": "sources/CN120500565A.html",
+      "bytes": 149668,
+      "sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d"
+    },
+    {
+      "path": "sources/CN120500565A_claims.txt",
+      "bytes": 4919,
+      "sha256": "fdbb7e2b6c760bb7ff449a2307a530eb73e8046c6745272a286e1ec51d0a4fce"
+    },
+    {
+      "path": "sources/CN222043626U.html",
+      "bytes": 68663,
+      "sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621"
+    },
+    {
+      "path": "sources/CN222043626U_claims.txt",
+      "bytes": 3160,
+      "sha256": "f4cc5f668ec0dec7262ec78df9e52352ecdd68a497f9d491c74e6a619a06db67"
+    },
+    {
+      "path": "sources/WO2021116933A1.html",
+      "bytes": 230468,
+      "sha256": "85504e62b3af33d1b91ac4d2c9c9f5f2ac0fdea26d713da0abef5d8f01f95b92"
+    },
+    {
+      "path": "sources/WO2021116933A1.pdf",
+      "bytes": 1357765,
+      "sha256": "f859e3abc3ddbb4ac57441754e64b7a87111a34897ac64815c73b04e858985cc"
+    },
+    {
+      "path": "sources/WO2021116933A1_claims.txt",
+      "bytes": 3977,
+      "sha256": "ce7c6226e1de34ed347497e513bfec5dbd1699036c280ee43064a18ea61a263b"
+    },
+    {
+      "path": "sources/WO2022084677A1.html",
+      "bytes": 622833,
+      "sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe"
+    },
+    {
+      "path": "sources/WO2022084677A1.pdf",
+      "bytes": 4777166,
+      "sha256": "5ebf02deee8c06560d9375d264d3a8f827243313921826655a3c42ac88ac1745"
+    },
+    {
+      "path": "sources/WO2022084677A1_claims.txt",
+      "bytes": 13219,
+      "sha256": "9d019c8b97ba213115a9e5618e82c2d6feea025583d19404e786b752fdda7a81"
+    },
+    {
+      "path": "sources/WO2023047385A1.html",
+      "bytes": 264439,
+      "sha256": "9bc464945ac23caffa6350e6dfcff736db9bb7462a1e81c652518d6555673491"
+    },
+    {
+      "path": "sources/WO2023047385A1_claims.txt",
+      "bytes": 10936,
+      "sha256": "35976fd9c4985f958f0db32e5209abd5cac7cf3bd034e7786c2ce0e2b4802707"
+    },
+    {
+      "path": "sources/WO2024143783A1.html",
+      "bytes": 645120,
+      "sha256": "c711dec60f04ce1f567025237fb8213063d9912fd6df4eca2775b2ccaf365899"
+    },
+    {
+      "path": "sources/WO2024143783A1_claims.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sources/WO2024199585A1.html",
+      "bytes": 287808,
+      "sha256": "90ad20901b829d34f9429e698989cf50fabc2cfbd053cd3a82ce5a88607954be"
+    },
+    {
+      "path": "sources/WO2024199585A1_claims.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sources/WO2024250011A1.html",
+      "bytes": 153762,
+      "sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284"
+    },
+    {
+      "path": "sources/WO2024250011A1_claims.txt",
+      "bytes": 4432,
+      "sha256": "72bbb21d347ab0d72e8d36a1f3d788a0b9482cbb7f335d761331553ae54d0c01"
+    },
+    {
+      "path": "training_evidence/article_99142.json",
+      "bytes": 474,
+      "sha256": "07979e8f0ae584bbcfa370d1fa8f6d611156df9617451cf5e6eb5af42702852d"
+    },
+    {
+      "path": "training_evidence/article_99145.json",
+      "bytes": 526,
+      "sha256": "87c0eb0989b26fcf6c76917ed477b5da75624340ed8330281237464ab8b9bef2"
+    },
+    {
+      "path": "training_evidence/article_99146.json",
+      "bytes": 580,
+      "sha256": "a72214e695ebed29e4e1868e49341ea4a9ea516a989f8fdd17cfa1a62421bb6c"
+    },
+    {
+      "path": "training_evidence/frames/143/00960.png",
+      "bytes": 347552,
+      "sha256": "415cec003d8c67f34fd89f673142dec4a475c1e4f2c491a54950eaeadb4aed93"
+    },
+    {
+      "path": "training_evidence/frames/143/01560.png",
+      "bytes": 275131,
+      "sha256": "ff5a5838700d8476fd8085f152bd53a31d0a2aa686eff22e1c2817ea5ee66153"
+    },
+    {
+      "path": "training_evidence/frames/143/02280.png",
+      "bytes": 439752,
+      "sha256": "c3bb65a034c4afb4dfbd2533d8d7b03dac445d2c5497d316e67a61624022f0a5"
+    },
+    {
+      "path": "training_evidence/frames/143/02880.png",
+      "bytes": 343364,
+      "sha256": "79775a9375a16d5e3d8ea02e0d03d94685a9cc901a23d68510c92c00317c1e33"
+    },
+    {
+      "path": "training_evidence/frames/143/03000.png",
+      "bytes": 359919,
+      "sha256": "fcb14e05fe4f1be6e9c3f1ba27018bf152c9e3c6115e86f059e4b649a334c834"
+    },
+    {
+      "path": "training_evidence/frames/143/03360.png",
+      "bytes": 259309,
+      "sha256": "1455a20fc984745228a49feb6086c073858aca6fe69a8b4775afd43f0a3e48ea"
+    },
+    {
+      "path": "training_evidence/frames/146/00060.png",
+      "bytes": 372641,
+      "sha256": "c0a7dba003b128dc0dd47c31078a59fe47d0dc07b405bca65ae52627ef7ab5f4"
+    },
+    {
+      "path": "training_evidence/frames/146/01200.png",
+      "bytes": 294981,
+      "sha256": "aa63d0fadcd596abaa0ac690ec25c92982ae6bb3c47075a07b7e80b6db241a8a"
+    },
+    {
+      "path": "training_evidence/frames/146/01680.png",
+      "bytes": 256824,
+      "sha256": "d02f418565ad572347cc32581987f167f89a703f32ed51479c4afd5cee9363bf"
+    },
+    {
+      "path": "training_evidence/frames/146/01800.png",
+      "bytes": 200379,
+      "sha256": "2842840fd44e651e3e770f676300777f78b65de932b3d8394beaa87ef9631ee3"
+    },
+    {
+      "path": "training_evidence/frames/146/02400.png",
+      "bytes": 221482,
+      "sha256": "d9e8d0dfe3dd5afae26037f5795130c6bac2e3029ac06fb5a7850480601b00a9"
+    },
+    {
+      "path": "training_evidence/frames/146/03360.png",
+      "bytes": 369119,
+      "sha256": "665e9891f62e01aef20840fef1dad0789c8f0b832789032a93431a876280b21b"
+    },
+    {
+      "path": "training_evidence/frames/147/00480.png",
+      "bytes": 253120,
+      "sha256": "64677a376fe2cbc75da3450a511cf6e61e20a1a0592126f3f9c6bb34ecb8a8db"
+    },
+    {
+      "path": "training_evidence/frames/147/02400.png",
+      "bytes": 279348,
+      "sha256": "df6fb8d5052928967a9c3d778912d230d9dfa70873cf0c144f3ab1cb7bf6ca7e"
+    },
+    {
+      "path": "training_evidence/frames/147/02640.png",
+      "bytes": 160556,
+      "sha256": "1707e29f57849df3198074244aedef08c6308dc87c87abf71cfbac6fd8928eb6"
+    },
+    {
+      "path": "training_evidence/transcripts/143.json",
+      "bytes": 281414,
+      "sha256": "95143510e52bfb31d5ff866897aa8bdd78d0d9318de8333b62c4d02b4ee1875b"
+    },
+    {
+      "path": "training_evidence/transcripts/143.txt",
+      "bytes": 69528,
+      "sha256": "e84250f3380a8060b8498d9dbfa0d9d650771298e69f8ae810da1dc3769e7c1d"
+    },
+    {
+      "path": "training_evidence/transcripts/146.json",
+      "bytes": 276971,
+      "sha256": "a496ee0b7206a6840b847fab5cd4d56d49bddd08a7aeba822476ade18b1f1698"
+    },
+    {
+      "path": "training_evidence/transcripts/146.txt",
+      "bytes": 69435,
+      "sha256": "11077eedefe46c8d29febcf0e73c99db1b04bf105cdb9c2d15b3212defb3d3e9"
+    },
+    {
+      "path": "training_evidence/transcripts/147.json",
+      "bytes": 205570,
+      "sha256": "956e804ecec75a38b410d214a3702cb154bc677c4d7943abb9f80d8fa6899e48"
+    },
+    {
+      "path": "training_evidence/transcripts/147.txt",
+      "bytes": 54336,
+      "sha256": "6ed7e6e090a684b7b8132e8c27981995dbcbe1fd429e1ef67734328fb748ccbf"
+    },
+    {
+      "path": "training_evidence/培训源与画面索引.md",
+      "bytes": 1600,
+      "sha256": "5ac2240692a8f05182c1f69603346798334c90a71cc9035d38919ff613e980d5"
+    },
+    {
+      "path": "training_evidence/培训笔记与H1应用.md",
+      "bytes": 4218,
+      "sha256": "e54cecb64705466f2da4a933b1778abde07a858b9dd86c8087e040bce3299fc6"
+    },
+    {
+      "path": "分工与验收.md",
+      "bytes": 5129,
+      "sha256": "81bd85a0eb555243d51cdc9234791c0f8965468084373e163fbcf6f9518a3b21"
+    },
+    {
+      "path": "发队友的消息.md",
+      "bytes": 2741,
+      "sha256": "23e76cd57e5afdfa7c6a230fcaf8722c4fe024307fb3589abc1a4379fc53fb0b"
+    },
+    {
+      "path": "回收格式与整合检查.md",
+      "bytes": 3049,
+      "sha256": "9f06eae12fb64e15adc15406131adb13bc5bf7ed7988e8bd7e2035cfa4f5da88"
+    },
+    {
+      "path": "培训大数据方法摘录.md",
+      "bytes": 3753,
+      "sha256": "ec7c279e7d350f5fbf8642aef23ffc3026dedc0afc4de62429590b4bb3d6e8c0"
+    }
+  ]
+}

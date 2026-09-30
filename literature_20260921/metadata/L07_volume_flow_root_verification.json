@@ -1,0 +1,151 @@
+{
+  "filters": {
+    "siphon_baseline": {
+      "inlet": "snail",
+      "element": "none",
+      "mixer": 0,
+      "microplastic": "none",
+      "total_volume": 25,
+      "filt_volume": 20,
+      "p_conc": "NA",
+      "siphon": "no",
+      "ventile": "no",
+      "time": 15
+    },
+    "siphon": {
+      "inlet": "snail",
+      "element": "none",
+      "mixer": 0,
+      "microplastic": "none",
+      "total_volume": 25,
+      "filt_volume": 20,
+      "p_conc": "NA",
+      "siphon": "yes",
+      "ventile": "no",
+      "time": 15
+    },
+    "cleaning_no_valves": {
+      "inlet": "snail",
+      "element": "Small-11",
+      "mixer": 5,
+      "microplastic": "cotton",
+      "menge_g": 2.5,
+      "total_volume": 25,
+      "filt_volume": 20,
+      "p_conc": 0.1,
+      "siphon": "no",
+      "ventile": "no",
+      "time": 15
+    },
+    "cleaning_valves": {
+      "inlet": "snail",
+      "element": "Small-11",
+      "mixer": 5,
+      "microplastic": "cotton",
+      "menge_g": 2.5,
+      "total_volume": 25,
+      "filt_volume": 20,
+      "p_conc": 0.1,
+      "siphon": "no",
+      "ventile": "yes",
+      "time": 15
+    }
+  },
+  "results": {
+    "no_siphon": {
+      "rows": [
+        607,
+        608,
+        609,
+        610,
+        611
+      ],
+      "n_15L_records": 5,
+      "values_s": [
+        67,
+        65,
+        64,
+        64,
+        64
+      ],
+      "mean_s": 64.8,
+      "sample_sd_s": 1.3038404810405297,
+      "independent_trial_n": "not verifiable: source has no run identifier"
+    },
+    "siphon": {
+      "rows": [
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "n_15L_records": 5,
+      "values_s": [
+        144,
+        141,
+        91,
+        95,
+        90
+      ],
+      "mean_s": 112.2,
+      "sample_sd_s": 27.743467699622556,
+      "independent_trial_n": "not verifiable: source has no run identifier"
+    },
+    "no_valves_cleaning": {
+      "rows": [
+        637,
+        638,
+        639,
+        640,
+        641,
+        653,
+        654,
+        655,
+        656,
+        657
+      ],
+      "n_15L_records": 10,
+      "values_s": [
+        82,
+        80,
+        78,
+        85,
+        80,
+        76,
+        75,
+        88,
+        86,
+        75
+      ],
+      "mean_s": 80.5,
+      "sample_sd_s": 4.672615256292062,
+      "independent_trial_n": "not verifiable: source has no run identifier"
+    },
+    "valves": {
+      "rows": [
+        717,
+        718,
+        719,
+        720,
+        721
+      ],
+      "n_15L_records": 5,
+      "values_s": [
+        75,
+        78,
+        68,
+        73,
+        79
+      ],
+      "mean_s": 74.6,
+      "sample_sd_s": 4.39317652729776,
+      "independent_trial_n": "not verifiable: source has no run identifier"
+    }
+  },
+  "ratios": {
+    "siphon_time_percent_of_baseline": 173.14814814814815,
+    "cleaning_time_percent_of_baseline": 92.67080745341613
+  },
+  "note": "messung rows are 15 L records; independent trial n is not verifiable without a run identifier."
+}

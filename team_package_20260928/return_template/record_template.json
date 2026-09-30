@@ -1,0 +1,21 @@
+{
+  "publication": null,
+  "family_id": null,
+  "structure_id": null,
+  "flow_id": null,
+  "source_location": null,
+  "source_file": null,
+  "source_sha256": null,
+  "claim_level": null,
+  "evidence_status": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "change_reason": null,
+  "flow_medium": null,
+  "from_id": null,
+  "to_id": null,
+  "destination_label": null,
+  "assumption": null,
+  "unresolved": null,
+  "reviewer": null
+}

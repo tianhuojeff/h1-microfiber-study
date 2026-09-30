@@ -1,0 +1,12 @@
+{
+  "thread_id": "01a0eae8-68a3-73f0-bba8-b16f72cd72f4",
+  "confirmed_at": "2026-09-29T22:58:23.455810+08:00",
+  "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
+  "phase": "P0",
+  "spec_fully_read": true,
+  "next_action": "继续P2逐件未填字段及P3必要状态核验，禁用旧R1全局停工",
+  "completion_claim": false,
+  "last_checkpoint_at": "2026-09-29T23:28:08.625879+08:00",
+  "last_phase": "P2",
+  "execution_status": "waiting_user_quota_limit"
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "20260929_r1",
+  "status": "draft",
+  "project_completion_accepted": false,
+  "phase": "P2",
+  "spec_path": "H1_现有任务纠偏执行命令与长期规则.md",
+  "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
+  "handoff": "corrections/20260929_r1/handoff.md",
+  "analysis_master": "corrections/20260929_r1/data/analysis_master.json",
+  "previous_working_master": "revision_20260929/master_technical_coding_v1.json",
+  "authority_note": "Previous master is imported working evidence, not accepted current results.",
+  "current_owner": "01a0eae8-68a3-73f0-bba8-b16f72cd72f4",
+  "updated_at": "2026-09-29T23:28:08.625879+08:00",
+  "unresolved": [
+    "14 candidate legal eligibilities pending",
+    "P2 full-text and unfilled field review pending",
+    "CN116282270A direction wording conflict; CN120500565A original PDF missing",
+    "P3 genuine search evidence; P4 statistics; P5 report; P6 generation; P7 final QA pending"
+  ],
+  "usage_stop_remaining_percent": 60,
+  "no_delegation": true,
+  "technical_review_index": "corrections/20260929_r1/evidence/技术复核入口.md",
+  "current_observations": 61,
+  "full_text_review_complete": false,
+  "execution_status": "waiting_user_quota_limit",
+  "weekly_used_percent": 40,
+  "weekly_remaining_percent": 60,
+  "master_sha256": "84f1d4b107c64a2e1d812b77de7086825aa4bc10263f886827b5b0ba7cf80471"
+}

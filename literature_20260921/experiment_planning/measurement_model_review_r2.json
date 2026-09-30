@@ -1,0 +1,53 @@
+{
+  "review_date": "2026-09-21",
+  "review_type": "second_read_only_closure_review",
+  "scope": "Only assesses whether the new wording resolves MM-01 through MM-04 from measurement_model_review.json. It does not create data, freeze numerical parameters, or validate an experiment.",
+  "documents": {
+    "prior_review": {
+      "path": "measurement_model_review.json",
+      "sha256": "dd071f8b08e007af35352fcb513d8049384b424af012dd83d27d4ce3e61545ed"
+    },
+    "revised_document": {
+      "path": "测量链计算口径与放行条件.md",
+      "sha256": "a0150624d71a2d98206bd5006cc90bd4c3cc614c3c88d0d3f38beb6ecab7093d"
+    },
+    "revision_record": {
+      "path": "measurement_model_revision_record.json",
+      "sha256": "6dc37945c589d08b35bb90527f699261cc786c219dcd967736d6f4fa8ed0b444"
+    }
+  },
+  "items": [
+    {
+      "id": "MM-01",
+      "result": "resolved_in_text",
+      "finding": "The revision fixes the scale and processing-chain condition: a and b must be same-scale, same-unit outputs from the same processing chain. Whole-stream, per-volume, or step-only blanks require a recorded conversion basis; backgrounds introduced after recovery or processed through a different chain require a separate background/sample model. It also keeps r conditional on an applicable matched recovery model.",
+      "remaining_specific_problem": null
+    },
+    {
+      "id": "MM-02",
+      "result": "resolved_in_text",
+      "finding": "The revision requires one common measurand for the primary closure, including one material/size range and an estimation method appropriate to each term. It expressly prevents mechanically dividing a directly known input by a terminal-analysis recovery factor, and permits raw-observation, blank-corrected, and recovery-adjusted closures only as separately coherent results.",
+      "remaining_specific_problem": null
+    },
+    {
+      "id": "MM-03",
+      "result": "resolved_in_text",
+      "finding": "The revision makes epsilon and Delta complete functions of joint raw inputs, requiring their own full gradients and joint covariance propagation. Shared blank, recovery, calibration, input, and pairing effects may not be defaulted to zero; if important association or a pre-justified conservative bound is unavailable, the interval and any decision based on it are explicitly undetermined.",
+      "remaining_specific_problem": null
+    },
+    {
+      "id": "MM-04",
+      "result": "resolved_in_text_with_explicit_not_ready_gate",
+      "finding": "The revision separates measurement qualification from post-comparison effect judgment. Measurement_ready is true only after all required measurement terms and pretest criteria are fixed and met; any unknown or failed critical item yields false. The later effect claim requires a predeclared estimand, direction, practical margin, interval method/coverage, and decision hypothesis, with uncertain evidence not converted into a pass.",
+      "remaining_specific_problem": "No numerical reporting capability, precision/closure criterion, practical margin, or sample design is frozen because no experimental data or validated pretest exists. The document correctly records measurement_ready=false and effect_claim=not_evaluated; this is a future prerequisite, not permission to infer a result."
+    }
+  ],
+  "overall_result": "all_four_prior_wording_gaps_resolved; experiment_not_ready",
+  "release_boundary": {
+    "measurement_ready": false,
+    "effect_claim": "not_evaluated",
+    "experimental_data_created": false,
+    "physical_validation": false,
+    "interpretation": "The new text resolves the four requested methodological ambiguities by making unresolved inputs blocking conditions. It does not establish any device performance, recovery, detection capability, sample size, or C1/C2 effect."
+  }
+}

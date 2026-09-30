@@ -1,0 +1,56 @@
+{
+  "observed_at": "2026-09-29T21:15:19.570985+08:00",
+  "register_before_sha256": "4a9c6ab0f4d53079e1356446a59834b966946384b130282dd8f88e69a3934e14",
+  "register_after_sha256": "80cebae07a66f4dc3c31c4ff27581cd8a39ca79ba80f15bbdf4dc265f13af0f7",
+  "status_counts": {
+    "unknown": 14
+  },
+  "r1_passed": false,
+  "files": [
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_first_page.png",
+      "bytes": 296004,
+      "sha256": "95b44770307962ee73cea8332330f73200d64a4f58a16fe935f666af51e13ce1"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_first_page.txt",
+      "bytes": 1686,
+      "sha256": "0483a2951782c073423ffa13baa95096fb2785656d77683f34741002bd4c3ef5"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+      "bytes": 440367,
+      "sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\cpquery_current_response.html",
+      "bytes": 2470,
+      "sha256": "3ca00de25681d34990b81d0bc6826d3403c5da6c9dfb580fc49b95f285bf4868"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\finalize_evidence.py",
+      "bytes": 4622,
+      "sha256": "e7c6b72eae5aa8ab7cc94c0189c9f4df29ee89365abf60b8e5eab684ef86bb7a"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\official_archive_crosscheck.json",
+      "bytes": 936,
+      "sha256": "30a270bd188e6f63ecc73e249dad65dd19c478f5e79e70db4709747ce5047eb2"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\official_status_register_before.json",
+      "bytes": 16072,
+      "sha256": "4a9c6ab0f4d53079e1356446a59834b966946384b130282dd8f88e69a3934e14"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\request_manifest.json",
+      "bytes": 1384,
+      "sha256": "5348f857c04f287915197458136619b62b69465c8a5bdf43466028dc0a0ac724"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\审查逐条对照与R1结果.md",
+      "bytes": 4317,
+      "sha256": "a342c462542c0366eeb3a47f8436fd52f896414e81fd46f87f9d004cd65e58bc"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-09-28T18:47:22.5535484+08:00",
+  "home_status": 200,
+  "api_date": "2026-09-28",
+  "task_enabled": true,
+  "task_state": "Ready",
+  "trigger_enabled": [
+    true
+  ],
+  "trigger_type": [
+    "MSFT_TaskLogonTrigger"
+  ],
+  "execute": [
+    "C:\\WINDOWS\\System32\\wscript.exe"
+  ],
+  "arguments": [
+    "\"C:\\Users\\tianhuo\\Documents\\codex第一个项目\\codex优化\\prototype\\daily_taskline_rollover_20260802\\today_taskline_launcher.vbs\" /no-browser"
+  ],
+  "listener_pids": [
+    18608
+  ]
+}

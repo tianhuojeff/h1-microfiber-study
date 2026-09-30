@@ -1,0 +1,27 @@
+{
+  "status": "literal_hash_and_bounded_semantic_review",
+  "changed": [
+    {
+      "publication": "CN118273060A",
+      "field": "seals_connections",
+      "locator": "权1 (HTML zh-cl0001)"
+    },
+    {
+      "publication": "WO2022084677A1",
+      "field": "removal",
+      "locator": "说明书[0097] (HTML p0097)"
+    },
+    {
+      "publication": "WO2022084677A1",
+      "field": "state_switch",
+      "locator": "说明书[0053] (HTML p0053)"
+    },
+    {
+      "publication": "WO2024250011A1",
+      "field": "seals_connections",
+      "locator": "说明书[0009] (HTML p0009)"
+    }
+  ],
+  "before_sha256": "4b37961d17e9ab25d957dd198103d622e3a1695ea9bb605fb5b104b215895b86",
+  "after_sha256": "cd3df6eda8041b66bd86792bedc1ad4dacad0819b14f807496b333024ead6cb8"
+}

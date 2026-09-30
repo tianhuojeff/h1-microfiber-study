@@ -1,0 +1,9 @@
+Source: Springer Nature article page, accessed 2026-09-21 (Asia/Shanghai)
+URL: https://link.springer.com/article/10.1007/s11270-021-05342-6
+DOI: 10.1007/s11270-021-05342-6
+
+The washing process of synthetic fabrics represents the main source of primary microplastics in sea and oceans as large amounts of microfibers are released during washing. Recent researches have been focused on the development of effective approaches to mitigate the effects of microfiber release. Relevant approaches are aimed to design capturing devices and filters. In this work, the development, testing, and demonstration of the effectiveness of a new filtration system for washing machines are reported.
+
+This system is designed to retain microfibers avoiding their entrance into the wastewater system. Washing tests were performed using two different prototypes of the proposed filtration system, in order to optimize its design and efficiency.
+
+The obtained results demonstrate that, after its optimized, the proposed filtration system shows a capture efficiency of 64% toward microfibers released from commercial polyester t-shirts, comparable or even better than the efficiency shown by other commercial or prototype microfiber capturing systems.

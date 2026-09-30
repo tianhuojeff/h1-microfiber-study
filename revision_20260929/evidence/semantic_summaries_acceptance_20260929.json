@@ -1,0 +1,9 @@
+{
+  "status": "summary_and_semantic_scope_integrated_not_final",
+  "reviewed_fields": 81,
+  "summaries_modified": 61,
+  "drainage_downgraded": "WO2024250011A1/chamber_drainage",
+  "removal_object_corrected": "CN118273060A/filter_element",
+  "before_sha256": "cd3df6eda8041b66bd86792bedc1ad4dacad0819b14f807496b333024ead6cb8",
+  "after_sha256": "7d25ea8e1eb1af8853eb973c5cce17fd6b6f3df0fc41f7b8279c4a3f90f3426e"
+}

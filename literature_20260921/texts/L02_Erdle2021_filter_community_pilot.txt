@@ -1,0 +1,888 @@
+fmars-08-777865 November 12, 2021 Time: 14:43 # 1
+ORIGINAL RESEARCH
+published: 18 November 2021
+doi: 10.3389/fmars.2021.777865
+Edited by:
+Tieyu Wang,
+Shantou University, China
+Reviewed by:
+Monica F. Costa,
+Federal University of Pernambuco,
+Brazil
+Tania Martellini,
+University of Florence, Italy
+*Correspondence:
+Lisa M. Erdle
+lerdle@gmail.com
+†These authors have contributed
+equally to this work and share ﬁrst
+authorship
+Specialty section:
+This article was submitted to
+Marine Pollution,
+a section of the journal
+Frontiers in Marine Science
+Received: 15 September 2021
+Accepted: 26 October 2021
+Published: 18 November 2021
+Citation:
+Erdle LM, Nouri Parto D,
+Sweetnam D and Rochman CM
+(2021) Washing Machine Filters
+Reduce Microﬁber Emissions:
+Evidence From a Community-Scale
+Pilot in Parry Sound, Ontario.
+Front. Mar. Sci. 8:777865.
+doi: 10.3389/fmars.2021.777865
+Washing Machine Filters Reduce
+Microﬁber Emissions: Evidence From
+a Community-Scale Pilot in Parry
+Sound, Ontario
+Lisa M. Erdle 1,2*†, Dorsa Nouri Parto 1†, David Sweetnam 3 and Chelsea M. Rochman 1
+1 Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, ON, Canada,2 The 5 Gyres Institute, Santa
+Monica, CA, United States, 3 Georgian Bay Forever, Toronto, ON, Canada
+Washing clothing is a known pathway for microﬁbers to reach the environment. Previous
+research has investigated microﬁber capture close to the source (i.e., the washing
+machine), and demonstrated washing machine ﬁlters as a potential mitigation strategy.
+Widespread deployment into homes may be an effective solution to prevent microﬁber
+emissions. Here, we investigated the effectiveness of washing machine ﬁlters at the
+level of a community. We installed ﬁlters in 97 homes in a small town, representing
+approximately 10% of households connected to the municipal wastewater treatment
+plant (WWTP). We evaluated treated ﬁnal efﬂuent and found a signiﬁcant reduction
+in microﬁbers after ﬁlter installation. Furthermore, lint samples from ﬁlters revealed an
+average weekly lint capture of 6.4 g, equivalent to 179,200–2,707,200 microﬁbers.
+This research shows that microﬁber ﬁlters on washing machines are effective at scale,
+and this result can help inform policy decisions to reduce microﬁber emissions from
+laundering textiles.
+Keywords: microﬁbers, microplastics, textiles, washing machines, mitigation, wastewater treatment
+INTRODUCTION
+Researchers estimate that 4.8 million tons of synthetic microﬁbers (e.g., polyester and nylon) have
+entered water bodies and terrestrial environments since 1950 (Gavigan et al., 2020). If we include
+natural, but anthropogenically modiﬁed, microﬁbers (e.g., cotton and wool) and semi-synthetic
+microﬁbers (e.g., rayon) in this estimate, microﬁber emissions to the environment would likely be
+far greater. Consequently, researchers report a diversity of synthetic, semi-synthetic, and natural
+microﬁbers (anthropogenic ﬁbers < 5 mm in size) in habitats and wildlife around the world (Gago
+et al., 2018; Nelms et al., 2018; Sanchez-Vidal et al., 2018). Once microﬁbers are released to the
+environment, they become exceedingly diﬃcult to remove. Thus, researchers have recently focused
+their attention on understanding ways in which microﬁbers shed, sources and pathways to the
+environment, and technologies to capture microﬁbers at their emission source.
+There is clear evidence that laundering textiles is one major contributor of microﬁbers to the
+environment (Browne et al., 2011; Carr, 2017; Gavigan et al., 2020; Kapp and Miller, 2020). During
+laundering, microﬁbers shed from clothing into wash water. Researchers estimate an average
+household load of laundry can shed thousands to millions of microﬁbers in a single wash (Napper
+and Thompson, 2016; De Falco et al., 2018). Several factors have been found to inﬂuence the
+Frontiers in Marine Science | www.frontiersin.org 1 November 2021 | Volume 8 | Article 777865
+
+fmars-08-777865 November 12, 2021 Time: 14:43 # 2
+Erdle et al. Washing Machine Filters Reduce Microﬁbers
+amount of shedding. First, the age of garments can impact
+microﬁber shedding. Several studies found that new garments,
+both synthetic and natural, release more microﬁbers than old
+garments (Napper and Thompson, 2016; Pirc et al., 2016;
+Sillanpää and Sainio, 2017; Athey et al., 2020; Cesa et al., 2020).
+However, other studies have observed no eﬀect of age (Hernandez
+et al., 2017), or the opposite trend whereby aged garments shed
+more than new (Hartline et al., 2016). Second, natural textiles
+shed more than synthetic textiles, which has been attributed to
+the staple ﬁbers in natural materials, which shed more easily than
+the ﬁlament yarn in synthetic material (Lant et al., 2020). Third,
+the type of washing machine matters; researchers have reported
+more microﬁbers in eﬄuent from top loading machines than in
+front loaders (Hartline et al., 2016). Moreover, hot cycles have
+also been found to lead to more shedding of ﬁbers than cold
+(De Falco et al., 2020; Lant et al., 2020). Other factors, such
+as detergent type and fabric softener appear to have variable
+eﬀects, either leading to increased microﬁber shedding, decreased
+microﬁber shedding, or no eﬀects (Napper and Thompson, 2016;
+Pirc et al., 2016; Almroth et al., 2018; De Falco et al., 2018;
+Cesa et al., 2020). Despite this, even if a consumer follows
+all recommended care instructions, microﬁbers will not be
+eliminated from washing machine eﬄuent, and microﬁbers will
+still enter wastewater streams.
+Microﬁbers can enter the environment directly from washing
+machine eﬄuent via untreated wastewater, and indirectly
+through treated wastewater and biosolid application in terrestrial
+environments. Traditional secondary and tertiary treatment
+wastewater treatment plants (WWTPs) are eﬀective at removing
+microﬁbers (and other microplastics) from ﬁnal eﬄuent,
+removing up to 98% of particles (Carr et al., 2016; Murphy
+et al., 2016; Gies et al., 2018; Conley et al., 2019). New ﬁltration
+technologies can remove an additional 98ñ99% from what is
+left after secondary treatment using methods such as membrane
+ﬁltration (0.4 µm membranes) (Lares et al., 2018) and biologically
+active ﬁlters (Talvitie et al., 2017a). Despite the high removal
+eﬃciencies in ﬁnal eﬄuent, microplastics and microﬁbers are
+still in ﬁnal eﬄuent, and although the number has been largely
+reduced, discharge rates can be signiﬁcant (Talvitie et al., 2017a,b;
+Ziajahromi et al., 2017). For example, if 99% of microparticles
+are captured in treatment, the remaining 1% can still amount to
+millions of microplastics and microﬁbers per day, which are then
+directly released to aquatic environments (Murphy et al., 2016).
+Additionally, since microﬁbers removed from the ﬁnal eﬄuent
+are captured in the sludge, microﬁbers can enter the environment
+through the terrestrial application of biosolids on agricultural
+land (Zubris and Richards, 2005; Crossman et al., 2020). As such,
+upstream mitigation strategies closer to the source may be more
+eﬀective as an intervention point to capture microﬁbers.
+Previous laboratory research has demonstrated that washing
+machine ﬁlters are eﬀective at capturing microﬁbers from
+domestic laundry before they are released into wastewater.
+A range of technologies are now available, and lab studies have
+evaluated the eﬀectiveness of after-market devices and ﬁlters
+(McIlwraith et al., 2019; Napper et al., 2020). Research shows
+that washing machine ﬁlters can have an average microﬁber
+capture up to 78ñ80% by weight (McIlwraith et al., 2019;
+Napper et al., 2020). By count, McIlwraith et al. (2019) found
+that ﬁlters captured 87% of microﬁbers from the wash. These
+studies also highlight that microﬁber capture can vary based
+on the type of microﬁber-capturing device, garments washed,
+and the ﬁlter mesh size (McIlwraith et al., 2019; Napper et al.,
+2020). To take ﬁlter mesh size as an example, Napper et al.
+(2020) did not observe signiﬁcant reductions in microﬁbers when
+testing ﬁlters with a pore size greater than 175 µm, although
+signiﬁcant microﬁber reductions have been observed for ﬁlters
+with a pore size less than or equal to 150 µm (McIlwraith et al.,
+2019; Napper et al., 2020). Given that washing machines are a
+source of microﬁbers to the environment, and that ﬁlters are
+eﬀective when tested in the lab, it is worth investigating whether
+this technology can be scaled up and implemented as an eﬀective
+mitigation strategy.
+For any proposed intervention, a pilot project can provide
+valuable information about the eﬀectiveness of a solution.
+Microﬁber ﬁlters are demonstrated to be eﬀective in the
+laboratory (McIlwraith et al., 2019; Napper et al., 2020). Still,
+it is unknown how that eﬀectiveness translates into measurable
+results when scaled up to a community, i.e., how much microﬁber
+pollution can be diverted and whether a measurable diﬀerence
+can be observed at the WWTP scale. Here, we deployed
+ﬁlters into the homes of nearly 100 participants. We quantiﬁed
+microﬁber capture, and measured microﬁbers and microplastics
+in treated ﬁnal eﬄuent at the municipal WWTP before and after
+deployment. Results from this study can inform whether ﬁlters on
+washing machines are an eﬀective solution to prevent one source
+of microﬁber emissions.
+MATERIALS AND METHODS
+Participant Recruitment and Filter
+Installation
+A total of 97 households in Parry Sound, Ontario were
+included in this study. Each household added an after-
+market washing machine ﬁlter to their washing machines.
+Parry Sound is a great site for a case study because it has
+approximately 1,050 households connected to the municipal
+WWTP (O’Donnell, personal communication, September 27,
+2019), which means these households represent approximately
+10% of those connected to the plant. During recruitment,
+participation requirements were the following: (1) connection to
+the municipal WWTP (i.e., no septic tank), (2) suﬃcient space to
+install the ﬁlter, and (3) a commitment to collect the lint captured
+in their ﬁlter for a 2-year period.
+The device tested was the Filtrol 160 (Wexco Environmental,
+United States), which contains a 100 µm polyester mesh and
+has a microﬁber capture rate of 89% of microﬁbers shed from
+laundry into wash water by weight (Filtrol, 2021). This microﬁber
+capture rate is greater than those reported for the Lint-LUV-R
+ﬁlter (McIlwraith et al., 2019; Napper et al., 2020). We chose the
+Filtrol160 for two main reasons: (1) the ﬁlter is easy to clean
+and (2) the ﬁlter contains a bypass, meaning if the ﬁlter is full
+the water will bypass the ﬁlter and prevent ﬂooding. A downside
+of this bypass feature is that in the case of a bypass, the ﬁlter
+Frontiers in Marine Science | www.frontiersin.org 2 November 2021 | Volume 8 | Article 777865
+
+fmars-08-777865 November 12, 2021 Time: 14:43 # 3
+Erdle et al. Washing Machine Filters Reduce Microﬁbers
+would no longer capture microﬁbers, but this would only occur
+when the ﬁlter is completely full, and we had no reports of
+bypasses in our experiment. The Filtrol160 is installed externally
+on the washing machine eﬄuent pipe and collects microﬁbers
+and microplastics prior to their release to the sanitary sewer
+system. The ﬁlter units were purchased and installed in 2019.
+In June and July 2019, ﬁlters were installed by a professional
+plumber, wherein we also recorded each washing machine type
+(front loader or top loader). Three participants opted to self-
+install their ﬁlters. All ﬁlter units and instillation costs were
+provided to participants free of change. Participants oﬃcially
+“turned on” their ﬁlters by connecting the ﬁlter to their washing
+machine and installing the ﬁlter mesh on August 1st, 2019.
+Analysis of Household Lint Samples
+Measuring Lint Capture by Mass
+Lint samples were collected by each household to determine
+the mass of material diverted and estimated count of diverted
+microﬁbers. Participants were instructed to remove all material
+captured in the Filtrol 160 ﬁlter bag every 1ñ2 weeks using a
+metal spoon, and to store the material in a pre-labeled Ziplock
+bag. Samples from each household were stored in home freezers,
+then were collected and sent to the laboratory every 3ñ6 months
+for further analysis.
+In the laboratory, lint samples corresponding to diﬀerent
+household numbers and collection periods were weighed in
+sample bags. The wet weights for lint samples were determined
+by recording the weight for each full bag and subtracting the
+weight of the empty bag. To determine the weekly lint capture,
+we divided the weight of lint in each collection period by the
+number of weeks in that collection period. To maintain a safe
+working environment during the COVID-19 outbreak, the third
+and fourth batch of lint samples remained sealed in the bags, and
+an average bag weight was used for subtraction.
+Estimating Lint Capture by Count
+Additionally, 5 mg wet weight sub-samples were taken from some
+households to estimate microﬁber counts. To represent diﬀerent
+households, we randomly selected 10 diﬀerent households; ﬁve
+households from the ﬁrst collection and ﬁve households from
+the second collection. For each of the 10 households ( n = 10),
+three 5 mg sub-samples were taken to determine a representative
+count per replicate. A solution of 10% Alcojet and RO (reverse
+osmosis) water was used to separate the individual particles
+within each sub-sample. In the ﬁrst collection of samples, the
+number of microﬁbers in each subsample were counted under
+the microscope and categorized by particle color and shape. In
+the second collection of samples, we also quantiﬁed the number
+of suspected anthropogenic fragments. With this information, we
+estimated a count of microﬁbers per mg of sample. In addition,
+the second collection of samples provided an estimate of the
+count of other anthropogenic particles per mg of sample.
+Analysis of Wastewater Treatment Plant
+Final Efﬂuent
+The ﬁnal eﬄuent of the Parry Sound WWTP was collected in
+four sample periods to determine whether the addition of ﬁlters
+aﬀected the number of microﬁbers in ﬁnal eﬄuent. We sampled
+twice before ﬁlter installation in March and July 2019, and twice
+after ﬁlter installation in August 2019 and March 2020. Sampling
+was performed at the UV-treatment stage. Three 24-h composite
+samples (approx. 3.6 L volume) were collected on 3 consecutive
+days at each sampling event using a pre-programmed ISCO
+3710 sampler, set to collect 150 mL per hour. We selected this
+method since composite sampling is a common technique used
+in sampling microﬁbers, microplastics, and persistent organic
+pollutants (POPs) (Reynolds and Ahmad, 1997; Y argeau et al.,
+2014; Talvitie et al., 2017b). One ﬁeld blank was sampled during
+each sample period to account for any procedural contamination
+that may occur during sampling and/or processing. Field blanks
+were taken using identical methods to the samples but contained
+reverse osmosis (RO) water from the laboratory. They were also
+analyzed using the same methods as the samples, and thus also
+served as a laboratory blank. All sample bottles were 4 L amber
+glass jugs, which were pre-washed with soap and water, then triple
+rinsed with RO water to remove any background contamination
+prior to sampling. Samples were taken back to the laboratory for
+processing, enumeration, and chemical identiﬁcation.
+In the laboratory, the samples were processed using a stack
+of stainless steel sieves. Tyler sieves with mesh size fractions of
+1 mm, 500, 355, 125, and 45µm, were stacked in decreasing mesh
+size. The sieve stack was placed on top of a collecting bucket.
+Prior to use, the sieves and the bucket were washed with soap and
+rinsed with tap and RO water three times. In order to prevent
+contamination, a natural sponge was used to wash the sieves,
+white cotton lab coats were worn, and the sieves were covered
+with clean aluminum foil. Additionally, the laboratory contained
+a HEPA ﬁlter, and surfaces were wiped down daily to prevent
+contamination from dust. Prior to processing, the exterior of the
+sample bottles were washed with soap and the bottles were placed
+in the clean cabinet. Each sample was extracted by pouring it
+through the sieve stack. The volume of the sieved sample was
+measured using a large graduated cylinder. Particles collected
+in each sieve were rinsed into separate clean glass jars using
+RO water, which were subsequently analyzed under a Leica M80
+stereo microscope. Extracts from the smallest sieve size fraction
+(45 µm) underwent an additional ﬁltration step through a 10 µm
+polycarbonate ﬁlter (45 mm diameter) so they could be counted
+on a ﬁlter. The remaining size fractions were wet sorted in clean
+glass petri dishes.
+Using clean tweezers, particles were removed and placed
+on double-sided tape for length measurements and Raman
+Spectroscopy. All the particles were counted in covered petri
+dishes to prevent contamination and the lids were only removed
+to extract a particle. The same extraction and analysis methods
+were used for each ﬁeld blank, and the particles detected were
+used for blank subtraction (see below). Particles in the size
+fraction between 45 and 125 µm were counted but were not
+picked due to their small size. Thus, all particles that were
+measured and used for chemical identiﬁcation had a lower size
+limit of 125 µm.
+For blank subtraction, we subtracted the number of particles
+within each color and morphology in each ﬁeld blank from each
+sample taken from the same sample period. Since particles in the
+Frontiers in Marine Science | www.frontiersin.org 3 November 2021 | Volume 8 | Article 777865
+
+fmars-08-777865 November 12, 2021 Time: 14:43 # 4
+Erdle et al. Washing Machine Filters Reduce Microﬁbers
+45ñ125 µm size fraction underwent additional ﬁltration, particles
+were blank subtracted by size fractions>125 µm and 45ñ125 µm.
+After blank correction, particle counts were divided by the
+volume in each sample to obtain a blank-corrected concentration
+of particles per liter of wastewater eﬄuent.
+Particles mounted on double-sided tape were photographed
+using an Olympus SZ61 microscope with a camera attachment.
+ToupView Software (OMAX) was calibrated, and the trace
+function was used to measure particle length. A subset of
+particles was selected for chemical identiﬁcation using Raman
+spectroscopy. For each color and morphology combination, 20%
+of particles were analyzed. When 20% was not a whole number,
+we would round up to the nearest whole number. The instrument
+and software used was a Xplora Plus (Horiba Scientiﬁc) with
+LabSpec 6 software.
+Data Analysis
+The diﬀerences in lint captured per week were compared across
+the four collection periods using a Kruskal-Wallis test ( n = 51ñ
+73 households per period; α = 0.05). To compare the average
+lint captured per week in front loading ( n = 34) vs. top loading
+(n = 42) washing machines, we ran a Welch’s t-test (α = 0.05), a
+two-sample t-test for groups with unequal variances.
+To determine whether there was a signiﬁcant diﬀerence in
+microﬁber concentrations in WWTP eﬄuent across seasons and
+before vs. after installing the ﬁlters, a two-factor analysis of
+variance (ANOV A) was used (n = 3; α = 0.05). The factor “season”
+had two levels (winter and summer), and the factor “ﬁlter” had
+two levels (before and after). Normality and homogeneity of
+variance were conﬁrmed using Shapiro-Wilks and Levene tests
+(α = 0.05). A post hoc Tukey test was conducted when a factor
+was signiﬁcant. All analyses were conducted in R version 3.6.3.
+RESULTS
+Household Microﬁber Capture
+We aimed to install 100 Filtrol 160 units. In total, we were
+only able to recruit 97 households that met the participation
+requirements in this study. Of these 97 households, we got
+information about the washing machine types from 82 of them;
+there was a total of 38 front-loader and 44 top-loader machines.
+Across all households, we quantiﬁed the amount of total captured
+household lint (i.e., microﬁbers, microplastics, dust, hair, etc.).
+Within each collection period, we received samples from 53 to
+75% of all households. Across all collection periods, we received
+lint samples from 63% of households. Participation declined in
+the second collection compared to the ﬁrst, followed by a slight
+increase in the third and fourth collection periods (Table 1).
+We recorded a total lint mass of 22,824 g (wet weight).
+Lint mass varied between households and ranged from 0.1 to
+32.5 g/week, with an overall average lint mass of 6.4± 6.0 g/week
+(mean ± SD). The amount of lint captured was generally
+consistent across the four collection periods, suggesting that
+season does not have an eﬀect on total lint (Figure 1). The average
+household lint captured for each collection was 6.7 ± 5.7 g/week
+(mean ± SD) for the ﬁrst collection, 5.9 ± 5.1 for the second,
+6.2 ± 6.6 for the third, and 5.7 ± 5.2 for the fourth. Although
+our aim was to collect samples at regular intervals, the third
+collection was at a peak of the COVID-19 pandemic in Ontario,
+and we chose to delay the pick-up time. We did not observe
+signiﬁcant diﬀerences in lint capture per week between any of
+the collection periods ( p = 0.48), which were fall 2019, winter
+2019ñ2020, spring-summer 2020, and fall 2020.
+There was a signiﬁcant relationship between washing machine
+type and the amount of lint captured ( Figure 2 ). Top loader
+washing machines yielded more lint than front loaders (p < 0.01).
+The average household lint capture was 4.7 ± 3.7 g/week
+(mean ± SD) for front loaders and 7.2 ± 5.5 for top loaders.
+Since lint is a combination of microﬁbers and other materials,
+we also aimed to determine the microﬁber count per known mass
+of sample. The average microﬁber count per mg of lint analyzed
+was 45.5 ± 21.4 microﬁbers per mg (mean ± SD; n = 10).
+While there was relatively low variability in microﬁber count
+within a household (suggesting the validity in our subsampling
+method), we observed substantial variability between households
+(Figure 3). The minimum microﬁber count was 28 microﬁbers
+per mg, and the maximum was 423 microﬁbers per mg.
+Households 1ñ5, which were from the ﬁrst collection, showed
+less variability compared to households 6ñ10 from the second
+collection. Generally, microﬁbers were the most common particle
+type found within lint.
+From households 6ñ10 we also performed an additional
+count of other anthropogenic particles per mg of sample
+(e.g., microplastic fragments). Other particle types were not
+uncommon. Among anthropogenic particles in sample, one
+household had 18% fragments and foam (household #6), and
+another had 53% fragments (household #10). Glitter, sequins, and
+foam were the most common non-ﬁber anthropogenic particle in
+lint sub-samples. The average count for non-ﬁber anthropogenic
+particles was 11.9 ± 11.2 (mean ± SD) per mg lint ( n = 5
+households; 3 subsamples were taken from each replicate). The
+minimum subsample had 0 per mg, and the maximum 41 per mg.
+Wastewater Treatment Plant Final
+Efﬂuent
+The eﬄuent samples collected before installing ﬁlters contained
+an average of 4.6 ± 1.6 microparticles per L (mean ± SD) of
+treated wastewater (Figure 4). This was signiﬁcantly greater than
+the concentration of microparticles in samples collected after
+installing ﬁlters, which contained 1.9 ± 0.7 microﬁbers per L. A 2-
+factor ANOV A showed a signiﬁcant diﬀerence among eﬄuent
+samples collected before and after installing ﬁlters ( p < 0.01),
+and no signiﬁcant diﬀerence amongst seasons ( p = 0.8) or the
+interaction (p = 0.4).
+Except for two fragments, all the particles in the WWTP
+samples were microﬁbers. The most common colors were blue
+(32%), clear (29%), and black (22%) ( Figure 5A ). On average,
+the microﬁber particle lengths (size fraction > 125 µm) were
+1.77 ± 0.94 mm in March 2019, 2.38 ± 1.67 mm in July
+2019, 2.16 ± 2.04 mm in August 2019 and 1.34 ± 0.68 mm
+in March 2020. Most microﬁbers were anthropogenic cellulose
+(52%), informed by the presence of a dye and a cellulosic chemical
+Frontiers in Marine Science | www.frontiersin.org 4 November 2021 | Volume 8 | Article 777865
+
+fmars-08-777865 November 12, 2021 Time: 14:43 # 5
+Erdle et al. Washing Machine Filters Reduce Microﬁbers
+TABLE 1 | Collection period dates and the participation in household lint collection over the course of our study.
+Collection period Season Start date End date Number of days Number of households Participation
+1 Fall 2019-08-01 2019-11-03 95 73 75%
+2 Winter 2019-11-04 2020-02-19 108 51 53%
+3 Spring-summer 2020-02-20 2020-07-29 161 60 62%
+4 Fall 2020-07-30 2020-11-29 123 62 64%
+identiﬁcation match (e.g., cotton) with Raman spectroscopy
+(Figure 5B ). If a microﬁber was undyed and had a cellulosic
+chemical signature, it could not be determined whether the
+FIGURE 1 | Weight of lint in g/week for lint captured in household ﬁlters
+across four collection periods (n1 = 73, n2 = 51, n3 = 60, and n4 = 62).
+A Kruskal-Wallis test showed no signiﬁcant difference between collection
+periods (p > 0.05). Boxes represent 25th–75th percentiles; dark lines,
+medians; whiskers, 1.5 × the interquartile range (IQR); points, values outside
+1.5 × the IQR.
+FIGURE 2 | Weight of lint in g/week for lint captured in household ﬁlters
+across different washing machine types. A t-test test revealed a signiﬁcant
+difference between collection periods (p < 0.05). Boxes represent 25th–75th
+percentiles; dark lines, medians; whiskers, 1.5 × the interquartile range (IQR);
+points, values outside 1.5 × the IQR.
+particle was anthropogenic and was thus classiﬁed as cellulosic.
+In total, 30% of all particles fell into this unknown cellulosic
+category, which may be natural or anthropogenic. Dyed black
+microﬁbers were prone to burning, and were thus categorized as
+anthropogenic unknown (8.7% of all particles). 8.7% of particles
+were conﬁrmed synthetic—all of which were Acrylic.
+DISCUSSION
+Our study, conducted in nearly 100 homes within a local
+community, demonstrates that washing machine ﬁlters eﬀectively
+capture microﬁbers and other particles before they are released to
+wastewater. The town where we did our study applies biosolids
+as a fertilizer, which is a common practice in Canada and
+many other parts of the world. Thus, ﬁlters reduced emissions
+of microﬁbers to ecosystems via ﬁnal eﬄuent and sewage
+sludge. Since textiles can also carry chemical contaminants into
+wastewater, these ﬁlters may also reduce emissions of chemical
+pollutants such as per- and polyﬂuoroalkyl substances (PFASs),
+brominated ﬂame retardants (BFRs) and organophosphate esters
+(OPEs) (Saini et al., 2016; Schellenberger et al., 2019). As
+such, this study prevented emissions of microﬁbers and other
+particles/chemicals to Lake Huron and other local waterbodies.
+The ﬁrst studies on microﬁber capturing devices showed that
+washing machine ﬁlters are eﬀective and capture up to 87% of
+microﬁbers in a load of laundry when tested in the laboratory
+FIGURE 3 | Mean number of microﬁbers per mg of household lint (across 10
+replicate households). Boxes show the distribution of microﬁbers across the
+three subsamples per household sample. Household 1–5 were sampled
+during the ﬁrst collection and household 6–10 were sampled during the
+second collection. The values plotted here are microﬁbers only (i.e., fragments
+and foam not included in these counts). Boxes represent 25th–75th
+percentiles; dark lines, medians; whiskers, 1.5 × the interquartile range (IQR).
+Frontiers in Marine Science | www.frontiersin.org 5 November 2021 | Volume 8 | Article 777865
+
+fmars-08-777865 November 12, 2021 Time: 14:43 # 6
+Erdle et al. Washing Machine Filters Reduce Microﬁbers
+FIGURE 4 | Boxplot showing microﬁber count for each sample period before
+the ﬁlter installation (March 2019 and July 2019) and after ﬁlter installation
+(August 2019 and March 2020). Results presented here are after blank
+subtractions. A 2-factor ANOVA showed a signiﬁcant difference before and
+after ﬁlter installation (*p < 0.01), and no signiﬁcant difference amongst
+seasons (p = 0.8) or the ﬁlter-season interaction (p = 0.4). The middle black
+bar represents the median, and each box represents the ﬁrst to third quantile
+of the data. The whiskers represent the minimum and the maximum number
+of ﬁbers/L of the sample.
+(McIlwraith et al., 2019; Napper et al., 2020). This present study
+now shows that washing machine ﬁlters are also eﬀective when
+implemented at the scale of a small town. We diverted at least
+22.8 kg of lint over the course of our study, as measured by the
+63% of households that provided samples. Based on the range of
+28ñ423 microﬁbers per mg of lint, this equates to 639 million to
+9.7 billion microﬁbers. If we extrapolate up to 97 households with
+washing machine ﬁlters, this would equate to roughly 1.2ñ18.2
+billion microﬁbers over the course of our 487-day study. Since we
+did not collect lint from each household, this microﬁber capture
+is instead based on the average capture of 6.4 g lint per household
+per week, which is equivalent to 179,200ñ2,707,200 microﬁbers
+per week. If we estimate for just 1 year, for the households in
+our study, we estimate we diverted 934 million to 14.1 billion
+microﬁbers from WWTPs annually. If we were to scale up to
+a large city like Toronto (1,179,057 households) or Los Angeles
+(3,316,795 households), and assume all households had washing
+machine ﬁlters, then the annual microﬁber capture could be in
+the range of 12ñ166 trillion microﬁbers for Toronto or 30ñ468
+trillion for the county of Los Angeles.
+In addition to household capture of microﬁbers in laundry
+lint, we observed a signiﬁcant decline in the number of
+microﬁbers in ﬁnal eﬄuent at the municipal WWTP. This
+directly equates to less microﬁbers entering Lake Huron via
+treated eﬄuent. After installing washing machine ﬁlters, we
+observed a reduction in microﬁbers in ﬁnal eﬄuent by an
+average of 41%. This signiﬁcant diﬀerence in microﬁber count
+pre- and post- ﬁlter deployment suggests that adding ﬁlters to
+washing machines reduces microﬁber emissions to water bodies
+via treated wastewater. We are, however, surprised at such a
+large decrease in microﬁbers, especially since ﬁlters were only
+installed in 10% of homes. A possible explanation for a more
+substantial decrease than what we expected could be related to
+behavioral change. Due to local recruiting eﬀorts and awareness
+campaigns, microﬁber awareness may have increased in this
+community, which could have indirect eﬀects. For example, if
+awareness campaigns led to changes in washing habits (i.e.,
+washing less, washing with cold cycles, using a washing bag), this
+FIGURE 5 | Patterns of microﬁber color and type in WWTP samples (n = 3) across 4 sample periods. Results presented here are (A) the relative abundance of each
+color after blank subtractions in each sample period and (B) microﬁber type as determined by chemical identiﬁcation using Raman spectroscopy.
+Frontiers in Marine Science | www.frontiersin.org 6 November 2021 | Volume 8 | Article 777865
+
+fmars-08-777865 November 12, 2021 Time: 14:43 # 7
+Erdle et al. Washing Machine Filters Reduce Microﬁbers
+could contribute to further microﬁber emission reductions. To
+test whether applying ﬁlters in a community can lead to indirect
+reductions in microﬁber emissions from modiﬁed laundering
+practices, future work could focus on whether community-wide
+pilots impact behavior. This could help elucidate whether any
+additional impacts exist beyond the obvious microﬁber capture
+via washing machine ﬁlters.
+We found both natural and synthetic microﬁbers in
+wastewater samples, although natural anthropogenic microﬁbers
+were by far the most common material type. Even though
+research suggests that some types of ﬁbers can degrade
+in the environment, others are more persistent (Zambrano
+et al., 2019; Bonanomi et al., 2020; Sørensen et al., 2021).
+In addition, there is a growing concern over synthetic and
+natural microﬁber emissions due to additive chemicals (e.g.,
+treatments and dyes; Lacasse and Baumann, 2004; Xue et al.,
+2017; Schellenberger et al., 2019), bioavailability to organisms
+(Gago et al., 2018; Athey et al., 2020), and toxicity (Kim et al.,
+2021; Mateos-Cárdenas et al., 2021).
+In addition to measuring microﬁber capture eﬃciency within
+homes and at the WWTP scale, we were able to measure a
+few other parameters. Previous research shows that top loader
+washing machines shed more microﬁbers than front loading
+washing machines (Hartline et al., 2016), and our results support
+this ﬁnding. We found that ﬁlters from top loader washing
+machines captured 1.5 × more lint per week than front loading
+washing machines. This is equivalent to an additional 70,000ñ
+1,057,500 microﬁbers per week, assuming top loading machines
+captured an average of 2.5 g lint per household per week
+more than front loading machines and lint contains 28ñ423
+microﬁbers/mg. This suggests that front loader machines result
+in the shedding of less ﬁbers, and that top loading machines
+should receive ﬁlters ﬁrst if eﬀorts aim to retroﬁt existing washing
+machines with ﬁlters. In terms of the particle types, we found that
+lint from ﬁlters contained more than microﬁbers. Microﬁbers
+were the most common particle type in nearly every sample
+we examined. However, we additionally captured other particles,
+such as glitter and sequins. Glitter has been previously reported
+in wastewater systems (Napper et al., 2015).
+Limitations and Future Directions
+In our study, we evaluated lint and microﬁbers in a small town
+in Canada. While we did not see an eﬀect of season in lint
+capture, the demographics where we conducted this study may
+be diﬀerent from other locations. Also, participants were all
+volunteers who received directions on how to operate and empty
+the ﬁlters. More work should be included to evaluate consumer
+behavior to see whether ﬁlters are emptied properly, the time it
+takes to empty ﬁlters, and any other barriers to successful scaling.
+In our study we observed that participants regularly emptied
+ﬁlters, but it is unclear whether the volunteer component of
+this study created a sense of accountability whereby participants
+were encouraged to regularly empty and save their lint. Further
+investigations should also investigate in-line ﬁlters for both
+quantitative microﬁber reductions and behavioral research. For
+eﬀective studies, social research should be cross-sectional to
+collect quality data on behavior (Pahl and Wyles, 2017).
+Future work should also investigate other sources of
+microﬁbers. Although the relative contributions of other
+microﬁber sources are still unknown, recent research suggests
+that other microﬁber sources such as wet wipes, dryers, and
+cigarette butts may also be signiﬁcant contributors and deserve
+further attention (Kapp and Miller, 2020; ” Briain et al., 2020;
+Belzagui et al., 2021). Solutions to address other microﬁber
+sources will depend on the emission type, and may include
+solutions such as public awareness campaigns, and technologies
+such as ﬁlters and trash capture devices.
+Implications for Policy Change
+The question remains; is it feasible to have everyone install
+an external washing machine ﬁlter to capture microﬁbers and
+other microplastics? Although we were able to recruit nearly 100
+participant households in this study, we needed to turn away
+many households due to limitations of the ﬁlter. These limitations
+included: (1) lack of space to mount the ﬁlter, (2) inaccessible
+eﬄuent drains, such as plumbing behind drywall, and (3)
+accessibility issues where participants could not reach behind
+their washing machine to empty the ﬁlter. In total, we had to turn
+away 20 households due to one or more limitation, meaning that
+approximately one in ﬁve households that wanted a ﬁlter were
+unable to install and/or operate it. Another consideration is that
+washing machine ﬁlters are expensive (roughly $150 USD per
+unit) and take time and energy to install. While cost was not a
+limitation in our study (ﬁlters and professional installations were
+provided to study participants free of charge), it is important
+to recognize that ﬁlter cost may limit many consumers in
+purchasing an after-market ﬁlter unit.
+The next logical step would be having ﬁlters built directly
+into washing machines. This takes the onus away from
+the consumer and normalizes ﬁlters on washing machines.
+Legislation is currently underway to address microﬁber pollution
+via this mechanism. Several jurisdictions have either passed
+legislation (e.g., France 2020-105, Article 79) or introduced
+bills (e.g., California AB 622, Ontario Bill 279 and US
+BreakFreeFromPlastic Bill).
+This pilot study shows that ﬁlters on washing machines are
+an eﬀective intervention to capture microﬁbers from washing
+eﬄuent—diverting one source of microﬁber emissions from
+aquatic ecosystems. Although we do not yet know how other
+intervention points compare in microﬁber capture, our results
+show that reducing microﬁbers from washing machine eﬄuent
+is an eﬀective intervention to reduce microﬁber pollution.
+Other interventions have also been proposed to curb microﬁber
+emissions. Further upstream, textile redesign eﬀorts to reduce
+microﬁber shedding are currently underway. Since microﬁbers
+are also released from clothing during regular use (De Falco
+et al., 2020), as well as during washing, redesign could help limit
+microﬁber shedding. Downstream, eﬀorts to innovate in WWTPs
+have also been discussed. Access to wastewater treatment
+and the level of treatment varies considerably across Canada
+and around the world. Many systems in coastal communities
+discharge untreated wastewater directly into the environment.
+New wastewater infrastructure and/or upgrades may be a
+solution, but we must consider that microﬁber capture currently
+Frontiers in Marine Science | www.frontiersin.org 7 November 2021 | Volume 8 | Article 777865
+
+fmars-08-777865 November 12, 2021 Time: 14:43 # 8
+Erdle et al. Washing Machine Filters Reduce Microﬁbers
+is in the sludge, and some communities use sludge as fertilizer.
+In combination, diﬀerent solutions may oﬀer multiple points
+of intervention to limit microﬁber release. As we determine
+other solutions to diﬀerent sources and pathways of microﬁbers,
+we show that implementing ﬁlters at the level of the washing
+machine is eﬀective. Many consumers already capture and
+dispose of lint from dryers. Why not also capture lint from
+washing machines and prevent microﬁbers from going down the
+drain?
+In conclusion, we demonstrated that microﬁber ﬁlters are
+eﬀective at the community and WWTP scale. We installed 97
+washing machine ﬁlters in people’s homes, and our results show a
+signiﬁcant decrease in microﬁbers at the municipal WWTP after
+installing ﬁlters. Analysis of household lint samples also revealed
+that ﬁlters captured microplastics in addition to microﬁbers.
+While future investigations are still needed to address other
+sources of microﬁbers release to the environment, this work
+shows that washing machine ﬁlters are an eﬀective tool to capture
+microﬁbers when applied in people’s homes. Washing machine
+ﬁlters may be a key milestone on the path toward reducing
+microﬁbers in the environment. The implementation of ﬁlters as
+a solution will also require support by legislation, innovation, and
+awareness to drive change.
+DATA AVAILABILITY STATEMENT
+The original contributions presented in the study are included
+in the article/ Supplementary Material, further inquiries can be
+directed to the corresponding author/s.
+AUTHOR CONTRIBUTIONS
+LE and CR designed the experiment. LE and DN conducted the
+experiment. DN conducted the sample processing and particle
+counting. LE analyzed the data and wrote the initial draft of the
+manuscript. All authors contributed to drafts of the manuscript.
+FUNDING
+This work was supported by an NSERC USRA to DN, an NSERC
+PGSD to LE, and a Discovery Grant to CR. The Geoﬀ Peach
+Scholarship Fund to LE. A Center for Global Change Studies
+fellowship to DP and several funding sources to DS including
+the ECCC EcoAction Community Funding Program, Lush
+Handmade Cosmetics Ltd., Patagonia Environmental Grants
+Fund of Tides Foundation, RBC Foundation, Charles H. Ivey
+Foundation, J. P. Bickell Foundation, LeVan Family Foundation
+and Georgian Bay Forever Donors. Funding sources had no
+such involvement in study design; collection, analysis and
+interpretation of data; in the writing of the report; or the decision
+to submit the article for publication.
+ACKNOWLEDGMENTS
+We would like to thank Paul Helm (Ontario Ministry of the
+Environment Conservation and Parks) for providing in-kind
+support for WWTP sampling, and for helping develop sampling
+protocols. We are grateful to the Town of Parry Sound for
+allowing us to conduct this study and to the WWTP staﬀ
+for assistance in sample collection. Also, we are grateful to
+all the volunteers that installed washing machine ﬁlters, kept
+laundry lint in their freezers, and provided valuable feedback.
+We would also like to thank Brooke Harrison for coordinating
+with volunteers and reviewing our manuscript. Lastly, we
+would like to thank Hayley McIlwraith for assistance with
+Raman spectroscopy.
+SUPPLEMENTARY MATERIAL
+The Supplementary Material for this article can be found
+online at: https://www.frontiersin.org/articles/10.3389/fmars.
+2021.777865/full#supplementary-material
+REFERENCES
+Almroth, B. M. C., Åström, L., Roslund, S., and Petersson, H. (2018). Quantifying
+shedding of synthetic ﬁbers from textiles; a source of microplastics released into
+the environment. Environ. Sci. Pollut. Res. Int. 25, 1191ñ1199. doi: 10.1007/
+s11356-017-0528-7
+Athey, S. N., Adams, J. K., Erdle, L. M., Jantunen, L. M., Helm, P. A., Finkelstein,
+S. A., et al. (2020). The widespread environmental footprint of indigo denim
+microﬁbers from blue jeans. Environ. Sci. Technol. Lett. 7, 840ñ847. doi: 10.
+1021/acs.estlett.0c00498
+Belzagui, F., Buscio, V., Gutiérrez-Bouzán, C., and Vilaseca, M. (2021). Cigarette
+butts as a microﬁber source with a microplastic level of concern. Sci. Total
+Environ. 762:144165. doi: 10.1016/j.scitotenv.2020.144165
+Bonanomi, G., Maisto, G., De Marco, A., Cesarano, G., Zotti, M., Mazzei, P.,
+et al. (2020). The fate of cigarette butts in diﬀerent environments: decay
+rate, chemical changes and ecotoxicity revealed by a 5-years decomposition
+experiment. Environ. Pollut. 261:114108. doi: 10.1016/j.envpol.2020.114108
+Browne, M. A., Crump, P., Niven, S. J., Teuten, E., Tonkin, A., Galloway, T.,
+et al. (2011). Accumulation of microplastic on shorelines woldwide: sources and
+sinks. Environ. Sci. Technol. 45, 9175ñ9179. doi: 10.1021/es201811s
+Carr, S. A. (2017). Sources and dispersive modes of micro-ﬁbers in the
+environment. Integr. Environ. Assess. Manag. 13, 466ñ469. doi: 10.1002/ieam.
+1916
+Carr, S. A., Liu, J., and Tesoro, A. G. (2016). Transport and fate of microplastic
+particles in wastewater treatment plants. Water Res. 91, 174ñ182. doi: 10.1016/
+j.watres.2016.01.002
+Cesa, F. S., Turra, A., Checon, H. H., Leonardi, B., and Baruque-Ramos,
+J. (2020). Laundering and textile parameters inﬂuence ﬁbers release in
+household washings. Environ. Pollut. 257:113553. doi: 10.1016/j.envpol.2019.11
+3553
+Conley, K., Clum, A., Deepe, J., Lane, H., and Beckingham, B. (2019). Wastewater
+treatment plants as a source of microplastics to an urban estuary: removal
+eﬃciencies and loading per capita over one year. Water Res. X 3:100030. doi:
+10.1016/j.wroa.2019.100030
+Crossman, J., Hurley, R. R., Futter, M., and Nizzetto, L. (2020). Transfer and
+transport of microplastics from biosolids to agricultural soils and the wider
+environment. Sci. Total Environ. 724:138334. doi: 10.1016/j.scitotenv.2020.
+138334
+De Falco, F., Cocca, M., Avella, M., and Thompson, R. C. (2020). Microﬁber release
+to water, via laundering, and to air, via everyday use: a comparison between
+polyester clothing with diﬀering textile parameters. Environ. Sci. Technol. 54,
+3288ñ3296. doi: 10.1021/acs.est.9b06892
+De Falco, F., Gullo, M. P., Gentile, G., Di Pace, E., Cocca, M., Gelabert, L., et al.
+(2018). Evaluation of microplastic release caused by textile washing processes
+of synthetic fabrics. Environ. Pollut. 236, 916ñ925. doi: 10.1016/j.envpol.2017.
+10.057
+Frontiers in Marine Science | www.frontiersin.org 8 November 2021 | Volume 8 | Article 777865
+
+fmars-08-777865 November 12, 2021 Time: 14:43 # 9
+Erdle et al. Washing Machine Filters Reduce Microﬁbers
+Filtrol. (2021). The Filtrol Solution . Available online at: https://ﬁltrol.net/about/
+(Accessed October 16, 2021).
+Gago, J., Carretero, O., Filgueiras, A. V., and Viñas, L. (2018). Synthetic microﬁbers
+in the marine environment: a review on their occurrence in seawater and
+sediments. Mar. Pollut. Bull. 127, 365ñ376. doi: 10.1016/j.marpolbul.2017.1
+1.070
+Gavigan, J., Kefela, T., Macadam-Somer, I., Suh, S., and Geyer, R. (2020). Synthetic
+microﬁber emissions to land rival those to waterbodies and are growing. PLoS
+One 15:e0237839. doi: 10.1371/journal.pone.0237839
+Gies, E. A., LeNoble, J. L., Noël, M., Etemadifar, A., Bishay, F., Hall, E. R., et al.
+(2018). Retention of microplastics in a major secondary wastewater treatment
+plant in Vancouver, Canada. Mar. Pollut. Bull. 133, 553ñ561. doi: 10.1016/j.
+marpolbul.2018.06.006
+Hartline, N. L., Bruce, N. J., Karba, S. N., Ruﬀ, E. O., Sonar, S. U., and Holden,
+P. A. (2016). Microﬁber masses recovered from conventional machine washing
+of new or aged garments. Environ. Sci. Technol. 50, 11532ñ11538. doi: 10.1021/
+acs.est.6b03045
+Hernandez, E., Nowack, B., and Mitrano, D. M. (2017). polyester textiles as a
+source of microplastics from households: a mechanistic study to understand
+microﬁber release during washing. Environ. Sci. Technol. 51, 7036ñ7046. doi:
+10.1021/acs.est.7b01750
+Kapp, K. J., and Miller, R. Z. (2020). Electric clothes dryers: an underestimated
+source of microﬁber pollution. PLoS One 15:e0239165. doi: 10.1371/journal.
+pone.0239165
+Kim, L., Kim, S. A., Kim, T. H., Kim, J., and An, Y. J. (2021). Synthetic and natural
+microﬁbers induce gut damage in the brine shrimp Artemia Franciscana.Aquat.
+Toxicol. 232:105748. doi: 10.1016/j.aquatox.2021.105748
+Lacasse, K., and Baumann, W. (2004). Textile Chemicals . Heidelberg: Springer-
+Verlag.
+Lant, N. J., Hayward, A. S., Peththawadu, M. M. D., Sheridan, K. J., and Dean,
+J. R. (2020). Microﬁber release from real soiled consumer laundry and the
+impact of fabric care products and washing conditions. PLoS One 15:e0233332.
+doi: 10.1371/journal.pone.0233332
+Lares, M., Ncibi, M. C., Sillanpää, M., and Sillanpää, M. (2018). Occurrence,
+identiﬁcation and removal of microplastic particles and ﬁbers in conventional
+activated sludge process and advanced MBR technology. Water Res. 133, 236ñ
+246. doi: 10.1016/j.watres.2018.01.049
+Mateos-Cárdenas, A., O’Halloran, J., van Pelt, F. N. A. M., and Jansen, M. A. K.
+(2021). Beyond plastic microbeads ñ short-term feeding of cellulose and
+polyester microﬁbers to the freshwater amphipod Gammarus duebeni. Sci.
+Total Environ. 753:141859. doi: 10.1016/j.scitotenv.2020.141859
+McIlwraith, H. K., Lin, J., Erdle, L. M., Mallos, N., Diamond, M. L., and Rochman,
+C. M. (2019). Capturing microﬁbers ñ marketed technologies reduce microﬁber
+emissions from washing machines. Mar. Pollut. Bull. 139, 40ñ45. doi: 10.1016/j.
+marpolbul.2018.12.012
+Murphy, F., Ewins, C., Carbonnier, F., and Quinn, B. (2016). Wastewater treatment
+works (WwTW) as a source of microplastics in the aquatic environment.
+Environ. Sci. Technol. 50, 5800ñ5808. doi: 10.1021/acs.est.5b05416
+Napper, I. E., Bakir, A., Rowland, S. J., and Thompson, R. C. (2015).
+Characterisation, quantity and sorptive properties ofmicroplastics extracted
+from cosmetics. Mar. Pollut. Bull. 99, 178ñ185. doi: 10.1016/j.marpolbul.2015.
+07.029
+Napper, I. E., Barrett, A. C., and Thompson, R. C. (2020). The eﬃciency of
+devices intended to reduce microﬁbre release during clothes washing. Sci. Total
+Environ. 738:140412. doi: 10.1016/j.scitotenv.2020.140412
+Napper, I. E., and Thompson, R. C. (2016). Release of synthetic microplastic plastic
+ﬁbres from domestic washing machines: eﬀects of fabric type and washing
+conditions. Mar. Pollut. Bull. 112, 39ñ45. doi: 10.1016/j.marpolbul.2016.09.025
+Nelms, S. E., Galloway, T. S., Godley, B. J., Jarvis, D. S., and Lindeque, P. K. (2018).
+Investigating microplastic trophic transfer in marine top predators. Environ.
+Pollut. 238, 999ñ1007. doi: 10.1016/j.envpol.2018.02.016
+” Briain, O., Marques Mendes, A. R., McCarron, S., Healy, M. G., and Morrison,
+L. (2020). The role of wet wipes and sanitary towels as a source of white
+microplastic ﬁbres in the marine environment. Water Res. 182, 116021.
+doi: 10.1016/j.watres.2020.116021
+Pahl, S., and Wyles, K. J. (2017). The human dimension: how social and behavioural
+research methods can help address microplastics in the environment. Anal.
+Methods 9, 1404ñ1411. doi: 10.1039/C6AY02647H
+Pirc, U., Vidmar, M., Mozer, A., and Kržan, A. (2016). Emissions of microplastic
+ﬁbers from microﬁber ﬂeece during domestic washing. Environ. Sci. Pollut. Res.
+Int. 23, 22206ñ22211. doi: 10.1007/s11356-016-7703-0
+Reynolds, D. M., and Ahmad, S. R. (1997). Rapid and direct determination
+of wastewater BOD values using a ﬂuorescence technique. Water Res. 31,
+2012ñ2018. doi: 10.1016/S0043-1354(97)00015-8
+Saini, A., Thaysen, C., Jantunen, L., McQueen, R. H., and Diamond, M. L.
+(2016). From clothing to laundry water: investigating the fate of phthalates,
+brominated ﬂame retardants, and organophosphate esters. Environ. Sci.
+Technol. 50, 9289ñ9297. doi: 10.1021/acs.est.6b02038
+Sanchez-Vidal, A., Thompson, R. C., Canals, M., and De Haan, W. P. (2018). The
+imprint of microﬁbres in Southern European deep seas. PLoS One 13:e0207033.
+doi: 10.1371/journal.pone.0207033
+Schellenberger, S., Jönsson, C., Mellin, P., Levenstam, O. A., Liagkouridis, I.,
+Ribbenstedt, A., et al. (2019). Release of side-chain ﬂuorinated polymer-
+containing microplastic ﬁbers from functional textiles during washing and
+ﬁrst estimates of perﬂuoroalkyl acid emissions. Environ. Sci. Technol. 53,
+14329ñ14338. doi: 10.1021/acs.est.9b04165
+Sillanpää, M., and Sainio, P. (2017). Release of polyester and cotton ﬁbers from
+textiles in machine washings. Environ. Sci. Pollut. Res. Int. 24, 19313ñ19321.
+doi: 10.1007/s11356-017-9621-1
+Sørensen, L., Groven, A. S., Hovsbakken, I. A., Del Puerto, O., Krause, D. F., Sarno,
+A., et al. (2021). UV degradation of natural and synthetic microﬁbers causes
+fragmentation and release of polymer degradation products and chemical
+additives. Sci. Total Environ. 755:143170. doi: 10.1016/j.scitotenv.2020.143170
+Talvitie, J., Mikola, A., Koistinen, A., and Setälä, O. (2017a). Solutions to
+microplastic pollution ñ removal of microplastics from wastewater eﬄuent
+with advanced wastewater treatment technologies. Water Res. 123, 401ñ407.
+doi: 10.1016/j.watres.2017.07.005
+Talvitie, J., Mikola, A., Setälä, O., Heinonen, M., and Koistinen, A. (2017b). How
+well is microlitter puriﬁed from wastewater? ñ A detailed study on the stepwise
+removal of microlitter in a tertiary level wastewater treatment plant. Water Res.
+109, 164ñ172. doi: 10.1016/j.watres.2016.11.046
+Xue, J., Liu, W., and Kannan, K. (2017). Bisphenols, benzophenones, and bisphenol
+a diglycidyl ethers in textiles and infant clothing. Environ. Sci. Technol. 51,
+5279ñ5286. doi: 10.1021/acs.est.7b00701
+Y argeau, V., Taylor, B., Li, H., Rodayan, A., and Metcalfe, C. D. (2014). Analysis of
+drugs of abuse in wastewater from two Canadian cities. Sci Total Environ 487,
+722ñ730. doi: 10.1016/j.scitotenv.2013.11.094
+Zambrano, M. C., Pawlak, J. J., Daystar, J., Ankeny, M., Cheng, J. J., and Venditti,
+R. A. (2019). Microﬁbers generated from the laundering of cotton, rayon and
+polyester based fabrics and their aquatic biodegradation. Mar. Pollut. Bull. 142,
+394ñ407. doi: 10.1016/j.marpolbul.2019.02.062
+Ziajahromi, S., Neale, P. A., Rintoul, L., and Leusch, F. D. L. (2017). Wastewater
+treatment plants as a pathway for microplastics: development of a new
+approach to sample wastewater-based microplastics. Water Res. 112, 93ñ99.
+doi: 10.1016/j.watres.2017.01.042
+Zubris, K. A. V., and Richards, B. K. (2005). Synthetic ﬁbers as an
+indicator of land application of sludge. Environ. Pollut. 138, 201ñ211.
+doi: 10.1016/j.envpol.2005.04.013
+Conﬂict of Interest: The authors declare that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could be construed as a
+potential conﬂict of interest.
+Publisher’s Note:All claims expressed in this article are solely those of the authors
+and do not necessarily represent those of their aﬃliated organizations, or those of
+the publisher, the editors and the reviewers. Any product that may be evaluated in
+this article, or claim that may be made by its manufacturer, is not guaranteed or
+endorsed by the publisher.
+Copyright © 2021 Erdle, Nouri Parto, Sweetnam and Rochman. This is an open-
+access article distributed under the terms of the Creative Commons Attribution
+License (CC BY). The use, distribution or reproduction in other forums is permitted,
+provided the original author(s) and the copyright owner(s) are credited and that the
+original publication in this journal is cited, in accordance with accepted academic
+practice. No use, distribution or reproduction is permitted which does not comply
+with these terms.
+Frontiers in Marine Science | www.frontiersin.org 9 November 2021 | Volume 8 | Article 777865

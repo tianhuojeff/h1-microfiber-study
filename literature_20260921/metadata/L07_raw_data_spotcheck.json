@@ -1,0 +1,235 @@
+{
+  "scope": "Read-only diagnostic of Fig5-like groups. P_diff_g values are used as stored; not a full reproduction of authors preprocessing. Do not replace paper results with these provisional calculations.",
+  "trials": [
+    {
+      "key": [
+        "LH",
+        1,
+        "Large"
+      ],
+      "rows": [
+        29,
+        30,
+        31
+      ],
+      "mass_components": {
+        "concentrate": 0.35,
+        "permeate": 0,
+        "retentate": 0.06
+      },
+      "component_sum_g": 0.41,
+      "reported_recovery_ABS_g": 0.41713,
+      "reported_recovery_REL_percent": 83.16,
+      "ER_from_displayed_components_percent": 100.0,
+      "EC_from_displayed_components_percent": 85.3658536585366,
+      "concentrate_volume_L": 0.8
+    },
+    {
+      "key": [
+        "LH",
+        1,
+        "DE"
+      ],
+      "rows": [
+        32,
+        33,
+        34
+      ],
+      "mass_components": {
+        "concentrate": 0,
+        "permeate": 0,
+        "retentate": 0.33
+      },
+      "component_sum_g": 0.33,
+      "reported_recovery_ABS_g": 0.33329,
+      "reported_recovery_REL_percent": 66.66,
+      "ER_from_displayed_components_percent": 100.0,
+      "EC_from_displayed_components_percent": 0.0,
+      "concentrate_volume_L": 0.95
+    },
+    {
+      "key": [
+        "LH",
+        2,
+        "Large"
+      ],
+      "rows": [
+        44,
+        45,
+        46
+      ],
+      "mass_components": {
+        "concentrate": 0.37,
+        "permeate": 0,
+        "retentate": 0.06
+      },
+      "component_sum_g": 0.43,
+      "reported_recovery_ABS_g": 0.43145,
+      "reported_recovery_REL_percent": 85.88,
+      "ER_from_displayed_components_percent": 100.0,
+      "EC_from_displayed_components_percent": 86.04651162790698,
+      "concentrate_volume_L": 0.85
+    },
+    {
+      "key": [
+        "LH",
+        2,
+        "DE"
+      ],
+      "rows": [
+        53,
+        54,
+        55
+      ],
+      "mass_components": {
+        "concentrate": 0,
+        "permeate": 0.01,
+        "retentate": 0.5
+      },
+      "component_sum_g": 0.51,
+      "reported_recovery_ABS_g": 0.5094515,
+      "reported_recovery_REL_percent": 101.89,
+      "ER_from_displayed_components_percent": 98.0392156862745,
+      "EC_from_displayed_components_percent": 0.0,
+      "concentrate_volume_L": 0.95
+    },
+    {
+      "key": [
+        "LH",
+        3,
+        "DE"
+      ],
+      "rows": [
+        65,
+        66,
+        67
+      ],
+      "mass_components": {
+        "concentrate": 0.01,
+        "permeate": 0.01,
+        "retentate": 0.48
+      },
+      "component_sum_g": 0.5,
+      "reported_recovery_ABS_g": 0.5063002,
+      "reported_recovery_REL_percent": 101.42,
+      "ER_from_displayed_components_percent": 98.0,
+      "EC_from_displayed_components_percent": 2.0,
+      "concentrate_volume_L": 0.855
+    },
+    {
+      "key": [
+        "LH",
+        3,
+        "Large"
+      ],
+      "rows": [
+        71,
+        72,
+        73
+      ],
+      "mass_components": {
+        "concentrate": 0.39,
+        "permeate": 0,
+        "retentate": 0.05
+      },
+      "component_sum_g": 0.44,
+      "reported_recovery_ABS_g": 0.44388,
+      "reported_recovery_REL_percent": 88.63,
+      "ER_from_displayed_components_percent": 100.0,
+      "EC_from_displayed_components_percent": 88.63636363636364,
+      "concentrate_volume_L": 1.2
+    },
+    {
+      "key": [
+        "LH",
+        4,
+        "Large"
+      ],
+      "rows": [
+        77,
+        78,
+        79
+      ],
+      "mass_components": {
+        "concentrate": 0.46,
+        "permeate": 0.01,
+        "retentate": 0.06
+      },
+      "component_sum_g": 0.53,
+      "reported_recovery_ABS_g": 0.52623,
+      "reported_recovery_REL_percent": 105.25,
+      "ER_from_displayed_components_percent": 98.11320754716981,
+      "EC_from_displayed_components_percent": 86.79245283018868,
+      "concentrate_volume_L": 0.8
+    },
+    {
+      "key": [
+        "LH",
+        4,
+        "DE"
+      ],
+      "rows": [
+        86,
+        87,
+        88
+      ],
+      "mass_components": {
+        "concentrate": 0,
+        "permeate": 0.04,
+        "retentate": 0.49
+      },
+      "component_sum_g": 0.53,
+      "reported_recovery_ABS_g": 0.531767,
+      "reported_recovery_REL_percent": 106.35,
+      "ER_from_displayed_components_percent": 92.45283018867924,
+      "EC_from_displayed_components_percent": 0.0,
+      "concentrate_volume_L": 0.85
+    },
+    {
+      "key": [
+        "LH",
+        5,
+        "DE"
+      ],
+      "rows": [
+        98,
+        99,
+        100
+      ],
+      "mass_components": {
+        "concentrate": 0,
+        "permeate": 0,
+        "retentate": 0.48
+      },
+      "component_sum_g": 0.48,
+      "reported_recovery_ABS_g": 0.47569,
+      "reported_recovery_REL_percent": 95.14,
+      "ER_from_displayed_components_percent": 100.0,
+      "EC_from_displayed_components_percent": 0.0,
+      "concentrate_volume_L": 0.7
+    },
+    {
+      "key": [
+        "LH",
+        5,
+        "Large"
+      ],
+      "rows": [
+        101,
+        102,
+        103
+      ],
+      "mass_components": {
+        "concentrate": 0.31,
+        "permeate": 0,
+        "retentate": 0.08
+      },
+      "component_sum_g": 0.39,
+      "reported_recovery_ABS_g": 0.39143,
+      "reported_recovery_REL_percent": 78.16,
+      "ER_from_displayed_components_percent": 100.0,
+      "EC_from_displayed_components_percent": 79.48717948717949,
+      "concentrate_volume_L": 0.6
+    }
+  ]
+}

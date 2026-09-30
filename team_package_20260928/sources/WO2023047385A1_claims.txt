@@ -1,0 +1,54 @@
+1. A laundry appliance comprising: a tub positioned within an outer cabinet, wherein a processing space is defined within the tub; a fluid path that delivers a process fluid through the tub for treating articles within the processing space; a micro-particle filter positioned within the fluid path, wherein the micro-particle filter separates micro-sized particles from the process fluid; and a secondary flow mechanism that delivers the micro-sized particles from the microparticle filter to a removable collection chamber.
+2. The laundry appliance of claim 1, wherein the micro-particle filter includes a dynamic filter having a rotor that generates a centrifugal flow of the process fluid having the microsized particles entrapped therein.
+3. The laundry appliance of claim 2, wherein the dynamic filter includes a hydrophobic material disposed on a filter membrane that permits passage of the process fluid and captures the micro-sized particles.
+4. The laundry appliance of claim 3, further comprising a dispensing mechanism that dispenses a layer of the hydrophobic material onto the filter membrane.
+5. The laundry appliance of any one of claims 3-4, wherein the rotor includes a plurality of blades.
+6. The laundry appliance of claim 5, wherein the hydrophobic material is disposed on the blades.
+7. The laundry appliance of any one of claims 3-6, wherein the secondary flow mechanism is a suction mechanism that suctions the hydrophobic material and the captured micro-sized particles to the removable collection chamber.
+25
+8. The laundry appliance of any one of claims 3-7, wherein the hydrophobic material includes lysozyme crystals.
+9. The laundry appliance of any one of claims 3-8, wherein the filter membrane includes carbon nanotubes.
+10. The laundry appliance of claim 9, wherein the carbon nanotubes are oriented to form one of a micro-sized mesh and a nano-sized mesh.
+11. The laundry appliance of claim 9, wherein the carbon nanotubes are oriented to form a double-wall configuration of the filter membrane.
+12. The laundry appliance of any one of claims 1-11, wherein the micro-sized particles include microfibers that are made of plastic.
+13. The laundry appliance of any one of claims 1-12, wherein the micro-particle filter is disposed within one of a recirculation line and a drain line of the fluid path.
+14. The laundry appliance of any one of claims 1-13, wherein the micro-particle filter is disposed downstream of a primary particulate filter, wherein the primary particulate filter is configured to separate larger particulate from the process fluid.
+15. The laundry appliance of any one of claims 5-14, wherein the rotor and the filter membrane define a dynamic filtration chamber within a portion of the dynamic filter upstream of the filter membrane, wherein increased fluid pressure in the dynamic filtration chamber pushes the process fluid through the filter membrane and the plurality of blades of the rotor, to define filtered process fluid, and entraps the micro-sized particles within the hydrophobic material.
+16. The laundry appliance of any one of claims 2-15, wherein the rotor rotates at approximately 1000 revolutions per minute to generate the centrifugal flow of the process fluid.
+17. A laundry appliance comprising: a tub positioned within an outer cabinet, wherein a processing space is defined within the tub; a fluid path that delivers a process fluid through the tub for treating articles within the processing space, the fluid path having a recirculating fluid path that recirculates at least a portion of the process fluid; a primary filter positioned within the fluid path, wherein the primary filter separates lint particles from the process fluid; a micro-particle filter positioned within the fluid path and downstream of the primary filter, wherein the micro-particle filter separates micro-sized particles from the process fluid; and a secondary flow mechanism that delivers the micro-sized particles from the microparticle filter to a removable collection chamber.
+18. The laundry appliance of claim 17, wherein the micro-particle filter includes a filter membrane made up of carbon nanotubes.
+19. The laundry appliance of any one of claims 17-18, wherein the removable collection chamber includes a hydrogel filter that captures the micro-sized particles and allows the process fluid to flow out from the removable collection chamber.
+20. The laundry appliance of any one of claims 17-19, wherein the secondary flow mechanism is defined by a secondary flow of the process fluid through a downstream side of the micro-particle filter.
+21. The laundry appliance of any one of claims 17-20, wherein a secondary flow of the process fluid is a recycled portion of the process fluid that is directed between a backflow pump chamber and the removable collection chamber.
+T1
+22. The laundry appliance of any one of claims 18-21, wherein the micro-particle filter includes a dynamic filter having a rotor that generates a centrifugal flow of the process fluid having the micro-sized particles entrapped therein.
+23. The laundry appliance of claim 22, wherein the dynamic filter includes a hydrophobic material disposed on a filter membrane that permits passage of the process fluid and captures the micro-sized particles.
+24. The laundry appliance of claim 23, further comprising a dispensing mechanism that dispenses a layer of the hydrophobic material onto the filter membrane.
+25. The laundry appliance of any one of claims 22-24, wherein the rotor includes a plurality of blades.
+26. The laundry appliance of any one of claims 23-25, wherein the hydrophobic material is disposed on blades of the rotor.
+27. The laundry appliance of any one of claims 23-26, wherein the secondary flow mechanism is a suction device that suctions the hydrophobic material and the captured micro-sized particles to the removable collection chamber.
+28. The laundry appliance of any one of claims 23-27, wherein the hydrophobic material includes lysozyme crystals.
+29. The laundry appliance of claim 28, wherein the carbon nanotubes are oriented to form one of a micro-sized mesh and a nano-sized mesh.
+30. The laundry appliance of claim 28, wherein the carbon nanotubes are oriented to form a double-wall configuration of the filter membrane.
+28
+31. The laundry appliance of any one of claims 17-30, wherein the micro-sized particles include microfibers that are made of plastic.
+32. The laundry appliance of any one of claims 23-31, wherein the rotor and the filter membrane define a dynamic filtration chamber within a portion of the dynamic filter upstream of the filter membrane, wherein increased fluid pressure in the dynamic filtration chamber pushes the process fluid through the fluid membrane and the blades of the rotor and entraps the micro-sized particles within the hydrophobic material to define filtered process fluid that is delivered downstream of the filter membrane and to further define entrapped micro-sized particles that are entrapped within the hydrophobic material.
+33. The laundry appliance of any one of claims 22-32, wherein the rotor rotates at approximately 1000 revolutions per minute to generate the centrifugal flow of the process fluid.
+34. A particulate filtration system for a laundry appliance, the particle filtration system comprising: a primary filter positioned within a fluid path, wherein the primary filter separates lint particles from process fluid delivered through the fluid path; a micro-particle filter positioned within the fluid path and downstream of the primary filter, wherein the micro-particle filter separates micro-sized particles from the process fluid; and a secondary flow mechanism that delivers the micro-sized particles from the microparticle filter to a removable collection chamber, wherein the secondary flow mechanism is defined by a secondary flow of the process fluid through a downstream side of the micro-particle filter, and a secondary flow of the process fluid is a recycled portion of the process fluid that is directed between a backflow pump chamber and the removable collection chamber.
+35. The particulate filtration system of claim 34, wherein the micro-particle filter includes a filter membrane made up of carbon nanotubes.
+29
+36. The particulate filtration system of any one of claims 34-35, wherein the removable collection chamber includes a hydrogel membrane that captures the micro-sized particles and allows the process fluid to flow out from the removable collection chamber.
+37. The particulate filtration system of any one of claims 34-36, wherein the microparticle filter includes a dynamic filter having a rotor that generates a centrifugal flow of the process fluid having the micro-sized particles entrapped therein.
+38. The particulate filtration system of claim 37, wherein the dynamic filter includes a hydrophobic material disposed on a filter membrane that permits passage of the process fluid and captures the micro-sized particles.
+39. The particulate filtration system of claim 38, further comprising a dispensing mechanism that dispenses a layer of the hydrophobic material onto the filter membrane.
+40. The particulate filtration system of any one of claims 38-39, wherein the rotor includes a plurality of blades.
+41. The particulate filtration system of claim 40, wherein the hydrophobic material is disposed on the blades.
+42. The particulate filtration system of any one of claims 36-41, wherein the secondary flow mechanism is a suction device that suctions a hydrophobic material of the hydrogel membrane and the captured micro-sized particles to the removable collection chamber.
+43. The particulate filtration system of any one of claims 36-42, wherein a hydrophobic material of the hydrogel membrane includes lysozyme crystals.
+44. The particulate filtration system of claim 43, wherein the carbon nanotubes are oriented to form one of a micro-sized mesh and a nano-sized mesh.
+30
+45. The particulate filtration system of claim 43, wherein the carbon nanotubes are oriented to form a double-wall configuration of the filter membrane.
+46. The particulate filtration system of any one of claims 37-45, wherein the micro-sized particles include microfibers that are made of plastic.
+47. The particulate filtration system of any one of claims 38-46, wherein the rotor and the filter membrane define a dynamic filtration chamber within a portion of the dynamic filter upstream of the filter membrane, wherein increased fluid pressure in the dynamic filtration chamber pushes filtered process fluid through the filter membrane and a plurality of blades of the rotor and entraps the micro-sized particles within the hydrophobic material.
+48. The particulate filtration system of any one of claims 37-47, wherein the rotor rotates at approximately 1000 revolutions per minute to generate the centrifugal flow of the process fluid.
+31

@@ -1,0 +1,30 @@
+[
+  {
+    "source": "C:\\Users\\tianhuo\\.codex\\attachments\\94fe76b3-8607-4535-b9e3-a8f5422cf085\\已粘贴的文本.txt",
+    "saved": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\审查意见_用户原文_20260928.txt",
+    "sha256": "e6866b603f17ea98b06e28d86a2fa6a7b2a63b678d65a4baeb4398285516b5c6",
+    "bytes": 16635,
+    "hash_match": true
+  },
+  {
+    "source": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\20260928_参赛路线与样本冻结.md",
+    "saved": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\history\\20260928_参赛路线与样本冻结_修订前.md",
+    "sha256": "5da5bc5e43f82d53b519492fd6de05d60564aedc526370dbf1c992ad2913fcc3",
+    "bytes": 4594,
+    "hash_match": true
+  },
+  {
+    "source": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\training_20260927\\14同族人工功能矩阵.json",
+    "saved": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\history\\14同族人工功能矩阵_主目录_修订前.json",
+    "sha256": "a7f5934ca7fae4344841826b6432c0732f1409dc25b88af4769ce681a5b0a22d",
+    "bytes": 10020,
+    "hash_match": true
+  },
+  {
+    "source": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\inputs\\14同族人工功能矩阵.json",
+    "saved": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\history\\14同族人工功能矩阵_团队包_修订前.json",
+    "sha256": "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488",
+    "bytes": 9518,
+    "hash_match": true
+  }
+]

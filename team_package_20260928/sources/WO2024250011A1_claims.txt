@@ -1,0 +1,23 @@
+1. A device for filtering microfibers from the laundry water during a normal washing cycle, said device comprising a hard, protective outer shell and a removable, porous inner filter.
+2. The device defined in claim 1, in which the porous inner filter comprises an electrospun PLA or cellulose mesh.
+3. The device defined in claim 1, in which the porous inner filter comprises a PLA or cellulose foam.
+4. The device defined in claim 1, in which the rigid, outer shell is made up of two hemispherical halves with varying permeability.
+5. The device defined in claim 4, in which the halves are connected via flexural and snap fit.
+6. The device defined in claim 4, in which the halves are connected via a screw mechanism.
+7. The device defined in claim 4, in which the halves are connected via a hinge mechanism.
+8. The device defined in claim 1, in which the rigid, outer shell is made up of a rod-like container of adjustable size with a method of attachment to the inside of the washing machine.
+9. The device defined in claim 8, in which the method of attachment is generated via tentacles protruding from the base.
+10. The device defined in claim 8, in which the method of attachment is generated via a magnet.
+11. The device defined in claim 8, in which the method of attachment is generated via a suction cup.
+12. The device defined in claim 8, in which the method of attachment is generated via an agitator attachment.
+13. The device defined in claim 8 in which the method of attachment is generated via pins into the washing machine drainage holes.
+14. The device defined in claim 8 in which the method of attachment is generated via hooks into the washing machine drainage holes.
+15. The device defined in claim 8 in which the method of attachment is generated via expandable fit, wedged to the sides of the washing machine drum.
+16. The device defined in claim 8 in which the method of attachment is generated via zip tie loops to some part of the interior of the washing machine.
+17. A device configured to filter microfibers from laundry water in a washing machine during a washing cycle in which the washing machine has textile items within a drum, the device comprising: a housing having a plurality of openings through which the laundry water is configured to pass, the housing being configured to maintain its integrity in water temperatures between 45°F and 150°F, the housing having an outer section distal from the drum of the washing machine when coupled thereto and an inner section proximate or abutting the drum of the washing machine when coupled thereto, a removable porous, multi-stage filter within the housing, the multi-stage filter including at least two stages, the first stage having an nonwoven material facing the outer section of housing, and the second stage having a material different from the nonwoven material; an attachment feature configured to secure the device relative to an inner surface the drum of the washing machine as the drum is spinning at a rate up to 1000 rotations per minute while exposed to water, the inner surface being below a level of the water, wherein microfibers from the textile items are captured within the second stage of the multi-stage filter as the drum is spinning while exposed to the water.
+18. The device of claim 17, wherein the filter includes a plurality of inner folds or pleats forming a mesh having a gradation of pores whose pore size progressively decreases from an outer portion of the filter toward an interior portion of the multi-stage filter in a second stage thereof to capture the microfibers therein, the microfibers having an average size of 10pm, the plurality of inner folds or pleats including an electrospun sponge-like membrane.
+19. The device of claim 17, wherein the first stage includes a nonwoven fine filter wool or fleece material.
+20. The device of claim 17, wherein the material of the second stage includes a mesh.
+21. The device of claim 17, further comprising a reusable inner core having a base and an elongated member around which the second stage is arranged and abuts the first stage.
+22. The device of claim 17, wherein the housing has a hinge rotatably coupled to a mounting base in which the first stage is inserted.
+23. The device of claim 23, wherein the mounting base includes a plurality of holes to receive corresponding push rivets to secure the first stage relative to the mounting base.

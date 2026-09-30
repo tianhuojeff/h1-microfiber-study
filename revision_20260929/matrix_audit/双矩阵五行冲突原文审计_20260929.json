@@ -1,0 +1,116 @@
+{
+  "audit_date": "2026-09-29",
+  "scope": "Mechanical, field-level comparison only. The two historical matrices were read but not modified; this record does not recode the remaining nine families or recompute any proportion.",
+  "matrices": [
+    {
+      "label": "main_training_matrix",
+      "path": "h1-study/patents/training_20260927/14同族人工功能矩阵.json",
+      "sha256": "a7f5934ca7fae4344841826b6432c0732f1409dc25b88af4769ce681a5b0a22d",
+      "rows": 14
+    },
+    {
+      "label": "team_package_matrix",
+      "path": "h1-study/team_package_20260928/inputs/14同族人工功能矩阵.json",
+      "sha256": "3de4f6f01b4d07e4b13a8c57de3a1ec94994ae80bd0dcd0570d56ec009a6c488",
+      "rows": 14
+    }
+  ],
+  "mechanical_result": {
+    "publication_sets_equal": true,
+    "family_ids_equal_for_all_publications": true,
+    "differing_publications": ["CN115700309A", "CN118273060A", "WO2022084677A1", "WO2024199585A1", "WO2024250011A1"],
+    "differing_field_count": 6
+  },
+  "conflicts": [
+    {
+      "publication": "CN115700309A",
+      "family_id": "85120837",
+      "field": "固体移出",
+      "main_training_value": "从属链权10→9→8→1：含第一腔室的回收装置壳体可插入/抽出；过滤杂质在第一腔室收集，人工取出/倒出未限定",
+      "team_package_value": "权10壳体可抽出",
+      "recommended_value": "从属链权10→9→8→1：含第一腔室的回收装置壳体可插入/抽出；过滤杂质在第一腔室收集，人工取出/倒出未限定。",
+      "basis": {
+        "kind": "claim 10, dependent on claim 9, which depends on claim 8",
+        "quote": "所述壳体可插入/抽出的设置在所述箱体上。",
+        "limitation": "权10写明第一腔室收集过滤杂质及壳体可抽出，但未写人工已取出或倒出固体。",
+        "source_path": "h1-study/team_package_20260928/sources/CN115700309A_claims.txt",
+        "source_sha256": "e7aa175275d4a59e4660349a30c85ae999b21f9920b8ed33dc238e56d6fde38b"
+      }
+    },
+    {
+      "publication": "CN118273060A",
+      "family_id": "91644784",
+      "field": "固体移出",
+      "main_training_value": "止动件解锁时，盖装置和过滤器组可从壳体主体轴向移出/装入（权16）；独立集渣移出未知",
+      "team_package_value": "滤器组与盖密封定位；独立集渣移出未知",
+      "recommended_value": "止动件解锁时，盖装置和过滤器组可从壳体主体轴向移出/装入（权16）；独立集渣移出未知。",
+      "basis": {
+        "kind": "claim 16",
+        "quote": "在所述解锁位置中，所述盖装置和所述过滤器组能从所述壳体主体轴向地移动和轴向地移动到所述壳体主体。",
+        "limitation": "该权项给出过滤器组和盖的维护取出路径，未给出独立收集腔或固体从过滤器组实际取出的限定。",
+        "source_path": "h1-study/team_package_20260928/sources/CN118273060A_claims.txt",
+        "source_sha256": "63609d932bc5db530b6fc8f9029d78128034ebf6b31e67088823c20f3f1913c5"
+      }
+    },
+    {
+      "publication": "WO2022084677A1",
+      "family_id": "78536409",
+      "field": "残留",
+      "main_training_value": "可排出滤腔内液体以降低滤渣含水量；滤腔排空/滤渣非流动或已脱水时可移除（权27—30）；残余液量未知",
+      "team_package_value": "未知：当前定位不能判定",
+      "recommended_value": "可排出滤腔内液体以降低滤渣含水量；滤腔排空/滤渣非流动或已脱水时可移除（权27—30）；残余液量未知。",
+      "basis": {
+        "kind": "claims 27-30; specification used only to confirm sequence",
+        "quote": "operable to drain the effluent from the filter chamber in the first configuration to reduce the water content of the filter residue",
+        "limitation": "权项支持排液、降低含水量、非流动态/已脱水时移除；不支持残余液量、完全干燥或零滴漏。",
+        "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1_claims.txt",
+        "source_sha256": "9d019c8b97ba213115a9e5618e82c2d6feea025583d19404e786b752fdda7a81"
+      }
+    },
+    {
+      "publication": "WO2024199585A1",
+      "family_id": "90826597",
+      "field": "再生/清理",
+      "main_training_value": "控制机构调节微塑料排出或回流，以清洗滤元（权9；方法权14）；清洁周期/时长未知",
+      "team_package_value": "短时清洁（说明书）",
+      "recommended_value": "控制机构调节微塑料排出或回流，以清洗滤元（权9；方法权14）；清洁周期/时长未知。",
+      "basis": {
+        "kind": "claims 9 and 14; background paragraph p0004 excludes the team wording",
+        "quote": "regulates a discharge of the microplastics from the area of the filter element (3) or a backflow, in particular for cleaning the filter element (3)",
+        "limitation": "“must be professionally cleaned at relatively short intervals”出现在p0004对现有dead-end filters的背景描述，不能作为本公开的清洁时长。",
+        "source_path": "h1-study/team_package_20260928/sources/WO2024199585A1.html",
+        "source_sha256": "90ad20901b829d34f9429e698989cf50fabc2cfbd053cd3a82ce5a88607954be"
+      }
+    },
+    {
+      "publication": "WO2024250011A1",
+      "family_id": "91737942",
+      "field": "再生/清理",
+      "main_training_value": "说明书[0051]：离心力和未具体限定的脉冲将褶皱滤面所捕集微纤维击落；未入权项",
+      "team_package_value": "未知：当前定位不能判定",
+      "recommended_value": "说明书[0051]：离心力和未具体限定的pulse将褶皱滤面所捕集微纤维击落；未入权项。",
+      "basis": {
+        "kind": "specification paragraph [0051]",
+        "quote": "leverage the centrifugal force and a pulse to knock them off again",
+        "limitation": "说明书未限定pulse的来源、形态或时序；该词未见于本地权利要求文本，不能表述为权项特征。",
+        "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1.html",
+        "source_sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284"
+      }
+    },
+    {
+      "publication": "WO2024250011A1",
+      "family_id": "91737942",
+      "field": "转移",
+      "main_training_value": "说明书[0051]：微纤维移至单独储存腔；未入权项",
+      "team_package_value": "外置集渣转移未知",
+      "recommended_value": "说明书[0051]：微纤维移至单独储存腔；未入权项。",
+      "basis": {
+        "kind": "specification paragraph [0051]",
+        "quote": "move the microfibers to a separate compartment where they get stored",
+        "limitation": "原文为separate compartment，未称其为外置集渣腔，也未给出结构、流路或与[0069] backwash compartment的同一性。",
+        "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1.html",
+        "source_sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7376 @@
+{
+  "source": "h1-study/literature_20260921/supplements/hamann2025_data.xlsx",
+  "source_sha256": "99682d2076b04c72402462e132ec9c69ba1f112bfa11f3ae3f9d016502f8444e",
+  "worksheet": "filtration-efficiency",
+  "strict_key_columns": [
+    "Ort",
+    "trial",
+    "analyst",
+    "inlet",
+    "FiF_length",
+    "AoA",
+    "mesh_size_µm",
+    "A0",
+    "MP_type",
+    "MP_Konz_SOLL_g",
+    "MP_Menge_IST_g",
+    "cleaning_L",
+    "C_mode",
+    "Vol_total_L",
+    "Vol_filt_L"
+  ],
+  "merge_aware_key_columns": [
+    "Ort",
+    "trial",
+    "analyst",
+    "inlet",
+    "FiF_length",
+    "AoA",
+    "mesh_size_µm",
+    "A0",
+    "MP_type",
+    "MP_Konz_SOLL_g",
+    "MP_Menge_IST_g",
+    "cleaning_L",
+    "C_mode"
+  ],
+  "strict_rule": "Vol_total_L and Vol_filt_L included. This splits trial 16 because row28 has Vol_total_L=25 while rows26-27 have20.",
+  "merge_rule": "Drop only the two volume columns to test the exact trial-16 anomaly.",
+  "strict_summary": {
+    "all_unique_key_groups": 82,
+    "complete_three_stream_groups": 75,
+    "complete_F2_trials": 70,
+    "complete_PA_trials": 5,
+    "incomplete_or_control_groups": 7,
+    "by_MP_type": {
+      "F2": {
+        "n": 70,
+        "mean_percent": 79.61614285714286,
+        "sample_sd_percent": 16.447773144975322,
+        "source_rows": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246
+        ]
+      },
+      "PA": {
+        "n": 5,
+        "mean_percent": 33.892,
+        "sample_sd_percent": 21.914989618979973,
+        "source_rows": [
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ]
+      }
+    }
+  },
+  "merge_aware_summary": {
+    "all_unique_key_groups": 81,
+    "complete_three_stream_groups": 76,
+    "complete_F2_trials": 71,
+    "complete_PA_trials": 5,
+    "incomplete_or_control_groups": 5,
+    "by_MP_type": {
+      "F2": {
+        "n": 71,
+        "mean_percent": 79.47859154929577,
+        "sample_sd_percent": 16.370946328853847,
+        "source_rows": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246
+        ]
+      },
+      "PA": {
+        "n": 5,
+        "mean_percent": 33.892,
+        "sample_sd_percent": 21.914989618979973,
+        "source_rows": [
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ]
+      }
+    }
+  },
+  "strict_groups": [
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 8,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        2,
+        3,
+        4
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80.32,
+      "recovery_REL_values": [
+        80.32
+      ],
+      "recovery_ABS": [
+        0.2008
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 9,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        5,
+        6,
+        7
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 77.38,
+      "recovery_REL_values": [
+        77.38
+      ],
+      "recovery_ABS": [
+        0.19345
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 10,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        8,
+        9,
+        10
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 108.14,
+      "recovery_REL_values": [
+        108.14
+      ],
+      "recovery_ABS": [
+        0.27035
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 11,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        11,
+        12,
+        13
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 76.32,
+      "recovery_REL_values": [
+        76.32
+      ],
+      "recovery_ABS": [
+        0.1908
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 12,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        14,
+        15,
+        16
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 92.52,
+      "recovery_REL_values": [
+        92.52
+      ],
+      "recovery_ABS": [
+        0.2313
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 13,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        17,
+        18,
+        19
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 81.48,
+      "recovery_REL_values": [
+        81.48
+      ],
+      "recovery_ABS": [
+        0.2037
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 14,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        20,
+        21,
+        22
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 100.96,
+      "recovery_REL_values": [
+        100.96
+      ],
+      "recovery_ABS": [
+        0.2524
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 15,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        23,
+        24,
+        25
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 84.76,
+      "recovery_REL_values": [
+        84.76
+      ],
+      "recovery_ABS": [
+        0.21189
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 16,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        26,
+        27
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": 69.85,
+      "recovery_REL_values": [
+        69.85
+      ],
+      "recovery_ABS": [
+        0.17463
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 16,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        28
+      ],
+      "names": [
+        "retentate"
+      ],
+      "n_rows": 1,
+      "complete_three_streams": false,
+      "recovery_REL": 87.32,
+      "recovery_REL_values": [
+        87.32
+      ],
+      "recovery_ABS": [
+        0.17463
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.627,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        29,
+        30,
+        31
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 83.16,
+      "recovery_REL_values": [
+        83.16
+      ],
+      "recovery_ABS": [
+        0.41713
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        32,
+        33,
+        34
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 66.66,
+      "recovery_REL_values": [
+        66.66
+      ],
+      "recovery_ABS": [
+        0.33329
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.624,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        35,
+        36,
+        37
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 93.69,
+      "recovery_REL_values": [
+        93.69
+      ],
+      "recovery_ABS": [
+        0.4677
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.623,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        38,
+        39,
+        40
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 94.84,
+      "recovery_REL_values": [
+        94.84
+      ],
+      "recovery_ABS": [
+        0.47266
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.624,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        41,
+        42,
+        43
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 81.49,
+      "recovery_REL_values": [
+        81.49
+      ],
+      "recovery_ABS": [
+        0.40682
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.628,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        44,
+        45,
+        46
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 85.88,
+      "recovery_REL_values": [
+        85.88
+      ],
+      "recovery_ABS": [
+        0.43145
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        47,
+        48,
+        49
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 91.72,
+      "recovery_REL_values": [
+        91.72
+      ],
+      "recovery_ABS": [
+        0.45931
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        50,
+        51,
+        52
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.7,
+      "recovery_REL_values": [
+        101.7
+      ],
+      "recovery_ABS": [
+        0.509295
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        53,
+        54,
+        55
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.89,
+      "recovery_REL_values": [
+        101.89
+      ],
+      "recovery_ABS": [
+        0.5094515
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        56,
+        57,
+        58
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 86.76,
+      "recovery_REL_values": [
+        86.76
+      ],
+      "recovery_ABS": [
+        0.434518
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        59,
+        60,
+        61
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 81.59,
+      "recovery_REL_values": [
+        81.59
+      ],
+      "recovery_ABS": [
+        0.40862
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.628,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        62,
+        63,
+        64
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 99.27,
+      "recovery_REL_values": [
+        99.27
+      ],
+      "recovery_ABS": [
+        0.498723
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.624,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        65,
+        66,
+        67
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.42,
+      "recovery_REL_values": [
+        101.42
+      ],
+      "recovery_ABS": [
+        0.5063002
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        68,
+        69,
+        70
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 82.74,
+      "recovery_REL_values": [
+        82.74
+      ],
+      "recovery_ABS": [
+        0.413708
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        71,
+        72,
+        73
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 88.63,
+      "recovery_REL_values": [
+        88.63
+      ],
+      "recovery_ABS": [
+        0.44388
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        74,
+        75,
+        76
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 48.81,
+      "recovery_REL_values": [
+        48.81
+      ],
+      "recovery_ABS": [
+        0.2440375
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        77,
+        78,
+        79
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 105.25,
+      "recovery_REL_values": [
+        105.25
+      ],
+      "recovery_ABS": [
+        0.52623
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.627,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        80,
+        81,
+        82
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 76.69,
+      "recovery_REL_values": [
+        76.69
+      ],
+      "recovery_ABS": [
+        0.384676
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.627,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        83,
+        84,
+        85
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 93.91,
+      "recovery_REL_values": [
+        93.91
+      ],
+      "recovery_ABS": [
+        0.4710275
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        86,
+        87,
+        88
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 106.35,
+      "recovery_REL_values": [
+        106.35
+      ],
+      "recovery_ABS": [
+        0.531767
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        89,
+        90,
+        91
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80,
+      "recovery_REL_values": [
+        80
+      ],
+      "recovery_ABS": [
+        0.400618
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        92,
+        93,
+        94
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 84.71,
+      "recovery_REL_values": [
+        84.71
+      ],
+      "recovery_ABS": [
+        0.42422
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        95,
+        96,
+        97
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 70.38,
+      "recovery_REL_values": [
+        70.38
+      ],
+      "recovery_ABS": [
+        0.3519
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        98,
+        99,
+        100
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 95.14,
+      "recovery_REL_values": [
+        95.14
+      ],
+      "recovery_ABS": [
+        0.47569
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        101,
+        102,
+        103
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 78.16,
+      "recovery_REL_values": [
+        78.16
+      ],
+      "recovery_ABS": [
+        0.39143
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "A",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "control",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "NA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "names": [
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate"
+      ],
+      "n_rows": 9,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K1",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        113,
+        114
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K2",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        115,
+        116
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K3",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        117,
+        118
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 17,
+        "analyst": "LH",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        119,
+        120,
+        121
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 72.72,
+      "recovery_REL_values": [
+        72.72
+      ],
+      "recovery_ABS": [
+        0.1814244
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 18,
+        "analyst": "LH",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        122,
+        123,
+        124
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 73.26,
+      "recovery_REL_values": [
+        73.26
+      ],
+      "recovery_ABS": [
+        0.18316
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 19,
+        "analyst": "LH",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        125,
+        126,
+        127
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 70.32,
+      "recovery_REL_values": [
+        70.32
+      ],
+      "recovery_ABS": [
+        0.175442
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 17,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        128,
+        129,
+        130
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 74.72,
+      "recovery_REL_values": [
+        74.72
+      ],
+      "recovery_ABS": [
+        0.1868028
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 18,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.501,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        131,
+        132,
+        133
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 70.65,
+      "recovery_REL_values": [
+        70.65
+      ],
+      "recovery_ABS": [
+        0.176974
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 19,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.501,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        134,
+        135,
+        136
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 135.55,
+      "recovery_REL_values": [
+        135.55
+      ],
+      "recovery_ABS": [
+        0.33955
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 17,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        137,
+        138,
+        139
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 56.28,
+      "recovery_REL_values": [
+        56.28
+      ],
+      "recovery_ABS": [
+        0.1406964
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 18,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.502,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        140,
+        141,
+        142
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 30.79,
+      "recovery_REL_values": [
+        30.79
+      ],
+      "recovery_ABS": [
+        0.077286
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 19,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        143,
+        144,
+        145
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 56.54,
+      "recovery_REL_values": [
+        56.54
+      ],
+      "recovery_ABS": [
+        0.141064
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K4",
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        146,
+        147
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 20,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.507,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        148,
+        149,
+        150
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 65.91,
+      "recovery_REL_values": [
+        65.91
+      ],
+      "recovery_ABS": [
+        0.1670869
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 21,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.512,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        151,
+        152,
+        153
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 102.05,
+      "recovery_REL_values": [
+        102.05
+      ],
+      "recovery_ABS": [
+        0.2612545
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 22,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.508,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        154,
+        155,
+        156
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 71.18,
+      "recovery_REL_values": [
+        71.18
+      ],
+      "recovery_ABS": [
+        0.1807905
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 23,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.508,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        157,
+        158,
+        159
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 72.84,
+      "recovery_REL_values": [
+        72.84
+      ],
+      "recovery_ABS": [
+        0.18502
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 24,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        160,
+        161,
+        162
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 64.43,
+      "recovery_REL_values": [
+        64.43
+      ],
+      "recovery_ABS": [
+        0.162043
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 25,
+        "analyst": "KS",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.506,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        163,
+        164,
+        165
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 51.05,
+      "recovery_REL_values": [
+        51.05
+      ],
+      "recovery_ABS": [
+        0.1291452
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 26,
+        "analyst": "KS",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.51,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        166,
+        167,
+        168
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 66.86,
+      "recovery_REL_values": [
+        66.86
+      ],
+      "recovery_ABS": [
+        0.170481
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 27,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.509,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        169,
+        170,
+        171
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 44.37,
+      "recovery_REL_values": [
+        44.37
+      ],
+      "recovery_ABS": [
+        0.1129315
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 28,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        172,
+        173,
+        174
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 15.93,
+      "recovery_REL_values": [
+        15.93
+      ],
+      "recovery_ABS": [
+        0.0397409
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 29,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        175,
+        176,
+        177
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 9.92,
+      "recovery_REL_values": [
+        9.92
+      ],
+      "recovery_ABS": [
+        0.0249508
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 30,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.511,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        178,
+        179,
+        180
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 73.44,
+      "recovery_REL_values": [
+        73.44
+      ],
+      "recovery_ABS": [
+        0.187633
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 31,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        181,
+        182,
+        183
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 73.64,
+      "recovery_REL_values": [
+        73.64
+      ],
+      "recovery_ABS": [
+        0.185203
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 32,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        184,
+        185,
+        186
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 59.71,
+      "recovery_REL_values": [
+        59.71
+      ],
+      "recovery_ABS": [
+        0.1492712
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 33,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.502,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        187,
+        188,
+        189
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 53.33,
+      "recovery_REL_values": [
+        53.33
+      ],
+      "recovery_ABS": [
+        0.1338652
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 34,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        190,
+        191,
+        192
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 53.2,
+      "recovery_REL_values": [
+        53.2
+      ],
+      "recovery_ABS": [
+        0.133804
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 35,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        193,
+        194,
+        195
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 50.3,
+      "recovery_REL_values": [
+        50.3
+      ],
+      "recovery_ABS": [
+        0.126504
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 36,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.501,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        196,
+        197,
+        198
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 89.11,
+      "recovery_REL_values": [
+        89.11
+      ],
+      "recovery_ABS": [
+        0.223211
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 37,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.498,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        199,
+        200,
+        201
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80.54,
+      "recovery_REL_values": [
+        80.54
+      ],
+      "recovery_ABS": [
+        0.200538
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 38,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        202,
+        203,
+        204
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80.41,
+      "recovery_REL_values": [
+        80.41
+      ],
+      "recovery_ABS": [
+        0.200617
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 39,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        205,
+        206,
+        207
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 90.91,
+      "recovery_REL_values": [
+        90.91
+      ],
+      "recovery_ABS": [
+        0.2268274
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 40,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.497,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        208,
+        209,
+        210
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 77.56,
+      "recovery_REL_values": [
+        77.56
+      ],
+      "recovery_ABS": [
+        0.192742
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 41,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        211,
+        212,
+        213
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 68.08,
+      "recovery_REL_values": [
+        68.08
+      ],
+      "recovery_ABS": [
+        0.17123
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 42,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.498,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        214,
+        215,
+        216
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 65.63,
+      "recovery_REL_values": [
+        65.63
+      ],
+      "recovery_ABS": [
+        0.16341
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 43,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.504,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        217,
+        218,
+        219
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 65.55,
+      "recovery_REL_values": [
+        65.55
+      ],
+      "recovery_ABS": [
+        0.16519
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 44,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.507,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        220,
+        221,
+        222
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 65.16,
+      "recovery_REL_values": [
+        65.16
+      ],
+      "recovery_ABS": [
+        0.16519
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 45,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.505,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        223,
+        224,
+        225
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 81.09,
+      "recovery_REL_values": [
+        81.09
+      ],
+      "recovery_ABS": [
+        0.2047535
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 46,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.506,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        226,
+        227,
+        228
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80.94,
+      "recovery_REL_values": [
+        80.94
+      ],
+      "recovery_ABS": [
+        0.2047817
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 47,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.505,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        229,
+        230,
+        231
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 83.08,
+      "recovery_REL_values": [
+        83.08
+      ],
+      "recovery_ABS": [
+        0.209785
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 48,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        232,
+        233,
+        234
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 88.31,
+      "recovery_REL_values": [
+        88.31
+      ],
+      "recovery_ABS": [
+        0.22211
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 49,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        235,
+        236,
+        237
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 59.85,
+      "recovery_REL_values": [
+        59.85
+      ],
+      "recovery_ABS": [
+        0.14933
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 50,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.502,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        238,
+        239,
+        240
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 61.84,
+      "recovery_REL_values": [
+        61.84
+      ],
+      "recovery_ABS": [
+        0.155225
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 51,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.502,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        241,
+        242,
+        243
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 63.33,
+      "recovery_REL_values": [
+        63.33
+      ],
+      "recovery_ABS": [
+        0.158948
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 52,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.504,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        244,
+        245,
+        246
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 89.49,
+      "recovery_REL_values": [
+        89.49
+      ],
+      "recovery_ABS": [
+        0.225507
+      ]
+    }
+  ],
+  "merge_aware_groups": [
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 8,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        2,
+        3,
+        4
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80.32,
+      "recovery_REL_values": [
+        80.32
+      ],
+      "recovery_ABS": [
+        0.2008
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 9,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        5,
+        6,
+        7
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 77.38,
+      "recovery_REL_values": [
+        77.38
+      ],
+      "recovery_ABS": [
+        0.19345
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 10,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        8,
+        9,
+        10
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 108.14,
+      "recovery_REL_values": [
+        108.14
+      ],
+      "recovery_ABS": [
+        0.27035
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 11,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        11,
+        12,
+        13
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 76.32,
+      "recovery_REL_values": [
+        76.32
+      ],
+      "recovery_ABS": [
+        0.1908
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 12,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        14,
+        15,
+        16
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 92.52,
+      "recovery_REL_values": [
+        92.52
+      ],
+      "recovery_ABS": [
+        0.2313
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 13,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        17,
+        18,
+        19
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 81.48,
+      "recovery_REL_values": [
+        81.48
+      ],
+      "recovery_ABS": [
+        0.2037
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 14,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        20,
+        21,
+        22
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 100.96,
+      "recovery_REL_values": [
+        100.96
+      ],
+      "recovery_ABS": [
+        0.2524
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 15,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        23,
+        24,
+        25
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 84.76,
+      "recovery_REL_values": [
+        84.76
+      ],
+      "recovery_ABS": [
+        0.21189
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 16,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        26,
+        27,
+        28
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": [
+        69.85,
+        87.32
+      ],
+      "recovery_REL_values": [
+        69.85,
+        87.32
+      ],
+      "recovery_ABS": [
+        0.17463
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.627,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        29,
+        30,
+        31
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 83.16,
+      "recovery_REL_values": [
+        83.16
+      ],
+      "recovery_ABS": [
+        0.41713
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        32,
+        33,
+        34
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 66.66,
+      "recovery_REL_values": [
+        66.66
+      ],
+      "recovery_ABS": [
+        0.33329
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.624,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        35,
+        36,
+        37
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 93.69,
+      "recovery_REL_values": [
+        93.69
+      ],
+      "recovery_ABS": [
+        0.4677
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.623,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        38,
+        39,
+        40
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 94.84,
+      "recovery_REL_values": [
+        94.84
+      ],
+      "recovery_ABS": [
+        0.47266
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 1,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.624,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        41,
+        42,
+        43
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 81.49,
+      "recovery_REL_values": [
+        81.49
+      ],
+      "recovery_ABS": [
+        0.40682
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.628,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        44,
+        45,
+        46
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 85.88,
+      "recovery_REL_values": [
+        85.88
+      ],
+      "recovery_ABS": [
+        0.43145
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        47,
+        48,
+        49
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 91.72,
+      "recovery_REL_values": [
+        91.72
+      ],
+      "recovery_ABS": [
+        0.45931
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        50,
+        51,
+        52
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.7,
+      "recovery_REL_values": [
+        101.7
+      ],
+      "recovery_ABS": [
+        0.509295
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        53,
+        54,
+        55
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.89,
+      "recovery_REL_values": [
+        101.89
+      ],
+      "recovery_ABS": [
+        0.5094515
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        56,
+        57,
+        58
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 86.76,
+      "recovery_REL_values": [
+        86.76
+      ],
+      "recovery_ABS": [
+        0.434518
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        59,
+        60,
+        61
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 81.59,
+      "recovery_REL_values": [
+        81.59
+      ],
+      "recovery_ABS": [
+        0.40862
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.628,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        62,
+        63,
+        64
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 99.27,
+      "recovery_REL_values": [
+        99.27
+      ],
+      "recovery_ABS": [
+        0.498723
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.624,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        65,
+        66,
+        67
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.42,
+      "recovery_REL_values": [
+        101.42
+      ],
+      "recovery_ABS": [
+        0.5063002
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        68,
+        69,
+        70
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 82.74,
+      "recovery_REL_values": [
+        82.74
+      ],
+      "recovery_ABS": [
+        0.413708
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        71,
+        72,
+        73
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 88.63,
+      "recovery_REL_values": [
+        88.63
+      ],
+      "recovery_ABS": [
+        0.44388
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        74,
+        75,
+        76
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 48.81,
+      "recovery_REL_values": [
+        48.81
+      ],
+      "recovery_ABS": [
+        0.2440375
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        77,
+        78,
+        79
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 105.25,
+      "recovery_REL_values": [
+        105.25
+      ],
+      "recovery_ABS": [
+        0.52623
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.627,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        80,
+        81,
+        82
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 76.69,
+      "recovery_REL_values": [
+        76.69
+      ],
+      "recovery_ABS": [
+        0.384676
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.627,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        83,
+        84,
+        85
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 93.91,
+      "recovery_REL_values": [
+        93.91
+      ],
+      "recovery_ABS": [
+        0.4710275
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        86,
+        87,
+        88
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 106.35,
+      "recovery_REL_values": [
+        106.35
+      ],
+      "recovery_ABS": [
+        0.531767
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_1",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        89,
+        90,
+        91
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80,
+      "recovery_REL_values": [
+        80
+      ],
+      "recovery_ABS": [
+        0.400618
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        92,
+        93,
+        94
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 84.71,
+      "recovery_REL_values": [
+        84.71
+      ],
+      "recovery_ABS": [
+        0.42422
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_05",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        95,
+        96,
+        97
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 70.38,
+      "recovery_REL_values": [
+        70.38
+      ],
+      "recovery_ABS": [
+        0.3519
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        98,
+        99,
+        100
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 95.14,
+      "recovery_REL_values": [
+        95.14
+      ],
+      "recovery_ABS": [
+        0.47569
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 5,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        101,
+        102,
+        103
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 78.16,
+      "recovery_REL_values": [
+        78.16
+      ],
+      "recovery_ABS": [
+        0.39143
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "A",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "control",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "NA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "names": [
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate"
+      ],
+      "n_rows": 9,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K1",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        113,
+        114
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K2",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        115,
+        116
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K3",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        117,
+        118
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 17,
+        "analyst": "LH",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        119,
+        120,
+        121
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 72.72,
+      "recovery_REL_values": [
+        72.72
+      ],
+      "recovery_ABS": [
+        0.1814244
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 18,
+        "analyst": "LH",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        122,
+        123,
+        124
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 73.26,
+      "recovery_REL_values": [
+        73.26
+      ],
+      "recovery_ABS": [
+        0.18316
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 19,
+        "analyst": "LH",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        125,
+        126,
+        127
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 70.32,
+      "recovery_REL_values": [
+        70.32
+      ],
+      "recovery_ABS": [
+        0.175442
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 17,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        128,
+        129,
+        130
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 74.72,
+      "recovery_REL_values": [
+        74.72
+      ],
+      "recovery_ABS": [
+        0.1868028
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 18,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.501,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        131,
+        132,
+        133
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 70.65,
+      "recovery_REL_values": [
+        70.65
+      ],
+      "recovery_ABS": [
+        0.176974
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 19,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.501,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        134,
+        135,
+        136
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 135.55,
+      "recovery_REL_values": [
+        135.55
+      ],
+      "recovery_ABS": [
+        0.33955
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 17,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        137,
+        138,
+        139
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 56.28,
+      "recovery_REL_values": [
+        56.28
+      ],
+      "recovery_ABS": [
+        0.1406964
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 18,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.502,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        140,
+        141,
+        142
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 30.79,
+      "recovery_REL_values": [
+        30.79
+      ],
+      "recovery_ABS": [
+        0.077286
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 19,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        143,
+        144,
+        145
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 56.54,
+      "recovery_REL_values": [
+        56.54
+      ],
+      "recovery_ABS": [
+        0.141064
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K4",
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        146,
+        147
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 20,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.507,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        148,
+        149,
+        150
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 65.91,
+      "recovery_REL_values": [
+        65.91
+      ],
+      "recovery_ABS": [
+        0.1670869
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 21,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.512,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        151,
+        152,
+        153
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 102.05,
+      "recovery_REL_values": [
+        102.05
+      ],
+      "recovery_ABS": [
+        0.2612545
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 22,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.508,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        154,
+        155,
+        156
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 71.18,
+      "recovery_REL_values": [
+        71.18
+      ],
+      "recovery_ABS": [
+        0.1807905
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 23,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.508,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        157,
+        158,
+        159
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 72.84,
+      "recovery_REL_values": [
+        72.84
+      ],
+      "recovery_ABS": [
+        0.18502
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 24,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        160,
+        161,
+        162
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 64.43,
+      "recovery_REL_values": [
+        64.43
+      ],
+      "recovery_ABS": [
+        0.162043
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 25,
+        "analyst": "KS",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.506,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        163,
+        164,
+        165
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 51.05,
+      "recovery_REL_values": [
+        51.05
+      ],
+      "recovery_ABS": [
+        0.1291452
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 26,
+        "analyst": "KS",
+        "inlet": "long",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.51,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        166,
+        167,
+        168
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 66.86,
+      "recovery_REL_values": [
+        66.86
+      ],
+      "recovery_ABS": [
+        0.170481
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 27,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.509,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        169,
+        170,
+        171
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 44.37,
+      "recovery_REL_values": [
+        44.37
+      ],
+      "recovery_ABS": [
+        0.1129315
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 28,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        172,
+        173,
+        174
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 15.93,
+      "recovery_REL_values": [
+        15.93
+      ],
+      "recovery_ABS": [
+        0.0397409
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 29,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        175,
+        176,
+        177
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 9.92,
+      "recovery_REL_values": [
+        9.92
+      ],
+      "recovery_ABS": [
+        0.0249508
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 30,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.511,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        178,
+        179,
+        180
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 73.44,
+      "recovery_REL_values": [
+        73.44
+      ],
+      "recovery_ABS": [
+        0.187633
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 31,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        181,
+        182,
+        183
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 73.64,
+      "recovery_REL_values": [
+        73.64
+      ],
+      "recovery_ABS": [
+        0.185203
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 32,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        184,
+        185,
+        186
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 59.71,
+      "recovery_REL_values": [
+        59.71
+      ],
+      "recovery_ABS": [
+        0.1492712
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 33,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.502,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        187,
+        188,
+        189
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 53.33,
+      "recovery_REL_values": [
+        53.33
+      ],
+      "recovery_ABS": [
+        0.1338652
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 34,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 22,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        190,
+        191,
+        192
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 53.2,
+      "recovery_REL_values": [
+        53.2
+      ],
+      "recovery_ABS": [
+        0.133804
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 35,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        193,
+        194,
+        195
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 50.3,
+      "recovery_REL_values": [
+        50.3
+      ],
+      "recovery_ABS": [
+        0.126504
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 36,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.501,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        196,
+        197,
+        198
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 89.11,
+      "recovery_REL_values": [
+        89.11
+      ],
+      "recovery_ABS": [
+        0.223211
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 37,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.498,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        199,
+        200,
+        201
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80.54,
+      "recovery_REL_values": [
+        80.54
+      ],
+      "recovery_ABS": [
+        0.200538
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 38,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        202,
+        203,
+        204
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80.41,
+      "recovery_REL_values": [
+        80.41
+      ],
+      "recovery_ABS": [
+        0.200617
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 39,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        205,
+        206,
+        207
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 90.91,
+      "recovery_REL_values": [
+        90.91
+      ],
+      "recovery_ABS": [
+        0.2268274
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 40,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.497,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        208,
+        209,
+        210
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 77.56,
+      "recovery_REL_values": [
+        77.56
+      ],
+      "recovery_ABS": [
+        0.192742
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 41,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        211,
+        212,
+        213
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 68.08,
+      "recovery_REL_values": [
+        68.08
+      ],
+      "recovery_ABS": [
+        0.17123
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 42,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.498,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        214,
+        215,
+        216
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 65.63,
+      "recovery_REL_values": [
+        65.63
+      ],
+      "recovery_ABS": [
+        0.16341
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 43,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.504,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        217,
+        218,
+        219
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 65.55,
+      "recovery_REL_values": [
+        65.55
+      ],
+      "recovery_ABS": [
+        0.16519
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 44,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.507,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        220,
+        221,
+        222
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 65.16,
+      "recovery_REL_values": [
+        65.16
+      ],
+      "recovery_ABS": [
+        0.16519
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 45,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 78,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.505,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        223,
+        224,
+        225
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 81.09,
+      "recovery_REL_values": [
+        81.09
+      ],
+      "recovery_ABS": [
+        0.2047535
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 46,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.506,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        226,
+        227,
+        228
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 80.94,
+      "recovery_REL_values": [
+        80.94
+      ],
+      "recovery_ABS": [
+        0.2047817
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 47,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.505,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        229,
+        230,
+        231
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 83.08,
+      "recovery_REL_values": [
+        83.08
+      ],
+      "recovery_ABS": [
+        0.209785
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 48,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.503,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        232,
+        233,
+        234
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 88.31,
+      "recovery_REL_values": [
+        88.31
+      ],
+      "recovery_ABS": [
+        0.22211
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 49,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.499,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        235,
+        236,
+        237
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 59.85,
+      "recovery_REL_values": [
+        59.85
+      ],
+      "recovery_ABS": [
+        0.14933
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 50,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.502,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        238,
+        239,
+        240
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 61.84,
+      "recovery_REL_values": [
+        61.84
+      ],
+      "recovery_ABS": [
+        0.155225
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 51,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.502,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        241,
+        242,
+        243
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 63.33,
+      "recovery_REL_values": [
+        63.33
+      ],
+      "recovery_ABS": [
+        0.158948
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 52,
+        "analyst": "KS",
+        "inlet": "swirl",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.504,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        244,
+        245,
+        246
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 89.49,
+      "recovery_REL_values": [
+        89.49
+      ],
+      "recovery_ABS": [
+        0.225507
+      ]
+    }
+  ],
+  "strict_incomplete_or_control_groups": [
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 16,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        26,
+        27
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": 69.85,
+      "recovery_REL_values": [
+        69.85
+      ],
+      "recovery_ABS": [
+        0.17463
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 16,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        28
+      ],
+      "names": [
+        "retentate"
+      ],
+      "n_rows": 1,
+      "complete_three_streams": false,
+      "recovery_REL": 87.32,
+      "recovery_REL_values": [
+        87.32
+      ],
+      "recovery_ABS": [
+        0.17463
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "A",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "control",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "NA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "names": [
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate"
+      ],
+      "n_rows": 9,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K1",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        113,
+        114
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K2",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        115,
+        116
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K3",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        117,
+        118
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K4",
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        146,
+        147
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    }
+  ],
+  "merge_aware_incomplete_or_control_groups": [
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "A",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "control",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "NA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "names": [
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate"
+      ],
+      "n_rows": 9,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K1",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        113,
+        114
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K2",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        115,
+        116
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K3",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        117,
+        118
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K4",
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        146,
+        147
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "recovery_ABS": []
+    }
+  ],
+  "merge_recovery_label_conflicts": [
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 16,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        26,
+        27,
+        28
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": [
+        69.85,
+        87.32
+      ],
+      "recovery_REL_values": [
+        69.85,
+        87.32
+      ],
+      "recovery_ABS": [
+        0.17463
+      ]
+    }
+  ],
+  "recovery_over_100_strict": [
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 10,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Medium",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        8,
+        9,
+        10
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 108.14,
+      "recovery_REL_values": [
+        108.14
+      ],
+      "recovery_ABS": [
+        0.27035
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 14,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        20,
+        21,
+        22
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 100.96,
+      "recovery_REL_values": [
+        100.96
+      ],
+      "recovery_ABS": [
+        0.2524
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large_HB",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.626,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        50,
+        51,
+        52
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.7,
+      "recovery_REL_values": [
+        101.7
+      ],
+      "recovery_ABS": [
+        0.509295
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 2,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        53,
+        54,
+        55
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.89,
+      "recovery_REL_values": [
+        101.89
+      ],
+      "recovery_ABS": [
+        0.5094515
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 3,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.624,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        65,
+        66,
+        67
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 101.42,
+      "recovery_REL_values": [
+        101.42
+      ],
+      "recovery_ABS": [
+        0.5063002
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "Large",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        77,
+        78,
+        79
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 105.25,
+      "recovery_REL_values": [
+        105.25
+      ],
+      "recovery_ABS": [
+        0.52623
+      ]
+    },
+    {
+      "key": {
+        "Ort": "BioFilt",
+        "trial": 4,
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "DE",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.625,
+        "MP_Menge_IST_g": 0.625,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        86,
+        87,
+        88
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 106.35,
+      "recovery_REL_values": [
+        106.35
+      ],
+      "recovery_ABS": [
+        0.531767
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 19,
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.501,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        134,
+        135,
+        136
+      ],
+      "names": [
+        "concentrate",
+        "permeate",
+        "retentate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 135.55,
+      "recovery_REL_values": [
+        135.55
+      ],
+      "recovery_ABS": [
+        0.33955
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 21,
+        "analyst": "KS",
+        "inlet": "snail",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 100,
+        "A0": 44,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.512,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        151,
+        152,
+        153
+      ],
+      "names": [
+        "retentate",
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 3,
+      "complete_three_streams": true,
+      "recovery_REL": 102.05,
+      "recovery_REL_values": [
+        102.05
+      ],
+      "recovery_ABS": [
+        0.2612545
+      ]
+    }
+  ],
+  "negative_component_records": [
+    {
+      "source_row": 114,
+      "field": "P_diff_g",
+      "name": "permeate",
+      "value": -0.01
+    },
+    {
+      "source_row": 116,
+      "field": "P_diff_g",
+      "name": "permeate",
+      "value": -0.01
+    },
+    {
+      "source_row": 118,
+      "field": "P_diff_g",
+      "name": "permeate",
+      "value": -0.02
+    }
+  ],
+  "missing_component_records": [],
+  "note3_comparison": {
+    "reported": "76.4 ± 18.1%, N=71",
+    "strict_F2": "79.6161 ± 16.4478%, N=70",
+    "merge_aware_F2": "79.4786 ± 16.3709%, N=71",
+    "status": "not reproduced; both sensitivities retained; merge-aware trial16 uses the stored concentrate/permeate recovery_REL 69.85 while preserving retentate conflict 87.32"
+  },
+  "zero_handling": "Main text reports nine negative permeate masses converted to 0.00 g. Current XLSX raw values are preserved; visible negatives are rows114,116,118 in blank/control records.",
+  "note3_PA_comparison": {
+    "source": "texts/L07_Hamann2025_supplement.txt, Supplementary Note 3",
+    "reported_n": 5,
+    "reported_mean_percent": 32.3,
+    "reported_sample_sd_percent": 23.7,
+    "stored_recovery_n": 5,
+    "stored_recovery_mean_percent": 33.892,
+    "stored_recovery_sample_sd_percent": 21.914989618979973,
+    "status": "not_reproduced_from_stored_recovery_REL; no raw values changed"
+  }
+}

@@ -1,0 +1,1241 @@
+===== PDF PAGE 1 =====
+npj | emerging contaminants Article
+https://doi.org/10.1038/s44454-025-00020-2
+A self-cleaning, bio-inspired high
+retention ﬁlter for a major entry path
+of microplastics
+Check for updates
+Leandra Hamann 1 , Christian Reuß1,2, Hendrik Herzog 1,K r i s t i n aS c h r e i b e r1,3,
+Christian Geitner 4 & Alexander Blanke 1
+Microplastic (MP) ﬁbres from washing machines are a major source of environmental pollution, yet,
+existing domestic ﬁltration solutions are prone to clogging and have limited retention. Inspired by the
+gill arch system of ram-feedingﬁshes, we developed a bio-inspiredﬁlter that employs semi-cross-ﬂow
+ﬁltration with a conicalﬁlter element geometry, periodic self-cleaning and optimised inﬂow. Laboratory
+tests show that theﬁsh-inspired ﬁlter (FiF) retains up to 99.6% of MP testﬁbres. Clogging is reduced by
+collecting up to 85% of the ﬁbres outside the FiF through a periodic cleaning mechanism. CFD and
+ﬂow tank experiments demonstrate that ﬁltration performance is strongly in ﬂuenced by the angle of
+attack and inlet geometry. The FiF achieves a low concentrate volume ( ∼5%), increasing yield and
+minimising post-treatment. Our ﬁndings highlight the potential of bio-inspired ﬁltration mechanisms
+for engineering applications such as washing machines requiring high ef ﬁciency and modular design.
+Microplastics (MPs), plastic particles and ﬁbres smaller than 5 mm, are
+ubiquitous pollutants found in water1,s o i l2 and air3. In all these environ-
+ments, MPs have adverse effects, for example, they accumulate fungal
+pathogens in soil
+4, cause phytotoxicity on vascular plants5, enter marine top
+predators through trophic transfer6, and induce oxidative stress, in ﬂam-
+mation, and metabolic disorders in humans 7. It is widely acknowledged
+that a diverse combination of mitigation strategies is necessary to reduce
+MPs from entering the environment. Long-term strategies include shifting
+to a circular economy, developing new materials and sustainable products,
+and conducting educational work to change societal mindset
+8–10.S h o r t -
+term measures include, for example, legislation to ban MPs in cosmetics,
+the use of substitute materials, or cleaning activities 11,12. Filtration is
+another short-term means to reduce MPs close to their sources and entry
+points, but current ﬁltration solutions are hindered by low retention efﬁ-
+ciencies for MPs, as well as rapid clogging.
+Washing machines are a major entry path for MPs, releasing between 10
+and 120 g of MP ﬁbres from textiles per person per year, and are one of the
+major MP sources
+13–15. Washing machines have coarseﬁlters to protect the
+pump by retaining stones or coins, but no MP ﬁlter16. Hence, MPs are
+brought unﬁltered into the sewage system. Wastewater treatment plants
+equipped with secondary and tertiary treatment stages retain 84 –94% of
+MPs17. However, retained MPs accumulate in the sewage sludge, with
+63–90% coming from washing machines17. The MPs are then reintroduced
+i n t ot h ee n v i r o n m e n tw h e nt h es e w a g es l u d g ei sd i s p o s e do fo na g r i c u l t u r a l
+ﬁe l d s ,a si sc o m m o np r a c t i c eg l o b a l l y17,18. Therefore, despite the high reten-
+tion rates within wastewater treatment plants, intercepting MPs before they
+reach the sewage system is a critical and underdeveloped intervention point.
+We present a biomimetic,ﬁsh-inspiredﬁlter (FiF) with high ﬁltration
+efﬁciency of standardised MP ﬁbres and a self-cleaning process. Our ﬁlter
+module is based on the ﬁlter-feeding process in ram-feedingﬁshes because
+aspects of thisﬁltration process, in principle,ﬁts some of the requirements in
+w a s h i n gm a c h i n e ss u c ha sp a r t i c l es i z e ,ﬂow regime, andﬁlter size (Supple-
+mentary Note 1 and Supplementary Fig. 1). Ram-feedingﬁshes are pelagic
+ﬁshes that use their forward motion to induce ﬂow through the gill arch
+system
+19,20. The gill arch system is composed of gill arches with elongated gill
+rakers. The morphology of the gill arch system is species dependant with some
+having denticles on the gill arches and gill rakers
+19, while others produce
+mucus to accumulate particles21, have surface structures that induce local
+vortices to retain particles22 or use a combination thereof. In most ﬁlter-
+feedingﬁshes, the gill arches form a cone-shaped geometry that tapers down
+towards the oesophagus within the buccal cavity 19,23–25. While swimming
+f o r w a r dw i t ha no p e nm o u t h ,at a n g e n t i a lﬂow transports the food particles
+towards the oesophagus, and the cleared water exits between the gill arches
+and under the operculum. This process was previously described as cross-ﬂow
+ﬁltration with variations found in some species called cross-stepﬁltration
+20,22.
+Based on morphology and video analysis of their feeding behaviour19,i ti s
+1Bonn Institute for Organismic Biology, University of Bonn, Bonn, Germany. 2DSG-Canusa GmbH, Development Engineer, Rheinbach, Germany. 3Biomimetics
+Group, Energy and Sustainability Research Institute, University of Groningen, Groningen, The Netherlands. 4Fraunhofer Institute for Environmental Safety and
+Energy Technology UMSICHT, Oberhausen, Germany. e-mail: hamannleandra@gmail.com
+npj Emerging Contaminants |            (2025) 1:18 1
+1234567890():,;
+1234567890():,;
+
+===== PDF PAGE 2 =====
+likely that theﬁltration process in ram-feedingﬁsh like anchovy, pilchard, and
+Atlantic mackerel, in fact, combines cross-ﬂow and dead-end ﬁltration. In
+these ﬁshes, the gill rakers form a ﬂat surface that induce particles rolling
+towards the oesophagus where they accumulate before being swallowed19.
+Particle rolling is enabled by the conically tapered geometry of the gill arch
+system. The geometry is described by an angle, the angle of attackα (Fig.1A),
+and may range between 0°(dead-endﬁltration) and 90° (cross-ﬂow ﬁltration,
+Fig. 1B). Therefore, the ﬁltration process was previously called semi-cross-
+ﬂow ﬁltration19 (Fig. 1B). Our FiF mimics the functional morphology in
+selected ram-ﬁlter-feedingﬁshes to take advantage of the semi-cross-ﬂow
+ﬁltration process. Furthermore, by varying parameters likeﬁlter size, mesh
+size or angle of attack in physical and numerical experiments, we demonstrate
+that ﬁlter performance depends on speciﬁc parameter combinations and can
+thus be tailored to a wide range of potential applications, including retention
+o fM P si nw a s h i n gm a c h i n e s .O u rﬁsh-inspiredﬁl t e r( F i F )i su n i q u ei ni t s
+combination of (i) a cone-shapedﬁlter element with aﬁlter medium at a set
+angle of attackα to induce semi-cross-ﬂow ﬁltration, (ii) aﬁlter housing with
+adapted inﬂow and separate permeate and concentrate outlet, and (iii) an
+adjustable periodic cleaning mechanism that delays clogging.
+Results
+Effect of angle of attack on particle deposition during semi-
+cross-ﬂow ﬁltration
+The gill arch system inside the buccal c avity is tapered towards the oeso-
+phagus, bilaterally symmetric, and consists of ﬁve gill arches that bear
+elongated gill rakers with denticles forming a mesh (Fig.1A). In micro-CT
+scans ofﬁve ram-feedingﬁshes, the angle of attackα was measured between
+the hyoid bone and an extended line of the GR of the ﬁrst four arches in
+virtual cross-sections of theﬁsh’sh e a d( F i g .1A). Across all ﬁve species, α
+ranged between 4° for more anterior and 47° for more posterior gill arches
+(Supplementary Fig. 2). Based on the semi-cross-ﬂow ﬁltration process19,
+this would indicate that particles entering theﬁsh’sm o u t hw o u l de x p e r i e n c e
+higher tangential forces at lowerα at the more anterior gill arches. Conse-
+quently, particles would roll along the gill rakers and denticles so that they
+accumulate close to the oesophagus due to higherα before being swallowed
+(Fig. 1A, B). In order to test this hypothesis, we observed particle rolling on
+ﬁlter meshes at α ranging from 0° to 60° under a range of other parameter
+variations in a series of ﬂow tank experiments. We found that the share of
+rolling MP and non-MP particles —with no ‘permanent’ deposition and
+potential clogging of theﬁlter mesh- increases with lowerα, but the strength
+of that effect varies with particle type and mesh size (Fig.1C). Round brine
+shrimp eggs, a part of the natural food of ram-feedingﬁshes, keep rolling up
+to an angle of 40° after which the probability to roll drops and reaches <30%
+at 60°. Brine shrimp adults show a similarly high probability to roll at low
+angles but a more linear decrease with higherα. The probability of rolling for
+MP fragments decreases in a cubic relation and is generally lower than for
+the natural particles. The probabilityof rolling is overall the smallest for the
+MP ﬁbres compared to the other particle types. The probability of rolling
+drops from 20% at 10° to 0% at 40° with the 53 μm mesh size and from 37.5%
+at 10° to 0% at 50° with the 100 μm mesh size. With the 300 μm mesh size,
+Fig. 1 | Interaction of particles with ﬁlter media at different angles of attack α.
+A Volume render cross-section through th e frontal plane with view on the ventral
+side of the buccal cavity of Micro-CT scans the Indian mackerel Rastrelliger
+kanagurta . The blue arrow and blue line indicate the in ﬂow and midline of the ﬁsh,
+and one side of α. The yellow, orange and red lines indicate the orientation of the
+four gill arches (GA1-4) and the other side of α. B Schematic drawing of (i) dead-
+end ﬁltration with α = 90°, (ii) semi-cross- ﬂow ﬁltration with α ranging between 0°
+and 90°, and (iii) cross- ﬂow ﬁltration with α = 90°. Depending on in ﬂow and the α
+of the ﬁlter medium, the tangential ﬂow induces particles to stop or roll along the
+surface of the ﬁlter medium. C Probability of particles rolling after contact with the
+ﬁlter medium for each α (10°–60°), particle type (Brine shrimp eggs, Brine shrimp
+adults, MP fragments, MP ﬁbres), and mesh size (53, 100, 300 μm). Polynomial
+regression, with y on x, was used to describe the in ﬂuence of α on the probability of
+rolling. There are no results for the brine shrimp eggs and MP fragments because
+the mesh size was too big to retain the smaller particles. D Boxplots of all R
+2 of the
+Boltzmann ﬁt to describe the motion of all four particle types. For more details of
+particle characteristics and results of preliminary experiments, see Table 2 and
+Supplementary Fig. 3.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 2
+
+===== PDF PAGE 3 =====
+the probability of rollingﬁrst increases from 50% at 10° to 70% at 20° and 30°
+and then decreases to 20% at 60° (Fig.1C). Another difference between the
+brine shrimp adults in comparison to the brine shrimp eggs and MPs is the
+quality of the Boltzmann ﬁtt ot h ev e l o c i t yp r oﬁle of the particles when in
+contact with the ﬁlter mesh (Supplementary Fig. 3). For the brine shrimp
+adults,R² is 0.60 ± 0.34 whereas it is 0.95 ± 0.03, 0.97 ± 0.05, and 0.98 ± 0.06
+for the brine shrimp eggs, MP fragments and MP ﬁbres, respectively
+(Fig.1D). This indicates a different behaviour of the motile brine shrimp adults
+in comparison to the other, non-motile particles. Hence, for MP retention, the
+angle of attack should preferably be lower than 20° to keep the MPs in
+suspension or rolling for longer and reduce clogging of theﬁlter medium.
+Design of ﬁsh-inspired ﬁlter element
+I no r d e rt od e s i g naﬁlter that separates particles based on semi-cross-ﬂow
+ﬁltration, we mimicked the gill arch system morphology with the ﬁlter
+element. The basic design of a ﬁlter element is radially symmetric and has
+several arched support structures thatresemble the gill arches and can hold
+commercially available and standardisedﬁlter meshes (Fig.2A, B). Theﬁlter
+mesh creates a ﬂat ﬁlter medium as observed in the Atlantic herring, the
+Atlantic pilchard, and the Atlantic anchovy formed by the gill rakers and
+denticles (Fig. 2B). The ﬁlter element is described by an in ﬂow opening,
+resembling the mouth, with diameterLM and an outﬂow opening, resam-
+pling the oesophagus, with diameterLC and a ﬁlter length of LF (Fig. 2A).
+Since LM > LC, the gill arches and the associated mesh decrease in diameter,
+which results in the angle of attack,α.B yc h a n g i n gt h eﬁlter element length
+or the opening diameter, α can be adjusted to lower or higher angles to
+increase particle rolling towards the outﬂow opening, while cleanﬂuid exists
+laterally through the mesh. Overall, we built four different ﬁlter elements
+that covered three different length,i.e. small, medium and large, and twoα,
+i.e. 11° and 22° (Table 1). Some of the species, i.e. Atlantic mackerel and
+Indian mackerel, also show shortened gill rakers and teeth that point
+inwards into the buccal cavity (Fig.2C). These structures were mimicked by
+the hooked side of Velcro or 3D printed row of ellipsoids that can optionally
+be added inside any of theﬁlter elements. For comparing the FiF element to
+a conventional dead-endﬁlter design, oneﬁlter element had anα of 0° and
+no outﬂow opening. The length was chosen so that theﬁltration area A
+F was
+kept similar to the Large-11 ﬁlter elements to allow comparisons of these
+different designs (Table1).
+Integration into a functional ﬁlter housing
+The ﬁlter element was encased in a ﬁlter housing consisting of an inlet, a
+ﬂange, a transparent pipe for visual inspection, and an outlet (Fig. 3A, B).
+The outlet has two outlet pipes to separate the cleanﬂuid that exits laterally
+through the ﬁlter element, i.e. the permeate (VP) with potentially lost MPs
+(MP), and the drainage of concentrate ( VC)t h r o u g ht h eo u tﬂow opening
+that contains the accumulated particle mass ( MC). Both outlet pipes are
+equipped with automated valves to mimic the periodic cleaning and swal-
+lowing in theﬁshes. Duringﬁltration mode, the concentrate valve is closed
+and the permeate valve is open which accumulates particles in the ﬁlter
+element and allows outﬂow of cleaned water through the mesh. For cleaning
+of the ﬁlter, the permeate valve closes while the concentrate valve opens so
+that the ﬂuid with the particles is directed out of the concentrate outlet and
+the ﬁlter element is cleaned, here shown with MPﬁbres (Fig.3C, D). In the
+ﬁshes, periodic cleaning, i.e. swallowing, was observed in intervals between
+0.17 s in the Atlantic herring, 0.27 s in the Atlantic herring, 0.53 s in the
+Atlantic mackerel and 3.7 s in the Indian mackerel
+19.F o rt h eF i Fe x p e r i -
+ments, the cleaning intervals were set to clean after half of the test suspension
+passed and right before the total test suspension passed. Since volumeﬂow
+depends on ﬁlter size and inlet type (Suppl ementary Fig. 5), the cleaning
+intervals were adjusted according to the particularﬁlter setup and ranged
+between 0.6 s and 1.3 s.
+To investigate whether the inlet design and different cleaning setups
+will inﬂuence the ﬂow patterns inside the ﬁlter element, we tested two
+different inlet geometries and two cleaning modes using computationalﬂuid
+Fig. 2 | Abstraction of morphological traits of ram-feeding ﬁshes into CAD
+models and physical models. AThe cone-shaped gill arch system with a given angle
+of attack α is mimicked by the support structures of theﬁlter elements (blue arrows).
+The ﬁlter element is described by an in ﬂow opening diameter LM and an out ﬂow
+diameter LC with a ﬁlter length of LF and a total length of LT. B The gill rakers (GR)
+and denticles (D) form the meshes (red box) and are mimicked with a purchased
+ﬁlter mesh that is glued onto the support structures.C Surface structures as observed
+in ram-feeding scombrids are mimicked by a row of ellipsoids that mimic the short
+GR, and hooked tape mimics the denticles and teeth, and is glued in the Large-11
+ﬁlter element.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 3
+
+===== PDF PAGE 4 =====
+dynamics (CFD) (Fig.4). The geometry consisted of a rotational symmetric
+Large-11ﬁlter element. To quantify the effects on theﬂow, we measured the
+effective angle of attack α(eff). While the angle of attack α is deﬁned by
+the ﬁlter element geometry and remains static,α(eff) is the resulting angle
+by the streamlines at contact with theﬁlter mesh when theﬂow exits laterally
+through Gap 1–Gap 7 (Fig. 4B). A lower positive α(eff) should result in
+ﬂatter, more parallel streamlines towards theﬁlter mesh and, hence, further
+increase the probability of rollin g for any particles that follow the
+streamlines.
+The CFD results reveal that the presence of an internal wall in the inlet
+alters the localﬂow ﬁeld and improvesα(eff) at the ﬁlter mesh, especially at
+Gap1 and Gap2 (Fig.4Ai, Di). Without the internal wall, the incomingﬂow is
+not deﬂected but hits theﬁlter mesh in a straight line and creates a recircu-
+lation zone with backﬂow through Gap 1 and Gap 2 indicated by negative
+α(eff) (Fig. 4C, E and Supplementary Fig. 4). This dead zone reduces the
+effectiveﬁltration area, potentially leading to uneven particle accumulation
+and a less favourableﬂow distribution for semi-cross-ﬂow ﬁltration. In con-
+trast, the internal wall guides theﬂow more uniformly along theﬁlter surfaces,
+thereby leading to a low, but still positiveα(eff). Besides theﬁltration mode
+(permeate outlet open, concentrate outlet closed, Fig.4A i ,D i ) ,w ea l s ot e s t e d
+two cleaning modes, i.e. single cleaning (permeate outlet open, concentrate
+outlet open, Fig. 4Aii, Dii) and double cleaning (permeate outlet closed,
+concentrate outlet open, Fig.4Aiii, Diii). The three operating modes have a
+signiﬁcant impact on the local ﬂ
+ow orientation near theconcentrate outlet.
+During both cleaning modes, backﬂo wf o r m sa tG a p6a n dG a p7 ,l e a d i n gt oa
+negative α(eff) (Fig. 4C, E). This effect is especially strong in the double
+cleaning mode and may be beneﬁcial for the FiF’s performance. The reverse-
+throughﬂow could detach particles adhering to theﬁlter mesh andﬂush them
+towards the concentrate outlet. As positiveα(eff) increases from Gap 1 to Gap
+7 during theﬁltration mode, most particles willlikely deposit in the posterior
+region during semi-cross-ﬂow ﬁltration. Consequently, this backﬂushing
+effect may be particularly advantageous at these gaps to prevent clogging.
+Table 1 | Overview of four ﬁlter elements used in the FiF and a dead-end ﬁlter for comparison
+Small-22 Small-11 Medium-11 Large-11 Dead-end
+Filter length LF [mm] 62.6 52.7 77.7 102.7 60.8
+Angle of attack α [°] 22 11 11 11 0
+Inner diameter at inlet dM [mm] 50 30.5 40.3 50 50
+Inner diameter of outlet dC [mm] 10 10 10 10 0
+Filtration area AF [mm2] 5075.4 3415.5 6248.0 9861.1 9860.0
+The ﬁlter mesh inside each element is not shown here.
+Fig. 3 | Design of theﬁlter housing and cleaning mechanism. AThe modular ﬁlter
+housing consists of an inlet with a screw to de-air the system, a ﬂange, a
+transparent pipe, and the outlet with a s eparation of concentrate and permeate.
+The FiF separates the feed suspension, which consists of a ﬂuid volume ( VF)a n d
+a particle mass ( MF), into a concentrate volume ( VC) with a particle mass
+fraction ( MC)a n dt h ec l e a np e r m e a t e(VP) with a second particle mass fraction
+(MP) .T h ep a r t i c l em a s sf r a c t i o nt h a tr e m a i n si nt h eﬁlter element is called the
+retentate ( MR). The cleaning mechanism is regulated by the permeate valve and
+the concentrate valve at the respective outlets. B Set-up of the FiF with the long
+inlet and the Large-11 ﬁlter element. C Observations of MP ﬁbres in the Large-11
+ﬁlter element with the snail inlet at the start of the experiment, before cleaning,
+and after cleaning. D Observations of MP ﬁbres in the Small-11 ﬁlter element
+with the snail inlet at the start of the experiment, before cleaning and after
+cleaning.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 4
+
+===== PDF PAGE 5 =====
+Proof of concept of the ﬁsh-inspired ﬁlter
+Our FiF retains 99.6 ± 0.8% of MPﬁbres in the lab experiments (Fig.5A, B).
+While this ﬁltration efﬁciency ER is similar compared to the ﬁlter design
+based on dead-end ﬁltration with 97.7 ± 3.1% for the same ﬁltration area,
+our FiF delays clogging through a cone-shaped geometry in combination
+with a periodic cleaning mechanism, and collects up to 84.8 ± 3.5% of the
+retained 2 mm MPﬁbres, outside of the FiF in the concentrate (concentrate
+ﬁltration efﬁciency E
+C). In the FiF with a conical-shapedﬁlter element and
+an angle of attack α = 11°, the concentrate is collected through an outlet at
+the terminal end (Fig. 5A). The concentrate contained only 850 ml, i.e.
+4.25% of theﬁltered ﬂuid volume. At the same time, 14.3 ± 3.7% of the MP
+ﬁbres remain as retentate in theﬁlter element, which is approximately one
+seventh of the MP ﬁbres in the ﬁlter element of the dead-end ﬁlter. In the
+dead-endﬁlter, no MPﬁbres are collected outside theﬁlter element as it has
+no concentrate outlet and all ﬂuid has to pass the ﬁlter medium, which is
+typical for example in cartridgeﬁlters (Fig.5C). This comparison shows that
+o u rF i Fk e e p st h eM Pﬁbres rolling or in suspension, prevents the accu-
+mulation of MPﬁbres in theﬁlter itself, and allows removal of the MPﬁbres
+through periodic cleaning. The majority of MP ﬁbres are collected in the
+concentrate outside the FiF.
+Parameter adaptation for the application in washing machines
+Based on the conditions found in washing machines, aﬁlter should ﬁtt h e
+available space in the washing machine housing, not add additional drag for
+the pump, withstand changing volume ﬂow and ﬂow velocities, and have
+high ﬁltration ef ﬁciencies (see washing machine requirements in
+Fig. 4 | Flow through a 2D half of the FiF with a
+Large-11 ﬁlter element using computational ﬂuid
+dynamics (CFD) in COMSOL ®. We compared the
+inﬂuence on ﬂow behaviour of a long inlet (9°
+angled) with ( A) no inner wall and D an inner wall
+during the three operating modes: (i) the con-
+centrate outlet is closed and the permeate outlet is
+open (ﬁltration mode), (ii) the concentrate outlet is
+open and the permeate outlet is open (single clean-
+ing mode) and (iii) the concentrate outlet is open
+and the permeate outlet is closed (double cleaning
+mode). The support structured and gaps between
+the support structures of the ﬁlter elements are
+exemplarily indicated in Fig. Aiii). The light blue
+arrow indicates the direction of ﬂow. B The angle of
+attack α (black, Aiii) is given by the ﬁlter element,
+whereas the effective angle of attack α(eff) changes
+depending on the orientation of the streamlines in
+relation to ﬁlter mesh (blue). Note that the colour
+scale indicating ﬂow velocity is the same in (i) and
+(ii) but differs in (iii). The change of α(eff) at the
+ﬁlter mesh over the full length of the ﬁlter element
+for each operation mode is plotted for the setup with
+(C) no inner wall and E inner wall. The support
+structures of the ﬁlter elements are shown in grey
+with the separation into the seven gaps. The negative
+α(eff) values in ( C) are caused by a recirculating
+vortex created across the ﬁlter element and reversed
+streamlines at gap1 (Supplementary Fig. 4).
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 5
+
+===== PDF PAGE 6 =====
+Supplementary Note 1). FiF performance was evaluated on three para-
+meters: ﬁltration efﬁciency of MP ﬁbres retained in the FiF ( ER), i.e. the
+concentrate and retentate, MPﬁbres retained in the concentrate (EC), and
+yield in concentrate (ηC), which includes the ﬁbre mass in the concentrate
+(MC)a n dt h ec o n c e n t r a t ev o l u m e(VC). Yield in concentrate is especially
+relevant for applications in washing machines, because a small concentrate
+ﬂuid volume is preferable to reduce post-treatment and user interaction.
+First, we decreased the initially designed ﬁlter element length L
+F of
+102.7 mm (large) and designed two smaller sizes of 77.7 mm (medium) and
+52.7 mm (small) (Table1). Even though a lower α would increase particle
+rolling, the length of theﬁlter and thereforeα is limited by the available space
+in the washing machine. Therefore, we kept α = 11° (denoted by ‘11’ in
+‘Large-11’, ‘Medium-11’ and ‘Small-11’ ﬁlter types) as presented in the
+initial experiment to compare the FiF with the dead-endﬁlter (Fig.5). While
+E
+R remains relatively similar in Large-11 with 93.2 ± 2.8%, Medium-11 with
+94.0 ± 4.2% and Small-11 with 96.0 ± 5.5%, the MPﬁbre share in the con-
+centrateEC increased from 35.0 ± 12.6%, to 50.6 ± 9.4% in Medium-11 up to
+65.3 ± 13.7% in Small-11 (Fig.6A). The yield in concentrateηC also slightly
+increased with 83.2 ± 6.5% in Large-11, 84.9 ± 10.3% in Medium-11 and
+88.8 ± 15.3% in Small-11.
+When increasing α to 22° in the Small ﬁlter element (‘Small-22’), we
+observed that E
+R decreased from 96.0 ± 5.5% to 84.5 ± 6.7%,EC decreased
+from 65.3 ± 13.7% to 37.9 ± 14.8%, andηC decreased from 88.8 ± 15.3% to
+62.0 ± 14.8% (Fig.6B), suggesting that a larger angle of attack may adversely
+affect performance.
+As there are not only MP ﬁbres of different sizes in the washing
+machine efﬂuent, but also sand, dust, pollen, hair and detergents (Supple-
+mentary Note 1), we tested three mesh sizes (53, 78 and 100 μm) for the
+Large-11 and two mesh sizes (53 and 100 μm) for the Small-11 (Fig. 6C).
+Although mesh size is expected to in ﬂuence ﬁltration performance para-
+meters, the changes showed no trend related to an increase or decrease in
+mesh size (Fig. 6C).
+To verify the inﬂuence of different inlet geometries on ﬁltration per-
+formance, as was indicated by the CFD experiments, we tested the long inlet
+at 9° with an internal wall (long inlet), a swirl inlet with a helical internal wall
+and a snail inlet (Fig. 6D). The swirl inlet and the long inlet performed
+similarly withE
+R being 96.0 ± 5.5% and 96.2 ± 3.6%,EC being 65.3 ± 13.7%
+and 66.8 ± 7.8%, and ηC being 88.8 ± 15.3% and 89.9 ± 9.4%, respectively.
+The snail inlet showed a less high ER with 85.5 ± 14.1% and ηC with
+67.4 ± 23.0%, butEC was slightly higher with 68.0 ± 38.3% (Fig.6D).
+We also investigated the relevance of surface structures on the inside of
+the ﬁlter element (Fig. 2C) because some ﬁsh species showed surface
+structures directed perpendicular toα (Fig.2C). Weﬁtted the Large-11ﬁlter
+element with three different surface structure designs but the results suggest
+that these did not improve performance (Fig.6E).
+Discussion
+The best-performing FiF combination, based on the lowest share of MP
+ﬁbres in the permeate and the highest yield in concentrate, is the Large-11
+ﬁlter element with a mesh size of 78 μm, in combination with the swirl inlet.
+It retains over 99% of the MPﬁbres with 0.8 ± 2.2% left in the permeate (ER,
+Fig. 6C). The yield in concentrate ηC is 97.5 ± 5.6%. However, the best
+performing FiF conﬁguration based on MPﬁb r es h a r ei nt h ec o n c e n t r a t ei s
+the Small-11 ﬁlter element with a mesh size of 53 μm in combination with
+the swirl inlet with 79.8 ± 6.8% (Fig.6C). This may indicate that the cleaning
+mechanism covers a larger share of theﬁltration area in the Small-11ﬁlter
+element. Speciﬁcally, the shear forces in semi-cross-ﬂow ﬁltration will move
+the particles along the ﬁlter mesh at a low α until they deposit near the
+concentrate outlet as observed in the Large-11 and Small-11ﬁlter elements
+(Fig. 3C, D), similar to the forces in cross-ﬂow ﬁltration26,27. Consequently,
+the reversed ﬂow near the concentrate outlet during the double cleaning
+mode, as shown in the CFD simulations (Fig. 4), detaches more particles,
+ﬂushes them out of theﬁlter element, and increases the share of MPﬁbres in
+the concentrate. Both best performing FiFs used the swirl inlet, which might
+be due to the creation of a rotational, likely turbulent ﬂow that further
+reduces the positive effective angle of attack α(eff) laterally towards 0° so
+ﬂow becomes more parallel to the ﬁlter medium. In cross-ﬂow ﬁltration,
+turbulentﬂow is preferred over laminarﬂow because it increases the shear
+rate and prevents particle deposition on the ﬁlter mesh
+27.T h ep o o r e s t
+performing FiF combination is the Small-22 withER being 15.5 ± 6.9% and
+ηC of 62.0 ± 14.8%. This indicates that a higher angle of attack substantially
+reduces the beneﬁts of semi-cross ﬂow ﬁltration (Fig.1).
+Another advantage to cross- ﬂow ﬁltration is the low concentrate
+volume and, therefore, an increased yield in concentrateηC. In established
+cross-ﬂow ultra-, nano- and micro ﬁltration processes, the concentrate
+volume ranges between 10% and 50% of the feed, depending on system
+design28–30. With the conical FiF and the periodic cleaning, we achieve a
+concentrate volume of 4.9 ± 1.6% of the feed across all FiF combinations
+(N = 70). A smaller concentrate volume lowers post-treatment or disposal
+costs, improves the cleaning efﬁciency, and reduces fouling through smaller
+stagnant volume and cake layer formation. Additionally, the FiF collects
+most of the MPﬁbres outside theﬁlter housing, and only one seventh of the
+MP ﬁbres remain in theﬁlter element (Fig.5B). This indicates that clogging
+may be delayed by up to a factor of seven. An increase in cleaning frequency
+could prolong the delay; however, this might come at the expense of a high
+ﬂuid volume in the concentrate. A thorough cleaning in which theﬁltration
+process was set back to starting conditions was not observed as all FiF
+combinations still had some MPﬁbres remaining in the retentate (Fig.6).
+During examination of theﬁlter elements after the experiments, we noticed
+that some MP ﬁbres were stuck in the pores in areas glued to the support
+structures. Remaining MPﬁbres may necessitate that the ﬁlter element be
+removed for cleaning, which is common practice in many ﬁltration pro-
+cesses, such as dead-endﬁltration
+31. But since most MP ﬁbres are collected
+outside and the dirt-holding capacity is not limited to the volume of theﬁlter
+element, cleaning time and required energy are kept to a minimum. By
+collecting most MPﬁbres outside the FiF, wear on the ﬁlter medium from
+mechanical cleaning (e.g. scrapes or brushes) is reduced, helping to over-
+come a key limitation of conventional domesticﬁlters
+31.
+Besides the FiF presented here, other bio-inspiredﬁltration processes
+also show potential for technical app lications. The particle separator by
+Piedrahita et al.32 is inspired by cross-ﬂow ﬁltration in pump-feedingﬁsh. In
+simulations, a maximum of about 70%32 and in experiments with proto-
+types, a maximum of 43% of particles were retained 33. The concept of
+‘ricochet separation’ was discovered in manta rays by Divi et al. 34,w h i c h
+Fig. 5 | Comparison of theﬁsh-inspired ﬁlter (FiF)
+with a dead-end (DE) ﬁlter element. A Atlantic
+mackerel Scomber scombrus with open mouth dur-
+ing ﬁlter-feeding and CAD design of the Large-11
+FiF element. B Performance comparison of the DE
+and FiF ﬁlter element design based on MPﬁbre share
+in permeate, retentate and concentrate. C Common
+engineered ﬁlter cartridge of a MP washing machine
+ﬁlter and computer-aided design (CAD) of a ﬁlter
+element based on that design with the sameﬁltration
+area as the FiF element. For ﬁlter element dimen-
+sions, see Table 1.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 6
+
+===== PDF PAGE 7 =====
+describes a mechanism in whi ch particles bounce off the ﬁlter lobes, i.e.
+specialised gill rakers. A simpliﬁed ﬁlter lobe geometry was used to manu-
+facture surface patterning on membranes to manipulate localﬂow ﬁelds and
+inhibit particle deposition35. In small-scale experiments under cross-ﬂow,
+the membranes with a pore size between 3.5 and 10.5 μm removed 97.6% of
+MP particles of 700 nm in diameter from water 36. In 2025, the ﬁltration
+p r o c e s sw a sa l s ov i r t u a l l yt e s t e di nC F Ds i m u l a t i o nf o ra na p p l i c a t i o ni nf u e l
+ﬁltration, where it showed a signiﬁcant reduction in pressure drop
+37.T h e
+‘cross-stepﬁltration’ is another process found in ram-feedingﬁshes such as
+the American paddleﬁsh and was ﬁrst described by Sanderson et al.23.T h e
+proof-of-concept was shown in abstr acted models for the collection of
+harmful algae38 and ﬁbre collection in washing machines16. The commercial
+VORTXﬁlter by CLEANR®, a spiral adaptation of this principle, reportedly
+achieves 90% ef ﬁciency for MP ﬁbres ≥50 μm, a 300% longer life and
+operates without a replaceable ﬁlter39. While promising, its performance
+data are currently based on manufacturer claims and focus primarily on
+domestic washing machine applications. These examples reﬂect the diver-
+sity of bio-inspiredﬁltration designs serving a wide range of applications—
+from nanoparticle removal to domestic washing machine ﬁltration. This
+diversity not only highlights the versatility of biological inspiration but also
+demonstrates a growing demand for bio-inspired solutions to complex
+separation challenges. In this context, the FiF offers a valuable addition and
+represents an alternative route, particularly suited to applications requiring
+coarse ﬁbre separation, low concentrate volumes, and modular cleaning
+systems.
+Currently, the MPﬁbre length is larger than all tested mesh sizes and
+the rod-shaped MP ﬁbres can only pass when they encounter the mesh
+perpendicularly. Smaller MPﬁbre sizes should be tested to see if the semi-
+cross-ﬂow process also keeps smaller MPﬁbres in suspension or if a smaller
+mesh size is required. The cut-off size of retained MPﬁbres is a crucial value
+to determine if the FiF can compete with other washing machineﬁlters. So
+far, it was suggested that aﬁlter should retain >80% of MPﬁbres larger than
+100 μm to be competitive
+40,41. While conventional cross-ﬂow ﬁltration is
+typically applied to particle sizes below 10 μm using membrane-based
+systems (e.g. microﬁltration or ultraﬁltration), our tests with the large MP
+ﬁbres show that the design extends semi-cross-ﬂow ﬁltration to the reten-
+tion of larger, elongatedﬁbres.
+Fibre shape might also be a factor that inﬂuences ﬁltration efﬁciency.
+The here used standardised MPﬁbres are rod-shaped, whereas textileﬁbres
+are of different lengths and irregularly shaped 42. In the preliminary
+experiments, we could show that different particles show different recovery
+ratios and even the MPﬁbres with the best recovery ratio show a relatively
+high variance in the results (Supplementary Note 3). We suspect that a small
+share of MP ﬁbres deposited somewhere in the setup. Resuspension could
+even contaminated the next experiment despite rinsing the test stand in
+between trials, because sometimes the sum of allﬁbres exceeded 100%. In
+contrast, we showed that lab contamination and scale accuracy did not have
+much inﬂuence (Supplementary Note 3). More computational methods,
+such asﬁnite element modelling (FEM) and CFD can complement physical
+experiments with the biological mode l or engineered prototype, e.g. the
+stability and hydrodynamics of GR or the role of boundary layers around
+denticles in mesh formation. Though the CFD experiments were not used to
+verify the physical experiments but as supplementing method, they
+increased the understanding of ﬂow patterns during semi-cross-ﬂow ﬁl-
+tration under changing geometries andﬁltration modes (Fig.4). Based on
+these results, we would also expect thatα(eff) will increase more evenly from
+inlet to concentrate outlet when the support structures are not present. This
+could be achieved, for example, through the use of a stainless steelﬁlter mesh
+that is rigid enough to maintain its conical shape. However, the results must
+be interpreted with certain limitations in mind. The numerical model was
+implemented as a two-dimensional, rotationally symmetric approximation
+of the actual ﬁlter geometry and the simulations were conducted under
+steady-state conditions with water as a homogeneous Newtonian ﬂuid. In
+real-world applications such as washing machines, ﬂow conditions may
+Fig. 6 | Filtration performance of the FiF (each N = 5) based on ﬁbre share in
+permeate (brown), retentate (green), and concentrate (blue). Yield in con-
+centration ηC is indicated by the mean with error bars (black). Variations include (A)
+ﬁlter size with Small-11 (S), Medium-11 (M) and Large-11 (L) ﬁlter element, snail
+inlet and mesh size 100 μm, B angle of attack α with the small ﬁlter element, snail
+inlet and mesh size 100 μm,C mesh size with the Large-11 (left) and Small-11 (right)
+ﬁlter element and snail inlet, D inlet type (swirl, long inlet at 9° with internal wall,
+snail) with Small-11 ﬁlter element and mesh size 100 μm, and E bio-inspired surface
+structures on a Large-11ﬁlter element (100 μm mesh size) with half way hooked tape
+(L-50), full way hooked tape (L-100) and bumpy structures (L-B), and the snail inlet.
+Surface structures made from hooked tape and 3D-printing mimic teeth and bumpy
+gill rakers found in ram-feeding mackerels (Fig. 2). Please note that the experiments
+presented in E were done with a different test volume and, therefore, cannot be
+directly compared to the other results.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 7
+
+===== PDF PAGE 8 =====
+vary dynamically over time, complex 3Dvortices may occur, especially with
+the swirl and snail inlet, and theﬂuid may contain particles or exhibit non-
+uniform properties. These factors can inﬂuence localﬂow patterns,ﬁltration
+efﬁciency and fouling behaviour, which could be subject of future CFD
+analysis of the FiF.
+In the future, the cleaning process will be one of the major challenges to
+improve the FiF. Cleaning includes the reduction of theﬂuid volume in the
+concentrate, drying and disposal of r etained MPs and dirt. Therefore, it
+could be beneﬁcial to further analyse the inherent cleaning process inﬁshes
+such as whale sharks, which use back- ﬂushing43. Another advancement
+would be a sensory system that couples the cleaning intervals to the pressure
+difference across the ﬁlter medium. As more ﬁbres will accumulate in the
+ﬁlter element, the pressure difference will increase. Automatic cleaning at a
+speciﬁc pressure threshold could prevent clogging and inform the user when
+manual cleaning or replacement is required. Additionally, the FiF will have
+to be tested with mixed particles, a higher particle load to determine the dirt-
+holding holding capacity before clogging and failure, and other particle
+types, especially those that are present in washing machine ef ﬂuents, like
+textile ﬁbres from natural sources, oils, sand, dust, pollen and hair and
+detergents
+13,44. It is estimated that washing machineﬁlters must work in the
+presence of around 30 g of potential solids when using powder detergents
+and around 10 g when using liquid or gel detergents
+44. These quantities are
+relevant for the size of the ﬁlter, its ‘dirt-holding’ capacity and cleaning
+intervals31.
+When biological models are investigated, functional constraints need
+to be considered. For example, the gill arch system serves as the ﬁlter
+medium for retaining food particle s, while also being involved in gas
+exchange and ensuring a constantﬂow along the gillﬁlaments. This poses a
+trade-off, which might limit the performance of both traits 45.F o rs o l i d -
+liquid separation, Hamann and Blanke 46 identiﬁed 35 different particle
+separation mechanisms in suspension-feeders46. Even within ram-feeding
+ﬁshes—a single category among those mechanisms —a following study
+found three morphotypes just withinﬁve species19.T h i sv a r i a t i o nd e m o n -
+strates the signiﬁcant potential for developing bio-inspiredﬁlters and fur-
+ther optimising the FiF. For example, the ﬁlter elements could be more
+tailored towards a single morphotype based on characterised traits. The
+angle of attack could vary from anterior to posterior, as seen in the Atlantic
+mackerel, or the radial geometry could be modiﬁed to more closely mimic
+the upward-bending gill arches of the Atlantic pilchard and Atlantic
+herring
+19. Notably, biomimetic research is not only a means of technological
+innovation, it also contributes to a deeper understanding of the biological
+models themselves. As demonstrated in the angle-of-attack experiments
+(Fig. 1), particle shape inﬂuences rolling behaviour and deposition, a factor
+o f t e no v e r l o o k e di nm o d e l st h at assume spherical particles
+26. For instance,
+the behaviour of adult brine shrimp in contact with the ﬁlter was less
+consistent than that of other particle types (Fig. 1D ) .A tl o wa n g l e s ,p o s t -
+contact velocity occasionally exceeded pre-contact velocity (Supplementary
+Fig. 3B), suggesting a possible repulsion response47.S u c hﬁndings are both
+relevant to interpret the adaptations in biological models and optimisation
+of engineeredﬁlters to certain particle types.
+Methods
+To design and validate a self-cleaning FiF for microplastic retention, we
+conducted a series of design,ﬂow and performance tests.
+Angle of attack and particle retention experiments
+T h ew o r k i n gp r i n c i p l eo ft h eﬁlter is based on the semi-crossﬂow ﬁltration
+described in our previous study on the feeding morphology in ram-feeding
+ﬁshes19. In models for particle deposition in cross- ﬂow ﬁltration, it was
+found that the probability of particle rolling increases with increasing lateral
+crossﬂow velocity parallel to theﬁlter medium and vice versa
+26. Similarly, we
+hypothesise that a decrease in the angle of attack increases the chance of
+particle rolling. At higher angles, the crossﬂow velocity is less parallel to the
+ﬁlter medium and the force in direction of the permeate increases, which
+increases the change of particle deposition. In order to test the inﬂuence ofα
+on particle retention, an experimental setup was designed in which aﬁlter
+medium can be positioned at angles from 0° (parallel) to 90° (perpendicular)
+in increments of 10° towards the unidirectional ﬂow in a small, circular
+water tunnel (Fig.7A, B). Only angles from 10° to 60° were studied because
+this is the range measured in the micro-CT scans of the gill arch system of
+the ﬁsh (Supplementary Fig. 2). Threeﬁlter media with a mesh size of 53 μm
+(open area 40%, PES 53/40, Saati S.p.A, Italy), 100 μm (open area 44%,
+PA6.6-100/51-44, Bückmann GmbH & Co. KG, Germany), and 300 μm
+(open are 45%, 300/45/FDA, Franz Eckert GmbH) were selected, and four
+types of particles were tested: brine shrimp eggs (0.242 ± 0.019 mm) and
+adults (6.112 ± 0.993 mm) to represent natural food sources, and MP
+fragments (Polyamide, median diameter 130 μm,) and MP ﬁbres (Poly-
+amide, 2 mm length) to represent different MPs (Fig. 7C–Fa n dT a b l e2).
+The ﬂow velocity was set to around 11 cm/s, which is in a similar range of
+ﬂow velocities in washing machine outlet pipes with <0.5 m/s and particle
+velocities inside ﬁsh mouths during ﬁlter feeding with 0.2 –0.65 m/s
+19.A
+camera (Nikon D850, Macro lens Nikkor AF-S 24-120 mm 1:4 G ED) was
+positioned outside the tank to ﬁlm the particle encounter on the ﬁlter
+medium. After each rotation, the camera’s focal plane was adjusted, and the
+scale was recorded byﬁlming a ruler close to theﬁlter medium. The videos of
+the brine shrimp eggs, adults, and MPﬁbres were analysed manually with
+ImageJ (Version 2.3.0) and the manual tracking plugin. Aﬁxed point was
+selected on the particles to track their motion. Each particle that came in
+contact with the mesh was tracked wh en it entered the recorded video
+section and ended when it was out of frame. The frame in which the particles
+Fig. 7 | Experimental setup to study the interaction
+of particles and ﬁlter medium with varying angle
+of attack α.A Small circular ﬂow tank with a pump,
+honeycombs before and after the test section, and a
+holder for the ﬁlter medium. B The holder consists
+of a plate with a rotating disc, featuring 10° incre-
+ments, and a frame that holds the ﬁlter media with
+mesh sizes of 53, 100, and 300 μm, allowing the
+passage of ﬂuid through these mesh sizes. Four
+particle types were tested: C brine shrimp eggs,
+D brine shrimp adults, E MP fragments, and F MP
+ﬁbres (for particle speci ﬁcations, see Table 2).
+Scale = 1 mm.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 8
+
+===== PDF PAGE 9 =====
+touched the mesh was noted as ‘contact’. Before further analyses, the
+number of frames was reduced to a maximum of 20 frames before and after
+the contact frame. The MP fragments were semi-automatically analysed.
+Therefore, only the frame of contact and the position of the MP fragment
+within the frame were noted. Afterwards, Python (Python Software Foun-
+dation) was used to automatically track the pre-identi ﬁed particles and
+extract the particle velocity in eachframe to a maximum of 20 frames before
+and after the contact frame.
+Based on the extracted particle velocity in a maximum of 40 frames
+for all four particle types, a Boltzmann sigmoidal curve
+48 was ﬁtted to the
+data using Python (Python Software Foundation). Based on the ﬁt, the
+average velocity before contact, average velocity after contact, and R²o f
+the ﬁt were extracted for further analysis in the R programming envir-
+onment (R Core Team, R version 4.2.2, 2022). The mean of R²w a s
+calculated to compare the quality of the ﬁts of each particle type and
+describe the steadiness of particle motion (see Supplementary Fig. 3A for
+examples). A threshold value was set to 0.3 cm/s (20% of the average
+minimum velocity of all observed particles after contact with the ﬁlter
+medium) to distinguish rolling particles (>0.3 cm/s) and particles that
+stopped on the ﬁlter medium (<0.3 cm/s). The ratio of the number of
+rolling particles to all particles gives the probability of rolling for each α,
+mesh size, and particle type. Polynomial regression was ﬁtted to the data
+to describe the in ﬂuence of α on probability of rolling. Because only six
+points are available for the ﬁt, linear to cubic polynomial regression
+(degree 1 –3) was applied to prevent an over- ﬁtted high-polynomial
+regression. The Akaike ’s Information Criterion (AIC) was used to
+identify the best ﬁt
+49.
+Biological models and ﬁlter design
+The technical requirements of washing machines were matched with the
+suspension feeding mechanisms (SFMs) (Supplementary Note 1) of sus-
+pension feeders reviewed in a previous publication46 to identify analogous
+traits in biological models. The geometry should beﬂat or funnel-shaped in a
+pipe, the desired retained particle size should be 100 μm–10 mm, the driving
+force should be passive, pumping, or forward movement, and SFMs should
+work with a water velocity of >1 cm/s. Ram-feeding ﬁsh meet all those
+criteria. As proposed by Hamann et al.19,w ed eﬁne theﬁltration process with
+0° < α < 90° as semi-cross-ﬂow ﬁltration19. Similar to cross-ﬂow ﬁltration,
+the particles in semi-cross- ﬂow ﬁl t r a t i o nc a ne i t h e rb er e t a i n e do nt h e
+surface of the ﬁlter medium as retentate (MR), collected in the concentrate
+(MC), or pass the ﬁlter medium and end up in the permeate ( MP). The
+volume ﬂow is diverted into the clean permeate ( VP) and particle-loaded
+concentrate (VC)( F i g .3A).
+The basic shape of the ﬁlter element is a cone. The base of the cone
+is the ﬁsh mouth opening and was set to a diameter of 50 mm. The apex
+of the cone was designed as the concentrate outlet to resemble the
+oesophagus and has a diameter of 10 mm (Fig. 2A and Table 1).
+Depending on the ﬁlter element size, four to six curved struts, resem-
+bling the appearance of the GA, were implemented to support the ﬁlter
+mesh. The support structures of the ﬁlter element were 3D-printed
+(PolyJet multi-material 3D Printer, StrataSys J35TM Pro) with a
+Polyacrylate polymer resin (VeroUltra, StrataSys). The off-the-shelf
+ﬁlter mesh forms square meshes and mimics GR and denticles (Fig. 2).
+Across all FiF experiments, we used three different mesh sizes, i.e. 53 μm
+(open area 40%, PES 53/40, Saati S.p.A, Italy), 78 μm (open area 50%,
+PES 78/50, Saati S.p.A, Italy) and 100 μm (open area 44%, PA6.6-100/
+51-44, Bückmann GmbH & Co.KG, Germany). This is within the range
+of mesh sizes calculated for the ram-feeding ﬁsh, which ranges from
+0.007 to 0.148 mm
+2 f o rt h em e s hs i z e sw i t ha no p e na r e ao f5 1 . 8–71.4%19,
+and as recommended in studies to retain MPs ﬁbres in washing
+machines40,50.T h e ﬁlter mesh was glued inside the support structures
+using acrylic super glue.
+The hyoid bone, the short GR, denticles, and teeth form a structured
+surface in the two scombrid species (Fig. 2C). The function of these
+structures is not clear yet, but the hair and denticles might capture par-
+ticles. Alternatively, we assume that the surface structures could create
+additional turbulence to keep theﬁlter medium clean, similar to the d-type
+structure found in the American Paddle ﬁsh
+22 or dynamic cross- ﬂow
+ﬁltration51. In order to observe the in ﬂuence of surface structures and
+study their effect on the ﬁlter performance, a line with ellipsoids was
+designed, 3D-printed (PolyJet multi-material 3D Printer, StrataSys
+J35TM Pro), and glued onto the ﬁrst half of the lengthways support
+structures of theﬁltering element to mimic the short GR and hyoid bone in
+the scombrid species (Fig.2C). The teeth and denticles were mimicked by
+hooked tape (VELCRO® HTH820) consisting of rows with hooks facing
+opposite directions. In oneﬁlter element, the hooked tape was glued in the
+posterior half of theﬁlter, and in another, it was glued on the entire length
+(Fig. 2C).
+The ﬁlter housing is modular and consists of an inlet, a ﬂange, a
+transparent pipe, and an outlet (Fig. 3). The inlet leads the suspension
+towards the ﬁlter element. The brassﬂange connects the inlet, transparent
+pipe, and outlet with four stainless steel screws. A small screw in theﬂange
+to release air from the ﬁlter housing. The transparent pipe allows us to
+observe the ﬁltration process in and around the ﬁlter element and comes
+in two sizes to test different ﬁlter element lengths. The outlet features two
+separate outputs for concentrate and permeate, which are connected to
+pipes and containers. Due to the unique design of the inlet, ﬂange, and
+outlet sections, they had to be custom-made. The ﬂange was manu-
+factured in the workshop at the University of Bonn. The inlet and outlet
+were 3D-printed (PolyJet multi-material 3D Printer, StrataSys J35TM
+Pro) using a waterproof acrylate resin polymer (VeroUltra, StrataSys).
+Two automatic valves at each of the outlet pipes control the out ﬂow and
+mimic the cleaning behaviour of the ﬁsh (for the development of the test
+setup, see Supplementary Note 2). The valve at the permeate outﬂow was
+normally open (EPK-1502-NO, 24 V, Takasago, BMT Fluid Control
+Solutions GmbH), and the valve at the concentrate outﬂow was normally
+closed (EPK-1502-NC, 24 V, Takasago, BMT Fluid Control Solutions
+GmbH). Both valves were connected in parallel and adjustable with a
+custom-made control unit. During cleaning, the valve at the concentrate
+opens, and the valve at the permeate closes simultaneously. The cleaning
+interval can be set to durations between 13 and 86 s, and the cleaning
+process itself can be set to 0.6 –6.5 s.
+Table 2 | Overview of the ﬁve different test particles and ﬁbres used for the experiments in this study
+Particles Length [mm] Material Density Additional information Source/fabrication
+Brine shrimp eggs 0.242 ± 0.019 NA 1.09 g/cm 3 - University of Bonn
+Brine shrimp adults 6.112 ± 0.993 NA 1.09 g/cm 3 - Breeding by Sea Life Oberhausen
+Cotton ﬁbres 0.2 –4 Cotton, white 1.51 g/cm 3 DMT Prüfstaub Typ 8 Provided by Hengst SE
+Polyamide fragments (MP
+fragments)
+0.00002–2 Polyamide, orange 1.08 g/cm 3a see manufacturing process VESTAMID ® LX9057 orange E20081 by
+Evonik
+Flock ﬁbres (MP ﬁbres) 2 mm (dtex 3.3) Polyamide, green 1.08 g/cm 3 Dtex = 22 Borchert + Moller GmbH & Co. KG
+aThe orange polyamide polymer (VESTAMID® LX9057 orange E20081) was selected because its density is close to water and its bright colour to be able to observe the particles during the experiments. The
+polymer came in pellets and was reduced in size through a cryogenic grinding process at Fraunhofer UMSICHT, Oberhausen. The particle size distributi on in the obtained powder was characterised by a
+Malvern Mastersizer 2000 (Hydro2000S). Particle size ranges between 0.020 and 2000 with a median of around 130 µm.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 9
+
+===== PDF PAGE 10 =====
+Computational ﬂuid dynamics of ﬁlter element
+We performed CFD to investigate the stationaryﬂow behaviour in the FiF
+using COMSOL Multiphysics® (Version 6.3) and the CFD Module. The 2D
+geometry is half of the cross-section of the FiF with the Large 11ﬁlter element
+(Fig. 8A). At the inlet, a constant normal in ﬂow velocity of 0.05 m/s was
+applied. The inlet diameter is 0.02 m, resulting in a Reynolds number below
+1000 for water at 10 °C, which justiﬁes the assumption of laminarﬂow (with a
+water density of 999.7 kg/m
+3 and a dynamic viscosity of 0.001308 kg/m/s).
+The simulation assumes incompressible, laminarﬂow solving the Navier-
+Stokes equations and a pressure boundary condition (p = 0) was applied at
+the outlets (permeate and concentrate). Theﬁlter element consists of seven
+separate gaps (Gap 1–Gap 7) between the gill arch like support structures
+(Fig. 8A). Each gap was modelled as a ‘Screen’ boundary condition in
+COMSOL®,w i t has o l i d i t yσ (blocked area/total area) of 0.56 (Screen Type:
+Square mesh), which is similar to the open area of theﬁlter media used in the
+physical experiments. The solidityσ is calculated from the resistance coef-
+ﬁcient K (K =0 . 9 8 ( ( 1− σs)−2 − 1)1.09 and the refraction coefﬁcient η (η ¼ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ﬃ
+K2
+2
+/C0/C1
+þ 1
+q
+− (K/4))52. The domain was discretized using a free tetrahedral
+mesh with two boundary mesh layers on all solid surfaces (Fig.8B). We found
+no dependence of the solution (ﬂow velocity vectors at the mesh) on the mesh
+in the range from 18,000 domain elements and 1100 boundary elements up
+to 140,000 domain elements and 3800 boundary elements. Theﬁnal mesh
+consisted of approximately 42,000 elements with a maximum element size of
+1.65 mm in the main domain, and re ﬁned elements of 0.12 mm near
+boundaries (Fig.8B). Convergence criteria as well as monitoring the solution
+variables of the model was automatically ensured by the COMSOL® software
+using the default settings of the CFD module
+52. The simulation aims to
+qualitatively analyse theﬂow ﬁeld, with a particular focus on the effective
+angle of attack α(eff). This angle was measured in COMSOL® between the
+ﬁlter mesh and the ﬂow vectors of the individual streamlines relative to
+theﬁlter mesh. We tested the inﬂuence of three different operational modes if
+the ﬁlter house: (1) permeate outlet ope n and concentrate outlet closed
+(ﬁltration mode), (2) concentrate outlet open and the permeate outlet open
+(single cleaning mode), and (3) concentrate outlet open and the permeate
+outlet closed (double cleaning mode). Additionally, we tested the inﬂuence of
+an additional inner wall inside the long inlet at 9 ° to further observe the effect
+on α(eff) along theﬁlter element. The angleα(eff) along theﬁlter element was
+exported as an excelﬁle and plotted over the length of theﬁlter element using
+the R Programming Environment (R Core Team, R version 4.2.2, 2022).
+Filtration efﬁciency testing
+A test stand was built to test the FiF ’sv o l u m eﬂow and particle ﬁltration
+efﬁciency. The basic setup consists of a water reservoir (FastBrewing Starter
+Kid, 30 L Volume) with a mixer, a pipe that leads the feed (VF, MF)t o w a r d s
+the FiF, a pipe for the concentrate, a pipe for the permeate, and two
+containers to collect both fractions (Figs.9A, B and 3A). The simple setup
+reduces dust and dirt from inﬂuencing mass fraction measurements (Sup-
+plementary Notes 2 and 3) and has steadyﬂow conditions. The volumeﬂow
+will naturally decrease due to the decr ease of hydrostatic pressure. Pre-
+liminary experiments were performed to test, optimise and measure volume
+ﬂow through the test stand (Supplementary Note 2). During these experi-
+ments, we observed that cotton ﬁbres would lead to a higher chance of
+clogging and that the MP fragments had a very low recovery ratio. We
+observed that MP fragments adhered to the inner surface of the reservoir,
+which could be one reason for the low recovery ratio. Therefore, we pro-
+ceeded with MPﬁbres only and added liquid detergent to increase MPﬁbre
+suspension, which had no inﬂuence on the analytical procedure (Supple-
+mentary Note 3).
+In a ﬁrst set of experiments, the Large-11ﬁlter element was compared
+to the dead-end ﬁlter element (DE) with the sameﬁltration area (Table1).
+The dead-end ﬁlter element has a cylindrical shape with α of 0°, which
+resembles the cartridgeﬁlter design of a commercial washing machineﬁlter
+(Fig. 5C). It is closed at the end, so the retentate cannot be removed through
+the concentrate out ﬂow during ﬁltration. Both were equipped with a
+commercialﬁlter medium from Polyamide 6.6 with a mesh size of 100 μm
+and an open area ratio of 44% (Bückmann PA6.6-100/51-44). The ﬁlter
+mesh is temperature-resistant up to 140–180 °C and stable in soapy water.
+To test the in ﬂuence of surface structures as observed in ram-feeding
+m a c k e r e l si np r e v i o u ss t u d i e sb yt h ea u t h o r s ,t h es a m eL a r g e - 1 1ﬁlter ele-
+ments were equipped with hooked tape 50% of the length of the support
+structures (L-50), 100% of the support structures (L-100) and with 3D
+printed bumps of 50% of the support structures (L-B) (Fig.2). Before each
+trial, the valves were closed, the FiF wasﬁlled with clean water and de-aired,
+and 0.625 g of MPﬁbres, 5 ml of liquid detergent were mixed in 25 l of clean
+w a t e ri nt h ew a t e rr e s e r v o i r .T h ev a l v ei nt h ep e r m e a t ep i p ew a so p e n e dt o
+start the experiment. Cleaning was automatically set when 10 and 20 l
+passed the FiF. After the second cleaning when the valves were closed again,
+the experiment was stopped. The test stand and FiF were rinsed with clean
+water between each trial. The order of the experiments was chosen at ran-
+dom and each test condition was replicatedﬁve times (n =5 ) .
+In a second set of experiments, several factors were changed to
+investigate their effectsﬁltration performance for the application in washing
+machines (Supplementary Note 1). To test the FiF ’s performance and
+understand the effects, only one factor was changed at a time. Overall, we
+tested the in ﬂuence of three different ﬁlter element length with α = 11°
+(Small-11, Medium-11, Large-11, Table1), of α in the small ﬁlter element
+with α = 11° andα = 22° (Small-11, Small-22), of three different inlets (long,
+snail and swirl), and of three different mesh sizes with 53, 78 and 100 μm in
+the Large-11 and with 53 and 100 μm in the Small-11ﬁlter element. Before
+each trial, the valves were closed, the FiF wasﬁlled with clean water and de-
+aired, and 0.5 g of MPﬁbres, 5 ml of liquid detergent were mixed in 20 l of
+Fig. 8 | Virtual setup for the computational ﬂuid
+dynamics (CFD) study of the FiF. A The 2D geo-
+metry was based on a FiF with the Large-11 ﬁlter
+element and the long inlet tapered at 9°. The inlet
+was modelled with and without inner wall (indicated
+by yellow line). The cross section of theﬁlter element
+led to seven gaps between the support structures
+(Gap 1–Gap 7). The ﬁlter mesh at the gaps was
+modelled with the COMSOL ® inbuilt screen func-
+tion (indicated by dashed orange lines). The direc-
+tion of the ﬂow is indicated by the blue arrow. B The
+free tetrahedral mesh is extra ﬁne at the ﬁlter ele-
+ment and has two boundary mesh layers on all solid
+surfaces.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 10
+
+===== PDF PAGE 11 =====
+clean water in the water reservoir. The valve in the permeate pipe was
+opened to start the experiment. Cleaning was automatically set when 5 and
+10 l passed the FiF. Note that the second set of experiments used a smaller
+feed volume. After the second cleaning, when the valves were closed again,
+the experiment was stopped. The test stand and FiF were rinsed with clean
+water between each trial. The order of the experiments was chosen ran-
+domly, and a total of ﬁve trials per combination were tested.
+Three ﬂuid volume (V) and mass (M) samples were taken after each
+trial: (1) the total volume of the concentrate (V
+C and MC), (2) one litter of the
+permeate (VP and MP), and (3) all the MP ﬁbres that remained within
+theﬁlter, i.e. the retentate (MR) re-suspended in a maximum of one litter. The
+MP ﬁbre mass fractions were separated from the water using a suctionﬁlter
+(Nalgene Reusable Bottle Top Filter) with round ﬁltering papers (ROTI-
+LABO Type 11 A, ø 45 mm, retention range 12–15 μm) and a vacuum pump
+(Vaccubrand MZ 2 C, 1.7 m³/h = 28.3 l/min). Prior to the vacuumﬁltration,
+the ﬁltering papers were labelled, dr ied in a heating cabinet (minimum
+30 min), cooled down in a desiccator (minimum 30 min), and weighted with
+a precision scale (Sartorius ED153-CW, weighing capacity 150 g, readability
+0,001 g, repeatability (std. deviation)≤ ±0.001 g). After the samples were
+poured onto the suctionﬁlter, the bottle, bottle cap, and walls of the suction
+ﬁlter were rinsed with deionized water, so all MPﬁbres were collected on the
+ﬁltering paper. Afterwards, theﬁltering papers with the MPﬁbres (Fig.9C)
+were dried in a heating cabinet and a desiccator and weighed again. The
+weight difference determined theﬁbre mass fraction of each sample. The
+samples of the permeate were thereby multiplied by the totalﬁltered volume
+minus the volume in the concentrate to account for the subsample taken
+from the total permeate volume.
+Contamination controls
+To test the lab contamination and the scale’s accuracy, three control samples
+of 1000 ml of clean tap water were analysed using the same analytical
+p r o c e d u r ea n dw e i g h e dt h r e et i m e s .T h ew e i g h td i f f e r e n c eo ft h eﬁlter
+papers without experimental samples are 0.00107, 0.00010, and 0.00010 g.
+Additionally, we ran three blank trials after rinsing the test stand and
+without adding MPﬁbres to determine the contamination of the test stand
+and the inﬂuence of previous trials. The weight difference of theﬁlter papers
+with the blank samples are 0.00082, −0.00029 and −0.00059 g for the
+concentrate samples and −0.00667, −0.01148 and −0.01574 g for the
+permeate samples. Due to these differences in the permeate samples, all
+results are rounded to two decimal places. Additionally, when the weight
+difference of permeate samples were negative (difference of ﬁlter paper
+before and after experiments) but within ±0.01 g, they were changed to
+0.00 g as we assume that contamination had an in ﬂuence. We changed a
+total of nine negative values to 0.00.
+Performance metrics
+The different FiF combinations were evaluated based on a set of established
+ﬁltration performance metrics. The main goal of solid-liquid ﬁlters is to
+separate solid particles from aﬂuid and is usually expressed as theﬁltration
+efﬁciency. The ﬁltration efﬁciency is the ratio of upstream particle con-
+centration to the downstream particle concentration of the ﬁlter medium
+and is expressed in per cent31.
+We calculated two ﬁltration efﬁciencies to account for the three dif-
+ferent MPﬁbre mass fractions of the FiF.ER is the share of MPﬁbres that are
+retained in the ﬁltration system, i.e. the concentrate and retentate (Eq.1),
+which can also be expressed as the su btraction of the share found in the
+permeate and is a typical performance criterion forﬁlters, also forﬁlters in
+washing machines40. If all particles were retained within theﬁlter and none
+were lost to the permeate,ER would be 100%.
+ER ¼ MC þ MR
+MCþPþR
+/C18/C19
+/C3 100 ¼ 1 /C0 MP
+MCþPþR
+/C18/C19/C18/C19
+/C3 100 ð1Þ
+with ER = Filtration efﬁciency in concentrate and retentate, MC =P a r t i c l e
+mass in concentrate [g],MP =P a r t i c l em a s si np e r m e a t e[ g ] ,MR =P a r t i c l e
+mass in retentate [g].
+The otherﬁltration efﬁciency parameter isEC, which is the share of MP
+ﬁbres that is retained in the concentrate (Eq. 2). EC should be as high as
+possible because the FiF is designed to accumulate most of the MPﬁbres in
+the concentrate to avoid clogging.
+EC ¼ MC
+MCþPþR
+/C18/C19
+/C3 100 ð2Þ
+EC = Filtration efﬁciency in concentrate,MC = Particle mass in concentrate
+[g], MP = Particle mass in permeate [g],MR = Particle mass in retentate [g].
+The concentrating factorX is the ratio of the feed volume in the water
+reservoir to theﬂu i dv o l u m ec o l l e c t e di nt h ec o n c e n t r a t e( E q .3). The aim is
+to keep the concentrating factor as high as possible so that post- ﬁltration
+treatment of the concentrate is kept minimal.
+X ¼ VF
+VC
+/C18/C19
+ð3Þ
+with X = Concentrating factor, VF = Feed volume [l], VC = Concentrate
+volume [l].
+Because the FiF is similar to a cross-ﬂow ﬁlter, the performance is also
+described as the yield in concentrateηC. This parameter combines the MP
+ﬁb r em a s si nt h ec o n c e n t r a t eER and the concentrating factor X as is
+Fig. 9 | Design of the test stand to measure ﬁlter
+performance. A The test stand consists of a water
+reservoir with a mixer, the ﬁlter housing with a de-
+airing option, and two containers to collect the
+permeate and concentrate. B The ﬁlter housing
+allows for testing of different ﬁlter elements. A
+manual valve enables regulating the inﬂow, and two
+automatic valves regulate the out ﬂow and cleaning
+of the ﬁlter element. C After each experiment, three
+MP ﬁbre fractions (green) were analysed: MP ﬁbres
+collected in the concentrate (top), MP ﬁbres col-
+lected in the permeate (middle), and MP ﬁbres
+retained in the ﬁlter element, the retentate (bottom).
+For details of the test procedure, see Supplementary
+Notes 2 and 3.
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 11
+
+===== PDF PAGE 12 =====
+expressed in percent (Eq.4). The function is nonlinear and increases sharply
+as ER approaches 100%. A high value indicates a good-performing cross-
+ﬂow ﬁlter.
+ηC ¼ XðER /C0 100Þ /C3 100 ð4Þ
+with ηC = Yield in concentrate [%], X = Concentrating factor,
+ER = Filtration efﬁciency.
+The volume ﬂow rate was determined as part of the preliminary
+experiments and is described in the Supplementary Material (Supplemen-
+tary Note 2 and Supplementary Fig. 5).
+All data were analysed in the R Programming Environment (R Core
+Team, R version 4.2.2, 2022) and visualised using the ggplot2 package53.W e
+report mean values with standard deviation in the text. The experimental
+studies conducted served to elucidate theﬁlter mechanism. More and dif-
+ferently designed experimental data would be needed for a comprehensive
+statistical analysis. The available data for the ﬁlter performance were
+therefore primarily evaluated qualitatively. All ﬁgures were laid out with
+Scribus (Version 1.5.8).
+Data availability
+All data is available in the main text or the supplementary materials.
+Received: 7 July 2025; Accepted: 20 October 2025;
+References
+1. Triebskorn, R. et al. Relevance of nano- and microplastics for
+freshwater ecosystems: a critical review. TrAC 110, 375–392 (2019).
+2. Chia, R. W., Lee, J. Y., Kim, H. & Jang, J. Microplastic pollution in soil
+and groundwater: a review.Environ. Chem. Lett.19,4 2 1 1–4224 (2021).
+3. Evangeliou, N. et al. Atmospheric transport is a major pathway of
+microplastics to remote regions. Nat. Commun. 11, 3381 (2020).
+4. Gkoutselis, G. et al. Microplastics accumulate fungal pathogens in
+terrestrial ecosystems. Sci. Rep. 11,1 –13 (2021).
+5. Yin, L. et al. Interactions between microplastics/nanoplastics and
+vascular plants. Environ. Pollut. 290, 117999 (2021).
+6. Nelms, S. E., Galloway, T. S., Godley, B. J., Jarvis, D. S. & Lindeque, P.
+K. Investigating microplastic trophic transfer in marine top predators.
+Environ. Pollut. 238, 999–1007 (2018).
+7. Zhao, B. et al. Science of the total environment the potential toxicity of
+microplastics on human health.Sci. Total Environ.912, 168946 (2024).
+8. Rochman, C. M. et al. Rethinking microplastics as a diverse
+contaminant suite. Environ. Toxicol. Chem. 38, 703–711 (2019).
+9. Steensgaard, I. M. et al. From macro- to microplastics - Analysis of EU
+regulation along the life cycle of plastic bags. Environ. Pollut. 224,
+289–299 (2017).
+10. Munhoz, D. R., Harkes, P., Beriot, N., Larreta, J. & Basurko, O. C.
+Microplastics: a review of policies and responses. Microplastics 2,
+1–26 (2022).
+11. Auta, H. S., Emenike, C. U. & Fauziah, S. H. Distribution and
+importance of microplastics in the marine environment: a review of the
+sources, fate, effects, and potential solutions. Environ. Int. 102,
+165–176 (2017).
+12. Clausen, L. P. W., Hansen, O. F. H., Oturai, N. B., Syberg, K. & Hansen,
+S. F. Stakeholder analysis with regard to a recent European restriction
+proposal on microplastics. PLoS ONE 15, e0235062 (2020).
+13. Zhang, Y.-Q. et al. Microplastics from textile origin – emission and
+reduction measures. Green Chem. 23, 5247–5271 (2021).
+14. Boucher, J. & Friot, D. Primary Microplastics in the Oceans: A Global
+Evaluation of Sources. https://www.iucn.org/content/primary-
+microplastics-oceans (2017).
+15. Sherrington, C., Darrah, C., Hann, S., Cole, G. & Corbin, M. Study to
+support the development of measures to combat a range of marine
+litter sources. Report for European Commission DG Environment.
+429,1 –432 (2016).
+16. Masselter, T. et al. Improvement of a micro ﬁber ﬁlter for domestic
+washing machines. Bioinspir. Biomim. 18, 016017 (2023).
+17. Iyare, P. U., Ouki, S. K. & Bond, T. Microplastics removal in wastewater
+treatment plants: a critical review. Environ. Sci. Process. Impacts 6,
+2664–2675 (2020).
+18. Gao, D., Li, X. & Liu, H. Source, occurrence, migration and potential
+environmental risk of microplastics in sewage sludge and during
+sludge amendment to soil. Sci. Total Environ. 742, 140355 (2020).
+1 9 . H a m a n n ,L .e ta l .D i v e r s i t yo fﬁlter feeding and variations in cross-ﬂow
+ﬁltration of ﬁve ram-feeding ﬁsh species. Front. Mar. Sci. 10,1 –21
+(2023).
+20. Sanderson, S. L. L., Cheer, A. Y. A. Y., Goodrich, J. S. J. S., Graziano,
+J. D. J. D. & Callan, W. T. T. Crossﬂow ﬁltration in suspension-feeding
+ﬁshes. Nature 412, 439–441 (2001).
+21. Sanderson, S. L. et al. Mucus entrapment of particles by a
+suspension-feeding tilapia (Pisces: Cichlidae). J. Exp. Biol. 199,
+1743–1756 (1996).
+22. Brooks, H., Haines, G. E., Lin, M. C. & Sanderson, S. L. Physical
+modeling of vortical cross-step ﬂow in the American paddle ﬁsh,
+Polyodon spathula. PLoS ONE 13, e0193874 (2018).
+23. Sanderson, S. L., Roberts, E., Lineburg, J. & Brooks, H. Fish mouths
+as engineering structures for vortical cross-step ﬁltration. Nat.
+Commun. 7, 11092 (2016).
+24. Storm, T. J., Nolan, K. E., Roberts, E. M. & Sanderson, S. L.
+Oropharyngeal morphology related to ﬁltration mechanisms in
+suspension-feeding American shad (Clupeidae). J. Exp. Zool. Part A
+Ecol. Integr. Physiol. 333, 493–510 (2020).
+25. Paig-Tran, E. W. M. W. M., Bizzarro, J. J. J. J., Strother, J. A. J. A. &
+Summers, A. P. A. P. Bottles as models: predicting the effects of
+varying swimming speed and morphology on size selectivity and
+ﬁltering efﬁciency in ﬁshes. J. Exp. Biol. 214, 1643–
+1654 (2011).
+26. Di, H., Martin, G. J. O. & Dunstan, D. E. Characterization of particle
+deposition during crossﬂow ﬁltration as inﬂuenced by permeate ﬂux
+and crossﬂow velocity using a micro ﬂuidic ﬁltration system. Front.
+Chem. Sci. Eng. 15, 552–561 (2021).
+27. Richardsons, J. F., Harker, J. H. & Backhurst, J. R. Coulson and
+Richardson’s Chemical Engingeering: Particle Technology and
+Separation Processes Vol. 2 (Butterworth-Heinemann, 2002).
+28. Scholz, W. & Lucas, M. Techno-economic evaluation of membrane
+ﬁltration for the recovery and re-use of tanning chemicals. Water Res.
+37, 1859–1867 (2003).
+29. Kowalska, I., Kabsch-Korbutowicz, M., Majewska-Nowak, K. &
+Pietraszek, M. Removal of detergents from industrial wastewater in
+ultraﬁltration process. Environ. Prot. Eng. 31, 207–219 (2005).
+30. Żyłła, R., Foszpańczyk, M., Olak-Kucharczyk, M., Marsza łek, J. &
+Ledakowicz, S. Removal of organic compounds with an amino group
+during the nanoﬁltration process. Membranes 12,1 –14 (2022).
+31. Sutherland, K. Filters and Filtration Handbook (Elsevier, 2008).
+32. Piedrahita, R. H. & Hung, T. C. Cross ﬂow ﬁltration particle separator.
+The Patent number is US 2015/0143784 A1. The Regents of the
+University of California USA (2015).
+33. Hung, T. & Piedrahita, R. H. Experimental validation of a novel bio-
+inspired particle separator. Aquac. Eng. 58,1 1–19 (2014).
+34. Divi, R. V., Strother, J. A. & Paig-Tran, E. W. M. Manta rays feed using
+ricochet separation, a novel nonclogging ﬁltration mechanism. Sci.
+Adv. 4, eaat9533 (2018).
+35. Li, Z., Tan, C. M., Tio, W., Ang, J. & Sun, D. D. Manta ray gill inspired
+radially distributed nanoﬁbrous membrane for efﬁcient and continuous
+oil–water separation.Environ. Sci. Nano 5
+, 1466–1472 (2018).
+36. Zhang, X. et al. Biomimetic gill-inspired membranes with direct-
+through micropores for water remediation by ef ﬁciently removing
+microplastic particles. Chem. Eng. J. 434, 134758 (2022).
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 12
+
+===== PDF PAGE 13 =====
+37. Tsai, C., Hwu, C. & Wei, Y. Biomimetic fuel ﬁltration for air vehicles
+based on Ricochet separation inspired by manta rays. Sep. Purif.
+Technol. 371, 133331 (2025).
+38. Schroeder, A., Marshall, L., Trease, B., Becker, A. & Sanderson, S. L.
+L. Development of helical, ﬁsh-inspired cross-step ﬁlter for collecting
+harmful algae. Bioinspir. Biomim. 14, 056008 (2019).
+39. Ramasamy, R., Nallendiran, L. & Subramanian, R. B. Microﬁber ﬁlters for
+laundry: a systematic review of effectiveness and future research
+directions for pollution mitigation.Water Air Soil Pollut.236,1 –24 (2025).
+40. Browne, M. A., Ros, M. & Johnston, E. L. Pore-size and polymer affect
+the ability of ﬁlters for washing-machines to reduce domestic
+emissions of ﬁbres to sewage. 1 –17 https://doi.org/10.1371/journal.
+pone.0234248 (2020).
+41. McIlwraith, H. K. et al. Capturing micro ﬁbers – marketed technologies
+reduce microﬁber emissions from washing machines. Mar. Pollut.
+Bull. 139,4 0–45 (2019).
+42. Hernandez, E., Nowack, B. & Mitrano, D. M. Polyester textiles as a
+source of microplastics from households: a mechanistic study to
+understand microﬁber release during washing. Environ. Sci. Technol.
+51, 7036–7046 (2017).
+43. Motta, P. J. et al. Feeding anatomy, ﬁlter-feeding rate, and diet of
+whale sharks Rhincodon typus during surface ramﬁlter feeding off the
+Yucatan Peninsula, Mexico. Zoology 113, 199–212 (2010).
+44. Schöpel, B. & Stamminger, R. A comprehensive literature study on
+microﬁbres from washing machines. Tenside Surfactants Deterg. 56,
+94–104 (2019).
+45. Broeckhoven, C. & du Plessis, A. Escaping the labyrinth of
+bioinspiration: biodiversity as key to successful product innovation.
+Adv. Funct. Mater. 2110235,1 –8 (2022).
+46. Hamann, L. & Blanke, A. Suspension feeders: diversity, principles of
+particle separation and biomimetic potential. J. R. Soc. Interface 19,
+20210741 (2022).
+47. Rashid, M. T. et al. Artemia swarm dynamics and path tracking.
+555–
+563 https://doi.org/10.1007/s11071-011-0237-6 (2012).
+48. Motulsky, H. & Christopoulos, A. Fitting Models to Biological Data using
+Linear and Nonlinear Regression. (GraphPad Software Inc., 2003).
+49. Burnham, K. P. & Anderson, D. R. Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. (Springer New
+York, 2002).
+50. De Falco, F. et al. Development and performance evaluation of a
+ﬁltration system for washing machines to reduce microﬁber release in
+wastewater. Water Air Soil Pollut . 232, 406 (2021).
+51. Bott, R., Langeloh, T. & Ehrfeld, E. Dynamic cross ﬂow ﬁltration. Chem.
+Eng. J. 80, 245–249 (2000).
+52. COMSOL Multiphysics ®. CFD Module User ’s Guide. 710 at (2024).
+53. Wickham, H. ggplot2: Elegant Graphics for Data Analysis . (Springer
+International Publishing, 2016).
+Acknowledgements
+We thank Dr. Ilka Gehrke and Jan Blömer from Fraunhofer UMSICHT,
+Oberhausen, for discussing the experimental setup and results with us. We
+thank the R&D engineers from Hengst SE for sharing their knowledge and
+experience of testing microplasticﬁlters in a lab environment. LH and AB
+were supported by the European Research Council (ERC) under the
+European Union’s Horizon 2020 research and innovation program (grant
+agreement no. 754290). CR, HH, KS and CG were supported by the Federal
+Ministry of Education and Research (BMBF) under the program
+"Ideenwettbewerb Biologisierung der Technik" (grant agreement no.
+13XP5164A) awarded to A.B. and Dr. Gehrke.
+Author contributions
+L.H., A.B., H.H., C.G. and C.R. planned and conceptualised the study. L.H.,
+H.H., C.R. and C.G. developed the methodology. L.H., K.S., H.H. and C.R.
+performed and analysed the physical experiments. CG and HH performed
+and analysed the numerical experiments. L.H., H.H., C.R. and C.G.
+visualised the data and L.H. prepared all ﬁnal ﬁgures. L.H. and A.B.
+performed project supervision. L.H. wrote the main manuscript text. All
+authors reviewed and edited the manuscript.
+Competing interests
+A patent for the new ﬁsh-inspired ﬁlter was ﬁled at the German Patent and
+Trade Mark Ofﬁce in March 2023 (Germany: DE102023001223A1 granted,
+World: WO002024199585A1 pending). Otherwise, the authors declare that
+they have no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s44454-025-00020-2.
+Correspondenceand requests for materials should be addressed to
+Leandra Hamann.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article ’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted
+by statutory regulation or exceeds the permitted use, you will need to
+obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/
+.
+© The Author(s) 2025
+https://doi.org/10.1038/s44454-025-00020-2 Article
+npj Emerging Contaminants |            (2025) 1:18 13

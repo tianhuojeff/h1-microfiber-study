@@ -1,0 +1,9 @@
+{
+  "publications": 16,
+  "families": 14,
+  "nodes": 16,
+  "undirected_edges": 5,
+  "density": 0.041666666666666664,
+  "normalization": "one national representative per family; original applicant dd only; no unproven corporate grouping",
+  "excluded_citation_fields": true
+}

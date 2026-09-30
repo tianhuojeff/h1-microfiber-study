@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>经典问答</title>
+<link type="text/css" href="./template/12/images/hanweb.css" rel="stylesheet"/>
+<link type="text/css" href="./template/12/images/jact_style.css" rel="stylesheet"/>
+<script type="text/ecmascript" src="./template/12/images/jquery.min.js"></script>
+<script type="text/javascript" src="/jact/ui/widgets/cookie/jquery.cookie.js"></script>
+<script type="text/javascript" src="../resources/security/crypto-js.js"></script>
+<script type="text/javascript" src="../resources/security/sm2.js"></script>
+<script type="text/javascript" src="../resources/security/sm2_util.js"></script>
+<script type="text/javascript" src="/jact/ui/widgets/My97DatePicker/WdatePicker.js"></script>
+<script language="javascript">
+	//办件查询
+	function frm_querysubmit() {
+		var form2 = document.getElementById("form2");
+		if (form2.mailnumber.value.length == 0) {
+			alert("办件编号不能为空");
+			document.form2.mailnumber.focus();
+			return;
+		}
+		if (form2.querycode.value.length == 0) {
+			alert("查询码不能为空");
+			document.form2.querycode.focus();
+			return;
+		}
+		var cxcode=document.getElementById("cxcode");
+		if(cxcode.value.length == 0){
+			alert("验证码不能为空");
+			document.form2.cxcode.focus();
+			return;
+		}
+		document.getElementById("querycode").value = RSAencode(form2.querycode.value);
+		form2.submit();
+	}
+</script>
+</head>
+<body style="height:100%",>
+	<input type="hidden" autocomplete="off" name="sysname" id="sysname" value="专利文献咨询"/>
+	<!--head start-->
+    <script src="https://www.cnipa.gov.cn/script/0/2008251020139547.js"></script>
+    <script src="https://www.cnipa.gov.cn/script/0/2004271304216521.js"></script>
+    <!--head over-->
+<div class="postion">
+      <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td style="line-height:40px">当前位置：<a href="https://www.cnipa.gov.cn" class="bt_link">首页</a></td><td><table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td>><a href="https://www.cnipa.gov.cn/col/col60/index.html" class="bt_link">互动</a></td><td>><a href="/jact/front/mailwrite.do?sysid=12" class="bt_link">专利文献咨询</a></td>
+</tr></tbody></table></td></tr></tbody></table>
+</div>
+	<!--head over-->
+	
+	<!--main start-->
+	<div class="jact_box_blue"><!--修改后缀red为blue-->
+		<div class="jact_left bt-left">
+        <div class="content-left">
+            <p class="tit"><img src="https://www.cnipa.gov.cn/picture/1/2004291011125961111.png" alt=""> 专利文献咨询</p>
+            <div class="jact_left_box_01">
+            <ul>    
+                <li style="{col_mailpublist}"><a href="mailpublist.do?sysid=12">已答问题</a></li>
+                <li style="{col_comquestionlist}" class="on"><a href="comquestionlist.do?sysid=12">经典问答</a></li>                
+                <li style="{col_comquestionlist}"><a href="mailwrite.do?sysid=12">咨询问题</a></li>
+             </ul>
+            </div>
+            <div class="zxts">
+                <h3>咨询提示</h3>
+                <p>为更加快速、有效地为您提供咨询服务，建议您按照以下流程进行咨询：</p>
+                <div class="zxts_submit"><img src="https://www.cnipa.gov.cn/picture/1/2005121455485071093.jpg" /></div>
+                <h3>留言须知</h3>
+                <div class="zxts_submit">
+                    <p>一、公众留言时，须遵守国家相关法律法规，并承担一切因留言行为而直接或间接引起的法律责任； </p>
+                    <p>二、不得发表造谣、诽谤他人的言论以及未经证实的消息；</p> 
+                    <p>三、请勿发表任何形式的广告，企业推广产品或服务信息；</p> 
+                    <p>四、公众须留下真实有效的信息以便需要时我们与您联系； </p>
+                    <p>五、本咨询台拥有发布、编辑、删除留言的权利，凡不符合本须知规定的留言将不予回复； </p>
+                    <p>六、凡在本咨询台留言，即表明已阅读并接受了上述各项条款。 </p>
+                </div>
+            </div>
+        </div>
+
+<div style="display:none;">
+    	<div class="jact_left_title jact_left_change"><span>专利文献咨询</span></div>
+    	<!--one start-->
+        <div class="jact_left_box_01">
+			<ul>    
+                <li style="{col_main}" ><a href="main.do?sysid=12">收信单位</a></li>
+	            <li style="{col_mailpublist}"><a href="mailpublist.do?sysid=12">答复列表</a></li>
+	            <li style="{col_maillist}"><a href="maillist.do?sysid=12">我的办件</a></li>
+	            <li style="{col_mailhotlist}"><a href="mailhotlist.do?sysid=12">热点问题</a></li>
+	            <li style="{col_comquestionlist}"><a href="comquestionlist.do?sysid=12">常见问题</a></li>
+	            <li style="{col_mailstat}"><a href="mailstat.do?sysid=12">办理统计</a></li>
+            </ul>
+        </div>
+        <!--one over-->
+        <!--two start-->
+        <form id="form2" action="maildetail.do?sysid=12" name="form2"
+					method="post" target="_blank" >
+	        <div class="jact_left_box_02">
+				<div class="jact_base_title"><span>我的办件查询</span></div>
+	            <div class="jact_base_from">
+	            	<span class="name">办件编号</span>
+	                <span class="text">
+	                <label for="textfield"></label>
+	                <input class="jact_text_01" type="text" name="mailnumber" id="mailnumber" />
+	                </span>
+	                <span class="name bt-margin-top-10">查询码</span>
+	                <span class="text"><input class="jact_text_01" type="password" name="querycode" id="querycode" /></span>
+	                 <span class="name bt-margin-top-10">验证码</span>
+		               	<span class="text"><input  class="jact_text_01" style=" width: 80px;{tpl_registercodedisplay}" 
+								 type="text" name="cxcode" value="" id="cxcode" />  
+								 <img src="../verifyCode.do" 
+									onclick="this.src='../verifyCode.do?random=' + Math.random();"
+									title="如果看不清数字，请点图片刷新验证码" style="cursor: pointer" width="80"
+									height="30"/></span>
+	                <span class="bnt bt-margin-top-15"><input name="" type="button" class="jact_bnt_01" value="搜索" onclick="frm_querysubmit();"/></span>
+	            </div>
+	        </div>
+        </form>
+        <!--two over-->
+        <!--three start-->
+        <form id="form1" action="comquestionlist.do?sysid=12" name="form1" method="post" namespace="/front">
+	        <div class="jact_left_box_03">
+				<div class="jact_base_title">
+	            	<span class="bt-left">经典问答查询</span>
+	                <div class="show_01"> </div>
+	            </div>
+	            <div class="jact_base_from open_01">
+	            	<span class="name">问题标题</span>
+	                <span class="text">
+	                <label for="textfield"></label>
+	                <input class="jact_text_01" type="text" name="highcomtitle" id="highcomtitle" />
+	                </span>
+	                <span class="name bt-margin-top-10">问题类别</span>
+	                <span class="text"><select name="highcomtype"
+							style="width: 142px;color:#333">{tpl_typelist}</select></span>
+	                <span class="name bt-margin-top-10">按时间</span>
+	                <span class="text"><input class="jact_text_01" type="text" name="starttime" id="starttime" onclick="WdatePicker({maxDate:'#F{$dp.$D(\'endtime\')}'});" /></span>
+	                <span class="name bt-margin-top-10">至</span>
+	                <span class="text"><input class="jact_text_01" type="text" name="endtime" id="endtime" onclick="WdatePicker({minDate:'#F{$dp.$D(\'starttime\')}'});" /></span>
+	                <span class="bnt bt-margin-top-15">
+	                <input type="button" class="jact_bnt_01" value="搜索" onclick="form1.submit();"/></span>
+	            </div>
+	        </div>
+	    </form>
+        <!--three over-->
+        <!--four start-->
+        <!--four over-->
+    </div>
+    </div>
+	    
+    <div class="jact_main bt-right">
+
+        <div class="jact_box">
+        	<div class="jact_box_title_02"><span>详细信息</span></div>
+            <div class="jact_box_font" style=" padding:13px 0;">
+				<table  width="100%" border="1" align="center" cellpadding="0" cellspacing="0" class="abc">
+					<tr>
+						<td align="right" class="td_width_02" width="10%">标题</td>
+                     	<td colspan="3"  align="left" class="td_width" style="padding-left:10px;">如何查询中国专利的法律状态？</td>
+					</tr>
+					<tr>
+						<td align="right" class="td_width_02">内容</td>
+                     	<td colspan="3"  align="left" class="td_width" style="padding-left:10px;">如何查询中国专利的法律状态？</td>
+					</tr>
+					<tr>
+						<td align="right" class="td_width_02" valign="top">回复</td>
+                     	<td colspan="3" align="left" class="td_width" style="padding-left:10px;"><DIV> 答：查询该专利合法性和权属等可在国家知识产权局网站上进行检索，或者到国家知识产权局专利局受理大厅办理专利登记簿副本。<br>&nbsp;&nbsp;&nbsp;&nbsp;      网站检索的方法为：进入国家知识产权局网站主页，点击右下角的“法律状态查询”链接，进入检索页面后在“申请（专利）号”入口输入号码，点击确定即可。<br>&nbsp;&nbsp;&nbsp;&nbsp;      应注意：由于专利申请（专利）的法律状态发生变化时，专利公报的公布及检索系统登录信息必然存在滞后性的原因，该检索系统的法律状态信息仅供参考，即时准确的法律状态信息应以国家知识产权局出具的专利登记簿记载的内容为准，须到国家知识产权局办理专利登记簿副本。<br>&nbsp;&nbsp;&nbsp;&nbsp;<BR></DIV></DIV></td>
+					</tr>
+				</table>
+            </div>
+        </div>
+	</div>
+    <div class="bt-clear"><!--华丽的分割线--></div>
+	</div>
+	<!--main over-->
+
+	<!--footer start-->
+<script type="text/javascript" src="https://www.cnipa.gov.cn/script/0/2004271304217710.js"></script>
+	<!--footer over-->
+</body>
+</html>
+<style>
+.jact_box_red, .jact_box_blue{ width:1200px; background:#FFF; padding:15px 30px; margin-bottom:20px; box-shadow: #e6e6e6 0px 0px 15px; -webkit-box-shadow: #e6e6e6 0px 0px 15px;}
+.jact_left{ width:260px;}
+.w1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content{
+    overflow: hidden;
+    padding: 20px 48px 29px 23px;
+    border:1px solid #fbfcfd;box-shadow: #e6e6e6 0px 0px 15px;-webkit-box-shadow:#e6e6e6 0px 0px 15px;
+    background:#fff;
+}
+.content-left{
+    width: 260px;
+    height: auto;
+    border: solid 1px #eeeeee;
+    float: left;
+}
+.tit{
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: #265b97;
+    border-bottom: solid 1px #eeeeee;
+}
+.tit img{
+    margin-top: -3px;
+}
+.content-list{
+    padding: 20px;
+}
+.content-list li{
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.content-right{
+    width: 823px;
+    float: right;
+}
+.biaoti span{
+    width: 140px;
+    text-align: center;
+    height: 20px;
+    color: #265b97;
+    display: inline-block;
+    margin-bottom: 30px;
+  font-size:20px;
+}
+.main-txt{
+    margin-bottom: 28px;
+}
+
+.content-left .content-list .active{
+    background: #0f4581;
+    color: #fff;
+}
+.hide{
+    display: none;
+}
+.postion {
+    width: 1200px;
+    height: 41px;
+    line-height: 41px;
+    font-size: 16px;
+    color: #666;
+    margin: 10px auto;
+    padding-left: 45px;
+    box-shadow: #e6e6e6 0px 0px 15px;
+    -webkit-box-shadow: #e6e6e6 0px 0px 15px;
+    border: #fbfcfd 1px solid;
+}
+.postion a{
+  font-size:16px
+}
+.must_table{
+    border:none
+}
+.must_table tr{
+  border:none;
+  margin-bottom: 30px;
+  line-height:36px;
+    display: block;
+    min-height: 68px;
+}
+.jact_text_04, .jact_text_05, .jact_text_06 {
+  background:none
+}
+.jact_text_05 {
+    width: 360px;
+    border: 1px solid #d7d7d7;
+    height: 36px;
+    border-radius: 6px;
+}
+.form_01b font {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.must_table .must-verifycode{ background:none;}
+.form_01b{ text-align:right;}
+.jact_box_blue .jact_bnt_05:hover{color:#333; background:#3e76cd; border:#3e76cd solid 1px; }
+                    .top a:hover{ color:#fff;} 
+.jact_left_box_01 li {
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #f0f0f0;
+    background: #f7f7f7;
+    text-align:center;
+}                   
+.jact_left_box_01 li.on{ background:url(https://www.cnipa.gov.cn/picture/1/2005121446082206840.jpg) repeat-y; color:#FFF;}
+.jact_left_box_01 li a{ font-size:16px; color:#333; padding:0px;}
+.jact_left_box_01 li.on a{ font-size:16px; color:#FFF;}
+.zxts{ line-height:30px; padding:20px; font-size:14px;}
+.zxts h3{ color:#4082bf; font-size:16px;}
+.zxts_submit{ background:#f7f7f7; padding:10px; margin:10px 0;}
+.jact_left_box_01{ margin-top: 15px;}
+.zxts p{font-size:13px;}
+.table_01a_zx{ display:none;}
+@media screen and (max-width: 768px){
+.jact_box_red, .jact_box_blue , .jact_left , .content-left , .jact_main{ width:100%; }
+.zxts{ display:none;}
+.biaoti img{ display:none;}
+textarea{ width:80% !important;}
+.jact_left_box_01{ height:75px;}
+.jact_left_box_01 li{ float:left; width:50%;}
+.jact_text_05{ width:80%;}
+.must_table tr{ display:inherit;}
+.must_table td{ padding:10px 5px;}
+}
+</style>

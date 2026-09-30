@@ -1,0 +1,13 @@
+Correction to: Scientific Reports 10.1038/s41598-023-41457-y, published online 29 August 2023
+
+The original version of this Article contained an error, where 500 μm was incorrectly written as 500 nm.
+
+As a result, in the Introduction,
+
+“Generally, MPs in personal care products are in the form of “microbeads” which are plastic particles of less than 500 nm in diameter24.”
+
+now reads:
+
+“Generally, MPs in personal care products are in the form of “microbeads” which are plastic particles of less than 500 μm in diameter24.”
+
+The original Article has been corrected.

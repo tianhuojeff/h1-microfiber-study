@@ -1,0 +1,83 @@
+{
+  "review_date": "2026-09-21",
+  "scope": {
+    "primary_file": "测量链计算口径与放行条件.md",
+    "cross_checked": [
+      "记录字段与计量边界.md",
+      "../reading_notes/H1_计量方法与证据缺口.md"
+    ],
+    "external_formula_check": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-law-propagation-uncertainty",
+    "nature": "read_only_methodology_review_no_experimental_data"
+  },
+  "overall": {
+    "status": "conditional_pass_after_clarification",
+    "summary": "分样外推和四个一阶偏导数正确，g^T Sigma g 与 NIST TN 1297 Appendix A.3 一致；负值不截断、共享空白不默认独立、闭合区间含零不等于无损失的判断也正确。但空白尺度、闭合统一估计量、闭合/差值的共方差传播以及放行决策规则仍需在正式数据之前冻结。"
+  },
+  "issues": [
+    {
+      "id": "MM-01",
+      "severity": "high",
+      "location": "测量链计算口径与放行条件.md:13-25",
+      "problem": "公式 (a-b)/(f*r) 暗含 b 与 a 是同一分样尺度且经过同一完整测量链的输出空白，但文字只说“同样处理范围匹配”。若 b 是全流路空白、每单位体积空白或只有部分步骤的空白，直接先减 b 再除 f 会错误缩放；若空白不经过与样品相同的回收过程，把空白也统一除 r 同样需要额外模型依据。",
+      "impact": "空白可被多除或少除一次 f/r，系统性偏移全流路质量、闭合差和 C1/C2 差值。",
+      "recommendation": "在字段和模型中冻结 b 的量纲、报告对象、分样比例以及是否经过完整回收链。若 b 为与 a 完全同尺度、同流程的输出空白，明写后保留现公式；否则先将空白换算到同一尺度，并把样品回收与空白校正分别建模。"
+    },
+    {
+      "id": "MM-02",
+      "severity": "high",
+      "location": "测量链计算口径与放行条件.md:44-54; 记录字段与计量边界.md:11-19",
+      "problem": "闭合式未冻结各项必须使用同一估计层级。文档同时要求保留原始值、空白校正值和回收校正值，但没有明确 epsilon 中 M_in、各 M_terminal 和存量变化应选哪一套一致口径。",
+      "impact": "把未校正输入、回收校正终端和不同方法的存量放入同一闭合式，会制造或隐藏“未解释差额”；一个样品的方法回收修正也不能自动代表装置物料回收。",
+      "recommendation": "预先指定一个主闭合估计量（例如各项均用同一材质/尺寸范围、同一空白和经验证回收口径）；原始/空白校正/回收校正的闭合只能作为各自完整且同口径的并列结果，不得跨层混用。"
+    },
+    {
+      "id": "MM-03",
+      "severity": "medium",
+      "location": "测量链计算口径与放行条件.md:29-42,48-54",
+      "problem": "文档给出单个 M=(a-b)/(f*r) 的协方差传播，但没有把同一规则明确扩展到闭合差 epsilon 和条件差 Delta。共享 b、r、校准、M_in 或配对来水时，终端量之间及 C1/C2 之间的协方差可能为正或负，不能在各自算完 u(M) 后再按独立量平方和合并。",
+      "impact": "闭合区间和组间差值区间可被放大或缩小，进而改变“包含零”或实用差异的放行判断。",
+      "recommendation": "将所有共享原始输入放入联合输入向量，直接对 epsilon 和 Delta 的完整函数求梯度并计算 g^T Sigma g。若无法估计关联，结果标为未定，或预先给出有依据的保守边界，不默认协方差为零。"
+    },
+    {
+      "id": "MM-04",
+      "severity": "medium",
+      "location": "测量链计算口径与放行条件.md:52-65; 记录字段与计量边界.md:21-25",
+      "problem": "放行表列出必备证据，但尚未定义可执行的布尔决策规则：闭合精度要求、主效应区间与预定实用差异之间如何共同决定放行，以及缺少协方差或低于定量能力时是否必然不放行。",
+      "impact": "即使在预试验后填入了数值阈值，仍可在看到 C1/C2 结果后临时选择“统计显著”、“区间含零”或“点估计超过实用差异”作为通过理由。",
+      "recommendation": "在解盲 C1/C2 比较前冻结一个完整决策表：主估计量与方向、实用差异 delta_star、区间类型/覆盖率、最大可接受不确定度或精度、对等效/优越/非劣中哪一种命题作判定，以及数据/协方差/定量能力不足时的失败状态。保留当前“暂不填任意数字”的边界。"
+    }
+  ],
+  "verified_points": [
+    {
+      "item": "aliquot_extrapolation",
+      "result": "pass_with_blank_scale_clarification",
+      "detail": "在 a 和 b 为同尺度分样输出、f 是有代表性证据的有效分样比例时，M_blank=(a-b)/f 正确，且文档正确防止重复外推。"
+    },
+    {
+      "item": "recovery_adjustment",
+      "result": "pass_with_model_scope_clarification",
+      "detail": "对同一完整测量链输出使用匹配回收比例时，(a-b)/(f*r) 在数学上成立；文档正确区分了方法回收与装置截留效率。"
+    },
+    {
+      "item": "four_sensitivity_coefficients",
+      "result": "pass",
+      "detail": "对 M=(a-b)/(f*r)，四个偏导数依次为 1/(f*r), -1/(f*r), -(a-b)/(f^2*r), -(a-b)/(f*r^2)，全部正确。"
+    },
+    {
+      "item": "covariance_formula",
+      "result": "pass",
+      "detail": "u^2(M)=g^T Sigma g 与 NIST TN 1297 Appendix A.3 的一阶不确定度传播一致，且文档正确提醒一阶近似失效的非线性/近零情形。"
+    },
+    {
+      "item": "mass_balance_sign_convention",
+      "result": "pass",
+      "detail": "epsilon=M_in-sum(M_terminal)-(M_final_inventory-M_initial_inventory) 的符号与既有记录边界一致；期末拆解冲洗只进存量项、不再进终端量的防重复规则正确。"
+    },
+    {
+      "item": "comparison_logic_principle",
+      "result": "pass_but_not_yet_operational",
+      "detail": "区间含零不证明无损失，重复称量不增加独立装置运行次数，且必须在 C1/C2 比较前预定实用差异和精度，这些原则正确；现阶段因无实验数据而不能数值放行。"
+    }
+  ],
+  "release_statement": "本文可作为研究计划继续细化，但在 MM-01 至 MM-04 写入冻结口径前，不能用于数值计算或 C1/C2 放行。本复核不证明任何装置性能、回收率、检出限、样本数或条件效应。"
+}

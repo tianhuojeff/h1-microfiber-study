@@ -1,0 +1,631 @@
+Contents lists available at ScienceDirect
+Marine Pollution Bulletin
+journal homepage: www.elsevier.com/locate/marpolbul
+Short research paper
+Capturing micro ﬁbers – marketed technologies reduce micro ﬁber emissions
+from washing machines
+Hayley K. McIlwraith a,b,1, Jack Lin a,1, Lisa M. Erdle b, Nicholas Mallos c, Miriam L. Diamond a,
+Chelsea M. Rochman b,⁎
+a Department of Earth Sciences, University of Toronto, Toronto, Ontario, Canada
+b Department of Ecology and Evolutionary Biology, University of Toronto, Toronto, Ontario, Canada
+c Ocean Conservancy, 111 SW Columbia St, Portland, OR 97201, USA
+ARTICLE INFO
+Keywords:
+Microplastics
+Microﬁbers
+Mitigation
+Textiles
+Polyester
+Laundry discharge
+ABSTRACT
+Microﬁbers are a common type of microplastic. One known source of micro ﬁbers to the environment is domestic
+laundering, which can release thousands of ﬁbers into washing machine eﬄ uent with every wash. Here, we
+adapted existing methods to measure the length, count and weight of micro ﬁbers in laundry eﬄ uent. We used
+this method to test the eﬃcacy of two technologies marketed to reduce micro ﬁber emissions: the Cora Ball and
+Lint LUV-R ﬁlter. Both technologies signi ﬁcantly reduced the numbers of micro ﬁbers from ﬂeece blankets in
+washing eﬄ uent. The Lint LUV-R captured an average of 87% of micro ﬁbers in the wash by count, compared to
+the Cora Ball which captured 26% by count. The Lint LUV-R also signi ﬁcantly reduced the total weight and
+average length of ﬁbers in eﬄ uent. While further research is needed to understand other sources of micro ﬁber
+emissions, these available technologies could be adopted to reduce emissions from laundering textiles.
+1. Introduction
+Researchers estimate that between 4.8 and 12.7 million me-
+tric tonnes of plastic waste enters the marine environment from land
+each year via mismanaged waste ( Jambeck et al., 2015 ). This number
+does not include all sources of plastic to the ocean. For example, this
+estimate does not include microplastics (plastics < 5 mm in size) en-
+tering via wastewater, e.g., micro ﬁbers shed from textiles and mi-
+crobeads from personal care products. Wastewater is presumed to be a
+large conduit for microplastics to reach the aquatic environment ( Prata,
+2018; Salvador Cesa et al., 2017 ). A better estimate of all sources, in-
+cluding via wastewater, is critical to inform e ﬀective policies to prevent
+further plastic pollution.
+To inform e ﬀective policy, local municipalities, countries and re-
+gions seek scienti ﬁc data on the e ﬀectiveness of proposed mitigation
+strategies for plastic pollution. For any proposed solution, it is useful to
+estimate its e ﬀectiveness. For example, researchers predicted that
+banning microbeads would prevent billions of microbeads from en-
+tering the environment via wastewater treatment plants (WWTP) daily
+in the United States ( Rochman et al., 2015 ). Trash collection technology
+installed at river mouths (e.g., Mr. Trash Wheel in Baltimore, MD, USA)
+prevents plastic waste from entering large waterbodies. Mr. Trash
+Wheel, for example, has prevented 420 tons of trash and debris from
+entering Baltimore Harbor in its ﬁrst 22 months of operation ( Lindquist,
+2016). Here, we aim to quantify the e ﬀectiveness of mitigation strate-
+gies aimed at preventing micro ﬁbers from textiles from entering the
+environment from one known source: washing machines.
+Synthetic ﬁbers (e.g. polyester, acrylic) have been used to produce
+textiles, including clothing, carpets, and furniture, for > 50 years
+(Geyer et al., 2017). Synthetic micro ﬁbers shed from these products can
+enter the environment as microplastics ( Browne et al., 2011). As a
+consequence, microﬁbers are now found in habitats and wildlife around
+the world ( Baldwin et al., 2016 ; Barrows et al., 2018; Lusher et al.,
+2014; Nelms et al., 2018).
+Our focus is on proposed mitigation strategies for reducing micro-
+ﬁber emissions from laundry. Clothing, as opposed to other textiles
+made for applications like upholstery and home furnishing, is likely a
+large contributor because it is regularly washed. Although we do not yet
+know how micro ﬁber emissions from washing machines compare to
+other sources (e.g., dryers, household dusting, manufacturing), we
+know that washing one garment in a washing machine can lead to the
+shedding of 100s to 1000s of micro ﬁbers, suggesting it as an important
+source ( Browne et al., 2011; Hartline et al., 2016 ; Hernandez et al.,
+2017; Napper and Thompson, 2016 ; Pirc
+et al., 2016 ; Sillanpää and
+https://doi.org/10.1016/j.marpolbul.2018.12.012
+Received 31 August 2018; Received in revised form 9 December 2018; Accepted 10 December 2018
+⁎ Corresponding author.
+E-mail address: chelsea.rochman@utoronto.ca (C.M. Rochman).
+1 Both authors contributed equally to the manuscript.
+Marine Pollution Bulletin 139 (2019) 40–45
+0025-326X/ © 2018 Elsevier Ltd. All rights reserved.
+T
+
+Sainio, 2017 ). Micro ﬁbers in washing machine water, or e ﬄ uent, are
+either emitted directly into the environment or sent to municipal
+wastewater treatment plants (WWTPs). In a WWTP, microplastic re-
+moval into the sludge can be > 96% ( Carr et al., 2016; Murphy et al.,
+2016). The fraction that remains in the e ﬄ uent is emitted directly into
+the environment. The sludge is sometimes spread on agricultural land
+and from there can enter waterbodies via runo ﬀ (Zubris and Richards,
+2005).
+Once microplastics are released into the environment, they are ex-
+tremely di ﬃ cult to remove because of their small size. As such, it is
+worth exploring solutions to reduce their release to WWTPs in the ﬁrst
+place, thus reducing their release to the environment. A proposed so-
+lution for preventing micro ﬁber emissions from clothes washing is
+through the implementation of mitigation strategies in washing ma-
+chines. In this study, we quanti ﬁed the e ﬃ cacy of two commercially
+available products sold for reducing ﬁber release from clothes washing,
+the Cora Ball and the Lint LUV-R ﬁlter ( Fig. 1). To do this, we ﬁrst
+adapted existing methods to quantify and characterize micro ﬁbers in
+washing machine e ﬄ uent by count, weight and length. We then used
+this method to test the hypothesis that there would be less micro ﬁbers
+in washing machine e ﬄ uent with the use of each technology than
+without.
+2. Methods
+2.1. Methods for the quanti ﬁcation of ﬁbers in laundry eﬄ uent
+Most studies have reported the weight of micro ﬁbers in washing
+machine e ﬄ uent ( Napper and Thompson, 2016; Pirc et al., 2016 ), ra-
+ther than the count. We could not ﬁnd any studies that report count,
+weight and length. Our ﬁrst objective was to adapt existing methods to
+include count, weight and also length of micro ﬁbers in washing ma-
+chine e ﬄ uent. We were interested in length because mitigation stra-
+tegies may target a particular size of micro ﬁbers (e.g., a ﬁlter with a
+speciﬁc mesh size) and because length may be an important metric
+when thinking about the environmental e ﬀects
+ of the contamination.
+Our second objective was to use this method to quantify the di ﬀerence
+in count, weight and length of micro ﬁbers in washing machine e ﬄ uent
+when a ﬂeece blanket was laundered with no technology, the Cora Ball
+or the Lint LUV-R ﬁlter.
+2.1.1. Materials and supplies
+For method development and experimentation, we used the same
+textile material: a 100% polyester ﬂeece blanket (red IKEA Polarvide
+Throw). The mass and size of the blankets were 545 g and
+129.5 cm × 170.2 cm, respectively. We chose polyester ﬂeece due to its
+reportedly high shedding rate ( Browne et al., 2011; Pirc et al., 2016;
+Sillanpää and Sainio, 2017 ). We chose red because it was a contrasting
+color on our ﬁlter paper and thus easier to quantify. It was also useful
+for quantifying contamination in the blanks.
+We used an SDL Atlas M6 Vortex washing machine for method
+development and experimentation. This machine is a top loading ma-
+chine. Based on the literature, top loading machines with a central
+agitator facilitate the shedding of more ﬁbers compared to a front-
+loading machine ( Hartline et al., 2016 ). We did not use any detergents
+or adjust temperature settings. Our primary objective was to simply
+quantify ﬁbers with and without mitigation strategies. As such, we kept
+our washing parameters simple since we were not asking questions
+about di ﬀerences under di ﬀerent washing conditions.
+All laundry water ﬁltering was conducted under a Clean Cell
+Laminar Flow hood with an additional plastic cover in front to protect
+our samples from contamination. A glass ﬁlter apparatus with a 47-mm
+ﬁlter holder and a stainless-steel Millipore ﬁltration apparatus with a
+142 mm ﬁlter holder were used for di ﬀerent steps in the process. All
+samples were ﬁltered onto Whatman, Nuclepore Hydrophilic
+Membrane ﬁlters, 10 μm pore size, and 47 or 142 mm in diameter.
+2.1.2. Count and length method
+Our objective was to create a method where we could take a sub-
+sample from a homogenous sample to obtain a representative count and
+length of micro ﬁbers in washing machine e ﬄ uent. Our methods were
+adapted from Hernandez et al. (2017) . First, we created a sample by
+washing one ﬂeece blanket using the settings described in Table S1. The
+ﬁll level was set to 26.5 L (7 gal) with no rinse cycle. This volume of
+water was enough for the blanket to be completely submerged. After
+washing, the water was sampled from the back of the washing machine,
+using a clear plastic hose, and collected in a clean 30 L stainless steel
+stock pot.
+After collection, the laundry water was homogenized using a clean
+glass stirring rod where extra stirring dispersed ﬁber
+ clumps. Five
+subsamples were then collected from the homogenized e ﬄ uent. First,
+an initial collection of ~250 mL of homogenized solution was trans-
+ferred to a clean glass beaker. Using a clean glass volumetric pipette,
+and while stirring continuously with the clean glass rod, a 50 mL ali-
+quot was subsampled. This was repeated ﬁve times. In total, ﬁve 50 mL
+aliquots were collected for each replicate. Using vacuum ﬁltration, each
+aliquot was ﬁltered onto a 10 μm polycarbonate ﬁlter.
+Images were taken of each ﬁlter using a Leica M80 light microscope.
+Fig. 1. (a) Lint LUV-R from Environmental Enhancements. (b) Cora Ball donated by Rachel Z. Miller of the Rozalia Project, on the SDL Atlas washing machine.
+H.K. McIlwraith et al. Marine Pollution Bulletin 139 (2019) 40–45
+41
+
+A 47 mm × 47 mm square of clear plastic was marked into 16 equal
+sections and used as a background. Image-J analysis was used to stitch
+images of the ﬁlter together with the grid/collection stitching plugin.
+This was followed by manual tracing of each red ﬁber with the seg-
+mented line tool + ROI manager (Fig. S1), to measure the length and
+number of all ﬁbers on each ﬁlter. Fibers that were smaller than 100 μm
+were not quanti ﬁed due to limitations of detection using ImageJ ana-
+lysis. Micro ﬁber counts were compared across subsamples to check for
+diﬀerences (using relative standard deviation) between subsamples
+with the aim of minimizing the relative standard deviation and thus
+ensuring we got representative samples that could be extrapolated to
+the volume of the e ﬄ uent.
+2.1.3. Weight method
+The remaining laundry water (i.e., after the removal of the aliquots)
+was vacuum ﬁltered onto a 142 mm 10 μm polycarbonate ﬁlter
+(Whatman, GE LifeScience, PA, USA) using a 142 mm Millipore vacuum
+ﬁltration apparatus. The 10 μm polycarbonate ﬁlters were pre-soaked in
+RO water and dried at 55 °C for a minimum of 8 h to reduce variability
+in weight amongst the ﬁlters and from the procedure. After ﬁltration,
+the ﬁlters and ﬁbers were dried overnight at 55 °C in a clean glass petri
+dish. The ﬁlters were weighed immediately after removing from the
+oven on a Sartorius Entris Analytical Balance (with resolution down to
+0.1 mg) before ﬁltration and after ﬁltration. Steady and reliable weights
+were obtained from the ﬁlters that held the bulk of the laundry water.
+Filters were enclosed in aluminum foil to protect them from con-
+tamination and were weighed three replicate times. The standard de-
+viation of the three replicate weights for each ﬁlter was found to be
+orders of magnitude smaller than the mean (see Table S6). The small
+amounts of ﬁbers ﬁltered from the aliquots provided inconsistent
+weights that were not consistently greater than the drift of the balance.
+Because the weights of the ﬁbers on the small ﬁlters were unreliable,
+the ﬁnal weights of our samples do not include the ﬁbers in the ﬁve
+50 mL aliquots per sample.
+2.1.4. QA/QC
+To prevent procedural contamination, all glassware was washed
+with RO water and rinsed three times. We wore white cotton laboratory
+coats, and never wore red clothing. All ﬁltering was done in the Clean
+Cell Laminar Flow hood, which was wiped down with RO water with a
+Kim Wipe each day before use. All laboratory tools were rinsed three
+times
+with RO water between each step to reduce cross contamination.
+Samples were covered with clean foil to prevent dust contamination. All
+ﬁltered samples were kept in clean glass petri dishes at all times to
+prevent contamination from the lab. See Fig. S2 for a photo of the la-
+boratory set-up. Lab blanks were taken 3 times (or after every 4th
+sample). During preliminary trials, 14 lab blanks were taken from the
+aliquoting procedure. In total, we sampled 17 lab blanks. At most, only
+one red ﬁber was found in a laboratory blank. Only red ﬁbers were
+considered in this experiment.
+2.2. Testing the eﬃ cacy of di ﬀerent microﬁber-catching devices
+2.2.1. Materials and supplies
+We tested the di ﬀerences in the number, weight and average length
+of ﬁbers shed from one ﬂeece blanket in washing machine e ﬄ uent with
+no mitigation (control), a Cora Ball, and a Lint LUV-R ﬁlter. We ran four
+replicates for each of the three treatments (n = 4).
+We tested the Cora Ball which consists of a plastic ball with many
+“arms” (donated by Rachel Z. Miller). We also tested the Lint LUV-R
+which has a stainless-steel mesh ﬁlter with a pore size of 150 μmi n
+diameter. A new, clean Cora Ball was used for each wash because
+cleaning is tedious and requires picking ﬁbers from between each arm
+(n = 4). The Lint LUV-R was cleaned between every use with RO water
+and a paper towel to remove all micro ﬁbers (n = 4).
+2.2.2. Experimental design
+To reduce the possibility of shedding rates changing with each
+wash, a new blanket was used for each replicate (n = 4) across all three
+treatments (control, Cora Ball, Lint LUV-R). After the wash cycle, all
+water was drained from the machine and collected in a clean 30 L
+stainless steel stock pot. For each sample, collection was followed by
+count and weight analyses, as outlined in Section 2.1.2 . For the count
+analysis, the number of ﬁbers (> 100 μm in length) were counted in
+each of the ﬁve aliquots. These numbers were then used to calculate an
+average (arithmetic) number of micro ﬁbers in 50 mL of e ﬄ uent and
+then extrapolated to the count of ﬁbers in the total e ﬄ uent volume.
+The individual replicates across all three treatments were performed
+in a random order through the use of a random number generator. After
+every 3 samples, a laboratory blank was run by running through an
+identical protocol without a ﬂeece blanket. In total, 3 laboratory blanks
+were run and each were analyzed in the same way as experimental
+samples. To reduce cross-contamination, three empty cycles were run
+between every replicate (See Table S2 for washing parameters used for
+blank loads). See Section 2.1.4 for further details regarding QA/QC.
+2.2.3. Data analysis
+The di ﬀerences in average total micro ﬁber count per L of e ﬄ uent,
+weight of micro ﬁbers
+ in total e ﬄ uent, and average micro ﬁber length in
+subsamples across the three treatments (control, Cora Ball and Lint
+LUV-R) were compared using a 1-factor ANOVA (n = 4, α = 0.05). We
+tested for homogeneity of variance using Bartlett's test. A post-hoc
+Tukey test ( α = 0.05) distinguished signi ﬁcantly di ﬀerent treatment
+means. We ran a 2-factor ANOVA with factors ﬁlter (5 levels) and
+treatment (3 levels) to ensure that the variation in number and length of
+ﬁbers amongst 50 mL subsamples was less than the variation amongst
+treatments, and as a quantitative way to ensure that the standard de-
+viation amongst subsamples was su ﬃ ciently small. Statistical analyses
+were run in R version 3.4.3.
+3. Results
+3.1. The method used for counting and measuring the length of microﬁ bers
+One of our goals was to adapt current methods to use three metrics
+of microﬁber release according to weight (done on the total wash water
+minus ~1% used for subsampling), count and length (done on sub-
+samples). Our subsampling method for analyzing micro ﬁbers in
+washing machine e ﬄ uent by count and length enabled us to avoid
+counting and measuring individual micro ﬁbers in an entire e ﬄ uent
+sample. As shown in Table 1, our protocol showed small relative
+standard deviations (i.e., < 20% relative standard deviation for count
+data, ranging from 3.6 –17%) amongst 50 mL aliquot subsamples (See
+Table S3 for all data on count and length). Thus, although the volume of
+the aliquot was relatively small compared to the total e ﬄ uent, we be-
+lieve it is representative of the wash water.
+3.2. Micro ﬁber count in eﬄ uent
+The control contained an average of 240 ± 38 (StDev) micro ﬁbers
+per 50 mL aliquot. The Cora Ball treatments contained 179 ± 30 mi-
+croﬁbers and the Lint LUV-R treatments contained 32 ± 8 ﬁbers. A 2-
+factor ANOVA testing for di ﬀerences in the count of micro ﬁbers per
+subsample found a signi ﬁcant di ﬀerence amongst treatments
+(p < 0.0001), and no signi ﬁcant diﬀerence amongst ﬁlters (p = 0.3) or
+a signiﬁcant ﬁlter-by-treatment interaction (p = 0.8). This suggests that
+our subsampling method was su ﬃ cient to test our hypothesis.
+3.3. Micro ﬁber length in eﬄ uent
+The
+average length of ﬁbers (calculated as the arithmetic mean) per
+50 mL aliquot of water was 1.4 ± 0.4 mm for the control,
+H.K. McIlwraith et al. Marine Pollution Bulletin 139 (2019) 40–45
+42
+
+1.5 ± 0.4 mm for the Cora Ball treatment, and 0.4 ± 0.1 mm for the
+Lint LUV-R treatment. We note that the length of ﬁbers for the Lint
+LUV-R treatment are longer than the mesh size but their width allowed
+passage through the 150 μm mesh. A 2-factor ANOVA testing for dif-
+ferences in the length of micro ﬁbers per subsample found a signi ﬁcant
+diﬀerence amongst treatments (p < 0.0001), and no signi ﬁcant dif-
+ference amongst ﬁlters (p = 0.5) or a signi ﬁcant ﬁlter-by-treatment
+interaction (p = 0.5). This again suggests that our subsampling method
+was su ﬃ cient to test our hypothesis.
+3.4. E ﬃ cacy of mitigation strategies
+3.4.1. Di ﬀerences across treatments by count
+Overall, we observed a signi ﬁcant reduction of micro ﬁbers by count
+for each mitigation strategy related to the control. The average number
+of ﬁbers per L of washing machine e ﬄ uent was calculated to be
+3580 ± 390 when using the Cora Ball, 648 ± 165 when using the Lint
+LUV-R, and 4800 ± 820 with no mitigation strategy ( Fig. 2; see Table
+S4 for all data). Statistical analyses showed signi ﬁcant di ﬀerences
+across all treatments (p < 0.0001), with the ﬁbers per L of e ﬄ uent
+signiﬁcantly lower in the Cora Ball (p = 0.02) and the Lint LUV-R
+(p < 0.0001) compared to the control.
+3.4.2. Di ﬀerences across treatments by weight
+We observed no signi ﬁcant reduction of micro ﬁbers by weight with
+the Cora Ball compared to the control. We did observe a signi ﬁcant
+reduction of micro ﬁbers by weight between the Lint LUV-R and the
+control. The average total weight of ﬁbers in mg/L of washing machine
+eﬄ uent was 1.89 ± 0.42 StDev when using the Cora Ball, 0.40 ± 0.09
+StDev when using the Lint LUV-R, and 1.99 ± 0.45 StDev with no
+mitigation strategy ( Fig. 3; See Table S5 for all data). The weight of
+ﬁbers (mg/L) in e ﬄ uent with the Lint LUV-R was signi ﬁcantly less than
+in the control (p < 0.001).
+3.4.3. Di ﬀerences across treatments by length
+We observed no signi ﬁcant di ﬀerence
+in micro ﬁber length after
+washing with the Cora Ball compared to the control. We did observe a
+signiﬁcant di ﬀerence in the average length of micro ﬁbers between the
+Lint LUV-R and the control. The average total length of ﬁbers (mm) in
+subsamples of washing machine e ﬄ uent was 1.3 ± 0.1 when using the
+Cora Ball, 0.4 ± 0.1 when using the Lint LUV-R, and 1.5 ± 0.5 with
+no mitigation strategy ( Fig. 4 ). Statistical analyses showed signi ﬁcant
+diﬀerences (p < 0.001), with the length of ﬁbers in mm signi ﬁcantly
+lower in e ﬄ uent from the Lint LUV-R (p < 0.001) compared to the
+control treatment.
+4. Discussion
+4.1. The method: counting, weighing and measuring microﬁ bers
+We adapted existing methods to enable researchers to quantitatively
+measure and characterize micro ﬁbers in bulk or total water samples
+using more than the single metric of weight. This method quanti ﬁes
+microﬁbers in washing machine e ﬄ uent by count, weight and length.
+While methods to record the number and length of micro ﬁbers have
+been reported elsewhere ( Hernandez et al., 2017 ), the application of
+the method described here is, to the best of our knowledge, the ﬁrst to
+Table 1
+Average, standard deviation and relative standard deviation amongst the counts and lengths (mm) for the ﬁve 50 mL aliquot subsamples per replicate in our washing
+experiment.
+Treatment Replicate Avg count StDev Relative StDev (%) Avg length (mm) StDev Relative StDev (%)
+Control 1 252 16 6 1.2 0.2 12
+Control 2 181 6 4 1.2 0.1 12
+Control 3 275 21 8 2.1 0.6 30
+Control 4 253 25 10 1.2 0.1 8
+Cora Ball 1 157 6 4 1.3 0.1 11
+Cora Ball 2 177 13 7 1.3 0.2 11
+Cora Ball 3 205 22 11 1.2 0.6 51
+Cora Ball 4 175 20 11 1.3 0.1 5
+Lint LUV-R 1 36 3 9 0.2 0.1 47
+Lint LUV-R 2 40 5 13 0.5 0.2 43
+Lint LUV-R 3 32 5 17 0.4 0.0 9
+Lint LUV-R 4 21 3 15 0.5 0.1 19
+Control Cora Ball Lint LUV−R
+1000 2000 3000 4000 5000
+Mean # Fibers/L
+Fig. 2. Mean number of micro ﬁbers per L of washing machine eﬄ uent. One-
+factor ANOVAs showed a signi ﬁcant di ﬀerence across all treatments
+(p < 0.05). A post-hoc test showed signi ﬁcant di ﬀerences between both the
+Cora Ball and the Lint LUV-R compared to the control (*p < 0.05; **p < 0.01;
+***p < 0.001; ****p < 0.0001). Boxes represent the ﬁrst and third quartile,
+the line represents the median and whiskers represent the data range.
+Control Cora Ball Lint LUV−R
+0.5 1.0 1.5 2.0 2.5
+Mean Weight of Fibers (mg/L)
+Fig. 3. Mean weight of micro ﬁbers in mg/L of washing machine eﬄ uent. One-
+factor ANOVA showed a signi ﬁcant diﬀerence across all treatments (p < 0.05).
+A post-hoc test showed signi ﬁcant di ﬀerences between the Lint LUV-R and the
+control (*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001). Boxes re-
+present the ﬁrst and third quartile, the line represents the median and whiskers
+represent the data range.
+H.K. McIlwraith et al. Marine Pollution Bulletin 139 (2019) 40–45
+43
+
+report micro ﬁber emissions from washing machines by count, weight
+and length. The importance of having multiple metrics is to overcome
+the challenge of dealing with micro ﬁbers that are so lightweight, and as
+such, di ﬃ cult to obtain reliable estimates of weight. It can be di ﬃ cult
+to di ﬀerentiate the signal from the noise, and especially for materials
+that shed relatively small weights of micro ﬁbers. In addition, we submit
+that understanding both size and count are important. They are useful
+metrics to be able to estimate exposure for animals, they are more
+comparable to what is most commonly reported in ﬁeld studies (e.g.
+Lusher et al., 2013), and they can be used to determine concentrations
+of dietary exposure in lab experiments ( Ziajahromi et al., 2018). Mi-
+croﬁber length also has biological relevance, since microplastic inges-
+tion by di ﬀerent taxa has been shown to be restricted to certain sizes
+(Scherer et al., 2017).
+4.2. Mitigation strategies reduce microﬁ bers in the wash
+Our results demonstrated that both the Cora Ball and the Lint LUV-R
+signiﬁcantly reduced the number of micro ﬁbers in the wash. The Cora
+Ball and Lint LUV-R reduced the number of micro ﬁbers per L of e ﬄ uent
+by an average of 26% and 87%, respectively.
+By weight, we observed only a 5% reduction when using the Cora
+Ball versus an 80% reduction when using the Lint LUV-R. One possible
+explanation for these di ﬀerences between technologies could be due to
+limitations in our method that excluded counts of ﬁbers < 100 μmi n
+length. The Cora Ball showed signi ﬁcant capture of ﬁbers by count
+relative to the control, but not signi ﬁcant capture by weight. Since
+microﬁbers are very light-weight, a small reduction may be di ﬃ cult to
+measure precisely on an analytical balance. Thus, counts likely capture
+diﬀerences between treatments more accurately than weight.
+Compared to no mitigation strategy, we measured an 11% reduction
+in microﬁber length when using the Cora Ball versus a 72% reduction in
+microﬁber length when using the Lint LUV-R. The similarity in ﬁber
+length between the control and Cora Ball treatments suggests that the
+Cora Ball captures ﬁbers over a wide range of lengths, while the lower
+average length found in the Lint LUV-R treatments indicates that ﬁbers
+of greater lengths are captured. The Lint LUV-R reduced the mean
+microﬁber length in the e ﬄ uent by about 1 mm. The di ﬀerences
+in
+length of micro ﬁbers for the Lint LUV-R treatment compared to the
+Cora Ball and the control were likely due to the mesh size of the ﬁlter
+built into the Lint LUV-R.
+4.3. Policy implications
+Available technologies to mitigate micro ﬁber release from domestic
+washing machines can signi ﬁcantly reduce the amount of micro ﬁbers
+being emitted to WWTPs and/or the environment from washing our
+clothes. Although we do not yet know how washing clothing compares
+to other sources of micro ﬁbers released to the environment, our results
+point to the need —and the present opportunity —to mitigate releases
+from washing clothes.
+As a case study, and to provide a simpli ﬁed idea of the e ﬀectiveness
+of these mitigation strategies, we approximated the maximum potential
+for these control technologies to divert ﬁbers from treated wastewater
+in a single region based on our ﬁndings. The City of Toronto has the
+largest population in Canada and is in the top 10 largest cities in North
+America. If we assume that 90,700 to 138,000 micro ﬁbers are shed into
+washing machine e ﬄ uent per wash load (i.e., the range of particles per
+single ﬂeece blanket in our study), and that the average household, out
+of 1,179,057 households in the City of Toronto ( Statistics Canada,
+2017), washes 219 loads per household per year (based on Natural
+Resources Canada, 2011), then we estimate that, based on our results,
+up to 23 to 36 trillion micro ﬁbers could be emitted to wastewater from
+washing machines each year in the City of Toronto.
+Most of these ﬁbers will travel with wastewater to a WWTP to be
+treated. Studies suggest that 83 –99.9% of microplastics are captured in
+the sludge of a WWTP ( Carr et al., 2016 ; Dris et al., 2015 ; Talvitie et al.,
+2017), with the remaining emitted to the aquatic environment via ﬁnal
+eﬄ uent. If 99% of the 23 to 36 trillion micro ﬁbers are captured in the
+sludge, then up to 234 to 356 billion could be released directly into
+lakes and rivers annually based on our data and calculations. If the
+sludge is land applied, some of the remaining ~23 –35.5 trillion could
+also be released into the environment.
+If, on a municipal level, the Cora Ball or Lint LUV-R was placed into
+all households in Toronto, then the number of micro ﬁbers emitted into
+wastewater from washing machines could be reduced by up to 6 to 9 or
+20 to 31 trillion ﬁbers respectively each year based on our data.
+Assuming 99% capture in the sludge, this would translate to ~61 to 92
+billion less micro ﬁbers going directly into the environment annually
+with the Cora Ball and 204 to 309 billion less micro ﬁbers
+going directly
+into the environment annually with the Lint LUV-R. Although this is a
+simple calculation based on assumptions of high release and capture
+rates, it demonstrates the potential e ﬀectiveness of a simple technology.
+In terms of washing frequency, 219 wash loads per household per
+year is low compared to other studies in North America, which range
+from 315 to 442 ( Golden et al., 2010 ; Lutz, 2005; Tomlinson and Rizy,
+1998). People also often do mixed loads with several items in the
+washing machine at one time, versus with just one ﬂeece blanket where
+the new blanket used was likely to shed relatively more ﬁbers than
+other garments. Micro ﬁber releases from other studies are 100 –1900
+(Browne et al., 2011 ) and 900 –110,000 ( Almroth et al., 2018 ) micro-
+ﬁbers shedding per garment. In this study, we counted > 120,000 mi-
+croﬁbers from a single small ﬂeece blanket. This may be due to the top
+loading washing machine, or the textile material we used. The material
+was a new ﬂeece blanket with unhemmed edges, which may contribute
+to the high ﬁber release. Sillanpää and Sainio (2017) suggested that
+microﬁber release may be highest for new, unwashed garments. Thus,
+our estimates could be over- or under-estimates of micro ﬁber release.
+4.4. Limitations and future directions
+Here, we evaluated micro ﬁber capture in the wash by the Cora Ball
+and Lint LUV-R under speci ﬁc wash conditions. We used one type of
+ﬂeece blanket with long individual ﬁbers. Microﬁber capture may vary
+in a mixed load with garments that shed micro ﬁbers with di ﬀerent
+dimensions (e.g. length, width) and at di ﬀerent shed rates. For example,
+sportswear made from polyester may shed much shorter ﬁbers that may
+not be captured as e ﬀectively by both technologies. Future work should
+focus on the e ﬃ ciency of these mitigation strategies, and others, under
+various conditions and with di ﬀerent textiles. Furthermore, micro ﬁber
+capture strategies could be evaluated from a consumer and behavioral
+Control Cora Ball Lint LUV−R
+0.5 1.0 1.5 2.0
+Mean Length of Fibers (mm)
+Fig. 4. Mean length of micro ﬁbers in mm in subsamples of e ﬄ uent. One-factor
+ANOVAs showed a signi ﬁcant di ﬀerence across all treatments (p < 0.05). A
+post-hoc test showed signi ﬁcant di ﬀerences between the Lint LUV-R and the
+control (*p < 0.05; **p < 0.01; **p < 0.001; ***p < 0.0001). Boxes re-
+present the ﬁrst and third quartile, the line represents the median and whiskers
+represent the data range.
+H.K. McIlwraith et al. Marine Pollution Bulletin 139 (2019) 40–45
+44
+
+perspective to explore the likelihood of adoption and how human ac-
+tions may or may not facilitate the e ﬃ cacy of these proposed strategies.
+For example, care and time must be taken to throw away the micro-
+ﬁbers rather than rinsing them down the drain. In addition, a cost-
+beneﬁt analysis may be conducted to determine whether the manu-
+facturing of these products that capture microplastics outweigh the
+beneﬁt of capturing microplastics, and whether it is more bene ﬁcial to
+use after-market technologies, or adopt technologies where ﬁlters are
+included in the washing machines upon manufacturing (i.e., akin to lint
+traps in dryers).
+5. Conclusions
+Using adaptations of existing methods, we demonstrated that the
+Cora Ball and Lint LUV-R reduced an average of 26% and 87% of the
+total number of micro ﬁbers (> 100 μm long) by count released from a
+new ﬂeece blanket to laundry washing machine e ﬄ uent, respectively.
+The Lint-LUV-R also signi ﬁcantly reduced the weight of ﬁbers released
+but this was not the case for the Cora Ball. These results suggest that
+these two technologies added to washing machines could be an e ﬀec-
+tive way to reduce micro ﬁber emissions to the environment. While
+further investigations are needed to understand the relative contribu-
+tions of micro ﬁbers from other textile products and their pathways to
+the environment, we know that textiles laundered in washing machines
+are one source of micro ﬁbers and that e ﬀective mitigation tools cur-
+rently exist.
+Acknowledgments
+McIlwraith and Lin were supported by the Undergraduate Research
+Opportunity Program at the University of Toronto, St. George. Thanks
+to Ocean Conservancy for supporting some of this work, to Rachel Z.
+Miller for providing Cora Balls, and Blair Jollimore for providing us
+with Lint LUV-R ﬁlters. Thanks for M. Gorton for setting up the washing
+machine in our laboratory. The authors declare no con ﬂicts of interest.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://
+doi.org/10.1016/j.marpolbul.2018.12.012.
+References
+Almroth, B.M.C., Åström, L., Roslund, S., Petersson, H., 2018. Quantifying shedding of
+synthetic ﬁbers from textiles; a source of microplastics released into the environment.
+Environ. Sci. Pollut. Res. 25, 1191 –1199.
+Baldwin, A.K., Corsi, S.R., Mason, S.A., 2016. Plastic debris in 29 Great Lakes tributaries:
+relations to watershed attributes and hydrology. Environ. Sci. Technol. 50,
+10377–10385. https://doi.org/10.1021/acs.est.6b02917.
+Barrows, A.P.W., Cathey, S.E., Petersen, C.W., 2018. Marine environment micro ﬁber
+contamination: global patterns and the diversity of microparticle origins. Environ.
+Pollut. 237, 275 –284. https://doi.org/10.1016/j.envpol.2018.02.062.
+Browne, M.A., Crump, P., Niven, S.J., Teuten, E., Tonkin, A., Galloway, T., Thompson, R.,
+2011. Accumulation of microplastic on shorelines woldwide: sources and sinks.
+Environ. Sci. Technol. 45, 9175 –9179. https://doi.org/10.1021/es201811s.
+Carr, S.A., Liu, J., Tesoro, A.G., 2016. Transport and fate of microplastic particles in
+wastewater treatment plants. Water Res. 91, 174 –182. https://doi.org/10.1016/j.
+watres.2016.01.002.
+Dris, R., Gasperi, J., Rocher, V., Renault, N., Tassin, B., 2015. Microplastic contamination
+in an urban area: a case study in greater Paris. Environ. Chem. 12, 592 –599. https://
+doi.org/10.1071/EN14167.
+Geyer, R., Jambeck, J.R., Law, K.L., 2017. Production, use, and fate of all plastics ever
+made. Sci. Adv. 3, e1700782. https://doi.org/10.1126/sciadv.1700782.
+Golden, J.S., Subramanian, V., Irizarri, G.M.A.U., White, P., Meier, F., 2010. Energy and
+carbon impact from residential laundry in the United States. J. Integr. Environ. Sci. 7,
+53–73. https://doi.org/10.1080/19438150903541873.
+Hartline, N.L., Bruce, N.J., Karba, S.N., Ru ﬀ, E.O., Sonar, S.U., Holden, P.A., 2016.
+Microﬁber masses recovered from conventional machine washing of new or aged
+garments. Environ. Sci. Technol. 50, 11532 –11538. https://doi.org/10.1021/acs.est.
+6b03045.
+Hernandez, E., Nowack, B., Mitrano, D.M., 2017. Polyester textiles as a source of mi-
+croplastics from households: a mechanistic study to understand micro ﬁber release
+during washing. Environ. Sci. Technol. 51, 7036 –7046. https://doi.org/10.1021/acs.
+est.7b01750.
+Jambeck, J.R., Geyer, R., Wilcox, C., Siegler, T.R., Perryman, M., Andrady, A., Narayan,
+R., Law, K.L., 2015. Plastic waste inputs from land into the ocean. Science 347,
+768–771. https://doi.org/10.1017/CBO9781107415386.010.
+Lindquist, A., 2016. Baltimore's Mr. Trash wheel. J. Ocean Technol. 11, 28 –35.
+Lusher, A.L., McHugh, M., Thompson, R.C., 2013. Occurrence of microplastics in the
+gastrointestinal tract of pelagic and demersal ﬁsh from the English Channel. Mar.
+Pollut. Bull. 67, 94 –99. https://doi.org/10.1016/j.marpolbul.2012.11.028.
+Lusher, A.L., Burke, A., O'Connor, I., O ﬃ cer, R., 2014. Microplastic pollution in the
+Northeast Atlantic Ocean: validated and opportunistic sampling. Mar. Pollut. Bull.
+88, 325 –333. https://doi.org/10.1016/j.marpolbul.2014.08.023.
+Lutz,
+J.D., 2005. Feasibility Study and Roadmap to Improve Residential Hot Water
+Distribution Systems. USA, Berkeley .
+Murphy, F., Ewins, C., Carbonnier, F., Quinn, B., 2016. Wastewater treatment works
+(WwTW) as a source of microplastics in the aquatic environment. Environ. Sci.
+Technol. 50, 5800 –5808. https://doi.org/10.1021/acs.est.5b05416.
+Napper, I.E., Thompson, R.C., 2016. Release of synthetic microplastic plastic ﬁbres from
+domestic washing machines: e ﬀects of fabric type and washing conditions. Mar.
+Pollut. Bull. 112, 39 –45. https://doi.org/10.1016/j.marpolbul.2016.09.025.
+Natural Resources Canada, 2011. Survey of Household Energy Use .
+Nelms, S.E., Galloway, T.S., Godley, B.J., Jarvis, D.S., Lindeque, P.K., 2018. Investigating
+microplastic trophic transfer in marine top predators. Environ. Pollut. 238,
+999–1007. https://doi.org/10.1016/j.envpol.2018.02.016.
+Pirc, U., Vidmar, M., Mozer, A., Kr žan, A., 2016. Emissions of microplastic ﬁbers from
+microﬁber ﬂeece during domestic washing. Environ. Sci. Pollut. Res. 23,
+22206–22211. https://doi.org/10.1007/s11356-016-7703-0.
+Prata, J.C., 2018. Microplastics in wastewater: state of the knowledge on sources, fate and
+solutions. Mar. Pollut. Bull. 129, 262 –265. https://doi.org/10.1016/j.marpolbul.
+2018.02.046.
+Rochman, C.M., Kross, S.M., Armstrong, J.B., Bogan, M.T., Darling, E.S., Green, S.J.,
+Smyth, A.R., Veríssimo, D., 2015. Scienti ﬁc evidence supports a ban on microbeads.
+Environ. Sci. Technol. 49, 10759 –10761. https://doi.org/10.1021/acs.est.5b03909.
+Salvador Cesa, F., Turra, A., Baruque-Ramos, J., 2017. Synthetic ﬁbers as microplastics in
+the marine environment: a review from textile perspective with a focus on domestic
+washings. Sci. Total Environ. 598, 1116 –1129. https://doi.org/10.1016/j.scitotenv.
+2017.04.172.
+Scherer, C., Brennholt, N., Rei ﬀerscheid, G., Wagner, M., 2017. Feeding type and de-
+velopment drive the ingestion of microplastics by freshwater invertebrates. Sci. Rep.
+7, 1 –9. https://doi.org/10.1038/s41598-017-17191-7.
+Sillanpää, M., Sainio, P., 2017. Release of polyester and cotton ﬁbers from textiles in
+machine washings. Environ. Sci. Pollut. Res. 24, 19313 –19321. https://doi.org/10.
+1007/s11356-017-9621-1.
+Statistics Canada, 2017. Toronto, C [Census subdivision], Ontario and Ontario [Province]
+(table). Census Pro ﬁle. [WWW Document]. www12.statcan.gc.ca/census-
+recensement/2016/dp-pd/prof/index.cfm?Lang=E accessed 4.15.18.
+Talvitie, J., Mikola, A., Koistinen, A., Setälä, O., 2017. Solutions to microplastic pollution
+– removal of microplastics from wastewater e ﬄ uent
+ with advanced wastewater
+treatment technologies. Water Res. 123, 401 –407. https://doi.org/10.1016/j.watres.
+2017.07.005.
+Tomlinson, J.J., Rizy, D.T., 1998. Bern Clothes Washer Study Final Report. Spring ﬁeld,
+USA.
+Ziajahromi, S., Kumar, A., Neale, P.A., Leusch, F.D.L., 2018. Environmentally relevant
+concentrations of polyethylene microplastics negatively impact the survival, growth
+and emergence of sediment-dwelling invertebrates. Environ. Pollut. 236, 425 –431.
+https://doi.org/10.1016/j.envpol.2018.01.094.
+Zubris, K.A.V., Richards, B.K., 2005. Synthetic ﬁbers as an indicator of land application of
+sludge. Environ. Pollut. 138, 201 –211. https://doi.org/10.1016/j.envpol.2005.04.
+013.
+H.K. McIlwraith et al.
+Marine Pollution Bulletin 139 (2019) 40–45
+45

@@ -1,0 +1,638 @@
+{
+  "sha256": "99682d2076b04c72402462e132ec9c69ba1f112bfa11f3ae3f9d016502f8444e",
+  "strict": {
+    "groups": 82,
+    "complete": 75,
+    "incomplete_or_control": 7,
+    "F2": {
+      "n": 70,
+      "mean_percent": 79.61614285714286,
+      "sample_sd_percent": 16.447773144975322
+    },
+    "PA": {
+      "n": 5,
+      "mean_percent": 33.892,
+      "sample_sd_percent": 21.914989618979973
+    }
+  },
+  "merge_volume_anomaly": {
+    "groups": 81,
+    "complete": 76,
+    "incomplete_or_control": 5,
+    "F2": {
+      "n": 71,
+      "mean_percent": 79.47859154929577,
+      "sample_sd_percent": 16.370946328853847
+    },
+    "PA": {
+      "n": 5,
+      "mean_percent": 33.892,
+      "sample_sd_percent": 21.914989618979973
+    }
+  },
+  "strict_incomplete_or_control": [
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 16,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        26,
+        27
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": 69.85,
+      "recovery_REL_values": [
+        69.85
+      ],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 26,
+          "value": 69.85
+        },
+        {
+          "stream": "permeate",
+          "source_row": 27,
+          "value": 69.85
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "FishFlow",
+        "trial": 16,
+        "analyst": "CR",
+        "inlet": "swirl",
+        "FiF_length": "Small",
+        "AoA": 11,
+        "mesh_size_µm": 53,
+        "A0": 40,
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": 0.5,
+        "MP_Menge_IST_g": 0.5,
+        "cleaning_L": 5,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        28
+      ],
+      "names": [
+        "retentate"
+      ],
+      "n_rows": 1,
+      "complete_three_streams": false,
+      "recovery_REL": 87.32,
+      "recovery_REL_values": [
+        87.32
+      ],
+      "stream_recoveries": [
+        {
+          "stream": "retentate",
+          "source_row": 28,
+          "value": 87.32
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "A",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "control",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "NA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "names": [
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate"
+      ],
+      "n_rows": 9,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "replicate",
+          "source_row": 104,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 105,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 106,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 107,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 108,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 109,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 110,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 111,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 112,
+          "value": null
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K1",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        113,
+        114
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 113,
+          "value": null
+        },
+        {
+          "stream": "permeate",
+          "source_row": 114,
+          "value": null
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K2",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        115,
+        116
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 115,
+          "value": null
+        },
+        {
+          "stream": "permeate",
+          "source_row": 116,
+          "value": null
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K3",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 25,
+        "Vol_filt_L": 20
+      },
+      "source_rows": [
+        117,
+        118
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 117,
+          "value": null
+        },
+        {
+          "stream": "permeate",
+          "source_row": 118,
+          "value": null
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K4",
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double",
+        "Vol_total_L": 20,
+        "Vol_filt_L": 10
+      },
+      "source_rows": [
+        146,
+        147
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 146,
+          "value": null
+        },
+        {
+          "stream": "permeate",
+          "source_row": 147,
+          "value": null
+        }
+      ]
+    }
+  ],
+  "merged_incomplete_or_control": [
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "A",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "control",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "NA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "names": [
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate",
+        "replicate"
+      ],
+      "n_rows": 9,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "replicate",
+          "source_row": 104,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 105,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 106,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 107,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 108,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 109,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 110,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 111,
+          "value": null
+        },
+        {
+          "stream": "replicate",
+          "source_row": 112,
+          "value": null
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K1",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        113,
+        114
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 113,
+          "value": null
+        },
+        {
+          "stream": "permeate",
+          "source_row": 114,
+          "value": null
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K2",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        115,
+        116
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 115,
+          "value": null
+        },
+        {
+          "stream": "permeate",
+          "source_row": 116,
+          "value": null
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K3",
+        "analyst": "LH",
+        "inlet": "snail",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "F2",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        117,
+        118
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 117,
+          "value": null
+        },
+        {
+          "stream": "permeate",
+          "source_row": 118,
+          "value": null
+        }
+      ]
+    },
+    {
+      "key": {
+        "Ort": "Blanko",
+        "trial": "K4",
+        "analyst": "LH",
+        "inlet": "swirl",
+        "FiF_length": "blank",
+        "AoA": "NA",
+        "mesh_size_µm": "NA",
+        "A0": "NA",
+        "MP_type": "PA",
+        "MP_Konz_SOLL_g": "NA",
+        "MP_Menge_IST_g": null,
+        "cleaning_L": 10,
+        "C_mode": "double"
+      },
+      "source_rows": [
+        146,
+        147
+      ],
+      "names": [
+        "concentrate",
+        "permeate"
+      ],
+      "n_rows": 2,
+      "complete_three_streams": false,
+      "recovery_REL": [],
+      "recovery_REL_values": [],
+      "stream_recoveries": [
+        {
+          "stream": "concentrate",
+          "source_row": 146,
+          "value": null
+        },
+        {
+          "stream": "permeate",
+          "source_row": 147,
+          "value": null
+        }
+      ]
+    }
+  ]
+}

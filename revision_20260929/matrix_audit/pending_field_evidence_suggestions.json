@@ -1,0 +1,342 @@
+{
+  "schema_version": "pending-evidence-suggestions-v1",
+  "scope": "New evidence recommendations only; no master/old-matrix/report mutation. Each quote is the entire extracted source row.",
+  "records": [
+    {
+      "publication": "CN115700309A",
+      "family_id": "85120837",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "unresolved",
+          "recommendation": "keep conservative finding; no true chamber-emptying or endpoint statement found."
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "removal",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep conservative finding; no true chamber-emptying or endpoint statement found."
+        }
+      ]
+    },
+    {
+      "publication": "CN118273060A",
+      "family_id": "91644784",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "removal",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "explicit",
+          "recommendation": "权1明确帽构件插入入口开口并与开口边缘密封接合。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/CN118273060A.html",
+              "source_sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5",
+              "locator": "权1 (HTML zh-cl0001)",
+              "quote": "1.一种用于过滤水的过滤器组件(1)，优选地用于过滤从洗衣机(900)的洗衣机滚筒(910)出来的水，其中，所述过滤器组件(1)能流体地连接到与所述洗衣机滚筒(910)流体连接的洗衣机管道(950)，其中，所述过滤器组件(1)包括： i)壳体组(2)，包括过滤室(20)，所述壳体组包括： -壳体主体(3)，沿着轴线(X-X)延伸，所述壳体主体包括侧壁(31)、底壁(32)和入口开口(33)，所述侧壁基本上平行于所述轴线(X-X)，所述底壁优选地基本上正交于所述轴线(X-X)，所述入口开口与所述底壁(32)相对并且在周边上由开口边缘(313)界定，其中，所述壳体主体(3)包括入口口部(301)和出口口部(302)，待过滤的水流过所述入口口部，已过滤的水流过所述出口口部； -盖装置(4)，包括帽构件(40)和操作构件(41)，所述帽构件能插入到所述入口开口(33)中，从而密封地接合所述开口边缘(313)； ii)过滤器组(5)，适于容纳在所述过滤室(20)中，将所述过滤室分成脏区域和清洁区域，其中，所述过滤器组(5)包括过滤介质(50)和联接到所述过滤介质(50)的过滤器结构(51)，所述过滤器结构包括封头板(510)； 其中，所述帽构件(40)具有贯通开口(401)，并且所述封头板(510)包括定心元件(511)； 其中，所述操作构件(41)能穿过所述贯通开口(401)与所述定心元件(511)接合，其中，所述操作构件(41)接合所述帽构件(40)并且使所述封头板(510)与所述帽构件(40)密封接合。",
+              "evidence_type": "claim"
+            }
+          ]
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        }
+      ]
+    },
+    {
+      "publication": "WO2022084677A1",
+      "family_id": "78536409",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "removal",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "explicit",
+          "recommendation": "可拆收集腔为说明书可选实施例，不能泛化为全部方案必备。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1.html",
+              "source_sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe",
+              "locator": "说明书[0097] (HTML p0097)",
+              "quote": "The filter residue collection chamber may be removable from the microparticle filter to assist a user to empty residue therefrom. Where the microparticle filter is comprised as part of a textile treatment apparatus the filter residue collection chamber may be removable from the microparticle filter and the textile treatment apparatus. The filter residue apparatus may comprise a detachable connection to removably connect the filter residue collection chamber to the microparticle filter. Non limiting examples of detachable connections include latches, such as toggle latches and depressible tongue latches, quick release mechanisms tongue and groove arrangements, amongst others. Optionally, the filter residue collection chamber may comprise a portion that is detachable from the remainder of the filter residue collection chamber, for example, a drawer or tray that can be removed for emptying.",
+              "evidence_type": "description"
+            }
+          ]
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "explicit",
+          "recommendation": "平面滤介质实施例明确给出过滤后转第二构型、接触元件移动、再恢复第一构型的顺序。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2022084677A1.html",
+              "source_sha256": "9fbae4e1251ceccf9278aa31097c23b7120b905819bee471790d82035e0ccbfe",
+              "locator": "说明书[0053] (HTML p0053)",
+              "quote": "Where the filter medium is planar, the contact element may move linearly from one side of the filter to an opposing side. For example, the contact element may be in a first position at one edge of the filter medium away from the opening during filtration of effluent. After filtration of effluent, the microparticle filter may be placed in the second configuration, then the contact element may be moved across the surface of the filter medium to an opposing edge into a second position which is proximal to, adjacent to or through the opening. The contact element may then return to the first position and the microparticle filter restored to the first configuration. In embodiments where the filter medium is planar, the contact element may rotate about an axis. The axis may be the central axis of the filter chamber. Alternatively, the axis may be noncentral to the filter medium e.g. so that the contact element rotates similar to a windscreen wiper.",
+              "evidence_type": "description"
+            }
+          ]
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        }
+      ]
+    },
+    {
+      "publication": "WO2024199585A1",
+      "family_id": "90826597",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "unresolved",
+          "recommendation": "remain unresolved until PDF-root override is integrated; no HTML substitute proposed."
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "unresolved",
+          "recommendation": "remain unresolved until PDF-root override is integrated; no HTML substitute proposed."
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "unresolved",
+          "recommendation": "remain unresolved until PDF-root override is integrated; no HTML substitute proposed."
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "unresolved",
+          "recommendation": "remain unresolved until PDF-root override is integrated; no HTML substitute proposed."
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "unresolved",
+          "recommendation": "remain unresolved until PDF-root override is integrated; no HTML substitute proposed."
+        },
+        {
+          "field": "removal",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "unresolved",
+          "recommendation": "remain unresolved until PDF-root override is integrated; no HTML substitute proposed."
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "unresolved",
+          "recommendation": "remain unresolved until PDF-root override is integrated; no HTML substitute proposed."
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        }
+      ]
+    },
+    {
+      "publication": "WO2024250011A1",
+      "family_id": "91737942",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "removal",
+          "current_judgment": "explicit",
+          "recommended_judgment": "explicit",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "inferred",
+          "recommended_judgment": "inferred",
+          "recommendation": "keep current"
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "unresolved",
+          "recommended_judgment": "explicit",
+          "recommendation": "两半壳体连接为可选卡扣、螺钉或铰接方式。",
+          "evidence": [
+            {
+              "source_path": "h1-study/team_package_20260928/sources/WO2024250011A1.html",
+              "source_sha256": "1842bd29f950f82b162f3f1b3d3d5733ac4223a5bf41a798d0be41e516495284",
+              "locator": "说明书[0009] (HTML p0009)",
+              "quote": "[0006] According to an aspect of the present disclosure, a device for filtering microfibers from the laundry water during a normal washing cycle is disclosed, the device comprising a hard, protective outer shell and a removable, porous inner filter. The porous inner filter can include an electrospun PLA or cellulose mesh. The porous inner filter can include a PLA or cellulose foam. [0007] The rigid, outer shell can be made up of two hemispherical halves with varying permeability. The halves can be connected via flexural and snap fit or via a screw or hinge mechanism.",
+              "evidence_type": "description"
+            }
+          ]
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "recommended_judgment": "not_found",
+          "recommendation": "keep current"
+        }
+      ]
+    }
+  ]
+}

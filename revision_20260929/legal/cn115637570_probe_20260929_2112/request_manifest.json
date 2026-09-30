@@ -1,0 +1,27 @@
+[
+  {
+    "label": "CN115637570A_original",
+    "requested_url": "https://patentimages.storage.googleapis.com/d1/de/63/bced35d87bb972/CN115637570A.pdf",
+    "observed_at": "2026-09-29T21:11:29.091316+08:00",
+    "login_session": false,
+    "http_status": 200,
+    "final_url": "https://patentimages.storage.googleapis.com/d1/de/63/bced35d87bb972/CN115637570A.pdf",
+    "content_type": "application/pdf",
+    "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+    "bytes": 440367,
+    "sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456"
+  },
+  {
+    "label": "cpquery_current_response",
+    "requested_url": "https://cpquery.cponline.cnipa.gov.cn/chinesepatent/index",
+    "observed_at": "2026-09-29T21:11:30.523795+08:00",
+    "login_session": false,
+    "http_status": 412,
+    "final_url": "https://cpquery.cponline.cnipa.gov.cn/chinesepatent/index",
+    "error": "HTTP Error 412: Precondition Failed",
+    "content_type": "text/html; charset=utf-8",
+    "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\cpquery_current_response.html",
+    "bytes": 2470,
+    "sha256": "3ca00de25681d34990b81d0bc6826d3403c5da6c9dfb580fc49b95f285bf4868"
+  }
+]

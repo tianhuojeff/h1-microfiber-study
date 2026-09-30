@@ -1,0 +1,317 @@
+{
+  "checked_at": "2026-09-21T16:36:46.603641+08:00",
+  "scope": "Literature and desk-research methods accepted; no experimental results, apparatus approval or novelty conclusion",
+  "papers": 11,
+  "pages": 229,
+  "reading_artifacts": [
+    {
+      "path": "reading_notes/L01-L03_精读卡.md",
+      "exists": true,
+      "bytes": 13181,
+      "sha256": "167eda07e4328d46db917f036fe83efc07da2760b49ec45fb7b4ae3c2503db39"
+    },
+    {
+      "path": "reading_notes/20260921_L01-L03_核验补充.md",
+      "exists": true,
+      "bytes": 6045,
+      "sha256": "3de7540648a0452439bb62700bbe14d9624db43e0fde938de08ec6fee821b989"
+    },
+    {
+      "path": "reading_notes/20260921_L04-L05-L09-L11_核验补充.md",
+      "exists": true,
+      "bytes": 10194,
+      "sha256": "dffb4d165da21f44d82734d5e991ab140cda77939dbdb5576c4257cd3dbfbfdc"
+    },
+    {
+      "path": "reading_notes/L07_Hamann2025_精读卡.md",
+      "exists": true,
+      "bytes": 5882,
+      "sha256": "3620d5616ad5ca107caef17f768a94fcb88910d1070f7afba86b20693d16108c"
+    },
+    {
+      "path": "reading_notes/研究问题与证据矩阵.md",
+      "exists": true,
+      "bytes": 7321,
+      "sha256": "fd82eff7ba11fcba7df3c533f1e98de0da55392818dec9eec8a0016e796f7713"
+    },
+    {
+      "path": "reading_notes/最小验证方案_研究草案.md",
+      "exists": true,
+      "bytes": 9948,
+      "sha256": "7665ce82fe7eb79a612e7ee225694264dcab19675e1bfcf5f9f8cd4ef7bdec9d"
+    },
+    {
+      "path": "reading_notes/候选路线与下一轮研究顺序.md",
+      "exists": true,
+      "bytes": 4628,
+      "sha256": "606ea0796c0a864f9861798dca4c4408a1bf716e72df15044d3c687ac3111f78"
+    },
+    {
+      "path": "acquisition_followup/F02_精读卡.md",
+      "exists": true,
+      "bytes": 7750,
+      "sha256": "e73c4dab6d08a58a897a5f306b6d7a521edb16967c103496f5f26134a7cd8fe1"
+    },
+    {
+      "path": "acquisition_followup/F02_Browne2020_verification.md",
+      "exists": true,
+      "bytes": 2331,
+      "sha256": "21fbc0d512c651f3fb5d9082d453a6bab0294ade0e1d6fddc571e3510d082be0"
+    },
+    {
+      "path": "metadata/L12_root_supplement_recalculation.json",
+      "exists": true,
+      "bytes": 656,
+      "sha256": "2712f87181ce5c9ea54744ca7ba4319a3eb4e79ff8efa9141ad413defdbaf538"
+    },
+    {
+      "path": "reading_notes/L13_Gao2026_慢砂微纤维输运_精读卡.md",
+      "exists": true,
+      "bytes": 4651,
+      "sha256": "1ca0636203e8af705fb86d6a52b22af74297f653591dbe6466420781edcd218b"
+    },
+    {
+      "path": "reading_notes/H1_候选技术差异与淘汰条件.md",
+      "exists": true,
+      "bytes": 12781,
+      "sha256": "b8a07b4ce0123b65ff857859769ef630b591cc4e7386b89b444b24430f384f4d"
+    },
+    {
+      "path": "reading_notes/H1_最小验证方案方法学复核.md",
+      "exists": true,
+      "bytes": 9664,
+      "sha256": "cc639ee959006b74eb5eff1e09ca2c4a6e69368360d33148470f4c5f191a7257"
+    },
+    {
+      "path": "experiment_planning/记录字段与计量边界.md",
+      "exists": true,
+      "bytes": 2909,
+      "sha256": "c8641f589e2c76c1de0d00fb7f1a10e4a6f738b005611d9ebd777a5a4029f39e"
+    },
+    {
+      "path": "experiment_planning/空白单循环记录.json",
+      "exists": true,
+      "bytes": 2013,
+      "sha256": "e2228c83cf184c3cd2b1efc18b9d04a6c28e6c74c40256ff4fa273ac8f04af55"
+    },
+    {
+      "path": "experiment_planning/空白终端流路记录.json",
+      "exists": true,
+      "bytes": 959,
+      "sha256": "124e0c0fa75081cc2fbcc71afa7af5c924b116c7d3fa4bf3f0940ad7f6277f0c"
+    },
+    {
+      "path": "acquisition_followup/F05_Brick2025_行为与维护短卡.md",
+      "exists": true,
+      "bytes": 4085,
+      "sha256": "836d9ffbcec9fe638bdfc4b0ac266b93e24325ceaf684a60c3edd2cafeb1603a"
+    },
+    {
+      "path": "metadata/L07_fig6_raw_label_audit.json",
+      "exists": true,
+      "bytes": 8962,
+      "sha256": "34b35a87dfee1f17f594b927d8f451ba601a9c8c421e0a964ba2ee9b770cf31b"
+    },
+    {
+      "path": "reading_notes/L07_图6原始表标签复核.md",
+      "exists": true,
+      "bytes": 3399,
+      "sha256": "ceb4d2fb4a5bfc3194114f24c031bc73687382bb0801db5bec70faa6a83a3e49"
+    },
+    {
+      "path": "experiment_planning/流路与终点示意.md",
+      "exists": true,
+      "bytes": 1082,
+      "sha256": "5d25da0043ac8e54f172e00e2b714a0c47cd8a3646c8c757d263b885a78a4974"
+    },
+    {
+      "path": "论文阅读入口.md",
+      "exists": true,
+      "bytes": 5743,
+      "sha256": "e8b7aac1256fb2335b896df26be6357848dd587763b1919be83192bfb88b7c08"
+    },
+    {
+      "path": "reading_notes/L07_角度定义与图文冲突.md",
+      "exists": true,
+      "bytes": 1839,
+      "sha256": "bcbd1827785f1e570e35d80bb1478d960d18f8064078138996ee1a4048647fc2"
+    },
+    {
+      "path": "acquisition_followup/F06_Masselter2023_acquisition_blocked.md",
+      "exists": true,
+      "bytes": 1880,
+      "sha256": "d800fa71a9144d961b1c4df55a43e14f828dbd87be39b6788c7aa6e568b93e36"
+    },
+    {
+      "path": "reading_notes/H1_设计依据与现有技术对照.md",
+      "exists": true,
+      "bytes": 9648,
+      "sha256": "020f73827b7587be8f287b79bf77ecf10aaa63f48e1c48c5ba0498598b42adde"
+    },
+    {
+      "path": "reading_notes/H1_家庭维护证据与外推边界.md",
+      "exists": true,
+      "bytes": 8793,
+      "sha256": "84f14422c1596d1ce6ce7df4bbd523690810175e5781f22ba232356d8957485e"
+    },
+    {
+      "path": "reading_notes/H1_水力数值的适用范围.md",
+      "exists": true,
+      "bytes": 2261,
+      "sha256": "1b930e85a48d2be99ecfbe544740d346d71fa1fe28e3daf271cceedb85ee7a78"
+    },
+    {
+      "path": "acquisition_followup/F03_在线原文核对.md",
+      "exists": true,
+      "bytes": 1078,
+      "sha256": "fcce3f5c9f701bea91e9ee55c59494a03e57b1861e0d252c1343394b6a8fb435"
+    },
+    {
+      "path": "reading_notes/H1_计量方法与证据缺口.md",
+      "exists": true,
+      "bytes": 11425,
+      "sha256": "741287d428a8204ac6bf9f1880e45de19c219d93d425b8fd5dd16386ca58fa47"
+    },
+    {
+      "path": "reading_notes/L07_自清理机制与寿命证据.md",
+      "exists": true,
+      "bytes": 8776,
+      "sha256": "35213c4f25d4f19d7674b0ab8bb5321ab85dab2acbde3a33a7e5bfffeac71742"
+    },
+    {
+      "path": "acquisition_followup/F06_作者公开稿在线短卡.md",
+      "exists": true,
+      "bytes": 627,
+      "sha256": "e0af6c15b71f4b53fbd58153b9e03abf03bb16642c4e9bb189b455440b70dfb6"
+    },
+    {
+      "path": "metadata/L07_recovery_full_table_audit.json",
+      "exists": true,
+      "bytes": 155612,
+      "sha256": "e061b13f41468363b3e315054d17bb82ffc3ad97159704871aa0d2741b50af14"
+    },
+    {
+      "path": "metadata/L07_recovery_root_verification.json",
+      "exists": true,
+      "bytes": 14166,
+      "sha256": "434b6cd7a3a2cfdc847277e2da68d3c6ee75067fc7d91f2ded1dbbae3828b436"
+    },
+    {
+      "path": "metadata/verify_L07_recovery_audit.py",
+      "exists": true,
+      "bytes": 2954,
+      "sha256": "e9a4fbdf4e8827d458d4c353a0a4c0026d5a905360fe8862547951f2ff327a65"
+    },
+    {
+      "path": "reading_notes/L07_回收率原始表覆盖复核.md",
+      "exists": true,
+      "bytes": 4621,
+      "sha256": "1f1e21bc5c5c0591976023b6fe1015dadf9941d50069d140d5d245f2af6ee094"
+    },
+    {
+      "path": "reading_notes/H1_候选路线复核意见_20260921.md",
+      "exists": true,
+      "bytes": 5604,
+      "sha256": "f0474b8c5925195e3b745eb20dcc704ef6bf359b70215417cce84423b8f935b8"
+    },
+    {
+      "path": "metadata/L07_workbook_coverage_inventory.json",
+      "exists": true,
+      "bytes": 5453,
+      "sha256": "3a500d421c57b92572075116a0b8a9545e91d47ad396f628bd642786040a635e"
+    },
+    {
+      "path": "reading_notes/L07_附件工作表覆盖清单.md",
+      "exists": true,
+      "bytes": 3649,
+      "sha256": "f99e8e2f4e65e96b3c5abf146dfe12c2cdaed56d815db95f2a81e28f68cc788f"
+    },
+    {
+      "path": "metadata/L07_volume_flow_targeted_audit.json",
+      "exists": true,
+      "bytes": 7263,
+      "sha256": "1a4c5c8443d2d46569b7f0e7cd960cb74126dfa914e9d3cb462e7f1668f5f12b"
+    },
+    {
+      "path": "metadata/L07_volume_flow_root_verification.json",
+      "exists": true,
+      "bytes": 3144,
+      "sha256": "e265b522edbb25f562b65362d08b9314568d47de81d8444fd667bf4b6946bf59"
+    },
+    {
+      "path": "metadata/verify_L07_volume_flow_targeted.py",
+      "exists": true,
+      "bytes": 2637,
+      "sha256": "0a78153468c9e0d420473ef61258fc05f6d775cac917b910f4145469d50b58fe"
+    },
+    {
+      "path": "reading_notes/L07_流量与清理时间原始表复核.md",
+      "exists": true,
+      "bytes": 2978,
+      "sha256": "29b2cc82014c98fec3898e6e23ed12889376d732ddb83026c22b40c27ede88b6"
+    },
+    {
+      "path": "acquisition_followup/L08_retry_new_source/acquisition_evidence.md",
+      "exists": true,
+      "bytes": 1844,
+      "sha256": "4d8254bcd78716c788f935cb248b9e9213dae66c7e5b4cd604f50561dd480047"
+    }
+  ],
+  "blocked_fulltexts": {
+    "L06": "publisher HTTP403 and maintenance page",
+    "L08": "New-source follow-up: ScienceDirect public PDF HTTP403; institutional record and author directory provided no new downloadable full text. No PDF acquired; existing 11-PDF count unchanged.",
+    "DeFalco2021": "institutional manuscript403 and publisher subscription access",
+    "F06_Masselter2023": "Author-uploaded accepted manuscript read online; local PDF download HTTP403. Not part of 11 verified local PDFs.",
+    "F03_Sheikhi137646": "Institutional PDF read online; local acquisition SSL failure then HTTP403. Not part of 11 verified local PDFs."
+  },
+  "unperformed": [
+    "physical experiments",
+    "novelty or legal claim scope conclusion",
+    "Full substantive audit of AoA/CFD and volume-flow rows outside the two explicit comparisons"
+  ],
+  "passed": true,
+  "reading_accepted_count": 11,
+  "reading_pending": [],
+  "watermark_only_pages": 11,
+  "substantive_pages": 217,
+  "institutional_cover_pages": 1,
+  "source_conflicts_open": [
+    "L12 abstract/results pore-size and percentage mismatch",
+    "L07 Figure6 inlet label, sample subset and ER reporting mismatch",
+    "S2 example height statements inconsistent",
+    "L07 Supplement Note3 recovery 76.4 +/-18.1 N71 not reproduced under either explicit grouping; trial16 conflicting volume and stored recovery retained",
+    "L07 volume-flow: 160% time increase not reproduced; cleaning siphon labels conflict with Note2; run IDs absent; no causal recovery conclusion"
+  ],
+  "bibliographic_corrections": [
+    {
+      "old_alias": "F03_Lupato137646",
+      "correct_alias": "F03_Sheikhi137646",
+      "basis": "institutional PDF article title page, DOI 10.1016/j.jhazmat.2025.137646",
+      "distinct_candidate": "Lupato 138947 remains separate; not the same article"
+    }
+  ],
+  "online_only_reading": [
+    {
+      "alias": "F03_Sheikhi137646",
+      "local_pdf_verified": false,
+      "note": "acquisition_followup/F03_在线原文核对.md",
+      "local_download_latest": "SSL failed in PowerShell; system curl reached server but returned HTTP403"
+    },
+    {
+      "alias": "F06_Masselter2023",
+      "local_pdf_verified": false,
+      "note": "acquisition_followup/F06_作者公开稿在线短卡.md",
+      "source_type": "author-uploaded accepted manuscript, online body read; PDF download HTTP403"
+    }
+  ],
+  "pending_audits": [],
+  "accepted_audit_scope": "L07 filtration-efficiency worksheet grouping, stored recovery summaries and anomalies; not all supplementary datasets or unique reproduction of author statistics; targeted volume-flow 15 L siphon/valve comparisons independently recomputed with source-label and run-ID limitations retained",
+  "entry_link_acceptance": {
+    "local_links": 44,
+    "broken": 0
+  },
+  "supplementary_acquisition_status": {
+    "L08": "blocked_public_pdf_access",
+    "first_batch_accepted": true
+  }
+}

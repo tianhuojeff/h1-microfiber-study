@@ -1,0 +1,885 @@
+--- PAGE 1 ---\nAcademic Editors: Sabina
+Ziembowicz and Małgorzata Kida
+Received: 2 January 2025
+Revised: 20 January 2025
+Accepted: 24 January 2025
+Published: 27 January 2025
+Citation: Park, B.; Yoon, H.-J.; Park,
+H. Development and Efficiency
+Evaluation of Microplastic Removal
+Filter for Laundry Machines. Water
+2025, 17, 358. https://doi.org/
+10.3390/w17030358
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license
+(https://creativecommons.org/
+licenses/by/4.0/).
+Article
+Development and Efficiency Evaluation of Microplastic Removal
+Filter for Laundry Machines
+Beomseok Park 1, Hee-Jung Yoon 2 and Hanbai Park 1,*
+1 Korea Microplastic Research Center Co., Ltd., 2nd Floor, 88, Daejeo-Ro 299 St.,
+Busan 46702, Republic of Korea; kmpr@kmpr.co.kr or hotduck13@naver.com
+2 Taeyoungunion Co., Ltd., 320, Woni-daero, Seongsan-gu, Changwon 51408, Republic of Korea;
+taeyoungunion@daum.net
+* Correspondence: parkhanbai@gmail.com
+Abstract: Microplastics contained in laundry wastewater are identified as the main cause
+of marine microplastics, accounting for approximately 35% of marine microplastics. In
+this study, a four-stage microplastic filter for laundry wastewater was developed and the
+removal rates of microplastics, COD, SS, and turbidity were checked through 50 tests to
+confirm the efficiency of the filter. The microplastic removal rate was confirmed using
+µFTIR with a high efficiency of 98.5% on average for 50 tests. The microplastics contained
+in laundry wastewater were identified as 57% PE, 9% PET, 9% PA, 8% PU, 8% PP , 6%
+PPMA, and 3% PAN. COD was measured using the COD manganese method, and the
+COD removal rate of the laundry wastewater filter was an average of 92% for 50 times. SS
+was verified by filtration using a vacuum pump and the average removal rate was 80%
+during 50 tests. Turbidity was confirmed with an average removal rate of 88% using a
+turbidity meter. As a result of the experiment, it was confirmed that when the developed
+filter was installed in laundry wastewater, not only microplastics but also various water
+pollutants were reduced. In addition, the water quality pollution index showing the
+highest correlation with microplastics in laundry wastewater was SS, and the p-value was
+confirmed to be 0.000.
+Keywords: microplastics in laundry wastewater; microplastic removal filter; laundry
+wastewater pollutants removal by filtration; µFTIR analysis
+1. Introduction
+Plastic pieces less than 5 mm in size, called microplastics, are an emerging major
+environmental pollution issue worldwide. In 2017, microplastic fibers released during
+the laundry process were found to account for approximately 35% of global microplastic
+marine pollution [1]. During the laundry process, microplastics are created as microfibers
+are mechanically and chemically separated, and it was confirmed that wastewater treatment
+plants cannot block all microfibers that are released due to their micro or nanosize [2–4]. In
+order to reduce microplastics in the ocean, it is necessary to reduce microplastics in laundry
+wastewater, and preventive measures include improving washing machine technology,
+using filters, and changing clothing materials. Among these, the most efficient method that
+can be applied to existing washing machines is a laundry water filter. There are several
+factors that contribute to the creation of microfibers during laundry. First, it was confirmed
+that clothing made from natural fabrics releases more microfibers when washed than
+clothing made from synthetic fabrics [5]. Second, the age of clothing can affect microfiber
+shedding. Several studies have found that new clothes release more microfibers than old
+Water 2025, 17, 358 https://doi.org/10.3390/w17030358\n\n--- PAGE 2 ---\nWater 2025, 17, 358 2 of 16
+ones [6,7]; however, Hernandez (2017) found that older clothes released more microfibers
+than new clothes depending on the type of clothing [ 8]. Third, it was confirmed that
+the discharge of microfibers differs depending on the temperature of the laundry water
+and the type of laundry machine. Several studies have shown that hot washing results
+in more microfibers being released than cold washing [ 5,9]. Depending on the type of
+laundry machine, top-loader types (regular laundry machines) were found to emit more
+microfibers than front-loader types (drum laundry machines) [10,11]. Fourth, the amount
+of clothes for washing significantly affected the release of microfibers. Volgare et al. (2021)
+confirmed that as the washing load increased, friction decreased and microfiber release
+decreased, and when the washing load decreased, microfiber release increased by about
+5 times due to increased mechanical stress [12]. Additionally, microfiber release increased
+or decreased depending on the type of detergent, fabric softener, and laundry machine
+operation method [13,14].
+Accordingly, there are several ways to alleviate microplastic pollution in laundry
+wastewater. First, there are improvement measures by consumers and suppliers, such
+as reducing the number of washes, reducing clothing consumption, and changing textile
+production methods. Second, washing machine suppliers are taking steps to improve their
+washing machines, such as changing washing methods, developing new washing machines
+with a new filtration system, conserving water, and improving detergents. However, both
+methods are not easy to apply to general households. Accordingly, the most important
+priority approach to reduce microfiber emissions is to develop a laundry machine-specific
+filter and install it at the back of the laundry water discharge port to filter and release it out.
+Global plastic use has increased steadily since the 1960s, reaching 367 million tons
+in 2020 and is expected to continually increase [ 6]. The increase in the use of plastics is
+accelerating the rapid increase in microplastics. In particular, it can lead to an increase in
+marine microplastics, which is the final stage.
+Many researchers are conducting research on the method of microfiber emission, the
+source and path, and the method of removing microfibers from the emission source to study
+the control method of microplastics [15–17]. In particular, several studies were conducted
+on microplastic removal methods in sewage treatment plants where laundry wastewater is
+primarily discharged and controlled [18,19]. Traditional secondary and tertiary wastewater
+treatment was shown to remove up to 98% of microplastics in water [ 20]. Alvitie et al.
+(2017) confirmed that 99% of microplastics were removed using a 0.4 µm membrane
+and a biologically active filter [ 21]. Murphy et al. (2016) reported that despite a 98%
+removal of microplastics in a Scottish WWTP , approximately 6.5 × 107 MPs were still
+released into the aquatic environment every day [2]. Despite the removal of microplastics
+in sewage treatment plants, millions of microplastics are still being released into rivers
+every day. While many studies have focused on removing microplastics in wastewater
+treatment plants, few practical strategies have been proposed to reduce emissions during
+household laundry processes. In addition, research on the efficiency, economic feasibility,
+and practicality of laundry water filters is limited.
+In this study, our aim is to reduce microplastics in laundry water by developing a
+microplastic filter that is installed on the laundry machine outlet. The microplastic filter
+was developed as a four-stage filter. The first filter is a 1270 µm stainless steel filter that
+mainly removes large microfibers, and the second filter is a 508 µm stainless steel filter
+that removes microplastics that were not removed in the first stage. The third filter is
+a 101 µm stainless steel filter that removes microfibers larger than 100 µm. The fourth
+filter is a 0.3 µm glass fiber filter that removes microplastics smaller than 100 µm. The
+developed filter can be installed on the washing water drain outlet to be compatible with
+various washing machine models for expandability, and the maximum lifespan of the\n\n--- PAGE 3 ---\nWater 2025, 17, 358 3 of 16
+filter was measured for practicality to confirm the replacement period and maintenance
+method of the filter. This filtration filter system is a groundbreaking technology that can
+reduce microplastics, turbidity, SS, and COD in laundry wastewater. In order to verify
+the efficiency of the filtration system, microplastics, turbidity, SS, and COD in laundry
+wastewater were checked before and after treatment.
+2. Materials and Methods
+The test method was divided into a manufacturing section for the laundry wastewater
+filter to explain the structure of the developed filter and an experimental section to confirm
+the removal of microplastics and other pollutants using the developed filter.
+2.1. Filter Developing Method
+The developed laundry wastewater filter was manufactured to filter approximately
+15 L/min of washing machine wastewater. It was manufactured as a four-stage filtration
+system that can remove microplastics, suspended solids, and other contaminants. Before
+manufacturing the product, it was designed as shown in Figure 1 to remove microfibers
+step by step through the cyclone water flow.
+Water 2025, 17, x FOR PEER REVIEW 3 of 18 
+ 
+ 
+developed ﬁlter can be installed on the washing water drain outlet to be compatible with 
+various washing machine models for expandability, and the maximum lifespan of the ﬁl-
+ter was measured for practicality to con ﬁrm the replacement period and maintenance 
+method of the ﬁlter. This ﬁltration ﬁlter system is a groundbreaking technology that can 
+reduce microplastics, turbidity, SS, and COD in laundry wastewater. In order to verify the 
+eﬃciency of the ﬁltration system, microplastics, turbidity, SS, and COD in laundry 
+wastewater were checked before and after treatment. 
+2. Materials and Methods 
+The test method was divided into a manufacturing section for the laundry 
+wastewater ﬁlter to explain the structure of the developed ﬁlter and an experimental sec-
+tion to con ﬁrm the removal of microplastics and other pollutants using the developed 
+ﬁlter. 
+2.1. Filter Developing Method 
+The developed laundry wastewater ﬁlter was manufactured to ﬁlter approximately 
+15 L/min of washing machine wastewater. It was manufactured as a four-stage ﬁltration 
+system that can remove microplastics, suspended solids, and other contaminants. Before 
+manufacturing the product, it was designed as shown in Figure 1 to remove micro ﬁbers 
+step by step through the cyclone water ﬂow. 
+  
+(a) ( b) 
+Figure 1. Laundry ﬁlter design: (a) laundry ﬁlter design rendering image; (b) design of laundry ﬁlter 
+drawing. 
+After designing the product, modeling was performed using Soildworks 2024 to eval-
+uate the performance of the product and check the water ﬂow of the virtual product, as 
+shown in Figure 2. In the results, it was con ﬁrmed that the product was designed in a 
+circular shape, and the physical separation occurred quickly due to the acceleration and 
+gravity generated from the high ﬂow rate from the centrifuge, which increased the re-
+moval eﬃciency of microplastics and suspended solids. 
+Figure 1. Laundry filter design: ( a) laundry filter design rendering image; ( b) design of laundry
+filter drawing.
+After designing the product, modeling was performed using Soildworks 2024 to
+evaluate the performance of the product and check the water flow of the virtual product,
+as shown in Figure 2. In the results, it was confirmed that the product was designed in a
+circular shape, and the physical separation occurred quickly due to the acceleration and
+gravity generated from the high flow rate from the centrifuge, which increased the removal
+efficiency of microplastics and suspended solids.
+Based on the modeling results, the laundry wastewater filter was manufactured as
+shown in Figure 3. The filter parts were designed and manufactured by dividing them
+into four filter nets, a part connected to the washing machine, and a part connected to the
+drain. The primary filter is a net-shaped woven wire made of stainless steel 304 with a
+pore diameter of 1270 µm. The secondary filter is also made of stainless steel 304 and has
+a pore diameter of 508 µm. The tertiary filter is also made of stainless steel 304 and has a
+pore diameter of 100 µm. The 4th filter is a 0.3 µm filter made of glass fiber. All filters are
+designed and custom-made according to the dimensions. The manufactured product can
+be inserted directly into the sewage outlet and connected to the washing machine drain
+hose. The water discharged from the washing machine passes through the developed filter
+and flows out to the sewage outlet.\n\n--- PAGE 4 ---\nWater 2025, 17, 358 4 of 16
+Water 2025, 17, x FOR PEER REVIEW 4 of 18 
+ 
+ 
+  
+(a) ( b) 
+  
+(c)  (d) 
+Figure 2. Laundry ﬁlter ﬂuid modeling using Solidworks 2024: (a) laundry ﬁlter 3D image; (b) top 
+view of laundry ﬁlter ﬂuid ﬂow; (c) side view of laundry ﬁlter ﬂuid ﬂow; (d) velocity view of laun-
+dry ﬁlter ﬂuid ﬂow. 
+Based on the modeling results, the laundry wastewater ﬁlter was manufactured as 
+shown in Figure 3. The ﬁlter parts were designed and ma nufactured by dividing them 
+into four ﬁlter nets, a part connected to the washing machine, and a part connected to the 
+drain. The primary ﬁlter is a net-shaped woven wire made of stainless steel 304 with a 
+pore diameter of 1270 µm. The secondary ﬁlter is also made of stainless steel 304 and has 
+a pore diameter of 508 µm. The tertiary ﬁlter is also made of stainless steel 304 and has a 
+pore diameter of 100 µm. The 4th ﬁlter is a 0.3 µm ﬁlter made of glass ﬁber. All ﬁlters are 
+designed and custom-made according to the dimensions. The manufactured product can 
+be inserted directly into the sewage outlet  and connected to the washing machine drain 
+hose. The water discharged from the washing machine passes through the developed ﬁl-
+ter and ﬂows out to the sewage outlet. 
+  
+(a) ( b) 
+Figure 2. Laundry filter fluid modeling using Solidworks 2024: (a) laundry filter 3D image; (b) top
+view of laundry filter fluid flow; (c) side view of laundry filter fluid flow; (d) velocity view of laundry
+filter fluid flow.
+Water 2025, 17, x FOR PEER REVIEW 4 of 18 
+ 
+ 
+  
+(a) ( b) 
+  
+(c)  (d) 
+Figure 2. Laundry ﬁlter ﬂuid modeling using Solidworks 2024: (a) laundry ﬁlter 3D image; (b) top 
+view of laundry ﬁlter ﬂuid ﬂow; (c) side view of laundry ﬁlter ﬂuid ﬂow; (d) velocity view of laun-
+dry ﬁlter ﬂuid ﬂow. 
+Based on the modeling results, the laundry wastewater ﬁlter was manufactured as 
+shown in Figure 3. The ﬁlter parts were designed and ma nufactured by dividing them 
+into four ﬁlter nets, a part connected to the washing machine, and a part connected to the 
+drain. The primary ﬁlter is a net-shaped woven wire made of stainless steel 304 with a 
+pore diameter of 1270 µm. The secondary ﬁlter is also made of stainless steel 304 and has 
+a pore diameter of 508 µm. The tertiary ﬁlter is also made of stainless steel 304 and has a 
+pore diameter of 100 µm. The 4th ﬁlter is a 0.3 µm ﬁlter made of glass ﬁber. All ﬁlters are 
+designed and custom-made according to the dimensions. The manufactured product can 
+be inserted directly into the sewage outlet  and connected to the washing machine drain 
+hose. The water discharged from the washing machine passes through the developed ﬁl-
+ter and ﬂows out to the sewage outlet. 
+  
+(a) ( b) 
+Water 2025, 17, x FOR PEER REVIEW 5 of 18 
+ 
+ 
+  
+(c) ( d) 
+Figure 3. Laundry ﬁlter parts and manufacturing process: ( a) ﬁlters used in laundry ﬁlter system; 
+(b) parts used in laundry ﬁlter system; ( c) assembled laundry ﬁlter system; ( d) installed laundry 
+ﬁlter system. 
+2.2. Laundry Wastewater Filter Eﬃciency Test Method 
+To test the replacement cycle and e ﬃciency of the developed ﬁlter, 50 repeated ex-
+periments were performed and microplastics, COD, SS, and turbidity were analyzed in 
+the discharge wastewater and the wastewater after ﬁltration. The concentrations of micro-
+plastics, COD, SS, and turbidity in the laundry discharge water before and after the ﬁlter 
+were compared to verify the removal e ﬃciency of the ﬁlter. The laundry was performed 
+at 5 kg/load using general clothing, towels, and socks. 
+2.2.1. Microplastic Analytical Method 
+Microplastic analysis was performed using a Fourier transform infrared (FTIR) mi-
+croscope (IN10MX, Thermo Fisher Scienti ﬁc Inc., Waltham, MA, USA) and a digital mi-
+croscope (DSZM-7045T, Dongwon Industries, Seoul, Republic of Korea). The microplastic 
+ﬁlter used was made of stainless steel with a pore size of 20 µm and a diameter of 25 mm. 
+It was vacuum-ﬁltered and measured using an FTIR microscope. 
+Raman spectroscopy, pyrolysis GC-MS, and uFTIR are widely used methods for an-
+alyzing microplastics. uFTIR can analyze small particles less than 20 µm in high resolution 
+based on the unique vibration spectrum of the polymer without damaging the sample, so 
+it was selected as suitable for laundry wa stewater. Pyrolysis GC-MS was excluded be-
+cause it could not con ﬁrm the shape and particle size of  microplastics, and Raman spec-
+troscopy was excluded because it can cause ﬂuorescence interference from colored micro-
+ﬁbers or speci ﬁc polymers. Cross-validation was co nsidered using Raman spectroscopy 
+and u-FTIR, but since it required many experiments, it was decided to proceed when com-
+mercializing the ﬁlter product. 
+Figure 4 shows microplastic analysis sequ ence using µFTIR. FTIR microscopy ana-
+lyzes one quarter of a 25 mm mass ﬁlter at a time, and the entire ﬁlter is analyzed four 
+times. The number, material, and length of microplastics in the analyzed ﬁlter were con-
+ﬁrmed using FTIR microscope software. The ty pe of microplastic was determined based 
+on the FTIR spectra data provided by the FTIR  software. The plastic type criterion is de-
+termined to be a speciﬁc plastic type if the match rate is 70% or higher and the same plastic 
+i s  f o u n d  m o r e  t h a n  1 0  t i m e s .  T h e  s i z e  o f  microplastics was measured by their longest 
+length (maximum ferret diameter) [22]. 
+Figure 3. Laundry filter parts and manufacturing process: (a) filters used in laundry filter system;
+(b) parts used in laundry filter system; ( c) assembled laundry filter system; ( d) installed laundry
+filter system.\n\n--- PAGE 5 ---\nWater 2025, 17, 358 5 of 16
+2.2. Laundry Wastewater Filter Efficiency Test Method
+To test the replacement cycle and efficiency of the developed filter, 50 repeated ex-
+periments were performed and microplastics, COD, SS, and turbidity were analyzed in
+the discharge wastewater and the wastewater after filtration. The concentrations of mi-
+croplastics, COD, SS, and turbidity in the laundry discharge water before and after the filter
+were compared to verify the removal efficiency of the filter. The laundry was performed at
+5 kg/load using general clothing, towels, and socks.
+2.2.1. Microplastic Analytical Method
+Microplastic analysis was performed using a Fourier transform infrared (FTIR) micro-
+scope (IN10MX, Thermo Fisher Scientific Inc., Waltham, MA, USA) and a digital microscope
+(DSZM-7045T, Dongwon Industries, Seoul, Republic of Korea). The microplastic filter used
+was made of stainless steel with a pore size of 20 µm and a diameter of 25 mm. It was
+vacuum-filtered and measured using an FTIR microscope.
+Raman spectroscopy, pyrolysis GC-MS, and uFTIR are widely used methods for ana-
+lyzing microplastics. uFTIR can analyze small particles less than 20 µm in high resolution
+based on the unique vibration spectrum of the polymer without damaging the sample, so it
+was selected as suitable for laundry wastewater. Pyrolysis GC-MS was excluded because it
+could not confirm the shape and particle size of microplastics, and Raman spectroscopy
+was excluded because it can cause fluorescence interference from colored microfibers or
+specific polymers. Cross-validation was considered using Raman spectroscopy and u-FTIR,
+but since it required many experiments, it was decided to proceed when commercializing
+the filter product.
+Figure 4 shows microplastic analysis sequence usingµFTIR. FTIR microscopy analyzes
+one quarter of a 25 mm mass filter at a time, and the entire filter is analyzed four times. The
+number, material, and length of microplastics in the analyzed filter were confirmed using
+FTIR microscope software. The type of microplastic was determined based on the FTIR
+spectra data provided by the FTIR software. The plastic type criterion is determined to be a
+specific plastic type if the match rate is 70% or higher and the same plastic is found more
+than 10 times. The size of microplastics was measured by their longest length (maximum
+ferret diameter) [22].
+Water 2025, 17, x FOR PEER REVIEW 6 of 18 
+ 
+ 
+  
+(a) ( b) 
+Figure 4. Microplastic mesh ﬁlter image and microplastic identi ﬁcation process. ( a) 25 mm mesh 
+ﬁlter used for analysis of microplastics, imaged by FTIR microscope. ( b) Determination of micro-
+plastics using OMNIC 9.16. 
+To check the micro ﬁber removal rate of the laundry ﬁlter, the diﬀerence before and 
+after passing through the laundry ﬁlter was determined in the form of the following for-
+mula: 
+𝑀𝑃 𝑟𝑒𝑚𝑜𝑣𝑎𝑙 𝑟𝑎𝑡𝑒(%) =
+𝐼𝑛𝑝𝑢𝑡 𝑀𝑃𝑠 ቀ𝑒𝑎
+𝐿 ቁ−𝑂 𝑢 𝑡 𝑝 𝑢 𝑡  𝑀 𝑃 𝑠 (𝑒𝑎
+𝐿 )
+𝐼𝑛𝑝𝑢𝑡 𝑀𝑃𝑠(𝑒𝑎
+𝐿 )
+ × 100 (1) 
+2.2.2. Chemical Oxygen Demand Analytical Method 
+Chemical oxygen demand, called COD, was measured before and after passing 
+through the laundry ﬁlter to conﬁrm the organic matter removal rate of the laundry ﬁlter. 
+COD is used as an indicator to determine the amount of dissolved oxygen needed to oxi-
+dize organic matter in water with an oxidizing agent [23,24]. The COD manganese method 
+was used to check how much COD the laundry water ﬁlter removes. The COD manganese 
+method is a method of measuring the amou nt of oxygen consumed by adding 0.025 N 
+potassium permanganate to a wash water sample, heating it in a water bath for 30 min, 
+and then checking the amount of potassium permanganate consumed. The COD removal 
+rate was conﬁrmed by measuring the di ﬀerence in COD between the laundry discharge 
+water before and after passing through the ﬁlter. The removal rate was determined in the 
+form of the following formula: 
+𝐶𝑂𝐷 𝑟𝑒𝑚𝑜𝑣𝑎𝑙 𝑟𝑎𝑡𝑒(%) =
+𝐼𝑛𝑝𝑢𝑡 𝐶𝑂𝐷 ቀ𝑚𝑔
+𝐿 ቁ−𝑂 𝑢 𝑡 𝑝 𝑢 𝑡  𝐶 𝑂 𝐷 (𝑚𝑔
+𝐿 )
+𝐼𝑛𝑝𝑢𝑡 𝐶𝑂𝐷 (𝑚𝑔
+𝐿 )
+ × 100 (2) 
+2.2.3. Suspended Solid Analytical Method 
+Suspended solid, called SS, was measured before and after passing through the de-
+veloped laundry ﬁlter to conﬁrm the total suspended solid removal rate of the developed 
+ﬁlter. SS is used as an indicator to check suspended solids in water [25]. SS was used as an 
+indicator to check how e ﬃcient the ﬁlter is in removing microplastics and other ﬂoating 
+pollutants. The measurement method used was to shake 1 L of laundry discharge water 
+using a glass ﬁber ﬁlter and then ﬁlter 250 mL of water using a vacuum pump to check 
+the weight diﬀerence in the glass ﬁber ﬁlter before and after the experiment. The di ﬀer-
+ence was conﬁrmed by measuring the laundry discharge water before and after passing 
+Figure 4. Microplastic mesh filter image and microplastic identification process. (a) 25 mm mesh filter
+used for analysis of microplastics, imaged by FTIR microscope. (b) Determination of microplastics
+using OMNIC 9.16.\n\n--- PAGE 6 ---\nWater 2025, 17, 358 6 of 16
+To check the microfiber removal rate of the laundry filter, the difference before and after
+passing through the laundry filter was determined in the form of the following formula:
+MP removal rate (%) = Input MPs
+  ea
+L
+
+− Output MPs
+  ea
+L
+
+Input MPs
+  ea
+L
+ × 100 (1)
+2.2.2. Chemical Oxygen Demand Analytical Method
+Chemical oxygen demand, called COD, was measured before and after passing
+through the laundry filter to confirm the organic matter removal rate of the laundry filter.
+COD is used as an indicator to determine the amount of dissolved oxygen needed to oxidize
+organic matter in water with an oxidizing agent [23,24]. The COD manganese method was
+used to check how much COD the laundry water filter removes. The COD manganese
+method is a method of measuring the amount of oxygen consumed by adding 0.025 N
+potassium permanganate to a wash water sample, heating it in a water bath for 30 min,
+and then checking the amount of potassium permanganate consumed. The COD removal
+rate was confirmed by measuring the difference in COD between the laundry discharge
+water before and after passing through the filter. The removal rate was determined in the
+form of the following formula:
+COD removal rate (%) = Input COD
+  mg
+L
+
+− Output COD
+  mg
+L
+
+Input COD
+  mg
+L
+ × 100 (2)
+2.2.3. Suspended Solid Analytical Method
+Suspended solid, called SS, was measured before and after passing through the de-
+veloped laundry filter to confirm the total suspended solid removal rate of the developed
+filter. SS is used as an indicator to check suspended solids in water [25]. SS was used as an
+indicator to check how efficient the filter is in removing microplastics and other floating
+pollutants. The measurement method used was to shake 1 L of laundry discharge water
+using a glass fiber filter and then filter 250 mL of water using a vacuum pump to check the
+weight difference in the glass fiber filter before and after the experiment. The difference
+was confirmed by measuring the laundry discharge water before and after passing through
+the filter to check the SS removal rate of the laundry wastewater filter. The removal rate
+was determined in the form of the following formula:
+SS removal rate (%) = Input SS
+  mg
+L
+
+− Output SS
+  mg
+L
+
+Input SS
+  mg
+L
+ × 100 (3)
+2.2.4. Turbidity Analytical Method
+The difference in turbidity before and after the laundry filter was checked to confirm
+the turbidity removal rate of the developed laundry filter. The turbidity was measured
+using a turbidity meter (2100Q, HACH, Hach company, Loveland, CO, USA). The turbidity
+removal rate was calculated by using the difference before and after passing through the
+laundry filter in the form of the following formula:
+Turbidity removal rate (%) = Input turbidity (NTU ) − Output tubidity (NTU )
+Input turbidity (NTU ) × 100 (4)
+3. Results
+Microplastics, COD, and SS were analyzed, and the results were derived to evaluate
+the effect and efficiency of the microplastic filter on the number of laundry cycles. The unit
+of microplastics was expressed as MPs ea/L, the units of COD and SS were calculated as\n\n--- PAGE 7 ---\nWater 2025, 17, 358 7 of 16
+mg/L, and the unit of turbidity was NTU. The process of the laundry machine consists of
+the first washing, first rinsing, second rinsing, and dehydration process, and the analysis
+of microplastics, COD, and SS was performed on the effluent after the first washing. The
+removal rates of all analyzed pollutants were calculated before and after passing through
+the developed filter. Additionally, the developed filter was not cleaned or replaced for
+50 washes.
+3.1. Microplastic Analysis
+The experiment on microplastics in laundry wastewater was conducted 50 times with
+5 kg/load of laundry after installing the developed filter at the rear of the washing machine.
+The results are shown in Figure 5.
+Water 2025, 17, x FOR PEER REVIEW 8 of 18 
+ 
+ 
+the microplastic ﬁlter can remove more than 90% of microplastics even when used with-
+out any maintenance for 50 washes. According to a survey on washing machines, it was 
+conﬁrmed that 67% of people in the world use washing machines twice a week on average 
+[26]. The microplastic ﬁlter developed based on this was con ﬁrmed to have the perfor-
+mance to remove microplastics regardless of ﬁlter replacement when used for 25 weeks 
+(approximately 6 months). Therefore, the ﬁlter replacement cycle is 1 time per 6 months 
+when using the washing machine twice a week, and 2 times per year when using the 
+washing machine three times a week with a replacement cycle of about 4 months. The 
+types of microplastics in the washing machine were inferred by checking the types of mi-
+croplastics in the eﬄuent after the washing machine ﬁlter, as there were too many micro-
+plastics in the eﬄuent before the ﬁltration. The types of microplastics were con ﬁrmed to 
+be PE 57%, PET 9%, PA 9%, PU 8%, PP 8%, PPMA 6%, and PAN 3% at an average of 50 
+times, as shown in Figure 7. The result can be inferred to be the most commonly used ﬁber 
+material and the most commonly included ﬁber in clothing. In addition, PET, PA, and PU 
+materials are also widely used as synthetic ﬁbers in clothing. Figure 8 shows photos of 
+discharged microplastics during washing take n with a digital microscope. As shown in 
+the microscope photos, a signi ﬁcant number of microplastics in the washing water were 
+ﬁlament-shaped. 
+ 
+Figure 5. Amount of microplastics by number of washes. 
+Figure 5. Amount of microplastics by number of washes.
+The maximum microplastics flowing into the wash wastewater was 1235 MPs ea/L,
+the minimum was 652 MPs ea/L, and the average was 954 MPs ea/L. These numbers were
+significantly different with each wash. The maximum microplastics flowing out through
+the developed wash filter was 48 MPs ea/L, the minimum was 8 MPs ea/L, and the average
+was 24 MPs ea/L. This result confirmed that there was a constant filter efficiency regardless
+of the number of microplastics before the filtration of laundry wastewater. The microplastic
+removal rate was confirmed by using Equation (1) to determine the number of microplastics
+before and after the filtration. The microplastic removal rate was calculated to be 97%
+on average.
+In Figure 5, the number of microplastics detected in the wash wastewater passing
+through the microplastic filter slightly increased as the number of washes increased. After
+filtering 28 times, more than 23 MPs ea/L of microplastics were detected in the discharge
+water. The maximum number of microplastics was 48 MPs ea/L, which was confirmed to
+be more than 5 times higher than the minimum of 8 MPs ea/L. However, the microplastic
+removal rate was still more than 93% when compared to the inflow water. The result
+indicates that the efficiency of the washing filter does not have a large effect on the mi-
+croplastic removal rate even for 50 washes. As shown in Figure 6, the removal rate of
+microplastics was confirmed to be a maximum of 99% and a minimum of 93%. This means
+that the microplastic filter can remove more than 90% of microplastics even when used
+without any maintenance for 50 washes. According to a survey on washing machines,
+it was confirmed that 67% of people in the world use washing machines twice a week
+on average [26]. The microplastic filter developed based on this was confirmed to have\n\n--- PAGE 8 ---\nWater 2025, 17, 358 8 of 16
+the performance to remove microplastics regardless of filter replacement when used for
+25 weeks (approximately 6 months). Therefore, the filter replacement cycle is 1 time per
+6 months when using the washing machine twice a week, and 2 times per year when
+using the washing machine three times a week with a replacement cycle of about 4 months.
+The types of microplastics in the washing machine were inferred by checking the types
+of microplastics in the effluent after the washing machine filter, as there were too many
+microplastics in the effluent before the filtration. The types of microplastics were confirmed
+to be PE 57%, PET 9%, PA 9%, PU 8%, PP 8%, PPMA 6%, and PAN 3% at an average of
+50 times, as shown in Figure 7. The result can be inferred to be the most commonly used
+fiber material and the most commonly included fiber in clothing. In addition, PET, PA, and
+PU materials are also widely used as synthetic fibers in clothing. Figure 8 shows photos of
+discharged microplastics during washing taken with a digital microscope. As shown in
+the microscope photos, a significant number of microplastics in the washing water were
+filament-shaped.
+Water 2025, 17, x FOR PEER REVIEW 9 of 18 
+ 
+ 
+ 
+Figure 6. Removal rate of microplastics by number of washes. 
+ 
+Figure 7. Types of microplastics. 
+Figure 6. Removal rate of microplastics by number of washes.
+Water 2025, 17, x FOR PEER REVIEW 9 of 18 
+ 
+ 
+ 
+Figure 6. Removal rate of microplastics by number of washes. 
+ 
+Figure 7. Types of microplastics. 
+Figure 7. Types of microplastics.\n\n--- PAGE 9 ---\nWater 2025, 17, 358 9 of 16
+Water 2025, 17, x FOR PEER REVIEW 10 of 18 
+ 
+ 
+ 
+Figure 8. Photos of microplastics in laundry wastewater using digital microscope. 
+3.2. Chemical Oxygen Demend Analysis 
+High COD in laundry wastewater can be a cause of river pollution and can overload 
+wastewater treatment plants [27]. Therefore, COD removal from laundry eﬄuent can play 
+many roles, such as reducing the level of pollution in wastewater from sewage treatment 
+plants, reducing the use of water treatment chemicals in sewage treatment plants, and 
+reducing wastewater load. 
+During the 50 experiments, the COD of the washing water ﬂowing out before using 
+the ﬁlter was conﬁrmed to be a maximum of 335 mg/L , a minimum of 119 mg/L, and an 
+average of 296 mg/L, which was signiﬁcantly diﬀerent for each wash in Figure 9. The COD 
+of the washing wastewater ﬂowing out after the microplastic ﬁlter was conﬁrmed to be a 
+maximum of 33 mg/L, a minimu m of 13 mg/L, and an average of 25 mg/L, and it was 
+conﬁrmed not to be changed much. The COD removal e ﬃciency of the developed ﬁlter 
+was conﬁrmed to be an average of 92%. 
+Figure 8. Photos of microplastics in laundry wastewater using digital microscope.
+3.2. Chemical Oxygen Demend Analysis
+High COD in laundry wastewater can be a cause of river pollution and can overload
+wastewater treatment plants [27]. Therefore, COD removal from laundry effluent can play
+many roles, such as reducing the level of pollution in wastewater from sewage treatment
+plants, reducing the use of water treatment chemicals in sewage treatment plants, and
+reducing wastewater load.
+During the 50 experiments, the COD of the washing water flowing out before using
+the filter was confirmed to be a maximum of 335 mg/L, a minimum of 119 mg/L, and an
+average of 296 mg/L, which was significantly different for each wash in Figure 9. The COD
+of the washing wastewater flowing out after the microplastic filter was confirmed to be a
+maximum of 33 mg/L, a minimum of 13 mg/L, and an average of 25 mg/L, and it was
+confirmed not to be changed much. The COD removal efficiency of the developed filter
+was confirmed to be an average of 92%.
+Water 2025, 17, x FOR PEER REVIEW 11 of 18 
+ 
+ 
+ 
+Figure 9. Amount of COD by number of washes. 
+Figure 10 shows that the COD removal eﬃciency decreases slightly as the number of 
+washes increases. However, it was determined that the COD removal e ﬃciency remains 
+above 87% even after 50 washes. 
+ 
+Figure 10. Removal rate of COD by number of washes. 
+A large amount of water is used as laundry wastewater. It is expected that the COD 
+of contaminated water can be reduced by an average of 90% or more when using the cur-
+rently developed laundry ﬁlter, which will reduce the load on sewage treatment plants 
+for laundry wastewater by approximately 90%. 
+3.3. Suspended Soild Analysis 
+SS of laundry wastewater is composed of  organic and inorganic substances. SS can 
+be used as a tool to easily check water quality pollution of laundry wastewater. 
+In Figure 11, the SS before the ﬁlter of the laundry discharge water after 50 experi-
+ments was conﬁrmed to have a large ﬂuctuation, with a maximum of 151 mg/L, a mini-
+mum of 79 mg/L, and an average of 110 mg/L. The SS of the laundry discharge water after 
+ﬁltration through the developed ﬁlter was con ﬁrmed to have high removal e ﬃciencies, 
+Figure 9. Amount of COD by number of washes.
+Figure 10 shows that the COD removal efficiency decreases slightly as the number of
+washes increases. However, it was determined that the COD removal efficiency remains
+above 87% even after 50 washes.\n\n--- PAGE 10 ---\nWater 2025, 17, 358 10 of 16
+Water 2025, 17, x FOR PEER REVIEW 11 of 18 
+ 
+ 
+ 
+Figure 9. Amount of COD by number of washes. 
+Figure 10 shows that the COD removal eﬃciency decreases slightly as the number of 
+washes increases. However, it was determined that the COD removal e ﬃciency remains 
+above 87% even after 50 washes. 
+ 
+Figure 10. Removal rate of COD by number of washes. 
+A large amount of water is used as laundry wastewater. It is expected that the COD 
+of contaminated water can be reduced by an average of 90% or more when using the cur-
+rently developed laundry ﬁlter, which will reduce the load on sewage treatment plants 
+for laundry wastewater by approximately 90%. 
+3.3. Suspended Soild Analysis 
+SS of laundry wastewater is composed of  organic and inorganic substances. SS can 
+be used as a tool to easily check water quality pollution of laundry wastewater. 
+In Figure 11, the SS before the ﬁlter of the laundry discharge water after 50 experi-
+ments was conﬁrmed to have a large ﬂuctuation, with a maximum of 151 mg/L, a mini-
+mum of 79 mg/L, and an average of 110 mg/L. The SS of the laundry discharge water after 
+ﬁltration through the developed ﬁlter was con ﬁrmed to have high removal e ﬃciencies, 
+Figure 10. Removal rate of COD by number of washes.
+A large amount of water is used as laundry wastewater. It is expected that the COD of
+contaminated water can be reduced by an average of 90% or more when using the currently
+developed laundry filter, which will reduce the load on sewage treatment plants for laundry
+wastewater by approximately 90%.
+3.3. Suspended Soild Analysis
+SS of laundry wastewater is composed of organic and inorganic substances. SS can be
+used as a tool to easily check water quality pollution of laundry wastewater.
+In Figure 11, the SS before the filter of the laundry discharge water after 50 experiments
+was confirmed to have a large fluctuation, with a maximum of 151 mg/L, a minimum
+of 79 mg/L, and an average of 110 mg/L. The SS of the laundry discharge water after
+filtration through the developed filter was confirmed to have high removal efficiencies, with
+a maximum of 21 mg/L, a minimum of 2 mg/L, and an average of 12 mg/L. Accordingly,
+the SS removal efficiency using Equation (3) was determined and was shown in Figure 12.
+The SS removal rate after using the laundry filter was confirmed to be high, with an average
+of 89%. It was confirmed that the SS removal efficiency was maintained at a high level
+of over 80% even after using the developed laundry filter more than 50 times. This is a
+technology that can reduce the SS of laundry wastewater by 80%, which can reduce the
+amount of coagulant used in sewage treatment plants.
+Water 2025, 17, x FOR PEER REVIEW 12 of 18 
+ 
+ 
+with a maximum of 21 mg/L, a minimum of 2 mg/L, and an average of 12 mg/L. Accord-
+ingly, the SS removal e ﬃciency using Equation (3) was determined and was shown in 
+Figure 12. The SS removal ra te after using the laundry ﬁlter was con ﬁrmed to be high, 
+with an average of 89%. It was con ﬁrmed that the SS removal e ﬃciency was maintained 
+at a high level of over 80% even after using the developed laundry ﬁlter more than 50 
+times. This is a technology th at can reduce the SS of laundry wastewater by 80%, which 
+can reduce the amount of coagulant used in sewage treatment plants. 
+ 
+Figure 11. Amount of SS by number of washes. 
+ 
+Figure 12. Removal rate of SS by number of washes. 
+3.4. Turbidity Analysis 
+Turbidity is a basic standard that can be used to simply measure water quality by 
+checking the degree of turbidity of a liquid. As a result of 50 experiments, the turbidity of 
+the wash water before using the ﬁlter was conﬁrmed to be a maximum of 98 NTU, a min-
+imum of 62 NTU, and an average of 84 NTU, with a maximum di ﬀerence of 36 NTU, as 
+shown in Figure 13. The turbidity of the laundry discharge water after the ﬁlter was con-
+ﬁrmed to be a maximum of 17 NTU, a minimum of 2 NTU, and an average of 10 NTU, 
+Figure 11. Amount of SS by number of washes.\n\n--- PAGE 11 ---\nWater 2025, 17, 358 11 of 16
+Water 2025, 17, x FOR PEER REVIEW 12 of 18 
+ 
+ 
+with a maximum of 21 mg/L, a minimum of 2 mg/L, and an average of 12 mg/L. Accord-
+ingly, the SS removal e ﬃciency using Equation (3) was determined and was shown in 
+Figure 12. The SS removal ra te after using the laundry ﬁlter was con ﬁrmed to be high, 
+with an average of 89%. It was con ﬁrmed that the SS removal e ﬃciency was maintained 
+at a high level of over 80% even after using the developed laundry ﬁlter more than 50 
+times. This is a technology th at can reduce the SS of laundry wastewater by 80%, which 
+can reduce the amount of coagulant used in sewage treatment plants. 
+ 
+Figure 11. Amount of SS by number of washes. 
+ 
+Figure 12. Removal rate of SS by number of washes. 
+3.4. Turbidity Analysis 
+Turbidity is a basic standard that can be used to simply measure water quality by 
+checking the degree of turbidity of a liquid. As a result of 50 experiments, the turbidity of 
+the wash water before using the ﬁlter was conﬁrmed to be a maximum of 98 NTU, a min-
+imum of 62 NTU, and an average of 84 NTU, with a maximum di ﬀerence of 36 NTU, as 
+shown in Figure 13. The turbidity of the laundry discharge water after the ﬁlter was con-
+ﬁrmed to be a maximum of 17 NTU, a minimum of 2 NTU, and an average of 10 NTU, 
+Figure 12. Removal rate of SS by number of washes.
+3.4. Turbidity Analysis
+Turbidity is a basic standard that can be used to simply measure water quality by
+checking the degree of turbidity of a liquid. As a result of 50 experiments, the turbidity
+of the wash water before using the filter was confirmed to be a maximum of 98 NTU, a
+minimum of 62 NTU, and an average of 84 NTU, with a maximum difference of 36 NTU,
+as shown in Figure 13. The turbidity of the laundry discharge water after the filter was
+confirmed to be a maximum of 17 NTU, a minimum of 2 NTU, and an average of 10 NTU,
+with a maximum difference of 15 NTU. Accordingly, by applying Equation (4), the turbidity
+removal efficiency was confirmed to be an average of 88%.
+Water 2025, 17, x FOR PEER REVIEW 13 of 18 
+ 
+ 
+with a maximum di ﬀerence of 15 NTU. Accordingly, by applying Equation (4), the tur-
+bidity removal eﬃciency was conﬁrmed to be an average of 88%. 
+In Figure 14, the turbidity removal rate began to fall below 90% in the 25th cycle and 
+showed a removal e ﬃciency of 81% in the 50th cycle. The highest SS removal e ﬃciency 
+was 97% in the 2nd cycle, and the minimum e ﬃciency was con ﬁrmed to be 81% in the 
+39th cycle. The minimum eﬃciency of 81% can be considered high eﬃciency considering 
+the SS concentration of the washing water go ing to the sewage treatment plant. Accord-
+ingly, it was conﬁrmed that the turbidity removal of the ﬁlter maintained high eﬃciency 
+even after 50 test cycles. 
+ 
+Figure 13. Amount of turbidity by number of washes. 
+ 
+Figure 14. Removal rate of turbidity by number of washes. 
+4. Discussion 
+In this experiment, the average amount of  microplastics generated during laundry 
+was conﬁrmed to be 954 MPs ea/L based on 5 kg/1 load. These microplastics enter sewage 
+treatment plants and are not completely removed, so they are released into rivers and the 
+sea. According to J Ba yo. 2023, the microplastic removal e ﬃciency of sewage treatment 
+plants was con ﬁrmed to be at least 64.3% to 89.2% [28]. Despite these treatments, 93 
+Figure 13. Amount of turbidity by number of washes.
+In Figure 14, the turbidity removal rate began to fall below 90% in the 25th cycle and
+showed a removal efficiency of 81% in the 50th cycle. The highest SS removal efficiency
+was 97% in the 2nd cycle, and the minimum efficiency was confirmed to be 81% in the 39th
+cycle. The minimum efficiency of 81% can be considered high efficiency considering the SS
+concentration of the washing water going to the sewage treatment plant. Accordingly, it
+was confirmed that the turbidity removal of the filter maintained high efficiency even after
+50 test cycles.\n\n--- PAGE 12 ---\nWater 2025, 17, 358 12 of 16
+Water 2025, 17, x FOR PEER REVIEW 13 of 18 
+ 
+ 
+with a maximum di ﬀerence of 15 NTU. Accordingly, by applying Equation (4), the tur-
+bidity removal eﬃciency was conﬁrmed to be an average of 88%. 
+In Figure 14, the turbidity removal rate began to fall below 90% in the 25th cycle and 
+showed a removal e ﬃciency of 81% in the 50th cycle. The highest SS removal e ﬃciency 
+was 97% in the 2nd cycle, and the minimum e ﬃciency was con ﬁrmed to be 81% in the 
+39th cycle. The minimum eﬃciency of 81% can be considered high eﬃciency considering 
+the SS concentration of the washing water go ing to the sewage treatment plant. Accord-
+ingly, it was conﬁrmed that the turbidity removal of the ﬁlter maintained high eﬃciency 
+even after 50 test cycles. 
+ 
+Figure 13. Amount of turbidity by number of washes. 
+ 
+Figure 14. Removal rate of turbidity by number of washes. 
+4. Discussion 
+In this experiment, the average amount of  microplastics generated during laundry 
+was conﬁrmed to be 954 MPs ea/L based on 5 kg/1 load. These microplastics enter sewage 
+treatment plants and are not completely removed, so they are released into rivers and the 
+sea. According to J Ba yo. 2023, the microplastic removal e ﬃciency of sewage treatment 
+plants was con ﬁrmed to be at least 64.3% to 89.2% [28]. Despite these treatments, 93 
+Figure 14. Removal rate of turbidity by number of washes.
+4. Discussion
+In this experiment, the average amount of microplastics generated during laundry
+was confirmed to be 954 MPs ea/L based on 5 kg/1 load. These microplastics enter sewage
+treatment plants and are not completely removed, so they are released into rivers and the
+sea. According to J Ba yo. 2023, the microplastic removal efficiency of sewage treatment
+plants was confirmed to be at least 64.3% to 89.2% [28]. Despite these treatments, 93 million
+and 8.2 billion microplastics are released into the ocean, rivers, and seas [29]. Household
+laundry water contains many water pollutants such as surfactants, organic dyes, nitrogen,
+phosphorus, alkalis, bleach, pathogens, and microplastics [30]. These components increase
+the wastewater pollution load on sewage treatment plants and increase treatment costs.
+Accordingly, minimal contamination of laundry wastewater is an important factor.
+Most household microplastics come from laundry wastewater. Washing water ac-
+counts for 15 to 20% of the water used in households [ 31]. The total amount of laundry
+wastewater discharged annually in China is about 10.71 billion tons [32]. The European
+Union, EU, industrial laundry sector washes 2.7 billion kg of textiles per year (wet weight)
+and uses 42 million m 3 of water, which ends up in sewage as wastewater [ 33]. Accord-
+ingly, in this study, we developed a washing machine microplastic filter and conducted
+50 experiments at 5 kg/load using an actual washing machine. The developed washing wa-
+ter microplastic removal filter showed a high microplastic removal rate of 97% on average.
+These results are higher than the capture rate of 89% of microfibers by Filtrol 160 (Wexco
+Environmental, MN, USA) using a commercially available 100 µm polyester mesh [16] and
+higher than the capture rate of up to 87% by the developed washing machine filter [15,34].
+In this experiment, we additionally confirmed COD, SS, and turbidity in the wash
+wastewater, which were not confirmed in the existing microfiber filter experiments. The
+wash wastewater passing through the developed microplastic filter showed an average
+removal rate of 91% for COD, 89% for SS, and 88% for turbidity. This is a very high
+treatment rate, confirming that it can reduce the direct load on wastewater pollutants in
+sewage treatment plants. In addition, we verified the sustainability of the efficiency of the
+wash filter by conducting the experiment at 5 kg/load for 50 times. Although the treatment
+rate decreased slightly as the number of operations increased, we were able to confirm an
+average treatment rate of over 88% for all pollutants.
+Based on the results of this experiment, the significance probabilities of microplastics
+and COD, SS, and turbidity were confirmed. The probability value (p-value) according to
+the number of microplastics discharged from the washing wastewater was confirmed to\n\n--- PAGE 13 ---\nWater 2025, 17, 358 13 of 16
+be 0.038 for COD, 0.000 for SS, and 0.012 for turbidity. A p-value of 0.05 or less is reported
+to have a significant correlation. Therefore, it was confirmed that COD, SS, and turbidity
+were all correlated with the number of microplastic discharge. Among them, the p-value of
+SS was confirmed to have the highest correlation with microplastics at 0.000, and COD was
+confirmed to have the lowest correlation at 0.038, as shown in Figure 15.
+Water 2025, 17, x FOR PEER REVIEW 15 of 18 
+ 
+ 
+ 
+(a) 
+ 
+(b) 
+ 
+(c) 
+Figure 15. Correlation between microplastics and water pollutants: (a) COD vs. MPs; (b) SS vs. MPs;
+(c) turbidity vs. MPs.\n\n--- PAGE 14 ---\nWater 2025, 17, 358 14 of 16
+Through this study, we were able to confirm that when using the developed filter,
+not only microplastics but also water pollutants such as COD, SS, and turbidity were
+effectively removed.
+In order to commercialize the developed filter, various methods are being explored
+to check the flow reduction, clogging problems, and maintenance requirements. The flow
+reduction will be minimized by adjusting the filter hole size to remove particles by size.
+The clogging problem will be solved by adding a pretreatment filter with large holes in the
+initial stage of large fibers or debris, and a maintenance manual that allows for periodic
+cleaning of the filter will be created and reflected. For easier maintenance, the design of the
+filter is being changed to make it easy to clean or replace, and a notification system that
+notifies the user when the filter needs to be cleaned or replaced is also being considered.
+5. Conclusions
+In this study, the removal rate of microplastics and the removal characteristics of COD,
+SS, and turbidity of the developed laundry filter were investigated. The pollutant removal
+efficiency of the microplastic filter was confirmed with a total of 50 time tests at 5 kg/load,
+and the results have the following findings:
+1. A microplastic removal filter exclusively for washing machines with a four-stage
+filtration system was developed. The developed filter is installed in a domestic sewer and
+connected to the washing machine.
+2. The removal rate of microplastics using the microplastic filter is a high efficiency of
+98.5% on average during 50 washes, and the filter can be used for 4 to 6 months without
+maintenance.
+3. The possibility of the microplastic filter removing various water pollutants as well
+as microplastics was confirmed by COD average removal of 92%, SS average removal of
+80%, and turbidity average removal of 88%.
+4. The installation of the developed filter for washing discharge water can remove
+many water pollutants, so it is an important factor in reducing the water pollution load of
+sewage treatment plants.
+5. Microplastics in laundry water and SS have a high correlation of p-value at 0.000.
+These results confirm that there is one way to reduce microplastics caused by laundry
+discharge water, which accounts for 35% of ocean pollution. The laundry wastewater filter
+can have a significant reduction on the water quality pollution load of sewage treatment
+plants. However, legislation, innovation, and awareness changes to regulate microplastics
+are needed to implement the developed filters. In addition, the development of an industry-
+use microplastic filter is also an urgent issue and could help prevent marine pollution
+by microplastics.
+Author Contributions: Conceptualization, H.P . and B.P .; methodology, B.P . and H.-J.Y.; software,
+B.P .; validation, B.P ., H.-J.Y. and H.P .; analysis, B.P . and H.-J.Y.; data collection, B.P . and H.-J.Y.;
+writing—original draft preparation, B.P . and H.-J.Y.; writing—review and editing, H.P .; supervision,
+H.P .; project administration, H.P .; funding acquisition, H.P . All authors have read and agreed to the
+published version of the manuscript.
+Funding: This research was funded by the Korea Technology and Information Promotion Agency,
+grant number RS-2023-00256359.
+Data Availability Statement: Data are contained within the article.
+Conflicts of Interest: Authors Beomseok Park and Hanbai Park were employed by the company
+Korea Microplastic Research Center Co., Ltd. Author Hee-Jung Yoon was employed by the company
+Taeyoungunion Co., Ltd. The remaining authors declare that the research was conducted in the\n\n--- PAGE 15 ---\nWater 2025, 17, 358 15 of 16
+absence of any commercial or financial relationships that could be construed as a potential conflict
+of interest.
+References
+1. Boucher, J.; Friot, D. Primary Microplastics in the Oceans: A Global Evaluation of Sources; IUCN: Gland, Switzerland, 2017; p. 43.
+2. Murphy, F.; Ewins, C.; Carbonnier, F.; Quinn, B. Wastewater treatment works (wwtw) as a source of microplastics in the aquatic
+environment. Environ. Sci. Technol. 2016, 50, 5800–5808. [CrossRef] [PubMed]
+3. Franco, A.A.; Arellano, J.M.; Albendín, G.; Rodríguez-barroso, R.; Quiroga, J.M.; Coello, M.D. Science of the total environment
+microplastic pollution in wastewater treatment plants in the city of Cádiz: Abundance, removal efficiency and presence in
+receiving water body. Sci. Total Environ. 2021, 776, 145795. [CrossRef]
+4. Conley, K.; Clum, A.; Deepe, J.; Lane, H.; Beckingham, B. Wastewater treatment plants as a source of microplastics to an urban
+estuary: Removal efficiencies and loading per capita over one year. Water Res. X 2019, 3, 100030. [CrossRef] [PubMed]
+5. Yang, L.; Qiao, F.; Lei, K.; Li, H.; Kang, Y.; Cui, S.; An, L. Microfiber release from different fabrics during washing.Environ. Pollut.
+2019, 249, 136–143. [CrossRef] [PubMed]
+6. Cesa, F.S.; Turra, A.; Checon, H.H.; Leonardi, B.; Baruque-ramos, J. Laundering and textile parameters influence fibers release in
+household washings. Environ. Pollut. 2019, 257, 113553. [CrossRef]
+7. De Falco, F.; Di Pace, E.; Cocca, M.; Avella, M. The contribution of washing processes of synthetic clothes to microplastic pollution.
+Sci. Rep. 2019, 9, 1–11. [CrossRef]
+8. Hernandez, E.; Nowack, B.; Mitrano, D.M. Polyester Textiles as a Source of Microplastics from Households: A Mechanistic Study
+to Understand Microfiber Release during Washing. Environ. Sci. Technol. 2017, 51, 7036–7046. [CrossRef]
+9. Cotton, L.; Hayward, A.S.; Lant, N.J.; Blackburn, R.S. Improved garment longevity and reduced microfibre release are important
+sustainability benefits of laundering in colder and quicker washing machine cycles. Dye. Pigment. 2020, 177, 108120. [CrossRef]
+10. Hartline, N.L.; Bruce, N.J.; Karba, S.N.; Ru, E.O.; Sonar, S.U.; Holden, P .A. Microfiber masses recovered from conventional
+machine washing of new or aged garments. Environ. Sci. Technol. 2016, 50, 11532–11538. [CrossRef] [PubMed]
+11. Julapong, P .; Srichonphaisarn, P .; Meekoch, T.; Tabelin, C.B.; Juntarasakul, O.; Phengsaart, T. The Influence of Textile Type, Textile
+Weight, and Detergent Dosage on Microfiber Emissions from Top-Loading Washing Machines.Toxics 2024, 12, 210. [CrossRef]
+[PubMed]
+12. Volgare, M.; De Falco, F.; Avolio, R.; Castaldo, R.; Errico, M.E.; Gentile, G.; Ambrogi, V .; Cocca, M. Washing load influences the
+microplastic release from polyester fabrics by affecting wettability and mechanical stress. Sci. Rep. 2021, 11, 19479. [CrossRef]
+[PubMed]
+13. Periyasamy, A. Evaluation of microfiber release from jeans: The impact of different washing conditions. Environ. Sci. Pollut. Res.
+2021, 28, 58570–58582. [CrossRef]
+14. Lim, J.; Choi, J.; Won, A.; Kim, M.; Kim, S.; Yun, C. Cause of microfibers found in the domestic washing process of clothing;
+focusing on the manufacturing, wearing, and washing processes. Fash. Text. 2022, 9, 24. [CrossRef]
+15. McIlwraith, H.K.; Lin, J.; Erdle, L.M.; Mallos, N.; Diamond, M.L.; Rochman, C.M. Capturing microfibers—Marketed technologies
+reduce microfiber emissions from washing machines. Mar. Pollut. Bull. 2019, 139, 40–45. [CrossRef] [PubMed]
+16. Erdle, L.M.; Nouri Parto, D.; Sweetnam, D.; Rochman, C.M. Washing Machine Filters Reduce Microfiber Emissions: Evidence
+from a Community-Scale Pilot in Parry Sound, Ontario. Front. Mar. Sci. 2021, 8, 777865. [CrossRef]
+17. Osman, A.I.; Hosny, M.; Eltaweil, A.S.; Omar, S.; Elgarahy, A.M.; Farghali, M.; Yap, P .-S.; Wu, Y.-S.; Nagandran, S.; Batumalaie, K.;
+et al. Microplastic sources, formation, toxicity and remediation: A review. Environ. Chem. Lett. 2023, 21, 2129–2169. [CrossRef]
+[PubMed]
+18. Ahmed, S.F.; Islam, N.; Tasannum, N.; Mehjabin, A.; Momtahin, A.; Chowdhury, A.A.; Almomani, F.; Mofijur, M. Microplastic
+removal and management strategies for wastewater treatment plants. Chemosphere 2024, 347, 140648. [CrossRef] [PubMed]
+19. Tang, K.H.D.; Hadibarata, T. Microplastics removal through water treatment plants: Its feasibility, efficiency, future prospects and
+enhancement by proper waste management. Environ. Chall. 2021, 5, 100264. [CrossRef]
+20. Na, S.H.; Kim, M.J.; Kim, J.T.; Jeong, S.; Lee, S.; Chung, J.; Kim, E.J. Microplastic removal in conventional drinking water treatment
+processes: Performance, mechanism, and potential risk. Water Res. 2021, 202, 117417. [CrossRef]
+21. Talvitie, J.; Mikola, A.; Koistinen, A.; Setälä, O. Solutions to microplastic pollution—Removal of microplastics from wastewater
+effluent with advanced wastewater treatment technologies. Water Res. 2017, 123, 401–407. [CrossRef] [PubMed]
+22. Schnepf, U.; von Moers-Meßmer, M.; Brümmer, F. A practical primer for image-based particle measurements in microplastic
+research. Micropl. Nanopl. 2023, 3, 16. [CrossRef]
+23. APHA. Standard Methods for the Examination of Water and Wastewater, 22nd ed.; American Public Health Association: Washington
+DC, USA, 2012.\n\n--- PAGE 16 ---\nWater 2025, 17, 358 16 of 16
+24. Dubber, D.; Gray, N.F. Replacement of chemical oxygen demand (COD) with total organic carbon (TOC) for monitoring
+wastewater treatment performance to minimize disposal of toxic analytical waste. J. Environ. Sci. Health A Tox Hazard. Subst.
+Environ. Eng. 2010, 45, 1595–1600. [CrossRef] [PubMed]
+25. Bilotta, G.S.; Brazier, R.E. Understanding the influence of suspended solids on water quality and aquatic biota. Water Res. 2008,
+42, 2849–2861. [CrossRef] [PubMed]
+26. Tomorrow’s World Today Home Page. Available online: https://www.tomorrowsworldtoday.com/sustainability/laundry-
+around-the-world/ (accessed on 8 July 2024).
+27. Jayanto, G.D.; Widyastuti, M.; Hadi, P . Laundry wastewater characteristics and their relationship with river water quality as an
+indicator of water pollution. Case study: Code Watershed, Yogyakarta. E3S Web Conf. 2021, 325, 02011. [CrossRef]
+28. Bayo, J.; López-Castellanos, J.; Olmos, S.; Rojo, D. Characterization and removal efficiencies of microplastics discharged from
+sewage treatment plants in Southeast Spain. Water Res. 2023, 244, 120479. [CrossRef] [PubMed]
+29. OSPAR Commision. Assessment Document of Land-Based Inputs of Microplastics in the Marine Environment. 2017. Available online:
+https://www.ospar.org/documents?v=38018 (accessed on 20 July 2024).
+30. Goel, G.; Kaur, S. A Study on Chemical Contamination of Water Due to Household Laundry Detergents.J. Hum. Ecol. 2012, 38,
+65–69. [CrossRef]
+31. Almulhim, A.I.; Aina, Y.A. Understanding Household Water-Use Behavior and Consumption Patterns during COVID-19
+Lockdown in Saudi Arabia. Water 2022, 14, 314. [CrossRef]
+32. Manouchehri, M.; Kargari, A. Water recovery from laundry wastewater by the cross flow microfiltration process: A strategy for
+water recycling in residential buildings. J. Clean. Prod. 2017, 168, 227–238. [CrossRef]
+33. van de Belgische Textielverzorging, F. Sustainable Measures for Industrial Laundry Expansion Strategies: SMART LAUNDRY-
+2015, CORDIS EU Research Results, 2015, 1. Available online: https://cordis.europa.eu/project/id/217809/es (accessed on 13
+July 2024).
+34. Napper, I.E.; Thompson, R.C. Release of synthetic microplastic plastic fibres from domestic washing machines: Effects of fabric
+type and washing conditions. Mar. Pollut. Bull. 2016, 112, 39–45. [CrossRef] [PubMed]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

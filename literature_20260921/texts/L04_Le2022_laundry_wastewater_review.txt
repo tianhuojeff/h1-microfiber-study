@@ -1,0 +1,963 @@
+Elsevier required licence: © <2022>. This manuscript version is made available under the CC-BY-NC-
+ND 4.0 license http://creativecommons.org/licenses/by-nc-nd/4.0/         
+The definitive publisher version is available online at 10.1016/j.scitotenv.2022.158412 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Microfibers in laundry wastewater: problem and solution  
+Linh-Thy Lea,b,  Kim-Qui N.Nguyenb, Phuong-Thao Nguyenb, Hung C. Duongc,d, Xuan-
+Thanh Buib,e, Ngoc Bich Hoangf, Long D. Nghiemc,f,* 
+ 
+Revised manuscript for Science of The Total Environment 
+ 
+aFaculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City 
+(UMP), ward 11, district 5, Ho Chi Minh City 72714, Vietnam 
+bKey Laboratory of Advanced Waste Treatment Technology, Ho Chi Minh City University of 
+Technology (HCMUT), Vietnam National University Ho Chi Minh (VNU-HCM), Linh 
+Trung ward, Thu Duc city, Ho Chi Minh City 700000, Vietnam 
+c Center for Technology in Water and Wastewater, University of Technology Sydney, 
+Sydney, NSW 2007, Australia  
+d School of Environmental Engineering, Le Quy Don Technical University, 236 Hoang Quoc 
+Viet, Co Nhue, Bac Tu Liem, Ha Noi, Viet Nam 
+e Faculty of Environment and Natural Resources, Ho Chi Minh City University of 
+Technology (HCMUT), Ho Chi Minh City 700000, Vietnam 
+f Institute of Environmental Sciences, Nguyen Tat Thanh University, Ho Chi Minh City, Viet 
+Nam 
+*Corresponding author:  
+Long D. Nghiem: Centre for Technology in Water and Wastewater, University of 
+Technology Sydney, NSW 2007, Australia   
+Phone: +61 2 95142625 E-mail: duclong.nghiem@uts.edu.au 
+
+ 
+ 
+1 
+ 
+Abstract  
+ 
+Data corroborated in this study highlights laundry wastewater as a primary source of 
+microfibers (MFs) in the aquatic environment. MFs can negatively impact the aquatic 
+ecosystem via five possible pathways, namely, acting as carriers of other contaminats, 
+physical damage to digestive systems of aquatic organisms, blocking the digestive tract, 
+releasing toxic chemicals, and harbouring invasive and noxious plankton and bacteria. This 
+review shows that small devices to capture MFs during household laundry activities are 
+simple to use and affordable at household level in developed countries. However, these low 
+cost and small devices are unrealiable and can only achieve up to 40% MF removal 
+efficiency. In line filtration devices can achieve higher removal efficiency under well 
+maintained condition but their performance is still limited compared to over 98% MF 
+removal by large scale centralized wastewater treatment. These results infers that effort to 
+increase sanitation coverage to ensure adequate wastewater treatment prior to environmental 
+discharge is likely to be more cost effective than those small devices for capturing MFs. This 
+review also shows that natural fabrics would entail significantly less environmental 
+consequences than synthetic materials. Contribution from the fashion industry to increase the 
+share of natural frabics in the current textile market can also reduce the loading of plastic 
+MFs in the environment. 
+ 
+Keywords: Laundry activities, Microplastic fibers, Natural fabrics, Washing machines, 
+Wastewater treatment.  
+
+ 
+ 
+2 
+ 
+1. Introduction 
+Microfibers (MFs) pollution is an emerging environmental problem of a global scale. 
+Specific and widespread evidence has emerged in recent years to show a range of harmful 
+effects from MFs on aquatic habitats and even potential impacts on human health (Bilal et al., 
+2020). Scientists estimated that millions of tonnes of MFs enter the aquatic environment each 
+year from the textile industry and laundry household (Napper and Thompson, 2016; Carney 
+Almroth et al., 2018). MFs are particularly mobile, thus, even after landfilling, they can be 
+transferred to leachate and eventually find their way to the aquatic environment (Silva et 
+al.,2021). Synthetic MFs such as polyester, acrylic, and nylon are non-biodegradable, thus, 
+once entered the aquatic environment, they are present everywhere from shorelines (Barrows 
+et al., 2018) to the ocean. MFs have been detected in the digestive system of aquatic 
+organisms, then they accumulate in the food chain, especially in fish and shellfish (Waring et 
+al., 2018; Qiao et al., 2019; Weis, 2020; Jong et al., 2022; Zhang et al., 2022). MFs can also 
+release toxic chemicals such as plasticizers that have been added to textiles during 
+manufacturing to modify their physical properties (Sridharan et al., 2022). MFs can act as 
+transport vectors to carry these chemicals to affected organisms in the environment. Humans 
+are also indirectly exposed to microfibers through the food and drinking water.   
+Recent demand and consumption of synthetic fabrics have further exacerbated the problem of 
+MFs in the environment. Indeed, the demand for synthetic fabrics has grown exponentially 
+over the last decade. Between 2010 to 2019, the compound annual growth rate (CAGR) of 
+the global synthetic fabric market was 4%. It is forecasted to grow to over 7%/yr over the 
+next decade (Zhang and Sesto, 2019). It is also estimated that Asia will experience a faster 
+CAGR growth due to significant economic development in the region.  
+Synthetic fabrics currently account for 63% of the worldwide fabric market, the majority of 
+which is polyester. Polyester is the predominant source (52%) of synthetic fabric, followed 
+
+ 
+ 
+3 
+ 
+by polyamide (5%), and other synthetic  (6%) (Anonymous, 2020). Polyester fabric has been 
+widely used for multipurpose (e.g., plastic packaging and fashion) due to its mechanical 
+strength, aesthetic appearance, lightweight, and low cost.  Polyester accounted for more than 
+half of global MF textile in 2018 (around 55 million tonnes) from the textile industry (Freitas 
+et al., 2017). 
+Synthetic fabrics such as nylon, polyester, spandex, and acrylic were initially produced as 
+low-cost alternatives to natural fabrics as they can be synthezised from petroleum-based 
+chemicals (Franco et al., 2020). For example, acrylic is used to imitate wool due to its good 
+heat insulation properties (Ahmad et al., 2020). Artificial fur and fleece made from acrylic 
+fibers significantly reduce the materials cost for cloth manufacturing. Early synthetic fabrics 
+had inferior texture properties (e.g., look and feel) compared to natural fabrics. Over time, 
+progress in materials science and engineering has significantly improved the texture 
+properties of synthetic fabrics, making them similar and, in some cases, even better than 
+natural materials (Egan et al., 2022). As a result, synthetic fabrics have gradually displaced 
+natural fabrics to dominate the textile industry. 
+As the potentially significant and irreversible impact of the presence of MFs on the 
+environment has become clearer recent years, dedicated scientific studies and engineering 
+measures have also emerged to limit their release to the natural environment. The release of 
+MFs to the natural environment is closely linked to laundry activities and the textile industry 
+through wastewater discharge (Henry et al., 2019).  
+This work aims to critically examine laundry wastewater and from the textile industry to seek 
+a holistic solution to the issue of MFs in the natural environment. Potential effects of MFs on 
+the ecosystem are highlighted to provide a context to this review. Data corroborated from the 
+literature are then analysed to delineate key factors (e.g. temperature, fabric types, detergents, 
+
+ 
+ 
+4 
+ 
+and washing methods) influencing the release of MFs to wastewater during laudry activies. 
+Current and future approached to reduce or eliminate the release of MFs to the natural 
+environment are then explored and discussed. 
+2. Microfibers in laundry wastewater 
+2.1. Microfibers 
+As a subset of microplastics, MFs are small plastic particles of less than 5 mm in size 
+(Lebreton et al., 2018; Bui et al., 2020; Xu et al., 2020). Some MFs from textiles are longer 
+than 5 mm, but their diameter fits into microplastics categories. In addition, after entering the 
+environment, these long plastic fibers can also be broken down into segments less than 5 mm 
+in length (De Falco et al., 2020). MFs are essentially primary microplastics released into the 
+environment along the supply chain of the fashion industry from textile manufracturing, 
+fashion production, use and laundry of textile products, and textile waste disposal (Henry et 
+al., 2019).  
+Previous studies (Booth et al., 2017; Uddin et al., 2020) have confirmed significant annual 
+input of microplastics to the environment, mainly from poorly managed waste and 
+wastewater disposal. Due to their highly mobile characteristics, in the aquatic environment, 
+MFs are arguably the most important subgroup of microplastics (Kazmiruk et al., 2018; Yang 
+et al., 2019). 
+Human activities are the main source of MFs in the aquatic environment (Belzagui et al., 
+2019). Annual release of MFs to the environment via wastewater discharge varies from 
+country to country ranging from hundreds to tens of thousands tonnes/yr (Table 1). China 
+accounts for more than 40% (about 70,000 tonnes) of the global MFs emissions to the aquatic 
+environment, mostly through untreated wastewater discharge (Gavigan et al., 2020). North 
+
+ 
+ 
+5 
+ 
+America also contributes approximately 880 tonnes/yr (Vassilenko et al., 2019). At the other 
+end of the spectrum, Finland contributes 150 tonnes/yr of MFs to the environment.  
+[TABLE 1] 
+Data in Table 1 suggests that MFs release to the environment is closely related to the textile 
+industry and laundry wastewater. China, India, and Southeast Asian Nations (ASEAN) have 
+the largest textile industry globally. These countries are responsible for approximately 86% 
+of the total MFs released from the fashion industry supply chain (Freitas et al., 2017; Henry 
+et al., 2019). According to Lares et al. (2018), around 97% of MFs is from polyester fabric, 
+followed by 3% polyamide of total MFs. In addition, it was estimated that about 7x105 MFs 
+were emitted per washing of 6 kg of clothes in each household (Napper and Thompson, 
+2016). Data from the literature conclusively points to laundry activities as the largest source 
+of MFs to the environment (Yang et al., 2019).
+2.2. Environmental effects of MFs 1 
+In the aquatic environment, MFs can cause several environmental consequences (Fig. 1). 2 
+They can act as carriers of harmful contaminants, algae species and pathogens (Kwon et al., 3 
+2017; Amelia et al., 2021; Allouzi et al., 2021) from one place to another in the aquatic 4 
+environment.  Due to the high absorptive capacity for hydrophobic organic chemicals and a 5 
+large surface area to the volume ratio, co-contaminants could attach to MFs (Amelia et al., 6 
+2021) to produce toxic aggregates. In this case, MFs become a vector or vehicle for 7 
+transferring toxic co-contaminants to organisms via a direct food uptake way (Fig. 1). Heavy 8 
+metals (e.g., Cd and Pb) and toxic organics such as Chlordecone, bisphenol A, phthalates, and 9 
+polybrominated diphenyl ethers (Scopetani et al., 2018; Weis, 2020; Yan et al., 2020; 10 
+Cormier et al., 2021) have been detected on the surface of MFs in aquatic environment. 11 
+
+ 
+ 
+6 
+ 
+Previous studies indicated that toxic chemicals could sorb to MPs, particularly the surface of 12 
+aging MPs, and could negatively impact the growth of some aquatic organisms (Cormier et 13 
+al., 2021). For example, tributyltin is a toxic organic chemical and could accumulate in the 14 
+food chain at a low concentration (Leung et al., 2001). The reported LC50 concentration of 15 
+tributyltin could range from 0.015 ppb for Tigriopus japonicas (Kwok and Leung, 2005) to 16 
+36 ppb for Tisbe biminiensis (Costa et al., 2014). Besides, the plastic surface could also be a 17 
+reservoir of pathogenic bacteria (e.g., Aeromonas salmonicida) through biofilm (Viršek et al., 18 
+2017; Rotjan et al., 2019; Sooriyakumar et al., 2022). Due to the protection of the biofilm, 19 
+some microorganisms living in the biofilm are tolerant to toxic organic chemicals, such as 20 
+antibiotics and antimicrobial agents, as well as heavy metals. Then, the biofilm becomes 21 
+thicker and separates from the microplastic surface, contributing to the transfer of those toxic 22 
+substances from one place to another in the aquatic environment (Bolan et al ., 2020; 23 
+Sooriyakumar et al., 2022). 24 
+Aquatic organisms digest MPs through their gills or by confusion with their prey (Savoca et 25 
+al., 2019; Zantis et al., 2021). Among sub-groups of MPs, MFs was the most prevalent in the 26 
+digestive system of an aquatic animal at about 60%, followed by plastic fragment (26%), 27 
+films and pellets (14%) (Issac and Kandasubramanian, 2021). MFs could cause more severe 28 
+damage to digestive system than microbeads and large MP fragments because of their high 29 
+mobility. Once entered the digestive system, MFs can form entanglement causing intestinal 30 
+blockage and other damages (Qiao et al., 2019; Weis, 2020) (Fig.1). In addition, MFs could 31 
+decrease the mucus volume in the gut, leading to the decreasing working capacity immune 32 
+function of the intestinal epithelium and intestinal epithelial damage (Qiao et al., 2019).  33 
+Inside the animal body, MPs can release co-contaminants, plasticizers, and other chemicals 34 
+that can bioaccumulate in important organs, especially liver (Fig. 1). Barboza et al. (2018) 35 
+observed that mercury concentration in the liver was higher than that in the gills of D. labrax 36 
+
+ 
+ 
+7 
+ 
+juveniles. The level of Hg in gills ranged from 1.6 to 5.2 μg/g, whereas in the liver, they 37 
+ranged from 3 μg/g to 8 μg/g. The toxic element Cd, absorbed into MPs, was mainly detected 38 
+in the liver (Lu et al., 2018). Ag accumulated in the intestinal mucous, mucosal epithelium, 39 
+muscle layer, and serosa (Khan et al., 2017). The accumulation of toxins in the liver and 40 
+tissues could seriously impact organisms, such as DNA damage, oxidative stress, 41 
+neurotoxicity, and physiological effects. 42 
+In the environment, MPs can harbor and encourage the proliferation of invasive 43 
+phytoplankton and noxious species (Fig. 1), resulting in biodiversity loss and posing a threat 44 
+to the aquatic ecosystem (Shahul Hamid et al., 2018; Thushari and Senevirathna, 2020). 45 
+Some alien species often used the surface of floating MPs in the aquatic environment as a 46 
+habitat for growth. About 2.5x1011 particles of MPs buoyant in the Mediterranean Sea 47 
+(Werner et al., 2016) were potential carriers of the invasive species based on MPs' biofouling 48 
+and persistent properties.  Casabianca et al. (2019) provided evidence that toxic microalgal 49 
+species (e.g., Bacillariophyceae and Dinophyceae) could survive on the surface of floating 50 
+MPs in high amounts ranging from 61-100 cells/mg in the Mediterranean Sea. With the 51 
+change of ocean currents and sea wind, MPs - a toxic vector could be dispersed to new distant 52 
+aquatic areas, subsequently increasing the toxin in marine environments due to the 53 
+proliferation of invasive and noxious organisms.  54 
+ 55 
+[FIGURE 1] 56 
+ 57 
+2.3. Microfibers from laundry activities 58 
+2.2.1 Microfibers from laundry activities 59 
+Laundry activities have been identified as the most significant source of MFs in the 60 
+environment (Hernandez et al., 2017; De Falco et al., 2019). MFs can enter the environment 61 
+throughout the supply chain of the fashion industry from textile fabrication, clothing 62 
+manufacturing to including domestic laundry activities (Acharya et al., 2021; Ross et al., 63 
+
+ 
+ 
+8 
+ 
+2021). The release of MFs from textile fabrication and clothing manufacturing can be readily 64 
+addressed via centralized wastewater treatment (Bui et al., 2020; Pedrotti et al., 2020). On the 65 
+other hand, the dispersed nature of domestic laundry activities makes them especially 66 
+difficult to control. 67 
+2.2.2 Factors influencing the release of microfibers from laundry activities 68 
+The release of MFs from the laundry depends on several factors, such as textile 69 
+characteristics (e.g., fabric age and type), detergent properties and strength, washing 70 
+temperature, and abrasion during washing (Fig. 2).  New clothes shed more MFs during 71 
+washing due to residues from the fabric production process (Belzagui et al., 2019; De Falco 72 
+et al., 2019). In addition, the first few washing cycles also release significantly more MFs 73 
+than later cycles when the release of MFs have reached a steady state. The release of 74 
+polyester MFs was only 1/3 in the second wash compared to the first time of new clothes, and 75 
+the number of shedding MFs dropped by 1/10 on the fifth wash for all polyester and cotton 76 
+MFs (Sillanpää and Sainio, 2017). MFs shedding also depends on fabric materials. MFs 77 
+shedding from polyester fleece fabric was twice as much as acryl fabric (Kärkkäinen and 78 
+Sillanpää, 2021). 79 
+The use of detergent, both in liquid and powder form, increased MFs release (Fig. 2). 80 
+Detergent chemically removed dirt and debris trapped in fabrics and washed them away by 81 
+generating a chemical reaction with water and producing alkalinity. However, a high pH 82 
+condition (e.g., above pH 9.0 for liquid) could induce chemical damage on polyester fabrics 83 
+through hydrolysis (Bishop, 1995) and thus, washing with detergents resulting in the higher 84 
+release of MFs by 1.2-6.0 folds compared to without detergents (Yang et al., 2019). It is also 85 
+suggested that powder detergents may result in more MFs release than liquid detergents 86 
+(Issac and Kandasubramanian, 2021; Periyasamy 2021). This is because powder detergents 87 
+contain insoluble particles to increase abrasion and cause friction with the fabrics.  88 
+
+ 
+ 
+9 
+ 
+The increase in washing temperature also resulted in an increase in MFs release (Yang et al., 89 
+2019; Zambrano et al., 2021) (Fig. 2). Hot water washing at 60oC released more polyester 90 
+MFs (16x103 of MFs) than at lower washing temperature (~30oC) (Yang et al., 2019). Indeed, 91 
+washing clothes at a lower temperature could reduce the number of released MFs by up to 92 
+50% (Cotton et al., 2020). Washing at a high temperature promotes the expansion of yarns, 93 
+the bonds between the fibers become loose, creating more free spaces in the fabric structure  94 
+for the mobilization of the broken MFs, particularly under high alkalinity conditions 95 
+(Nishimurat and Sarko, 1987). Therefore, synthetic fabric textiles should be washed at low 96 
+temperatures such as 30°C, as higher temperatures promote MFs release. 97 
+ 98 
+[FIGURE 2] 99 
+Abrasion during laundry can contribute more to fabric damage than wear and tear, thus, 100 
+releasing more MFs (Fig. 2). The surface abrasion of the fabric increases mechanical stress, 101 
+breaks MFs structure, and releases more MFs during laundry activity (Jönsson et al., 2018). 102 
+Besides, the abrasion depended on several factors, such as the spin-dry rate of the washing 103 
+machine, the use of detergent or surfactants to remove dirt on clothes, and the loading drum. 104 
+During dry spinning, the fabric can be subject to abrasion and centrifugal force, causing a 105 
+further release of MFs to laundry wastewater (Sillanpää and Sainio, 2017). In addition, the 106 
+high alkalinity of detergents could also produce MFs fuzz on the fabric surface during the 107 
+laundry. Then, the abrasion process inside the washing machine immediately broke the fuzz, 108 
+releasing MFs to the aquatic environment. According to Cai et al. (2021), the number of MFs 109 
+detached from fleece after abrasion experiments were about 3,000 MFs/gram of textile fabric, 110 
+which were 5-folds higher than that of non-abrasive condition.  111 
+
+ 
+ 
+10 
+ 
+3. Short term measures 112 
+3.1. Traps and filters 113 
+There have been several commercial products or small devices for capturing MFs during 114 
+laundry activities. These products can be placed either directly inside the washing drum or 115 
+fitted to washing machines to remove MFs from laundry wastewater. Examples of the former 116 
+include laundry bags (e.g. Guppyfriend) and capturing balls (e.g. Cora). The latter are in-line 117 
+filters such as Lint LUV-R and Filtrol™  that can be fitted directly to laundry equipment 118 
+(Table 2).  119 
+[TABLE 2] 120 
+ 121 
+Washing bags such as Guppyfriend work by capturing MFs within the bag, and thus, reduces 122 
+the number of MFs released to the aquatic environment. Other commercial products such as 123 
+Cora balls have spiky tentacles to capture MFs as it moves around inside the washing drum 124 
+(Kärkkäinen and Sillanpää, 2021). Although the Guppyfriend bags and Cora balls are easy to 125 
+use, there is uncertainty about their MFs removal efficiency (Table 2). MF capturing 126 
+efficiency by the Cora balls depends on fiber dimensions, such as length and width. The 127 
+longer the fibers are, the easier they are to get caught and tend to wrap together inside the 128 
+ball. 129 
+ Compared to in-drum products such as Guppyfriend bags and Cora balls, in-line filters are 130 
+more efficient at capturing MFs from laundry wastewater (Table 2).  Most of these filters 131 
+(e.g., Lint LUV-R, Filtrol™ ) use a stainless-steel mesh filter with a pore size of 132 
+approximately 150 μm for MFs removal by straining. Since MFs are a few millimeters in 133 
+length, these in-line filters can offer high and consistent removal well > 80% (McIlwraith et 134 
+al., 2019).  135 
+
+ 
+ 
+11 
+ 
+Commercial products in Table 2 tend to have low and unreliable MF removal performance 136 
+(Table 2). They must be regularly maintained and serviced. MFs must be manually removed 137 
+from the Guppyfriend bags and Cora balls after every wash. Incorrect or lack of maintenance 138 
+of the in-line filters can cause blockage and significantly reduce their MFs removal 139 
+efficiency. Careful disposal of the trapped MFs is also required to ensure that they do not end 140 
+up in the environment. 141 
+3.2. Wastewater treatment 142 
+3.2.1 The removal of microplastics by municipal wastewater treatment 143 
+In most wealthy countries, laundry water is released to the sewer for treatment at a 144 
+centralized wastewater treatment plant (WWTPs). WWTPs can achieve complete or near 145 
+complete removal of MFs from household laundry activities through several and often 146 
+redundant treatment stages (Sun et al., 2019; Liu et al., 2021). 147 
+As denoted in Fig. 3, primary treatment accounts for the initial 40-65% removal of the MFs 148 
+(Sun et al., 2019). Primary treatment (which is the first treatment stage), typically includes 149 
+screening, grit and grease removal, and primary settlement. MFs are usually long, light, and 150 
+easy to float on the water, so they are effectively captured by screening and floatation for oil 151 
+and grease removal (Talvitie et al., 2017). Secondary treatment can add about 20-60% MF 152 
+removal on top of the efficiency of primary treatment. In this stage, small and suspended MFs 153 
+that have escaped primary treatment can be captured by adsorption to activated sludge flocs 154 
+and then removed by the secondary clarification tank. Tertiary treatment processes such as 155 
+sand filtration and microfiltration can then remove any remaining MFs in the water by size 156 
+exclusion prior to effluent discharge. In this phase, an alternative technique - membrane 157 
+bioreactor could reach an excellent removal performance (90–99%) compared to others, e.g., 158 
+disc filter (80–98%), granular filter (80–98%), dissolved air flotation (60–85%) (Talvitie et 159 
+
+ 
+ 
+12 
+ 
+al., 2017; Enfrin et al., 2020). The three stages offer complementary and redundant treatment 160 
+capability to ensure a high MF removal rate.  161 
+It is noteworthy that not all WWTPs include all three treatment stages. Tertiary treatment is 162 
+only used when the effluent is intended for water reuse or discharged to a sensitive 163 
+environment (Bui et al., 2020). Even without tertiary treatment, WWTPs can provide an 164 
+effective and reliable performance for removing MFs from wastewater.    165 
+ 166 
+ 167 
+[FIGURE 3] 168 
+4. Addressing the root cause 169 
+4.1. Synthetic fabrics 170 
+Fabrics used in the fashion industry can be of natural or synthetic origin. Natural fabrics are 171 
+from plant-based (e.g., cotton, linen, and jute) or animal-based (e.g., wool and silk) fibers 172 
+(Syduzzaman et al., 2020). Silk is naturally obtained from an insect and produced from the 173 
+substance used to form a cocoon. Wool is from sheep or other furry animals. It is a highly 174 
+desirable product due to its capacity to hold heat and natural appearance. Cotton is the most 175 
+common form of plant-based fibers that can be obtained from cotton seeds. Linen is a strong 176 
+and lightweight fabric made from fibers of the flax plant. Jute fibers are from the skin of the 177 
+jute plant. It is used to make several fabrics such as hessian cloth, sacking, scrim, carpet 178 
+backing cloth, and canvas. Jute fabrics have exceptionally high strength, but they have a 179 
+rough texture. Thus, their applications in the fashion industry are limited. Aside from the 180 
+commonly used natural fibers (e.g., cotton and silk), regenerated cellulosic fibers (e.g., 181 
+viscose, rayon) have also become popular. They are made from dissolved wood pulp. 182 
+Regenerated cellulosic fibers have physical and chemical properties similar to cotton, such as 183 
+water absorbency and close to skin comfort. Primary applications for regenerated cellulosic 184 
+
+ 
+ 
+13 
+ 
+fibers are in the hygiene and wipes sectors (Ahmad et al., 2014; Muthu, 2017; Subash and 185 
+Muthiah, 2021).  186 
+[FIGURE 4] 187 
+The remaining is from natural fibers, mostly cotton (25%) and regenerated cellulosic fabrics 188 
+(7%) with a small contribution from silk and wool. As plant-based materials, regenerated 189 
+cellulosic fabrics can make the fashion industry more sustainable since the raw materials are 190 
+renewable and the final products can be naturally assimilated into the environment at the end 191 
+of their service life (Anonymous, 2020). 192 
+Despite significant improvement in texture properties, synthetic fabrics have an inherent 193 
+problem. They are extremely persistent in the environment. The degradation of synthetic 194 
+fabrics could be governed by polymer types, density, molecular size, additives, biological 195 
+activity, and environmental conditions. For example, polyester (the most common synthetic 196 
+fabric) is essentially polyethylene terephthalate or PET. Like a PET water bottle, it takes 197 
+more than 200 years to fully biodegrade polyester in the natural environment (Fig. 4). Royer 198 
+et al. (2021) simulated marine conditions to compare the biodegradability of regenerated 199 
+cellulosic and polyester fibers. After 90 days, Royer et al. (2021) observed some or complete 200 
+degradation of regenerated cellulosic fibers. By contrast, polyester fibers did not show any 201 
+evidence of biodegradation. Compared to plant-based fabrics, animal-based materials such as 202 
+wool and silk biodegradable slower, but they would be fully biodegraded in the natural 203 
+environment after two to four years at the most. Overall, the persistency of synthetic fibers is 204 
+hundreds to several thousand times higher than natural products (Fig. 4). Thus, replacing 205 
+synthetic fabrics with natural products is the most effective strategy to reduce the impact of 206 
+MF on the aquatic environment.  207 
+
+ 
+ 
+14 
+ 
+Natural fabrics are expensive and often unaffordable for customers in low-income countries. 208 
+Consequently, developing and applying of advanced technologies in natural fabrics 209 
+production could increase productivity and reduce this material's cost. These are valuable 210 
+solutions to help natural fabrics reach a more comprehensive range of customers. Blending or 211 
+surface coating natural fabrics with other materials could be an idea to increase fabric 212 
+strength to overcome the current drawback of these materials. Besides, changing to 213 
+regenerated cellulosic fabrics (rayon) was an alternative choice for attracting consumers and 214 
+more safe for the environment. Rayon is a fabric made from purified cellulose fibers, which 215 
+are typically created from wood pulp (Mendes et al., 2021). For example, Tencel®, a type of 216 
+rayon, like viscose and modal, was also made from wood pulp or bamboo. As a plant-derived 217 
+fiber, Tencel is also biodegradable. Tencel requires a lot less dye than cotton. When 218 
+produced, it is also pure white, so no bleaching is necessary, and undyed is always an 219 
+excellent alternative to synthetic fabrics (Basit et al., 2019). 220 
+Additional research to improve the texture properties and durabilities of natural fabrics can 221 
+help them compete with synthetic materials. These can include work to improve the strength 222 
+and abrasion resistance, breathability, water resistance, quick-drying properties of natural 223 
+fabrics. Increasing consumer awareness about the harmful effects of synthetic fabrics can also 224 
+help the effort to phase out synthetic fabrics. 225 
+4.2. Future roadmap 226 
+The ecological impact of MFs in natural water is an environmental problem of global scale. 227 
+Thus, solving this problem is the responsibility of more than just individual households or the 228 
+consumers. Indeed, a holistic solution should cover the entire supply chain, starting from the 229 
+textile industry and including municipal wastewater treatment, washing machine 230 
+manufracturers and the consumers. 231 
+
+ 
+ 
+15 
+ 
+The textile industry has a significant role to play in resovling this problem. By limiting the 232 
+use of synthetic plastic-based fabrics, the reduction of MFs release can be achieved at the 233 
+source. Natural fibers have a very short lifetime in the environment as they are fully 234 
+biodegradable (Fig. 4). Although synthetic fabrics are often cheaper and easier to 235 
+manufacture than natural fabrics, consumer setiment to support nature-based products is 236 
+growing in recent years. Further progress in materials science and engineering is expected to 237 
+make natural fabrics more durable and with better texture properties to compete with 238 
+synthetic materials. 239 
+Large-scale removal of microfibers from the environment is neither technically feasible nor 240 
+economically viable, so the focus needs to be on preventing the release of MFs to the 241 
+environment at the first place. Less than 50% of the global population is currently served by 242 
+WWTPs. Increasing the global coverage of centralised wastewater treatment can significantly 243 
+reduce MFs release to the environment. As discussed in section 2.2.2, washing condition can 244 
+have some impact on the release of MFs. By reducing washing temperature, detergent 245 
+consumption, and abration, the release of MFs to laundry wastewater can be reduced. These 246 
+measures can also reduce the energy and chemical footprint of laundry activities. Last but not 247 
+least, the use of MFs traps and filters should be encouraged. Although the efficiency of these 248 
+devices is low and variable, they are low cost and can be readily implemented.  249 
+5. Conclusions 250 
+The release of microfibers (MFs) into the aquatic environment primarily from laundry 251 
+activities has emerged as a globally significant environmental issue. There are several ways 252 
+in which MFs can negatively impact the aquatic ecosystem. MFs can act as carriers of other 253 
+contaminats, cause physical damage to digestive systems of aquatic organisms, block the 254 
+digestive tract, release toxic chemicals to internal organs, and harbour invasive and noxious 255 
+plankton and bacteria in the aquatic ecosystem. Results corroborated from this review show 256 
+
+ 
+ 
+16 
+ 
+that no single solution can adequately address the problem of MFs in the aquatic 257 
+environment. Small devices to capture MFs during household laundry activities are low cost 258 
+and simple to use. However, these devices are unreliable and can only achieve low or 259 
+moderate MF removal efficiency compared to conventional wastewater treatment, which can 260 
+completely intercept and prevent the release of MFs into the aquatic environment. In fact, 261 
+effort to increase sanitation coverage to ensure adequate wastewater treatment prior to 262 
+environmental discharge is likely to be more cost effective than those small devices for 263 
+capturing MFs. This review demonstrates that natural fabrics would entail significantly less 264 
+environmental consequences than synthetic materials. The fashion industry can also address 265 
+the problem of MFs in the environment by phasing out synthetic fabrics and increase the use 266 
+of natural materials. 267 
+Acknowledgement 268 
+ 269 
+Financial support from Investment NSW via the Small Business Innovation & Research 270 
+funding scheme (Water Purification Challenge) is gracefuly acknowledged. We acknowledge 271 
+the support of  the framework of CARE-RESCIF initiative and financially supported by Ho 272 
+Chi Minh City University of Technology (HCMUT), VNU-HCM under grant number Tc-273 
+PTN-2021-01.  274 
+References  275 
+ 276 
+Acharya, S., Rumi, S. S., Hu, Y., Abidi, N., 2021. Microfibers from synthetic textiles as a 277 
+major source of microplastics in the environment: A review. Textile Research Journal, 278 
+91(17-18), 2136–2156. doi:10.1177/0040517521991244 279 
+Ahmad, F., Choi, H. S., & Park, M. K. (2014). A Review: Natural Fiber Composites 280 
+Selection in View of Mechanical, Light Weight, and Economic Properties. 281 
+
+ 
+ 
+17 
+ 
+Macromolecular Materials and Engineering, 300(1), 10–24. 282 
+doi:10.1002/mame.201400089 283 
+Ahmad, S., Ullah, T., Ziauddin (2020). Fibers for Technical Textiles. In: Ahmad, S., 284 
+Rasheed, A., Nawab, Y. (eds) Fibers for Technical Textiles. Topics in Mining, 285 
+Metallurgy and Materials Engineering. Springer, Cham. https://doi.org/10.1007/978-3-286 
+030-49224-3_2 287 
+Alvim, B. C., Mendoza-Roca, J. A., Bes-Piá, A., 2020. Wastewater treatment plant as 288 
+microplastics release source – Quantification and identification techniques. Journal of 289 
+Environmental Management, 255, 109739. doi:10.1016/j.jenvman.2019.109 290 
+Amelia, T. S. M., Khalik, W. M. A. W. M., Ong, M. C., Shao, Y. T., Pan, H.-J., Bhubalan, 291 
+K., 2021. Marine microplastics as vectors of major ocean pollutants and its hazards to the 292 
+marine ecosystem and humans. Progress in Earth and Planetary Science, 293 
+8(1). doi:10.1186/s40645-020-00405-4  294 
+Barboza, L. G. A., Vieira, L. R., Branco, V., Carvalho, C., Guilhermino, L., 2018. 295 
+Microplastics increase mercury bioconcentration in gills and bioaccumulation in the 296 
+liver, and cause oxidative stress and damage in Dicentrarchus labrax juveniles. Scientific 297 
+Reports, 8(1). doi:10.1038/s41598-018-34125-z  298 
+Barrows, A. P. W., Cathey, S. E., Petersen, C. W., 2018. Marine environment microfiber 299 
+contamination: Global patterns and the diversity of microparticle origins. Environmental 300 
+Pollution, 237, 275–284. https://doi.org/10.1016/j.envpol.2018.02.062. 301 
+Basit, A., Latif, W., Ashraf, M., Rehman, A., Iqbal,K., Maqsood, H.S., Jabbar, A., Baig, 302 
+S.A., 2019. Comparison of mechanical and thermal comfort properties of tencel blended 303 
+with regenerated fibers and cotton woven fabrics. Autex Research Journal, 19(1), 80-85. 304 
+
+ 
+ 
+18 
+ 
+Belzagui, F., Crespi, M., Álvarez, A., Gutiérrez-Bouzán, C., Vilaseca, M., 2019. 305 
+Microplastics’ emissions: Microfibers’ detachment from textile garments. Environmental 306 
+Pollution. doi:10.1016/j.envpol.2019.02. 307 
+Bilal, M., Iqbal, H. M. N., 2020. Transportation fate and removal of microplastic pollution – 308 
+A perspective on environmental pollution. Case Studies in Chemical and Environmental 309 
+Engineering, 100015. doi:10.1016/j.cscee.2020.100015  310 
+Bishop, D.P., 1995. Physical and chemical effects of domestic laundering processes. In: 311 
+Carr CM (ed) Chemistry of the textiles industry. Springer Netherlands, Dordrecht. 312 
+doi:10.1007/978-94-011-0595-8_4. 313 
+Bolan, N.S., Kirkham, M.B., Ravindran, B.,  Kumar, A.,  Ding, W., 2020. Microbial 314 
+plastisphere: microbial habitation of particulate plastics in terrestrial and aquatic 315 
+environments. Particulate Plastics in Terrestrial and Aquatic Environments, CRC Press, 316 
+135-145. 317 
+Booth, A.M., Kubowicz, S., Beegle-Krause, C.J., Skancke, J., Nordam, T., Landsem, E., 318 
+Throne-Holst, M., Jahren, S., 2017. Microplastic in global and Norwegian marine 319 
+environments: Distributions, degradation mechanisms and transport. 320 
+Booth, A.M., Sørensen, L., 2020. Microplastic Fate and Impacts in the Environment. In: 321 
+Rocha-Santos T, Costa M. Mouneyrac C (eds) Handbook of Microplastics in the 322 
+Environment. Springer, Cham. https://doi.org/10.1007/978-3-030-10618-8_29-1  323 
+Bui, X.-T., Vo, T.-D.-H., Nguyen, P.-T., Nguyen, V.-T., Dao, T.-S., Nguyen, P.-D., 2020. 324 
+Microplastics pollution in wastewater: Characteristics, occurrence and removal 325 
+technologies. Environmental Technology & Innovation, 101013. 326 
+doi:10.1016/j.eti.2020.101013 327 
+
+ 
+ 
+19 
+ 
+Cai, Y., Mitrano, D. M., Hufenus, R., Nowack, B., 2021. Formation of Fiber Fragments 328 
+during Abrasion of Polyester Textiles. Environmental Science & Technology, 55(12), 329 
+8001–8009. doi:10.1021/acs.est.1c00650  330 
+Carney Almroth, B. M., Åström, L., Roslund, S., Petersson, H., Johansson, M., & Persson, 331 
+N. K., 2018. Quantifying shedding of synthetic fibers from textiles; a source of 332 
+microplastics released into the environment. Environmental Science and Pollution 333 
+Research, 25(2), 1191–1199. https://doi.org/10.1007/s11356-017-0528-7. 334 
+Casabianca, S., Capellacci, S., Giacobbe, M. G., Dell’Aversano, C., Tartaglione, L., 335 
+Varriale, F., Narizzano, R., Risso, F., Moretto, P., Dagnino, A., Bertolotto, R., 336 
+Barbone,E., Ungaro, N., Penna, A., 2018. Plastic-associated harmful microalgal 337 
+assemblages in marine environment. Environmental Pollution. 338 
+doi:10.1016/j.envpol.2018.09.1 339 
+Cormier, B., Gambardella, C., Tato, T., Perdriat, Q., Costa, E., Veclin, C., Le Bihanic, F., 340 
+Grassl, B., Dubocq, F., K¨ arrman, A., Van Arkel, K., Lemoine, S., Lagarde, F., Morin, 341 
+B., Garaventa, F., Faimali, M., Cousin, X., Begout,M-L., Beiras, R., Cachot, J., 2021. 342 
+Chemicals sorbed to environmental microplastics are toxic to early life stages of aquatic 343 
+organisms. Ecotoxicology and Environmental Safety, 208, 111665. 344 
+doi:10.1016/j.ecoenv.2020.111665 345 
+Costa, B. V. M. da, Yogui, G. T., Souza-Santos, L. P., 2014. Acute toxicity of tributyltin on 346 
+the marine copepod Tisbe biminiensis. Brazilian Journal of Oceanography, 62(1), 65-69. 347 
+https://doi.org/10.1590/s1679-87592014075706201. 348 
+Cotton, L., Hayward, A. S., Lant, N. J., Blackburn, R. S., 2020. Improved garment 349 
+longevity and reduced microfibre release are important sustainability benefits of 350 
+
+ 
+ 
+20 
+ 
+laundering in colder and quicker washing machine cycles. Dyes and Pigments, 177, 351 
+108120. doi:10.1016/j.dyepig.2019.1081 352 
+De Falco, F., Cocca, M., Avella, M., Thompson, R. C., 2020. Microfibre release to water, 353 
+via laundering, and to air, via everyday use: a comparison between polyester clothing 354 
+with differing textile parameters. Environmental Science & Technology. 355 
+doi:10.1021/acs.est.9b06892 356 
+De Falco, F., Di Pace, E., Cocca, M., Avella, M., 2019. The contribution of washing 357 
+processes of synthetic clothes to microplastic pollution. Scientific Reports, 9(1). 358 
+doi:10.1038/s41598-019-43023-x  359 
+Egan, J., Salmon, S. Strategies and progress in synthetic textile fiber biodegradability. SN 360 
+Appl. Sci. 4, 22 (2022). https://doi.org/10.1007/s42452-021-04851-7 361 
+Enfrin, M., Lee, J., Le-Clech, P., Dumée, L. F., 2020. Kinetic and mechanistic aspects of 362 
+ultrafiltration membrane fouling by nano-and microplastics, J. Membr. Sci. 601, 117890. 363 
+Franco, I. B., Chatterji, T., Derbyshire, E., Tracey, J. (Eds.), 2020. Actioning the Global 364 
+Goals for Local Impact. Science for Sustainable Societies. doi:10.1007/978-981-32-365 
+9927-6 366 
+Freitas, A., Zhang, G., and Mathews, R., 2017. Water footprint assessment of polyester and 367 
+viscose and comparison to cotton. Water Footprint Network. 368 
+https://waterfootprint.org/media/downloads/WFA_Polyester_and__Viscose_2017.pdf 369 
+Gavigan, J., Kefela, T., Macadam-Somer, I., Suh, S., Geyer, R., 2020. Synthetic microfiber 370 
+emissions to land rival those to waterbodies and are growing. PLOS ONE, 15(9), 371 
+e0237839. doi:10.1371/journal.pone.02378 372 
+Häder, D.-P., 2018. Ecotoxicological monitoring of wastewater. Bioassays, 369–373 
+386. doi:10.1016/b978-0-12-811861-0.00018-8  374 
+
+ 
+ 
+21 
+ 
+He, Z.-W., Yang, W.-J., Ren, Y.-X., Jin, H.-Y., Tang, C.-C., Liu, W.-Z., Wang, A.-J., 375 
+2021. Occurrence, effect, and fate of residual microplastics in anaerobic digestion of 376 
+waste activated sludge: A state-of-the-art review. Bioresource Technology, 331, 377 
+125035. doi:10.1016/j.biortech.2021.12 378 
+Henry, B., Laitala, K., Klepp, I.G., 2019. Microfibres from apparel and home textiles: 379 
+Prospects for including microplastics in environmental sustainability assessment. Science 380 
+of the Total Environment, 652, 483–494. doi:10.1016/j.scitotenv.2018.10.166. 381 
+Hernandez, E., Nowack, B. and Mitrano, D.M., 2017. Polyester Textiles as a Source of 382 
+Microplastics from Households: A Mechanistic Study to Understand Microfiber Release 383 
+during Washing.  Environmental Science and Technology, 51(12), 7036–7046. 384 
+doi:10.1021/acs.est.7b01750. 385 
+Issac, M.N., Kandasubramanian, B., 2021. Effect of microplastics in water and aquatic 386 
+systems. Environmental Science and Pollution Research, 28, 19544–19562. 387 
+doi:10.1007/s11356-021-13184-2/Published. 388 
+Jong, M-C., Li, J., Noor, H.M., He, Y., Gin, K. Y-H., 2022. Impacts of size-fractionation on 389 
+toxicity of marine microplastics: Enhanced integrated biomarker assessment in the 390 
+tropical mussels, Perna viridis. Science of the Total Environment 835, 155459. 391 
+http://dx.doi.org/10.1016/j.scitotenv.2022.155459 392 
+Jönsson, C., Levenstam Arturin, O., Hanning, A.-C., Landin, R., Holmström, E., Roos, S., 393 
+2018. Microplastics Shedding from Textiles—Developing Analytical Method for 394 
+Measurement of Shed Material Representing Release during Domestic Washing. 395 
+Sustainability, 10(7), 2457. doi:10.3390/su10072457 396 
+
+ 
+ 
+22 
+ 
+Kärkkäinen, N., Sillanpää, M., 2021. Quantification of different microplastic fibres 397 
+discharged from textiles in machine wash and tumble drying. Environmental Science and 398 
+Pollution Research, 28, 16253–16263. doi:10.1007/s11356-020-11988-2/Published. 399 
+Kazmiruk, T.N., Kazmiruk, V.D. and Bendell, L.I., 2018. Abundance and distribution of 400 
+microplastics within surface sediments of a key shellfish growing region of Canada. 401 
+PLoS ONE, 13(5). doi:10.1371/journal.pone.0196005. 402 
+Khan, F. R., Boyle, D., Chang, E., Bury, N. R., 2017. Do polyethylene microplastic beads 403 
+alter the intestinal uptake of Ag in rainbow trout ( Oncorhynchus mykiss )? Analysis of 404 
+the MP vector effect using in vitro gut sacs. Environmental Pollution, 231, 200–206. 405 
+doi:10.1016/j.envpol.2017.08.0 406 
+Kwok, K. W. H., Leung, K. M. Y., 2005. Toxicity of antifouling biocides to the intertidal 407 
+harpacticoid copepod Tigriopus japonicus (Crustacea, Copepoda): Effects of temperature 408 
+and salinity. Marine Pollution Bulletin, 51(8-12), 830–837. 409 
+Kwon, J.-H., Chang, S., Hong, S. H., Shim, W. J., 2017. Microplastics as a vector of 410 
+hydrophobic contaminants: Importance of hydrophobic additives. Integrated 411 
+Environmental Assessment and Management, 13(3), 494–499. doi:10.1002/ieam.1906 412 
+Lares, M., Ncibi, M. C., Sillanpää, M., Sillanpää, M., 2018. Occurrence, identification and 413 
+removal of microplastic particles and fibers in conventional activated sludge process and 414 
+advanced MBR technology. Water Research, 133, 236–246. 415 
+doi:10.1016/j.watres.2018.01.049  416 
+Lebreton, L., Slat, B., Ferrari, F., Sainte-Rose, B., Aitken, J., Marthouse, R., Reisser, J., 417 
+2018. Evidence that the Great Pacific Garbage Patch is rapidly accumulating plastic. 418 
+Scientific Reports, 8(1). doi:10.1038/s41598-018-22939-w  419 
+
+ 
+ 
+23 
+ 
+Leung, K. M. Y., Wheeler, J. R., Morritt, D., Crane, M., 2001.Endocrine disruption in fishes 420 
+and invertebrates: issues forsaltwater ecological risk assessment. In M. C. Newman,M. 421 
+H. Roberts, Jr., R. C. Hale (Eds.), Coastal and EstuarineRisk Assessment,189 – 216. 422 
+Boca Raton: Lewis Publish-ers.  423 
+Liu, W., Zhang, J., Liu, H., Guo, X., Zhang, X., Yao, X., … Zhang, T., 2021. A review of 424 
+the removal of microplastics in global wastewater treatment plants: Characteristics and 425 
+mechanisms. Environment International, 146, 106277. doi:10.1016/j.envint.2020.1062 426 
+Lu, K., Qiao, R., An, H., Zhang, Y., 2018. Influence of microplastics on the accumulation 427 
+and chronic toxic effects of cadmium in zebrafish ( Danio rerio ). Chemosphere, 202, 428 
+514–520. doi:10.1016/j.chemosphere.2018 429 
+McIlwraith, H. K., Lin, J., Erdle, L. M., Mallos, N., Diamond, M. L., Rochman, C. M., 430 
+2019. Capturing microfibers – marketed technologies reduce microfiber emissions from 431 
+washing machines. Marine Pollution Bulletin, 139, 40–45. 432 
+doi:10.1016/j.marpolbul.2018.1 433 
+Mendes, I. S. F., Prates, A., Evtuguin, D.V., 2021. Production of rayon fibres from 434 
+cellulosic pulps: State of the art and current developments. Carbohydrate Polymers, 273, 435 
+118466. doi:10.1016/j.carbpol.2021.118466  436 
+Napper, I.E., Thompson, R.C., 2016. Release of synthetic microplastic plastic fibres from 437 
+domestic washing machines: Effects of fabric type and washing conditions,” Marine 438 
+Pollution Bulletin, 112(1–2), 39–45. doi:10.1016/j.marpolbul.2016.09.025. 439 
+Nishimurat, H., Sarko, A., 1987. Mercerization of Cellulose. 111. Changes in Crystallite 440 
+Sizes. J Appl Polym Sci, 855–866. 441 
+Pedrotti, M. L., Petit, S., Eyheraguibel, B., Kerros, M. E., Elineau, A., Ghiglione, J. F., 442 
+Loret, J.F., Rostan, A., Gorsky, G., 2020. Pollution by Anthropogenic Microfibers in 443 
+
+ 
+ 
+24 
+ 
+North-West Mediterranean Sea and Efficiency of Microfiber Removal by a Wastewater 444 
+Treatment Plant. Science of The Total Environment, 144195. 445 
+doi:10.1016/j.scitotenv.2020.144195.  446 
+Periyasamy, A.P., 2021. Evaluation of microfiber release from jeans: the impact of different 447 
+washing conditions. Environmental Science and Pollution Research. 448 
+doi:10.1007/s11356-021-14761-1. 449 
+Qiao, R., Deng, Y., Zhang, S., Wolosker, M. B., Zhu, Q., Ren, H., Zhang, Y., 2019. 450 
+Accumulation of different shapes of microplastics initiates intestinal injury and gut 451 
+microbiota dysbiosis in the gut of zebrafish. Chemosphere, 236, 124334. 452 
+doi:10.1016/j.chemosphere.2019 453 
+Ross, P. S., Chastain, S., Vassilenko, E., Etemadifar, A., Zimmermann, S., Quesnel, S.-A., 454 
+Eert, J., Solomon, E., Patankar, S., Posacka, A. M., Williams, B., 2021. Pervasive 455 
+distribution of polyester fibres in the Arctic Ocean is driven by Atlantic inputs. Nature 456 
+Communications, 12(1). doi:10.1038/s41467-020-20347-1  457 
+Rotjan, R. D., Sharp, K. H., Gauthier, A. E., Yelton, R., Lopez, E. M. B., Carilli, J., 458 
+Jonathan, C. K.,Urban-Rich, J., 2019. Patterns, dynamics and consequences of 459 
+microplastic ingestion by the temperate coral, Astrangia poculata. Proceedings of the 460 
+Royal Society B: Biological Sciences, 286(1905), 20190726. 461 
+doi:10.1098/rspb.2019.0726 462 
+Royer, S. J., Wiggin, K., Kogler, M., Deheyn, D. D., 2021. Degradation of synthetic and 463 
+wood-based cellulose fabrics in the marine environment: Comparative assessment of 464 
+field, aquarium, and bioreactor experiments. Science of The Total Environment, 791, 465 
+148060. https://doi.org/10.1016/J.SCITOTENV.2021.148060. 466 
+
+ 
+ 
+25 
+ 
+Savoca, S., Capillo, G., Mancuso, M., Faggio, C., Panarello, G., Crupi, R., … Spanò, N. , 467 
+2019. Detection of artificial cellulose microfibers in Boops boops from the northern 468 
+coasts of Sicily (Central Mediterranean). Science of The Total Environment. 469 
+doi:10.1016/j.scitotenv.2019.0 470 
+Scopetani, C., Cincinelli, A., Martellini, T., Lombardini, E., Ciofini, A., Fortunati, A., … 471 
+Ugolini, A., 2018. Ingested microplastic as a two-way transporter for PBDEs in Talitrus 472 
+saltator. Environmental Research, 167, 411–417. doi:10.1016/j.envres.2018.07.0 473 
+Shahul Hamid, F., Bhatti, M. S., Anuar, N., Anuar, N., Mohan, P., Periathamby, A., 2018. 474 
+Worldwide distribution and abundance of microplastic: How dire is the situation? Waste 475 
+Management & Research, 0734242X1878573. doi:10.1177/0734242x18785730 476 
+Sillanpää, M., Sainio, P., 2017. Release of polyester and cotton fibers from textiles in 477 
+machine washings. Environmental Science and Pollution Research, 24(23), 19313–478 
+19321. doi:10.1007/s11356-017-9621-1. 479 
+Silva, A. L. P., Prata, J. C., Duarte, A. C., Soares, A. M. V. M., Barceló, D., Rocha-Santos, 480 
+T., 2021. Microplastics in landfill leachates: The need for reconnaissance studies and 481 
+remediation technologies. Case Studies in Chemical and Environmental Engineering, 3, 482 
+100072. doi:10.1016/j.cscee.2020.100072  483 
+Sooriyakumar, P., Bolan, N., Kumar, M., Singh, L., Yu, Y., Li, Y, Weralupitiya, C., 484 
+Vithanage, M., Ramanayaka, S., Sarkar, B., Wang, F., Gleeson, D.B., Zhang, D., 485 
+Kirkham, M.B., Rinklebe, J., Siddique, K.H.M., 2022. Biofilm formation and its 486 
+implications on the properties and fate of microplastics in aquatic environments: A 487 
+review. Journal of Hazardous Materials Advances, 6, 100077. 488 
+Sridharan, S., Kumar, M., Saha, M., Kirkham, M. B., Singh, L., Bolan, N.S., 2022. The 489 
+polymers and their additives in particulate plastics: What makes them hazardous to the 490 
+
+ 
+ 
+26 
+ 
+fauna? Science of the Total Environment 824, 153828. 491 
+http://dx.doi.org/10.1016/j.scitotenv.2022.153828 492 
+Subash, M., Muthiah, P., 2021. Eco-friendly degumming of natural fibers for textile 493 
+applications: A comprehensive review. Cleaner Engineering and Technology, 5, 100304. 494 
+https://doi.org/10.1016/j.clet.2021.100304 495 
+Sun, J., Dai, X., Wang, Q., van Loosdrecht, M. C. M., Ni, B.-J., 2019. Microplastics in 496 
+wastewater treatment plants: Detection, occurrence and removal. Water Research. 497 
+doi:10.1016/j.watres.2018.12.0 498 
+Syduzzaman, M., Al Faruque, M.A., Bilisik, K., Naebe, M., 2020. Plant-Based Natural 499 
+Fibre Reinforced Composites: A Review on Fabrication, Properties and Applications. 500 
+Coatings, 10, 973. https://doi.org/10.3390/coatings10100973 501 
+Talvitie, J., Mikola, A., Koistinen, A., Setälä, O., 2017. Solutions to microplastic pollution – 502 
+Removal of microplastics from wastewater effluent with advanced wastewater treatment 503 
+technologies. Water Research, 123, 401–407. doi:10.1016/j.watres.2017.07.0 504 
+Anonymous, Textile Exchange, 2020. Preferred Fiber & Materials Market Report 2020. 505 
+https://textileexchange.org/wp-content/uploads/2020/06/Textile-Exchange_Preferred-506 
+Fiber-Material-Market-Report_2020.pdf 507 
+Thushari, G. G. N., and Senevirathna, J. D. M., 2020. Plastic pollution in the marine 508 
+environment. Heliyon, 6(8), e04709. doi: 10.1016/j.heliyon.2020.e04709 509 
+Uddin, S., Fowler, S.W., Behbehani, M., 2020. An assessment of microplastic inputs into 510 
+the aquatic environment from wastewater streams. Marine Pollution Bulletin, 160. 511 
+doi:10.1016/j.marpolbul.2020.111538. 512 
+Vassilenko, K., Watkins, M., Chastain, S., Posacka, A., Ross,mP.S., 2019. Me, My Clothes 513 
+and the Ocean- The role of textiles in microfibers pollution. Ocean wise science feature.  514 
+
+ 
+ 
+27 
+ 
+Viršek, M. K., Lovšin, M. N., Koren, Š., Kržan, A., Peterlin, M., 2017. Microplastics as a 515 
+vector for the transport of the bacterial fish pathogen species Aeromonas salmonicida. 516 
+Marine Pollution Bulletin, 125(1-2), 301–309. doi:10.1016/j.marpolbul.2017.0 517 
+Waring, R. H., Harris, R. M., Mitchell, S. C., 2018. Plastic contamination of the food chain: 518 
+A threat to human health? Maturitas, 115, 64–68. doi:10.1016/j.maturitas.2018.0 519 
+Weis, J.S., 2020. Aquatic microplastic research-A critique and suggestions for the future. 520 
+Water (Switzerland), 12(5). doi:10.3390/w12051475. 521 
+Werner, S., Budziak, A., van Franeker, J., Galgani, F., Hanke, G., Maes, T., Matiddi, M., 522 
+Nilsson, P., Oosterbaan,L., Priestland, E., Thompson, R., Veiga, J., Vlachogianni, T., 523 
+2016. Harm caused by Marine Litter : MSFD GES TG Marine Litter - thematic report. 524 
+EUR 28317 EN. Luxembourg (Luxembourg): Publications Office of the European 525 
+Union. https://mcc.jrc.ec.europa.eu/documents/201709180716.pdf  526 
+Xu, S., Ma, J., Ji, R., Pan, K., Miao, A.-J., 2020. Microplastics in aquatic environments: 527 
+Occurrence, accumulation, and biological effects. Science of The Total Environment, 528 
+703, 134699. doi:10.1016/j.scitotenv.2019.1 529 
+Yan, W., Hamid, N., Deng, S., Jia, P.-P., Pei, D.-S., 2020. Individual and combined 530 
+toxicogenetic effects of microplastics and heavy metals (Cd, Pb, and Zn) perturb gut 531 
+microbiota homeostasis and gonadal development in marine medaka (Oryzias 532 
+melastigma). Journal of Hazardous Materials, 122795. doi:10.1016/j.jhazmat.2020.122 533 
+Yang, L., Qiao, F., Lei, K., Li, H., Kang, Y., Cui, S., An, L., 2019. Microfiber release from 534 
+different fabrics during washing. Environmental Pollution, 249, 136–143. 535 
+doi:10.1016/j.envpol.2019.03.0 536 
+
+ 
+ 
+28 
+ 
+Zambrano, M. C., Pawlak, J. J., Daystar, J., Ankeny, M., Venditti, R. A., 2020. Impact of 537 
+Dyes and Finishes on the Microfibers Released on the Laundering of Cotton Knitted 538 
+Fabrics. Environmental Pollution, 115998. doi:10.1016/j.envpol.2020.1159 539 
+Zantis, L., Carroll, E. L., Nelms, S. E., Bosker, T., 2020. Marine mammals and 540 
+microplastics: a systematic review and call for standardisation. Environmental Pollution, 541 
+116142. doi:10.1016/j.envpol.2020.1161 542 
+Zhang, S., Zhang, W., Ju, M., Qu, L., Chu, X., Huo, C., Wang, J., 2022. Distribution 543 
+characteristics of microplastics in surface and subsurface Antarctic seawater. Science of 544 
+the Total Environment 838, 156051. http://dx.doi.org/10.1016/j.scitotenv.2022.156051 545 
+Zhang, V., Sesto, B., 2019. Natural and Man-made Fibers Overview. IHS Markit’s 546 
+Chemical Economics Handbook.  547 
+
+ 
+ 
+29 
+ 
+List of Tables 
+Table 1. Estimated MFs release to the aquatic environment from several example countries. 
+Table 2. Microfiber removal efficiency and cost of common traps and filters  
+
+ 
+ 
+30 
+ 
+Table 1. Estimated MFs release to the aquatic environment from several example countries. 
+Countries Sources Metric tons/yr Reference 
+China Textile industry, plastic 
+products, laundering 
+70,000 Statista (2019); 
+Gavigan et al., (2020) 
+India Textile industry 32,500 Statista (2019) 
+Japan Textile industry 3,100 Statista (2019) 
+USA and Canada Washing of all type of 
+synthetic garments 
+880 Vassilenko et al., 
+(2019) 
+Finland  Household washing 
+machines 
+150 Sillanpää and Sainio 
+(2017) 
+Norway Laundries and 
+households 
+100-600 Yang et al., (2019) 
+ 
+  
+
+ 
+ 
+31 
+ 
+Table 2. Microfiber removal efficiency and cost of common traps and filters 
+ 
+Trap and 
+filter types 
+Characteristics Removal 
+(%) 
+Cost 
+(USD) 
+References 
+Guppyfriend 
+washing bag  
+ 
+Polyamide washing 
+bag of size 45 × 68 
+cm, with a mesh size 
+30 μm  
+39 30-35 
+ 
+ 
+Kärkkäinen and 
+Sillanpää (2021) 
+ 
+Cora Ball - 
+laundry ball  
+Soft, recycled plastic 
+material, 13 cm 
+diameter  
+10 
+26 
+40-55 Kärkkäinen and 
+Sillanpää (2021) 
+McIlwraith et al., 
+(2019) 
+Click or tap here to 
+enter text. 
+Lint LUV-R 
+filter kit 
+ 
+Stainless-steel mesh 
+filter with a pore size 
+of 150 μm in diameter 
+87 145 McIlwraith et al., 
+(2019) 
+Filtrol™   
+ 
+A reusable in-line 
+washing machine 
+filter 
+89 140 Samatha et al., 
+(2019) 
+ 
+ 
+
+ 
+ 
+32 
+ 
+List of Figures 
+Fig. 1. Ecological impacts of microfibers/microplastics in the aquatic environment. 
+Fig. 2. Factors causing the increase in microfiber release. 
+Fig. 3. A Sankey diagram showing the fate if microfibers especially the leakage due to low 
+sewage coverage. 
+Fig. 4. Degradation time of synthetic and natural fabrics in the environment.  
+
+ 
+ 
+33 
+ 
+ 
+ 
+ 
+Fig. 1. Ecological impacts of microfibers/microplastics in the aquatic environment.  
+
+
+ 
+ 
+34 
+ 
+ 
+ 
+Fig. 2. Factors causing the increase in microfiber release.  
+
+
+ 
+ 
+35 
+ 
+ 
+Fig. 3. A Sankey diagram showing the fate if microfibers especially the leakage due to low 
+sewage coverage.  
+
+
+ 
+ 
+36 
+ 
+ 
+Fig. 4. Degradation time of synthetic and natural fabrics in the environment. 

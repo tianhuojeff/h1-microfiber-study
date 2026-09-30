@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-29T21:06:44.735627+08:00",
+  "owner_thread": "01a0eae8-68a3-73f0-bba8-b16f72cd72f4",
+  "source_thread": "01a0e79d-0409-7c22-84c6-8ed21119dec4",
+  "source_handoff_turn": "01a0ed3f-0f83-7e51-9220-0506e21f688f",
+  "task_id": "patent-h1-research-20260921",
+  "handoff": "accepted",
+  "research_gate": "R1_not_passed",
+  "master_hash_matches_acceptance": true,
+  "final_statistics_allowed": false,
+  "resource_release_evidence": "Source thread completed handoff and reported three agents ended, no H1 background process found; no independent process claim by recipient.",
+  "files": [
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\20260929_移交给当前总控.md",
+      "bytes": 9389,
+      "sha256": "bf9314fa8b4f20c6248d6c8a3b74499e916ebc3338ade1dfc14ac5c706e88827"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\official_status_register_20260929.json",
+      "bytes": 16072,
+      "sha256": "4a9c6ab0f4d53079e1356446a59834b966946384b130282dd8f88e69a3934e14"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\master_technical_coding_v1.json",
+      "bytes": 206508,
+      "sha256": "7d25ea8e1eb1af8853eb973c5cce17fd6b6f3df0fc41f7b8279c4a3f90f3426e"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\master_evidence_acceptance_20260929_v2.json",
+      "bytes": 310,
+      "sha256": "532661e4381b8b18f9845d0a17c699560924f6f373915485c71d21531fa72180"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\evidence\\审查意见_用户原文_20260928.txt",
+      "bytes": 16635,
+      "sha256": "e6866b603f17ea98b06e28d86a2fa6a7b2a63b678d65a4baeb4398285516b5c6"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\contest_report_20260928\\template_originals\\专利检索分析报告模板_参赛选手信用承诺书_官方原件.docx",
+      "bytes": 19506,
+      "sha256": "22ca66231e9dea7108db704a4bcd7840b5d923f9bb9469130871110f6f408786"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\20260929_修订研究路线.md",
+      "bytes": 7154,
+      "sha256": "47a23825271801e87415cc58b80ecfc1f7143c41da2d54b9ff3226285924d20b"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\20260929_研究接续点.md",
+      "bytes": 3950,
+      "sha256": "f2487e636008c20d72087162fe1b88bca244e3169492dd8f7d06f28954d47347"
+    }
+  ],
+  "git_push": "not_pushed",
+  "changes": "Owner transferred; six sequential steps; statistics in step 2; blocked is not passed; not all 14 families required valid."
+}

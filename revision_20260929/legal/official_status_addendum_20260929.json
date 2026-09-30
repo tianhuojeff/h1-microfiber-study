@@ -1,0 +1,45 @@
+{
+  "schema": "H1 R1 official-status second-round addendum v1",
+  "checked_at": "2026-09-29",
+  "correction": {
+    "superseded_attempt": "https://register.epo.org/application?number=EP3832001",
+    "reason": "EP3832001 is a publication number. It was incorrectly put in an application-number route in the first round; its HTTP 403 must not be treated as a correct individual-record query failure.",
+    "known_ep_application": "EP20198101.6",
+    "correct_search_form_url": "https://register.epo.org/smartSearch?searchMode=smart&query=ap%3DEP20198101.6",
+    "observed_result": "HTTP 403 Forbidden in this environment. No EPO record content was read.",
+    "secondary_format_probe_url": "https://register.epo.org/smartSearch?searchMode=smart&query=ap%3DEP201981016",
+    "secondary_format_probe_result": "HTTP 200 page explicitly says Invalid query / Unknown format for EP201981016 application number; this is a format error, not a status result.",
+    "raw_response": "raw_official_20260929/epo_smartquery_invalid_format_EP201981016.html",
+    "raw_response_sha256": "8064AD85933A55E714878EA102C7F4116EEB050E16A2FE02F553251B86CC84E2"
+  },
+  "verified_event": {
+    "document": "EP3832001 / EP3832001B1 (version mapping is supported by the official Netherlands bulletin's EP number and its grant-for-Netherlands heading; EPO Register record itself was not read)",
+    "official_authority": "Netherlands Patent Office / Octrooicentrum Nederland, published by RVO",
+    "official_bulletin_issue_1": {
+      "url": "https://www.rvo.nl/sites/default/files/2024-01/Hoofdblad-IE-0224-10-januari-2024.pdf",
+      "file": "raw_official_20260929/rvo_2024-01-10.pdf",
+      "sha256": "7A4E3E8417E3C48605F3F1A5DAE2FE7B168F5ACB73AF08A27F2E0B5A30FAC469",
+      "page_pdf": 114,
+      "official_text": "(11) EP3832001; (21) EP20198101.6; (47) 10.01.2024; title WATER-CONDUCTING DOMESTIC APPLIANCE AND METHOD FOR OPERATING A WATER-CONDUCTING DOMESTIC APPLIANCE; proprietor E.G.O. Elektro-Gerätebau GmbH.",
+      "meaning": "The bulletin identifies the EP number, application number, and a Netherlands (47) date of 10 January 2024 in its entry for granted European patents for the Netherlands."
+    },
+    "official_bulletin_issue_2": {
+      "url": "https://www.rvo.nl/sites/default/files/2024-05/Hoofdblad_IE_2024_15_mei_2024.pdf",
+      "file": "raw_official_20260929/rvo_2024-05-15.pdf",
+      "sha256": "8CB364BF40B71B772EE021F113E8C1F9D3573D212749EA4466CC36CDDEA876A8",
+      "page_pdf": 220,
+      "official_text": "The three-column list places (00) EPV Ceased Effect above (11) EP3832001 and (00) 10.01.2024 below that entry.",
+      "meaning": "The Netherlands official bulletin records an EPV Ceased Effect event for EP3832001 dated 10 January 2024."
+    },
+    "jurisdictional_limit": "This is a Netherlands register/bulletin event only. It does not establish cessation, lapse, revocation, validation, or current effectiveness in every EPC state, nor does it establish the present EPO-wide legal status.",
+    "sample_effect": "CN112914464A remains status_as_of=unknown. The verified Netherlands event concerns the related EP document and cannot be assigned as a CN legal status."
+  },
+  "raw_official_access": {
+    "wipo_pages": [
+      {"publication":"WO2021116933","url":"https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2021116933","file":"raw_official_20260929/wipo_WO2021116933_captcha.html","sha256":"1C043C1DA0ACB6B60E48F44EDB59B803C8F6E27CC757CF79D89955B24DF57936","result":"HTTP 200 CAPTCHA HTML, not patent record."},
+      {"publication":"WO2022084677","url":"https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2022084677","file":"raw_official_20260929/wipo_WO2022084677_captcha.html","sha256":"C0EB0814E8D66CCF417F8AF19012239461F203634C9D4CC344C96071449DB975","result":"HTTP 200 CAPTCHA HTML, not patent record."},
+      {"publication":"WO2023047385","url":"https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023047385","file":"raw_official_20260929/wipo_WO2023047385_captcha.html","sha256":"98F4A30682EB4E9A2050C36BE75D27435D420FCD1E9C14FB5696A3A84E395081","result":"HTTP 200 CAPTCHA HTML, not patent record."}
+    ],
+    "limitation": "The raw HTML corrects the earlier ambiguous shorthand: HTTP 200 meant a CAPTCHA response, never a read PATENTSCOPE detail record."
+  }
+}

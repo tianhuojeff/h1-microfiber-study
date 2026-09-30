@@ -1,0 +1,67 @@
+{
+  "schema_version": "technical-coding-v1-chinese-summary-suggestions-20260929",
+  "purpose": "Five-record Chinese summary replacements for R2 review. This is a suggestion file only and does not amend the master table.",
+  "common_boundary": "每件仅编码所审公开文本的技术披露；法律状态均为unknown，由R1另核。说明书可作为技术路径证据，不自动等同于权利要求保护范围；not_found仅指字段所列审查范围未找到，不表示专利绝无该功能。",
+  "records": [
+    {"publication":"CN115298383A","sources":[{"path":"h1-study/team_package_20260928/sources/CN115298383A_claims.txt","sha256":"4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748"},{"path":"h1-study/team_package_20260928/sources/CN115298383A.html","sha256":"78E6BC2D1F0F5828A42891071F7CA12C54DF153E1957438F2F944C3E3E50285D"}],"fields":{
+      "cleaning":{"judgment":"explicit","summary_zh":"过滤阶段后对颗粒介质进行流化再生；该项针对介质再生。","evidence_locator":"claim 14(B): 进行流化再生的阶段。"},
+      "transfer":{"judgment":"explicit","summary_zh":"流化再生后，微纤维由再生装置下游的膜过滤器和/或旋流室收集。","evidence_locator":"claim 19（已由quote-repair逐字核验）"},
+      "solids_dewatering":{"judgment":"not_found","summary_zh":"已审权项只写颗粒介质干燥，未见明确降低已收集微纤维/固体含水量。","review_scope":"claims 1-20；HTML说明书中脱水/排液相关段落"},
+      "chamber_drainage":{"judgment":"not_found","summary_zh":"已审文本披露正常出液与旁路，未见维护或移出阶段排空过滤腔的步骤。","review_scope":"claims 1-20"},
+      "liquid_route":{"judgment":"explicit","summary_zh":"流出液穿过颗粒介质后，经支撑件下方开口排出；积液时可由旁路绕过介质。","evidence_locator":"claims 1,3"},
+      "removal":{"judgment":"not_found","summary_zh":"虽披露再生后收集微纤维，未见承载目标物的容器移出或固体向用户侧排出的路径。","review_scope":"claims 1-20；HTML说明书"},
+      "state_switch":{"judgment":"explicit","summary_zh":"过滤与流化再生为分列阶段，控制装置列出双通阀、三通阀、止回阀和旋转六通阀。","evidence_locator":"claims 8,14"},
+      "seals_connections":{"judgment":"not_found","summary_zh":"未见为移出收集物必须拆开的盖、密封或连接。","review_scope":"claims 1-20"},
+      "endpoint":{"judgment":"not_found","summary_zh":"文本仅称收集为后续回收创造可能，未见实际处置、再利用操作或效果实测。","review_scope":"claims 1-20；HTML说明书"}
+    }},
+    {"publication":"CN116282270A","sources":[{"path":"h1-study/team_package_20260928/sources/CN116282270A_claims.txt","sha256":"C3D091F157CB5BECA42B57E7FF05F3B5E5BDF70271DAC0B96813C9B575699B93"},{"path":"h1-study/team_package_20260928/sources/CN116282270A.html","sha256":"68BC74F3C5487C52D14114C34E6B5291B5468BCF90FCA7FCEC50C92B0B7D9B15"}],"fields":{
+      "cleaning":{"judgment":"explicit","summary_zh":"叶轮形成低压，将滤网上截留固体吸出，对滤网形成反冲洗。","evidence_locator":"description p0012 [0009]（已逐字核验）"},
+      "transfer":{"judgment":"explicit","summary_zh":"反冲洗携带固体经中空套管和旋流器进入微塑料收集腔。","evidence_locator":"description p0030 [0027]（两条连续引文已逐字核验）"},
+      "solids_dewatering":{"judgment":"unresolved","summary_zh":"说明书称旋流实现固体与水分离，但未明确已进入收集腔的固体含水量降低或形成浓缩固体流，不能按脱水计为明确披露。","evidence_locator":"description p0030 [0027]"},
+      "chamber_drainage":{"judgment":"not_found","summary_zh":"未见维护阶段排空过滤腔或旋流腔；正常过滤出口和旋流溢流口不计为腔体排空。","review_scope":"claims 1-5；description p0010-p0036"},
+      "liquid_route":{"judgment":"explicit","summary_zh":"漂洗污水过滤后从排出管出口排出；旋流器溢流口连接旋流净化出水管。","evidence_locator":"claims 1,3"},
+      "removal":{"judgment":"explicit","summary_zh":"收集腔为分体式螺纹连接，说明书明确可由洗衣机外部拆卸并定期收集其中微塑料。","evidence_locator":"claim 4；description p0036 [0033]","removal_object":"collection_chamber"},
+      "state_switch":{"judgment":"explicit","summary_zh":"漂洗过滤、甩干时叶轮反冲洗和旋流分离对应不同明示运行步骤；不把它们写成同一动作。","evidence_locator":"claim 1"},
+      "seals_connections":{"judgment":"explicit","summary_zh":"收集腔采用分体式螺纹连接。","evidence_locator":"claim 4"},
+      "endpoint":{"judgment":"not_found","summary_zh":"已见定期收集，未见收集后处置、再利用或终点效果实测。","review_scope":"claims 1-5；description p0010-p0036"}
+    }},
+    {"publication":"CN117702432A","sources":[{"path":"h1-study/team_package_20260928/sources/CN117702432A_claims.txt","sha256":"DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81"},{"path":"h1-study/team_package_20260928/sources/CN117702432A.html","sha256":"9FA4FF02688811243B49AC3FEE8C9C6F5F4966F7DD72F06E01D7663C07714438"}],"fields":{
+      "cleaning":{"judgment":"not_found","summary_zh":"披露多过滤腔选择，未见从滤网表面去除沉积物的清理动作。","review_scope":"claims 1-10；HTML说明书"},
+      "transfer":{"judgment":"not_found","summary_zh":"截留在被选择的过滤腔内进行，未见将截留固体移至收集或处理位置。","review_scope":"claims 1-10；HTML说明书"},
+      "solids_dewatering":{"judgment":"not_found","summary_zh":"未见压实、沥液或明确降低截留固体含水量。","review_scope":"claims 1-10；HTML说明书"},
+      "chamber_drainage":{"judgment":"not_found","summary_zh":"未见维护阶段的过滤腔排空；正常出水不计入。","review_scope":"claims 1-10；HTML说明书"},
+      "liquid_route":{"judgment":"explicit","summary_zh":"控制阀使一个过滤腔连通进、出水口，导流筋引导水由进水口流向出水口。","evidence_locator":"claims 1,6"},
+      "removal":{"judgment":"not_found","summary_zh":"盖体可拆，但未明示移出承载目标物的滤网/收集器或排出固体；不能因可拆盖而推定移出路径。","review_scope":"claims 1-10；HTML说明书"},
+      "state_switch":{"judgment":"explicit","summary_zh":"控制阀开闭，以选择相邻腔中的一个与进、出水口连通。","evidence_locator":"claim 1（已逐字核验）"},
+      "seals_connections":{"judgment":"explicit","summary_zh":"盖体与主壳可拆卸连接以盖封或露出主壳，另以第一、第二卡扣件卡接。","evidence_locator":"claims 2,9"},
+      "endpoint":{"judgment":"not_found","summary_zh":"未见截留固体移出后的处置、再利用或实测终点。","review_scope":"claims 1-10；HTML说明书"}
+    }},
+    {"publication":"CN120500565A","sources":[{"path":"h1-study/team_package_20260928/sources/CN120500565A_claims.txt","sha256":"FDBB7E2B6C760BB7FF449A2307A530EB73E8046C6745272A286E1EC51D0A4FCE"},{"path":"h1-study/team_package_20260928/sources/CN120500565A.html","sha256":"F47CBD39C8C21842FB5B5140377DECE6B8421369BC765D6C183FF970E6A41E1D"}],"fields":{
+      "cleaning":{"judgment":"explicit","summary_zh":"开口下游的引导部分将水导向过滤器侧表面，使附着颗粒分离。","evidence_locator":"claim 3"},
+      "transfer":{"judgment":"explicit","summary_zh":"被分离颗粒被导向过滤器底部；仅按文本所示移动编码，不延伸为独立收集容器。","evidence_locator":"claim 3"},
+      "solids_dewatering":{"judgment":"not_found","summary_zh":"未见明确降低截留固体含水量的结构或作用。","review_scope":"claims 1-19；HTML说明书"},
+      "chamber_drainage":{"judgment":"not_found","summary_zh":"未见维护阶段腔体排空；水出口和抽屉排放部分属于正常液路，不能据此编码。","review_scope":"claims 1-19；HTML说明书"},
+      "liquid_route":{"judgment":"explicit","summary_zh":"洗涤水依次经第一腔室、开口、过滤器后由水出口排放；抽屉排放部分与水出口连通。","evidence_locator":"claims 1,10"},
+      "removal":{"judgment":"explicit","summary_zh":"过滤器可从第二腔室拆卸；容纳其的抽屉可向前抽出，过滤器可由抽屉敞开顶部移除。仅编码为滤器元件，不推定独立集渣盒。","evidence_locator":"claims 8,9,11","removal_object":"filter_element"},
+      "state_switch":{"judgment":"not_found","summary_zh":"已审权项为连续流路和维护拆卸，未见过滤、清理、排液或排渣间的离散切换结构/步骤。","review_scope":"claims 1-19；HTML说明书"},
+      "seals_connections":{"judgment":"not_found","summary_zh":"未见移出阶段必须拆开的密封、盖体或连接。","review_scope":"claims 1-19；HTML说明书"},
+      "endpoint":{"judgment":"not_found","summary_zh":"未见移出后固体的处置、再利用或实测效果。","review_scope":"claims 1-19；HTML说明书"}
+    }},
+    {"publication":"WO2023047385A1","sources":[{"path":"h1-study/team_package_20260928/sources/WO2023047385A1_claims.txt","sha256":"35976FD9C4985F958F0DB32E5209ABD5CAC7CF3BD034E7786C2CE0E2B4802707"},{"path":"h1-study/team_package_20260928/sources/WO2023047385A1.html","sha256":"9BC464945AC23CAFFA6350E6DFCFF736DB9BB7462A1E81C652518D6555673491"}],"fields":{
+      "cleaning":{"judgment":"inferred","summary_zh":"抽吸将携带截留颗粒的疏水材料送至收集腔；由此恢复过滤表面仅为结构推断，原文未明确称为清理。","evidence_locator":"claim 7"},
+      "transfer":{"judgment":"explicit","summary_zh":"二次流机构将微颗粒从微颗粒过滤器送至可移出收集腔。","evidence_locator":"claim 1（已逐字核验）"},
+      "solids_dewatering":{"judgment":"not_found","summary_zh":"收集腔允许工艺液流出，但未见明确降低截留固体含水量。","review_scope":"claims 1-48；description [0062]-[0104]"},
+      "chamber_drainage":{"judgment":"not_found","summary_zh":"未见过滤器或收集腔在维护/清理阶段排空；运行中液体流出不等于腔体排空。","review_scope":"claims 1-48；description [0062]-[0104]"},
+      "liquid_route":{"judgment":"explicit","summary_zh":"二次流是工艺液的回流部分，在回流泵腔与可移出收集腔之间导向；收集腔允许工艺液流出。","evidence_locator":"claims 19,21"},
+      "removal":{"judgment":"explicit","summary_zh":"权利要求明确接收微颗粒的为可移出收集腔；移出对象编码为收集腔。","evidence_locator":"claim 1（已逐字核验）","removal_object":"collection_chamber"},
+      "state_switch":{"judgment":"not_found","summary_zh":"披露二次流与回流，但未见在过滤、排液、移出间切换的阀、门或电机状态序列。","review_scope":"claims 1-48；description [0062]-[0104]"},
+      "seals_connections":{"judgment":"not_found","summary_zh":"可移出收集腔被提及，但未见其移出时必须解除的盖、密封或连接细节。","review_scope":"claims 1-48；description [0062]-[0104]"},
+      "endpoint":{"judgment":"not_found","summary_zh":"未见移出后处置、再利用或实测终点。","review_scope":"claims 1-48；description [0062]-[0104]"}
+    }}
+  ],
+  "sequence_cautions": [
+    "CN116282270A：漂洗过滤、甩干反冲洗、旋流分离的先后由同一方法描述明示；不要将拆卸收集腔写成已实测的操作效果。",
+    "CN120500565A：水流—颗粒侧表面分离—颗粒导向底部与维护拆卸可分别陈述；不得推定抽屉是独立集渣盒。",
+    "WO2023047385A1：claim 17-21的二次回流方案可表述为一个可选方案；不要将其他从属项组合成必然串行流程。"
+  ]
+}

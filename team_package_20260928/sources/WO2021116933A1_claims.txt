@@ -1,0 +1,24 @@
+1. A compactor for extracting and compressing microplastics from waste effluent, the compactor comprising; a chamber; an inlet for supplying waste effluent into the chamber; at least one plate within the chamber, moveable between a non compressing position and a compressing position; and, a drive unit for driving the at least one plate between the non-compressing position and the compressing position; and a discharge outlet arranged to allow the discharge of compressed microplastics, wherein the compactor is operable, in use, to extract and compress the microplastics from waste effluent, and wherein the at least one plate is arranged to move the compressed microplastics to the discharge outlet, wherein the compactor is arranged such that, in use, the compressed microplastics are automatically discharged from the compactor via the discharge outlet by the movement of the at least one plate.
+2. The compactor of claim 1 , comprising a pair of co-operating plates, spaced from one another to enable waste effluent to be received and compressed therebetween, the plates being moveable towards and away from each other.
+3. The compactor of claim 2, wherein a first plate is driven by the drive unit towards and away from a second plate.
+4. The compactor of claim 3, wherein the second plate is driven by the drive unit towards and away from the first plate.
+5. The compactor of claim 3, wherein the first plate moves the second plate into a compressing position, and the second plate comprises a biasing element for returning the second plate to the non-compressing position
+6. The compactor of claim 5, wherein the biasing element is a spring.
+7. The compactor of claim 1, wherein the drive element is arranged to drive the plate against an end of the chamber.
+8. The compactor of claim 7, wherein the end of the chamber is releasable and forms the discharge outlet.
+9. The compactor of any preceding claim, wherein the drive unit comprises a linear actuator.
+10. The compactor of claim 9, wherein the linear actuator is ram driven with linear reciprocating action.
+11. The compactor of any preceding claim wherein the drive unit is a manually operated drive including a lever or a push rod.
+12. The compactor of any preceding claim wherein the drive unit is coupled to the drawer of a washing machine.
+13. The compactor of any preceding claims, wherein the drive unit is a hydraulic actuator.
+14. The compactor of claim 13, wherein the hydraulic actuator, in use, is operatively connected to a pressurised water supply from the washing machine.
+15. The compactor of any preceding claim, wherein the at least one plate comprises a permeable material.
+16. The compactor of any preceding claim, wherein a wall of the chamber includes a permeable material.
+17. The compactor of claim 15 or 16, wherein the permeable material is a mesh.
+18. The compactor of any preceding claim, wherein the chamber comprises a waste water outlet arranged to drain waste water out of the chamber.
+19. The compactor of claim 18, wherein the outlet and inlet include non-return valves.
+20. The compactor of any preceding claim, wherein the chamber is substantially cylindrical.
+21. The compactor of any preceding claim, wherein the discharge outlet is within a lower wall of the chamber arranged to discharge compressed microplastics under gravity.
+22. The compactor of any preceding claim, wherein the discharge outlet comprises a removable lid.
+23. A washing machine including a compactor of the type claimed in any one of claims 1 to 22.
+24. A method of operating a compactor of the type claimed in claims 1 to 23, comprising the steps of: receiving a flow of effluent; driving a plate through the effluent from a non-compressing position to a compressing position, for separating water from the effluent and compressing the resultant material which includes microplastics; returning the plate to a non-compressing position; discharging the compressed microplastics.

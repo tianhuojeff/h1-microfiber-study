@@ -1,0 +1,454 @@
+{
+  "schema_version": "summary-semantic-readback-v1",
+  "scope": "Suggestions only; no master mutation. Each field reviewed for judgment-summary-evidence consistency.",
+  "records": [
+    {
+      "publication": "CN115700309A",
+      "family_id": "85120837",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "清洗颗粒随水流摩擦过滤腔体内壁和过滤机构外壁。",
+          "evidence_locators": [
+            "说明书[n0062] (HTML p0067)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "清洁时杂质随水经排污口至回收装置，属于带液转移。",
+          "evidence_locators": [
+            "说明书实施例（排污操作）"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到明确降低过滤杂质含水量的动作。",
+          "evidence_locators": [],
+          "action": "keep"
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "进水冲污/排污流路不足以证明维护阶段腔体排空。",
+          "evidence_locators": [],
+          "action": "keep"
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "过滤后的清水可导入盛水筒重复利用，或汇入排水管路排出。",
+          "evidence_locators": [
+            "说明书[n0042] (HTML p0045)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "removal",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "回收装置壳体可从箱体抽出，用户可清理其内过滤杂质；未明示倒出。",
+          "evidence_locators": [
+            "说明书[n0115] (HTML p0120)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "循环过滤时回水控制阀导通、排污控制阀关闭；排污时反向切换。",
+          "evidence_locators": [
+            "说明书[n0108] (HTML p0113)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "出水接头与密封支撑部之间由密封件封堵。",
+          "evidence_locators": [
+            "说明书[n0024] (HTML p0027)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到具体最终处置去向或实测。",
+          "evidence_locators": [],
+          "action": "keep"
+        }
+      ]
+    },
+    {
+      "publication": "CN118273060A",
+      "family_id": "91644784",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到从滤介质去除沉积物的清洗动作。",
+          "evidence_locators": [],
+          "action": "keep"
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到截留物从滤介质转移至收集位置的路径。",
+          "evidence_locators": [],
+          "action": "keep"
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到降低截留物含水量。",
+          "evidence_locators": [],
+          "action": "keep"
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到维护阶段排空过滤室。",
+          "evidence_locators": [],
+          "action": "keep"
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "待过滤水经入口口部流入，已过滤水经出口口部流出。",
+          "evidence_locators": [
+            "说明书[0017] (HTML p0020)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "removal",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "解锁时盖装置和过滤器组可相对壳体主体轴向移动；未明示独立集渣物移出。",
+          "evidence_locators": [
+            "权0016] (HTML zh-cl0016)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "止动构件锁定/解锁盖装置和过滤器组的轴向运动。",
+          "evidence_locators": [
+            "说明书[0174] (HTML p0179)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "帽构件插入入口开口并与开口边缘密封接合。",
+          "evidence_locators": [
+            "权1 (HTML zh-cl0001)"
+          ],
+          "action": "replace_with_pending_evidence"
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到移出后固体去向或实测。",
+          "evidence_locators": [],
+          "action": "keep"
+        }
+      ]
+    },
+    {
+      "publication": "WO2022084677A1",
+      "family_id": "78536409",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "旋转滤介质使残渣甩离滤介质。",
+          "evidence_locators": [
+            "权3"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "第二构型开口时，移渣装置将滤渣从滤腔移至外置收集腔。",
+          "evidence_locators": [
+            "说明书[0012] (HTML p0012)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "第一构型排出滤腔液体以降低滤渣含水量；未给含水率。",
+          "evidence_locators": [
+            "说明书[0013] (HTML p0013)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "供液停止后，说明书实施例记载滤腔残余液经出口排出；不推出零残液。",
+          "evidence_locators": [
+            "说明书[0247] (HTML p0247)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "第一构型中流体只由入口进入、过滤液只由出口离开。",
+          "evidence_locators": [
+            "说明书[0012] (HTML p0012)"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "removal",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "说明书可选实施例中，收集腔可从设备拆下以协助用户倒空滤渣。",
+          "evidence_locators": [
+            "说明书[0097] (HTML p0097)"
+          ],
+          "action": "replace_with_pending_evidence"
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "平面滤介质可选实施例中，过滤后转第二构型、接触元件跨滤面移动，再恢复第一构型。",
+          "evidence_locators": [
+            "说明书[0053] (HTML p0053)"
+          ],
+          "action": "replace_with_pending_evidence"
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "第一构型可动件与腔壁配合密封滤腔。",
+          "evidence_locators": [
+            "权1"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到收集腔倒空后的处置或实测。",
+          "evidence_locators": [],
+          "action": "keep"
+        }
+      ]
+    },
+    {
+      "publication": "WO2024199585A1",
+      "family_id": "90826597",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "待以本地原件中同一定位的连续原文短引文复核。",
+          "evidence_locators": [],
+          "action": "keep_unresolved",
+          "reason": "PDF human readback exists elsewhere but this group supplies no directly bound override evidence."
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "待以本地原件中同一定位的连续原文短引文复核。",
+          "evidence_locators": [],
+          "action": "keep_unresolved",
+          "reason": "PDF human readback exists elsewhere but this group supplies no directly bound override evidence."
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "本轮未能从本地PDF抽取可人工复核的德文说明书页面文本；不据旧定位写入。",
+          "evidence_locators": [],
+          "action": "keep_unresolved",
+          "reason": "PDF human readback exists elsewhere but this group supplies no directly bound override evidence."
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "未在本轮将抽取不足的PDF说明书内容编码为排空。",
+          "evidence_locators": [],
+          "action": "keep_unresolved",
+          "reason": "PDF human readback exists elsewhere but this group supplies no directly bound override evidence."
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "待以本地原件中同一定位的连续原文短引文复核。",
+          "evidence_locators": [],
+          "action": "keep_unresolved",
+          "reason": "PDF human readback exists elsewhere but this group supplies no directly bound override evidence."
+        },
+        {
+          "field": "removal",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "旧定位称PDF权1/8涉及容器收集取出，但本轮未从PDF原件产生可复核短引文。",
+          "evidence_locators": [],
+          "action": "keep_unresolved",
+          "reason": "PDF human readback exists elsewhere but this group supplies no directly bound override evidence."
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "待以本地原件中同一定位的连续原文短引文复核。",
+          "evidence_locators": [],
+          "action": "keep_unresolved",
+          "reason": "PDF human readback exists elsewhere but this group supplies no directly bound override evidence."
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到与取出直接关联的密封/连接拆卸步骤。",
+          "evidence_locators": [],
+          "action": "keep"
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到移出后处置或实测。",
+          "evidence_locators": [],
+          "action": "keep"
+        }
+      ]
+    },
+    {
+      "publication": "WO2024250011A1",
+      "family_id": "91737942",
+      "fields": [
+        {
+          "field": "cleaning",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "说明书[0051]披露离心力和未限定pulse将褶皱滤面微纤维击落；未入权项。",
+          "evidence_locators": [
+            "说明书[0051]"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "transfer",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "说明书[0051]称微纤维移至单独储存腔；未入权项。",
+          "evidence_locators": [
+            "说明书[0051]"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "solids_dewatering",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到降低截留物含水量。",
+          "evidence_locators": [],
+          "action": "keep"
+        },
+        {
+          "field": "chamber_drainage",
+          "current_judgment": "explicit",
+          "proposed_judgment": "unresolved",
+          "proposed_summary": "说明书仅披露非使用时将设备铰接翻起、借重力排水；不等同于维护阶段过滤腔排空。",
+          "evidence_locators": [
+            "说明书[0056] (HTML p0056)"
+          ],
+          "action": "downgrade",
+          "reason": "summary itself limits disclosure to device self-drainage and does not establish maintenance-stage chamber emptying."
+        },
+        {
+          "field": "liquid_route",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "洗衣水穿过壳体开口和多级滤器；自排水水由重力离开设备，终点未明。",
+          "evidence_locators": [
+            "权17"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "removal",
+          "current_judgment": "explicit",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "权1明示可拆多孔内滤器；没有明确说明所拆者承载的固体如何取出。",
+          "evidence_locators": [
+            "权1"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "state_switch",
+          "current_judgment": "inferred",
+          "proposed_judgment": "inferred",
+          "proposed_summary": "铰接翻起位置用于非使用时重力排水；未见过滤/清理阀序列。",
+          "evidence_locators": [
+            "说明书[0058]"
+          ],
+          "action": "keep"
+        },
+        {
+          "field": "seals_connections",
+          "current_judgment": "unresolved",
+          "proposed_judgment": "explicit",
+          "proposed_summary": "说明书披露两半外壳可选用卡扣、螺钉或铰接连接。",
+          "evidence_locators": [
+            "说明书[0009] (HTML p0009)"
+          ],
+          "action": "replace_with_pending_evidence"
+        },
+        {
+          "field": "endpoint",
+          "current_judgment": "not_found",
+          "proposed_judgment": "not_found",
+          "proposed_summary": "未找到separate compartment后续倒空、处置或实测。",
+          "evidence_locators": [],
+          "action": "keep"
+        }
+      ]
+    }
+  ]
+}

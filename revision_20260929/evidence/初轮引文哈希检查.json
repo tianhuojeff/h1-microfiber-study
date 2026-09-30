@@ -1,0 +1,153 @@
+{
+  "evidence_checked": 148,
+  "source_files": 18,
+  "errors": [
+    [
+      "CN115700309A",
+      "cleaning",
+      "quote",
+      "权1",
+      "清洗颗粒，设于过滤腔体内，用于随水流摩擦碰撞清洗过滤腔体内壁和过滤机构外壁。"
+    ],
+    [
+      "CN115700309A",
+      "chamber_drainage",
+      "quote",
+      "说明书实施例（回水/排污阀）",
+      "回水控制阀231关闭…排污控制阀241打开…可以保证进入过滤装置600的水均由排污口6103流出。"
+    ],
+    [
+      "CN115700309A",
+      "liquid_route",
+      "quote",
+      "说明书回收装置段",
+      "过滤后的清水可以导入盛水筒重复利用，或者汇入排水管路排出。"
+    ],
+    [
+      "CN115700309A",
+      "state_switch",
+      "quote",
+      "说明书实施例（回水/排污阀）",
+      "回水控制阀231打开…排污控制阀关闭241；当需要排出…回水控制阀231关闭…排污控制阀241打开。"
+    ],
+    [
+      "CN115700309A",
+      "seals_connections",
+      "quote",
+      "权6",
+      "所述出水接头上套设轴承；所述轴承朝向过滤腔体内部的一侧设置有密封件。"
+    ],
+    [
+      "CN115700309A",
+      "endpoint",
+      "quote",
+      "说明书回收装置段",
+      "用户可直接对分离出的过滤杂质501进行收集处理。"
+    ],
+    [
+      "CN118273060A",
+      "liquid_route",
+      "quote",
+      "权1、17",
+      "待过滤的水流过所述入口口部，已过滤的水流过所述出口口部。"
+    ],
+    [
+      "CN118273060A",
+      "removal",
+      "quote",
+      "权16",
+      "在所述解锁位置中，所述盖装置和所述过滤器组能从所述壳体主体轴向地移动。"
+    ],
+    [
+      "CN118273060A",
+      "state_switch",
+      "quote",
+      "权16",
+      "在锁定位置中…轴向运动被锁定，在解锁位置中…能从所述壳体主体轴向地移动。"
+    ],
+    [
+      "CN118273060A",
+      "seals_connections",
+      "quote",
+      "权1",
+      "帽构件能插入到所述入口开口中，从而密封地接合所述开口边缘。"
+    ],
+    [
+      "WO2022084677A1",
+      "removal",
+      "quote",
+      "权10、35",
+      "filter residue collection chamber…slidably removable…; detachable…to assist a user to empty residue therefrom"
+    ],
+    [
+      "WO2022084677A1",
+      "state_switch",
+      "quote",
+      "权1",
+      "in the first configuration…seal…; in the second configuration…provide an opening…remove filter residue"
+    ],
+    [
+      "WO2024250011A1",
+      "chamber_drainage",
+      "quote",
+      "说明书[0058]",
+      "A self-drainage design flips upwards with a hinge to use gravity…to drain away water."
+    ],
+    [
+      "CN115298383A",
+      "liquid_route",
+      "quote",
+      "claims 1,3-4",
+      "用于排放所述流出液的装置…位于…支撑件的下方"
+    ],
+    [
+      "CN115298383A",
+      "state_switch",
+      "quote",
+      "claims 8,14",
+      "双通阀…三通阀…旋转六通阀；…过滤…阶段…流化再生的阶段"
+    ],
+    [
+      "CN116282270A",
+      "liquid_route",
+      "quote",
+      "claims 1,3",
+      "过滤后漂洗污水…出口排出；溢流口用于和所述旋流净化出水管连接"
+    ],
+    [
+      "CN116282270A",
+      "state_switch",
+      "quote",
+      "claim 1",
+      "第一单元用于处理…漂洗污水；第二单元用于处理…甩干污水；第三单元…旋流分离"
+    ],
+    [
+      "CN117702432A",
+      "liquid_route",
+      "quote",
+      "claims 1,6",
+      "将…一个连通于所述进水口和所述出水口；…引导水流自所述进水口流向所述出水口"
+    ],
+    [
+      "CN117702432A",
+      "seals_connections",
+      "quote",
+      "claims 2,9",
+      "盖体…可拆卸连接，以盖封或者露出所述主壳；…卡接连接"
+    ],
+    [
+      "CN120500565A",
+      "removal",
+      "quote",
+      "claims 8-11",
+      "过滤器能从所述第二腔室拆卸；抽屉能…抽出；过滤器能通过…敞开顶部…移除"
+    ],
+    [
+      "WO2023047385A1",
+      "liquid_route",
+      "quote",
+      "claims 19,21",
+      "allows the process fluid to flow out…; a recycled portion…directed between a backflow pump chamber and the removable collection chamber"
+    ]
+  ]
+}

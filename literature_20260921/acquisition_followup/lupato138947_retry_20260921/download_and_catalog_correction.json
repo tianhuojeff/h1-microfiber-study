@@ -1,0 +1,17 @@
+{
+  "alias": "Lupato138947",
+  "doi": "10.1016/j.jhazmat.2025.138947",
+  "url": "https://iris.polito.it/retrieve/975d33e1-f2b2-4c81-b0da-61dc753fb95f/1-s2.0-S0304389425018631-main.pdf",
+  "distinct_from": "F03_Sheikhi137646 / DOI 10.1016/j.jhazmat.2025.137646",
+  "prior_same_url_found": false,
+  "download_attempt": "system curl.exe, normal TLS, one attempt",
+  "status": "failed",
+  "curl_exit_code": 35,
+  "error": "schannel: AcquireCredentialsHandle failed: SEC_E_NO_CREDENTIALS (0x8009030e)",
+  "local_file": "Lupato_138947.pdf",
+  "pdf_header": null,
+  "pages": null,
+  "first_page_doi": null,
+  "sha256": null,
+  "interpretation": "No local PDF was saved. This is a new URL and a distinct article; no repeated same failure."
+}

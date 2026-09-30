@@ -1,0 +1,322 @@
+{
+  "updated_at": "2026-09-22T15:12:23+08:00",
+  "status": "in_progress",
+  "parent_acceptance_snapshot": "h1-study\\literature_20260921\\metadata\\research_batch_acceptance.json",
+  "parent_acceptance_sha256": "1bec8487ed656d8d7e48533bfba6cc31548be6a2779cdf06c0bf2bd6e799dbc6",
+  "amended_documents": [
+    {
+      "path": "reading_notes/H1_计量方法与证据缺口.md",
+      "previous_sha256": "741287d428a8204ac6bf9f1880e45de19c219d93d425b8fd5dd16386ca58fa47",
+      "current_sha256": "a00384d915d8bfb9fdbaa1d0ed4c9db534c0ff4d93f85dbc88de3f0c2f52d565",
+      "reason": "Place already-verified failure to reproduce L07 Note3 beside the reported recovery value; no original observations changed."
+    },
+    {
+      "path": "reading_notes/H1_候选技术差异与淘汰条件.md",
+      "previous_sha256": "b8a07b4ce0123b65ff857859769ef630b591cc4e7386b89b444b24430f384f4d",
+      "current_sha256": "df9c6a4d0da2015366f02b4af943c00aec9e3ae9c261f69f8caf0075ee49d9ae",
+      "reason": "Integrate screened public collection and self-cleaning routes, then F21/F22 hydraulic, bypass and inference boundaries; no performance result or legal conclusion added."
+    }
+  ],
+  "new_work": [
+    "F07 official full text and author correction verified; correction changes introduction 500 nm to 500 micrometres only; H1 methods limitations unchanged",
+    "F07/F08 method evidence integrated into C0-C2 decision boundaries; no experiment data created",
+    "L08 and L15 public-PDF acquisition retried from official sources but failed at transport/site access; neither is counted as a local full text",
+    "FRP-style extraction inventory completed for all 11 accepted H1 PDFs; no reading status was inferred from extraction alone",
+    "Five public patent candidates screened against H1 boundaries: CN118273060A retained only for filter-maintenance reliability; CN112914464A for removable closed collected-residue path; CN115700309A as adjacent lint-route evidence for regeneration-rinse flow and downstream recovery; WO2023047385A1 for microparticle secondary-flow removable collection; WO2024250011A1 for in-drum filter-surface pulse transfer to a separate collection chamber; no legal or performance conclusion made",
+    "Pre-registered H1 effect-claim skeleton: C1/C2 effects can be assessed only after measurement readiness and complete mutually exclusive flow accounting; no experiment data or threshold created",
+    "Real-laundry verification gate written from F07/F08: material identification, blank chain, full-stream residue mass and aliquot recovery remain separate; no real-wastewater data created",
+    "F03 Sheikhi 2025 institutional public PDF retried from two canonical repository URL forms; TLS or pre-write authentication failed without a partial file, so the source remains online-verified only",
+    "Kim 2026 MDPI review official PDF URL checked; the site returned access-control content rather than PDF bytes, so no local full text was created or counted",
+    "De Falco 2021 CNR IRIS author-manuscript URL checked; the site returned a JavaScript/cookie challenge rather than PDF bytes, so no local full text was created or counted",
+    "Akita, Goto and Tokai 2023 J-STAGE official PDF link checked; the page confirms free access and a 2423K download, but the local public request failed authentication before a file was written, so no local full text was created or counted",
+    "F16 online metadata card records only the verified machine-type and split-collection question from public abstracts; it is explicitly excluded from local-PDF counts and performance claims",
+    "WO2024250011A1 official PCT PDF acquired and structurally verified locally: 1,304,705 bytes, %PDF-1.4, 31 pages, unencrypted, cover visually read back as WO 2024/250011 A1; this adds a patent source only, not a twelfth local research-paper PDF or any performance claim",
+    "F19 Rachman, Claudia and Mahapati 2025 official open PDF acquired and structurally verified: 10 pages, 547,954 bytes, text extracted and methods read; it is retained only as an H1 rejection case because different-day bottle samples, incomplete flow accounting and unconfirmed polymer identity do not support a filter-effect claim",
+    "F21 Park, Yoon and Park 2025 official static MDPI PDF acquired and structurally verified: 16 pages, 7,885,699 bytes, text extracted and methods read; it informs a drain-end multi-stage and continuous-use comparison, while H1 retains independent solid/wash-waste/inventory/terminal-disposition accounting and does not adopt the paper's performance or replacement figures",
+    "F22 Song et al. 2026 official static MDPI review PDF acquired and structurally verified: 24 pages, 2,145,809 bytes, text extracted and reviewed; it establishes hydraulic, maintenance, bypass and disposition questions while preserving the review's own statement that external-filter biofouling is an inference requiring dedicated measurement",
+    {
+      "title": "H1 research-stage synthesis",
+      "detail": "基于已核验的本地原文、综述与公开技术文本，收敛 C1/C2 的可证伪流向与水力研究问题；未写论文正文、未生成或推断实验数据。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_研究命题收敛与证据审计.md",
+      "sha256": "309e33e0940ba8d720924832226c6e6333df2cb5be84433960aa24b913b7512d"
+    },
+    {
+      "title": "H1 effect-claim eligibility audit",
+      "detail": "逐项审计目标定义、空白、回收、流路、去向、水力与重复证据；当前 measurement_ready=false，禁止效果主张，允许继续研究。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_判定资格证据审计.md",
+      "sha256": "f602af5bed761379f9de3ff4608bcc471887a92e332d0c60d931dc84119e7083"
+    },
+    {
+      "title": "H1 cross-paper evidence matrix update",
+      "detail": "将 F19、F21、F22 并入研究问题矩阵，明确非同批样瓶、进出水浓度与综述性维护风险各自不能替代的 H1 证据。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\研究问题与证据矩阵.md",
+      "sha256": "d967a7e816266ff90896404cb01a776f9b860eb9d5ecf3da9f2a357651c09993"
+    },
+    {
+      "title": "H1 claim-to-evidence ledger",
+      "detail": "将 H1 可讨论的来源事实、对应本地定位和禁止跨越的结论逐项绑定；不生成 H1 性能结论。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_主张证据账本.md",
+      "sha256": "48548a7ffe2b99a0773cb568799d3ab7a8dc7b8079527e743d13cfe00ea5412c"
+    },
+    {
+      "title": "H1 research-stage entrypoint update",
+      "detail": "将项目入口更新为停止下载后的研究论证状态，并链接 C1/C2 命题、资格审计和证据账本。",
+      "file": "h1-study\\README.md",
+      "sha256": "ceb5bfd3381678d20b4d24a074f087bcbe36752f242f6cbb796ffc5c67b9247a"
+    },
+    {
+      "title": "H1 evidence-priority decision",
+      "detail": "按可解释性将研究收敛为 P0 测量与流路资格、P1 C1/C2去向、P2 水力与失控流路、P3 真实废水复验；当前只进入 P0。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_研究优先级裁定.md",
+      "sha256": "0d924c802ffcd3a857217c69ea18f6cab54f031151c0fbb51b2b1b90006ddb6e"
+    },
+    {
+      "title": "H1 P0 anchor-source coverage audit",
+      "detail": "横向审计 L01、L03、L07、F08、F19、F21、F22 对八类 P0 证据的覆盖；确认没有单一来源可替代 H1 的直接证据。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_P0_锚定文献证据覆盖表.md",
+      "sha256": "f28e1414af75fcfa56445501213b9781e7c92084369d21ccc7b183f2af92c3b6"
+    },
+    {
+      "title": "H1 maintenance, bypass and cleaning-waste synthesis",
+      "detail": "基于 L02、L05、L07、L13 与 F22 合成维护、水力、旁路和清理废流的因果链；不把来源数值迁移为 H1 性能。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_维护旁路与清理废流证据合成.md",
+      "sha256": "89abb04664972334c190fc73504f508ce60f090070710811885849a418696426"
+    },
+    {
+      "title": "H1 contribution-boundary research positioning",
+      "detail": "排除结构、专利和未验证性能作为伪贡献，定位只有 P0/P1/P2/P3 证据逐级通过后才可能成立的方法、比较和运行贡献。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_研究贡献边界.md",
+      "sha256": "06cd45d51cfe76aa423e08be55288980ad0ff50171670e6bc5ab17c7ad01f567"
+    },
+    {
+      "title": "H1 P0 terminal-record schema completion",
+      "detail": "补齐运行批次、空白尺度/处理链、回收适用性与水力/旁路/滴漏字段；模板无实验数据、不设置性能阈值。",
+      "file": "h1-study\\literature_20260921\\experiment_planning\\空白终端流路记录.json",
+      "sha256": "35c1263b176df5b89ac2411531e4c0d83fe5a3dc8bcde42f6af60e9b820f0c14"
+    },
+    {
+      "title": "H1 P0 schema crosswalk",
+      "detail": "将 P0-r1 空模板的字段逐项映射到八类资格证据；schema_ready 不改变 measurement_ready=false。",
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_P0_测量模型二次审计.md",
+      "sha256": "2e3faddfd2a2c185496ef89c59ebae52c5129da1b890b18018b5180e1c3e54cc"
+    }
+  ],
+  "local_blockers": [
+    "L08 full-text acquisition remains blocked independently of methods research"
+  ],
+  "whole_h1_blocked": false,
+  "experiment_data_created": false,
+  "accepted_increment": {
+    "F08_valid_local_pdf": true,
+    "F08_S2_observations_recomputed": 79,
+    "measurement_model_four_prior_wording_issues_resolved": true,
+    "measurement_ready": false,
+    "F07_pdf_obtained": false,
+    "F07_official_offline_fulltext_verified": true,
+    "F07_author_correction_impact_verified": true
+  },
+  "snapshot_zip_delivered": "2026-09-21T17:45:51+08:00",
+  "accepted_files": [
+    {
+      "path": "experiment_planning/测量链计算口径与放行条件.md",
+      "sha256": "a0150624d71a2d98206bd5006cc90bd4c3cc614c3c88d0d3f38beb6ecab7093d"
+    },
+    {
+      "path": "experiment_planning/measurement_model_review_r2.json",
+      "sha256": "8100ad3baeb57e5225f09602140e9fe60bac2c89142a049833b0cf0ebbdd421f"
+    },
+    {
+      "path": "methods_followup_20260921/F08_Lant2020_real_soiled_laundry.pdf",
+      "sha256": "ca1300e2b78c39ef8c4537d383b35c6fde9154ce719c239112aff7cd2d4033e3"
+    },
+    {
+      "path": "methods_followup_20260921/F08_Lant2020_研究卡.md",
+      "sha256": "86fb2872cb5a948336715dfd6b7f7aa3a0246ef7b87f9db3b9ecc4e9a8026946"
+    },
+    {
+      "path": "methods_followup_root/F08_S2_Table_author_original.docx",
+      "sha256": "141aed4873f95b30819d045653ff0b94c232bfeb64a5250d7312ad5a3b3d5ce7"
+    },
+    {
+      "path": "methods_followup_root/F08_S2_recomputed.json",
+      "sha256": "e3ee926edefb3d2c59a47dd15547cc75743d356727344986c1c9a856579d9a64"
+    },
+    {
+      "path": "methods_followup_root/F08_S2样本量与汇总复算.md",
+      "sha256": "7ff24364030069cf85f922d15080120d61cb48389ff2161de83be3ea8ba5bb5c"
+    },
+    {
+      "path": "methods_followup_20260921/F07_Shalumon2023_fulltext.xml",
+      "sha256": "e5fb72c6344815eb5acb225aa0ef609ddaa3a21ccf714fc7ab74e9b14b91b268"
+    },
+    {
+      "path": "methods_followup_20260921/F07_Shalumon2023_fulltext.txt",
+      "sha256": "f03e1e490f647cdab6f12caf445b1aa003a7c9d8fd75fc250d7cf353802aadfc"
+    },
+    {
+      "path": "methods_followup_20260921/F07_Shalumon2024_author_correction.xml",
+      "sha256": "64b24c741608bed9c9af1756a3515c908db2a1812b8c0222abdd51bca2e92550"
+    },
+    {
+      "path": "methods_followup_20260921/F07_Shalumon2024_author_correction.txt",
+      "sha256": "a100f66be1f1d6e8f6eb31795bf973d02cbee4dc5336d589fb95d0583fbaad47"
+    },
+    {
+      "path": "methods_followup_20260921/F07_2024作者更正_影响核验.md",
+      "sha256": "aeb902d4a5121006fccb81ae3a269995c650568fca3db19cb8863aa502613b4b"
+    },
+    {
+      "path": "methods_followup_20260921/F07_Shalumon2023_在线研究卡.md",
+      "sha256": "3510ea6ba68679be164b074689d08bd3da949349977d015c39b13b2ee72bf6d3"
+    },
+    {
+      "path": "methods_followup_20260921/STATUS.md",
+      "sha256": "3aab0013421280b27f0eabb0d49074913c4786099c185b12ad39ecf748ee8afd"
+    },
+    {
+      "path": "methods_followup_20260921/证据清单.md",
+      "sha256": "ecbfffb06dfec906272f1ef963b84dc801d13e68241b59d53dfabc2a63b1b6b0"
+    },
+    {
+      "path": "reading_notes/20260921_方法全文并入H1决策边界.md",
+      "sha256": "87a2e3455df19670c65ee506ab6e6155a51f7e374cdd4e8bb7db8892eebaab55"
+    },
+    {
+      "path": "acquisition_followup/20260921_公开PDF续接记录.md",
+      "sha256": "048a871c776dd520374522444887ccd5c863378e73d69a3daffe133cb7dcbcc6"
+    },
+    {
+      "path": "metadata/extraction_summary.json",
+      "sha256": "3a458fb0a8cf104bbe750f103ecd08bc83138c505194238c35560dfe60cf3497"
+    },
+    {
+      "path": "../patents/expansion_20260921/20260921_公开候选专利续接筛选.md",
+      "sha256": "981fef3636fe5959d44272a9301427becfe0c2037c30a6b4bb74c30b372d3cfc"
+    },
+    {
+      "path": "../patents/expansion_20260921/WO2024250011A1.pdf",
+      "sha256": "279c9c49d20757133f4426dea2b85d51130f5fd6b08c19a526a840d46366a4ef"
+    },
+    {
+      "path": "../patents/expansion_20260921/WO2024250011A1_获取核验.md",
+      "sha256": "a9bfd5c5cf4d45996cf8badc6cb3933c1c1338a64157c45ff875687dbf16f383"
+    },
+    {
+      "path": "experiment_planning/H1_效果主张预注册骨架.md",
+      "sha256": "98f595b08f1a3cda01879dd6ecfc3688482c002c54febb7dc3b14a2434b6fe4a"
+    },
+    {
+      "path": "experiment_planning/真实洗衣废水复验放行链.md",
+      "sha256": "ac103440089a259b3fec49259c534f68f64f83b787e2e93cc4bbc82a3fe906f2"
+    },
+    {
+      "path": "acquisition_followup/F03_在线原文核对.md",
+      "sha256": "54559eda163f4fbc58799baf3341cff71454712b69efb082306a36bb1a262e95"
+    },
+    {
+      "path": "papers/L15_Rachman2025_MiniPlast_laundry_wastewater.pdf",
+      "sha256": "cabf5a000ef90d60b44bede2d58b558885218f5bc32aa3252a18608e58b0ad55"
+    },
+    {
+      "path": "acquisition_followup/F19_Rachman2025_Evaluation_of_MiniPlast_Filters.txt",
+      "sha256": "ec5011b1962fd6a32e8a7cac905561eb4042b4fedfa8fcdb74dbc54d9ff71af0"
+    },
+    {
+      "path": "acquisition_followup/F19_Rachman2025_研究卡.md",
+      "sha256": "f868e3d1813f71a048947c0ae974e470c8dd2aac3c0daa1eb64273adf828b1cd"
+    },
+    {
+      "path": "metadata/papers.json",
+      "sha256": "439a2b4f54696f77ad2b3c17c95fd63965856d15875557837b712fd22e9f7988"
+    },
+    {
+      "path": "文献下载清单.md",
+      "sha256": "b0c3ca9245051814d2b82f1b07a0548a5f2af4f8a69ffbb784af81b5ed22b8ff"
+    },
+    {
+      "path": "papers/L16_Park2025_Laundry_Microplastic_Filter.pdf",
+      "sha256": "053fc167534df67bb7f7e515a3dd759f2289481869a037ebe6d76d689f2dce2a"
+    },
+    {
+      "path": "acquisition_followup/F21_Park2025_Laundry_Microplastic_Filter.txt",
+      "sha256": "554798bbe7f4870add405537d3867f1d20269bff9280c0e4aae317de5140d97f"
+    },
+    {
+      "path": "acquisition_followup/F21_Park2025_研究卡.md",
+      "sha256": "54f82b65dd3d1e9ab4f12c62bce4c830fe896f691baccde10d435e6d4e7fba33"
+    },
+    {
+      "path": "papers/L17_Song2026_External_Microplastic_Filters_Review.pdf",
+      "sha256": "cf014de2f9ba4593158806e5b6409d100a6c0fb5f7bce4f7f93fc714ec99eef0"
+    },
+    {
+      "path": "acquisition_followup/F22_Kim2026_External_Microplastic_Filters_Review.txt",
+      "sha256": "d7d0e991fb1d4bc7a519305ae08c49e4f8b0c73b5f812c802a805f0d954361b6"
+    },
+    {
+      "path": "acquisition_followup/F22_Song2026_研究卡.md",
+      "sha256": "16dc6e297a734331873aa510f385ce15bc01736aa13f2ce5dc521dc16e5d7f90"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_研究命题收敛与证据审计.md",
+      "sha256": "309e33e0940ba8d720924832226c6e6333df2cb5be84433960aa24b913b7512d",
+      "role": "research-question-synthesis"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_判定资格证据审计.md",
+      "sha256": "f602af5bed761379f9de3ff4608bcc471887a92e332d0c60d931dc84119e7083",
+      "role": "research-eligibility-audit"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\研究问题与证据矩阵.md",
+      "sha256": "d967a7e816266ff90896404cb01a776f9b860eb9d5ecf3da9f2a357651c09993",
+      "role": "cross-paper-evidence-matrix"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_主张证据账本.md",
+      "sha256": "48548a7ffe2b99a0773cb568799d3ab7a8dc7b8079527e743d13cfe00ea5412c",
+      "role": "claim-evidence-ledger"
+    },
+    {
+      "file": "h1-study\\README.md",
+      "sha256": "ceb5bfd3381678d20b4d24a074f087bcbe36752f242f6cbb796ffc5c67b9247a",
+      "role": "research-stage-entrypoint"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_研究优先级裁定.md",
+      "sha256": "0d924c802ffcd3a857217c69ea18f6cab54f031151c0fbb51b2b1b90006ddb6e",
+      "role": "research-priority-decision"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_P0_锚定文献证据覆盖表.md",
+      "sha256": "f28e1414af75fcfa56445501213b9781e7c92084369d21ccc7b183f2af92c3b6",
+      "role": "p0-anchor-source-coverage"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_维护旁路与清理废流证据合成.md",
+      "sha256": "89abb04664972334c190fc73504f508ce60f090070710811885849a418696426",
+      "role": "maintenance-bypass-cleaning-waste-synthesis"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_研究贡献边界.md",
+      "sha256": "06cd45d51cfe76aa423e08be55288980ad0ff50171670e6bc5ab17c7ad01f567",
+      "role": "research-contribution-boundary"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\experiment_planning\\空白终端流路记录.json",
+      "sha256": "35c1263b176df5b89ac2411531e4c0d83fe5a3dc8bcde42f6af60e9b820f0c14",
+      "role": "p0-terminal-record-schema"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\experiment_planning\\记录字段与计量边界.md",
+      "sha256": "699646a61349e0951c949a7afec677191a86a9a270c7df0e07a8ce67949b3e9e",
+      "role": "p0-record-boundary-specification"
+    },
+    {
+      "file": "h1-study\\literature_20260921\\reading_notes\\H1_P0_测量模型二次审计.md",
+      "sha256": "2e3faddfd2a2c185496ef89c59ebae52c5129da1b890b18018b5180e1c3e54cc",
+      "role": "p0-measurement-model-follow-up"
+    }
+  ],
+  "reader_entry_sha256": "14aae1cf4a69b212ce5b9a9499dce6e1244fa9ba3bdd65216d5bdc35e126c3e1"
+}

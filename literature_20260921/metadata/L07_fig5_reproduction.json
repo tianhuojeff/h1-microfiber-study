@@ -1,0 +1,205 @@
+{
+  "source_sha256": "99682d2076b04c72402462e132ec9c69ba1f112bfa11f3ae3f9d016502f8444e",
+  "method": "Use stored P_diff_g numerator and stored recovery_ABS denominator. ER uses 1-MP/total. Reported component masses are rounded; do not replace the supplied denominator with their rounded sum.",
+  "scope": "Figure 5 primary summary only; not a full audit of every figure or preprocessing decision.",
+  "summaries": {
+    "Large": {
+      "n": 5,
+      "ER_percent": {
+        "mean": 99.61993804990213,
+        "sample_sd": 0.8498443560799601
+      },
+      "EC_percent": {
+        "mean": 84.82732993506198,
+        "sample_sd": 3.511206343352919
+      },
+      "retentate_percent": {
+        "mean": 14.278928962900526,
+        "sample_sd": 3.7231659933719836
+      },
+      "concentrate_volume_L": {
+        "mean": 0.85,
+        "sample_sd": 0.21794494717703367
+      },
+      "recovery_percent": {
+        "mean": 88.216,
+        "sample_sd": 10.277058431282759
+      }
+    },
+    "DE": {
+      "n": 5,
+      "ER_percent": {
+        "mean": 97.70798007608157,
+        "sample_sd": 3.0850085835709016
+      },
+      "EC_percent": {
+        "mean": 0.3950225577631611,
+        "sample_sd": 0.8832972918042654
+      },
+      "retentate_percent": {
+        "mean": 97.002945477844,
+        "sample_sd": 3.5000200769212024
+      },
+      "concentrate_volume_L": {
+        "mean": 0.861,
+        "sample_sd": 0.10237187113655782
+      },
+      "recovery_percent": {
+        "mean": 94.292,
+        "sample_sd": 15.954465519095274
+      }
+    }
+  },
+  "trials": [
+    {
+      "analyst": "LH",
+      "trial": 1,
+      "filter": "Large",
+      "source_rows": [
+        29,
+        30,
+        31
+      ],
+      "ER_percent": 100.0,
+      "EC_percent": 83.90669575432119,
+      "retentate_percent": 14.384004986455063,
+      "concentrate_volume_L": 0.8,
+      "recovery_percent": 83.16
+    },
+    {
+      "analyst": "LH",
+      "trial": 1,
+      "filter": "DE",
+      "source_rows": [
+        32,
+        33,
+        34
+      ],
+      "ER_percent": 100.0,
+      "EC_percent": 0.0,
+      "retentate_percent": 99.01287167331753,
+      "concentrate_volume_L": 0.95,
+      "recovery_percent": 66.66
+    },
+    {
+      "analyst": "LH",
+      "trial": 2,
+      "filter": "Large",
+      "source_rows": [
+        44,
+        45,
+        46
+      ],
+      "ER_percent": 100.0,
+      "EC_percent": 85.75732993394368,
+      "retentate_percent": 13.906594043342219,
+      "concentrate_volume_L": 0.85,
+      "recovery_percent": 85.88
+    },
+    {
+      "analyst": "LH",
+      "trial": 2,
+      "filter": "DE",
+      "source_rows": [
+        53,
+        54,
+        55
+      ],
+      "ER_percent": 98.03710461152828,
+      "EC_percent": 0.0,
+      "retentate_percent": 98.14476942358597,
+      "concentrate_volume_L": 0.95,
+      "recovery_percent": 101.89
+    },
+    {
+      "analyst": "LH",
+      "trial": 3,
+      "filter": "DE",
+      "source_rows": [
+        65,
+        66,
+        67
+      ],
+      "ER_percent": 98.0248872111842,
+      "EC_percent": 1.9751127888158053,
+      "retentate_percent": 94.80541386315866,
+      "concentrate_volume_L": 0.855,
+      "recovery_percent": 101.42
+    },
+    {
+      "analyst": "LH",
+      "trial": 3,
+      "filter": "Large",
+      "source_rows": [
+        71,
+        72,
+        73
+      ],
+      "ER_percent": 100.0,
+      "EC_percent": 87.86158421194918,
+      "retentate_percent": 11.264305668198613,
+      "concentrate_volume_L": 1.2,
+      "recovery_percent": 88.63
+    },
+    {
+      "analyst": "LH",
+      "trial": 4,
+      "filter": "Large",
+      "source_rows": [
+        77,
+        78,
+        79
+      ],
+      "ER_percent": 98.09969024951067,
+      "EC_percent": 87.41424852250917,
+      "retentate_percent": 11.40185850293598,
+      "concentrate_volume_L": 0.8,
+      "recovery_percent": 105.25
+    },
+    {
+      "analyst": "LH",
+      "trial": 4,
+      "filter": "DE",
+      "source_rows": [
+        86,
+        87,
+        88
+      ],
+      "ER_percent": 92.47790855769537,
+      "EC_percent": 0.0,
+      "retentate_percent": 92.14562016823157,
+      "concentrate_volume_L": 0.85,
+      "recovery_percent": 106.35
+    },
+    {
+      "analyst": "LH",
+      "trial": 5,
+      "filter": "DE",
+      "source_rows": [
+        98,
+        99,
+        100
+      ],
+      "ER_percent": 100.0,
+      "EC_percent": 0.0,
+      "retentate_percent": 100.90605226092623,
+      "concentrate_volume_L": 0.7,
+      "recovery_percent": 95.14
+    },
+    {
+      "analyst": "LH",
+      "trial": 5,
+      "filter": "Large",
+      "source_rows": [
+        101,
+        102,
+        103
+      ],
+      "ER_percent": 100.0,
+      "EC_percent": 79.19679125258666,
+      "retentate_percent": 20.437881613570752,
+      "concentrate_volume_L": 0.6,
+      "recovery_percent": 78.16
+    }
+  ]
+}

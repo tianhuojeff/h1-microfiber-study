@@ -1,0 +1,1686 @@
+Journal of Environmental Management 317 (2022) 115347
+Available online 26 May 2022
+0301-4797/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/).
+Review 
+Review on alternatives for the reduction of textile microfibers emission 
+to water 
+Francisco Belzagui
+1
+, Carmen Guti ´errez-Bouz ´an
+* 
+Institut d ’ Investigaci ´o T `extil i Cooperaci ´o Industrial de Terrassa (INTEXTER), Universitat Polit `ecnica de Catalunya, C/Colom 15, Terrassa, Spain   
+ARTICLE INFO  
+Keywords: 
+Microfiber 
+Detachment 
+Pollution 
+Water 
+Microplastic 
+Textiles 
+ABSTRACT  
+The microplastics (MPs) are considered one of the most threatening pollutants. One of the main concerns is their 
+continuous and cumulative flow to water environments, as they are very difficult to be removed. Microfibers 
+(MFs) are a significant type of MPs, with textile articles as one of the most renowned sources. This review aims to 
+provide the current status of these MFs as pollutants, discussing possible alternatives from the manufacturing 
+until the final disposition of MFs. There are many alternatives to reduce these pollutants from reaching the 
+environment but also gaps that need to be further evaluated and addressed. Besides, it should be noticed that 
+alternatives could be complementary between them. Some viable and non-contaminating solutions to reduce this 
+pollution are currently on the market. Also, one relevant aspect is the final disposition or usage of the retained 
+MFs to avoid them from reaching aquatic environments.   
+1. Introduction 
+Water scarcity is becoming an increasing problem and the survey of 
+its quality is a major concern. For this reason, numerous studies have 
+been focused on water purification ( Elwakeel et al., 2020 ; He et al., 
+2022 ) and wastewater remediation ( Ahmed M Elgarahy et al., 2021a , 
+2021b ; C. Zhou et al., 2022 ). Special attention must be paid to the 
+removal of non-biodegradable pollutants that can provoke serious 
+threats due they can be accumulated in the environment and introduced 
+in the trophic chain ( Ahmed M Elgarahy et al., 2021a , 2021b ). There is a 
+huge amount of non-biodegradable pollutants, such as antibiotics, dyes, 
+microplastics (MPs) and microfibres (MFs). 
+The still under-revision definition of the European Chemical Agency 
+(ECHA) indicates that the microfibers (MFs) are particles with a length 
+to diameter ratio > 3 and a maximum length of 15 mm ( ECHA, 2019 ). If 
+those come from chemically modified and/or non-biodegradable poly -
+mers, they are considered as a type of microplastics (MPs). These pol -
+lutants have been constantly found contaminating every ecosystem. It 
+has been estimated that there are from 15 to 51 trillion floating MPs in 
+marine environments and 14 million tons in the top 9 cm of sediments of 
+the world ’ s oceans ( Barrett et al., 2020 ; UNEP and GRID-Arendal, 2016 ; 
+van Sebille et al., 2015 ). MPs can be divided into primary or secondary. 
+Primary are those emitted into the environment in a MPs size range ( < 5 
+mm) where as secondary are generated in the environment from phys -
+ical degradation and fragmentation processes of larger plastic debris 
+( Ahmed M Elgarahy et al., 2021a , 2021b ). In this way, primary MPs 
+include a wide variety of sources (e.g., MFs detached from textile gar -
+ments, plastic pellets, tire dust); while secondary MPs have their origin 
+in mismanaged plastic garbage ( Boucher and Friot, 2017 ). Textile MFs 
+have received significant attention as these have been extensively found 
+across the environment. For instance, Alavian Petroody et al. (2020) 
+reported that most of the MPs found in water treatment plants were MFs, 
+from which polyester MFs were identified at the highest concentration, 
+followed by polyamide and acrylic. This is in line with the main syn -
+thetic fibers that are manufactured across the world. 
+Regarding their impacts, the ingestion across the trophic chain has 
+extensively been reported, as these particles have been found in at least 
+200 species ( Collignon et al., 2012 ; Fossi et al., 2014 ; GESAMP, 2015a ; 
+Ohkubo et al., 2020 ; Patterson et al., 2019 ). Also, some works have 
+found that these particles can potentially have negative effects, such as 
+MPs ’ retention, trophic transfer, and endocrine disruption, among 
+others ( Jemec et al., 2016 ; Nelms et al., 2018 ; Rochman et al., 2014 ; 
+Welden and Cowie, 2016 ). Moreover, MPs can behave as long-distance 
+vectors for invasive species and hydrophobic compounds ( Browne 
+et al., 2013 ; Mao et al., 2020 ; Rochman et al., 2013 ; Ta and Babel, 2020 ; 
+Turner et al., 2020 ). Besides, these contaminants have been identified in 
+* Corresponding author. 
+E-mail address: m.carmen.gutierrez@upc.edu (C. Guti ´errez-Bouz ´an).   
+1 
+In the memory of our beloved Francisco Belzagui. INTEXTER will always remember you. 
+Contents lists available at ScienceDirect 
+Journal of Environmental Management 
+journal homep age: www. elsevier.com/ locate/je nvman 
+https://doi.org/10.1016/j.jenvman.2022.115347 
+Received 4 March 2022; Received in revised form 4 May 2022; Accepted 16 May 2022   
+
+Journal of Environmental Management 317 (2022) 115347
+2
+human-consumption products as seafood, tap and bottled water, fruits, 
+vegetables, and table salt ( Abidli et al., 2019 ; G. Chen et al., 2021 ; Cox 
+et al., 2019 ; O β mann, 2021 ; Rochman et al., 2015 ; Schymanski et al., 
+2018 ; Shruti et al., 2020 ; Teng et al., 2019 ; Van Cauwenberghe and 
+Janssen, 2014 ; Yang et al., 2015 ). Nevertheless, the potential risks for 
+human health are still an unknown area of study ( Vital et al., 2021 ). 
+This review aims to evaluate the different alternatives suggested to 
+reduce the textile MFs ’ pollution. The review is divided into four levels: 
+(1) textile manufacturing, (2) garments laundering, (3) used water 
+treatment plants, and (4) gaps that must be treated to close the loop of 
+this specific MFs contamination. Fig. 1 shows a summary of the infor -
+mation included in this document. This figure also illustrates that there 
+is still a lot of gaps to find a circular trend for MFs. 
+To be more explicit, (1) textile manufacturing refers to all treatments 
+and proceedings applied in the production of textile articles in general 
+before their use. (2) Garments laundering involves the washing and 
+drying processes. (3) The used water treatment plants section includes 
+what happens when the MFs contained in the effluents from laundering 
+processes reach a possible water treatment plant and the effects that 
+these particles have on the treatments. And (4), The gaps of this 
+contamination, indicates criteria, requirements and alternatives to 
+reduce this pollution. The MFs that can be generated in the daily use or 
+final disposal of a textile article are out of the scope of this study. 
+2. Manufacturing, dyeing, and industrial processes 
+The textile or apparel industry is the business for the manufacture of 
+fibers, yarns, fabrics, clothing, and articles for home and/or decoration. 
+Textile and clothing activities present different treatments which have 
+enormous variations between them ( Bullon et al., 2017 ). In this sense, 
+there is still a lack of rigor regarding MFs ’ reduction techniques applied 
+in the manufacturing process of the textile industry. Besides, there are 
+uncountable textile mills spread around the globe. Moreover, devel -
+oping countries produce 50% of the world ’ s textile exports and 75% of 
+the world ’ s clothing exports. In some of these countries, environmental 
+regulations are not usually a governmental priority and water treatment 
+plants are scarce ( Mara, 2004 ) ( UN-Water, 2021 ). 
+Textiles release MFs during production, use, and at end-of-life 
+disposal. For this reason, this industry can play an important role in 
+the reduction of MFs by upgrading their processes and their products 
+( Ellen MacArthur Foundation, 2017 ; Henry et al., 2019 ). Also, according 
+to Xu et al. (2021) , the MFs should be included in the concept of the 
+circular economy, providing a regulatory framework to address this 
+pollution ( Xu et al., 2021 ). However, the textiles and apparel industry 
+accounts for a very high percentage of total manufacturing occupations 
+in many countries where poverty mitigation is a central issue ( InfoDev, 
+2008 ). This complicates the challenging task to achieve a global adap -
+tation to sustainable techniques that target the reduction of MFs ’ 
+detachment. Besides, the term “ microfiber ” is not usually found in books 
+or references for improvements in the sustainability in the textile in -
+dustry (e.g., Muthu (2017) ). This is an indirect demonstration that 
+textile MFs are not receiving the attention that they should. The trend is 
+more focused onto the customer expectation fulfillment or the currently 
+“ fast-fashion ” trend and the waste that it generates. This last topic is 
+another problem that must be treated as more than 70% of the annual 
+fiber production for clothing is burnt or disposed in landfills, which 
+involves a great wastage of every kind of resources (water, energy, 
+textiles, etc.) ( Rese et al., 2022 ) Rahman et al. (2022) . 
+There are many examples of improved techniques to enhance pro -
+ductivity. For instance, in recent decades several new spinning systems 
+have been introduced to the industry. These systems have resulted in 
+important enhancements in yarn productivity but not necessarily in yarn 
+quality ( Islam, 2019 ; Nergis, 2017 ). Yet, there are some studies that are 
+looking forward sustainable techniques like using wet spinning of fun -
+gus to create monofilament yarns ( Svensson et al., 2021 ). The type of 
+fabric (woven, knitted, etc.) also seems to play an important role. For 
+example, De Falco et al. (2018b) reported that woven polyester released 
+the highest number of MFs when compared to knitted polyester and 
+woven polypropylene. Carney Almroth et al. (2018) observed that 
+polyester fleece fabrics shed much more MFs than knitted fabrics made 
+of polyester, acrylic, and polyamide. They also reported that high 
+twisted yarns are less prone to detach MFs, which is in line with the 
+observation exposed in Table 1 . 
+On the other hand, in a study conducted by Zambrano et al. (2020) , 
+an evaluation of cotton knitted fabrics was done. They reported relevant 
+information that can be furtherly assessed with synthetic fabrics. They 
+found that the treatments applied during textile processing influenced 
+the MFs released during laundering. In this sense, fabrics treated with 
+softeners generated the longest MFs, while durable press and water re -
+pellent generated the shortest ones. They pointed out that, in general, 
+fabrics with more abrasion resistance, higher friction coefficient, and 
+less softness (i.e., fuzz or hairiness) reduce the detachment of MFs. In 
+this line, a Life European project evaluated textile procedures and pub -
+lished a guideline of “ better practices ” and main barriers for any in -
+dustry relevantly linked to the textile chain ( Mermaids, 2018 ). The key 
+issues identified were the fiber (fineness, irregularities, length), the yarn 
+(number of plies, twist, count), the fabric (structure, density, processes 
+as dyeing and finishing), and garment washing in factories and their 
+wastewater management. A summary of their observations is listed in 
+Table 1 . 
+Textile parks also are a source of MFs. For instance, the work of Zhou 
+et al. (2020) explored the MFs ’ presence in a typical textile park in 
+Fig. 1. Summary of the information included in this document.  
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+3
+China. They found that these installations can release as much as 54 ×
+10
+3 
+MFs/L in printing and dyeing wastewaters. However, The MFs ’ 
+generation was seen to significantly vary between mills. Hence, the 
+authors discerned between the treatments that are applied in each 
+textile plant, supporting the idea that the release of MFs is crucially 
+influenced by the raw fabric materials and the conditions and chemical 
+products applied in each industrial process. In this sense, the mill with 
+the most concentration of MFs worked with rayon as raw material, 
+which is usually subjected to heavy treatments like high temperatures 
+and pressures. It has to be mentioned that, under the definition of the 
+ECHA, rayon MFs are also considered as MPs. This means that the MPs ’ 
+pollution could be underestimated because usually many authors do not 
+include rayon MFs as a type of MPs. In addition, textile printing and 
+dyeing might be a more significant source of MFs than domestic 
+washing, which is on the order of half a million tons per year ( Belzagui 
+et al., 2020 ). According to this work, the studied mills have their own 
+water treatment plants (WTPs), in which the efficiencies went from 85% 
+to 99% of MFs ’ removal. The final effluents of these WTPs are subse -
+quently treated in a centralized facility, from where they estimated a 
+MFs ’ release of 430 billion particles per day. 
+On the other hand, producing and manufacturing textiles from nat -
+ural rather than man-made or synthetic fibers has also been mentioned 
+as a possible alternative to reduce the MFs ’ pollution. This statement is, 
+at least, debatable, as nowadays most of the cotton business is based on a 
+highly pollutant and environmentally unsustainable production ( Allary, 
+2021 ; Garcia et al., 2019 ; Maraseni et al., 2010 ; Rukhaya et al., 2021 ). 
+For instance, cotton production uses 2.5% of world ’ s farmlands but 
+consumes 25% of world ’ s insecticides and 80% of total water usage in 
+the textile sector ( Garcia et al., 2019 ). Hence, this claim can only be 
+considered as an option in particular cases where it can be proved, for 
+instance, by making a life cycle analysis (LCA) that the declaration is 
+true. Regarding only the MFs ’ detachment, Salvador et al. (2020) re -
+ported that cotton articles shed more MFs than synthetic ones. However, 
+these findings must be treated carefully to avoid misleading and 
+generalized conclusions. In other words, there is a lack of 
+inter-laboratory repeatability to ensure that the outcomes are accurate. 
+With regards to mixtures of materials, i.e., blends of synthetic and 
+natural polymers, a reduction of MFs detachment might be achieved. In 
+this sense, Napper and Thompson (2016) reported that, independently 
+of the washing treatment, polyester - cotton (65/35%) blend fabrics 
+detached fewer MFs than garments made only of polyester or acrylic. 
+Conversely, Zambrano et al. (2019) found that polyester-cotton 
+(50/50%) blends, as well as cotton and rayon ones, detached more 
+MFs than polyester fabrics. This might again suggest that the fabrics ’ 
+specific manufacturing process and the proportion of materials play an 
+important role in the MFs shedding rate. Besides, polyester, cotton, and 
+their blends receive different dying treatments that could be an impor -
+tant parameter to be furtherly examined. However, mixed materials can 
+hamper the possible subsequent recycling procedure ( Herweyers et al., 
+2020 ). Hence, it is of special interest to find the balance between the 
+optimal blending proportion and the possibility of future uses or recy -
+cling of the discarded textile articles. 
+Alternatives can also consider the production of more resistant and/ 
+or higher quality fabrics. In this line, the quality of the products is an 
+important parameter that should be considered. The current “ fast- 
+fashion ” business model induces a decrease in social and environmental 
+Table 1 
+Summary of better practices in the textile industry published by Mermaids 
+(2018) .  
+Issue Better practice Main barriers 
+Melt spinning 
+process  
+- Adjust to preserve fibers ’ 
+mechanical properties.  
+- Lower temperatures will 
+increase the production 
+time.  
+- Fiber fineness should be 
+increased to decrease 
+yarn tendency to form 
+protruding MFs.  
+- Yarn modification will 
+alter its characteristics.  
+- Fiber irregularities 
+increase the friction 
+between fibers and avoid 
+the release of MFs from 
+the yarn. 
+Drawing, stretching, 
+texturing, 
+intermingling and 
+drying  
+- Adjust to preserve a good 
+fiber tensile strength. The 
+higher the tensile strength 
+of the yarn the lower the 
+probability of releasing 
+MFs during washing.  
+- Process modification 
+depends on the client ’ s 
+requirements.  
+- Length of the fibers 
+should not be too low. 
+Spinning (yarn)  - Continuous fibers detach 
+less MFs than 
+discontinuous or staple.  
+- Yarn specification 
+depends on the client ’ s 
+requirements.  
+- Plied yarns detach fewer 
+MFs than single yarns.  
+- High twist yarns detach 
+fewer MFs than yarns 
+with a lower twist.  
+- The lower the linear 
+density of the yarn (yarn 
+count) the lower the 
+number of fibers per 
+cross-section the lower 
+the release MFs. 
+Dyeing  - Avoid garment dyeing as 
+it releases more MFs than 
+yarn dyeing.  
+- The solution is to avoid or 
+reduce dyeing. 
+Knitting and weaving  - The yarn carrier velocity 
+of the knitting may be 
+reduced to decrease the 
+damage of the fiber.  
+- Increase of the production 
+time.  
+- The quantity or the nature 
+of the sizing agent in the 
+weaving process could be 
+optimized and the 
+velocity of the weft 
+transporter could be 
+reduced.  
+- High-density fabrics have 
+a tighter structure than 
+lower ones, reducing the 
+release of MFs.  
+- Plain weave fabrics 
+detach fewer MFs than 
+twill weave ones. 
+Mechanical finishing  - The condition in the 
+napping process may be 
+optimized to reduce the 
+mechanical stress on the 
+fabric and its weakening.  
+- Client requirements.  
+- The cut fibers should be 
+recollected and managed 
+in the factory.  
+- Difficulties to adjust the 
+equipment.  
+- Singeing mechanical 
+finishing avoids the MFs 
+formation on the fabric 
+surface. 
+Finishing  - Finishing agents capable 
+of protecting the fabric 
+surface can be used in this 
+process.  
+- The agent must be 
+compatible with the other 
+finishing treatments. 
+Manufacturing  - A preliminary washing of 
+the textile article can be  
+- Textile manufacturing 
+mills may not have the  
+Table 1 ( continued ) 
+Issue Better practice Main barriers 
+done before selling it to 
+remove the MFs 
+generated during textile 
+previous processes. 
+facilities for industrial 
+washing and wastewater 
+treatment.  
+- Current water treatments 
+might not be able of 
+collecting the smallest 
+MFs.  
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+4
+conditions and produces low-quality garments that are more prone to 
+detach MFs ( Peters et al., 2021 ; Zamani et al., 2017 ). Hence, manufac -
+turers and consumers can play a key role by investing in garments that 
+are manufactured to last more and detach less MFs ( Patagonia, 2018 ). 
+Additives can be also considered, for instance, a 90% reduction of the 
+MFs release was obtained by applying pectin, poly-lactic acid, and pol -
+ybutylene succinate onto polyamide fibers ( De Falco et al., 2019 ; De 
+Falco et al., 2018a ). Nonetheless, further investigation is required to 
+develop additives able to avoid or reduce the MFs ’ detachment from 
+chemically more stable materials (i.e., polyester) but without using toxic 
+compounds as, e.g., methanol. For instance, Martel et al. (2002) 
+explored the finishing of polyester fabrics with cyclodextrins and poly -
+carboxylic acids. The study had no relation with MFs, however, they 
+found an easy way with non-toxic chemicals to physically but perma -
+nently adhere a coating onto polyester fabrics. This type of studies can 
+be assessed to apply them with MFs ’ reduction purposes. 
+Many works have studied the coating or surface functionalization of 
+fabrics. These investigations can also be furtherly considered as alter -
+natives to reduce the MFs pollution and stop them from reaching aquatic 
+environments (e.g., Carosio et al., 2014 ; Chen et al., 2012 ; Cireli et al., 
+2007 ; Glampedaki et al., 2012 ; Rojas and Azevedo, 2011 ; Trad et al., 
+2018 ). Besides, it is equally important to make the additive or process 
+sustainable. Using toxic or hazardous compounds or highly energetic 
+demanding procedures in the production line could develop worst im -
+pacts than the benefits from the reduction of MFs. 
+3. Household and industrial washing machines, tumble dryers 
+and additives 
+To the best of our knowledge, Browne et al. (2011) were the first to 
+suggest that the MFs ’ contamination is related to the laundering of 
+textile articles. In their publication, they noted that receiving water 
+points of sewage effluents contained a higher abundance of MPs when 
+compared to other reference sites. Besides, they found that the propor -
+tion of polymeric materials found in the sewage effluents were similar to 
+the MPs contaminating shore sediments and disposal sites. Subsequent 
+investigations verified and quantified the detachment of MFs from 
+laundering processes, which is millions of MFs per cycle. In a first esti -
+mation, it was calculated that about 0.5 million tons of MFs reach the 
+oceans every year ( Boucher and Friot, 2017 ). However, it was later 
+noticed that the estimation used a parameter that was 100 – 300 times 
+larger than a more proper value. In particular, the linear weight of the 
+MFs was considered 300 dtex (1 dtex = 1 g of fiber per 10 000 m), 
+whereas the MFs will have a linear weight between 1 and 3 dtex. In this 
+sense, Belzagui et al. (2020) re-estimated the MFs ’ flow by applying a 
+methodology with new parameters and they obtained 0.3 annual million 
+tons of MFs ’ stream to aquatic environments. However, if the ECHA 
+definition proposal for MFs is accepted (length 0.003 mm – 15 mm and a 
+length/diameter ratio > 3), only Pirc et al. (2016) have evaluated MFs 
+sized above 5 mm. In this case, and adding that rayon MFs can also be 
+considered as MFs, the amount of MFs detached per laundering reported 
+by most of the published articles will be probably underestimated. 
+Common clothes and housing linens MFs ’ emissions were studied by 
+Galv ˜ao et al. (2020) . They assessed the detachment from a mix of 205 
+daily used textiles. They found a MFs release of approximately 3 million 
+MFs per kg of washed article. This is in line with all previous studies. 
+Besides, they reported that more than 90% of the MFs have a length 
+< 500 μ m, with half of them being < 100 μ m. The washing temperature 
+and time of the cycles were assessed by Cotton et al. (2020) . They 
+compared a “ standard ” washing cycle (40 
+◦
+C and 85 min) with a 
+“ cold-quick ” program (25 
+◦
+C and 30 min). As expected, they found that 
+higher temperatures and longer times significantly increased the MFs ’ 
+detachment, reduced the garment longevity and accelerated the color 
+loss, which is in line with the work of De Falco et al. (2018b) . However, 
+an interesting finding was that when the washing time is increased to a 
+certain point, the fabric abrasion (and the MFs ’ release) become stable. 
+The estimated time stabilizing point was found at 35 min. However, no 
+mechanism explanation was found to this behavior ( Bao et al., 2017 ). 
+Furtherly, Dalla et al. (2020) evaluated the MFs ’ detachment from 
+100% polyester knitted fabrics with different operational washing con -
+ditions. They reported that the operative conditions (program time, 
+temperature, speed of centrifugation, number of drum inversions, etc.) 
+have a direct impact on the “ stressing ” or friction action on the gar -
+ments. In this sense, the minor stress applied to fabrics was seen during 
+“ delicate ” program, which were found to decrease the MFs ’ release by 
+16% when compared to the “ cotton ” program. However, it must be 
+furtherly tested to understand if this is a generalized situation or a 
+particular observation achieved in the washer used. If it happens to be a 
+generalized condition, the appliance industry could apply these data to 
+improve their programs to achieve the reduction of the generation of 
+MFs. 
+Regarding the type of washers, Hartline et al. (2016) reported that 
+top-loading washing machines detach more MFs than front-loading 
+ones. As hypothesized by the authors, this may be a consequence of 
+the central agitator of the top-loading models. The same study indicates 
+that highly populated regions as Asia and North America have a high 
+percentage of top-loading washers (90%). Hence, it could partially 
+explain the usually big concentration of MFs found in the environment. 
+To estimate what could happen if those countries have more front-than 
+top-loading washers, Belzagui et al. (2020) studied an inverted scenario 
+(10% of top-loading). This modification resulted in a global MFs ’ 
+reduction of approximately 30%. This change implies a direct benefit to 
+the aquatic systems but also an indirect one to the whole environment. 
+However, as mentioned before, further investigation is needed to 
+determine if this is a generalized situation or it only applies for the 
+washers used in Hartline et al. experiments ( Hartline et al., 2016 ). In this 
+sense, improving the designs of washers to cause less friction to the 
+garments or the inclusion of built-in MFs ’ filters can be also considered 
+as feasible alternatives. By doing so, white goods manufacturers can 
+include in their catalogues a qualification class regarding MFs ’ emissions 
+of their machines. In this way, consumers will be able to consider this 
+factor when acquiring a new washer. 
+Concerning the washing additives, there is still big uncertainty about 
+their relevance in the detachment of MFs. For instance, Zambrano et al. 
+(2019) encountered that the usage of detergent and higher temperature 
+conditions showed a significant increase in the detachment rate for 
+cotton. In this line, De Falco et al. (2018b) reported that liquid and 
+powder detergents increase the MFs ’ release. They also found that 
+powder detergents might cause a higher release of MFs due to their 
+inorganic and water-insoluble compounds (like zeolite) that can pro -
+duce friction to the textiles, and also due to the higher pH of these de -
+tergents. However, Napper and Thompson (2016) reported that no clear 
+trend was found with the presence of detergent and conditioner, 
+although fewer MFs were “ occasionally ” found when no-detergent or 
+bio-detergent were applied. Moreover, Salvador et al. (2020) reported 
+that the use of liquid detergent reduced the MFs ’ detachment when 
+compared with no detergent for synthetic fiber garments (polyester, 
+acrylic, and polyamide) but not for cotton ones. In this sense, making an 
+extended assessment of the effects of the additives will benefit the 
+formulation of new cleaning agents able to protect the garments and 
+reduce their MFs ’ detachment. The findings reported by these articles 
+are summarized in Table 2 . 
+Although most methods shown in Table 2 exhibit similar results, 
+there is an urgent need for a standardized analytical method ( Henry 
+et al., 2019 ). In this sense, some textile and interdisciplinary coalitions 
+are working towards a unique analytical method. Indeed, in a recent 
+publication from Tiffin et al. (2021) , they proposed and published the 
+validation of a method applying a Gyrowash machine. Besides, an 
+inter-laboratory study was executed and they found that the method 
+presented good replicability. However, it is important to mention that 
+Zambrano et al. (2019) found that accelerated laboratory launderings, 
+like those made in a Gyrowash, might release more MFs than household 
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+5
+ones. This could indicate that these types of tests might only be appli -
+cable when relative detachment rates are the objective of the assess -
+ment. In other words, the absolute outcomes of MFs ’ detachment might 
+be evaluated it in real conditions (conventional washers, textile articles 
+and additives). 
+It should also be considered that each methodology has limitations or 
+disadvantages. For instance, Belzagui et al. ’ s (2019) method and similar 
+procedures are time-demanding. Besides, visual counting might be 
+preferably used when small amounts of garments with strong colors are 
+tested. On the other hand, methods such as those proposed by Salvador 
+et al. (2020) might not be able to discern between MFs and longer fibers, 
+or could erroneously include the mass of the detergent or other impu -
+rities in the weighting process of the MFs. To that effect, a method that 
+considers different situations, types of samples or requirements will 
+probably be needed, for example, one for relative and the other for 
+absolute amount of released MFs. 
+On the subject of dryers, O ’ Brien et al. (2020) studied the airborne 
+emission of MFs from a domestic vented dryer. They found that the lint 
+emission corresponded to approximately 0.012% of the garment mass 
+dried. Kapp and Miller (2020) also studied the MFs emission from 
+dryers. They collected the MFs vented to the surroundings of the 
+experiment site and provided the results in different units for further 
+comparability. In this sense, they reported averages from 35 mg to 70 
+mg of lint from three consecutive dry cycles. In addition ( Mahbub and 
+Shams, 2022 ), reported that the MFs release was promoted by longer 
+drying times. As can be seen, these studies confirmed that MFs can 
+escape the lint trap of the dryers and therefore should be considered as a 
+source of MPs to the environment. However, further investigation is 
+needed to assess the detachment rate from these machines. In this sense, 
+clothes tumble dryers can also be modified to be more efficient 
+regarding the MFs ’ generation. For instance, TeGrotenhuis et al. (2017) 
+proposed a hybrid heat pump dryer that could achieve savings in both 
+energy and drying cycles, providing an indirect reduction of the MFs 
+generated. 
+3.1. Devices to reduce the MFs in the effluents of the laundering 
+equipment 
+There are commercially available devices to reduce the release of 
+MFs from washers. These might work by reducing the MFs either inside 
+the washing machine [in-drum devices such as GuppyFriend (2021) or 
+Cora Ball (2021) ], or at the effluent [external filters as Lint LUV-R 
+(2021) or PlanetCare (2021) ]. These devices work differently when 
+reducing the concentration of MFs in the washers ’ effluent. GuppyFriend 
+and analogous systems work basically to protect the garments from the 
+mechanical stress generated in the washing process. Hence, it is ex -
+pected that they will reduce the generation of MFs. In contrast, external 
+filters and the Cora Ball act by retaining the already generated MFs. It 
+must be noticed that these devices might be complementary between 
+them to achieve a higher reduction of the MFs. 
+According to McIlwraith et al. (2019) , these technologies can 
+accomplish a MFs ’ reduction in the washer effluent from 26% ( Cora Ball) 
+to 87% ( Lint LUV-R filter). Additionally, no significant difference for the 
+MFs length when using the Cora Ball was reported, suggesting that this 
+device captures MFs in a wide range of sizes. Meanwhile, Napper et al. 
+(2020) reported that the external device XFiltra (2021) was the most 
+successful in retaining MFs, followed by the in-drum GuppyFriend . For 
+the XFiltra , two main explanations were given: a finest mesh pore in 
+contrast with other similar devices (60 μ m vs > 175 μ m), and the use of 
+an integrated electrical pump to facilitate the flow through the mesh. On 
+the other hand, PlanetCare filter sustains more than 90% of MFs ’ 
+Table 2 
+Published works regarding the MFs ’ detachment in industrial and household 
+laundering.  
+Work Analytical method/Comments Results 
+Browne et al. 
+(2011)  
+- No clear information on the 
+methodology used. 
+130 – 280 MFs/L per 
+garment 
+> 1900 MFs/garment  - Conservative estimations 
+reported. 
+Napper and 
+Thompson 
+(2016)  
+- Indirect method 
+(a)
+. 140 000 – 730 000 MFs/6 
+kg of washed garments 
+500 000 MFs/mg  
+- Fibers with a mean length > 5 mm 
+considered 
+(b)
+. 
+Pirc et al. 
+(2016)  
+- Indirect method 
+(a)
+. 135 000 MFs/6 kg of 
+washed garments  - Filters of 200 μ m.  
+- Mean length considered > 5 mm. 
+Hartline et al. 
+(2016)  
+- Indirect method 
+(a)
+. 29 – 431 mg of MFs/ 
+garment-washed (front- 
+load) 
+1471 – 2121 mg of MFs/ 
+garment washed (top- 
+load) 
+Carney Almroth 
+et al., 2018  
+- Gyrowash one bath 815/8 
+according to modified SS-EN ISO 
+105-C06. 
+7360 MFs/(m
+2 
+L) for PES 
+fleece 
+87 MFs/(m
+2 
+L) for 
+knitted PES  - Commercial liquid detergent. 
+Salvador (2017)  - Used Napper and Thompson 
+(2016) and Pirc et al. (2016) 
+methods. 
+184 000 – 250 000 MFs/ 
+garment 
+De Falco et al. 
+(2018b)  
+- Linitest apparatus used to 
+simulate washing machine. 
+6 000 000 – 17 700 000 
+MFs/5 kg of washed 
+garments  
+- Direct quantification. 0.43 – 1.27 g of MFs 
+Belzagui et al. 
+(2019)  
+- Commercial front-load washer. 1 000 000 – 6 500 000 
+MFs for 6 kg of washed 
+garments  
+- Quantification of the MFs by 
+visual counting. 
+30 000 – 230 000 MFs/ 
+garment  
+- Polyamide 20 μ m filter. 2 – 29 mg of MFs/garment 
+washed  
+- Indirect method to estimate the 
+weight of the MFs (applying the 
+diameter and density). 
+1200 – 33 000 MFs/(m
+2 
+L) 
+Zambrano et al. 
+(2019)  
+- AATCC standard SDL Atlas 
+Launder-Ometer. 
+Mass lost during 
+accelerated laundering : 
+0.2 – 4.0 mg MFs/g 
+(cellulose-based fabrics) 
+0.1 – 1.0 mg MFs/g 
+(polyester fabric)  
+- Whatman glass 1.2 μ m filter.  
+- HiRes Fiber Quality Analyzer 
+(FQA) for MFs ’ quantification.  
+- 25
+◦
+C and 44
+◦
+C.  
+- AATCC 135 – 2015 with Washing 
+machine  
+- Nylon 20 μ m and then Whatman 
+glass 1.2 μ m filter. 
+Salvador et al. 
+(2020)  
+- Commercial top washer used in 
+the experiments. 
+% of lost garment weight 
+from 10 cycles : 
+0.16 to 0.20 (100% 
+cotton) 
+0.07 to 0.13 (100% 
+acrylic) 
+0.03 to 0.06 (100% 
+polyester) 
+0.04 to 0.10 (100% 
+polyamide)  
+- Subsequent steel sieves 500 μ m 
+and 65 μ m.  
+- Indirect method to estimate the 
+weight of the MFs (applying the 
+diameter, linear weight, and 
+density). 
+Galv ˜ao et al. 
+(2020)  
+- Clothing and housing linens from 
+a household of 4 people. 
+18 000 000 MFs for 6 kg 
+of washed garments  
+- Commercial front-loading 
+washer.  
+- Aliquots of 20 mL were filtered 
+through 12 μ m nitrocellulose 
+membrane filters  
+- MFs were visually counted in one 
+quadrant of the filter and 
+extrapolated. 
+Dalla et al. 
+(2020)  
+- 100% PES knitted fabrics. 36.60 mg/kg (cotton 
+program) 
+32.51 mg/kg (delicate/ 
+silk program with liquid 
+stain remover) 
+33.86 mg/kg (delicate/ 
+silk program.)  
+- Pre-washing before experiments.  
+- Commercial washer, detergent, 
+and softener used.  
+- Effluent was filtered through 40 
+μ m pore.  
+- Different programs tested. 
+(a) Indirect method: the quantification is estimated from the weight, length, 
+and/or density of the MFs. 
+(b) According to the ECHA, fibers with a length < 15 mm and a maximum 
+diameter of 5 mm should be considered as MFs. 
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+6
+retention efficiency for their product, which is not consistent with the 
+25% retention reported by Napper et al. (2020) . The results of these 
+studies are summarized in Fig. 2 . 
+As can be seen in Fig. 2 , different results are reported for the same 
+devices. Hence, further experimental inter-laboratory replications are 
+required. The introduction into the market of these options seems 
+feasible in the short-to medium-term period. Nevertheless, the final 
+disposal of the retained MFs is an urgent concern not addressed yet. For 
+instance, as commented by Napper et al. (2020) , once the filters are 
+cleaned by collecting the MFs, these can be “ thrown into the everyday 
+household waste ” . In this sense, depending on the final disposition given 
+to that specific waste, the MFs could also finish in water environments, 
+turning the devices just into a mere MFs ’ “ by-pass ” . 
+The usage or final disposition of the MFs has been poorly studied. For 
+instance, Yousef et al. (2021) have proposed the use of lint from 
+household dryers as a source of renewable energy through pyrolysis. 
+They found that lint can produce an activation energy higher than the 
+textile waste as a result of its high purity, chemical composition, and 
+uniform size, which facilitates the conversion process. However, it must 
+be noticed that many of the lint materials, like polyester, will not have a 
+renewable origin. In this sense, this fossil-based waste should not be 
+considered as a renewable energy source. Besides, there is a logistic issue 
+that needs further consideration to transport this waste. A good idea 
+would be to persuade the users who have a MFs ’ retention system to take 
+them to a MFs “ disposal ” site, from where these could be collected and 
+submitted to a future final disposal treatment facility. In this sense, we 
+can make an analogy with gases ’ emissions. There are diffuse emissions 
+(cars – household laundering), which are harder to treat, and point 
+sources which are easier (fabrics – textile industries). In this line, a good 
+alternative could be to reuse them when these are collected in industries 
+(point sources) and to immobilize them in treating facilities when these 
+are retained in household launderings (diffuse sources). 
+Currently, textile articles are washed even if they are not dirty, which 
+implicates a futile use of water and energy resources ( Stawreberg and 
+Wikstr ¨om, 2011 ). Hence, an effective and obvious method to reduce the 
+MFs ’ shedding is to wash them only when it ’ s required. For instance, in a 
+hypothetical situation simulated in the work of Belzagui et al. (2020) , a 
+reduction of 30% on the generation of MFs can be achieved by reducing 
+the laundering water consumption in the regions with a higher con -
+sumption rate (which is 19 m
+3
+/washer per year). In other words, doing 
+shorter washing cycles or washing less generates fewer MFs. This mea -
+sure can be accomplished by instructing consumers to use adequate 
+laundry programs and/or more efficient washers. This strategy can be 
+implemented in the short-to medium-term to reduce the MFs ’ genera -
+tion. Consequently, this will decrease the emission of MFs to the whole 
+environment, affecting especially to the usage and contamination of 
+water ecosystems. 
+It must be noticed that “ washing less ” is very subjective. For this 
+reason, there are some guides to provide sufficient knowledge to con -
+sumers about when and how to wash their clothes. For instance, re -
+ported “ better practices ” are: filling up the washing machine, using 
+liquid detergents, selecting colder and quicker laundry settings, among 
+others ( Cotton et al., 2020 ; De Falco et al., 2018a ; Mermaids, 2017 ; 
+Plastic Pollution Coalition, 2017 ). This could be strengthened with 
+textile campaigns indicating how many “ normal ” uses are appropriate 
+for a determined garment before washing. In this way, the population 
+aware about the reduction of MFs generation must be continuously 
+reinforced. Social networks are strong tools that are constantly making 
+publications on this topic ( GESAMP, 2015b ; SAPEA, 2019 ; Wagner and 
+Lambert, 2018 ); however, environmental education should be guaran -
+teed from the early stages of our education, and MFs should be a part of 
+this education. 
+Regarding the mass or quantity of garments washed per cycle, in a 
+quick experiment made in our laboratory to measure the MFs ’ detach -
+ment, polyester fabrics were independently submitted to one washing 
+cycle at equal conditions (Fagor Innovation F-2180 washer, 40 
+◦
+C, 1000 
+RPM, 57 min, and 59 L of effluent). The textiles used were identical 
+fabrics but differing in their weight and dimension; two weighted 0.13 
+kg, while the other pair weighted 3.00 kg (4 samples in total). Each 
+sample was washed with liquid detergent. In this case, the contrast was 
+from a washer occupation of 25% – 70% in volume and from 20% to 50% 
+in weight. The relation between the mass of garments is about 23 (3.00 
+Fig. 2. Microfibers ’ reduction at the effluents of the washing machines.  
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+7
+kg/0.13 kg), while the relation between the mass of the MFs detached 
+was seen to be approximately 5 (0.025 g/0.005 g). The reduction of the 
+MFs could be a consequence of a decrease in the friction between the 
+textile articles and the washer drum. Besides, this quick experiment 
+verified what is said in the “ Mermaids good practice guide ” ( Mermaids, 
+2017 ): filling up the washing machine considerably reduces the MFs 
+detachment. 
+4. Municipal, industrial, and drinking water treatment plants 
+This section discusses the MFs and MPs found in water treatment 
+plants (WTPs) and water products. The addressed perspective is to 
+inform about the concentrations typically encountered in the effluents, 
+the effectiveness of the different technologies for the MPs ’ removal, and 
+the effects of the MPs on the treatments. 
+4.1. Drinking water treatment plants 
+It has been published that the consumption of bottled and tap water 
+is a source of ingestion of MFs ( Ossmann, 2021 ). The average concen -
+trations reported were 94 MPs/L for bottles and 32 MPs/L for tap water 
+( Eerkes-Medrano et al., 2019 ; Koelmans et al., 2019 ; Mintenig et al., 
+2019 ; Schymanski et al., 2018 ). Cox et al. (2019) estimated that the 
+annual MPs ’ intake could be 52 × 10
+3 
+items. However, it may raise to 90 
+× 10
+3 
+MPs if only bottled water is consumed. Kosuth et al. (2018) found 
+that most of the particles were MFs (98%). Regarding the size, Ossmann 
+et al. (2018) reported that over 90% of the MPs found in bottle water 
+corresponded to particles smaller than 5 μ m, which are smaller than the 
+mean 960 μ m reported by Kosuth et al. (2018) for tap water. Hence, 
+drinking WTPs are not completely effective in eliminating MPs, whether 
+as for uncompleted retention or as for an “ in-situ ” generation. 
+In this line, Wang et al. (2020) reported that the overall MPs ’ 
+removal from different technologies in drinking WTPs was from 82% to 
+89%. On the other hand, Zhang et al. (2020a , 2020b) found a low 
+retention of micro- and nanoparticles ( < 2%), with an increase of 16% 
+when applying a coagulant aid. Works from Ma et al. (2019a , 2019b) 
+also reported low retention efficiencies (from 1% to 8%) at coagulants ’ 
+conventional dosages. Hence, there is a need to mend these contradic -
+tions. Regarding the ultrafiltration process, it has been reported as the 
+most effective process for MFs ’ removal ( Ma et al., 2019a ; Zhang et al., 
+2020b ). Sand filtration was also tested but it was not considered to play 
+a primary role in removing MPs. A key finding was that drinking WTPs 
+can also act as a source of MPs. In this specific case, greater concen -
+trations of polyacrylamide (PAM) were detected in the effluent 
+compared to the raw water. PAM is used as a component of the coagu -
+lant used in the process. In this sense, more investigation is needed to 
+evaluate if the presence of MPs and MFs in drinking water is due to the 
+physical degradation of the plastic bottles or the water treatment itself 
+( Ossmann, 2021 ). 
+4.2. Used water treatment plants 
+In municipal or industrial used-WTPs, a proportion of the incoming 
+MFs will be transferred into the sludge throughout the consecutive 
+treatments. It is important to notice that WTPs should not be considered 
+as a source of MPs and MFs but a pathway where they can be removed 
+from the liquid stream. Globally, the percentage of municipal used- 
+waters that are subjected to any kind of management is approximately 
+20% ( ONU, 2017 ; Pham and Kuy, 2013 ). Populations connected to 
+urban WTPs are markedly variated across the countries. For instance, 
+South American and Asian countries treat around 20% of their munic -
+ipal waters, while Central European countries have achieved a 97% of 
+treatment coverage ( EEA, 2017 ; Mara, 2004 ). WTPs are considered 
+significant pathways for all types of MPs to aquatic and soil environ -
+ments ( Raju et al., 2020 ; Rolsky et al., 2020 ). Yet, as mentioned before, 
+fiber-shaped ones coming from the laundering of textile articles are 
+within the most encountered types in these streams. 
+Regarding the material, polyester MFs usually surpass other types of 
+MPs ( Browne et al., 2011 ; Lares et al., 2018 ; Magnusson et al., 2016 ; 
+Murphy et al., 2016 ; Sun et al., 2019 ). Currently, polyester is the top 
+synthetic material used by the textile industry. Besides, as pointed out by 
+a series of publications, regardless of the material, each textile article 
+detaches thousands to millions of MFs in every domestic washing cycle 
+( Belzagui et al., 2019 ; De Falco et al., 2018b ; Folk ¨o, 2015 ; Hartline et al., 
+2016 ; Pirc et al., 2016 ). For instance, Alavian Petroody et al. (2020) 
+reported that most of the MPs found in a WTP were in the form of MFs, 
+from which polyester was the most abundant, followed by polyamide 
+and acrylic fibers. This makes sense, as an important part of the MPs 
+entering a WTP will come from the household washers ’ effluents. 
+Following the current data, it has been estimated that 0.48 million tons 
+of MFs are globally generated in domestic washers, from where 0.20 
+million tons might be retained in WTPs ’ sludge and 0.28 million tons 
+might reach aquatic environments ( Belzagui et al., 2020 ). 
+In primary treatments, raw water usually passes through a set of 
+screenings. If fine screens are applied (2.5 – 10 mm), MPs > 2.5 mm can 
+be removed from the water but not completely because of the 
+morphology of these particles (big length to diameter ratio). Next, grit 
+removal, flotation, and primary settlement could also retain MPs with 
+different densities than water ( Sun et al., 2019 ). Primary treatments are 
+effective to retain MFs as these might be adsorbed, aggregated, and 
+entrapped in flocculating particles and separated by sedimentation ( Sun 
+et al., 2019 ; Wei et al., 2019c ). An important removal of the MFs can 
+happen in this stage. In some cases, MPs ’ removal was found to be even 
+greater than 90% ( Lares et al., 2018 ). Secondary treatments, as activated 
+sludge, are basically biological processes that degrade organic pollut -
+ants. Here, MPs can be retained by the extracellular polymer substances 
+secreted by microorganisms and furtherly removed with the generated 
+sludge; i.e., MPs are transferred to the sludge ( Sun et al., 2019 ). In 
+general, as reported in Bakaraki Turan et al. (2021) , most of the MPs ’ 
+and MFs ’ removal is made in the primary and secondary treatments. 
+Finally, advanced treatments as coagulation and filtration, ultrafiltra -
+tion, or membrane bioreactors can remove part of the remaining and 
+lower-sized MPs. As can be seen in Fig. 3 , the retention and transfer rates 
+might depend on the treatment applied. From different studies ( Alavian 
+Petroody et al., 2020 ; Blair et al., 2019 ; Carr et al., 2016 ; Franco et al., 
+2020 ; Gasperi et al., 2015 ; Gies et al., 2018 ; Gündo ˘gdu et al., 2018 ; Lares 
+et al., 2018 ; Leslie et al., 2017 ; Magni et al., 2019 ; Magnusson and 
+Nor ´en, 2014 ; Michielssen et al., 2016 ; Mintenig et al., 2017 ; Murphy 
+et al., 2016 ; Talvitie et al., 2015 ; Talvitie et al., 2017a , 2017b ; Zhang 
+et al., 2021 ; Zhou et al., 2020 ), it can be stated that the MPs ’ and MFs ’ 
+transfer efficiency will be between 76% and 98%. 
+For instance, Lares et al. (2018) reported that 99% of the MPs were 
+removed in the primary treatment; afterward, a slight increase of the 
+MPs ’ concentration (0.6 – 1 MPs/L) was found in the effluent of the 
+activated sludge. This behavior might be a consequence of the sampling 
+procedure, which didn ’ t consider the different flows (turbulent and 
+stable) that are found in each effluent. Hence, superficial sampling 
+might retain more buoyant MPs when having a stable flux. MPs with a 
+density higher than water will be mostly retained in primary and sec -
+ondary treatments, whilst advanced treatments will eliminate floating 
+particles from the final water effluent ( Nizzetto et al., 2016 ). In this line, 
+Bayo et al. (2020) found that particulate shapes were more prone (95%) 
+to be retained than fiber ones (55%) in membrane bioreactors (MBR) 
+and rapid sand filtration (RSF). It should be noticed that MFs might have 
+an easier pass through RSFs as a consequence of their longitudinal shape 
+and small diameters (⁓10 μ m) ( Hamidian et al., 2021 ). Edo et al. (2020) 
+reported that sizes between 25 and 104 μ m were predominant in the 
+effluents of primary and secondary treatments, strengthening the 
+conclusion that smaller and fiber-shaped MPs are more prone to be 
+found in the effluents of WTPs ( Li et al., 2020b ; Raju et al., 2020 ). 
+Despite having a relatively high retention efficiency, these facilities 
+treat millions of liters every day, releasing high amounts of MFs ( Sun 
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+8
+et al., 2019 ). Also, as previously explained, the proportion of treated 
+waters is still very low across the world, and it must be noticed that other 
+sources of textile MFs (as garments ’ hand-washing) will be still left aside 
+from these treatments. Equally important is that these particles can still 
+enter the environment via the final disposal of the sludge, as conven -
+tional treatments don ’ t remove sludge-based MPs (Z. Chen et al., 2020 ). 
+The reported abundance of MPs in the sludge varies from 1.5 × 10
+3 
+to 
+180 × 10
+3 
+particles per kg of dry weight sludge ( Edo et al., 2020 ; Lares 
+et al., 2018 ; Li et al., 2020b ). Hence, MFs might still be dumped into the 
+environment if the sludge is used as, e.g., an agricultural fertilizer ( Bayo 
+et al., 2016 ; Corradini et al., 2019 ; Li et al., 2018 ; Mahon et al., 2017 ). 
+The existence of WTPs was estimated to play a relevant role to 
+transfer MFs from the liquid stream into the sludge. According to Bel -
+zagui et al. (2020) , a global 30% reduction of MFs reaching aquatic 
+environments can be achieved by increasing regions with a low per -
+centage ( < 50%) of treated water to 60%. However, as pointed out in 
+that study, further investigation is required to develop treatments for the 
+MPs and MFs retained in the sludge. Yet, it must be noticed that 
+installing only primary treatments in places without WTPs could help to 
+remove an important proportion of the incoming MPs and MFs from the 
+liquid stream. 
+As previously indicated, the amount of MFs annually retained in the 
+sludge of WTPs is about 0.20 million tons ( Belzagui et al., 2020 ). Also, a 
+publication estimated that the yearly amount of MPs entering agricul -
+tural lands from sludge might be between 63 × 10
+3 
+to 430 × 10
+3 
+and 44 
+× 10
+3 
+to 300 × 10
+3 
+tons in Europe and North America, respectively 
+( Nizzetto et al., 2016 ). In this latter study, other sources of MPs, as 
+particles collected by sewers, were also considered in the estimation. 
+Partial removal of these fibers can be achieved by sieving and sifting 
+procedures, however, a complete separation will not be possible 
+( Weithmann et al., 2018 ). A recent promising strategy to reduce the 
+MPs ’ concentration from the sludge is the hyperthermophilic compost -
+ing technology (hTC), which was demonstrated to reduce 45% of the 
+MPs after 45 days of treatment at a full-scale trial (Z. Chen et al., 2020 ). 
+Regarding passive treatments, Sarkar et al. (2021) studied the MPs ’ 
+and MFs ’ pollution in freshwater wetland systems used for wastewater 
+treatment. They estimated a MPs ’ removal of 50%, which is far lower 
+than most conventional primary treatments. Besides, an important 
+aspect to consider is that they identified variable amounts of heavy 
+metals (As, Cd, Cr, Cu, Ni, Pb, Zn), ranging from 2.03 μ g of arsenic per 
+gram for MPs to 191.01 μ g of zinc per gram of MPs. Fishes in the wetland 
+ponds were also contaminated with MPs and heavy metals. In this sense, 
+they concluded that natural wetlands are facing the risk of MPs pollu -
+tion, where MPs have gotten to the trophic state hindering and stressing 
+the wetland system. This article is in line with Li et al. (2020b) , who 
+reported an abundance of 5.5 × 10
+3 
+MPs per m
+3 
+of water in a freshwater 
+mangrove. However, as stated by Kumar et al. (2021) , the number of 
+MPs in wetlands will depend on various factors, such as the location, 
+proximity to urban settlements, human interference, among others. The 
+MPs ’ removal in natural wetlands could be very helpful for economically 
+under-developed countries. In any event, it is evident that retaining the 
+MFs before reaching WTPs will reduce their contamination to the 
+environment, i.e., short-to medium-term alternatives as washers ’ filters 
+can be a good alliance to reduce the flow of these pollutants either to 
+water, soil or atmospheric ecosystems. 
+4.3. Effects of MPs and MFs on water treatment plants 
+It has been reported that MPs in biological treatment might reduce 
+the abundance of the bacteria that is needed for the processes of nitri -
+fication, denitrification, among others. For instance, some MPs might 
+inhibit the sludge anaerobic digestion in all its phases; hydrolysis, 
+acidogenesis, acetogenesis, hydrogen, and methane production ( Wei 
+et al., 2019a , 2019b ; Zhang et al., 2020a ; Zhang and Chen, 2020 ). In 
+some cases, depending on the polymer, the effects might have different 
+origins. In this regard, polyethylene terephthalate (PET) and poly -
+ethylene (PE) induce the formation of reactive oxygen species (ROS, as 
+OH
+•
+or H
+2
+O
+2
+). PET and Polyvinyl chloride (PVC) can release bisphenol-A 
+(BPA) and di-n-butyl phthalate (DBP), respectively, both being toxic 
+compounds ( Wei et al., 2019a , 2019b , 2019c ). Minimum concentrations 
+for the effect were established at 10, 20, and 100 MP/g for PET, PVC, 
+and PE, respectively, which are realistic concentrations found in sludge 
+samples ( Li et al., 2018 ; Wei et al., 2019c ). On the other hand, poly -
+styrene nanoparticles affected the microbial community structures by 
+reducing the cumulative methane production by 15% ( Fu et al., 2018 ). 
+Regarding polyester MFs, Li et al. (2020a) found a reduction of methane 
+production for several concentrations. Yet, the inhibition was lower than 
+with other tested polymers. Also, Qin et al. (2020) tested with poly -
+ethersulfone MPs, and it was found that these particles slightly reduced 
+the removal of ammonia nitrogen. In this sense, it is also important to 
+have a better understanding of the effects that MPs and MFs will have on 
+the biota of WTPs. For instance, if the potential damage is elevated, it 
+will be necessary to remove them as much as possible before reaching 
+WTPs. 
+5. Gaps, criteria, and phases of the solutions 
+As in every environmental issue, the solutions must fulfill a minimal 
+Fig. 3. Percentage of retained microplastics and microfibers in a used-water treatment plant.  
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+9
+set of conditions to be considered practical and to provide a positive net 
+effect on the environment. Some of these criteria are mentioned 
+hereafter:  
+1. An effective solution should avoid producing secondary issues when 
+tackling the main concern. There are many ways to produce sec -
+ondary problems, for instance, high energy and resources re -
+quirements, the usage of toxic or hazardous substances, among 
+others. For example, the application of toxic compounds in the 
+process could imply the subsequent event of environmental 
+contamination (e.g., the use of methanol for producing textile coat -
+ings). Or, including washable coatings to textile articles could imply 
+an increase of the BOD at the effluent discharging areas. In this sense, 
+it could be of particular interest to perform a Life Cycle Assessment 
+(LCA) for each MFs ’ processing or retaining system.  
+2. Alternatives should also seek the possibility of closing the gap of the 
+MFs. In this line, some devices have shown great effectiveness in 
+retaining MFs in washing machines. However, the interrogative of 
+the posterior treatment must be equally and urgently solved.  
+3. The treatments or alternatives must be scalable. This is particularly 
+complex in the manufacturing process of textile articles and the 
+treatment of municipal waters. To better illustrate this, it must be 
+noticed that the manufacturing of textiles is produced at uncountable 
+points around the globe. In the same line, municipal waters are still 
+poorly treated in terms of the worldwide proportion, being approx -
+imately 80% of the waters discharged to the environment without 
+any treatment. On the other hand, including devices in the washing 
+machines could be easier in the short- and medium-terms.  
+4. In the case of devices intended for the users ’ application, these must 
+be practical and easy to handle. The higher the device complexity the 
+lower will be the implication of the users. This is furtherly explained 
+in the work of Herweyers et al. (2020) .  
+5. The economical parameter is also an important aspect to ponder. 
+Unless policies or regulations (laws) to reduce this contamination are 
+created, devices and/or processes should not exceed a “ critical ” 
+economical point in order to promote the users ’ engagement. 
+In this line, Herweyers et al. (2020) assessed the consumers ’ per -
+ceptions and attitudes toward systems preventing MFs pollution. With 
+this purpose, they determined the optimum requirement for these sys -
+tems through a consumer survey. They found that the MFs ’ problem and 
+peoples ’ washing behavior are underestimated. Besides, they con -
+structed a minimal set of requirements from a user point of view, which 
+are summarized next: 
+i. The solution must be effective and preferably visually experi -
+enced by the users so they can recognize their positive perfor -
+mance towards a cleaner environment.  
+ii. It must be durable and ensure long-term usage, i.e., disposable 
+solutions should not be considered.  
+ii. The usage or installation of the product should be easy.  
+iv. People from all socio-economic levels should be able to acquire 
+the product.  
+v. In case of a cleaning requirement of the product, it should be fast 
+and user-friendly. The achievable amount of cleaning periods was 
+found to be at every 15 – 17 washing cycles with a cleaning 
+duration of 10 min. 
+Also, further research is needed to investigate the possibilities to 
+close the loop for the collected MFs. There are a lot of gaps still to be 
+solved and to be investigated, as the MFs emitted to the air from the 
+daily usage of the garments, or ways to immobilize or use the retained 
+MFs. However, it must be noticed that there are environmental issues for 
+all the life cycle of the garments. For instance, as reported by the Ellen 
+MacArthur Foundation, less than 1% of the material used to manufac -
+ture garments is recycled into new garments ( Ellen MacArthur 
+Foundation, 2017 ). In this sense, the MFs are one of the missing pieces to 
+be solved in order to make the textile industry more sustainable, but 
+further investigation is needed to develop new ideas or to improve 
+already existing ones. 
+6. Conclusions 
+Many alternatives are available to reduce textile microfibers from 
+reaching the environment. Some options are currently more viable in the 
+short- and medium-term periods. The textile industry has the potential 
+to drastically reduce the generation of microfibers by improving their 
+processes or products. This could imply that downstream solutions 
+might be dispensable or less severe. However, there are many small- and 
+medium-sized textile industries around the globe, making this alterna -
+tive feasible only in the long-term time. Also, there are currently some 
+solutions for washers. These can reduce at least 30% of the microfibers ’ 
+emissions from household laundry. Besides, new products as detergents 
+or additives are being developed to reduce the generation of these 
+particles. 
+On the other hand, water treatment plants can partially remove the 
+microfibers from the liquid stream and retain them in the sludge. 
+Depending on the technology applied, these facilities can remove up to 
+99% of the microfibers. Yet, the problem is still transferred to the sludge. 
+In addition, installing these facilities is a long-term alternative. An 
+important gap in every alternative is the final disposition or treatment of 
+the microfibers. It is important to clarify that any solution must consider 
+the whole process to certify that it is environmentally friendly and will 
+not pollute more than the microfibers. Yet, it is very likely that the al -
+ternatives will be complementary between them, i.e., there will be no 
+single solution for the microfiber pollution. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+The authors acknowledge the support of the “ Secretaria d ’ Universitats 
+i Recerca del Departament d ’ Empresa i Coneixement de la Generalitat de 
+Catalunya ” for funding this project. 
+References 
+Abidli, S., Lahbib, Y., Trigui El Menif, N., 2019. Microplastics in commercial molluscs 
+from the lagoon of Bizerte (Northern Tunisia). Mar. Pollut. Bull. 142 (March), 
+243 – 252. https://doi.org/10.1016/j.marpolbul.2019.03.048 . 
+Alavian Petroody, S.S., Hashemi, S.H., van Gestel, C.A.M., 2020. Factors affecting 
+microplastic retention and emission by a wastewater treatment plant on the southern 
+coast of Caspian Sea. Chemosphere 261, 128179. https://doi.org/10.1016/j. 
+chemosphere.2020.128179 . 
+Allary, T., 2021. Future fashion. Ind. Biotechnol. 17 (4) https://doi.org/10.1089/ 
+ind.2021.29260.tal . 
+Bakaraki Turan, N., Sari Erkan, H., Onkal Engin, G., 2021. Microplastics in wastewater 
+treatment plants: occurrence, fate and identification. Process Saf. Environ. Protect. 
+146, 77 – 84. https://doi.org/10.1016/j.psep.2020.08.039 . 
+Ball, Cora, 2021. The Cora Ball. https://coraball.com/ . 
+Bao, W., Gong, R.H., Ding, X., Xue, Y., Li, P., Fan, W., 2017. Optimizing a laundering 
+program for textiles in a front-loading washing machine and saving energy. J. Clean. 
+Prod. 148, 415 – 421. https://doi.org/10.1016/j.jclepro.2017.01.161 . 
+Barrett, J., Chase, Z., Zhang, J., Holl, M.M.B., Willis, K., Williams, A., Hardesty, B.D., 
+Wilcox, C., Pennino, M.G., 2020. Microplastic pollution in deep-sea sediments from 
+the great Australian bight. https://doi.org/10.3389/fmars.2020.576170 , 7-October- 
+1-10.  
+Bayo, J., Olmos, S., L ´opez-Castellanos, J., Alcolea, A., 2016. Microplastics and 
+microfibers in the sludge of a municipal wastewater treatment plant. Int. J. Sustain. 
+Dev. Plann. 11 (5), 812 – 821. https://doi.org/10.2495/SDP-V11-N5-812-821 . 
+Bayo, Javier, L ´opez-Castellanos, J., Olmos, S., 2020. Membrane bioreactor and rapid 
+sand filtration for the removal of microplastics in an urban wastewater treatment 
+plant. Mar. Pollut. Bull. 156 (March), 111211. https://doi.org/10.1016/j. 
+marpolbul.2020.111211 . 
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+10
+Belzagui, F., Crespi, M., 
+´
+Alvarez, A., Guti ´errez-Bouz ´an, C., Vilaseca, M., 2019. 
+Microplastics ’ emissions: microfibers ’ detachment from textile garments. Environ. 
+Pollut. 248, 1028 – 1035. https://doi.org/10.1016/j.envpol.2019.02.059 . 
+Belzagui, F., Guti ´errez-Bouz ´an, C., 
+´
+Alvarez-S ´anchez, A., Vilaseca, M., 2020. Textile 
+microfibers reaching aquatic environments: a new estimation approach. Environ. 
+Pollut. 265 https://doi.org/10.1016/j.envpol.2020.114889 . 
+Blair, R.M., Waldron, S., Gauchotte-lindsay, C., 2019. Average daily flow of microplastics 
+through a tertiary wastewater treatment plant over a ten-month period. Water Res. 
+163, 114909. https://doi.org/10.1016/j.watres.2019.114909 . 
+Boucher, J., Friot, D., 2017. Primary Microplastics in the Oceans: A Global Evaluation of 
+Sources. IUCN. https://doi.org/10.2305/IUCN.CH.2017.01.en . 
+Browne, M.A., Crump, P., Niven, S.J., Teuten, E., Tonkin, A., Galloway, T., Thompson, R., 
+2011. Accumulation of microplastic on shorelines woldwide: sources and sinks. 
+Environ. Sci. Technol. 45, 9175 – 9179. https://doi.org/10.1021/es201811s . 
+Browne, M.A., Rochman, C.M., Browne, M.A., Halpern, B.S., Hentschel, B.T., Hoh, E., 
+Karapanagioti, H.K., Rios-Mendoza, L.M., Takada, H., Teh, S., Thompson, R.C., 2013. 
+Policy: classify plastic waste as hazardous. Nature 494 (7436), 169 – 171. https://doi. 
+org/10.1038/494169a . 
+Bullon, J., Gonz ´alez Arrieta, A., Hern ´andez Encinas, A., Queiruga Dios, A., 2017. 
+Manufacturing processes in the textile industry. Expert Systems for fabrics 
+production. ADCAIJ: Adv. Distr. Comput. Artif. Intell. J. 6 (4), 15 – 23. https://doi. 
+org/10.14201/adcaij2017641523 . 
+Carney Almroth, B.M., Åstr ¨om, L., Roslund, S., Petersson, H., Johansson, M., Persson, N. 
+K., 2018. Quantifying shedding of synthetic fibers from textiles; a source of 
+microplastics released into the environment. Environ. Sci. Pollut. Control Ser. 25 (2), 
+1191 – 1199. https://doi.org/10.1007/s11356-017-0528-7 . 
+Carosio, F., Blasio, A. Di, Cuttica, F., Alongi, J., Malucelli, G., Applicata, S., Torino, P., 
+Unit, L.I., Michel, V.T., 2014. Flame retardancy of polyester and polyester   cotton 
+blends treated with caseins. Ind. Eng. Chem. Res. 53, 3917 – 3923. https://doi.org/ 
+10.1021/ie404089t . 
+Carr, S.A., Liu, J., Tesoro, A.G., 2016. Transport and fate of microplastic particles in 
+wastewater treatment plants. Water Res. 91, 174 – 182. https://doi.org/10.1016/j. 
+watres.2016.01.002 . 
+Chen, L., Wang, C., Tian, A., Wu, M., 2012. An attempt of improving polyester inkjet 
+printing performance by surface modification using b-cyclodextrin. Surf. Interface 
+Anal. 1324 – 1330. https://doi.org/10.1002/sia.5023 . May.  
+Chen, Z., Zhao, W., Xing, R., Xie, S., Yang, X., Cui, P., Lü, J., Liao, H., Yu, Z., Wang, S., 
+Zhou, S., 2020. Enhanced in situ biodegradation of microplastics in sewage sludge 
+using hyperthermophilic composting technology. J. Hazard Mater. 384 (September 
+2019), 121271. https://doi.org/10.1016/j.jhazmat.2019.121271 . 
+Chen, G., Li, Y., Wang, J., 2021. Occurrence and ecological impact of microplastics in 
+aquaculture ecosystems. Chemosphere 274, 129989. https://doi.org/10.1016/j. 
+chemosphere.2021.129989 . 
+Cireli, A., Kutlu, B., Mutlu, M., 2007. Surface modification of polyester and polyamide 
+fabrics by low frequency plasma polymerization of acrylic acid. J. Appl. Polym. Sci. 
+104, 2318 – 2322. https://doi.org/10.1002/app.25701 . 
+Collignon, A., Hecq, J.H., Glagani, F., Voisin, P., Collard, F., Goffart, A., 2012. Neustonic 
+microplastic and zooplankton in the north western Mediterranean sea. Mar. Pollut. 
+Bull. 64 (4), 861 – 864. https://doi.org/10.1016/j.marpolbul.2012.01.011 . 
+Corradini, F., Meza, P., Eguiluz, R., Casado, F., Huerta-Lwanga, E., Geissen, V., 2019. 
+Evidence of microplastic accumulation in agricultural soils from sewage sludge 
+disposal. Sci. Total Environ. 671, 411 – 420. https://doi.org/10.1016/j. 
+scitotenv.2019.03.368 . 
+Cotton, L., Hayward, A.S., Lant, N.J., Blackburn, R.S., 2020. Improved garment longevity 
+and reduced microfibre release are important sustainability benefits of laundering in 
+colder and quicker washing machine cycles. Dyes Pigments 177, 108120. https:// 
+doi.org/10.1016/j.dyepig.2019.108120 . 
+Cox, K.D., Covernton, G.A., Davies, H.L., Dower, J.F., Juanes, F., Dudas, S.E., 2019. 
+Human Consumption of Microplastics. Environmental Science & Technology. 
+https://doi.org/10.1021/acs.est.9b01517 acs.est.9b01517.  
+Dalla, G., Mossotti, R., Montarsolo, A., 2020. Assessment of microplastics release from 
+polyester fabrics: the impact of different washing conditions. Environ. Pollut. 264, 
+113960. https://doi.org/10.1016/j.envpol.2020.113960 . 
+De Falco, F., Gentile, G., Avolio, R., Errico, M.E., Di Pace, E., Ambrogi, V., Avella, M., 
+Cocca, M., 2018a. Pectin based finishing to mitigate the impact of microplastics 
+released by polyamide fabrics. Carbohydr. Polym. 198 (May), 175 – 180. https://doi. 
+org/10.1016/j.carbpol.2018.06.062 . 
+De Falco, F., Gullo, M.P., Gentile, G., Di Pace, E., Cocca, M., Gelabert, L., Brouta- 
+Agn ´esa, M., Rovira, A., Escudero, R., Villalba, R., Mossotti, R., Montarsolo, A., 
+Gavignano, S., Tonin, C., Avella, M., 2018b. Evaluation of microplastic release 
+caused by textile washing processes of synthetic fabrics. Environ. Pollut. 236, 
+916 – 925. https://doi.org/10.1016/j.envpol.2017.10.057 . 
+De Falco, F., Cocca, M., Guarino, V., Gentile, G., Ambrogi, V., Ambrosio, L., Avella, M., 
+2019. Novel finishing treatments of polyamide fabrics by electrofluidodynamic 
+process to reduce microplastic release during washings. Polym. Degrad. Stabil. 165, 
+110 – 116. https://doi.org/10.1016/j.polymdegradstab.2019.05.001 . 
+ECHA, 2019. Restriction Report - Proposal. https://echa.europa.eu/registry-of-restrictio 
+n-intentions/-/dislist/details/0b0236e18244cd73 . 
+Edo, C., Gonz ´alez-Pleiter, M., Legan ´es, F., Fern ´andez-Pi ˜nas, F., Rosal, R., 2020. Fate of 
+microplastics in wastewater treatment plants and their environmental dispersion 
+with effluent and sludge. Environ. Pollut. 259 https://doi.org/10.1016/j. 
+envpol.2019.113837 . 
+EEA, 2017. Urban waste water treatment. In: Official Journal of the European Union 
+(Issue L). http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri = CELEX:31991 
+L0271 & from = EN . 
+Eerkes-Medrano, D., Leslie, H.A., Quinn, B., 2019. Microplastics in drinking water: a 
+review and assessment. Curr. Opin. Environ. Sci. Health 7, 69 – 75. https://doi.org/ 
+10.1016/j.coesh.2018.12.001 . 
+Elgarahy, A.M., Elwakeel, K.Z., Mohammad, S.H., Elshoubaky, G.A., 2021a. A critical 
+review of biosorption of dyes , heavy metals and metalloids from wastewater as an 
+efficient and green process. Clean. Eng. Technol. 4 (July), 100209. https://doi.org/ 
+10.1016/j.clet.2021.100209 . 
+Elgarahy, A.M., Akhdhar, A., Elwakeel, K.Z., 2021b. Microplastics prevalence , 
+interactions , and remediation in the aquatic environment : a critical review. 
+J. Environ. Chem. Eng. 9 (5), 106224. https://doi.org/10.1016/j.jece.2021.106224 . 
+Ellen MacArthur Foundation, 2017. A New Textiles Economy: Redesigning Fashion ’ s 
+Future. http://www.ellenmacarthurfoundation.org/publications . 
+Elwakeel, K.Z., Elgarahy, A.M., Khan, Z.A., Almughamisi, M.S., Al-bogami, A.S., 2020. 
+Perspectives Regarding Metal/mineral-Incorporating Materials for Water 
+Purification: with Special Focus on Cr(VI) Removal, pp. 1546 – 1574. https://doi.org/ 
+10.1039/d0ma00153h . 
+Folk ¨o, A., 2015. Quantification and Characterization of Fibers Emitted from Common 
+Synthetic Materials during Washing . 
+Fossi, M.C., Coppola, D., Baini, M., Giannetti, M., Guerranti, C., Marsili, L., Panti, C., de 
+Sabata, E., Cl `o, S., 2014. Large filter feeding marine organisms as indicators of 
+microplastic in the pelagic environment: the case studies of the Mediterranean 
+basking shark (Cetorhinus maximus) and fin whale (Balaenoptera physalus). Mar. 
+Environ. Res. 100, 17 – 24. https://doi.org/10.1016/j.marenvres.2014.02.002 . 
+Franco, A.A., Arellano, J.M., Albendín, G., Rodríguez-barroso, R., Zahedi, S., 2020. 
+Mapping microplastics in Cadiz (Spain): occurrence of microplastics in municipal 
+and industrial wastewaters. J. Water Proc. Eng. 38 (August), 101596. https://doi. 
+org/10.1016/j.jwpe.2020.101596 . 
+Fu, S.F., Ding, J.N., Zhang, Y., Li, Y.F., Zhu, R., Yuan, X.Z., Zou, H., 2018. Exposure to 
+polystyrene nanoplastic leads to inhibition of anaerobic digestion system. Sci. Total 
+Environ. 625, 64 – 70. https://doi.org/10.1016/j.scitotenv.2017.12.158 . 
+Galv ˜ao, A., Aleixo, M., Pablo, H. De, Lopes, C., Raimundo, J., 2020. Microplastics in 
+wastewater: microfiber emissions from common household laundry. Environ. Sci. 
+Pollut. Control Ser. https://doi.org/10.1007/s11356-020-08765-6 . 
+Garcia, S., Cordeiro, A., N ¨a ¨as, I. de A., Costa Neto, P.L. de O., 2019. The sustainability 
+awareness of Brazilian consumers of cotton clothing. J. Clean. Prod. 215, 
+1490 – 1502. https://doi.org/10.1016/j.jclepro.2019.01.069 . 
+Gasperi, J., Dris, R., Rocher, V., Tassin, B., 2015. Microplastics in the continental area: an 
+emerging challenge. In: Norman Bulletin (Issue 4) .  
+Gesamp, 2015a. Sources, fate and effects of microplastics in the marine environment: a 
+global assessment. In: GESAMP, vol. 90 issn: 1020-4873%5Cnhttp ://ec.europa.eu/ 
+environment/marine/good-environmental-status/descriptor-10/pdf/GESAMP_ 
+microplastics full study.pdf .  
+Gesamp, 2015b. Sources, fate and effects of microplastics in the marine environment: a 
+global assessment. In: GESAMP, vol. 90 . 
+Gies, E.A., LeNoble, J.L., No ¨el, M., Etemadifar, A., Bishay, F., Hall, E.R., Ross, P.S., 2018. 
+Retention of microplastics in a major secondary wastewater treatment plant in 
+Vancouver, Canada. Mar. Pollut. Bull. 133 (June), 553 – 561. https://doi.org/ 
+10.1016/j.marpolbul.2018.06.006 . 
+Glampedaki, P., Kr ¨agel, J., Petzold, G., Dutschk, V., Miller, R., Warmoeskerken, M.M.C. 
+G., 2012. Polyester textile functionalisation through incorporation of pH/thermo- 
+responsive microgels. Part I: microgel preparation and characterisation. Colloids 
+Surf. A Physicochem. Eng. Asp. 413, 334 – 341. https://doi.org/10.1016/j. 
+colsurfa.2012.06.022 . 
+UNEP, Grid-Arendal, 2016. Marine Litter Vital Graphics. http://www.unep.org/regionals 
+eas/marinelitter/publications/docs/anl_oview.pdf . 
+Gündo ˘gdu, S., Çevik, C., Güzel, E., Kilercio ˘glu, S., 2018. Microplastics in municipal 
+wastewater treatment plants in Turkey: a comparison of the influent and secondary 
+effluent concentrations. Environ. Monit. Assess. 190 (11) https://doi.org/10.1007/ 
+s10661-018-7010-y . 
+GuppyFriend, 2021. The GuppyFriend Washing Bag. https://guppyfriend.com/ . 
+Hamidian, A.H., Ozumchelouei, E.J., Feizi, F., Wu, C., Zhang, Y., Yang, M., 2021. 
+A review on the characteristics of microplastics in wastewater treatment plants: a 
+source for toxic chemicals. J. Clean. Prod. 295, 126480. https://doi.org/10.1016/j. 
+jclepro.2021.126480 . 
+Hartline, N.L., Bruce, N.J., Karba, S.N., Ru, E.O., Sonar, S.U., Holden, P.A., 2016. 
+Microfiber masses recovered from conventional machine washing of new or aged 
+garments. Environ. Sci. Technol. 50, 11532 – 11538. https://doi.org/10.1021/acs. 
+est.6b03045 . 
+He, C., Xia, W., Zhou, C., Huang, D., Zhang, C., Song, B., 2022. Rational Design to 
+Manganese and Oxygen Co-doped Polymeric Carbon Nitride for Efficient Nonradical 
+Activation of Peroxymonosulfate and the Mechanism Insight, p. 430. https://doi. 
+org/10.1016/j.cej.2021.132751 . October 2021.  
+Henry, B., Laitala, K., Grimstad, I., 2019. Microfibres from apparel and home textiles: 
+prospects for including microplastics in environmental sustainability assessment. Sci. 
+Total Environ. 652, 483 – 494. https://doi.org/10.1016/j.scitotenv.2018.10.166 . 
+Herweyers, L., Carteny, C.C., Scheelen, L., Watts, R., Bois, E. Du, 2020. Consumers ’ 
+perceptions and attitudes toward products preventing microfiber pollution in aquatic 
+environments as a result of the domestic washing of synthetic clothes. Sustainability 
+12 (6). https://doi.org/10.3390/su12062244 . 
+InfoDev, 2008. The global textile and garments industry: the role of information and 
+communication technologies (ICTs) in exploiting the value chain. In: Information for 
+Development Program, the International Bank for Reconstruction and Development/ 
+The World Bank. https://www.infodev.org/infodev-files/resource/InfodevDo 
+cuments_582.pdf . 
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+11
+Islam, Z., 2019. Comparing quality parameters of yarn produced by ring, rotor, and 
+compact spinning system. Eur. Sci. J. ESJ 15 (3), 461 – 477. https://doi.org/ 
+10.19044/esj.2019.v15n3p461 . 
+Jemec, A., Horvat, P., Kunej, U., Bele, M., Krzan, A., 2016. Uptake and effects of 
+microplastic textile fibers on freshwater crustacean Daphnia magna. Environ. Pollut. 
+219, 201 – 209. https://doi.org/10.1016/j.envpol.2016.10.037 . 
+Kapp, K.J., Miller, R.Z., 2020. Electric clothes dryers: an underestimated source of 
+microfiber pollution. PLoS One 1 – 17. https://doi.org/10.1371/journal. 
+pone.0239165 . 
+Koelmans, A.A., Mohamed Nor, N.H., Hermsen, E., Kooi, M., Mintenig, S.M., De 
+France, J., 2019. Microplastics in freshwaters and drinking water: critical review and 
+assessment of data quality. Water Res. 155, 410 – 422. https://doi.org/10.1016/j. 
+watres.2019.02.054 . 
+Kosuth, M., Mason, S.A., Wattenberg, E.V., 2018. Anthropogenic contamination of tap 
+water, beer, and sea salt. PLoS One 13 (4), 1 – 18. https://doi.org/10.1371/journal. 
+pone.0194970 . 
+Kumar, R., Sharma, P., Bandyopadhyay, S., 2021. Evidence of microplastics in wetlands: 
+extraction and quantification in Freshwater and coastal ecosystems. J. Water Proc. 
+Eng. 40 (December 2020), 101966. https://doi.org/10.1016/j.jwpe.2021.101966 . 
+Lares, M., Ncibi, M.C., Sillanp ¨a ¨a, M., Sillanp ¨a ¨a, M., 2018. Occurrence, identification and 
+removal of microplastic particles and fibers in conventional activated sludge process 
+and advanced MBR technology. Water Res. 133, 236 – 246. https://doi.org/10.1016/ 
+j.watres.2018.01.049 . 
+Leslie, H.A., Brandsma, S.H., van Velzen, M.J.M., Vethaak, A.D., 2017. Microplastics en 
+route: field measurements in the Dutch river delta and Amsterdam canals, 
+wastewater treatment plants, North Sea sediments and biota. Environ. Int. 101, 
+133 – 142. https://doi.org/10.1016/j.envint.2017.01.018 . 
+Li, X., Chen, L., Mei, Q., Dong, B., Dai, X., Ding, G., Zeng, E.Y., 2018. Microplastics in 
+sewage sludge from the wastewater treatment plants in China. Water Res. 142, 
+75 – 85. https://doi.org/10.1016/j.watres.2018.05.034 . 
+Li, L., Geng, S., Li, Z., Song, K., 2020a. Effect of microplastic on anaerobic digestion of 
+wasted activated sludge. Chemosphere 247. https://doi.org/10.1016/j. 
+chemosphere.2020.125874 . 
+Li, R., Zhang, S., Zhang, L., Yu, K., Wang, S., Wang, Y., 2020b. Field study of the 
+microplastic pollution in sea snails (Ellobium chinense) from mangrove forest and 
+their relationships with microplastics in water/sediment located on the north of 
+Beibu Gulf. Environ. Pollut. 263, 114368 https://doi.org/10.1016/j. 
+envpol.2020.114368 . 
+Lint, L.U.V.-R., 2021. MicroPlastics Lint LUV-R Washing Machine Discharge Filter. 
+Environmental Enhancements. https://environmentalenhancements.com/store/i 
+ndex.php/products/products-lint-filter . 
+Ma, B., Xue, W., Ding, Y., Hu, C., Liu, H., Qu, J., 2019a. Removal characteristics of 
+microplastics by Fe-based coagulants during drinking water treatment. J. Environ. 
+Sci. (China) 78, 267 – 275. https://doi.org/10.1016/j.jes.2018.10.006 . 
+Ma, B., Xue, W., Hu, C., Liu, H., Qu, J., Li, L., 2019b. Characteristics of microplastic 
+removal via coagulation and ultrafiltration during drinking water treatment. Chem. 
+Eng. J. 359 (November 2018), 159 – 167. https://doi.org/10.1016/j.cej.2018.11.155 . 
+Magni, S., Binelli, A., Pittura, L., Avio, C.G., Della Torre, C., Parenti, C.C., Gorbi, S., 
+Regoli, F., 2019. The fate of microplastics in an Italian wastewater treatment plant. 
+Sci. Total Environ. 652, 602 – 610. https://doi.org/10.1016/j.scitotenv.2018.10.269 . 
+Magnusson, K., Nor ´en, F., 2014. Screening Of Microplastic Particles in and Down-Stream a 
+Wastewater Treatment Plant (Issue C 55) https://doi.org/naturvardsverket-2226 .  
+Magnusson, K., Eliasson, K., Fråne, A., Haikonen, K., Hult ´en, J., Olshammar, M., 
+Stadmark, J., Voisin, A., 2016. Swedish Sources and Pathways for Microplastics to 
+the Marine Environment: A Review of Existing Data (Issue C183) .  
+Mahbub, S., Shams, M., 2022. Acrylic fabrics as a source of microplastics from potable 
+washer and dryer: impact of washing and drying parameters. Sci. Total Environ. 834, 
+155429 . 
+Mahon, A.M., O ’ Connell, B., Healy, M.G., O ’ Connor, I., Officer, R., Nash, R., Morrison, L., 
+2017. Microplastics in sewage sludge: effects of treatment. Environ. Sci. Technol. 51 
+(2), 810 – 818. https://doi.org/10.1021/acs.est.6b04048 . 
+Mao, R., Lang, M., Yu, X., Wu, R., Yang, X., Guo, X., 2020. Aging mechanism of 
+microplastics with UV irradiation and its effects on the adsorption of heavy metals. 
+J. Hazard Mater. 393 (December 2019), 122515. https://doi.org/10.1016/j. 
+jhazmat.2020.122515 . 
+Mara, D., 2004. Domestic Wastewater Treatment in Developing Countries. EARTHSCAN 
+PUBLICATIONS LTD . 
+Maraseni, T., Cockfield, G., Maroulis, J., 2010. An assessment of greenhouse gas 
+emissions: implications for the Australian cotton industry. J. Agric. Sci. 148 (5), 
+501 – 510. https://doi.org/10.1017/S002185960999058X . 
+Martel, B., Morcellet, M., Ruffin, D., Ducoroy, L., Weltrowski, M., 2002. Finishing of 
+polyester fabrics with cyclodextrins and polycarboxylic acids as crosslinking agents. 
+J. Inclusion Phenom. Macrocycl. Chem. 44, 443 – 446 . 
+McIlwraith, H.K., Lin, J., Erdle, L.M., Mallos, N., Diamond, M.L., Rochman, C.M., 2019. 
+Capturing microfibers – marketed technologies reduce microfiber emissions from 
+washing machines. Mar. Pollut. Bull. 139 (August 2018), 40 – 45. https://doi.org/ 
+10.1016/j.marpolbul.2018.12.012 . 
+Mermaids, 2017. Good Practice Guide (p. 2). o .  
+Mermaids, 2018. Handbook for Zero Microplastics from Textiles and Laundry Good 
+Practice Guidelines for the Textile Industry. http://oceancleanwash.org/wp-conten 
+t/uploads/2018/10/Handbook-for-zero-microplastics-from-textiles-and-laundry-de 
+veloped-2.pdf . 
+Michielssen, M.R., Michielssen, E.R., Ni, J., Duhaime, M.B., 2016. Fate of microplastics 
+and other small anthropogenic litter (SAL) in wastewater treatment plants depends 
+on unit processes employed. Environ. Sci.: Water Res. Technol. 2 (6), 1064 – 1073. 
+https://doi.org/10.1039/C6EW00207B . 
+Mintenig, S.M., Int-Veen, I., L ¨oder, M.G.J., Primpke, S., Gerdts, G., 2017. Identification of 
+microplastic in effluents of waste water treatment plants using focal plane array- 
+based micro-Fourier-transform infrared imaging. Water Res. 108, 365 – 372. https:// 
+doi.org/10.1016/j.watres.2016.11.015 . 
+Mintenig, S.M., L ¨oder, M.G.J., Primpke, S., Gerdts, G., 2019. Low numbers of 
+microplastics detected in drinking water from ground water sources. Sci. Total 
+Environ. 648, 631 – 635. https://doi.org/10.1016/j.scitotenv.2018.08.178 . 
+Murphy, F., Ewins, C., Carbonnier, F., Quinn, B., 2016. Wastewater treatment works 
+(WwTW) as a source of microplastics in the aquatic environment. Environ. Sci. 
+Technol. 50 (11), 5800 – 5808. https://doi.org/10.1021/acs.est.5b05416 . 
+Muthu, S.S., 2017. In: Muthu, S.S. (Ed.), Sustainable in the Textile Industry. Springer. 
+https://doi.org/10.1007/978-981-10-2639-3 . 
+Napper, I.E., Thompson, R.C., 2016. Release of synthetic microplastic plastic fibres from 
+domestic washing machines: effects of fabric type and washing conditions. Mar. 
+Pollut. Bull. 112 (1 – 2), 39 – 45. https://doi.org/10.1016/j.marpolbul.2016.09.025 . 
+Napper, I.E., Barrett, A.C., Thompson, R.C., 2020. The efficiency of devices intended to 
+reduce microfibre release during clothes washing. Sci. Total Environ. 738 https:// 
+doi.org/10.1016/j.scitotenv.2020.140412 . 
+Nelms, S.E., Galloway, T.S., Godley, B.J., Jarvis, D.S., Lindeque, P.K., 2018. Investigating 
+microplastic trophic transfer in marine top predators. Environ. Pollut. 238, 
+999 – 1007. https://doi.org/10.1016/j.envpol.2018.02.016 . 
+Nergis, B., 2017. An overview of hybrid ring spinning methods. Curr. Trends Fash. 
+Technol. Textil. Eng. 1 (5), 94 – 96. https://doi.org/10.19080/ctftte.2017.01.555572 . 
+Nizzetto, L., Futter, M., Langaas, S., 2016. Are agricultural soils dumps for microplastics 
+of urban origin? Environ. Sci. Technol. 50 (20), 10777 – 10779. https://doi.org/ 
+10.1021/acs.est.6b04140 . 
+Ohkubo, N., Ito, M., Hano, T., Kono, K., Mochida, K., 2020. Estimation of the uptake and 
+gut retention of microplastics in juvenile marine fish: mummichogs (Fundulus 
+heteroclitus) and red seabreams (Pagrus major). Mar. Pollut. Bull. 160 (August), 
+111630. https://doi.org/10.1016/j.marpolbul.2020.111630 . 
+ONU, 2017. World Water Development Report 2017. www.unwater.org . 
+Ossmann, B.E., 2021. Microplastics in drinking water? Present state of knowledge and 
+open questions. Curr. Opin. Food Sci. 42, 44 – 51. https://doi.org/10.1016/j. 
+cofs.2021.02.011 . 
+Ossmann, B.E., Sarau, G., Holtmannsp ¨otter, H., Pischetsrieder, M., Christiansen, S.H., 
+Dicke, W., 2018. Small-sized microplastics and pigmented particles in bottled 
+mineral water. Water Res. 141, 307 – 316. https://doi.org/10.1016/j. 
+watres.2018.05.027 . 
+O ß mann, B.E., 2021. Microplastics in drinking water? Present state of knowledge and 
+open questions. Curr. Opin. Food Sci. 41, 44 – 51. https://doi.org/10.1016/j. 
+cofs.2021.02.011 . 
+O ’ Brien, S., Okoffo, E.D., O ’ Brien, J.W., Ribeiro, F., Wang, X., Wright, S.L., 
+Samanipour, S., Rauert, C., Toapanta, T.Y.A., Albarracin, R., Thomas, K.V., 2020. 
+Airborne emissions of microplastic fibres from domestic laundry dryers. Sci. Total 
+Environ. 747, 141175. https://doi.org/10.1016/j.scitotenv.2020.141175 . 
+Patagonia, 2018. An Update on Microfiber Pollution. https://www.patagonia.com/stori 
+es/an-update-on-microfiber-pollution/story-31370.html . 
+Patterson, J., Jeyasanta, K.I., Sathish, N., Booth, A.M., Edward, J.K.P., 2019. Profiling 
+microplastics in the Indian edible oyster, Magallana bilineata collected from the 
+Tuticorin coast, Gulf of Mannar, Southeastern India. Sci. Total Environ. 691, 
+727 – 735. https://doi.org/10.1016/j.scitotenv.2019.07.063 . 
+Peters, G., Li, M., Lenzen, M., 2021. The need to decelerate fast fashion in a hot climate - 
+a global sustainability perspective on the garment industry. J. Clean. Prod. 295, 
+126390. https://doi.org/10.1016/j.jclepro.2021.126390 . 
+Pham, N.B., Kuy, 2013. Decentralised domestic wastewater management in Asia – 
+challenges and opportunities. In: Water Environment Partnership In Asia (Issue 
+March). http://www.wepa-db.net/pdf/1403policy_brief/PolicyBrief_2013_1.pdf . 
+Pirc, U., Vidmar, M., Mozer, A., Kr, A., 2016. Emissions of microplastic fibers from 
+microfiber fleece during domestic washing. Environ. Sci. Pollut. Res. 23, 
+22206 – 22211. https://doi.org/10.1007/s11356-016-7703-0 . 
+PlanetCare, 2021. PlanetCare. https://www.planetcare.org/en/ . 
+Plastic Pollution Coalition, 2017. 15 Ways to Stop Microfiber Pollution Now. https:// 
+www.plasticpollutioncoalition.org/pft/2017/3/2/15-ways-to-stop-microfiber-poll 
+ution-now . 
+Qin, R., Su, C., Liu, W., Tang, L., Li, X., Deng, X., Wang, A., Chen, Z., 2020. Effects of 
+exposure to polyether sulfone microplastic on the nitrifying process and microbial 
+community structure in aerobic granular sludge. Bioresour. Technol. 302 (January), 
+122827. https://doi.org/10.1016/j.biortech.2020.122827 . 
+Rahman, S.S., Siddiqua, S., Cherian, C., 2022. Sustainable Applications of Textile Waste 
+Fiber in the Construction and Geotechnical Industries: A Retrospect. Cleaner 
+Engineering And Technology . https://doi.org/10.1016/j.clet.2022.100420 . 
+Raju, S., Carbery, M., Kuttykattil, A., Senthirajah, K., Lundmark, A., Rogers, Z., Scb, S., 
+Evans, G., Palanisami, T., 2020. Improved methodology to determine the fate and 
+transport of microplastics in a secondary wastewater treatment plant. Water Res. 
+173, 115549. https://doi.org/10.1016/j.watres.2020.115549 . 
+Rese, A., Baier, D., Rausch, T.M., 2022. Success factors in sustainable textile product 
+innovation: an empirical investigation. J. Clean. Prod. 331 (May 2021), 129829. 
+https://doi.org/10.1016/j.jclepro.2021.129829 . 
+Rochman, C.M., Scherer, C., Alvarez-Mu ˜noz, D., Brennholt, N., Bourrain, X., 
+Buchinger, S., Fries, E., Grosbois, C., Klasmeier, J., Marti, T., Rodriguez-Mozaz, S., 
+Urbatzka, R., Vethaak, A.D., Winther-Nielsen, M., Reifferscheid, G., Maynard, T., 
+Peck, L., Pretty, J., Prior, S., Takada, H., 2013. Plastics and priority pollutants: a 
+multiple stressor in aquatic habitats. Environ. Sci. Technol. 47 (6), 2439 – 2440. 
+https://doi.org/10.1021/es400748b . 
+Rochman, C.M., Kurobe, T., Flores, I., Teh, S.J., 2014. Early warning signs of endocrine 
+disruption in adult fish from the ingestion of polyethylene with and without sorbed 
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       
+
+Journal of Environmental Management 317 (2022) 115347
+12
+chemical pollutants from the marine environment. Sci. Total Environ. 493, 656 – 661. 
+https://doi.org/10.1016/j.scitotenv.2014.06.051 . 
+Rochman, C.M., Kross, S.M., Armstrong, J.B., onathan, B., Bogan, M.T., Darling, E.S., 
+Green, S.J., Smyth, A.R., Veríssimo, D., 2015. Scientific evidence supports a ban on 
+microbeads. Environ. Sci. Technol. 49 (18), 10759 – 10761. https://doi.org/10.1021/ 
+acs.est.5b03909 . 
+Rojas, J., Azevedo, E., 2011. Functionalization and crosslinking OF microcrystalline 
+cellulose IN aqueous media. Int. J. Pharmaceut. Sci. Rev. Res. 8 (1), 28 – 36 . 
+Rolsky, C., Kelkar, V., Driver, E., Halden, R.U., 2020. Municipal sewage sludge as a 
+source of microplastics in the environment. Curr. Opin. Environ. Sci. Health 14, 
+16 – 22. https://doi.org/10.1016/j.coesh.2019.12.001 . 
+Rukhaya, S., Yadav, S., Rose, N.M., Grover, A., 2021. Sustainable approach to counter 
+the environmental impact of fast fashion. Pharma Innov. 10 (8), 517 – 523 . 
+Salvador, F., 2017. Micropl ´asticos t ˆexteis: emissao de fibras sint ´eticas na lavagem 
+dom ´estica. Universidade de Sao Paulo . 
+Salvador, F., Turra, A., Herminio, H., Leonardi, B., Baruque-ramos, J., 2020. Laundering 
+and textile parameters influence fibers release in household washings. Environ. 
+Pollut. 257 (113553) https://doi.org/10.1016/j.envpol.2019.113553 . 
+SAPEA, 2019. A Scientific Perspective on Microplastics in Nature and Society | SAPEA. In 
+Evidence Review Report . https://doi.org/10.26356/microplastics . 
+Sarkar, D.J., Das Sarkar, S., Das, B.K., Sahoo, B.K., Das, A., Nag, S.K., Manna, R.K., 
+Behera, B.K., Samanta, S., 2021. Occurrence, fate and removal of microplastics as 
+heavy metal vector in natural wastewater treatment wetland system. Water Res. 192, 
+116853. https://doi.org/10.1016/j.watres.2021.116853 . 
+Schymanski, D., Goldbeck, C., Humpf, H.U., Fürst, P., 2018. Analysis of microplastics in 
+water by micro-Raman spectroscopy: release of plastic particles from different 
+packaging into mineral water. Water Res. 129, 154 – 162. https://doi.org/10.1016/j. 
+watres.2017.11.011 . 
+Shruti, V.C., P ´erez-Guevara, F., Kutralam-Muniasamy, G., 2020. Metro station free 
+drinking water fountain- A potential “ microplastics hotspot ” for human 
+consumption. Environ. Pollut. 261 https://doi.org/10.1016/j.envpol.2020.114227 . 
+Stawreberg, L., Wikstr ¨om, F., 2011. Does the energy labelling system for domestic tumble 
+dryers serve its purpose? J. Clean. Prod. 19 (12), 1300 – 1305. https://doi.org/ 
+10.1016/j.jclepro.2011.03.016 . 
+Sun, J., Dai, X., Wang, Q., van Loosdrecht, M.C.M., Ni, B.J., 2019. Microplastics in 
+wastewater treatment plants: detection, occurrence and removal. Water Res. 152, 
+21 – 37. https://doi.org/10.1016/j.watres.2018.12.050 . 
+Svensson, S.E., Ferreira, J.A., Hakkarainen, M., Adolfsson, K.H., Zamani, A., 2021. 
+Fungal textiles: wet spinning of fungal microfibers to produce monofilament yarns. 
+Sustain. Mater. Technol. 28 https://doi.org/10.1016/j.susmat.2021.e00256 . 
+Ta, A.T., Babel, S., 2020. Microplastic contamination on the lower Chao Phraya: 
+abundance, characteristic and interaction with heavy metals. Chemosphere 257, 
+127234. https://doi.org/10.1016/j.chemosphere.2020.127234 . 
+Talvitie, J., Heinonen, M., P ¨a ¨akk ¨onen, J.P., Vahtera, E., Mikola, A., Set ¨al ¨a, O., Vahala, R., 
+2015. Do wastewater treatment plants act as a potential point source of 
+microplastics? Preliminary study in the coastal Gulf of Finland, Baltic Sea. Water Sci. 
+Technol. 72 (9), 1495 – 1504. https://doi.org/10.2166/wst.2015.360 . 
+Talvitie, J., Mikola, A., Koistinen, A., Set ¨al ¨a, O., 2017a. Solutions to microplastic 
+pollution – removal of microplastics from wastewater effluent with advanced 
+wastewater treatment technologies. Water Res. 123, 401 – 407. https://doi.org/ 
+10.1016/j.watres.2017.07.005 . 
+Talvitie, J., Mikola, A., Setala, O., Heinonen, M., Koistinen, A., 2017b. How well is 
+microlitter purified from wastewater? – a detailed study on the stepwise removal of 
+microlitter in a tertiary level wastewater treatment plant. Water Res. 109, 164 – 172. 
+https://doi.org/10.1016/j.watres.2016.11.046 . 
+TeGrotenhuis, W., Butterfield, A., Caldwell, D., Crook, A., Winkleman, A., 2017. 
+Modeling and design of a high efficiency hybrid heat pump clothes dryer. Appl. 
+Therm. Eng. 124, 170 – 177. https://doi.org/10.1016/j.applthermaleng.2017.05.048 . 
+Teng, J., Wang, Q., Ran, W., Wu, D., Liu, Y., Sun, S., Liu, H., Cao, R., Zhao, J., 2019. 
+Microplastic in cultured oysters from different coastal areas of China. Sci. Total 
+Environ. 653, 1282 – 1292. https://doi.org/10.1016/j.scitotenv.2018.11.057 . 
+Tiffin, L., Hazlehurst, A., Sumner, M., Taylor, M., 2021. Reliable quantification of 
+microplastic release from the domestic laundry of textile fabrics. J. Textil. Inst. 1 – 9. 
+https://doi.org/10.1080/00405000.2021.1892305 , 0(0).  
+Trad, M., Miled, W., Benltoufa, S., Boughattas, A., Benslama, R., Fayala, F., Bakhrouf, A., 
+2018. Chitosan hydrogel-coated cotton fabric: antibacterial, pH-responsiveness, and 
+physical properties. J. Appl. Polym. Sci. 135 (34), 1 – 9. https://doi.org/10.1002/ 
+app.46645 . 
+Turner, A., Holmes, L., Thompson, R.C., Fisher, A.S., 2020. Metals and marine 
+microplastics: adsorption from the environment versus addition during manufacture, 
+exemplified with lead. Water Res. 173, 115577. https://doi.org/10.1016/j. 
+watres.2020.115577 . 
+Un-Water, 2021. Summary Progress Update 2021: SDG 6 — Water and Sanitation for All. 
+UN-water Integrated Monitoring Initiative , 1 – 58. https://www.unwater.org/new-dat 
+a-on-global-progress-towards-ensuring-water-and-sanitation-for-all-by-2030/ . 
+Van Cauwenberghe, L., Janssen, C.R., 2014. Microplastics in bivalves cultured for human 
+consumption. Environ. Pollut. 193, 65 – 70. https://doi.org/10.1016/j. 
+envpol.2014.06.010 . 
+van Sebille, E., Wilcox, C., Lebreton, L., Maximenko, N., Hardesty, B.D., van Franeker, J. 
+A., Eriksen, M., Siegel, D., Galgani, F., Law, K.L., 2015. A global inventory of small 
+floating plastic debris. Environ. Res. Lett. 10 (12), 124006. https://doi.org/10.1088/ 
+1748-9326/10/12/124006 . 
+Vital, S.A., Cardoso, C., Avio, C., Pittura, L., Regoli, F., Bebianno, M.J., 2021. Do 
+microplastic contaminated seafood consumption pose a potential risk to human 
+health? Mar. Pollut. Bull. 171 (April), 112769. https://doi.org/10.1016/j. 
+marpolbul.2021.112769 . 
+Wagner, M., Lambert, S., 2018. Freshwater Microplastics - the Handbook of 
+Environmental Chemistry. https://doi.org/10.1007/978-3-319-61615-5 . 
+Wang, Z., Lin, T., Chen, W., 2020. Occurrence and removal of microplastics in an 
+advanced drinking water treatment plant (ADWTP). Sci. Total Environ. 700, 134520. 
+https://doi.org/10.1016/j.scitotenv.2019.134520 . 
+Wei, W., Huang, Q.S., Sun, J., Dai, X., Ni, B.J., 2019a. Revealing the mechanisms of 
+polyethylene microplastics affecting anaerobic digestion of waste activated sludge 
+[Research-article]. Environ. Sci. Technol. 53 (16), 9604 – 9613. https://doi.org/ 
+10.1021/acs.est.9b02971 . 
+Wei, W., Huang, Q.S., Sun, J., Wang, J.Y., Wu, S.L., Ni, B.J., 2019b. Polyvinyl chloride 
+microplastics affect methane production from the anaerobic digestion of waste 
+activated sludge through leaching toxic bisphenol-A [Research-article]. Environ. Sci. 
+Technol. 53 (5), 2509 – 2517. https://doi.org/10.1021/acs.est.8b07069 . 
+Wei, W., Zhang, Y.T., Huang, Q.S., Ni, B.J., 2019c. Polyethylene terephthalate 
+microplastics affect hydrogen production from alkaline anaerobic fermentation of 
+waste activated sludge through altering viability and activity of anaerobic 
+microorganisms. Water Res. 163, 114881. https://doi.org/10.1016/j. 
+watres.2019.114881 . 
+Weithmann, N., M ¨oller, J.N., L ¨oder, M.G.J., Piehl, S., Laforsch, C., Freitag, R., 2018. 
+Organic fertilizer as a vehicle for the entry of microplastic into the environment. Sci. 
+Adv. 4 (4), 1 – 8. https://doi.org/10.1126/sciadv.aap8060 . 
+Welden, N.A.C., Cowie, P.R., 2016. Environment and gut morphology influence 
+microplastic retention in langoustine, Nephrops norvegicus. Environ. Pollut. 214, 
+859 – 865. https://doi.org/10.1016/j.envpol.2016.03.067 . 
+XFiltra, 2021. XFiltra . Xeros Technologies. https://www.xerostech.com/technologies . 
+Xu, Y., Ka, F., Chan, S., Stanton, T., Johnson, M.F., Kay, P., He, J., Wang, J., Kong, C., 
+Wang, Z., Liu, D., Xu, Y., 2021. Synthesis of dominant plastic microfibre prevalence 
+and pollution control feasibility in Chinese freshwater environments. Sci. Total 
+Environ. 783, 146863. https://doi.org/10.1016/j.scitotenv.2021.146863 . 
+Yang, Y., Yang, J., Wu, W.-M., Zhao, J., Song, Y., Gao, L., Yang, R., Jiang, L., 2015. 
+Biodegradation and mineralization of polystyrene by plastic-eating mealworms: Part 
+2. Role of gut microorganisms. Environ. Sci. Technol. 49, 12087 – 12093. https://doi. 
+org/10.1021/acs.est.5b02663 . 
+Yousef, S., Eimontas, J., Stri ¯ugas, N., Mohamed, A., Abdelnaby, M.A., 2021. Morphology, 
+compositions, thermal behavior and kinetics of pyrolysis of lint-microfibers 
+generated from clothes dryer. J. Anal. Appl. Pyrol. 155 (January), 105037. https:// 
+doi.org/10.1016/j.jaap.2021.105037 . 
+Zamani, B., Sandin, G., Peters, G.M., 2017. Life cycle assessment of clothing libraries: can 
+collaborative consumption reduce the environmental impact of fast fashion? 
+J. Clean. Prod. 162, 1368 – 1375. https://doi.org/10.1016/j.jclepro.2017.06.128 . 
+Zambrano, M.C., Pawlak, J.J., Daystar, J., Ankeny, M., Cheng, J.J., Venditti, R.A., 2019. 
+Microfibers generated from the laundering of cotton, rayon and polyester based 
+fabrics and their aquatic biodegradation. Mar. Pollut. Bull. 142 (February), 394 – 407. 
+https://doi.org/10.1016/j.marpolbul.2019.02.062 . 
+Zambrano, M.C., Pawlak, J.J., Daystar, J., Ankeny, M., Venditti, R.A., 2020. Impact of 
+Dyes and Finishes on the Microfibers Released on the Laundering of Cotton Knitted 
+Fabrics. Environmental Pollution. https://doi.org/10.1016/j.envpol.2020.115998 , 
+115998.  
+Zhang, Z., Chen, Y., 2020. Effects of microplastics on wastewater and sewage sludge 
+treatment and their removal: a review. Chem. Eng. J. 382 (September 2019), 
+122955. https://doi.org/10.1016/j.cej.2019.122955 . 
+Zhang, X., Chen, J., Li, J., 2020. The removal of microplastics in the wastewater 
+treatment process and their potential impact on anaerobic digestion due to 
+pollutants association. Chemosphere 251. https://doi.org/10.1016/j. 
+chemosphere.2020.126360 . 
+Zhang, Y., Diehl, A., Lewandowski, A., Gopalakrishnan, K., Baker, T., 2020. Removal 
+efficiency of micro- and nanoplastics (180 nm – 125 μ m) during drinking water 
+treatment. Sci. Total Environ. 720, 137383. https://doi.org/10.1016/j. 
+scitotenv.2020.137383 . 
+Zhang, L., Liu, J., Xie, Y., Zhong, S., Gao, P., 2021. Occurrence and removal of 
+microplastics from wastewater treatment plants in a typical tourist city in China. 
+J. Clean. Prod. 291, 125968. https://doi.org/10.1016/j.jclepro.2021.125968 . 
+Zhou, H., Zhou, L., Ma, K., 2020. Microfiber from textile dyeing and printing wastewater 
+of a typical industrial park in China: occurrence, removal and release. Sci. Total 
+Environ. 739, 140329. https://doi.org/10.1016/j.scitotenv.2020.140329 . 
+Zhou, C., Almatrafi, E., Tang, X., Shao, B., Xia, W., 2022. Investigation on the structure- 
+performance of phthalic acid carboxyl position and carbon nitride towards efficient 
+photocatalytic degradation of organic pollutants. Separ. Purif. Technol. 286 
+(December 2021), 120464. https://doi.org/10.1016/j.seppur.2022.120464 . 
+F. Belzagui and C. Guti ´errez-Bouz ´an                                                                                                                                                                                                       

@@ -1,0 +1,864 @@
+RESEA RCH ARTICL E
+Domestic laundry and microfiber pollution:
+Exploring fiber shedding from consumer
+apparel textiles
+Ekaterina Vassilenko
+1
+, Mathew Watkins
+ID
+1
+, Stephen Chastain
+1
+, Joel Mertens
+2
+, Anna
+M. Posacka
+1
+, Shreyas Patankar
+1
+, Peter S. Ross
+1¤
+*
+1 Ocean Wise Conservat ion Association , West Vancouve r, British Columbia, Canada, 2 Sustainab le Apparel
+Coalition, San Francisco, Californi a, United States of America
+¤ Current address: Departm ent of Earth, Ocean and Atmosphe ric Sciences, University of British Columbia,
+Vancou ver, British Columbia, Canada
+* pross@ eoas.ubc.ca
+Abstract
+Synthetic fibers are increasingly seen to dominate microplastic pollution profiles in aquatic
+environments, with evidence pointing to textiles as a potentially important source. However,
+the loss of microfibers from textiles during laundry is poorly understood. We evaluated
+microfiber release from a variety of synthetic and natural consumer apparel textile samples
+(n = 37), with different material types, constructions, and treatments during five consecutive
+domestic laundry cycles. Microfiber loss ranged from 9.6 mg to 1,240 mg kg
+-1
+of textile per
+wash, or an estimated 8,809 to > 6,877,000 microfibers. Mechanically-treat ed polyester
+samples, dominated by fleeces and jerseys, released six times more microfibers (161 ± 173
+mg kg
+-1
+per wash) than did nylon samples with woven construction and filamentous yarns
+(27 ± 14 mg kg
+-1
+per wash). Fiber shedding was positively correlated with fabric thickness
+for nylon and polyester. Interestingly, cotton and wool textiles also shed large amounts of
+microfibers (165 ± 44 mg kg
+-1
+per wash). The similarity between the average width of textile
+fibers here (12.4 ± 4.5 μm) and those found in ocean samples provides support for the
+notion that home laundry is an important source of microfiber pollution. Evaluation of two
+marketed laundry lint traps provided insight into intervention options for the home, with
+retention of up to 90% for polyester fibers and 46% for nylon fibers. Our observation of a >
+850-fold difference in the number of microfibers lost between low and high shedding textiles
+illustrates the strong potential for intervention, including more sustainable clothing design.
+Introduction
+Plastic microfibers are considered one of the dominant forms of microplastic pollution
+(particles < 5 mm) in the world’s oceans [1, 2]. While the ecological impacts of microplastics
+remain unclear, ingestion by a number of aquatic organisms has been readily demonstrated in
+both laboratory and real world studies [3–6]. Adverse effects may include entanglement of
+PLOS ONE
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 1 / 17
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+OPEN ACCESS
+Citation: Vassilenko E, Watkins M, Chastain S,
+Mertens J, Posacka AM, Patankar S, et al. (2021)
+Domestic laundry and microfiber pollution:
+Exploring fiber shedding from consumer apparel
+textiles. PLoS ONE 16(7): e0250346. https://doi.
+org/10.1371 /journal.pone. 0250346
+Editor: Amitava Mukherjee, VIT University, INDIA
+Received: August 24, 2020
+Accepted: April 5, 2021
+Published: July 9, 2021
+Copyright: © 2021 Vassilenko et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which
+permits unrestricte d use, distribu tion, and
+reproduction in any medium, provided the original
+author and source are credited.
+Data Availabilit y Statement: These data are
+available in Supplement ary information and at
+figshare.com . Vassilenk o, Ekaterina; Watkins,
+Mathew M; Chastain, Stephen; Mertens, Joel;
+Patankar, Shreyas; Posacka, Anna, Ross S Peter.
+(2021): 2021-Vas silenko-et-a l_Supplemen tary
+Datasheet.x lsx. figshare. Dataset. https://do i.org/
+10.6084/ m9.figshare.1 4675760.v4.
+Funding: Staff at MEC, Arc’teryx, REI and
+Patagonia played role in providing technical advice
+pertaining to designing the study and by providing
+sample materials for this research. These funders
+
+feeding appendages, gut blockage and malnutrition in zooplankton or lower levels of the food
+web [3, 6–9].
+The potential vulnerability of zooplankton populations underscores concerns about the
+implications of microplastics for food web health and ocean productivity [7]. As opposed to
+fragments and other more regularly shaped microplastics, fibers may cause entanglement or
+blockage in the gastrointestinal tracts of filter feeders due to their elongated shape. With very
+long residence times in the environment (e.g. 58–1200 years, [10]) microplastic pollution rep-
+resents an important subject of scientific and policy concern.
+The origins of microfibers found in aquatic environments are increasingly linked to the
+domestic laundry of textiles, with early global estimates indicating that households contribute
+up to 35% of microplastics discharged to the environment (e.g. microbeads in cosmetic and
+personal care products, microfibers originating from synthetic textiles, tire particles, micro-
+plastics originating from the application of paint) [11, 12]. Synthetic fiber polymers found in
+the marine environment include polyester, acrylic, polypropylene and nylon [12], all repre-
+senting common constituents of clothing. Textile laundering has been shown to release
+between 120 and 730,000 microfibers into domestic wastewater per cycle, or up to 0.1% of tex-
+tile mass every wash [12–17]. Synthetic fibers are common in treated municipal wastewater
+effluent [18, 19] and have been documented in urbanized areas near wastewater treatment
+facilities [12, 20].
+A few studies have provided basic insights into the interplay of textile design and laundry
+practices as they influence fiber loss. Factors shown to influence fiber shedding during home
+laundry include the type of washing machine used, age of fabrics washed [15], water tempera-
+ture [17, 21], type of detergent [13], wash speed [22], textile construction [14, 16, 17, 23, 24]
+and chemical finishing [25]. Knitted yarn constructions have been reported to have both
+higher [23] and lower fiber shedding compared to woven yarn geometries [24]. Challenges in
+documenting and characterising microfiber loss from textiles are partly due to differences in
+assessment methods used, the wide variety of materials and products on the market, and the
+often confounding interplay among factors that contribute to shedding during laundry.
+The goal of this study was to characterise the loss of fibers from a variety of synthetic and
+natural consumer fabrics during home laundry. We explore here a variety of material types,
+constructions and treatments used in textile manufacture, with the objective of characterizing
+the factors shaping microfiber loss and informing on this source of microfibers to the aquatic
+environment. In addition, we evaluated the efficacy of two commercially-avai lable washing
+machine lint traps (Lint LUV-R
+©
+and Filtrol
+©
+).
+Methods
+Textile sample characteristics and preparation
+We established a novel ‘Microfiber Partnership’ with outdoor retailers (MEC, Patagonia, Arc’-
+teryx and REI), a wastewater treatment plant authority (MetroVancouver) and the Canadian
+government (Environment and Climate Change Canada) to inform the design and to carry
+out this study of textile shedding. Thirty-seven textile samples (n = 37) were provided by mem-
+bers of our Microfiber Partnership to evaluate fiber loss during laundry (Table 1; S1 Table in
+S1 File).
+Case series study design was used as a screening tool for the generation of hypotheses
+regarding the effect of textile design on the shedding [26]. The textiles tested varied in polymer
+composition (cotton, wool, polyester, and nylon, in some cases mixed with spandex or elas-
+tane), yarn type (spun-staple or filament), textile construction (knit or woven), mechanical
+treatment (brushed, sanded or sheared), and chemical finishes (anti-pilling, softener, wicking,
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 2 / 17
+did not contribute to writing and did not review the
+manuscript prior to submission. The funders
+(MEC, REI, Arc’teryx, Patagonia) provided support
+in the form of resources and salaries for authors
+[KV, MV], and study design, but did not have
+additional role in data collection and analys is,
+decision to publish, or preparation of the
+manuscript. The specific roles of these authors are
+articulated in the ‘author contributions’ section.”
+www.rei.co m www.pa tagonia.com www.arctery x.
+com www.m etrovancouv er.org www.cana da.ca/
+en/enviro nment-climate- change.ht ml]. The
+Sustainabl e Apparel Coalition is not a commercial
+enterprise, but rather a member-su pported non
+profit association aimed at encouraging
+sustainabili ty in the textile sector. Further
+clarification: Sustainabl e Apparel Coalition did not
+fund the study nor had any involvement. It is the
+present place of employm ent for the co-author,
+Joel Mertens, who at the time of this study was a
+staff member at MEC.
+Competing interests : Support for our study was
+generously provided by Mountain Equipment Co-
+operative (MEC), Patagonia, REI, Arc’teryx, and
+MetroVan couver and Environme nt and Climate
+Change Canada. Two of these are private sector
+firms (Patagon ia and Arc’teryx), two are not-for-
+profit firms (MEC and REI), and two are
+governmen t agencies (MV and ECCC). Staff from
+all organizations provided technical advice and
+materials to be tested, but did not review the
+manuscript or provide input into the interpretati on
+of findings. There are no restricti ons on sharing of
+data, all of which can be found in Supplement ary
+information. We have no related consultanc y,
+patents, products in development , marketed
+products declarati ons to make. This support did
+not alter our adherence to PLOS ONE policies on
+sharing data and materials.
+
+Durable Water Repellent [DWR], and/or anti-odour). Before testing, each fabric was cut into
+66 cm x 66 cm swatches with double-hemmed edges. Load weight for each test was standard-
+ized to 500 g. A smaller hemmed swatch was also used if required for incremental weight
+adjustments.
+Laundering conditions and effluent processing
+We designed and established a dedicated ‘washing machine research center’ to conduct our
+study. Three top-loading laundry machines (SDL Atlas Vortex M6, Rock Hill, South Carolina,
+USA) were installed with custom-designed sampling manifolds connected to the machine
+drain hoses (S1 Fig in S1 File). The machines and sampling equipment were enclosed in a
+dust-protective tent made from non-shedding (recyclable) polyethylene sheets and supported
+by a frame made of polyvinyl chloride (PVC) pipes. To further reduce airborne contamination
+during laundry experiments, ion-generating air filters (Honeywell HFD-010C) were operated
+inside the tent during the laundry tests. All surfaces were regularly cleaned. Water for all laun-
+dry cycles was filtered with 5 μm pore-size filters. While particles smaller than 5 μm could have
+been missed with this pore size, the diameters of textile fiber (> 10 μm), their generally elon-
+gate lengths, and the limitations of the human microscope observer all point to this size limit
+being appropriate for rigorous enumeration.
+Sampling manifolds were designed and constructed for the continuous collection of laun-
+dry effluent sub-samples during the entire laundry cycle (S1 Fig in S1 File). The purpose of this
+sampling approach was to balance the need to account for the variation in fiber shedding
+between different cycles and attain reliable quantification of microfibers by count and mass.
+The manifolds consisted of three levels of tubing splits, with decreasing sizes of tubing selected.
+Through an iterative approach, optimal hose diameters were chosen to accommodate the drop
+of water volume after a split, while minimizing turbulence and backpressure. The final internal
+diameters of the tubing were 3/4”, 5/8” and 3/8”, respectively. The laundry procedure was
+adapted from the AATCC 135–2004 method for an average domestic laundry cycle, with con-
+ditions detailed in S2 Table in S1 File [27].
+Before each test wash, two wash cycles were run without samples to minimize possible
+background contamination. A standardized textile sample (500 g) was then washed five times,
+and a sample from the laundry effluent was continuously collected during each laundering
+Table 1. A summary description of textiles assessed for fiber loss during laundry, with the number of material types evaluated.
+Class of textiles Descrip tion Total
+(n)
+Polyme r composition
+Fleece Knit textiles made with synthetic filament yarn and with raised and
+trimmed nap
+10 100% polyeste r: virgin (n = 6), recycled (n = 4)
+Jersey (mechanic ally
+treated)
+Knit textiles made with filament yarn and mechanicall y treated (sanded,
+brushed or piled)
+5 100% polyeste r: virgin (n = 3), recycled (n = 1), 100%
+nylon (n = 2)
+Knit filament Knit textiles made with filament yarn, not mechanicall y treated 2 100% polyeste r virgin (n = 1), nylon-poly ester blend
+(n = 1)
+Knit spun staple Jersey with no mechanica l treatment (n = 3), cotton-fa ced fleece (n = 1) 4 100% cotton (n = 1), cotton-polye ster blend (n = 2),
+100% wool (n = 1)
+Woven filament Woven textiles made with filament yarn: no mechan ical treatment (n = 6),
+brushed (n = 1), crinkled (n = 1)
+8 100% nylon virgin (n = 6), nylon recycled (n = 1),
+polyester recycled (n = 1)
+Woven spun staple Woven textiles made with spun staple yarn and brushed 3 100% cotton (n = 2), polyester virgin (n = 1)
+Composit e Woven textiles made with filament yarn insulated or covered with non-
+fibrous polymer
+5 Nylon-ePTF E (n = 2), nylon-polyest er composit e
+(n = 2), polyester-P U (n = 1)
+ePTFE: polytetrafl uoroethyle ne; PU: polyurethane .
+https://do i.org/10.1371/j ournal.pone .0250346.t001
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 3 / 17
+
+cycle. For most textiles, 1/8 of the total effluent from a single cycle was collected (10 L), except
+in the case of five materials that had low shedding rates where the volume was increased to 1/4
+(20 L) to enable adequate gravimetric analysis. The effluent was collected into a sealed polypro-
+pylene bucket (S1 Fig in S1 File). The machines were cleaned using a shortened high-volume
+wash cycle at least two times between each sample wash. Effluent samples were then vacuum-
+filtered through 20 μm polycarbonate filters (45 mm diameter) under a laminar flow hood
+with filtered air. The polycarbonate filters, with captured microfibers from laundry effluent
+runs, were dried in closed Petri dishes at 50˚C overnight and then stored in individually sealed
+bags containing desiccant pouches. They were then weighed immediately after removal from
+the desiccator bags.
+Duplicates were collected from a subset of samples (n = 18, high and low shedding) to
+determine method precision. The coefficient of variation ranged from 0 to 27.6%, with an
+average of 11.5%. Procedural blanks were collected every six washes, in parallel with the test
+washes. A procedural blank sample was collected for laundry washes performed without a tex-
+tile with the resulting effluent processed in the same manner as a test sample. The total number
+of fibers calculated for the total blank effluent volume (1/8) varied from 300 to 3,670, with an
+average 1,808 ± 914, which accounted for <1%– 14% of the total fibers released by textiles dur-
+ing the wash. As can be expected, a higher percentage of background-to-sample fibers was
+detected for the lowest-shedding fabrics. Weights from the procedural blanks are not reported
+and were not used for sample weight correction because they were too low for accurate gravi-
+metric analysis.
+Spectral analysis using Fourier Transform Infra Red Spectrometry (FTIR) of textile samples
+prior to laundry testing enabled a critical evaluation of results following wash cycles, with no
+unexpected contamination of the laundry testing system with any plastic materials used in the
+collection apparatus (e.g. polypropylene or polycarbonate). The only exception in this case was
+the observation of large numbers of contaminating mystery particles from a subset of textile
+samples laundered, which we describe in the Results and discussion.
+Lint quantification
+The average lint mass from wash cycles 3–5 was used to compare shedding among textiles
+since we found first wash cycles often released higher amounts of fibers in preliminary
+experiments.
+In addition to textile fiber mass, we estimated fiber numbers released by each sample textile.
+Precise counts were not possible because of exceedingly high numbers, and the challenges
+associated with clumping of fibers masses on filters. Therefore, for each textile, a subsample
+was selected where both mass and fiber count could be reasonably evaluated. Fiber counting
+was performed visually using a stereomicroscope equipped with 18.4x maximum magnifica-
+tion, and a camera connected to Olympus DP2-SAL firmware analysis software. A coefficient
+k was calculated for each textile as the ratio of lint mass to fiber count.
+The reproducibility of this approach was evaluated for six textiles by calculating the coeffi-
+cient k twice from subsamples from two separate washes. The relative standard deviation of k
+varied from 0.3% to 55% with an average of 25%, indicating that the calculated fiber counts
+have relatively low precision. In several cases, enumeration of fibers was not possible due to
+fiber entanglement. Moreover, the presence of non-fibrous fragments or residue observed in
+some of our lint samples likely affected coefficient k by increasing the lint weight. In such
+cases, no fiber count was reported for the tested textile. Due to high counting errors and an
+incomplete data set, fiber numbers were not used for any statistical analysis and serve as an
+estimate of fiber textile footprint by number.
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 4 / 17
+
+Fourier Transform Infrared Spectroscopy (FTIR) analysis
+Fourier-transform infrared spectroscopy was used to confirm the polymeric composition of
+textiles and to identify the unexpected non-fibrous materials released by several samples.
+Microfibers and additional materials lost during a laundry cycle test were analyzed using a
+Cary 670 FTIR spectrometer equipped with a Cary 620 microscope (Agilent Technologies,
+Mulgrave, AUS). Particles larger than 3 mm, including fragments of textiles, were analyzed
+with the bench-top attenuated total reflectance (ATR) accessory equipped with a MIRacle Dia-
+mond / ZnSe crystal (Pike Technologies, Madison, USA). Particles smaller than 3 mm, includ-
+ing individual microfibers, were analyzed using the micro-ATR accessory equipped with a
+Germanium crystal [18].
+The smaller particles were manually affixed to a glass microscope slide covered with a thin
+layer of 2% dextrose (Sigma-Aldrich, St Louis, USA) as an adhesive agent to enable FTIR anal-
+ysis. For each background and sample, 128 co-added scans were collected at a resolution of 8
+cm
+−1
+in the range of 3,800 to 900 cm
+−1
+. FTIR imaging spectra were matched against a com-
+mercial polymer database with 250,000 entries (KnowItAll, Bio-Rad) of selected ATR-FTIR
+spectra that included polymers, plastics, polymer additives, plasticizers and packaging materi-
+als. Sample spectra were deemed to be positively identified if i) all major peaks were present in
+a sample and in reference spectra, and ii) the total overlap of the sample and reference spectra
+was greater than 80% [28].
+Lint trap fiber efficiency evaluation
+Two commercially available washing machine lint trap models, Filtrol
+©
+(WEXCO, Milaca,
+MN, USA) and Lint LUV-R
+©
+(Environmental Enhancements, Dartmouth, NS, Canada) were
+evaluated for their ability to remove textile fibers shed during home laundry. Fiber capture was
+quantified for three filter pore sizes in case of the Filtrol
+©
+model (50 μm, 100 μm and 200 μm),
+and two pore sizes for the Lint LUV-R
+©
+model (150 μm and 1588 μm). Both filter models were
+tested using two types of textiles: i) polyester fleece and ii) nylon stretch woven. Replicate
+washes for both fabrics were run with all mesh sizes, except the two largest meshes (200 μm
+and 1588 μm) for which nylon fiber retention was not assessed.
+Laundry effluent downstream of the lint filter (the lint-filter filtrate) was passed through a
+10-μm stainless-steel conical filter (S2 Fig in S1 File). The lint retained by the candle filter (a
+cylindrical Hop Randall filter with a height of 33 cm and diameter of 12.7 cm with 10 um stain-
+less steel cartridge was used) and the lint captured by the lint filter was then separately col-
+lected using the 20-μm vacuum-filtration and weight as described in section 2.3. Lint retention
+was calculated for each combination of mesh size and textile type as a weight/weight percent-
+age of lint retained by the lint filter versus the total mass of shed lint, both recovered from the
+lint filter and the filter filtrate, as below:
+% ma ss ret ain ed ¼
+soli ds in filt er
+sol ids in filt er þ soli ds in the filt rat e
+Additional tests were run to compare the two sampling methods: (1) the candle-filter
+method for processing the entire effluent, used for evaluating lint filters, and (2) the manifold
+method for sampling 1/8 of the laundry effluent, used for evaluating textile shedding. For three
+washes, 1/8 of the laundry effluent was collected using the manifold, and the remaining 7/8
+were processed with the candle filter. The two samples from each wash were used to make sep-
+arate calculations of the total lint from the wash, and the results were compared. The lint mass
+calculated from using the candle filter was on average 14% lower compared to the mass
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 5 / 17
+
+calculated using the manifold, indicating that sampling method is yet another source of vari-
+ability potentially affecting inter-comparability of textile shedding studies.
+Estimates of fiber emission by Canadian and U.S. households
+We estimated the extent of microfiber shedding during laundry by households in Canada and
+the U.S.A. using the average microfiber loss by weight (131 mg per kg of textile per wash) and
+count (514,400 microfibers per kg of textile per wash) by all synthetic fabrics in this study.
+Data was converted using the average weight of a domestic laundry load (4 kg). Natural fabrics
+(i.e. cotton and wool), as well as blends containing natural fibers, were excluded from this
+estimate.
+The annual total household release of synthetic microfibers from laundry in Canada was
+estimated using a total of 14,072,080 households [29], and an average of 218 laundry loads per
+year per household [30]. For the U.S.A., annual synthetic microfiber release from laundry was
+estimated using a value of 127,586,000 households [31] and an assumed 300 laundry loads per
+household per year [32]. To estimate microfiber emission via municipal wastewater, we
+assumed a 95% retention in facilities based on data from studies of primary, secondary, and
+tertiary wastewater treatment plants [18, 19]. These estimates consider the proportion of
+domestic wastewater that is untreated or collected into household septic tanks in Canada [33]
+and the U.S.A. [34].
+Data analysis
+All data were blank-corrected (mass and counts). All statistical analyses were performed using
+the R software environment (R Core Team, 2015) using data from 37 samples. To assess the
+independence of textile parameters, we applied ANOVA (in case of a continuous and categori-
+cal variable) or Chi-squared Test of Independence (in case of two categorical variables). All
+tests in this study were performed on Ln transformed data as fiber shedding dataset displayed
+non-normal distribution. Multi-comparisons between major textile groups (polyester, nylon,
+natural) were carried out using a non-parametric Kruskal–Wallis test with a post hoc Dunn’s
+test. Shedding values for each category are presented as mean ± Standard Deviation unless
+stated otherwise. Further, a two-sample t-test was applied in a few cases to explore the effects
+of material parameters within these categories.
+In addition, we used a machine learning Random Forest (RF) method in R as a complemen-
+tary technique to examine the relative influences of textile properties on fiber shedding [35–
+37]. The RF method is a supervised machine learning method which involves producing multi-
+ple regression trees, which, in turn, are then combined to make a single consensus prediction
+for a given observation [37]. We applied the RF model to explore the role of textile parameters
+in fiber shedding using the randomForest R package [36]. The mean squared error (abbrevi-
+ated MSE) represents a measure of the accuracy of the RF model, where as the IncNodePurity
+(mean decrease in Gini score) is a measure of variable importance and can be used to rank var-
+iables by the strength of their relation to the response variable. The higher the value of MSE
+and IncNodePurity the higher the importance of variables in the model. All data are presented
+as mean ± Standard Deviation unless otherwise stated.
+The fiber shedding rates, underlying figures and statistical analysis are available in S1 File.
+Results and discussion
+Textile fiber shedding varied widely among samples tested, ranging from 9.6 to 1,240 mg of
+lint kg
+-1
+of textile washed, or an estimated 8,809 to > 6,876,000 microfibers (Fig 1; S1 Table in
+S1 File). Shedding footprints of synthetic textiles were generally higher than those observed
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 6 / 17
+
+elsewhere [12, 17, 23, 38, 39], although a direct comparison must be carried out with caution
+given the diversity of methods used (S3 Table in S1 File).
+Several textile parameters were non-independent in our study (construction, fiber material
+and mechanical treatment; Chi-squared Test of Independence, p<0.04), constraining a causal
+determination of the specific factors explaining fiber loss among different samples. For this
+reason, we focussed our analysis on comparing fiber shedding between pure polyester, nylon,
+and natural-based textile samples, with an additional examination of design influences within
+these categories.
+Fig 1. Textile fiber loss varied over consecut ive laundry cycles, with some textile s losing less fibers with subsequen t wash cycles
+(A), and some losing more or exhibiting a relatively steady release (B). This underscores the potential for the use of industrial pre-
+wash procedur es to reduce microfib er pollution. Data is presented as a percent (%) of lint mass released in the initial wash for 21
+select materials.
+https://doi.org/10 .1371/journal.p one.0250346. g001
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 7 / 17
+
+Fiber release varied with consecutive washing
+Initial laundry cycles in our study generally exhibited higher fiber losses than subsequent
+cycles (Fig 1A), consistent with recent reports [17, 23, 39]. We hypothesize that higher initial
+wash shedding was due to the presence of loose fibers and particles from the manufacturing
+process. These observations point to opportunities for reducing consumer-end particle release
+by implementing a wash step for new materials at manufacturing facilities. However, findings
+did vary among products tested, with some materials releasing more fibers with subsequent
+laundry cycles, while others exhibited a relatively steady release (Fig 1B).
+Fiber shedding in laundry varied among textiles
+The complex interplay among factors thought to be influencing fiber loss among textile sam-
+ples rendered it exceedingly difficult to identify the dominant factors contributing to shedding,
+but some patterns emerged from our study. Fiber shedding was generally higher in the polyes-
+ter (mean ± SD = 161 ± 173 mg kg
+-1
+of textile washed, n = 18) and natural (165 ± 44 mg kg
+-1
+of
+textile washed, n = 4) material categories, in contrast to nylon materials which had ~ six fold
+lower fiber shedding masses (27 ± 14 mg kg
+-1
+of textile washed, n = 9). Textiles made from
+polyester were diverse in terms of design, and included those with recycled fibers, differing
+mechanical treatments, knit and woven construction, filamentous yarns, and composite
+designs (Fig 2; S1 Table in S1 File). However, the polyester category was dominated by
+mechanically-treated fleeces (n = 10) and jerseys (n = 5) with filamentous yarns, materials that
+have been previously noted for their high fiber losses [23, 40]. Polyester is an important mate-
+rial used in the global textile sector [41], highlighting the importance of identifying the design
+elements that trigger shedding during the lifetime of a product.
+No differences were found in fiber shedding between polyester fleeces and jerseys (Fig 2,
+Student’s t-test, p = 0.3), with both groups of textiles displaying a wide range of fiber loss.
+Interestingly, while polyester fleece designs fared worst with regards to fiber loss during laun-
+dry [23], there were also some low shedding fleeces (Fig 2, S1 Table in S1 File). This suggests
+the need to carefully scrutinise oversimplified strategies for textile design choices, as some
+have suggested fleece avoidance as one mitigation opportunity for textile-related microfiber
+pollution [42]. Of note is the low fiber shedding of the few non-mechanically treated materials
+examined in our study (30 ± 16.1 mg kg
+-1
+of textile per wash, n = 3, S1 Table in S1 File), which
+was lower than that of mechanically-treated fleeces (204 ± 198 mg kg
+-1
+of textile per wash,
+n = 10, Kruskal-Wallis test with post hoc Dunn test, p<0.05).
+In addition to univariate approaches to characterising the factors shaping fiber loss, our
+application of a Random Forest model strengthened our identification of the primary factors
+driving fiber loss. In this way, mechanical treatment, material type and material density were
+identified as the three leading factors influencing fiber shedding in our Random Forest model
+(performed on all textiles (n = 37), S3 Fig in S1 File).
+Textiles made with nylon shed less (mean of 27 ± 14 mg kg
+-1
+of textile per wash) than those
+made with polyester (mean of 161 ± 173 mg kg
+-1
+of textile per wash; Student’s t-test p<0.05).
+All nylon textiles were constructed with woven filament yarns, had composite or non-compos-
+ite designs, and released similar fiber quantities to polyesters of the same construction, suggest-
+ing that properties other than polymer type influenced shedding.
+The few natural materials examined here also shed considerable amounts of fibers, which
+may be due to their inherent short spun-staple yarn construction. These samples released simi-
+lar quantities (100% cotton and wool, 165 ± 44 mg kg
+-1
+of textile per wash, n = 4) to the polyes-
+ter samples (161 ± 173 mg kg
+-1
+of textile per wash, n = 18). Higher fiber losses from cotton
+compared to polyester textiles during laundry has been reported in two recent studies [17, 43].
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 8 / 17
+
+Others have attributed the differences to the fuzz formation tendencies of polyester and cotton
+fibers, with high yarn hairiness and low yarn breaking strength for cotton fibers [17]. Although
+natural fibers are subject to microbial degradation in wastewater treatment plants and the
+environment [17], their recent detection in remote ocean compartments [44, 45] highlights
+the need for additional research into the ultimate distribution and fate of natural fibers in the
+environment.
+Mixed polymer fiber samples were characterized by variable shedding. The lowest values
+observed in our study were in the two nylon-polyester filament yarn composites (46%/46%
+with 8% elastane; and 35%/49% with 16% elastane, S1 Table in S1 File). While both differed in
+construction (woven vs knit), they were not mechanically treated, which may help explain
+their low shedding. The single mechanically-treated cotton-polyester fleece (50%/50%) mate-
+rial emitted some of the highest quantities of fibers (838 mg kg
+-1
+of textile per wash), whereas
+the non-mechanically-treated cotton-polyester (50%/50%) jersey exhibited intermediate shed-
+ding (103 mg kg
+-1
+of textile per wash).
+Fiber shedding from synthetic textiles was influenced by material area density. Shedding
+from both nylon and polyester materials, including samples made of 100% pure fiber and
+those with up to 12% elastane, correlated positively with sample material weight per square
+meter (g/m
+2
+; Fig 3). This suggests that textile shedding occurs not only from the surface of the
+Fig 2. Fiber sheddin g varied across major textile categori es. On each box plot, the central mark indicates the median, and the
+box extends to the 25
+th
+and 75
+th
+percenti les, respectively. Data points overlaying box plots represents an average of lint mass per kg of
+textile per was (mg) from last three washes for individual fabrics.
+https://doi.org/10 .1371/journal.p one.0250346. g002
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 9 / 17
+
+textile, but also from deeper layers, consistent with observations elsewhere [23]. Further study
+in this regard is needed, though, as others have found no influence of material area density on
+fiber loss during laundry [24].
+Properties of microplastics shed from textiles
+The median width of fibers for each textile was 12.4 ± 4.5 μm (range 2 to 37 μm), and the
+median length was 405 ± 1,086 μm (range 48 to 10,272 μm; Fig 4, S1 Table in S1 File). Interest-
+ingly, the width of fibers from all fabrics varied over a narrow range and had a frequency distri-
+bution that was nearly symmetrical around the median (Fig 4A). In contrast, the length
+distribution was heavily skewed to the right (Fig 4B), suggesting that fibers typically break
+lengthwise rather than widthwise.
+Fiber width and length did not differ among major textile categories (polyester, nylon and
+natural) and did not correlate with shedding masses, except for nylon (S4 Fig in S1 File). The
+length and width of shed fibers did not differ among sub-categories including cotton, wool,
+virgin polyester, recycled polyester, and virgin nylon. However, recycled nylon released longer
+Fig 3. Fiber shedding in syntheti c materia ls was positively correlated with fabric area density. Least squares
+regressio n was performed on fiber shedding mass (Log-transf ormed) and sample material density (weight per m
+2
+) of
+nylon (n = 8) and polyester (n = 11) textiles. Polyester: y = 0.011x + 0.473 R
+2
+= 0.55, p = 0.007; R
+2
+= 0.55, p = 0.007;
+Nylon: y = 0.0058x + 0.0497, R
+2
+= 0.7641, p = 0.023.
+https://d oi.org/10.1371/j ournal.pon e.0250346.g0 03
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 10 / 17
+
+fibers than all other materials (ANOVA, Dunn’s post hoc, p<0.05). This indicates that fiber
+breakage is complex, and that breakage may be unrelated to fiber length.
+Fiber dimensions fall into the range of those reported in other studies of laundry [15, 24],
+municipal and textile industry wastewater treatment facilities [19, 46], and the aquatic envi-
+ronment [47]. There is also an overlap between the dimensions of textile fibers here and those
+ingested by aquatic organisms in laboratory studies and in the natural environment. Polyester
+fibers of 300 μm in length were readily available to freshwater crustacean Daphnia magna, but
+even larger fibers of 1,400 μm were detected in some individuals [8]. Wild zooplankton from
+the NE Pacific Ocean consumed microfibers in the range of 461–1,778 μm [3]. Shorter fibers
+may more readily transit washing machines and lint traps (e.g. [21]), such that they are more
+likely to be released into the receiving environment and made available for ingestion by biota.
+In addition to the loss of microfibers from new textile samples during laundry, we found
+surprisingly large amounts of non-fibrous fragments released by several samples (n = 6, Fig 5).
+FTIR analysis revealed these as comprising a variety of natural materials and plastic polymers
+including acrylic co-polymer, polyesters (including polyethylene terephthalate), polystyrene,
+aminoplast resin, vinyl acetate co-polymer and cellulose. Chemical finishing may partly
+explain these fragments, but we found no relationship between the presence of these particles
+and reported chemical finishing for these products (Chi-Square test, p = 0.35). This suggests
+that there may have been non-reported chemical components or materials in the samples we
+evaluated. These observations suggest that textiles may be a source of microparticles to the
+wastewater stream other than just those deliberately used in the design and manufacture of the
+product.
+Fig 4. Fiber length s and widths displayed different frequen cy distribution profiles. Frequency distributi on was obtained for all 37
+materials characte rised in the study using average fiber dimensions from each laundry effluen t sample. Fiber width displayed a
+symmetrical distribution, with a mean value of 12.4 μm (bin width 2 μm). Fiber length was skewed to the right, with a median length
+of 405 μm (bin width = 150 μm). Note, outliers beyond the minimum and maximu m values here (40–2,240 μm) are not included in
+this graph.
+https://doi.org/10 .1371/journal.p one.0250346. g004
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 11 / 17
+
+North American release of microfibers from laundry
+The extrapolation of synthetic textile fibers shed from this study (131 mg kg
+-1
+of textile per
+wash) enabled an estimate of annual fiber emissions by households in Canada and the U.S.A.
+This assessment underscores the potential of textile design and domestic intervention as an
+important area to target for fiber pollution reduction [11, 48]. In this way, we estimated the
+average household to generate up to 135 g of plastic microfibers annually (or estimated 5.33 x
+10
+6
+microfibers), which amounts to 22 ktonnes of fibers (or 85 x 10
+15
+microfibers) entering
+WWTPs in Canada and the U.S.A. combined.
+After treatment, the cumulative fiber emission to the aquatic environment (streams, lakes,
+estuaries, and oceans) in Canada and the U.S.A is estimated at 878 tonnes (or 3.5 x 10
+15
+micro-
+fibers). In addition, significant amounts of fibers appear in municipal sludge (4 ktonnes, or 16
+x 10
+15
+microfibers), which depending on municipal practices, may end up in agricultural or
+other terrestrial applications [49]. Our estimates illustrate the important retention of micro-
+plastics in WWTP, with 63–80% ending up in sludge and biosolids [18, 50, 51]. The latter pres-
+ents an as-yet under-characterised pathway for microplastics to the wider environment.
+Aftermarket washing machine lint traps are available to the consumer to reduce textile fiber
+emissions from homes. Only one other study has thus far investigated the effectiveness of such
+a device (Lint LUV R, [48]). We found lint traps to offer benefits in terms of textile fiber reduc-
+tion, but their success depends on the material type and device mesh porosity. Internal mesh
+porosities of 50–200 μm captured between 88.2 and 89.9% of polyester fibers by weight (Fig 6;
+consistent with the other report [48]), despite the width of these fibers being much smaller
+than mesh pores (median in this study 12.4 ± 4.5 μm). However, the retention of polyester
+fibers decreased to 41.2% with the largest mesh porosity of 1,588 μm. In contrast, only 46.0 of
+Fig 5. Non-fibrous particles were released by several textile samples during laundr y testing (n = 6). Top left panel:
+example of the filter containing mixture of fibers and non-fibrou s residue; top right panel: an example of a filter with
+mostly fibers and no notable non-fibrou s residue. Bottom panel: examples of non-fibrou s particles.
+https://do i.org/10.1371/j ournal.pone .0250346.g00 5
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 12 / 17
+
+nylon fibers were retained by 50 μm, and 100 μm meshes and the retention dropped further
+down to 19.4% with a 150 μm mesh. The retention difference may be at least in part caused by
+high dimensional stability of polyester fibers [52] and a likely stronger resistance to flow-
+through in the lint filters.
+Textile design improvements provide an additional opportunity to reduce fiber pollution in
+the environment. Research in this area is relatively new and constrained by a lack of consistent
+testing methods and standards (as reviewed in [53]), which limits the ability to fully under-
+stand the emissions and risks of textile fibers in aquatic environments. Concerted efforts are
+therefore needed to develop practices that enable comparisons in research and, most impor-
+tantly, environment monitoring [23, 54].
+Microfiber pollution adds to an established list of environmental impacts associated with
+textile manufacture, trade, sale, use and disposal. There exists an opportunity to strengthen
+best practices in the textile sector through material life-cycle impact analysis (e.g. Higgs Sus-
+tainability Materials Index or MADE-BY Fiber Benchmark [55]). Textile production (synthetic
+and natural) is estimated to produce 1.2 billion tonnes of CO
+2
+[56], and additional environ-
+mental costs include water consumption, and the use of chemicals including flame retardants
+and waterproofing agents [53, 55]. Environmental footprints vary among the different textile
+types manufactured, with sustainability requiring a concerted evaluation of all impacts pertain-
+ing to the life cycle of products, from design to manufacturing, use and end of life. In this
+regard, fiber shedding represents an emerging concern–and opportunity for mitigation–for
+the textile, waste management and environmental management sectors.
+Fig 6. Washing machine lint trap retention differed between textile type and lint trap mesh size. Polyeste r was retained to a greater degree (A) than
+nylon (B) in lint traps. Error bars show 1 standard deviation around the mean. No error bar is shown when n = 1. N.D.–not determined.
+https:// doi.org/10.1371 /journal.pone. 0250346.g006
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 13 / 17
+
+Supporting information
+S1 File.
+(DOCX)
+Acknowledgmen ts
+The authors are grateful to the members of our Microfiber Partnership, including MEC, Pata-
+gonia, REI, Arc’teryx, MetroVancouver and Environment and Climate Change Canada for
+their contributions to the design of laboratory capacity for this project. The authors thank
+Anahita Etemadifar for laboratory support, and Agilent Technologies for the provision of
+expert support and guidance.
+Author Contributions
+Conceptualization: Peter S. Ross.
+Data curation: Ekaterina Vassilenko, Mathew Watkins.
+Formal analysis: Ekaterina Vassilenko, Mathew Watkins, Joel Mertens, Anna M. Posacka.
+Funding acquisition: Peter S. Ross.
+Investigation: Ekaterina Vassilenko, Peter S. Ross.
+Methodology: Ekaterina Vassilenko, Mathew Watkins, Stephen Chastain.
+Project administration: Anna M. Posacka, Peter S. Ross.
+Supervision: Peter S. Ross.
+Validation: Ekaterina Vassilenko, Mathew Watkins.
+Visualization: Ekaterina Vassilenko, Mathew Watkins, Anna M. Posacka, Shreyas Patankar.
+Writing – original draft: Ekaterina Vassilenko, Mathew Watkins, Joel Mertens.
+Writing – review & editing: Ekaterina Vassilenko, Mathew Watkins, Joel Mertens, Anna M.
+Posacka, Shreyas Patankar, Peter S. Ross.
+References
+1. Gago J, Carreter o O, Filgueiras AV., Viñas L. Synthetic microfibers in the marine environm ent: A review
+on their occurren ce in seawater and sediments. Marine Pollution Bulletin. 2018; 127: 365–376. https://
+doi.org/10.10 16/j.marpolbul .2017.11 .070 PMID: 294756 73
+2. Kane IA, Clare MA, Miramonte s E, Wogelius R, Rothwell JJ, Garreau P, et al. Seafloor microplastic hot-
+spots controlled by deep-sea circulatio n. Sci. 2020; 368: 1140–1145. https://do i.org/10.1126 /science.
+aba5899 PMID: 32354839
+3. Desforges JPW, Galbraith M, Ross PS. Ingestion of Microplastics by Zooplank ton in the Northeast
+Pacific Ocean. Archives of environm ental contaminati on and toxicology . 2015; 69: 320–33 0. https://doi.
+org/10.1007/ s00244-015- 0172-5 PMID: 2606606 1
+4. Rochma n CM, Kurobe T, Flores I, Teh SJ. Early warning signs of endocrine disrupti on in adult fish from
+the ingestion of polyethyle ne with and without sorbed chemical pollutant s from the marine environm ent.
+Science of the Total Enviro nment. 2014; 493: 656–661. https:// doi.org/10.10 16/j.scitoten v.2014.06.0 51
+PMID: 249956 35
+5. Taylor ML, Gwinne tt C, Robins on LF, Woodall LC. Plastic microfibre ingestion by deep-se a organism s.
+Scientific Reports. 2016; 6: 33997. https://doi.or g/10.103 8/srep33997 PMID: 276875 74
+6. Wright SL, Rowe Darren, Thompson RC, Galloway TS. Microplastic ingestion decrease s energy
+reserves in marine worms. Current Biology. 2013; 23: R1031–R103 3. https://doi.or g/10.1016/ j.cub.
+2013.10. 068 PMID: 24309274
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 14 / 17
+
+7. Foley CJ, Feiner ZS, Malinich TD, Ho ¨ o ¨ k TO. A meta-ana lysis of the effects of exposure to microplastic s
+on fish and aquatic inverteb rates. Science of The Total Environment . 2018; 631–632: 550–55 9. https://
+doi.org/10.10 16/j.scitotenv.2 018.03.046 PMID: 295294 42
+8. Jemec A, Horvat P, Kunej U, Bele M, Krz ˇ an A. Uptake and effects of microplast ic textile fibers on fresh-
+water crustacean Daphnia magna. Environ mental Pollution. 2016; 219: 201–209. https://d oi.org/10.
+1016/j.env pol.2016.10. 037 PMID: 27814536
+9. Wright SL, Thomps on RC, Galloway TS. The physical impacts of microplastics on marine organism s: A
+review. Environm ental pollution. 2013; 178: 483–492. https://doi.or g/10.101 6/j.envpol .2013.02.031
+PMID: 235450 14
+10. Chamas A, Moon H, Zheng J, Qiu Y, Tabassum T, Jang JH, et al. Degrada tion Rates of Plastics in the
+Environm ent. ACS Sustaina ble Chemistry and Engineeri ng. 2020; 8: 3494–3 511. https://doi.or g/10.
+1021/acssu schemeng.9b0 6635
+11. Boucher J, Friot D. Primary Micoplastic s in the Oceans: a Global Evaluation of Source s. Gland, Swit-
+zerland; 2017. http://dx.doi.o rg/dx.doi .org/10.2305/ IUCN.CH.201 7.01.en
+12. Browne MA, Crump P, Niven SJ, Teuten E, Tonkin A, Galloway T, et al. Accumulatio n of microplast ic
+on shorelines woldwide: Sources and sinks. Environm ental Science and Technology . 2011; 45: 9175–
+9179. https://d oi.org/10.102 1/es2018 11s PMID: 21894925
+13. Cesa FS, Turra A, Checon HH, Leonardi B, Baruque-Ram os J. Launde ring and textile parame ters influ-
+ence fibers release in househo ld washings. Environm ental Pollution. 2020; 257. https://doi.or g/10.
+1016/j.env pol.2019.1135 53 PMID: 31761586
+14. De Falco F, Di Pace E, Cocca M, Avella M. The contribution of washing processes of synthetic clothes
+to microplastic pollution. Scientific Reports. 2019; 9: 6633. https://doi.or g/10.1038/ s41598-019- 43023-x
+PMID: 310368 62
+15. Hartline NL, Bruce NJ, Karba SN, Ruff EO, Sonar SU, Holden PA. Microfiber Masses Recove red from
+Conventiona l Machine Washing of New or Aged Garment s. Environm ental Science and Technolog y.
+2016; 50: 11532– 11538. https://doi.or g/10.102 1/acs.est .6b03045 PMID: 2768923 6
+16. Hernand ez E, Nowack B, Mitrano DM. Polyester Textiles as a Source of Microplastic s from House -
+holds: A Mechanis tic Study to Understand Microfiber Release during Washing. Enviro nmental Science
+and Technolo gy. 2017; 51: 7036–7046. https:// doi.org/10.10 21/acs.es t.7b01750 PMID: 28537711
+17. Zambran o MC, Pawlak JJ, Daystar J, Ankeny M, Cheng JJ, Vendit ti RA. Microfiber s generated from the
+laundering of cotton, rayon and polyester based fabrics and their aquatic biodegrada tion. Marine Pollu-
+tion Bulletin. 2019; 142: 394–407. https://doi. org/10.1016/j .marpolb ul.2019.02.062 PMID: 31232317
+18. Gies EA, LeNoble JL, Noe ¨ l M, Etemadifa r A, Bishay F, Hall ER, et al. Retent ion of microplastics in a
+major secondar y wastewate r treatment plant in Vancou ver, Canada. Marine Pollution Bulletin. 2018;
+133: 553–561 . https://doi.or g/10.1016/ j.marpolbul.20 18.06.00 6 PMID: 30041349
+19. Sun J, Dai X, Wang Q, van Loosdrec ht MCM, Ni BJ. Microplast ics in wastewate r treatment plants:
+Detection, occurren ce and removal. Water Research. 2019; 152: 21–37. https://doi.or g/10.101 6/j.
+watres.2018 .12.050 PMID: 30660095
+20. Desforges JPW, Galbraith M, Dangerfield N, Ross PS. Widespre ad distribution of microplastics in sub-
+surface seawater in the NE Pacific Ocean. Marine Pollution Bulletin. 2014; 79: 94–99. https://doi.or g/
+10.1016/ j.marpolbul.20 13.12.03 5 PMID: 24398418
+21. Yang L, Qiao F, Lei K, Li H, Kang Y, Cui S, et al. Microfiber release from different fabrics during washing .
+Environm ental Pollution. 2019; 249: 136–143. https://doi.or g/10.101 6/j.envpol. 2019.03.011 PMID:
+30884392
+22. Cotton L, Haywar d AS, Lant NJ, Blackburn RS. Improved garmen t longevity and reduced microfibr e
+release are importan t sustainabi lity benefits of laundering in colder and quicker washing machine
+cycles. Dyes and Pigments. 2020; 177: 108120. https://doi.or g/10.101 6/j.dyepig .2019.108120
+23. Carney Almroth BM, Åstro ¨ m L, Roslund S, Petersson H, Johansson M, Persson NK. Quantify ing shed-
+ding of synthetic fibers from textiles; a source of microplastic s released into the environm ent. Environ-
+mental Science and Pollution Resea rch. 2018; 25: 1191–1 199. https://doi.or g/10.100 7/s11356-017-
+0528-7 PMID: 290810 44
+24. De Falco F, Gullo MP, Gentile G, Di Pace E, Cocca M, Gelabert L, et al. Evaluation of microplast ic
+release caused by textile washing processes of synthetic fabrics. Environm ental Pollution. 2018; 236:
+916–925. https:// doi.org/10.10 16/j.envpo l.2017.10. 057 PMID: 29107418
+25. De Falco F, Gentile G, Avolio R, Errico ME, Di Pace E, Ambrogi V, et al. Pectin based finishing to miti-
+gate the impact of microplastics release d by polyamide fabrics. Carbohydr ate Polymers. 2018; 198:
+175–180. https:// doi.org/10.10 16/j.carb pol.2018.06.0 62 PMID: 30092988
+26. Kooistra B, Dijkman B, Einhorn TA, Bhandari M. How to design a good case series. Journal of Bone and
+Joint Surgery . 2009; 91: 21–26. https:/ /doi.org/10.21 06/JBJS.H .01573 PMID: 194114 96
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 15 / 17
+
+27. AMERIC AN ASSOCI ATION OF TEXTILE CHEMIST S AND COLORIS TS. AATCC Test Method 135–
+2004. Dimens ional changes of fabrics after home laundering . AATCC TECHNICAL MANUA L.
+2010. pp. 221–22 4.
+28. Kroon F, Motti C, Talbot S, Sobral P, Puotinen M. A workflow for improving estimates of microplast ic
+contaminati on in marine waters: A case study from North-We stern Australia. Enviro nmental Pollution.
+2018; 238: 26–38. https://doi.or g/10.101 6/j.envpol. 2018.03.010 PMID: 295338 81
+29. Statistics Canada. Table 1 –Number of households , median income and median income rank, Canada,
+provinces and territories. 2016.
+30. Resources Canada N. Survey of Household Energy Use: Detailed Statistical Report. Ottawa, Ontario,
+Canada; 2011.
+31. US Censu s Bureaa. TableHH-1: House holds by Type: 1940 to Presen t. Washingto n, DC; 2018.
+32. National Park Service. Laundr y Practices and Water Conserv ation. U.S. Department of the Interio r;
+May 2018 [cited 13 Aug 2020]. https://www .nps.gov/arti cles/laund ry.htm.
+33. Governm ent of Canada. Municipal wastewate r treatment. 10 Mar 2017 [cited 28 Oct 2019]. https://
+www.canada .ca/en/envir onment-cl imate-cha nge/service s/environme ntal-indicat ors/municip al-
+wastewate r-treatment .html?fbclid=I wAR3PACid6 H. . .1/5.
+34. Center for Sustainable Systems. U.S. Wastewat er Treatmen t Factsh eet. Ann Arbor, Michigan; 2018
+Aug. Report No.: Pub. No. CSS04-14.
+35. Breiman L, Cutler A. Random Forests. 2018.
+36. Liaw A, Wiener M. Classifi cation and Regress ion by random Forest. R News. 2002; 2: 18–22.
+37. Breiman L. Random Forests. Machine Learning. 2001; 45: 5–32. https://doi.or g/10.1023/
+A:101093340 4324
+38. Pirc U, Vidmar M, Mozer A, Krz ˇ an A. Emiss ions of microplastic fibers from microfiber fleece during
+domestic washing. Environmenta l Science and Pollution Researc h. 2016; 23: 22206–22 211. https://doi.
+org/10.1007/ s11356-016- 7703-0 PMID: 2765840 0
+39. Napper IE, Thompson RC. Release of synthetic microplastic plastic fibres from domestic washing
+machines: Effects of fabric type and washing conditions . Marine Pollution Bulletin. 2016; 112: 39–45.
+https://doi.or g/10.101 6/j.marpolbul. 2016.09.025 PMID: 276868 21
+40. Browne MA, Crump P, Niven SJ, Teuten E, Tonkin A, Galloway T, et al. Accumulatio n of microplast ic
+on shorelines woldwide: Sources and sinks. Environm ental Science and Technology . 2011; 45: 9175–
+9179. https://d oi.org/10.102 1/es2018 11s PMID: 21894925
+41. Jaffe M, Easts AJ, Feng X. Polyester fibers. In: Jaffe M, Menczel JD, editors. Thermal Analysis of Tex-
+tiles and Fibers. Woodhe ad Publishing; 2020. pp. 133–149. https://doi.or g/10.101 6/B978-0- 08-
+100572-9.00 008-2
+42. Lant NJ, Haywar d AS, Peththawa du MMD, Sheridan KJ, Dean JR. Microfiber release from real soiled
+consumer laundry and the impact of fabric care products and washing condition s. PLoS ONE. 2020; 15:
+e0233332. https:// doi.org/10.13 71/journal.p one.023 3332 PMID: 325021 52
+43. Sillanpa ¨ a ¨ M, Sainio P. Release of polyester and cotton fibers from textiles in machine washings. Envi-
+ronmenta l Science and Pollution Researc h. 2017; 24: 19313– 19321. https://doi.or g/10.100 7/s11356-
+017-9621- 1 PMID: 2866909 2
+44. Sanchez- Vidal A, Thompson RC, Canals M, De Haan WP. The imprint of microfibr es in Southern Euro-
+pean deep seas. PLoS ONE. 2018; 13: e0207033. https://doi.or g/10.1371/jour nal.pon e.0207033 PMID:
+30395638
+45. Huntingto n A, Corcoran PL, Jantunen L, Thaysen C, Bernstein S, Stern GA, et al. A first assessment
+of microplas tics and other anthropo genic particles in Hudson Bay and the surroundin g eastern Cana-
+dian Arctic waters of Nunavut. FACETS. 2020; 5: 432–454. https://doi .org/10.113 9/facets- 2019-
+0042
+46. Xu X, Hou Q, Xue Y, Jian Y, Wang L. Pollution characteris tics and fate of microfiber s in the wastewate r
+from textile dyeing wastewate r treatment plant. Water Science and Technology . 2018; 78: 2046–2 054.
+https://doi.or g/10.216 6/wst.2018. 476 PMID: 30629532
+47. Covernton GA, Pearce CM, Gurney-S mith HJ, Chastain SG, Ross PS, Dower JF, et al. Size and shape
+matter: A preliminary analysis of microplast ic sampling technique in seawat er studies with implication s
+for ecologica l risk assessmen t. Science of the Total Environm ent. 2019; 667: 124–13 2. https://doi.or g/
+10.1016/ j.scitotenv.201 9.02.346 PMID: 30826673
+48. McIlwraith HK, Lin J, Erdle LM, Mallos N, Diamo nd ML, Rochma n CM. Capturing microfibers –marketed
+technolog ies reduce microfiber emissions from washing machines. Marine Pollution Bulletin. 2019; 139:
+40–45. https:// doi.org/10.10 16/j.marp olbul.2018.12 .012 PMID: 30686443
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 16 / 17
+
+49. Corradini F, Meza P, Eguiluz R, Casad o F, Huerta-L wanga E, Geissen V. Evidence of microplastic
+accumulation in agricul tural soils from sewage sludge disposal. Science of the Total Enviro nment.
+2019; 671: 411–420. https://doi.or g/10.101 6/j.scitotenv. 2019.03.368 PMID: 30933797
+50. Lares M, Ncibi MC, Sillanpa ¨ a ¨ M, Sillanpa ¨ a ¨ M. Occurrenc e, identificat ion and removal of microplas tic
+particles and fibers in convention al activated sludge process and advanced MBR technology . Water
+Research. 2018; 133: 236–246. https:// doi.org/10.10 16/j.watres. 2018.01.049 PMID: 29407704
+51. Li X, Chen L, Mei Q, Dong B, Dai X, Ding G, et al. Microplastic s in sewage sludge from the wastewate r
+treatment plants in China. Water Resea rch. 2018; 142: 75–85. https://doi.or g/10.101 6/j.watres.201 8.
+05.034 PMID: 29859394
+52. McKeen LW. Polyester s. Second Edi. In: McKeen Laurenc e W., editor. Fatigue and Tribological Prop-
+erties of Plastics and Elastomers . Second Edi. William Andrew Publish ing; 2010. pp. 99–147 . https://
+doi.org/10.10 16/B978-0- 08-096450-8 .00006-5
+53. Henry B, Laitala K, Klepp IG. Microfibr es from appare l and home textiles: Prospects for includin g micro-
+plastics in environm ental sustainabi lity assessmen t. Science of the Total Environm ent. 2019; 652: 483–
+494. https://do i.org/10.1016 /j.scitotenv .2018.10.16 6 PMID: 30368178
+54. Re V. Shedding light on the invisible: addressing the potential for groundw ater contaminati on by plastic
+microfiber s. Hydrogeol ogy Journal . 2019; 27: 2719–2 727. https://doi.or g/10.100 7/s10040-019- 01998-x
+55. Laitala K, Klepp IG, Henry B. Does use matter? Comparis on of environm ental impacts of clothing based
+on fiber type. Sustainability (Switzerland) . 2018; 10: 2524. https://doi.or g/10.339 0/su1007 2524
+56. Ellen MacArthu r Founda tion. A new textiles economy: Redesignin g fashion’s future. 2017.
+PLOS ONE
+Microfiber pollution from home laundry
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02503 46 July 9, 2021 17 / 17

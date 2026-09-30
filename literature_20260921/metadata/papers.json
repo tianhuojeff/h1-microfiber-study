@@ -1,0 +1,323 @@
+[
+  {
+    "id": "L01",
+    "filename": "L01_McIlwraith2019_laundry_microfibers.pdf",
+    "type": "original research",
+    "title": "Capturing microfibers - marketed technologies reduce microfiber emissions from washing machines",
+    "authors": [
+      "Hayley K. McIlwraith",
+      "Jack Lin",
+      "Lisa M. Erdle",
+      "Nicholas Mallos",
+      "Miriam L. Diamond",
+      "Chelsea M. Rochman"
+    ],
+    "year": 2019,
+    "doi": "10.1016/j.marpolbul.2018.12.012",
+    "source_url": "https://rochmanlab.files.wordpress.com/2019/01/mcilwraith-et-al.-2019.pdf",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "main text closely read; methods and metric denominators independently checked; L02 key numerical pages visually verified",
+    "research_use": "commercial capture-device comparison; count, length and mass outcomes",
+    "reading_notes": [
+      "reading_notes/L01-L03_精读卡.md",
+      "reading_notes/20260921_L01-L03_核验补充.md"
+    ]
+  },
+  {
+    "id": "L02",
+    "filename": "L02_Erdle2021_filter_community_pilot.pdf",
+    "type": "original research",
+    "title": "Washing Machine Filters Reduce Microfiber Emissions: Evidence From a Community-Scale Pilot in Parry Sound, Ontario",
+    "authors": [
+      "Lisa M. Erdle",
+      "D. Nouri Parto",
+      "D. Sweetnam",
+      "Chelsea M. Rochman"
+    ],
+    "year": 2021,
+    "doi": "10.3389/fmars.2021.777865",
+    "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.777865/pdf",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "main text closely read; methods and metric denominators independently checked; L02 key numerical pages visually verified",
+    "research_use": "community-scale point-of-use filter capture and household maintenance context",
+    "reading_notes": [
+      "reading_notes/L01-L03_精读卡.md",
+      "reading_notes/20260921_L01-L03_核验补充.md"
+    ]
+  },
+  {
+    "id": "L03",
+    "filename": "L03_Napper2020_device_efficiency.pdf",
+    "type": "original research",
+    "title": "The efficiency of devices intended to reduce microfibre release during clothes washing",
+    "authors": [
+      "Imogen E. Napper",
+      "Aaron C. Barrett",
+      "Richard C. Thompson"
+    ],
+    "year": 2020,
+    "doi": "10.1016/j.scitotenv.2020.140412",
+    "source_url": "https://pure.plymouth.ac.uk/ws/portalfiles/portal/39820944/Napper_et_al_2020_washing_machine_filters.pdf",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "main text closely read; methods and metric denominators independently checked; L02 key numerical pages visually verified",
+    "research_use": "commercial source-control device comparison; capture versus shedding-reduction mechanisms",
+    "reading_notes": [
+      "reading_notes/L01-L03_精读卡.md",
+      "reading_notes/20260921_L01-L03_核验补充.md"
+    ]
+  },
+  {
+    "id": "L04",
+    "filename": "L04_Le2022_laundry_wastewater_review.pdf",
+    "type": "review/background",
+    "title": "Microfibers in laundry wastewater: Problem and solution",
+    "authors": [
+      "Linh-Thy Le",
+      "Kim-Qui N. Nguyen",
+      "Phuong-Thao Nguyen",
+      "Hung C. Duong",
+      "Xuan-Thanh Bui",
+      "Ngoc Bich Hoang",
+      "Long D. Nghiem"
+    ],
+    "year": 2022,
+    "doi": "10.1016/j.scitotenv.2022.158412",
+    "source_url": "https://opus.lib.uts.edu.au/bitstream/10453/165638/2/Microfibers%20in%20laundry%20wastewater%20Problem%20and%20solution.pdf",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "full-text methods, results, maintenance and limitations reviewed; original versus review distinguished",
+    "research_use": "review/background; source-control and maintenance evidence map",
+    "reading_notes": [
+      "reading_notes/20260921_L04-L05-L09-L11_核验补充.md"
+    ]
+  },
+  {
+    "id": "L05",
+    "filename": "L05_Belzagui2023_sustainable_filtering.pdf",
+    "type": "original research",
+    "title": "Sustainable Filtering Systems to Reduce Microfiber Emissions from Textiles during Household Laundering",
+    "authors": [
+      "Francisco Belzagui",
+      "Carmen Gutiérrez-Bouzán",
+      "Fernando Carrillo-Navarrete",
+      "Víctor López-Grimau"
+    ],
+    "year": 2023,
+    "doi": "10.3390/polym15143023",
+    "source_url": "https://mdpi-res.com/d_attachment/polymers/polymers-15-03023/article_deploy/polymers-15-03023.pdf",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "full-text methods, results, maintenance and limitations reviewed; original versus review distinguished",
+    "research_use": "reusable-cartridge configuration, cycle-dependent retention, and replacement interval",
+    "reading_notes": [
+      "reading_notes/20260921_L04-L05-L09-L11_核验补充.md"
+    ]
+  },
+  {
+    "id": "L07",
+    "filename": "L07_Hamann2025_self_cleaning_filter.pdf",
+    "type": "original research",
+    "title": "A self-cleaning, bio-inspired high retention filter for a major entry path of microplastics",
+    "authors": [
+      "Leandra Hamann",
+      "Christian Reuß",
+      "Hendrik Herzog",
+      "Kristina Schreiber",
+      "Christian Geitner",
+      "Alexander Blanke"
+    ],
+    "year": 2025,
+    "doi": "10.1038/s44454-025-00020-2",
+    "source_url": "https://www.nature.com/articles/s44454-025-00020-2.pdf",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "main text and supplement closely read; Figure 5 key metrics independently reproduced; full-data audit not complete",
+    "research_use": "semi-cross-flow filtration, periodic cleaning, concentrate capture and material balance",
+    "supplements": [
+      "supplements/hamann2025_supplement.docx",
+      "supplements/hamann2025_data.xlsx"
+    ],
+    "reading_note": "reading_notes/L07_Hamann2025_精读卡.md"
+  },
+  {
+    "id": "L09",
+    "filename": "L09_Vassilenko2021_laundry_shedding.pdf",
+    "type": "original research/background",
+    "title": "Domestic laundry and microfiber pollution: Exploring fiber shedding from consumer apparel textiles",
+    "authors": [
+      "Ekaterina Vassilenko",
+      "Mathew Watkins",
+      "Stephen Chastain",
+      "Joel Mertens",
+      "Anna M. Posacka",
+      "Shreyas Patankar",
+      "Peter S. Ross"
+    ],
+    "year": 2021,
+    "doi": "10.1371/journal.pone.0250346",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8270180/pdf/pone.0250346.pdf",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "full-text methods, results, maintenance and limitations reviewed; original versus review distinguished",
+    "research_use": "baseline shedding and effluent sampling method; household lint-trap intervention context",
+    "reading_notes": [
+      "reading_notes/20260921_L04-L05-L09-L11_核验补充.md"
+    ]
+  },
+  {
+    "id": "L11",
+    "filename": "L11_Belzagui2022_alternatives_review.pdf",
+    "type": "review/background",
+    "title": "Review on alternatives for the reduction of textile microfibers emission to water",
+    "authors": [
+      "Francisco Belzagui",
+      "Carmen Gutiérrez-Bouzán",
+      "Fernando Carrillo-Navarrete",
+      "Víctor López-Grimau"
+    ],
+    "year": 2022,
+    "doi": "10.1016/j.jenvman.2022.115347",
+    "source_url": "https://upcommons.upc.edu/server/api/core/bitstreams/bf8c0900-dbd1-4578-8e76-f571f6e9d7fc/content",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "full-text methods, results, maintenance and limitations reviewed; original versus review distinguished",
+    "research_use": "review/background; retained-fiber disposition and intervention-boundary questions",
+    "reading_notes": [
+      "reading_notes/20260921_L04-L05-L09-L11_核验补充.md"
+    ]
+  },
+  {
+    "id": "L12",
+    "filename": "L12_Browne2020_pore_size_polymer.pdf",
+    "type": "original research",
+    "title": "Pore-size and polymer affect the ability of filters for washing-machines to reduce domestic emissions of fibres to sewage",
+    "authors": [
+      "Mark Anthony Browne",
+      "Macarena Ros",
+      "Emma L. Johnston"
+    ],
+    "year": 2020,
+    "doi": "10.1371/journal.pone.0234248",
+    "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0234248&type=printable",
+    "download_status": "downloaded and structurally verified",
+    "reading_status": "methods, results, Figure 5 and official S1 data verified; abstract/results pore-size disagreement and percentage arithmetic inconsistency retained",
+    "research_use": "controlled household washing filter pore-size and textile-material comparison",
+    "reading_notes": [
+      "acquisition_followup/F02_精读卡.md",
+      "acquisition_followup/F02_Browne2020_verification.md",
+      "metadata/L12_root_supplement_recalculation.json"
+    ],
+    "acquisition_id": "F02"
+  },
+  {
+    "id": "L13",
+    "filename": "L13_Gao2026_slow_sand_accepted_manuscript.pdf",
+    "type": "original research/mechanism background",
+    "title": "Transport and retention of laundry microplastic fibres in slow sand filtration systems",
+    "authors": [
+      "Fan Gao",
+      "Rosa Busquets",
+      "Luiza C. Campos"
+    ],
+    "year": 2026,
+    "published_online": "2026-03-06",
+    "doi": "10.1038/s41598-026-41438-x",
+    "source_url": "https://discovery.ucl.ac.uk/id/eprint/10223905/1/Campos_s41598-026-41438-x_reference.pdf",
+    "version": "UCL Discovery accepted manuscript; 70 structural pages, last 11 watermark-only pages",
+    "download_status": "downloaded and independently structurally and visually verified",
+    "reading_status": "method, key results and maintenance limitations reviewed; hydraulic scaling independently checked; no raw-data reproduction",
+    "research_use": "mechanism background only; mature slow sand, not instantaneous laundry drainage or gas regeneration",
+    "acquisition_id": "F04",
+    "official_page": "https://www.nature.com/articles/s41598-026-41438-x",
+    "reading_notes": [
+      "reading_notes/L13_Gao2026_慢砂微纤维输运_精读卡.md",
+      "../patents/慢砂与S2处理量尺度比较.md"
+    ]
+  },
+  {
+    "id": "L14",
+    "filename": "L14_Brick2025_citizen_science_laundry_behavior.pdf",
+    "title": "Psychological outcomes from a citizen science study on microplastics from household clothes washing",
+    "authors": [
+      "Cameron Brick",
+      "Anna Bosshard",
+      "Bernou Boven",
+      "Julia Hijink",
+      "Antonia Praetorius",
+      "Lies Jacobs"
+    ],
+    "year": 2025,
+    "doi": "10.1039/D5VA00037H",
+    "type": "original behavioral research; not filter performance",
+    "source_url": "https://pure.uva.nl/ws/files/282418501/Psychological_outcomes_from_a_citizen_science_study_on_microplastics.pdf",
+    "official_page": "https://pubs.rsc.org/en/content/articlelanding/2025/va/d5va00037h",
+    "published_online": "2025-05-13",
+    "download_status": "downloaded, PDF structure DOI hash and visual page checked",
+    "reading_status": "methods, attrition and behavioral boundaries reviewed; no raw survey data audit",
+    "research_use": "household procedure burden and attrition; cannot infer external-filter maintenance compliance or filtration performance",
+    "reading_notes": [
+      "acquisition_followup/F05_Brick2025_行为与维护短卡.md"
+    ],
+    "acquisition_id": "F05"
+  },
+  {
+    "id": "L15",
+    "filename": "L15_Rachman2025_MiniPlast_laundry_wastewater.pdf",
+    "type": "original research/method-limit comparison",
+    "title": "Evaluation of MiniPlast Filters for Microplastic Removal from Laundry Wastewater",
+    "authors": [
+      "Ranno Marlany Rachman",
+      "Gabrella Prananda Claudia",
+      "Wa Ode Sitti Warsita Mahapati"
+    ],
+    "year": 2025,
+    "doi": "10.29244/jpsl.15.3.472",
+    "source_url": "https://journal.ipb.ac.id/jpsl/article/download/52850/30621/336441",
+    "download_status": "downloaded and structurally verified; 10-page unencrypted PDF",
+    "reading_status": "methods, group-comparability and metric denominator closely read; not used as a performance benchmark",
+    "research_use": "method-limit comparison: different-day bottle samples, partial-volume count, missing polymer confirmation and missing complete flow accounting are rejection conditions for H1 effect claims",
+    "reading_notes": [
+      "acquisition_followup/F19_Rachman2025_研究卡.md"
+    ],
+    "acquisition_id": "F19"
+  },
+  {
+    "id": "L16",
+    "filename": "L16_Park2025_Laundry_Microplastic_Filter.pdf",
+    "type": "original research/design and continuous-use comparison",
+    "title": "Development and Efficiency Evaluation of Microplastic Removal Filter for Laundry Machines",
+    "authors": [
+      "Beomseok Park",
+      "Hee-Jung Yoon",
+      "Hanbai Park"
+    ],
+    "year": 2025,
+    "doi": "10.3390/w17030358",
+    "source_url": "https://mdpi-res.com/d_attachment/water/water-17-00358/article_deploy/water-17-00358.pdf",
+    "download_status": "downloaded and structurally verified; 16-page unencrypted PDF",
+    "reading_status": "methods, flow path, analytical denominator and continuous-use claim closely read; no author performance number adopted as an H1 target",
+    "research_use": "installed multi-stage drain-end filter and 50-cycle observation structure; H1 must add solid, wash-waste, retained-inventory and terminal-disposition accounting before an effect or lifetime claim",
+    "reading_notes": [
+      "acquisition_followup/F21_Park2025_研究卡.md"
+    ],
+    "acquisition_id": "F21"
+  },
+  {
+    "id": "L17",
+    "filename": "L17_Song2026_External_Microplastic_Filters_Review.pdf",
+    "type": "review/background",
+    "title": "External Microplastic Filters for Washing Machines: Advances, Technical Challenges, and Biofouling Mitigation",
+    "authors": [
+      "Hyeri Song",
+      "Yeo Min Kim",
+      "Da Hyun Yoo",
+      "Sun Ae Kim",
+      "Chanhyuk Park"
+    ],
+    "year": 2026,
+    "doi": "10.3390/membranes16070238",
+    "source_url": "https://mdpi-res.com/d_attachment/membranes/membranes-16-00238/article_deploy/membranes-16-00238.pdf",
+    "download_status": "downloaded and structurally verified; 24-page unencrypted PDF",
+    "reading_status": "full review read for hydraulic, maintenance, terminal-disposition and biofouling inference boundaries; not a performance-data source",
+    "research_use": "sets H1 long-cycle record needs for pressure drop, flow, bypass, cleaning and disposition; external-filter biofouling remains an unverified future test branch",
+    "reading_notes": [
+      "acquisition_followup/F22_Song2026_研究卡.md"
+    ],
+    "acquisition_id": "F22"
+  }
+]

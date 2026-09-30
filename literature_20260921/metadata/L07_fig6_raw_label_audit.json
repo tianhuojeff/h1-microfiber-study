@@ -1,0 +1,305 @@
+{
+  "source": "h1-study/literature_20260921/supplements/hamann2025_data.xlsx",
+  "source_sha256": "99682d2076b04c72402462e132ec9c69ba1f112bfa11f3ae3f9d016502f8444e",
+  "worksheet": "filtration-efficiency",
+  "header_row": 1,
+  "scope": "Figure 6 Small-22 raw-label audit",
+  "raw_label_finding": {
+    "small22_rows_169_192": "all inlet=swirl, all FiF_length=Small, all AoA=22, mesh_size_um=100",
+    "paper_fig6_caption": "snail inlet",
+    "paper_discussion_and_raw_sheet": "swirl"
+  },
+  "trial_records": [
+    {
+      "trial": 27,
+      "analyst": "KS",
+      "inlet": "swirl",
+      "FiF_length": "Small",
+      "AoA": 22,
+      "mesh_size_um": 100,
+      "MP_type": "F2",
+      "source_rows": [
+        169,
+        170,
+        171
+      ],
+      "recovery_ABS": 0.1129315,
+      "recovery_REL": 44.37,
+      "P_diff_g": {
+        "concentrate": 0.05,
+        "permeate": 0.02,
+        "retentate": 0.04
+      },
+      "sample_vol_L": 0.35,
+      "ER_percent": 82.29014933831571,
+      "permeate_percent": 17.709850661684296,
+      "EC_percent": 44.274626654210735,
+      "retentate_percent": 35.41970132336859,
+      "stored_component_mass_sum_g": 0.11,
+      "stored_component_sum_over_recovery_percent": 97.40417863926362
+    },
+    {
+      "trial": 28,
+      "analyst": "KS",
+      "inlet": "swirl",
+      "FiF_length": "Small",
+      "AoA": 22,
+      "mesh_size_um": 100,
+      "MP_type": "PA",
+      "source_rows": [
+        172,
+        173,
+        174
+      ],
+      "recovery_ABS": 0.0397409,
+      "recovery_REL": 15.93,
+      "P_diff_g": {
+        "concentrate": 0.01,
+        "permeate": 0.02,
+        "retentate": 0.01
+      },
+      "sample_vol_L": 0.29,
+      "ER_percent": 49.67401342194062,
+      "permeate_percent": 50.32598657805938,
+      "EC_percent": 25.16299328902969,
+      "retentate_percent": 25.16299328902969,
+      "stored_component_mass_sum_g": 0.04,
+      "stored_component_sum_over_recovery_percent": 100.65197315611876
+    },
+    {
+      "trial": 29,
+      "analyst": "KS",
+      "inlet": "swirl",
+      "FiF_length": "Small",
+      "AoA": 22,
+      "mesh_size_um": 100,
+      "MP_type": "PA",
+      "source_rows": [
+        175,
+        176,
+        177
+      ],
+      "recovery_ABS": 0.0249508,
+      "recovery_REL": 9.92,
+      "P_diff_g": {
+        "concentrate": 0.01,
+        "permeate": 0,
+        "retentate": 0.01
+      },
+      "sample_vol_L": 0.29,
+      "ER_percent": 100.0,
+      "permeate_percent": 0.0,
+      "EC_percent": 40.078875226445646,
+      "retentate_percent": 40.078875226445646,
+      "stored_component_mass_sum_g": 0.02,
+      "stored_component_sum_over_recovery_percent": 80.15775045289129
+    },
+    {
+      "trial": 30,
+      "analyst": "KS",
+      "inlet": "swirl",
+      "FiF_length": "Small",
+      "AoA": 22,
+      "mesh_size_um": 100,
+      "MP_type": "F2",
+      "source_rows": [
+        178,
+        179,
+        180
+      ],
+      "recovery_ABS": 0.187633,
+      "recovery_REL": 73.44,
+      "P_diff_g": {
+        "concentrate": 0.06,
+        "permeate": 0.05,
+        "retentate": 0.08
+      },
+      "sample_vol_L": 0.42,
+      "ER_percent": 73.3522354809655,
+      "permeate_percent": 26.6477645190345,
+      "EC_percent": 31.9773174228414,
+      "retentate_percent": 42.6364232304552,
+      "stored_component_mass_sum_g": 0.19,
+      "stored_component_sum_over_recovery_percent": 101.2615051723311
+    },
+    {
+      "trial": 31,
+      "analyst": "KS",
+      "inlet": "swirl",
+      "FiF_length": "Small",
+      "AoA": 22,
+      "mesh_size_um": 100,
+      "MP_type": "F2",
+      "source_rows": [
+        181,
+        182,
+        183
+      ],
+      "recovery_ABS": 0.185203,
+      "recovery_REL": 73.64,
+      "P_diff_g": {
+        "concentrate": 0.11,
+        "permeate": 0.01,
+        "retentate": 0.07
+      },
+      "sample_vol_L": 0.95,
+      "ER_percent": 94.60051943003083,
+      "permeate_percent": 5.399480569969168,
+      "EC_percent": 59.39428626966086,
+      "retentate_percent": 37.79636398978418,
+      "stored_component_mass_sum_g": 0.19,
+      "stored_component_sum_over_recovery_percent": 102.5901308294142
+    },
+    {
+      "trial": 32,
+      "analyst": "KS",
+      "inlet": "swirl",
+      "FiF_length": "Small",
+      "AoA": 22,
+      "mesh_size_um": 100,
+      "MP_type": "F2",
+      "source_rows": [
+        184,
+        185,
+        186
+      ],
+      "recovery_ABS": 0.1492712,
+      "recovery_REL": 59.71,
+      "P_diff_g": {
+        "concentrate": 0.07,
+        "permeate": 0.02,
+        "retentate": 0.06
+      },
+      "sample_vol_L": 0.32,
+      "ER_percent": 86.60156815246344,
+      "permeate_percent": 13.398431847536566,
+      "EC_percent": 46.894511466377985,
+      "retentate_percent": 40.19529554260969,
+      "stored_component_mass_sum_g": 0.15,
+      "stored_component_sum_over_recovery_percent": 100.48823885652423
+    },
+    {
+      "trial": 33,
+      "analyst": "KS",
+      "inlet": "swirl",
+      "FiF_length": "Small",
+      "AoA": 22,
+      "mesh_size_um": 100,
+      "MP_type": "F2",
+      "source_rows": [
+        187,
+        188,
+        189
+      ],
+      "recovery_ABS": 0.1338652,
+      "recovery_REL": 53.33,
+      "P_diff_g": {
+        "concentrate": 0.03,
+        "permeate": 0.02,
+        "retentate": 0.09
+      },
+      "sample_vol_L": 0.37,
+      "ER_percent": 85.05959726650391,
+      "permeate_percent": 14.940402733496086,
+      "EC_percent": 22.41060410024413,
+      "retentate_percent": 67.23181230073239,
+      "stored_component_mass_sum_g": 0.13999999999999999,
+      "stored_component_sum_over_recovery_percent": 104.58281913447259
+    },
+    {
+      "trial": 34,
+      "analyst": "KS",
+      "inlet": "swirl",
+      "FiF_length": "Small",
+      "AoA": 22,
+      "mesh_size_um": 100,
+      "MP_type": "F2",
+      "source_rows": [
+        190,
+        191,
+        192
+      ],
+      "recovery_ABS": 0.133804,
+      "recovery_REL": 53.2,
+      "P_diff_g": {
+        "concentrate": 0.03,
+        "permeate": 0.02,
+        "retentate": 0.09
+      },
+      "sample_vol_L": 0.4,
+      "ER_percent": 85.05276374398375,
+      "permeate_percent": 14.947236256016263,
+      "EC_percent": 22.42085438402439,
+      "retentate_percent": 67.26256315207318,
+      "stored_component_mass_sum_g": 0.13999999999999999,
+      "stored_component_sum_over_recovery_percent": 104.63065379211382
+    }
+  ],
+  "candidate_summaries": {
+    "paper_like_six_f2_trials_27_30_34": {
+      "trials": [
+        27,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "n": 6,
+      "ER_percent": {
+        "mean": 84.49280556871052,
+        "sample_sd": 6.873304321401198
+      },
+      "permeate_percent": {
+        "mean": 15.507194431289479,
+        "sample_sd": 6.8733043214012
+      },
+      "EC_percent": {
+        "mean": 37.89536671622658,
+        "sample_sd": 14.819884062888807
+      },
+      "retentate_percent": {
+        "mean": 48.423693256503874,
+        "sample_sd": 14.77762712858058
+      }
+    },
+    "five_f2_trials_30_34": {
+      "trials": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "n": 5,
+      "ER_percent": {
+        "mean": 84.93333681478948,
+        "sample_sd": 7.589293908358758
+      },
+      "permeate_percent": {
+        "mean": 15.066663185210516,
+        "sample_sd": 7.589293908358759
+      },
+      "EC_percent": {
+        "mean": 36.61951472862975,
+        "sample_sd": 16.19653411504823
+      },
+      "retentate_percent": {
+        "mean": 51.02449164313093,
+        "sample_sd": 14.907772723652808
+      }
+    }
+  },
+  "card_claims": {
+    "ER_percent_mean": 84.5,
+    "ER_percent_sd": 6.7,
+    "permeate_or_mislabeled_ER_percent_mean": 15.5,
+    "permeate_or_mislabeled_ER_percent_sd": 6.9
+  },
+  "interpretation": "Raw table labels and stored fields are reported without correcting author text. Six F2 records (trials 27 and 30-34) reproduce approximately 84.5 and 15.5 means, but n=6; five F2 records 30-34 give n=5 and 84.9/15.1 with sample SD 7.6/7.6. The figure caption says snail while these Small-22 raw rows say swirl.",
+  "root_review_caveats": [
+    "Stored component masses have limited decimal precision and do not always sum to stored recovery_ABS. Recalculated percentages are arithmetic from the distributed table, not exact reconstruction of unavailable unrounded measurements.",
+    "All matching F2 records and a five-record sensitivity subset are separately reported; author figure membership not independently established. No subset selected as correct merely because it resembles a published number.",
+    "Figure caption n=5 and snail label remain inconsistent with matching records and cannot be silently repaired."
+  ]
+}
