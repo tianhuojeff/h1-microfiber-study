@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-01T18:26:24.967282+08:00",
+  "updated_at": "2026-10-02T01:18:48.511606+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -4678,9 +4678,63 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-storage-box_retention-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "box_retention",
+              "stage": "storage",
+              "technical_feature": "收集盒320用于收集过滤出的微塑料，直接在盒内截留并保留供统一清理，未另设主滤面之外的转储腔。p0073的进出水口封闭盒与网状盒是可选形式，不能合并为所有盒体均密闭防漏；暂存不等于长期干储或最终安全处置。",
+              "object": "过滤出的微塑料及盒内承载滤网",
+              "start": "盒内滤网截留位置",
+              "end": "收集盒320内，待统一清理",
+              "boundary": "收集盒与过滤模块内部；非最终废物处置边界",
+              "operation_order": [
+                "在盒内拦截并收集",
+                "后续可拆盒清理"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：本条以所列说明书锚点为据，不并入授权独立项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0053",
+                  "html_anchor": "p0053",
+                  "evidence_excerpt": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集盒320进行拆出。示例性的，收集盒320对应第一进水口311设有第二进水口321，对应第一出水口312设有第二出水口322，以便于排水管200内的水进入收集盒320进行过滤。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                  "source_url": "https://patents.google.com/patent/CN222043626U/zh",
+                  "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                  "verified_at": "2026-10-02T01:18:48.511606+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0073",
+                  "html_anchor": "p0073",
+                  "evidence_excerpt": "需要说明的是，本申请实施例的收集盒320既可以是上述封闭的盒状结构，通过第二进水口321和第二出水口322实现进水过滤与排出，收集盒320还可以是具有网孔的网状结构，从而可以实现对微塑料的多重过滤效果。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                  "source_url": "https://patents.google.com/patent/CN222043626U/zh",
+                  "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                  "verified_at": "2026-10-02T01:18:48.511606+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                }
+              ],
+              "interpretation": "收集盒320用于收集过滤出的微塑料，直接在盒内截留并保留供统一清理，未另设主滤面之外的转储腔。p0073的进出水口封闭盒与网状盒是可选形式，不能合并为所有盒体均密闭防漏；暂存不等于长期干储或最终安全处置。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T01:18:48.511606+08:00",
+              "old_value": null,
+              "new_value": "收集盒320用于收集过滤出的微塑料，直接在盒内截留并保留供统一清理，未另设主滤面之外的转储腔。p0073的进出水口封闭盒与网状盒是可选形式，不能合并为所有盒体均密闭防漏；暂存不等于长期干储或最终安全处置。",
+              "change_reason": "补此前空字段正向定位，限定保存文本；原件/法律资格缺口保持。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": null
         },
         "removal": {
@@ -4849,9 +4903,82 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-state_switch-manual_cover_modes-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "manual_cover_modes",
+              "stage": "state_switch",
+              "technical_feature": "p0064分别明示取盒清洁时拆开盖板、过滤收集时放入盒体并连接且密封盖板；这是人工维护可达状态与装配过滤状态的切换。密封圈是例示方式；该锚点不提供自动控制器、停机排液先后、联锁条件或漏水实測，不能补出。既有removal只记含物盒越界，既有seals_connections只记滑槽安装接口；本条不重复新增移出或连接字段。",
+              "object": "盖板314、主壳313和收集盒320",
+              "start": "盖板拆开、收集盒可接近的维护状态",
+              "end": "盒体放入、盖板连接并密封的过滤收集状态",
+              "boundary": "收集盒与过滤模块内部；非最终废物处置边界",
+              "operation_order": [
+                "维护：拆盖以露出盒体供用户取出清洁",
+                "过滤：放入盒体并连接盖板、密封"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：本条以所列说明书锚点为据，不并入授权独立项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0064",
+                  "html_anchor": "p0064",
+                  "evidence_excerpt": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳313之间增加密封圈来实现。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                  "source_url": "https://patents.google.com/patent/CN222043626U/zh",
+                  "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                  "verified_at": "2026-10-02T01:18:48.511606+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                }
+              ],
+              "interpretation": "p0064分别明示取盒清洁时拆开盖板、过滤收集时放入盒体并连接且密封盖板；这是人工维护可达状态与装配过滤状态的切换。密封圈是例示方式；该锚点不提供自动控制器、停机排液先后、联锁条件或漏水实測，不能补出。既有removal只记含物盒越界，既有seals_connections只记滑槽安装接口；本条不重复新增移出或连接字段。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T01:18:48.511606+08:00",
+              "old_value": {
+                "judgment": "explicit",
+                "summary": "维护时拆盖、取盒；装回盒后盖板连接且密封进入过滤状态；进出水关闭或联锁顺序未明确。",
+                "evidence": [
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0059]",
+                    "html_id": "p0064",
+                    "quote": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳313之间增加密封圈来实现。",
+                    "evidence_type": "description"
+                  },
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0066]",
+                    "html_id": "p0071",
+                    "quote": "其中，请结合图1至图5并参阅图6和图7所示，图6为本申请实施例提供的壳体中部分结构的结构示意图，图7为图2所示的过滤组件沿B-B的剖面结构示意图。主壳313设置有滑槽313a，滑槽313a的一端贯通主壳313，以便于安装管324滑入；滑槽313a的另一端适应安装管324的形状而设置，可以起到对安装管324向下运动的限位。壳体310还包括弹性件319，弹性件319朝向安装管324凸出于主壳313设置在滑槽313a内，以从滑槽313a的底端相对方向对安装管324进行限位。安装管324能够在滑槽313a内滑动，以将盒体323装入或者拆出主壳313。",
+                    "evidence_type": "description"
+                  },
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0067]",
+                    "html_id": "p0072",
+                    "quote": "需要说明的是，将收集盒320安装进入主壳313的过程为：安装管324沿滑槽313a进入直至到滑槽313a底部，在这个过程中，安装管324将弹性件319压缩至主壳313内，也即不凸出于主壳313，待安装管324达到滑槽313a底部时，弹性件319在自身弹性力作用下回复到初始位置，也即凸出于主壳313，从而滑槽313a与弹性件319配合实现对安装管324上下方向运动的限位，也即将安装管324固定，此时盒体323也即到达相应位置，可以防止安装管324晃动导致的微塑料的过滤以及收集效果不佳的问题。",
+                    "evidence_type": "description"
+                  }
+                ],
+                "unknown_reason": "",
+                "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+              },
+              "new_value": "p0064分别明示取盒清洁时拆开盖板、过滤收集时放入盒体并连接且密封盖板；这是人工维护可达状态与装配过滤状态的切换。密封圈是例示方式；该锚点不提供自动控制器、停机排液先后、联锁条件或漏水实測，不能补出。既有removal只记含物盒越界，既有seals_connections只记滑槽安装接口；本条不重复新增移出或连接字段。",
+              "change_reason": "补此前空字段正向定位，限定保存文本；原件/法律资格缺口保持。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "维护时拆盖、取盒；装回盒后盖板连接且密封进入过滤状态；进出水关闭或联锁顺序未明确。",
@@ -5131,8 +5258,42 @@
             ],
             "field": "liquid_route",
             "at": "2026-09-29T23:13:03.436332+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "anchors": [
+              "p0053",
+              "p0073"
+            ],
+            "field": "storage",
+            "at": "2026-10-02T01:18:48.511606+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "anchors": [
+              "p0064"
+            ],
+            "field": "state_switch",
+            "at": "2026-10-02T01:18:48.511606+08:00"
           }
-        ]
+        ],
+        "saved_text_targeted_20261002": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+          "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+          "read_anchors": [
+            "p0053",
+            "p0054",
+            "p0064",
+            "p0073"
+          ],
+          "fields_added": [
+            "storage",
+            "state_switch"
+          ],
+          "original_pdf_checked": false,
+          "not_a_full_text_completion": true,
+          "verified_at": "2026-10-02T01:18:48.511606+08:00"
+        }
       }
     },
     {

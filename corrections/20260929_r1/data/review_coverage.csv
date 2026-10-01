@@ -31,9 +31,9 @@ H1-F93508213,CN222043626U,transfer,not_reviewed_this_revision,,0
 H1-F93508213,CN222043626U,chamber_drainage,not_reviewed_this_revision,,0
 H1-F93508213,CN222043626U,solids_dewatering,not_reviewed_this_revision,,0
 H1-F93508213,CN222043626U,liquid_route,partial,same_embodiment_combination,1
-H1-F93508213,CN222043626U,storage,not_reviewed_this_revision,,0
+H1-F93508213,CN222043626U,storage,partial_saved_text_targeted,explicit,1
 H1-F93508213,CN222043626U,removal,partial,same_embodiment_combination,1
-H1-F93508213,CN222043626U,state_switch,not_reviewed_this_revision,,0
+H1-F93508213,CN222043626U,state_switch,partial_saved_text_targeted,explicit,1
 H1-F93508213,CN222043626U,seals_connections,partial,same_embodiment_combination,1
 H1-F93508213,CN222043626U,performance,not_reviewed_this_revision,,0
 H1-F93508213,CN222043626U,endpoint,not_reviewed_this_revision,,0
