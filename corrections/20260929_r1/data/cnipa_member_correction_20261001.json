@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-01T12:57:47.910173+08:00",
+  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\raw_official_20260929\\CN_quanweiwendang_20260630.zip",
+  "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+  "records": [
+    {
+      "sample": "CN112914464A",
+      "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+      "member": "CN_权威文档_20260630/权威文档19850910-20260630/INVENTION 19850910-20260630.txt",
+      "line_number": 17863021,
+      "raw_record": "CN,112914464,A,20210608,,ABST-zh,DESC-zh,CLMS-zh<CRLF>",
+      "line_ending": "CRLF"
+    },
+    {
+      "sample": "CN222043626U",
+      "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+      "member": "CN_权威文档_20260630/权威文档19850910-20260630/UTILITY_MODEL 19850910-20260630.csv",
+      "line_number": 21297581,
+      "raw_record": "CN,222043626,U,20241122",
+      "line_ending": "CRLF"
+    }
+  ],
+  "supersedes": {
+    "path": "revision_20260929/legal/cnipa_authoritative_document_version_check_20260929.json",
+    "old_CN222043626U_fact": "No matching U record was present in the downloaded authoritative-document text entry inspected.",
+    "correction": "旧核验漏查UTILITY_MODEL成员；当前实用新型成员有U公告。旧文件保留为历史，不再作为此两件版本事实的最新结论。"
+  },
+  "supports": "Publication kind/version and publication date only; not present maintenance or validity.",
+  "does_not_support": "个案法律事件、年费、终止、现时有效或14候选资格放行。",
+  "previous_values": [
+    {
+      "representative_publication": "CN112914464A",
+      "grant_publication_id": null,
+      "legal_evidence": {
+        "sample": "CN112914464A",
+        "jurisdiction": "CN",
+        "application_no": "CN202011417030.4A",
+        "publication_no": "CN112914464A",
+        "grant_no": null,
+        "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+        "official_record": "CNIPA PSS request rejected HTTP 412; individual record not read.",
+        "status_as_of": "unknown",
+        "supports": "Only official-entry availability/obstacle.",
+        "does_not_support": "Whether the CN application is granted, pending, withdrawn, lapsed or effective.",
+        "gap": "Read official CNIPA record and any grant/maintenance event; EP3832001B1 is an external related-document lead, not verified as this CN record's legal status.",
+        "related_text": "Google lead (non-status evidence) links EP3832001A1/B1; official EPO lookup blocked."
+      },
+      "legal_evidence_source": {
+        "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\official_status_register_20260929.json",
+        "sha256": "80cebae07a66f4dc3c31c4ff27581cd8a39ca79ba80f15bbdf4dc265f13af0f7",
+        "imported_at": "2026-09-29T23:06:59.473020+08:00",
+        "new_online_query_performed": false
+      }
+    },
+    {
+      "representative_publication": "CN222043626U",
+      "grant_publication_id": "CN222043626U (utility-model publication kind; no maintenance finding)",
+      "legal_evidence": {
+        "sample": "CN222043626U",
+        "jurisdiction": "CN",
+        "application_no": "CN202420066261.2U",
+        "publication_no": "CN222043626U",
+        "grant_no": "CN222043626U (utility-model publication kind; no maintenance finding)",
+        "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
+        "official_record": "CNIPA PSS request rejected HTTP 412; individual record not read.",
+        "status_as_of": "unknown",
+        "supports": "Only official-entry availability/obstacle.",
+        "does_not_support": "Whether the utility model is presently maintained/effective.",
+        "gap": "Official CNIPA utility-model legal-event and annual-fee/termination information."
+      },
+      "legal_evidence_source": {
+        "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\official_status_register_20260929.json",
+        "sha256": "80cebae07a66f4dc3c31c4ff27581cd8a39ca79ba80f15bbdf4dc265f13af0f7",
+        "imported_at": "2026-09-29T23:06:59.473020+08:00",
+        "new_online_query_performed": false
+      }
+    }
+  ]
+}

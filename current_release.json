@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-01T12:42:10.7987048+08:00",
+  "updated_at": "2026-10-01T12:57:47.910173+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "P2 full-text and unfilled field review pending",
@@ -25,7 +25,7 @@
   "current_observations": 73,
   "full_text_review_complete": false,
   "execution_status": "in_progress_delegated_P2",
-  "weekly_used_percent": 9,
-  "weekly_remaining_percent": 91,
-  "master_sha256": "28061cf7b1be34bca6f32789b6b061cff52073ed9ba963345f96b793ca7ecf51"
+  "weekly_used_percent": 12,
+  "weekly_remaining_percent": 88,
+  "master_sha256": "3faea2d23cc76546a243d3d5822fd816b6bbf6a3d790ec50d1d504d4892ae24d"
 }

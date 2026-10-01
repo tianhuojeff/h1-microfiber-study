@@ -1,0 +1,31 @@
+{
+  "verified": true,
+  "records": [
+    {
+      "sample": "CN112914464A",
+      "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+      "member": "CN_权威文档_20260630/权威文档19850910-20260630/INVENTION 19850910-20260630.txt",
+      "line_number": 17863021,
+      "raw_record": "CN,112914464,A,20210608,,ABST-zh,DESC-zh,CLMS-zh<CRLF>",
+      "line_ending": "CRLF"
+    },
+    {
+      "sample": "CN222043626U",
+      "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+      "member": "CN_权威文档_20260630/权威文档19850910-20260630/UTILITY_MODEL 19850910-20260630.csv",
+      "line_number": 21297581,
+      "raw_record": "CN,222043626,U,20241122",
+      "line_ending": "CRLF"
+    }
+  ],
+  "master_sha256": "3faea2d23cc76546a243d3d5822fd816b6bbf6a3d790ec50d1d504d4892ae24d",
+  "all_technical_data_unchanged": true,
+  "all_14_pending": true,
+  "baseline_commit": "d6ed64f03a5932561b11b672677a5d37cd5752f4",
+  "formal_statistics_allowed": false,
+  "final_report_ready": false,
+  "original_archive_unchanged": true,
+  "historical_register_unchanged": true,
+  "new_online_query_performed": false,
+  "checked_at": "2026-10-01T12:57:47.910173+08:00"
+}

@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-01T12:42:10.7987048+08:00",
+  "updated_at": "2026-10-01T12:57:47.910173+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -111,18 +111,30 @@
         "publication_no": "CN112914464A",
         "grant_no": null,
         "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
-        "official_record": "CNIPA PSS request rejected HTTP 412; individual record not read.",
+        "official_record": "CNIPA authoritative original ZIP member row verified on 2026-10-01T12:57:47.910173+08:00; prior PSS HTTP 412 obstacle remains; current individual legal-status record not read.",
         "status_as_of": "unknown",
-        "supports": "Only official-entry availability/obstacle.",
+        "supports": "Official publication-version and publication-date fact only.",
         "does_not_support": "Whether the CN application is granted, pending, withdrawn, lapsed or effective.",
         "gap": "Read official CNIPA record and any grant/maintenance event; EP3832001B1 is an external related-document lead, not verified as this CN record's legal status.",
-        "related_text": "Google lead (non-status evidence) links EP3832001A1/B1; official EPO lookup blocked."
+        "related_text": "Google lead (non-status evidence) links EP3832001A1/B1; official EPO lookup blocked.",
+        "official_version_source": {
+          "authority": "CNIPA authoritative document through 2026-06-30",
+          "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+          "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+          "member": "CN_权威文档_20260630/权威文档19850910-20260630/INVENTION 19850910-20260630.txt",
+          "line_number": 17863021,
+          "records": [
+            "CN,112914464,A,20210608,,ABST-zh,DESC-zh,CLMS-zh<CRLF>"
+          ],
+          "checked_at": "2026-10-01T12:57:47.910173+08:00"
+        }
       },
       "legal_evidence_source": {
-        "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\official_status_register_20260929.json",
-        "sha256": "80cebae07a66f4dc3c31c4ff27581cd8a39ca79ba80f15bbdf4dc265f13af0f7",
-        "imported_at": "2026-09-29T23:06:59.473020+08:00",
-        "new_online_query_performed": false
+        "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\data\\cnipa_member_correction_20261001.json",
+        "sha256": "543e1aaaf453baee886e3025f733aea72f0ce65c1d057122af2d24be552e2a4d",
+        "imported_at": "2026-10-01T12:57:47.910173+08:00",
+        "new_online_query_performed": false,
+        "scope": "新增版本事实纠错；既有入口阻塞和关联待核见previous_values，不代表现时法律状态核验"
       },
       "scene_material": {
         "classification": "明确包括洗衣微纤维或微塑料",
@@ -2557,25 +2569,38 @@
       "title": "过滤组件和洗衣机",
       "sample_role": "pending",
       "role_reason": "具体相关授权文本与截至核验时点的有效资格未闭合；保留技术复核，不计入已核有效核心数",
-      "grant_publication_id": "CN222043626U (utility-model publication kind; no maintenance finding)",
+      "grant_publication_id": "CN222043626U",
       "legal_evidence": {
         "sample": "CN222043626U",
         "jurisdiction": "CN",
         "application_no": "CN202420066261.2U",
         "publication_no": "CN222043626U",
-        "grant_no": "CN222043626U (utility-model publication kind; no maintenance finding)",
+        "grant_no": "CN222043626U",
         "official_url": "https://pss-system.cponline.cnipa.gov.cn/",
-        "official_record": "CNIPA PSS request rejected HTTP 412; individual record not read.",
+        "official_record": "CNIPA authoritative original ZIP member row verified on 2026-10-01T12:57:47.910173+08:00; prior PSS HTTP 412 obstacle remains; current individual legal-status record not read.",
         "status_as_of": "unknown",
-        "supports": "Only official-entry availability/obstacle.",
+        "supports": "Official publication-version and publication-date fact only.",
         "does_not_support": "Whether the utility model is presently maintained/effective.",
-        "gap": "Official CNIPA utility-model legal-event and annual-fee/termination information."
+        "gap": "Official CNIPA utility-model legal-event and annual-fee/termination information.",
+        "official_version_source": {
+          "authority": "CNIPA authoritative document through 2026-06-30",
+          "download_url": "https://www.cnipa.gov.cn/attach/0/CN_quanweiwendang_20260630.zip",
+          "archive_sha256": "91ca661a0372a3cf5ec4134a33f89c41e5334441ea827478ce66d1173429cd39",
+          "member": "CN_权威文档_20260630/权威文档19850910-20260630/UTILITY_MODEL 19850910-20260630.csv",
+          "line_number": 21297581,
+          "records": [
+            "CN,222043626,U,20241122"
+          ],
+          "checked_at": "2026-10-01T12:57:47.910173+08:00"
+        },
+        "status_note": "U publication kind confirmed; no maintenance/effectiveness finding."
       },
       "legal_evidence_source": {
-        "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\official_status_register_20260929.json",
-        "sha256": "80cebae07a66f4dc3c31c4ff27581cd8a39ca79ba80f15bbdf4dc265f13af0f7",
-        "imported_at": "2026-09-29T23:06:59.473020+08:00",
-        "new_online_query_performed": false
+        "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\data\\cnipa_member_correction_20261001.json",
+        "sha256": "543e1aaaf453baee886e3025f733aea72f0ce65c1d057122af2d24be552e2a4d",
+        "imported_at": "2026-10-01T12:57:47.910173+08:00",
+        "new_online_query_performed": false,
+        "scope": "新增版本事实纠错；既有入口阻塞和关联待核见previous_values，不代表现时法律状态核验"
       },
       "scene_material": {
         "classification": "明确包括洗衣微纤维或微塑料",
