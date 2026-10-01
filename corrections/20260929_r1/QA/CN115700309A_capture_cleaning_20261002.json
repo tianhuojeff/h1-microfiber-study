@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "baseline": "29897de46a026024688a5fd7d5c7584ae4a2f5d5",
+  "observations": 129,
+  "added": 2,
+  "old_127_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "all_14_pending": true,
+  "master_sha256": "e33b2f805a0c0c55ab8330096c8e17478201da010776b3712d65dc21bc21717f",
+  "source_html_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+  "CSV_verified": true,
+  "full_text_complete_count": 0,
+  "original_pdf_checked": false,
+  "fields": [
+    "capture",
+    "cleaning"
+  ],
+  "formal_statistics_allowed": false
+}

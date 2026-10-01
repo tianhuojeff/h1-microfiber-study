@@ -51,8 +51,8 @@ H1-F69171968,CN115087774A,seals_connections,partial,explicit,2
 H1-F69171968,CN115087774A,performance,complete_in_checked_original_A_scope,explicit_text_claim_test_support_unlocated,1
 H1-F69171968,CN115087774A,endpoint,complete_in_checked_original_A_scope,explicit_downstream_route_not_verified_completion,1
 H1-F69171968,CN115087774A,carrier_conditioning,complete_in_checked_original_A_scope,not_located_in_reviewed_scope,1
-H1-F85120837,CN115700309A,capture,not_reviewed_this_revision,,0
-H1-F85120837,CN115700309A,cleaning,not_reviewed_this_revision,,0
+H1-F85120837,CN115700309A,capture,partial_saved_text_targeted,explicit,1
+H1-F85120837,CN115700309A,cleaning,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,transfer,not_reviewed_this_revision,,0
 H1-F85120837,CN115700309A,chamber_drainage,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,solids_dewatering,not_reviewed_this_revision,,0

@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T01:23:13.386460+08:00",
+  "updated_at": "2026-10-02T01:27:16.962487+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -7829,16 +7829,198 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115700309A-capture-embodiment1_retained_impurity-20261002",
+              "publication_id": "CN115700309A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "embodiment1_retained_impurity",
+              "stage": "capture",
+              "technical_feature": "实施例一p0070主滤620将内外容腔分开，杂质501留在外容腔；进一步回收500由520阻止杂质进入532并留在531内滤网上表面。拦截机构670留的是清洗颗粒680而允许501及水经过，不能把670改为微纤维截留器。对象为洗衣线屑/杂质，不把所有501都指定塑料；横置实施例一不与竖置版本拼接。",
+              "object": "洗衣水携带的线屑/过滤杂质501（材质未在本组锚点明确）",
+              "start": "主过滤腔外容腔含杂质水",
+              "end": "外容腔620外壁；进一步回收装置531内520上表面",
+              "boundary": "实施例一主过滤模块及进一步回收模块分列；非最终处置边界",
+              "operation_order": [
+                "主过滤620阻止杂质进入内容腔",
+                "排污后回收组件520拦截带入531的杂质"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：本条以所列说明书锚点为据，不并入授权独立项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0069",
+                  "html_anchor": "p0069",
+                  "evidence_excerpt": "本实施例的过滤装置600可安装于洗涤设备中，用于过滤除去洗涤水中携带的线屑，所述洗涤设备包括但不限于洗衣机、护理机和洗碗机等。本实施例结合图1至图5，以过滤装置600安装于洗衣机中为例进行说明。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0070",
+                  "html_anchor": "p0070",
+                  "evidence_excerpt": "本实施例中，过滤机构620将过滤腔体610内部分隔为外容腔和内容腔。过滤腔体610上的入水口6101与所述外容腔连通，洗衣机盛水筒100中待过滤的水被输送至入水口6101，进而进入过滤腔体610内部的外容腔。外容腔中的水被过滤机构620过滤后进入所述内容腔，再经与内容腔连通的过滤水出口6102流出。水中的过滤杂质501无法通过过滤机构620而残留在所述外容腔中。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0117",
+                  "html_anchor": "p0117",
+                  "evidence_excerpt": "拦截机构670的出口端与第一腔室531连通，携带过滤杂质501的污水进入第一腔室531，经过滤组件520过滤后进入第二腔室532，过滤杂质501收集于第一腔室531中。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0118",
+                  "html_anchor": "p0118",
+                  "evidence_excerpt": "具体地，过滤组件520可以为水平设置在回收腔室内一定高度处的框架及铺设在所述框架上的滤网。携带过滤杂质501的污水进入第一腔室531后，水可通过过滤组件520进入第二腔室532，过滤杂质501被滤网阻挡，残留在过滤组件520上表面。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                }
+              ],
+              "interpretation": "实施例一p0070主滤620将内外容腔分开，杂质501留在外容腔；进一步回收500由520阻止杂质进入532并留在531内滤网上表面。拦截机构670留的是清洗颗粒680而允许501及水经过，不能把670改为微纤维截留器。对象为洗衣线屑/杂质，不把所有501都指定塑料；横置实施例一不与竖置版本拼接。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T01:27:16.962487+08:00",
+              "old_value": null,
+              "new_value": "实施例一p0070主滤620将内外容腔分开，杂质501留在外容腔；进一步回收500由520阻止杂质进入532并留在531内滤网上表面。拦截机构670留的是清洗颗粒680而允许501及水经过，不能把670改为微纤维截留器。对象为洗衣线屑/杂质，不把所有501都指定塑料；横置实施例一不与竖置版本拼接。",
+              "change_reason": "补此前空字段正向定位，限定保存文本；原件/法律资格缺口保持。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": null
         },
         "cleaning": {
           "label": "清理／脱离",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115700309A-cleaning-embodiment1_particle_and_rotation-20261002",
+              "publication_id": "CN115700309A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "embodiment1_particle_and_rotation",
+              "stage": "cleaning",
+              "technical_feature": "实施例一水流带清洗颗粒680摩擦内壁/滤网外壁；自清操作另由驱动660转620剥离501入水。清洗颗粒680为复用清洗材料，501为目标过滤杂质，670只回收680，二者不合并。p0126自清有旋转，但p0127排污可转也可不转，不能说任何排污都必须高速转网；离心剥离不是收集固体脱水或介质干燥。下游壳/滤件人工取出沿既有removal保留，未重复计为新自动清洗方案。",
+              "object": "620外壁与610内壁附着的过滤杂质501",
+              "start": "滤面/腔壁沉积或附着位置",
+              "end": "脱离并融入腔内水",
+              "boundary": "实施例一主过滤模块及进一步回收模块分列；非最终处置边界",
+              "operation_order": [
+                "水流带680摩擦腔壁/滤机构外壁",
+                "自清时660转620，激荡水流及离心作用剥离501入水"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：本条以所列说明书锚点为据，不并入授权独立项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0071",
+                  "html_anchor": "p0071",
+                  "evidence_excerpt": "在过滤过程中，清洗颗粒680在过滤腔体610与过滤机构620之间，随流动的水流不断摩擦过滤腔体610内壁和过滤机构620外壁，使附着的过滤杂质501脱落，从而防止过滤杂质501的沉积，避免过滤机构620被过滤杂质501覆盖，影响过滤效率。另一方面，也避免了过滤完成后附着的过滤杂质501厚度较大，在过滤腔体610内壁或过滤机构620外壁贴合过于牢固，导致后期清洁过滤装置600时，过滤杂质501难以除去的问题。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0072",
+                  "html_anchor": "p0072",
+                  "evidence_excerpt": "过滤机构620连接驱动机构660，如电机，用于驱动过滤机构620在过滤腔体610中转动。当需要清洁过滤装置600时，通过驱动机构660驱动过滤机构620转动，搅动过滤腔体610内的水，使过滤机构620外壁的过滤杂质501在离心力和激荡水流的作用下，从过滤机构620外壁上剥离，融入过滤腔体610内的水中，再由排污口6103排出过滤腔体610。如此，实现了过滤装置600的自动清洁，无需用户手动操作，使用方便。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0073",
+                  "html_anchor": "p0073",
+                  "evidence_excerpt": "在以上过程中，清洗颗粒680随激荡水流的作用在过滤腔体610中运动，与过滤腔体610内壁和过滤机构620外壁发生摩擦，从而提高过滤杂质501的剥离效率，过滤装置600的自清洁效果更好。向外排出过滤杂质501时，清洗颗粒680随水流一同排出过滤腔体610，在经过设置在排污口6103下游的拦截机构670时，过滤杂质501及水流可通过拦截机构670排出，而清洗颗粒680被拦截收集。这样，在下一次向过滤腔体610进水进行过滤时，清洗颗粒680可回到过滤腔体610内，实现了清洗颗粒680的重复利用。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0126",
+                  "html_anchor": "p0126",
+                  "evidence_excerpt": "如图3所示，所述自清理操作包括：回水控制阀231关闭，排污控制阀241打开导通排污管路240，循环泵400开启，将盛水筒100中的水导入过滤装置600中，清洗过滤装置600后排入回收装置500。还包括：控制驱动机构660带动过滤机构620在过滤腔体610中转动。在以上过程中，清洗颗粒680随水流运动，摩擦过滤腔体610内壁和过滤机构620外壁，协助过滤杂质的剥离。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0127",
+                  "html_anchor": "p0127",
+                  "evidence_excerpt": "如图4和图5所示，所述排污操作包括：排污控制阀241打开导通排污管路240，将过滤装置600中的携带过滤杂质501的污水排入回收装置500。执行排污操作时，可控制驱动机构660开启带动过滤机构620转动，也可以不开启驱动机构660，使过滤机构620在过滤腔体610内保持静止。在以上过程中，清洗颗粒680随污水排出过滤腔体610，经过拦截机构670时，水流及携带的过滤杂质501可以通过，沿排污管路240进入回收装置500，清洗颗粒680被阻挡件671拦截，从而收集于颗粒收集腔中。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:27:16.962487+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                }
+              ],
+              "interpretation": "实施例一水流带清洗颗粒680摩擦内壁/滤网外壁；自清操作另由驱动660转620剥离501入水。清洗颗粒680为复用清洗材料，501为目标过滤杂质，670只回收680，二者不合并。p0126自清有旋转，但p0127排污可转也可不转，不能说任何排污都必须高速转网；离心剥离不是收集固体脱水或介质干燥。下游壳/滤件人工取出沿既有removal保留，未重复计为新自动清洗方案。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T01:27:16.962487+08:00",
+              "old_value": {
+                "judgment": "explicit",
+                "summary": "清洗颗粒随水流摩擦过滤腔体内壁和过滤机构外壁。",
+                "evidence": [
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+                    "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                    "locator": "说明书[n0062] (HTML p0067)",
+                    "quote": "清洗颗粒680，设于过滤腔体610内，用于随水流摩擦碰撞清洗过滤腔体610内壁和过滤机构620外壁；",
+                    "evidence_type": "description"
+                  }
+                ],
+                "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+                "review_scope": "本地保存全文待精确引文复核"
+              },
+              "new_value": "实施例一水流带清洗颗粒680摩擦内壁/滤网外壁；自清操作另由驱动660转620剥离501入水。清洗颗粒680为复用清洗材料，501为目标过滤杂质，670只回收680，二者不合并。p0126自清有旋转，但p0127排污可转也可不转，不能说任何排污都必须高速转网；离心剥离不是收集固体脱水或介质干燥。下游壳/滤件人工取出沿既有removal保留，未重复计为新自动清洗方案。",
+              "change_reason": "补此前空字段正向定位，限定保存文本；原件/法律资格缺口保持。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "清洗颗粒随水流摩擦过滤腔体内壁和过滤机构外壁。",
@@ -8404,6 +8586,29 @@
               "p0212"
             ],
             "at": "2026-10-02T01:23:13.386460+08:00"
+          },
+          {
+            "publication": "CN115700309A",
+            "anchors": [
+              "p0069",
+              "p0070",
+              "p0117",
+              "p0118"
+            ],
+            "field": "capture",
+            "at": "2026-10-02T01:27:16.962487+08:00"
+          },
+          {
+            "publication": "CN115700309A",
+            "anchors": [
+              "p0071",
+              "p0072",
+              "p0073",
+              "p0126",
+              "p0127"
+            ],
+            "field": "cleaning",
+            "at": "2026-10-02T01:27:16.962487+08:00"
           }
         ],
         "saved_text_drainage_20261002": {
@@ -8436,6 +8641,42 @@
           "original_pdf_checked": false,
           "full_text_read_claimed": false,
           "verified_at": "2026-10-02T01:23:13.386460+08:00"
+        },
+        "saved_text_positive_fields_20261002": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+          "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+          "read_anchors": [
+            "p0063",
+            "p0064",
+            "p0065",
+            "p0066",
+            "p0067",
+            "p0068",
+            "p0069",
+            "p0070",
+            "p0071",
+            "p0072",
+            "p0073",
+            "p0085",
+            "p0109",
+            "p0111",
+            "p0113",
+            "p0117",
+            "p0118",
+            "p0119",
+            "p0125",
+            "p0126",
+            "p0127",
+            "cl0001",
+            "cl0010"
+          ],
+          "fields_added": [
+            "capture",
+            "cleaning"
+          ],
+          "original_pdf_checked": false,
+          "not_a_full_text_completion": true,
+          "verified_at": "2026-10-02T01:27:16.962487+08:00"
         }
       }
     },

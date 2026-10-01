@@ -42,7 +42,7 @@ if '--verify' in sys.argv:
     assert not m['formal_statistics_allowed'] and not m['final_report_ready'] and not rel['project_completion_accepted']
     print(dump({'verified':True,'baseline':BASE,'observations':127,'added':1,'old_126_unchanged':True,
       'other_13_candidates_unchanged':True,'all_legal_evidence_unchanged':True,'all_14_pending':True,'master_sha256':sha(M),
-      'source_html_sha256':sha(SRC),'field':FIELD,'executor_read_anchors':'p0177—p0196,p0200,p0205,p0211,p0212',
+      'source_html_sha256':sha(SRC),'field':FIELD,'executor_read_anchors':'p0172—p0196,p0200,p0205,p0211,p0212',
       'original_pdf_checked':False,'full_text_complete_count':0,'CSV_verified':True,'formal_statistics_allowed':False}));raise SystemExit
 assert m==old
 now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat();s=target(m);f=s['features'][FIELD];assert not f['observations']
