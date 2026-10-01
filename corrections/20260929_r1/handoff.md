@@ -104,3 +104,6 @@ HTML源SHA0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621；本
 ## 2026-10-02 01:36 接续：CN115700309A 状态切换
 
 仅以保存 HTML p0125—p0130 正向补 state_switch 1条，总132。实施例一过滤/自清理/排污分列；一般排污可转或不转、每阶段末期为优选，不强合并实施例四空气压排。原131及其他13对象不变。原件与附图未核，14资格pending，全文计数0，统计/终稿门槛不降。周额度本逻辑开始剩62%，结束后立即实时回读；剩余<=60%停止下一逻辑。下一字段 seals_connections/performance/endpoint/solids_dewatering/carrier_conditioning；须分开正向证据与范围未定位，未知不得转0。
+## 2026-10-02 01:39 CN115700309A 用户收集处理意图
+
+仅保存HTML p0119正向新增endpoint一条，总133。原句支持用户可收集处理分离的501；不是具体后续垃圾/回收/销毁或安全终点，未知保持，无全文未披露判断。旧132、其他13及法律全不变。原PDF未核，14pending、全文0、统计/终稿false。候选仍4空字段：seals_connections、performance、solids_dewatering、carrier_conditioning。后两负向须先完整相关范围，不将已读局部或只读代理报告冒执行者全读；性能需分文本主张与实验。周剩开始61%，闭合后立即查60停止线，不reset。

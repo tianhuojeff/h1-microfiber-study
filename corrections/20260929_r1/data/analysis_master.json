@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T01:36:25.884596+08:00",
+  "updated_at": "2026-10-02T01:39:16.517657+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -8814,9 +8814,57 @@
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115700309A-endpoint-embodiment1_user_collection_intention-20261002",
+              "publication_id": "CN115700309A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "embodiment1_user_collection_intention",
+              "stage": "endpoint",
+              "technical_feature": "p0119明确用户可直接对分离出的过滤杂质501进行收集处理，这是分离后向用户移交处理的文本意图，与暂留位置区分。该单一锚点没有给具体垃圾分类、回收设施、销毁或安全环境终点，本次仅保留未确定的后续边界，不作全文未披露结论、不补扔垃圾或安全处置已完成。尚无实际处置证据。",
+              "object": "从水中分离出的过滤杂质501",
+              "start": "回收装置500第一腔531中过滤组件520上表面",
+              "end": "用户直接收集处理意图；后续具体处理终点在本条锚点未确定",
+              "boundary": "实施例一回收500的用户收集处理意图；最终具体处置终点未确定",
+              "operation_order": [
+                "501与水分离并留在520上表面",
+                "用户可直接收集处理；具体后续处置动作未由p0119给出"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：本条以所列说明书锚点为据，不并入授权独立项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0119",
+                  "html_anchor": "p0119",
+                  "evidence_excerpt": "在上述方案中，回收装置500中设置过滤组件520，用于对接收的污水进行过滤，将其中的过滤杂质501从水中分离出来。通过过滤组件520将回收装置500内部分隔为第一腔室531和第二腔室532，污水中的过滤杂质501被过滤组件520阻挡，从而将过滤杂质501收集于第一腔室531中过滤组件520上表面，过滤后得到的清水收集于第二腔室532中。用户可直接对分离出的过滤杂质501进行收集处理，避免了过滤杂质501分散在水中，难以进行处理的情况。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:39:16.517657+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                }
+              ],
+              "interpretation": "p0119明确用户可直接对分离出的过滤杂质501进行收集处理，这是分离后向用户移交处理的文本意图，与暂留位置区分。该单一锚点没有给具体垃圾分类、回收设施、销毁或安全环境终点，本次仅保留未确定的后续边界，不作全文未披露结论、不补扔垃圾或安全处置已完成。尚无实际处置证据。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T01:39:16.517657+08:00",
+              "old_value": {
+                "judgment": "not_found",
+                "summary": "未找到具体最终处置去向或实测。",
+                "evidence": [],
+                "unknown_reason": "生态益处和“收集处理”不构成终点。",
+                "review_scope": "HTML全文及权项"
+              },
+              "new_value": "p0119明确用户可直接对分离出的过滤杂质501进行收集处理，这是分离后向用户移交处理的文本意图，与暂留位置区分。该单一锚点没有给具体垃圾分类、回收设施、销毁或安全环境终点，本次仅保留未确定的后续边界，不作全文未披露结论、不补扔垃圾或安全处置已完成。尚无实际处置证据。",
+              "change_reason": "补此前空字段正向定位，限定保存文本；原件/法律资格缺口保持。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "未找到具体最终处置去向或实测。",
@@ -8933,6 +8981,14 @@
             ],
             "field": "state_switch",
             "at": "2026-10-02T01:36:25.884596+08:00"
+          },
+          {
+            "publication": "CN115700309A",
+            "anchors": [
+              "p0119"
+            ],
+            "field": "endpoint",
+            "at": "2026-10-02T01:39:16.517657+08:00"
           }
         ],
         "saved_text_drainage_20261002": {
@@ -9055,6 +9111,19 @@
           "original_pdf_checked": false,
           "not_a_full_text_completion": true,
           "verified_at": "2026-10-02T01:36:25.884596+08:00"
+        },
+        "saved_text_endpoint_intention_20261002": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+          "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+          "read_anchors": [
+            "p0119"
+          ],
+          "fields_added": [
+            "endpoint"
+          ],
+          "original_pdf_checked": false,
+          "not_a_full_text_completion": true,
+          "verified_at": "2026-10-02T01:39:16.517657+08:00"
         }
       }
     },
