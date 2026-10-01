@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "archive_sha256": "3b19066be66f9bf11f24002255f778d46eb3411691c98650ad17795fb690b6d3",
+  "original_response_sha256": "76d837f030c713c373857d60db89e55c7b679d46f5aee61504f0a490d50ddcff",
+  "anchors": 94,
+  "claims": 10,
+  "original_pdf_saved": false,
+  "all_qualification_pending": true,
+  "analysis_master_unchanged_from": "97e14623ce22b62bd4d9f91b71030af8480ee79a",
+  "source_queries": [
+    "\"CN115637570B\" filetype:pdf",
+    "\"CN115637570B\" 专利 pdf"
+  ],
+  "source_role": "grant-version mirror HTML only",
+  "formal_statistics_allowed": false,
+  "original_pdf_missing": true,
+  "original_response_is_in_binary_zip": true
+}

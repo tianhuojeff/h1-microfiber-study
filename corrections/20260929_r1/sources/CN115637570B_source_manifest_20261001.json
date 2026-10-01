@@ -1,0 +1,28 @@
+{
+  "retrieved_at": "2026-10-01T17:50:09.279561+08:00",
+  "timestamp_precision": "本机记录的请求开始时点；请求完成时点未独立记录，不伪造逐请求完成毫秒",
+  "retrieval_url": "https://patents.google.com/patent/CN115637570B/zh",
+  "response_final_url": "https://patents.google.com/patent/CN115637570B/zh",
+  "response_status": 200,
+  "response_bytes": 87514,
+  "response_sha256": "76d837f030c713c373857d60db89e55c7b679d46f5aee61504f0a490d50ddcff",
+  "archive_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\sources\\CN115637570B_raw_html_20261001.zip",
+  "archive_member": "CN115637570B.html",
+  "archive_sha256": "3b19066be66f9bf11f24002255f778d46eb3411691c98650ad17795fb690b6d3",
+  "source_role": "Google Patents grant-version HTML mirror; original response preserved byte-for-byte in ZIP",
+  "citation_pdf_links": [],
+  "original_pdf_saved": false,
+  "current_validity_verified": false,
+  "qualification": "pending",
+  "actual_queries": [
+    "\"CN115637570B\" filetype:pdf",
+    "\"CN115637570B\" 专利 pdf"
+  ],
+  "search_scope": "定向真实查询；搜索页与GP返回未提供可下载B PDF链接，不能视为PDF不存在",
+  "search_result_count": null,
+  "genuine_search_screenshot_saved": false,
+  "no_login_or_account_changes": true,
+  "earlier_shell_attempt": "首次只读提取命令PowerShell正则引号解析错误；整段零执行，无网络请求/文件改动。随后改为此独立脚本从请求开始重跑。",
+  "supports": "保存B镜像文本版本，待原PDF对照；既有CNIPA原ZIP B公告事实独立保留",
+  "does_not_support": "现时有效、年费、终止事件、原PDF/图页、正式统计或整套P2完成"
+}
