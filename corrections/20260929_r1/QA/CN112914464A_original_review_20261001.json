@@ -1,0 +1,79 @@
+{
+  "verified": true,
+  "observations": 81,
+  "new_observations": 8,
+  "master_sha256": "e049908b8677defd31775ff2678588ee76f422404cf1bd6b0fcb913fe824970a",
+  "source_pdf_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+  "drawing_pages": [
+    {
+      "physical_page": 16,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-16.png",
+      "sha256": "624fcf61d0ac27ca770ae00616f170024e5b7f7183ebb15750b727ae703b7897"
+    },
+    {
+      "physical_page": 17,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-17.png",
+      "sha256": "d29d7306e99bbfce9a3c1540a74330d18668c3252795e78b2d00a0d712d05ad6"
+    },
+    {
+      "physical_page": 18,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-18.png",
+      "sha256": "09900aee040b9bb144d499e2d1dd0ce0e3000aab714ceaf0f8fd0eb0064cef02"
+    },
+    {
+      "physical_page": 19,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-19.png",
+      "sha256": "687a3ba3a002767b3ad57660cc358fc80917f49faf68f523acb17a239b890758"
+    },
+    {
+      "physical_page": 20,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-20.png",
+      "sha256": "56f7cd264f86c704ade4f616590c09f39f43b90e13e40022df7c1a8f500e71a6"
+    },
+    {
+      "physical_page": 21,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-21.png",
+      "sha256": "2b4f7a67991d9f6b60a7562c41d6281274d8a383dac222efd6783c46db6c4c52"
+    },
+    {
+      "physical_page": 22,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-22.png",
+      "sha256": "e59542d2830e96d5b17174606dfa70baedf0afab73fb03f6c727091770e9bec8"
+    },
+    {
+      "physical_page": 23,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-23.png",
+      "sha256": "1bf6fb3f4562f12a9dd4b7141d77acee0f68bfb2e71df7de42a5d5237209194e"
+    }
+  ],
+  "all_other_samples_unchanged": true,
+  "old_73_observations_unchanged": true,
+  "all_14_pending": true,
+  "all_13_fields_addressed": true,
+  "full_candidate_acceptance": false,
+  "baseline_commit": "3d5fa332149271b34fc3b9dc535b09102eda6d82",
+  "formal_statistics_allowed": false,
+  "final_report_ready": false,
+  "source_pdf_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+  "original_text_physical_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "original_claims_read": "1—29",
+  "original_description_read": "[0001]—[0064]",
+  "CSV_readback_passed": true,
+  "full_text_complete_count": 0
+}

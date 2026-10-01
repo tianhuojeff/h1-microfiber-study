@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-01T12:57:47.910173+08:00",
+  "updated_at": "2026-10-01T13:05:58.324892+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -481,9 +481,57 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN112914464A-capture-fig1_fine_filter26-20261001",
+              "publication_id": "CN112914464A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "fig1_fine_filter26",
+              "stage": "capture",
+              "technical_feature": "图1方案在排放或循环水中用精细过滤器26截留衣物磨损微塑料/纤维；可选多级或按衣物种类旁通，不宣称所有工况必经过滤。",
+              "object": "洗衣磨损纤维/塑料微纤维",
+              "start": "滚筒贮槽出口23",
+              "end": "精细过滤器26",
+              "boundary": "运行水回路",
+              "operation_order": [
+                "出口24进滤器26",
+                "滤后29到泵31"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书各自构造；权1/21/22及各从属分支不跨支拼接",
+              "evidence": [
+                {
+                  "locator": "HTML #p0053; 原PDF物理11页及图页16",
+                  "html_anchor": "p0053",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "水管线22从转换抽屉20导引至滚筒14，或者导引至滚筒14中，或者导引至在其中布置滚筒的滚筒接收器中。水流入物16在这里通向转换抽屉20，其中流入的新鲜水也可仅流过。备选地，水流入物16也可通向水管线22。贮槽出口23从滚筒14或对应的滚筒接收器导引出，并借助于出口管线24导引至过滤器设备26中。所述过滤器设备26呈精细过滤器的形式，并且它特别地用于从排放的或循环的水中过滤出小颗粒，诸如洗涤衣物的纤维磨损颗粒，特别是在由塑料或所谓的微纤维(也就是说微塑料)构成的纤维的情况下。经过滤的水可通过水管线29流到泵31。过滤器设备26可设计成例如如从引言中所提到的现有技术中已知的那样。此外，过滤器设备26也可借助于阀和管线(这里未图示)绕过。因此，例如，仅当在洗衣机11中洗涤具有分离出所陈述的由塑料(如所谓的微塑料)构成的小颗粒或纤维的人造或合成纤维的衣物时，过滤器设备26才可被使用或连接到水回路中。对于这种检测，可使用操作者输入装置，或者备选地，这可借助于传感器来建立。作为精细过滤器，过滤器设备26也可呈多级设计，也就是说具有一个接一个的多个过滤装置，有利地作为壳体中的结构单元。"
+                }
+              ],
+              "interpretation": "图1方案在排放或循环水中用精细过滤器26截留衣物磨损微塑料/纤维；可选多级或按衣物种类旁通，不宣称所有工况必经过滤。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:05:58.324892+08:00",
+              "old_value": null,
+              "new_value": "图1方案在排放或循环水中用精细过滤器26截留衣物磨损微塑料/纤维；可选多级或按衣物种类旁通，不宣称所有工况必经过滤。",
+              "change_reason": "原A23页全文与8附图页复核后补未填字段；不放行法律资格",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+                "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+                "physical_page": 16,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-16.png",
+                "image_sha256": "624fcf61d0ac27ca770ae00616f170024e5b7f7183ebb15750b727ae703b7897",
+                "checked_at": "2026-10-01T13:05:58.324892+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "已目视该原图页并对照完整原A文本；文字证据逐项以HTML锚点保留"
+              },
+              "review_scope": "原A23页；封面、权1—29、[0001]—[0064]与图1—12；相关授权成员未完成同轮全文确认"
+            }
+          ],
           "prior_field": null
         },
         "cleaning": {
@@ -675,9 +723,73 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN112914464A-chamber_drainage-dedicated_maintenance_emptying_not_located-20261001",
+              "publication_id": "CN112914464A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "dedicated_maintenance_emptying_not_located",
+              "stage": "chamber_drainage",
+              "technical_feature": "可选62使水流走用于浓缩，权22的过滤物质排空及图2处置均不等同维护前专用自由液体排空。完整原A范围未定位独立维护快速排空/确认已无残液；不得据此说容器不排水或行业不存在。",
+              "object": "过滤物质接收腔的自由液体",
+              "start": "容器63",
+              "end": "未定位独立快速排空/隔离机构",
+              "boundary": "原A29项、[0001]—[0064]与图1—12",
+              "operation_order": [
+                "可选62正常滤水/浓缩",
+                "移除后排空或处置另述"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书各自构造；权1/21/22及各从属分支不跨支拼接",
+              "evidence": [
+                {
+                "locator": "HTML #p0058; 原PDF物理11—12页及图页17",
+                  "html_anchor": "p0058",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或包含较少的水，也就是说是更干燥的，则该额外的过滤器62是有利的。因此，在过滤物质容器63中或其上具有额外过滤器62的该实施例较少关注作为水清洁的重新过滤，而是较多关注过滤物质的进一步集中或增稠。额外的过滤器应当呈简单的设计，因为它可能与过滤物质一起被直接处置或丢弃。与过滤器设备26对比，额外的过滤器也不需要可反冲洗或可多次使用。例如，额外的过滤器可非常简单地由滤纸或过滤无纺布组成。"
+                },
+                {
+                  "locator": "HTML #p0060; 原PDF物理12页及图页17",
+                  "html_anchor": "p0060",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "为了能够检测过滤物质容器63的填充水平66，填充水平传感器61在过滤物质容器63处布置在高处。由虚线图示的填充水平66'由填充水平传感器61检测为“满的”，因为然后过滤物质容器63几乎完全利用过滤物质65填充。用于过滤物质的填充水平传感器61也向控制器46发送该填充水平66'的信号，然后控制器46与用于洗涤剂55的填充水平传感器51的另一个填充水平组合或者特别优选地在每种情况下独立于另一个填充水平而向使用者发送必须移除转换抽屉20的信号。使用者然后可通过视觉检验容易地检查是否必须补充洗涤剂55或者是否必须处置过滤物质65。备选地，还有可能使用压力传感器等以用于填充水平指示。在图2中的右侧上，针对相应容器示意性地并且单独地图示了这种处置或补充。可以说是，来自满的过滤物质容器63的过滤物质65被处置，并且空的过滤物质容器63再次被进一步使用。这里，可能提供的额外的过滤器62可保留在过滤物质容器63中，或者备选地，可能将额外的过滤器62与过滤物质65一起处置，并且然后插入新的额外的过滤器62。"
+                },
+                {
+                "locator": "HTML #cl0022; 原PDF物理3页及图页17",
+                  "html_anchor": "cl0022",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "independent_claim",
+                  "evidence_excerpt": "22.用于操作根据权利要求1所述的家庭用具的方法，其中，所述过滤物质容器和/或所述洗涤剂容器从所述家庭用具移除，其中所述过滤物质容器被排空或被移除以用于排空，并且其中所述洗涤剂容器被排空或被移除以用于填充满。"
+                }
+              ],
+              "interpretation": "可选62使水流走用于浓缩，权22的过滤物质排空及图2处置均不等同维护前专用自由液体排空。完整原A范围未定位独立维护快速排空/确认已无残液；不得据此说容器不排水或行业不存在。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:05:58.324892+08:00",
+              "old_value": null,
+              "new_value": "可选62使水流走用于浓缩，权22的过滤物质排空及图2处置均不等同维护前专用自由液体排空。完整原A范围未定位独立维护快速排空/确认已无残液；不得据此说容器不排水或行业不存在。",
+              "change_reason": "原A23页全文与8附图页复核后补未填字段；不放行法律资格",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+                "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+                "physical_page": 17,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-17.png",
+                "image_sha256": "d29d7306e99bbfce9a3c1540a74330d18668c3252795e78b2d00a0d712d05ad6",
+                "checked_at": "2026-10-01T13:05:58.324892+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "已目视该原图页并对照完整原A文本；文字证据逐项以HTML锚点保留"
+              },
+              "review_scope": "原A23页；封面、权1—29、[0001]—[0064]与图1—12；相关授权成员未完成同轮全文确认"
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "权22排空的是过滤物质容器内容物；当前所审段未落实单独的维护前腔体残液排空程序，不能将权22直接归为残液排空。",
@@ -935,9 +1047,65 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN112914464A-storage-fig2_closed_container63-20261001",
+              "publication_id": "CN112914464A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "fig2_closed_container63",
+              "stage": "storage",
+              "technical_feature": "图2的过滤物质65由主滤器26转来并在朝外闭合的容器63内与壁接触；不是在容器中首次产生。图3一体单元、图4可分离容器、图8单袋及图9双腔袋各为不同构造，不拼成同一必经流程。",
+              "object": "已从主滤器脱离的过滤物质65",
+              "start": "过滤物质入口68",
+              "end": "封闭容器63",
+              "boundary": "转换抽屉20/结构单元49",
+              "operation_order": [
+                "物质经入口68进入",
+                "在63内集中储存"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书各自构造；权1/21/22及各从属分支不跨支拼接",
+              "evidence": [
+                {
+                  "locator": "HTML #p0057; 原PDF物理11页及图页17",
+                  "html_anchor": "p0057",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "在左手侧区域中，转换抽屉20具有呈一种凹入腔室的形式的过滤物质接收器60或过滤物质容器63，类似于右侧上的洗涤剂接收器50或洗涤剂容器53。收集的过滤物质65被直接引入到过滤物质接收器60或过滤物质容器63中，使得过滤物质65与过滤物质接收器60或过滤物质容器63的壁接触。示意性地图示的过滤物质入口68用于引入过滤物质65，并延伸通过闭合的过滤物质容器63的原本闭合的上壁。如上文已解释的，所述过滤物质65由泵31经由反冲洗管线42移动到过滤器设备26的反冲洗入口27中，并因此从过滤器设备26移动出。因此，所述过滤物质65不在过滤物质容器63中产生，而是仅收集在其中以用于集中处置。"
+                },
+                {
+                "locator": "HTML #cl0001; 原PDF物理2页及图页17",
+                  "html_anchor": "cl0001",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "independent_claim",
+                  "evidence_excerpt": "1.导水家庭用具，具有： - 处理腔室，其用于在其中清洁物体， - 导水装置，其远离所述处理腔室导引并导引至所述处理腔室， - 用于洗涤剂的接收器，其连接到所述导水装置，其中所述用于洗涤剂的接收器具有洗涤剂容器并且布置在所述家庭用具内， - 过滤器设备，其用于从在所述导水装置中引导的水中过滤出颗粒，所述过滤器设备连接到所述导水装置， - 用于来自所述过滤器设备的过滤物质的接收器，所述接收器可连接或连接到所述过滤器设备， 其中， - 所述用于过滤物质的接收器具有过滤物质容器， - 所述用于洗涤剂的接收器固定地连接到所述用于过滤物质的接收器，使得所述用于洗涤剂的接收器和所述用于过滤物质的接收器是可独立操纵的结构单元的部分， - 所述过滤物质容器和所述洗涤剂容器朝向外部闭合。"
+                }
+              ],
+              "interpretation": "图2的过滤物质65由主滤器26转来并在朝外闭合的容器63内与壁接触；不是在容器中首次产生。图3一体单元、图4可分离容器、图8单袋及图9双腔袋各为不同构造，不拼成同一必经流程。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:05:58.324892+08:00",
+              "old_value": null,
+              "new_value": "图2的过滤物质65由主滤器26转来并在朝外闭合的容器63内与壁接触；不是在容器中首次产生。图3一体单元、图4可分离容器、图8单袋及图9双腔袋各为不同构造，不拼成同一必经流程。",
+              "change_reason": "原A23页全文与8附图页复核后补未填字段；不放行法律资格",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+                "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+                "physical_page": 17,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-17.png",
+                "image_sha256": "d29d7306e99bbfce9a3c1540a74330d18668c3252795e78b2d00a0d712d05ad6",
+                "checked_at": "2026-10-01T13:05:58.324892+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "已目视该原图页并对照完整原A文本；文字证据逐项以HTML锚点保留"
+              },
+              "review_scope": "原A23页；封面、权1—29、[0001]—[0064]与图1—12；相关授权成员未完成同轮全文确认"
+            }
+          ],
           "prior_field": null
         },
         "removal": {
@@ -1095,9 +1263,204 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN112914464A-state_switch-fig1_pump_valves-20261001",
+              "publication_id": "CN112914464A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "fig1_pump_valves",
+              "stage": "state_switch",
+              "technical_feature": "图1泵31、阀33/38由控制器46致动；正常排水、返滚筒/抽屉及反洗42→27是不同阀支路。不能把它与图11/12的180°分配器拼成共同控制链。",
+              "object": "循环/排水/反洗水及滤物",
+              "start": "泵31和阀33/38",
+              "end": "返回支路/出口18/反洗入口27",
+              "boundary": "图1运行流路",
+              "operation_order": [
+                "控制器46致动",
+                "阀33选择支路",
+                "反洗42到27",
+                "滤物44到抽屉"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书各自构造；权1/21/22及各从属分支不跨支拼接",
+              "evidence": [
+                {
+                  "locator": "HTML #p0054; 原PDF物理11页及图页16",
+                  "html_anchor": "p0054",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "可呈三通阀或四通阀的形式的阀33位于泵31的后方。直路径导引至从洗衣机11出来的流出物18。朝向顶部的路径导引至返回管线36，返回管线36导引至呈三通阀的形式的阀38。因此，泵31可将水直接泵回到滚筒14中。备选地，泵31可将水通过另外的返回管线36泵送到转换抽屉20，例如，以便以这种方式将洗涤剂从所述转换抽屉冲洗或输送到水管线22中，并且因此输送到滚筒14中。"
+                },
+                {
+                  "locator": "HTML #p0055; 原PDF物理11页及图页16",
+                  "html_anchor": "p0055",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "在阀33的最底位置处，泵31可借助于反冲洗管线42将水泵送到过滤器设备26的反冲洗入口27中。因此，过滤设备26可被反冲洗，或者积聚在其中的过滤物质可从其中移除，这是非常重要的。所述过滤物质可通过过滤物质管线44朝向转换抽屉20输送，以便在转换抽屉20处被收集，如引言中已解释的。泵31以及阀33和38还由洗衣机11的控制器46致动。"
+                }
+              ],
+              "interpretation": "图1泵31、阀33/38由控制器46致动；正常排水、返滚筒/抽屉及反洗42→27是不同阀支路。不能把它与图11/12的180°分配器拼成共同控制链。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:05:58.324892+08:00",
+              "old_value": null,
+              "new_value": "图1泵31、阀33/38由控制器46致动；正常排水、返滚筒/抽屉及反洗42→27是不同阀支路。不能把它与图11/12的180°分配器拼成共同控制链。",
+              "change_reason": "原A23页全文与8附图页复核后补未填字段；不放行法律资格",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+                "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+                "physical_page": 16,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-16.png",
+                "image_sha256": "624fcf61d0ac27ca770ae00616f170024e5b7f7183ebb15750b727ae703b7897",
+                "checked_at": "2026-10-01T13:05:58.324892+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "已目视该原图页并对照完整原A文本；文字证据逐项以HTML锚点保留"
+              },
+              "review_scope": "原A23页；封面、权1—29、[0001]—[0064]与图1—12；相关授权成员未完成同轮全文确认"
+            },
+            {
+              "observation_id": "CN112914464A-state_switch-level_indication_not_mandatory_stop-20261001",
+              "publication_id": "CN112914464A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "level_indication_not_mandatory_stop",
+              "stage": "state_switch",
+              "technical_feature": "权20→1及权21方法要求检测/提示，图2传感器51/61与控制器46配合；说明书还允许满后继续运行而不再收集，不得升级为强制停机、安全联锁或证实零再排放。",
+              "object": "容器填充水平/用户提示",
+              "start": "传感器51/61",
+              "end": "控制器/使用者",
+              "boundary": "图2及一般阈值提示构造",
+              "operation_order": [
+                "检测空/满或阈值",
+                "控制器指示",
+                "使用者决定更换"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书各自构造；权1/21/22及各从属分支不跨支拼接",
+              "evidence": [
+                {
+                "locator": "HTML #cl0020; 原PDF物理3页及图页17",
+                  "html_anchor": "cl0020",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "20.根据权利要求1所述的家庭用具，其特征在于，所述家庭用具具有用于所述洗涤剂容器和/或所述过滤物质容器的填充水平测量设备，所述填充水平测量设备配置成检测相应的填充水平，其中所述填充水平测量设备连接到所述家庭用具的控制器，所述控制器连接到所述家庭用具的指示器，以便向使用者指示何时所述洗涤剂容器是空的和/或所述过滤物质容器是满的，或者何时已下降至低于或超过预限定填充水平。"
+                },
+                {
+                "locator": "HTML #cl0021; 原PDF物理3页及图页17",
+                  "html_anchor": "cl0021",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "independent_claim",
+                  "evidence_excerpt": "21.用于操作根据权利要求1所述的家庭用具的方法，其中，监测所述洗涤剂容器的填充水平和/或所述过滤物质容器的填充水平，并且一旦已下降至低于预限定的洗涤剂填充水平或者已超过预限定的过滤物质填充水平，就向所述使用者作出指示。"
+                },
+                {
+                "locator": "HTML #p0026; 原PDF物理8—9页及图页17",
+                  "html_anchor": "p0026",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "在本发明的优选构造中，可提供用于洗涤剂容器和/或过滤物质容器的填充水平测量设备。所述填充水平测量设备可配置成在每种情况下检测容器的相应填充水平。填充水平测量设备有利地连接到家庭用具的控制器，结果是控制器记录填充水平并包含该信息。家庭用具此外有利地具有连接到控制器的指示器。然后，在所述指示器处，除了其它信息之外，指示器还可向使用者指示何时洗涤剂容器是空的和/或何时过滤物质容器是满的。备选地，可下降成低于或超过特定的预限定填充水平，使得使用者可在很快就要达到完全空的或完全满的状态时已经作出反应。在满的过滤物质容器的情况下，也可给予使用者不立即更换它而是继续操作家庭用具的选项，其中于是就不会在其中收集更多的过滤物质。"
+                },
+                {
+                  "locator": "HTML #p0060; 原PDF物理12页及图页17",
+                  "html_anchor": "p0060",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "为了能够检测过滤物质容器63的填充水平66，填充水平传感器61在过滤物质容器63处布置在高处。由虚线图示的填充水平66'由填充水平传感器61检测为“满的”，因为然后过滤物质容器63几乎完全利用过滤物质65填充。用于过滤物质的填充水平传感器61也向控制器46发送该填充水平66'的信号，然后控制器46与用于洗涤剂55的填充水平传感器51的另一个填充水平组合或者特别优选地在每种情况下独立于另一个填充水平而向使用者发送必须移除转换抽屉20的信号。使用者然后可通过视觉检验容易地检查是否必须补充洗涤剂55或者是否必须处置过滤物质65。备选地，还有可能使用压力传感器等以用于填充水平指示。在图2中的右侧上，针对相应容器示意性地并且单独地图示了这种处置或补充。可以说是，来自满的过滤物质容器63的过滤物质65被处置，并且空的过滤物质容器63再次被进一步使用。这里，可能提供的额外的过滤器62可保留在过滤物质容器63中，或者备选地，可能将额外的过滤器62与过滤物质65一起处置，并且然后插入新的额外的过滤器62。"
+                }
+              ],
+              "interpretation": "权20→1及权21方法要求检测/提示，图2传感器51/61与控制器46配合；说明书还允许满后继续运行而不再收集，不得升级为强制停机、安全联锁或证实零再排放。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:05:58.324892+08:00",
+              "old_value": "explicit",
+              "new_value": "权20→1及权21方法要求检测/提示，图2传感器51/61与控制器46配合；说明书还允许满后继续运行而不再收集，不得升级为强制停机、安全联锁或证实零再排放。",
+              "change_reason": "原A23页全文与8附图页复核后补未填字段；不放行法律资格",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+                "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+                "physical_page": 17,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-17.png",
+                "image_sha256": "d29d7306e99bbfce9a3c1540a74330d18668c3252795e78b2d00a0d712d05ad6",
+                "checked_at": "2026-10-01T13:05:58.324892+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "已目视该原图页并对照完整原A文本；文字证据逐项以HTML锚点保留"
+              },
+              "review_scope": "原A23页；封面、权1—29、[0001]—[0064]与图1—12；相关授权成员未完成同轮全文确认"
+            },
+            {
+              "observation_id": "CN112914464A-state_switch-fig11_12_rotary_head677-20261001",
+              "publication_id": "CN112914464A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "fig11_12_rotary_head677",
+              "stage": "state_switch",
+              "technical_feature": "图11/12中分配器头677旋转180°，由洗涤剂排出切换为过滤物质输入，并由密封件678堵住洗涤剂出口658。空气入口679在洗涤剂排出阶段通气，不是固体主动干燥；与图2可选滤器62不自动合并。",
+              "object": "洗涤剂655/过滤物质665",
+              "start": "分配器头677",
+              "end": "出口658或入口668",
+              "boundary": "图11/12单容器隔膜664方案",
+              "operation_order": [
+                "图11移出洗涤剂",
+                "分配器旋转180°",
+                "堵住658",
+                "图12输入过滤物质"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书各自构造；权1/21/22及各从属分支不跨支拼接",
+              "evidence": [
+                {
+                  "locator": "HTML #p0082; 原PDF物理15页及图页23",
+                  "html_anchor": "p0082",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "朝向右手侧，再次提供连接套环648，通过该连接套环，洗涤剂出口658在底部处导引，并且过滤物质入口668在顶部处导引。朝向右侧，连接套环648被密封件678封闭。所述密封件678设置在可旋转的分配器头677上。可旋转的分配器头677能够围绕水平旋转轴线旋转，这里由点划线图示该水平旋转轴线。在图11中所图示的位置，分配器头677旋转，使得洗涤剂655通过洗涤剂出口658和分配器头677中的对应通道的方式来流入抽吸提取喷嘴657或某一其它管线。特别地，对应的管线可对应于图1中的水管线22。可看出，用于过滤物质的填充喷嘴667的下端与分配器头677的上端之间存在一定的距离。"
+                },
+                {
+                  "locator": "HTML #p0083; 原PDF物理15页及图页23",
+                  "html_anchor": "p0083",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "在移除洗涤剂655期间，空气入口679(这里以简单形式由虚线图示)可导引至过滤物质入口668，并且因此导引至过滤物质容器663中，空气入口空气可流过过滤物质容器663。洗涤剂655然后可毫无问题地流出。"
+                },
+                {
+                  "locator": "HTML #p0084; 原PDF物理15页及图页23",
+                  "html_anchor": "p0084",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "如果分配器头677然后旋转通过180°，如图12中所图示的，则洗涤剂出口658被密封件678堵塞。因此，另外的洗涤剂655不可能随后流入抽吸提取喷嘴657。这里可看出，过滤物质665然后可通过填充喷嘴667、分配器头677的方式并且通过密封件678中的对应开口的方式以及通过连接套环648中的过滤物质入口668的方式来引入到过滤物质容器663中。所述过滤物质665压靠分离隔膜664，并且因此压靠洗涤剂容器653中的洗涤剂655。因此，这可减小作为通风装置的上文所提到的空气入口，或者在一些情况下甚至使上文所提到的空气入口变得多余。因此，此外，这里还有可能通过分配器头677的旋转的方式来确定过滤物质容器是否利用过滤物质填充或者洗涤剂是否从洗涤剂容器中移除。对于这里图示的结构单元649，连接套环648的精密器械并且尤其是分配器头677的精密器械可与容器653和663分离，以便这些被单独丢弃或者至少被清洁或者被送到处置公司，或者在一些情况下，连接套环668和分配器头677布置在转换抽屉中，然后结构单元649以封锁的方式附接到转换抽屉。"
+                }
+              ],
+              "interpretation": "图11/12中分配器头677旋转180°，由洗涤剂排出切换为过滤物质输入，并由密封件678堵住洗涤剂出口658。空气入口679在洗涤剂排出阶段通气，不是固体主动干燥；与图2可选滤器62不自动合并。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:05:58.324892+08:00",
+              "old_value": "explicit",
+              "new_value": "图11/12中分配器头677旋转180°，由洗涤剂排出切换为过滤物质输入，并由密封件678堵住洗涤剂出口658。空气入口679在洗涤剂排出阶段通气，不是固体主动干燥；与图2可选滤器62不自动合并。",
+              "change_reason": "原A23页全文与8附图页复核后补未填字段；不放行法律资格",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+                "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+                "physical_page": 23,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-23.png",
+                "image_sha256": "1bf6fb3f4562f12a9dd4b7141d77acee0f68bfb2e71df7de42a5d5237209194e",
+                "checked_at": "2026-10-01T13:05:58.324892+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "已目视该原图页并对照完整原A文本；文字证据逐项以HTML锚点保留"
+              },
+              "review_scope": "原A23页；封面、权1—29、[0001]—[0064]与图1—12；相关授权成员未完成同轮全文确认"
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "控制器驱动泵及阀33/38，切换排水、回水和反冲洗；后续由用户按填充水平指示移除容器。",
@@ -1253,9 +1616,65 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN112914464A-performance-capacity_design_not_test-20261001",
+              "publication_id": "CN112914464A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "capacity_design_not_test",
+              "stage": "performance",
+              "technical_feature": "[0027]至少5/10次等是容量匹配设计，[0038]较干/增稠为可选62的目的说明。全文未见这些方案的可比效率、压差、残余含水率、重复样本与测试条件，不能作为实测性能排序。",
+              "object": "过滤物质容量/含水量",
+              "start": "设计性叙述",
+              "end": "无可比实测终点",
+              "boundary": "原A完整文本范围",
+              "operation_order": [
+                "容量匹配若干洗涤过程",
+                "可选浓缩减体积"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书各自构造；权1/21/22及各从属分支不跨支拼接",
+              "evidence": [
+                {
+                  "locator": "HTML #p0030; 原PDF物理9页及图页17",
+                  "html_anchor": "p0030",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "这里，可设置的是，洗涤剂容器的容量足以用于至少五个或至少十个洗涤过程，例如高达至多30个或40个洗涤过程。过滤物质容器的容量或尺寸应当被调适成使得例如在所述过滤物质容器是满的并且不可接收更多过滤物质之前，典型量的过滤物质可从至少五个或至少十个洗涤过程被引入到过滤物质容器中。"
+                },
+                {
+                "locator": "HTML #p0058; 原PDF物理11—12页及图页17",
+                  "html_anchor": "p0058",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或包含较少的水，也就是说是更干燥的，则该额外的过滤器62是有利的。因此，在过滤物质容器63中或其上具有额外过滤器62的该实施例较少关注作为水清洁的重新过滤，而是较多关注过滤物质的进一步集中或增稠。额外的过滤器应当呈简单的设计，因为它可能与过滤物质一起被直接处置或丢弃。与过滤器设备26对比，额外的过滤器也不需要可反冲洗或可多次使用。例如，额外的过滤器可非常简单地由滤纸或过滤无纺布组成。"
+                }
+              ],
+              "interpretation": "[0027]至少5/10次等是容量匹配设计，[0038]较干/增稠为可选62的目的说明。全文未见这些方案的可比效率、压差、残余含水率、重复样本与测试条件，不能作为实测性能排序。",
+              "performance_status": "text_claim_only",
+              "verified_at": "2026-10-01T13:05:58.324892+08:00",
+              "old_value": null,
+              "new_value": "[0027]至少5/10次等是容量匹配设计，[0038]较干/增稠为可选62的目的说明。全文未见这些方案的可比效率、压差、残余含水率、重复样本与测试条件，不能作为实测性能排序。",
+              "change_reason": "原A23页全文与8附图页复核后补未填字段；不放行法律资格",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+                "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+                "physical_page": 17,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-17.png",
+                "image_sha256": "d29d7306e99bbfce9a3c1540a74330d18668c3252795e78b2d00a0d712d05ad6",
+                "checked_at": "2026-10-01T13:05:58.324892+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "已目视该原图页并对照完整原A文本；文字证据逐项以HTML锚点保留"
+              },
+              "review_scope": "原A23页；封面、权1—29、[0001]—[0064]与图1—12；相关授权成员未完成同轮全文确认"
+            }
+          ],
           "prior_field": null
         },
         "endpoint": {
@@ -1373,9 +1792,73 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN112914464A-carrier_conditioning-separate_carrier_drying_not_located-20261001",
+              "publication_id": "CN112914464A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "separate_carrier_drying_not_located",
+              "stage": "carrier_conditioning",
+              "technical_feature": "可选62用滤纸/无纺布且可随过滤物质丢弃或保留；p0080说袋状容器可清洁/换袋，不能偷换为载体已干燥。完整原A未定位维护时独立载体排水/干燥机构；滤物减少含水与载体调理分开。",
+              "object": "过滤载体/滤纸或无纺布",
+              "start": "可选额外过滤器62",
+              "end": "可保留或随滤物处置并换新",
+              "boundary": "原A完整文本范围",
+              "operation_order": [
+                "滤水浓缩滤物",
+                "载体可保留或处置替换"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书各自构造；权1/21/22及各从属分支不跨支拼接",
+              "evidence": [
+                {
+                "locator": "HTML #p0058; 原PDF物理11—12页及图页22",
+                  "html_anchor": "p0058",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或包含较少的水，也就是说是更干燥的，则该额外的过滤器62是有利的。因此，在过滤物质容器63中或其上具有额外过滤器62的该实施例较少关注作为水清洁的重新过滤，而是较多关注过滤物质的进一步集中或增稠。额外的过滤器应当呈简单的设计，因为它可能与过滤物质一起被直接处置或丢弃。与过滤器设备26对比，额外的过滤器也不需要可反冲洗或可多次使用。例如，额外的过滤器可非常简单地由滤纸或过滤无纺布组成。"
+                },
+                {
+                  "locator": "HTML #p0060; 原PDF物理12页及图页22",
+                  "html_anchor": "p0060",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "为了能够检测过滤物质容器63的填充水平66，填充水平传感器61在过滤物质容器63处布置在高处。由虚线图示的填充水平66'由填充水平传感器61检测为“满的”，因为然后过滤物质容器63几乎完全利用过滤物质65填充。用于过滤物质的填充水平传感器61也向控制器46发送该填充水平66'的信号，然后控制器46与用于洗涤剂55的填充水平传感器51的另一个填充水平组合或者特别优选地在每种情况下独立于另一个填充水平而向使用者发送必须移除转换抽屉20的信号。使用者然后可通过视觉检验容易地检查是否必须补充洗涤剂55或者是否必须处置过滤物质65。备选地，还有可能使用压力传感器等以用于填充水平指示。在图2中的右侧上，针对相应容器示意性地并且单独地图示了这种处置或补充。可以说是，来自满的过滤物质容器63的过滤物质65被处置，并且空的过滤物质容器63再次被进一步使用。这里，可能提供的额外的过滤器62可保留在过滤物质容器63中，或者备选地，可能将额外的过滤器62与过滤物质65一起处置，并且然后插入新的额外的过滤器62。"
+                },
+                {
+                "locator": "HTML #p0080; 原PDF物理15页及图页22",
+                  "html_anchor": "p0080",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html",
+                  "source_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
+                  "source_role": "description",
+                  "evidence_excerpt": "如果袋状容器553或563中的一个可容易地从连接套环548上移除，则它可被清洁或者单独地被新袋替换。"
+                }
+              ],
+              "interpretation": "可选62用滤纸/无纺布且可随过滤物质丢弃或保留；p0080说袋状容器可清洁/换袋，不能偷换为载体已干燥。完整原A未定位维护时独立载体排水/干燥机构；滤物减少含水与载体调理分开。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:05:58.324892+08:00",
+              "old_value": null,
+              "new_value": "可选62用滤纸/无纺布且可随过滤物质丢弃或保留；p0080说袋状容器可清洁/换袋，不能偷换为载体已干燥。完整原A未定位维护时独立载体排水/干燥机构；滤物减少含水与载体调理分开。",
+              "change_reason": "原A23页全文与8附图页复核后补未填字段；不放行法律资格",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+                "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+                "physical_page": 22,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-22.png",
+                "image_sha256": "e59542d2830e96d5b17174606dfa70baedf0afab73fb03f6c727091770e9bec8",
+                "checked_at": "2026-10-01T13:05:58.324892+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "已目视该原图页并对照完整原A文本；文字证据逐项以HTML锚点保留"
+              },
+              "review_scope": "原A23页；封面、权1—29、[0001]—[0064]与图1—12；相关授权成员未完成同轮全文确认"
+            }
+          ],
           "prior_field": null
         }
       },
@@ -1443,7 +1926,82 @@
             "field": "liquid_route",
             "at": "2026-09-29T23:13:03.436332+08:00"
           }
-        ]
+        ],
+        "original_A_readback": {
+          "checked_at": "2026-10-01T13:05:58.324892+08:00",
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+          "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+          "physical_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "text_scope": "封面、权1—29及[0001]—[0064]",
+          "all_drawing_pages_visually_read": [
+            {
+              "physical_page": 16,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-16.png",
+              "sha256": "624fcf61d0ac27ca770ae00616f170024e5b7f7183ebb15750b727ae703b7897"
+            },
+            {
+              "physical_page": 17,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-17.png",
+              "sha256": "d29d7306e99bbfce9a3c1540a74330d18668c3252795e78b2d00a0d712d05ad6"
+            },
+            {
+              "physical_page": 18,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-18.png",
+              "sha256": "09900aee040b9bb144d499e2d1dd0ce0e3000aab714ceaf0f8fd0eb0064cef02"
+            },
+            {
+              "physical_page": 19,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-19.png",
+              "sha256": "687a3ba3a002767b3ad57660cc358fc80917f49faf68f523acb17a239b890758"
+            },
+            {
+              "physical_page": 20,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-20.png",
+              "sha256": "56f7cd264f86c704ade4f616590c09f39f43b90e13e40022df7c1a8f500e71a6"
+            },
+            {
+              "physical_page": 21,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-21.png",
+              "sha256": "2b4f7a67991d9f6b60a7562c41d6281274d8a383dac222efd6783c46db6c4c52"
+            },
+            {
+              "physical_page": 22,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-22.png",
+              "sha256": "e59542d2830e96d5b17174606dfa70baedf0afab73fb03f6c727091770e9bec8"
+            },
+            {
+              "physical_page": 23,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_20261001-23.png",
+              "sha256": "1bf6fb3f4562f12a9dd4b7141d77acee0f68bfb2e71df7de42a5d5237209194e"
+            }
+          ],
+          "all_13_fields_addressed": true,
+          "limitation": "仅原A技术文本范围；相关授权成员及资格未闭合，不计已核有效核心，不宣称整套P2完成"
+        }
       }
     },
     {
