@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-09-29T23:27:12.272273+08:00",
+  "updated_at": "2026-10-01T12:42:10.7987048+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -10855,8 +10855,22 @@
         "new_online_query_performed": false
       },
       "scene_material": {
-        "classification": null,
-        "review_status": "pending_primary_text"
+        "classification": "explicit_laundry_microplastics_and_microfibres",
+        "review_status": "complete_in_saved_text_scope",
+        "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+        "basis": [
+          {
+            "anchor": "p0004",
+            "excerpt": "水可以被用于洗涤诸如衣物的织物。这种洗涤被称为水洗。在水洗过程期间，可能生成废纤维和颗粒(例如，棉绒)。特别地，当洗涤由诸如丙烯酸、尼龙或聚酯的合成材料制成的衣物时，可能生成微塑料或微纤维(以下简称“微塑料”)。该微塑料可以与用于洗涤的水一起通过出口被排放。排放的微塑料可能流入到河流和海洋中，这可能对海洋生态系统造成负面影响。",
+            "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d"
+          },
+          {
+            "anchor": "p0123",
+            "excerpt": "根据一个实施方式的过滤器130包括过滤构件131。过滤构件131过滤从衣物分离的微塑料。当水穿过过滤构件131时，水中含有的颗粒被过滤出。",
+            "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d"
+          }
+        ],
+        "boundary": "p0004背景定义包含合成衣物微塑料/微纤维；p0123本方案过滤从衣物分离的微塑料，不宣称所有绒毛皆塑料。"
       },
       "publications": [
         {
@@ -10867,7 +10881,7 @@
           "local_exists": true,
           "historical_corpus_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
           "text_role": "application_publication",
-          "review_status": "partial_claims_and_targeted_description_reviewed"
+          "review_status": "complete_saved_text_review_original_pdf_and_figures_pending"
         },
         {
           "publication_id": "WO2024143783A1",
@@ -11033,9 +11047,76 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-capture-filter130-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "filter130",
+              "stage": "capture",
+              "technical_feature": "过滤构件131从衣物分离的洗涤水中过滤微塑料；构件及框架限定顶部敞开的过滤器腔室135。孔仅描述足够过滤小于5mm颗粒，未给出具体孔径。",
+              "object": "洗衣水中微塑料",
+              "start": "洗涤水",
+              "end": "过滤构件131及过滤器腔室135",
+              "boundary": "过滤器内部",
+              "operation_order": [
+                "水穿过过滤构件",
+                "颗粒被截留"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0123",
+                  "html_anchor": "p0123",
+                  "evidence_excerpt": "根据一个实施方式的过滤器130包括过滤构件131。过滤构件131过滤从衣物分离的微塑料。当水穿过过滤构件131时，水中含有的颗粒被过滤出。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0124",
+                  "html_anchor": "p0124",
+                  "evidence_excerpt": "在实施方式中，过滤构件131设置有足够小以过滤出微塑料的孔。根据限定，微塑料是指小于5mm的颗粒。因此，过滤构件131可以设置有能够过滤出小于5mm的颗粒的孔。过滤构件131可以由诸如钢、纤维(例如，尼龙)或树脂的各种材料形成。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0128",
+                  "html_anchor": "p0128",
+                  "evidence_excerpt": "过滤器130的内部可以被限定为过滤器腔室135。过滤器腔室135可以由过滤构件131和框架132限定。过滤器腔室135的顶部是敞开的。过滤构件131的左侧、右侧和底部分以及框架132的前部可以限定过滤器腔室135。基于过滤器腔室135，溢流开口134形成在过滤器腔室135的上部分中。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "过滤构件131从衣物分离的洗涤水中过滤微塑料；构件及框架限定顶部敞开的过滤器腔室135。孔仅描述足够过滤小于5mm颗粒，未给出具体孔径。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "过滤构件131从衣物分离的洗涤水中过滤微塑料；构件及框架限定顶部敞开的过滤器腔室135。孔仅描述足够过滤小于5mm颗粒，未给出具体孔径。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": null
         },
         "cleaning": {
@@ -11119,9 +11200,66 @@
         },
         "transfer": {
           "label": "转移",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-transfer-guided_surface_to_bottom-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "guided_surface_to_bottom",
+              "stage": "transfer",
+              "technical_feature": "引导水从过滤器侧面上部向下扫掠，使附着颗粒脱离并收集于过滤器底部；清理与内部转移由同一水流实现，未越过模块边界。",
+              "object": "滤面颗粒",
+              "start": "过滤构件侧表面",
+              "end": "过滤器底部",
+              "boundary": "同一过滤器内部",
+              "operation_order": [
+                "水流导向侧面上部",
+                "向下扫掠",
+                "颗粒脱离",
+                "底部收集"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0169",
+                  "html_anchor": "p0169",
+                  "evidence_excerpt": "在实施方式中，引导表面420a朝向过滤器130的侧表面倾斜。在所示的实施方式中，一个引导表面420a朝向过滤器130的左侧表面倾斜，并且另一个引导表面420a朝向过滤器130的右侧表面倾斜。引导表面420a向下倾斜。特别地，引导表面420a朝向过滤器130的侧表面的上部分倾斜。由引导表面420a引导的水向下扫掠过滤器130的侧表面。当由引导表面420a引导的水到达过滤器130的侧表面的上部分时，其可以从过滤器130的侧表面的上部分向下扫掠异物，从而实现自清洁功能。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0171",
+                  "html_anchor": "p0171",
+                  "evidence_excerpt": "由引导表面420a引导的水撞击过滤器130的侧表面的上部分。在实施方式中，由引导表面420a引导的水撞击限定过滤器130的侧表面的过滤构件131。当水撞击过滤器130的侧表面并向下流动时，附着到过滤构件131的颗粒可以与过滤构件131分离。该操作可以被描述为清洁过滤构件131的侧表面。然后，附着到过滤器130的颗粒可以被收集在过滤器130的底部处。换言之，从水中过滤出的颗粒可以从过滤器130的底部沿着向上方向被收集。这可以防止颗粒随机附着到过滤器130的表面。这还可以防止过滤构件131的细孔被颗粒堵塞，以便即使过滤器130仍然具有有效的过滤能力，也需要清洁过滤器130，以用于过滤器130的正常功能。换言之，可以将过滤器130的清洁周期延长。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "引导水从过滤器侧面上部向下扫掠，使附着颗粒脱离并收集于过滤器底部；清理与内部转移由同一水流实现，未越过模块边界。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "引导水从过滤器侧面上部向下扫掠，使附着颗粒脱离并收集于过滤器底部；清理与内部转移由同一水流实现，未越过模块边界。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "被分离颗粒被导向过滤器底部；仅按文本所示移动编码，不延伸为独立收集容器。",
@@ -11140,9 +11278,88 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-chamber_drainage-maintenance_emptying_unlocated-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "maintenance_emptying_unlocated",
+              "stage": "chamber_drainage",
+              "technical_feature": "已复核保存中文说明书p0001-p0319及权1-19，未定位独立维护前排空动作。坡面、出水口及泵停虹吸截断支持排水结构；p0145反而保留取出过滤器残水污染风险，并以抽屉底面承接。不得据此写成已排空或无滴漏。",
+              "object": "维护时残留游离水",
+              "start": "第二腔/过滤器",
+              "end": "独立维护排空终点未定位",
+              "boundary": "过滤模块维护边界",
+              "operation_order": [
+                "正常水出口排水有依据",
+                "独立维护排空时序未定位"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0145",
+                  "html_anchor": "p0145",
+                  "evidence_excerpt": "过滤器13被容纳在第二腔室112中。在实施方式中，抽屉120被容纳在第二腔室112中，并且过滤器130被容纳在抽屉120中。当从第二腔室112中移除过滤器130时，残留在过滤器130中的任何残余水可能流出，并且可能污染该装置的外部。通过采用所示类型的抽屉120，当用户取出抽屉120时，抽屉120的底表面可以防止过滤器130中的残余水向下流动。因此，提高了用户便利性。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0150",
+                  "html_anchor": "p0150",
+                  "evidence_excerpt": "限定第二腔室112的底表面112b朝向水出口112a向下倾斜。在没有第三腔室110b的情况下，外壳110的下部内表面也可以朝向水出口112a向下倾斜。在所示的实施方式中，将水朝向水出口112a引导的主要结构是抽屉120的底部分124。因此，在实施方式中，抽屉120的底部分124朝向水出口112a向下倾斜。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0151",
+                  "html_anchor": "p0151",
+                  "evidence_excerpt": "水出口112a与出口端口114连通。出口端口114从外壳110的水出口112a延伸。穿过过滤器腔室135的水通过水出口112a离开。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0156",
+                  "html_anchor": "p0156",
+                  "evidence_excerpt": "阀端口119设置在第二腔室112的上部分中。止回阀119a布置在阀端口119中。止回阀119a防止第二腔室112中的水泄漏出。止回阀119a允许外部空气进入内部。在实施方式中，当在衣物处理设备1的循环期间操作的排水泵61停止时，残留在第一排水软管75a中的水回流到衣物处理设备1中。在这种情况下，塑料过滤器装置100的内部变得略微负加压。在这种负压条件下，通过第二排水软管75b的排水可能无法顺利地执行。止回阀119a使塑料过滤器装置100内部和外部的压力均衡，以确保排水顺畅。止回阀119a被配置成即使在弱负压下也打开，允许外部空气进入塑料过滤器装置100的内部，同时防止塑料过滤器装置100内部的水溢出。当排水泵61停止并且塑料过滤器装置100的内部变得略微负加压时，止回阀119a打开，从而实现虹吸截断效果。虹吸截断效果可以有助于防止洗涤水的持续排放。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "已复核保存中文说明书p0001-p0319及权1-19，未定位独立维护前排空动作。坡面、出水口及泵停虹吸截断支持排水结构；p0145反而保留取出过滤器残水污染风险，并以抽屉底面承接。不得据此写成已排空或无滴漏。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "已复核保存中文说明书p0001-p0319及权1-19，未定位独立维护前排空动作。坡面、出水口及泵停虹吸截断支持排水结构；p0145反而保留取出过滤器残水污染风险，并以抽屉底面承接。不得据此写成已排空或无滴漏。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "未见维护阶段腔体排空；水出口和抽屉排放部分属于正常液路，不能据此编码。",
@@ -11153,9 +11370,64 @@
         },
         "solids_dewatering": {
           "label": "固体脱水",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-solids_dewatering-collected_solids_dewatering_unlocated-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "collected_solids_dewatering_unlocated",
+              "stage": "solids_dewatering",
+              "technical_feature": "在已复核保存中文说明书p0001-p0319及权1-19内，未定位针对收集颗粒的压滤、离心或独立脱水步骤。正常透水、降低整体水位和抽屉接残水分别处理，不自动证明收集物含水率降低。",
+              "object": "已收集颗粒夹带水",
+              "start": "过滤器底部积存颗粒",
+              "end": "专门脱水终点未定位",
+              "boundary": "收集固体与液体分离边界",
+              "operation_order": [
+                "底部积聚有依据",
+                "专门固体脱水顺序未定位"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0145",
+                  "html_anchor": "p0145",
+                  "evidence_excerpt": "过滤器13被容纳在第二腔室112中。在实施方式中，抽屉120被容纳在第二腔室112中，并且过滤器130被容纳在抽屉120中。当从第二腔室112中移除过滤器130时，残留在过滤器130中的任何残余水可能流出，并且可能污染该装置的外部。通过采用所示类型的抽屉120，当用户取出抽屉120时，抽屉120的底表面可以防止过滤器130中的残余水向下流动。因此，提高了用户便利性。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0171",
+                  "html_anchor": "p0171",
+                  "evidence_excerpt": "由引导表面420a引导的水撞击过滤器130的侧表面的上部分。在实施方式中，由引导表面420a引导的水撞击限定过滤器130的侧表面的过滤构件131。当水撞击过滤器130的侧表面并向下流动时，附着到过滤构件131的颗粒可以与过滤构件131分离。该操作可以被描述为清洁过滤构件131的侧表面。然后，附着到过滤器130的颗粒可以被收集在过滤器130的底部处。换言之，从水中过滤出的颗粒可以从过滤器130的底部沿着向上方向被收集。这可以防止颗粒随机附着到过滤器130的表面。这还可以防止过滤构件131的细孔被颗粒堵塞，以便即使过滤器130仍然具有有效的过滤能力，也需要清洁过滤器130，以用于过滤器130的正常功能。换言之，可以将过滤器130的清洁周期延长。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "在已复核保存中文说明书p0001-p0319及权1-19内，未定位针对收集颗粒的压滤、离心或独立脱水步骤。正常透水、降低整体水位和抽屉接残水分别处理，不自动证明收集物含水率降低。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "在已复核保存中文说明书p0001-p0319及权1-19内，未定位针对收集颗粒的压滤、离心或独立脱水步骤。正常透水、降低整体水位和抽屉接残水分别处理，不自动证明收集物含水率降低。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "未见明确降低截留固体含水量的结构或作用。",
@@ -11226,6 +11498,86 @@
               "new_value": "权1和2均明示入水、第一腔、开口、第二腔过滤器及出水的顺序；“液相出口未知”不成立，但装置以外最终水路不能只由该项推断。",
               "change_reason": "纠正旧液相出口漏记；普通过滤出水不是维护排空。",
               "removal_kind": null
+            },
+            {
+              "observation_id": "CN120500565A-liquid_route-machine_drain_case1-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "machine_drain_case1",
+              "stage": "liquid_route",
+              "technical_feature": "排放流道73的水可由排水泵61送入排水流道75，塑料过滤器100处在情况1排水路径，经75a进入、75b排出。情况2循环由循环泵62单独启动并回桶，不能把塑料过滤器的位置移到该循环分支，也不推断最终环境终点。",
+              "object": "洗涤/漂洗水",
+              "start": "桶30/排放流道73",
+              "end": "第二排水软管75b",
+              "boundary": "洗衣机排水路径及外置过滤单元",
+              "operation_order": [
+                "排水泵启动",
+                "73进入75",
+                "75a经过滤器",
+                "75b排出"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0100",
+                  "html_anchor": "p0100",
+                  "evidence_excerpt": "排放流道73连接到桶30的下部分。水(例如，洗涤水或漂洗水)通过排放流道73从桶30排放到桶的外部。在实施方式中，排水过滤器50可以布置在排放流道73中。通过排放流道73排放的水移动到排水流道75。能够使水在从排放流道73被排放之后沿着排水流道75流动的泵压可以由排水泵61提供。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0101",
+                  "html_anchor": "p0101",
+                  "evidence_excerpt": "在实施方式中，排放流道73连接桶30和排水泵61。当排水泵61操作时，被引入到排水泵61中的水被排放到排水流道75。塑料过滤器单元100布置在该排水流道75中。从桶30排放的水在排放之前通过塑料过滤器单元100被过滤。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0102",
+                  "html_anchor": "p0102",
+                  "evidence_excerpt": "所示的衣物处理设备还包括水循环结构。因此，排放到排放流道73中的水也可以流入到循环通道74中。从排放流道73排放的水可以流过排水流道75以被排放(情况1)，或者流过循环通道74以被重新供应到桶30(情况2)。当排水泵61操作而循环泵62不操作时，发生情况1。当循环泵62操作而排水泵61不操作时，发生情况2。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0103",
+                  "html_anchor": "p0103",
+                  "evidence_excerpt": "塑料过滤器装置100将通过第一排水软管75a引入的水过滤，并且将过滤后的水通过第二排水软管75b排放。在其中将水通过排水孔排放的循环中，水由塑料过滤器装置100过滤。塑料过滤器装置100将上述情况1排放的水过滤。在该实施方式中，在漂洗和甩干循环期间发生与执行情况1相同的操作。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "排放流道73的水可由排水泵61送入排水流道75，塑料过滤器100处在情况1排水路径，经75a进入、75b排出。情况2循环由循环泵62单独启动并回桶，不能把塑料过滤器的位置移到该循环分支，也不推断最终环境终点。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": "explicit",
+              "new_value": "排放流道73的水可由排水泵61送入排水流道75，塑料过滤器100处在情况1排水路径，经75a进入、75b排出。情况2循环由循环泵62单独启动并回桶，不能把塑料过滤器的位置移到该循环分支，也不推断最终环境终点。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
             }
           ],
           "prior_field": {
@@ -11246,15 +11598,70 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-storage-filter_bottom_accumulation-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "filter_bottom_accumulation",
+              "stage": "storage",
+              "technical_feature": "颗粒自过滤器左右侧面下部向上堆积、在过滤器底部收集；这是含物过滤组件内的积存，不能写成独立密闭干渣盒或长期储存验证。",
+              "object": "脱离滤面颗粒",
+              "start": "左右滤面",
+              "end": "过滤器底部",
+              "boundary": "过滤组件内",
+              "operation_order": [
+                "颗粒脱离",
+                "底部积聚"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0131",
+                  "html_anchor": "p0131",
+                  "evidence_excerpt": "附加地，可以使过滤器130的竖直长度比过滤器的左侧表面和右侧表面之间的距离大。在提供自清洁功能的实施方式中，过滤器130逐出附着到其左侧表面和右侧表面的颗粒。被逐出的颗粒从过滤器130的左侧表面和右侧表面的下部分堆积，从而保持过滤器130的侧表面的过滤性能。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0171",
+                  "html_anchor": "p0171",
+                  "evidence_excerpt": "由引导表面420a引导的水撞击过滤器130的侧表面的上部分。在实施方式中，由引导表面420a引导的水撞击限定过滤器130的侧表面的过滤构件131。当水撞击过滤器130的侧表面并向下流动时，附着到过滤构件131的颗粒可以与过滤构件131分离。该操作可以被描述为清洁过滤构件131的侧表面。然后，附着到过滤器130的颗粒可以被收集在过滤器130的底部处。换言之，从水中过滤出的颗粒可以从过滤器130的底部沿着向上方向被收集。这可以防止颗粒随机附着到过滤器130的表面。这还可以防止过滤构件131的细孔被颗粒堵塞，以便即使过滤器130仍然具有有效的过滤能力，也需要清洁过滤器130，以用于过滤器130的正常功能。换言之，可以将过滤器130的清洁周期延长。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "颗粒自过滤器左右侧面下部向上堆积、在过滤器底部收集；这是含物过滤组件内的积存，不能写成独立密闭干渣盒或长期储存验证。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "颗粒自过滤器左右侧面下部向上堆积、在过滤器底部收集；这是含物过滤组件内的积存，不能写成独立密闭干渣盒或长期储存验证。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": null
         },
         "removal": {
           "label": "移出",
           "review_status": "partial",
-          "support_status": "same_embodiment_combination",
+          "support_status": "explicit",
           "observations": [
             {
               "observation_id": "CN120500565A-removal-drawer_filter",
@@ -11459,6 +11866,84 @@
                 "visually_read": true,
                 "verified_at": "2026-09-29T23:25:30.881228+08:00"
               }
+            },
+            {
+              "observation_id": "CN120500565A-removal-description_drawer_then_filter-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "description_drawer_then_filter",
+              "stage": "removal",
+              "technical_feature": "同一说明书方案明确过滤器在抽屉、抽屉在外壳：用前部手柄向前抽出抽屉，再向上移除含物过滤器。抽屉是支承/接残水界面，不另算干渣容器；该原文路径不并入每一独立项。",
+              "object": "含截留物过滤器130及支承抽屉120",
+              "start": "外壳内第二腔",
+              "end": "外壳外抽屉、继而抽屉外过滤器",
+              "boundary": "外壳边界及抽屉边界分别越过",
+              "operation_order": [
+                "向前移除抽屉",
+                "向上移除过滤器"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0113",
+                  "html_anchor": "p0113",
+                  "evidence_excerpt": "外壳110可以容纳抽屉120。抽屉120可以从外壳110抽出，并且被推入到外壳110中。手柄121a可以形成在抽屉120的前部上。在所示的实施方式中，手柄121a形成为可供用户的手指插入到其中的开口。然而，手柄121a不限于所示和所述的实施方式，只要其具有手柄的功能即可。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0115",
+                  "html_anchor": "p0115",
+                  "evidence_excerpt": "根据一个实施方式的塑料过滤器装置100包括外壳110、抽屉120和过滤器130。过滤器130被容纳在抽屉120中。抽屉120被容纳在外壳110中。抽屉120可以向前移动，以从外壳110移除。可以从抽屉120向上移除过滤器130。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0117",
+                  "html_anchor": "p0117",
+                  "evidence_excerpt": "抽屉120可拆卸地容纳在第二腔室112中。过滤器130可拆卸地容纳在抽屉120中。因此，该过滤器被容纳在第二腔室112中(参见图6)。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0145",
+                  "html_anchor": "p0145",
+                  "evidence_excerpt": "过滤器13被容纳在第二腔室112中。在实施方式中，抽屉120被容纳在第二腔室112中，并且过滤器130被容纳在抽屉120中。当从第二腔室112中移除过滤器130时，残留在过滤器130中的任何残余水可能流出，并且可能污染该装置的外部。通过采用所示类型的抽屉120，当用户取出抽屉120时，抽屉120的底表面可以防止过滤器130中的残余水向下流动。因此，提高了用户便利性。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "同一说明书方案明确过滤器在抽屉、抽屉在外壳：用前部手柄向前抽出抽屉，再向上移除含物过滤器。抽屉是支承/接残水界面，不另算干渣容器；该原文路径不并入每一独立项。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": "same_embodiment_combination",
+              "new_value": "同一说明书方案明确过滤器在抽屉、抽屉在外壳：用前部手柄向前抽出抽屉，再向上移除含物过滤器。抽屉是支承/接残水界面，不另算干渣容器；该原文路径不并入每一独立项。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": "target_bearing_filter_component",
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
             }
           ],
           "prior_field": {
@@ -11498,9 +11983,77 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-state_switch-pump_and_passive_cleaning-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "pump_and_passive_cleaning",
+              "stage": "state_switch",
+              "technical_feature": "排水/回桶循环由排水泵61与循环泵62互斥工作描述；滤面自清洁利用经开口落下水流，无单独滤面驱动源。泵停负压时止回阀引入空气是虹吸控制，不能合成过滤—压实—自动排固状态机。",
+              "object": "水流、滤面颗粒与空气",
+              "start": "泵运行/开口落水/泵停负压各状态",
+              "end": "排水/回桶/滤面清理/压力均衡各终点",
+              "boundary": "不同流路与触发状态分别记录",
+              "operation_order": [
+                "排水状态与回桶状态分开",
+                "清理随过滤水流发生",
+                "泵停负压触发进气"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0102",
+                  "html_anchor": "p0102",
+                  "evidence_excerpt": "所示的衣物处理设备还包括水循环结构。因此，排放到排放流道73中的水也可以流入到循环通道74中。从排放流道73排放的水可以流过排水流道75以被排放(情况1)，或者流过循环通道74以被重新供应到桶30(情况2)。当排水泵61操作而循环泵62不操作时，发生情况1。当循环泵62操作而排水泵61不操作时，发生情况2。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0144",
+                  "html_anchor": "p0144",
+                  "evidence_excerpt": "水入口111a将水引入到限定第一腔室111的底表面中。在实施方式中，限定第一腔室111的底表面是分隔壁400的顶表面410。通过水入口111a进入的水被临时容纳在第一腔室111中。然后，临时容纳的水通过开口410a落入到第二腔室112中。当水落下时，其向下扫略过滤器130的壁表面，导致附着到过滤器130的壁表面的微塑料与过滤器130的壁表面分离。也就是说，在实施方式中，附着到过滤器130的壁表面的微塑料在不需要单独的驱动源的情况下与过滤器130的壁表面分离。因此，可以执行自清洁。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0156",
+                  "html_anchor": "p0156",
+                  "evidence_excerpt": "阀端口119设置在第二腔室112的上部分中。止回阀119a布置在阀端口119中。止回阀119a防止第二腔室112中的水泄漏出。止回阀119a允许外部空气进入内部。在实施方式中，当在衣物处理设备1的循环期间操作的排水泵61停止时，残留在第一排水软管75a中的水回流到衣物处理设备1中。在这种情况下，塑料过滤器装置100的内部变得略微负加压。在这种负压条件下，通过第二排水软管75b的排水可能无法顺利地执行。止回阀119a使塑料过滤器装置100内部和外部的压力均衡，以确保排水顺畅。止回阀119a被配置成即使在弱负压下也打开，允许外部空气进入塑料过滤器装置100的内部，同时防止塑料过滤器装置100内部的水溢出。当排水泵61停止并且塑料过滤器装置100的内部变得略微负加压时，止回阀119a打开，从而实现虹吸截断效果。虹吸截断效果可以有助于防止洗涤水的持续排放。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "排水/回桶循环由排水泵61与循环泵62互斥工作描述；滤面自清洁利用经开口落下水流，无单独滤面驱动源。泵停负压时止回阀引入空气是虹吸控制，不能合成过滤—压实—自动排固状态机。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "排水/回桶循环由排水泵61与循环泵62互斥工作描述；滤面自清洁利用经开口落下水流，无单独滤面驱动源。泵停负压时止回阀引入空气是虹吸控制，不能合成过滤—压实—自动排固状态机。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "已审权项为连续流路和维护拆卸，未见过滤、清理、排液或排渣间的离散切换结构/步骤。",
@@ -11634,6 +12187,96 @@
                 "visually_read": true,
                 "verified_at": "2026-09-29T23:25:30.881228+08:00"
               }
+            },
+            {
+              "observation_id": "CN120500565A-seals_connections-drawer_seals_and_residual_water-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "drawer_seals_and_residual_water",
+              "stage": "seals_connections",
+              "technical_feature": "抽屉可拆带来密封需求；第一密封件封外壳前口，第二件封第一腔前口，第三件在过滤器接触处形成水密界面。取出时残水承接由抽屉底面描述；未提供滴漏量或密封测试。",
+              "object": "抽屉/外壳/过滤器连接与残水",
+              "start": "可拆抽屉接口",
+              "end": "三处密封座及抽屉底面承接",
+              "boundary": "前部开口及过滤腔接口",
+              "operation_order": [
+                "抽屉插入时各密封件接触",
+                "抽屉取出时底面承接残水"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0145",
+                  "html_anchor": "p0145",
+                  "evidence_excerpt": "过滤器13被容纳在第二腔室112中。在实施方式中，抽屉120被容纳在第二腔室112中，并且过滤器130被容纳在抽屉120中。当从第二腔室112中移除过滤器130时，残留在过滤器130中的任何残余水可能流出，并且可能污染该装置的外部。通过采用所示类型的抽屉120，当用户取出抽屉120时，抽屉120的底表面可以防止过滤器130中的残余水向下流动。因此，提高了用户便利性。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0158",
+                  "html_anchor": "p0158",
+                  "evidence_excerpt": "抽屉120可拆卸地容纳在外壳110中。因此，在外壳110与抽屉120之间需要防水密封件。下面描述该防水密封件的结构。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0160",
+                  "html_anchor": "p0160",
+                  "evidence_excerpt": "抽屉120可以包括第一密封构件161，该第一密封构件接触外壳110的限定第一空间110a的前部的内表面，以密封外壳110的敞开前部。抽屉120包括第一密封座129a，该第一密封座从前部121向后突出并且具有与第一空间110a相对应的形状。第一密封构件161可以装配到第一密封座129a中。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0161",
+                  "html_anchor": "p0161",
+                  "evidence_excerpt": "抽屉120还可以包括第二密封构件162，该第二密封构件接触限定第一腔室111的前部的壁表面，以密封第一腔室111的前部开口。第二密封构件162可以装配到第二密封座129b中。第二密封座129b从抽屉120的前部121向后突出，并且可以具有与第一腔室111相对应的形状。在所示的实施方式中，第二密封座129b从第一密封座129a突出。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0162",
+                  "html_anchor": "p0162",
+                  "evidence_excerpt": "抽屉120还可以包括第三密封构件163，以用于在接触过滤器130的部分处的水密性。抽屉120接触过滤器130的部分形成了限定过滤器腔室135的空间，因此可以被配置成是水密的。第三密封构件163可以装配到第三密封座129c中。在所示的实施方式中，第三密封座129c从第二密封座129b向下延伸。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "抽屉可拆带来密封需求；第一密封件封外壳前口，第二件封第一腔前口，第三件在过滤器接触处形成水密界面。取出时残水承接由抽屉底面描述；未提供滴漏量或密封测试。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": "explicit",
+              "new_value": "抽屉可拆带来密封需求；第一密封件封外壳前口，第二件封第一腔前口，第三件在过滤器接触处形成水密界面。取出时残水承接由抽屉底面描述；未提供滴漏量或密封测试。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
             }
           ],
           "prior_field": {
@@ -11646,16 +12289,198 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-performance-textual_claims_without_comparable_data-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "textual_claims_without_comparable_data",
+              "stage": "performance",
+              "technical_feature": "保存全文中降低排水阻力、延长清洁周期及实施方式水位/排水压力差异属于文本效果解释；已读范围未定位带具体条件和样本量的测量表或跨方案可比实验。图中符号/尺寸与75cm安装背景不充作性能实测。",
+              "object": "排水阻力/清洁周期/水位效果主张",
+              "start": "各自描述的实施方式",
+              "end": "文本主张而非验收性能",
+              "boundary": "文本披露与实验效果边界",
+              "operation_order": [
+                "效果解释已定位",
+                "可比实测未定位"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0043",
+                  "html_anchor": "p0043",
+                  "evidence_excerpt": "根据本公开的实施方式，过滤器装置可以通过防止所述过滤器浸没在水中而使由所述过滤器引起的排水阻力最小化。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0047",
+                  "html_anchor": "p0047",
+                  "evidence_excerpt": "根据本公开的实施方式，过滤器装置可以确保具有相对较大面积的过滤器，并且可以在排水期间通过将水均匀分布和扩散在过滤器的前表面上来降低排水阻力。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0048",
+                  "html_anchor": "p0048",
+                  "evidence_excerpt": "根据本公开的实施方式，过滤器装置可以在不需要单独的动力传动装置的情况下实现自清洁效果。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0049",
+                  "html_anchor": "p0049",
+                  "evidence_excerpt": "根据本公开的实施方式，过滤器装置可以通过实现自清洁效果来延长所述过滤器的清洁周期和/或更换周期。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0192",
+                  "html_anchor": "p0192",
+                  "evidence_excerpt": "与第二实施方式相比，第三实施方式中的水表面的斜率(∠а3)更平缓。因此，后部处的排水压力高于第二实施方式中的，这导致排水更快。因此，当基于相同的时间段进行比较时，本实施方式中的平均水位低于第二实施方式中的平均水位。因此，可以减少过滤器的左侧和右侧浸没在水中的面积，从而提高过滤效率。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0199",
+                  "html_anchor": "p0199",
+                  "evidence_excerpt": "与第二实施方式相比，落下的水在向前方向(+Y)上的直线度减小(该图示出了其几乎不存在的极端情况)。结果，与第二实施方式相比，可以防止水向前偏向。这导致水表面的斜率更平缓(∠а4)。此外，在水出口112a位于后部处的结构中，后部处的排水压力高于第二实施方式中的排水压力。当基于相同的时间段进行比较时，平均水位(水位)低于第二实施方式中的平均水位。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0214",
+                  "html_anchor": "p0214",
+                  "evidence_excerpt": "通过水入口111a进入的水流入到限定在分隔部段5410内的第一流道5410a中。进入第一流道5410a的水向前流动，并且在第一流道的端部处流入到第二流道5420a中。进入第二流道5420a的水被向后引导。通过第二流道5420a引导的水从前侧(+Y)向后侧(-Y)流动。水通过开口5420b而落入到第二腔室112中。落下的水在第二流道5420a中沿着水流的方向朝向后侧(-Y)偏转。水出口112a位于后部处。因此，当水朝向后部偏转时，与其中水位在前部处较高的情况相比，可以顺利地进行排水。因此，根据第五实施方式，位于后部处的水出口112a处的排水压力更高，并且排水变得更顺畅，这允许水表面倾斜角度(∠a4)更小。替代地，根据具体情况，后部处的水位可以更高。因此，当在相同的时间基础上进行比较时，平均水位(水位)低于前述实施方式的平均水位。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "保存全文中降低排水阻力、延长清洁周期及实施方式水位/排水压力差异属于文本效果解释；已读范围未定位带具体条件和样本量的测量表或跨方案可比实验。图中符号/尺寸与75cm安装背景不充作性能实测。",
+              "performance_status": "text_claim_only",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "保存全文中降低排水阻力、延长清洁周期及实施方式水位/排水压力差异属于文本效果解释；已读范围未定位带具体条件和样本量的测量表或跨方案可比实验。图中符号/尺寸与75cm安装背景不充作性能实测。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": null
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-endpoint-post_removal_disposal_unlocated-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "post_removal_disposal_unlocated",
+              "stage": "endpoint",
+              "technical_feature": "在保存中文说明书p0001-p0319与权1-19内已定位过滤器取出和颗粒积聚，未定位取出后收集颗粒的废物处置动作。背景p0004所述河海危害不能移作本发明最终去向。",
+              "object": "取出后截留颗粒",
+              "start": "含物过滤器离开抽屉后",
+              "end": "最终处置终点未定位",
+              "boundary": "装置移出与下游处置边界",
+              "operation_order": [
+                "取出路径已定位",
+                "后续处置未定位"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0115",
+                  "html_anchor": "p0115",
+                  "evidence_excerpt": "根据一个实施方式的塑料过滤器装置100包括外壳110、抽屉120和过滤器130。过滤器130被容纳在抽屉120中。抽屉120被容纳在外壳110中。抽屉120可以向前移动，以从外壳110移除。可以从抽屉120向上移除过滤器130。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0145",
+                  "html_anchor": "p0145",
+                  "evidence_excerpt": "过滤器13被容纳在第二腔室112中。在实施方式中，抽屉120被容纳在第二腔室112中，并且过滤器130被容纳在抽屉120中。当从第二腔室112中移除过滤器130时，残留在过滤器130中的任何残余水可能流出，并且可能污染该装置的外部。通过采用所示类型的抽屉120，当用户取出抽屉120时，抽屉120的底表面可以防止过滤器130中的残余水向下流动。因此，提高了用户便利性。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0171",
+                  "html_anchor": "p0171",
+                  "evidence_excerpt": "由引导表面420a引导的水撞击过滤器130的侧表面的上部分。在实施方式中，由引导表面420a引导的水撞击限定过滤器130的侧表面的过滤构件131。当水撞击过滤器130的侧表面并向下流动时，附着到过滤构件131的颗粒可以与过滤构件131分离。该操作可以被描述为清洁过滤构件131的侧表面。然后，附着到过滤器130的颗粒可以被收集在过滤器130的底部处。换言之，从水中过滤出的颗粒可以从过滤器130的底部沿着向上方向被收集。这可以防止颗粒随机附着到过滤器130的表面。这还可以防止过滤构件131的细孔被颗粒堵塞，以便即使过滤器130仍然具有有效的过滤能力，也需要清洁过滤器130，以用于过滤器130的正常功能。换言之，可以将过滤器130的清洁周期延长。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "在保存中文说明书p0001-p0319与权1-19内已定位过滤器取出和颗粒积聚，未定位取出后收集颗粒的废物处置动作。背景p0004所述河海危害不能移作本发明最终去向。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "在保存中文说明书p0001-p0319与权1-19内已定位过滤器取出和颗粒积聚，未定位取出后收集颗粒的废物处置动作。背景p0004所述河海危害不能移作本发明最终去向。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "未见移出后固体的处置、再利用或实测效果。",
@@ -11666,9 +12491,76 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN120500565A-carrier_conditioning-filter_carrier_conditioning_unlocated-20261001",
+              "publication_id": "CN120500565A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "filter_carrier_conditioning_unlocated",
+              "stage": "carrier_conditioning",
+              "technical_feature": "在保存中文说明书p0001-p0319与权1-19内未定位过滤载体专门排水/干燥程序；滤面自清洁另归cleaning，衣物脱水循环p0080不属于载体干燥，残水承接不等于载体干燥。",
+              "object": "过滤构件自身残水",
+              "start": "过滤器130",
+              "end": "载体专门排水/干燥终点未定位",
+              "boundary": "载体维护边界",
+              "operation_order": [
+                "滤面清理另列",
+                "载体干燥未定位"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书方案；不据此增添独立项限定",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0123",
+                  "html_anchor": "p0123",
+                  "evidence_excerpt": "根据一个实施方式的过滤器130包括过滤构件131。过滤构件131过滤从衣物分离的微塑料。当水穿过过滤构件131时，水中含有的颗粒被过滤出。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0124",
+                  "html_anchor": "p0124",
+                  "evidence_excerpt": "在实施方式中，过滤构件131设置有足够小以过滤出微塑料的孔。根据限定，微塑料是指小于5mm的颗粒。因此，过滤构件131可以设置有能够过滤出小于5mm的颗粒的孔。过滤构件131可以由诸如钢、纤维(例如，尼龙)或树脂的各种材料形成。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                },
+                {
+                  "locator": "保存HTML #p0145",
+                  "html_anchor": "p0145",
+                  "evidence_excerpt": "过滤器13被容纳在第二腔室112中。在实施方式中，抽屉120被容纳在第二腔室112中，并且过滤器130被容纳在抽屉120中。当从第二腔室112中移除过滤器130时，残留在过滤器130中的任何残余水可能流出，并且可能污染该装置的外部。通过采用所示类型的抽屉120，当用户取出抽屉120时，抽屉120的底表面可以防止过滤器130中的残余水向下流动。因此，提高了用户便利性。",
+                  "source_role": "description",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+                  "source_url": "https://patents.google.com/patent/CN120500565A/zh",
+                  "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+                  "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+                  "extraction_note": "Saved patent-publication mirror; anchor is not an official paragraph number; PDF unavailable."
+                }
+              ],
+              "interpretation": "在保存中文说明书p0001-p0319与权1-19内未定位过滤载体专门排水/干燥程序；滤面自清洁另归cleaning，衣物脱水循环p0080不属于载体干燥，残水承接不等于载体干燥。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+              "old_value": null,
+              "new_value": "在保存中文说明书p0001-p0319与权1-19内未定位过滤载体专门排水/干燥程序；滤面自清洁另归cleaning，衣物脱水循环p0080不属于载体干燥，残水承接不等于载体干燥。",
+              "change_reason": "2026-10-01保存全文复核补充；原PDF和资格缺口独立保留",
+              "removal_kind": null,
+              "review_scope": "保存中文HTML p0001-p0319及zh-cl0001-zh-cl0019；未核原PDF/附图"
+            }
+          ],
           "prior_field": null
         }
       },
@@ -11727,8 +12619,145 @@
             ],
             "field": "seals_connections",
             "at": "2026-09-29T23:21:07.441015+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0123",
+              "p0124",
+              "p0128"
+            ],
+            "field": "capture",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0169",
+              "p0171"
+            ],
+            "field": "transfer",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0131",
+              "p0171"
+            ],
+            "field": "storage",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0145",
+              "p0150",
+              "p0151",
+              "p0156"
+            ],
+            "field": "chamber_drainage",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0145",
+              "p0171"
+            ],
+            "field": "solids_dewatering",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0100",
+              "p0101",
+              "p0102",
+              "p0103"
+            ],
+            "field": "liquid_route",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0113",
+              "p0115",
+              "p0117",
+              "p0145"
+            ],
+            "field": "removal",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0102",
+              "p0144",
+              "p0156"
+            ],
+            "field": "state_switch",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0145",
+              "p0158",
+              "p0160",
+              "p0161",
+              "p0162"
+            ],
+            "field": "seals_connections",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0043",
+              "p0047",
+              "p0048",
+              "p0049",
+              "p0192",
+              "p0199",
+              "p0214"
+            ],
+            "field": "performance",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0115",
+              "p0145",
+              "p0171"
+            ],
+            "field": "endpoint",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
+          },
+          {
+            "publication": "CN120500565A",
+            "anchors": [
+              "p0123",
+              "p0124",
+              "p0145"
+            ],
+            "field": "carrier_conditioning",
+            "at": "2026-10-01T12:42:10.7987048+08:00"
           }
-        ]
+        ],
+        "saved_text_review": {
+          "verified_at": "2026-10-01T12:42:10.7987048+08:00",
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN120500565A.html",
+          "source_sha256": "f47cbd39c8c21842fb5b5140377dece6b8421369bc765d6c183ff970e6a41e1d",
+          "anchors_read": 338,
+          "description_anchors": "p0001-p0319",
+          "claim_anchors": "zh-cl0001-zh-cl0019",
+          "figures_visually_reviewed": false,
+          "original_pdf_acquired": false,
+          "all_fields_addressed_in_this_scope": true
+        }
       }
     },
     {

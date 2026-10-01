@@ -1,0 +1,28 @@
+{
+  "run_id": "20260929_r1",
+  "date": "2026-10-01",
+  "timezone": "Asia/Shanghai",
+  "purpose": "CN120500565A缺失原PDF定向补证",
+  "actual_queries": [
+    "\"CN120500565A\" filetype:pdf",
+    "\"CN120500565\" pdf 专利",
+    "\"CN120500565A\" \"PDF\"",
+    "site:cnipa.gov.cn 专利 公布公告 全文 下载"
+  ],
+  "exact_page": "https://patents.google.com/patent/CN120500565A/zh",
+  "official_entry": "https://epub.cnipa.gov.cn/",
+  "observations": [
+    "Google页仍未提供可下载CN PDF链接；搜索只定位公开页/其他同族页",
+    "web.open官方入口返回Timeout fetching",
+    "IAB createBrowserTab官方入口：Timed out running CDP command Page.navigate for tab 1",
+    "一次getState：IAB目标URL但about:blank；Chrome通道nodeRepl.fetch request failed"
+  ],
+  "original_pdf_saved": false,
+  "saved_result_count": 0,
+  "hit_count": null,
+  "export_complete": false,
+  "genuine_search_screenshot_saved": false,
+  "limitations": "结果数量不可作母集；无真实可审查截图；无登录/权限/网络设置改动；不重试失效通道。",
+  "retrieval_window": "2026-10-01T12:39:00+08:00/2026-10-01T12:42:10+08:00",
+  "time_precision": "工具调用所在窗口；未记录每个请求的精确毫秒，不伪造逐请求时点"
+}
