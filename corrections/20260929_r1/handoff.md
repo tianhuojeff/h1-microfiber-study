@@ -113,3 +113,10 @@ HTML源SHA0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621；本
 ## 2026-10-02 01:43 CN115700309A 性能主张限定复核
 
 仅p0187/0190/0195/0211/0212保存HTML正向登记performance，总135。末次漂洗无残液/抑菌/寿命为文本主张，参数可预先大量实验取值不作真实实验完成；not_verified保持，不据五锚点断言全文无数据。原134/其他13/法律及来源引文字节QA不变。开始剩61%，实施后已used40/剩60%，触硬停止线；本项闭合后仅保存停止接续，不启新逻辑，不reset。候选仍solids_dewatering、carrier_conditioning空，负向须完整相关范围；原PDF/图未核，14pending、全文0、统计终稿false。
+## 2026-10-02 01:50 周剩60%硬线停止
+
+实时报周used40/剩60，达到用户保留的硬停止线。最后已验证技术提交d50f43d83ca7cb4d36cf3c2abcb7f46f968c6eb1，本地与私有origin/main一致；135观察，master实际SHA b2d55fadb769ebbe226a843d7ef6c61ecd94543c9ed9612602f5cf97dfcdc9bc。仅保存此停止接续与状态，不开展新阅读/检索/技术修改，不消费reset。current_release执行状态paused_weekly_remaining_60；P2草稿、14资格pending、全文复核完成0、正式统计与终稿false、project_completion_accepted false保持。
+
+接续：CN115700309A仍solids_dewatering与carrier_conditioning空。执行者已实际定向读cl0001/cl0010、p0063—0073、0085/0109/0111/0113/0117—0119/0125—0131、0136—0156、0172—0196、0200/0205/0211/0212，不冒全文。只读代理完整213说明锚点+10权项报告在主控证据目录，不能替代执行者裁定；下一负向必须完整相关范围，空气排腔液/粒680摩擦/501随水输送不自动变固体脱水或介质干燥。无本地原PDF、附图未核，法律pending不放行统计。其他候选亦有待复核，不宣称H1完成。
+
+暂停前发现性能空字段重复上下文错落，错误版本未提交未推送，已恢复CN222完整对象、修正目标，并从首项全量QA通过。最新AGENTS SHA7f31a86fddf323380ef7030deacba1497187c3f37fea3bc6422dddfc3008ea75，新增唯一对象双键/跳转定位门槛，旧短上下文模板禁用。继续时必须用当前门槛；未验错表不能作为停止快照。唯一未跟踪scripts/__pycache__/local_source.cpython-312.pyc未纳入提交；本轮-B运行不新增该缓存，不删除来源不明既有叶文件。

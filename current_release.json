@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-02T01:43:51+08:00",
+  "updated_at": "2026-10-02T01:50:34.4131436+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -27,7 +27,16 @@
   "technical_review_index": "corrections/20260929_r1/evidence/技术复核入口.md",
   "current_observations": 135,
   "full_text_review_complete": false,
-  "execution_status": "in_progress_delegated_P2",
+  "execution_status": "paused_weekly_remaining_60",
+  "quota_pause": {
+    "at": "2026-10-02T01:50:34.4131436+08:00",
+    "weekly_used_percent": 40,
+    "weekly_remaining_percent": 60,
+    "threshold_remaining_percent": 60,
+    "last_verified_technical_commit": "d50f43d83ca7cb4d36cf3c2abcb7f46f968c6eb1",
+    "reset_consumed": false,
+    "next_action": "After quota permits authorized resumption, read CN115700309A complete relevant saved-text scopes for solids_dewatering and carrier_conditioning; original PDF/figures and legal eligibility remain pending. No new technical action at or below threshold."
+  },
   "weekly_used_percent": 40,
   "weekly_remaining_percent": 60,
   "master_sha256": "b2d55fadb769ebbe226a843d7ef6c61ecd94543c9ed9612602f5cf97dfcdc9bc"
