@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-01T13:14:45.934445+08:00",
+  "updated_at": "2026-10-01T17:44:59.424195+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -2078,9 +2078,24 @@
         "new_online_query_performed": false
       },
       "scene_material": {
-        "classification": "明确包括洗衣微纤维或微塑料",
-        "review_status": "primary_text_scope_reviewed",
-        "scope_note": "压实器还适用其他流出物，不把所有用途自动称为洗衣；CN222043626U亦可截留其他相近尺寸杂质。"
+        "classification": "laundry_wastewater_microfibres_with_microplastic_focus",
+        "review_status": "complete_in_original_A_scope",
+        "verified_at": "2026-10-01T17:44:59.424195+08:00",
+        "basis": [
+          {
+            "anchor": "p0004",
+            "excerpt": "微塑料、微纤维通常是指尺寸在5mm以下的纤维或颗粒，其对海洋环境的污染越来越严重。微塑料、微纤维由于其体积小、比表面积大的特点，因此吸附污染物能力很强。微塑料、微纤维就像海洋污染物的坐骑，当微塑料、微纤维和海洋污染物结合后在海洋中游荡的过程中极易被海洋生物摄入，这会直接危害海洋生态系统，而人类站在食物链的顶端，微塑料、微纤维可以通过生态循环进入人体内对人类健康产生重大威胁。",
+            "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+            "physical_page": 3
+          },
+          {
+            "anchor": "p0005",
+            "excerpt": "参照悉尼大学沿海城市生态影响研究中心的研究，海洋中微塑料、微纤维的主要来源之一是从洗衣机排出的废水。如研究指出，每洗一件衣服就会有1900多根微小的纤维被冲洗掉，在洗衣机在全球范围内普及且洗衣频率普遍较高的大前提下，如何避免微塑料的排放成为亟待解决的技术问题。",
+            "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+            "physical_page": 3
+          }
+        ],
+        "boundary": "背景谈小于5mm微塑料/微纤维与洗衣废水；不把所有衣物纤维都视为塑料，1900背景引述不是本装置性能测试。"
       },
       "publications": [
         {
@@ -2091,7 +2106,7 @@
           "local_exists": true,
           "historical_corpus_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
           "text_role": "application_publication",
-          "review_status": "claims_read_and_targeted_description_reviewed"
+          "review_status": "complete_original_A_scope_related_B_pending"
         }
       ],
       "prior_working_evidence": {
@@ -2366,7 +2381,7 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "partial",
+          "review_status": "complete_in_original_A_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -2541,7 +2556,7 @@
         },
         "cleaning": {
           "label": "清理／脱离",
-          "review_status": "partial",
+          "review_status": "complete_in_original_A_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -2652,7 +2667,7 @@
         },
         "transfer": {
           "label": "转移",
-          "review_status": "partial",
+          "review_status": "complete_in_original_A_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -2763,9 +2778,73 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN115637570A-chamber_drainage-dedicated_maintenance_emptying_unlocated-20261001-fullA",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "dedicated_maintenance_emptying_unlocated",
+              "stage": "chamber_drainage",
+              "technical_feature": "正常下部排水属于运行液路，开门取袋/滤器属于人工维护；原A权1—10、[0001]—[0079]及图1—6未定位维护前专用腔排空、残液确认或干式拆卸机构。不把正常出水推为腔内已无残水。",
+              "object": "收集腔自由液体",
+              "start": "正常滤后下部排水",
+              "end": "未定位维护前独立排空",
+              "boundary": "过滤器121与收集装置127",
+              "operation_order": [
+                "原A完整范围逐项检读",
+                "与已披露正常流路/人工拆卸分开"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "原A各权项/说明书限定各自保留；未新增独立项功能",
+              "evidence": [
+                {
+                  "locator": "HTML #p0063；原PDF物理6 [0058]",
+                  "html_anchor": "p0063",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以理解的是，靠近所述过滤器筒体121下部侧壁129的过滤网122与过滤器筒体121下部侧壁129之间设有排水流道。过滤后的水经排水流道从排水口流出。"
+                },
+                {
+                  "locator": "HTML #p0079；原PDF物理7 [0074]",
+                  "html_anchor": "p0079",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "过滤袋可以周向设置在微纤维收集装置127的内侧壁上，当过滤袋中的微纤维累积的较多时，可以更换过滤网122，方便用户直接进行清理。"
+                },
+                {
+                  "locator": "HTML #p0083；原PDF物理7 [0078]",
+                  "html_anchor": "p0083",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。"
+                }
+              ],
+              "interpretation": "正常下部排水属于运行液路，开门取袋/滤器属于人工维护；原A权1—10、[0001]—[0079]及图1—6未定位维护前专用腔排空、残液确认或干式拆卸机构。不把正常出水推为腔内已无残水。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T17:44:59.424195+08:00",
+              "old_value": null,
+              "new_value": "正常下部排水属于运行液路，开门取袋/滤器属于人工维护；原A权1—10、[0001]—[0079]及图1—6未定位维护前专用腔排空、残液确认或干式拆卸机构。不把正常出水推为腔内已无残水。",
+              "change_reason": "补完整原A剩余页并裁定五个未填字段；未读B与资格独立保留",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 10,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-10.png",
+                "image_sha256": "453399fa5832a04865a2ad65e860459ac8a41b00f9e1113dc32ae0effd09d198",
+                "checked_at": "2026-10-01T17:44:59.424195+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原A全文与原图；未定位仅针对该版本，不代表同族全文或行业不存在"
+              },
+              "review_scope": "原A物理1—11；权1—10、[0001]—[0079]及图1—6；原B未读"
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "未在已核段落实取袋前腔体排空程序。",
@@ -2776,9 +2855,73 @@
         },
         "solids_dewatering": {
           "label": "固体脱水",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN115637570A-solids_dewatering-no_dedicated_solids_dewatering_in_A-20261001-fullA",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "no_dedicated_solids_dewatering_in_A",
+              "stage": "solids_dewatering",
+              "technical_feature": "原A描述刮离与借水输送、可选袋收集，未定位对收集固体的独立压榨、离心、加热干燥、含水率控制或脱水终点。正常滤后水流不自动等同固体主动脱水，未知不转零。",
+              "object": "刮下并携水转移的微纤维",
+              "start": "滤网122",
+              "end": "收集装置127/可选袋",
+              "boundary": "完整原A范围",
+              "operation_order": [
+                "原A完整范围逐项检读",
+                "与已披露正常流路/人工拆卸分开"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "原A各权项/说明书限定各自保留；未新增独立项功能",
+              "evidence": [
+                {
+                  "locator": "HTML #p0057；原PDF物理6 [0052]",
+                  "html_anchor": "p0057",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "在上述方案中，通过螺杆125的转动使螺旋叶片126旋转推进，刮掉沉积在过滤网122上的微纤维，借助水流的流动，将微纤维收集到微纤维收集装置127内，延长微纤维过滤器12的使用寿命。"
+                },
+                {
+                  "locator": "HTML #p0063；原PDF物理6 [0058]",
+                  "html_anchor": "p0063",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以理解的是，靠近所述过滤器筒体121下部侧壁129的过滤网122与过滤器筒体121下部侧壁129之间设有排水流道。过滤后的水经排水流道从排水口流出。"
+                },
+                {
+                  "locator": "HTML #p0079；原PDF物理7 [0074]",
+                  "html_anchor": "p0079",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "过滤袋可以周向设置在微纤维收集装置127的内侧壁上，当过滤袋中的微纤维累积的较多时，可以更换过滤网122，方便用户直接进行清理。"
+                }
+              ],
+              "interpretation": "原A描述刮离与借水输送、可选袋收集，未定位对收集固体的独立压榨、离心、加热干燥、含水率控制或脱水终点。正常滤后水流不自动等同固体主动脱水，未知不转零。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T17:44:59.424195+08:00",
+              "old_value": null,
+              "new_value": "原A描述刮离与借水输送、可选袋收集，未定位对收集固体的独立压榨、离心、加热干燥、含水率控制或脱水终点。正常滤后水流不自动等同固体主动脱水，未知不转零。",
+              "change_reason": "补完整原A剩余页并裁定五个未填字段；未读B与资格独立保留",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 9,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-09.png",
+                "image_sha256": "6bb2dd87ed0d266621ced902ac52431a5a679274854a95aaf0c8520452f1a882",
+                "checked_at": "2026-10-01T17:44:59.424195+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原A全文与原图；未定位仅针对该版本，不代表同族全文或行业不存在"
+              },
+              "review_scope": "原A物理1—11；权1—10、[0001]—[0079]及图1—6；原B未读"
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "未在已核权项和相关实施段落实专门降低收集物含水量的动作；过滤袋及出水口本身不足以证明脱水。",
@@ -2789,7 +2932,7 @@
         },
         "liquid_route": {
           "label": "液体路径",
-          "review_status": "partial",
+          "review_status": "complete_in_original_A_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -2881,7 +3024,7 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "partial",
+          "review_status": "complete_in_original_A_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -2942,7 +3085,7 @@
         },
         "removal": {
           "label": "移出",
-          "review_status": "partial",
+          "review_status": "complete_in_original_A_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -3090,7 +3233,7 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "partial",
+          "review_status": "complete_in_original_A_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -3198,7 +3341,7 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "partial",
+          "review_status": "complete_in_original_A_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -3321,16 +3464,152 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115637570A-performance-qualitative_benefits_without_tests-20261001-fullA",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "qualitative_benefits_without_tests",
+              "stage": "performance",
+              "technical_feature": "[0034]—[0036]宣称延长寿命、稀释浓度及延缓沉积，[0054]提到提高收集效率；均为文本作用说明。全文未提供可比较测试条件、数值效率/寿命、压差曲线或重复样本，不能当实测性能。背景引述每衣1900多纤维也不是本装置试验。",
+              "object": "微纤维沉积/寿命与收集效率",
+              "start": "构造和运动机理",
+              "end": "文本目的与有益效果",
+              "boundary": "原A全文",
+              "operation_order": [
+                "原A完整范围逐项检读",
+                "与已披露正常流路/人工拆卸分开"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "原A各权项/说明书限定各自保留；未新增独立项功能",
+              "evidence": [
+                {
+                  "locator": "HTML #p0037；原PDF物理4 [0034]",
+                  "html_anchor": "p0037",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "本发明提供的微纤维过滤器，通过螺杆的转动使螺旋叶片旋转推进，刮掉沉积在过滤网上的微纤维，借助水流的流动，将微纤维收集到微纤维收集装置内，延长微纤维过滤器的使用寿命。"
+                },
+                {
+                  "locator": "HTML #p0038；原PDF物理4—5 [0035]",
+                  "html_anchor": "p0038",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "本发明提供的微纤维过滤器，通过将旋转叶片与靠近过滤器筒体上部侧壁的过滤网之间的间隙设置成大于旋转叶片与靠近过滤器筒体下部侧壁的过滤网之间的间隙，可以为进水水流的流动提供较大空间；并且随着旋转叶片的旋转推进，可以搅动附着在下部过滤网上的微纤维沉积层，使其翻滚到过滤器筒体的上部区域内，不仅可以稀释微纤维的浓度，延缓下部过滤网上微纤维的沉积，使微纤维分布地更加均匀；还避免旋转叶片与靠近过滤器筒体内上部侧壁的过滤网之间的间隙设置的过小，受到的阻力较大，使过滤器筒体的进水口处水流湍急，导致微纤维很快地沉积在进水口处，影响微纤维过滤器的使用寿命。"
+                },
+                {
+                  "locator": "HTML #p0039；原PDF物理5 [0036]",
+                  "html_anchor": "p0039",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "本发明提供的微纤维过滤器，将所述过滤网靠近所述过滤器筒体上部侧壁的部分，沿所述过滤器筒体中轴线的延伸方向敞开设置，可以为滤器筒体的上部区域提供更大的流动空间，能够更好的稀释微纤维的浓度，延缓下部过滤网上微纤维的沉积。"
+                }
+              ],
+              "interpretation": "[0034]—[0036]宣称延长寿命、稀释浓度及延缓沉积，[0054]提到提高收集效率；均为文本作用说明。全文未提供可比较测试条件、数值效率/寿命、压差曲线或重复样本，不能当实测性能。背景引述每衣1900多纤维也不是本装置试验。",
+              "performance_status": "text_claim_only",
+              "verified_at": "2026-10-01T17:44:59.424195+08:00",
+              "old_value": null,
+              "new_value": "[0034]—[0036]宣称延长寿命、稀释浓度及延缓沉积，[0054]提到提高收集效率；均为文本作用说明。全文未提供可比较测试条件、数值效率/寿命、压差曲线或重复样本，不能当实测性能。背景引述每衣1900多纤维也不是本装置试验。",
+              "change_reason": "补完整原A剩余页并裁定五个未填字段；未读B与资格独立保留",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 4,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_full_A_20261001-04.png",
+                "image_sha256": "8a7133c2b664cb0f296c9e0ee452d78ce620d44fd76166255bf0ade6aabb903c",
+                "checked_at": "2026-10-01T17:44:59.424195+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原A全文与原图；未定位仅针对该版本，不代表同族全文或行业不存在"
+              },
+              "review_scope": "原A物理1—11；权1—10、[0001]—[0079]及图1—6；原B未读"
+            }
+          ],
           "prior_field": null
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN115637570A-endpoint-final_disposal_after_cleaning_unlocated-20261001-fullA",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "final_disposal_after_cleaning_unlocated",
+              "stage": "endpoint",
+              "technical_feature": "权8可拆袋、权10安装口和[0078]开门取袋说明便于清理；未定位取出后微纤维的家庭垃圾、专业回收、封装外运或其他最终处置，不把取出直接编码为闭合处置终点。",
+              "object": "已收集微纤维或取出的袋",
+              "start": "127/过滤袋",
+              "end": "未定位最终处置路径",
+              "boundary": "完整原A维护叙述范围",
+              "operation_order": [
+                "原A完整范围逐项检读",
+                "与已披露正常流路/人工拆卸分开"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "原A各权项/说明书限定各自保留；未新增独立项功能",
+              "evidence": [
+                {
+                  "locator": "HTML #cl0008；原PDF物理2 权8",
+                  "html_anchor": "cl0008",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "8.根据权利要求1所述的一种微纤维过滤器，其特征在于：还包括， 过滤袋，可拆卸地设置在所述微纤维收集装置(127)中。"
+                },
+                {
+                  "locator": "HTML #cl0010；原PDF物理2 权10",
+                  "html_anchor": "cl0010",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "10.根据权利要求9所述的一种洗衣机，其特征在于：所述洗衣机(1)包括， 外壳(10)，所述外壳(10)的前面板上开设有安装口(11)，所述微纤维收集装置(127)可拆卸地设置在所述微纤维过滤器(12)与所述安装口(11)对应的位置。"
+                },
+                {
+                  "locator": "HTML #p0079；原PDF物理7 [0074]",
+                  "html_anchor": "p0079",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "过滤袋可以周向设置在微纤维收集装置127的内侧壁上，当过滤袋中的微纤维累积的较多时，可以更换过滤网122，方便用户直接进行清理。"
+                },
+                {
+                  "locator": "HTML #p0083；原PDF物理7 [0078]",
+                  "html_anchor": "p0083",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。"
+                }
+              ],
+              "interpretation": "权8可拆袋、权10安装口和[0078]开门取袋说明便于清理；未定位取出后微纤维的家庭垃圾、专业回收、封装外运或其他最终处置，不把取出直接编码为闭合处置终点。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T17:44:59.424195+08:00",
+              "old_value": null,
+              "new_value": "权8可拆袋、权10安装口和[0078]开门取袋说明便于清理；未定位取出后微纤维的家庭垃圾、专业回收、封装外运或其他最终处置，不把取出直接编码为闭合处置终点。",
+              "change_reason": "补完整原A剩余页并裁定五个未填字段；未读B与资格独立保留",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 9,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-09.png",
+                "image_sha256": "6bb2dd87ed0d266621ced902ac52431a5a679274854a95aaf0c8520452f1a882",
+                "checked_at": "2026-10-01T17:44:59.424195+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原A全文与原图；未定位仅针对该版本，不代表同族全文或行业不存在"
+              },
+              "review_scope": "原A物理1—11；权1—10、[0001]—[0079]及图1—6；原B未读"
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "文本给取出清理安排，未在所核段说明清理后纤维最终处置方式。",
@@ -3350,9 +3629,89 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_A_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN115637570A-carrier_conditioning-carrier_drainage_drying_unlocated-20261001-fullA",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "carrier_drainage_drying_unlocated",
+              "stage": "carrier_conditioning",
+              "technical_feature": "耐磨/不锈钢、锰钢合金或碳化硅是材料选择，不能据此断定载体已干燥。[0074]原文更换过滤网122不改成更换袋；开门取袋另由[0078]支持。全文未定位维护中独立载体排水/干燥步骤、结构或终点。",
+              "object": "过滤载体122/可选袋",
+              "start": "过滤/清理状态",
+              "end": "未定位载体独立排水干燥",
+              "boundary": "完整原A范围",
+              "operation_order": [
+                "原A完整范围逐项检读",
+                "与已披露正常流路/人工拆卸分开"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "原A各权项/说明书限定各自保留；未新增独立项功能",
+              "evidence": [
+                {
+                  "locator": "HTML #cl0007；原PDF物理2 权7",
+                  "html_anchor": "cl0007",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "7.根据权利要求1-5任一所述的一种微纤维过滤器，其特征在于： 所述过滤网(122)采用耐磨材料制成；优选地，所述过滤网(122)采用不锈钢材料制成。"
+                },
+                {
+                  "locator": "HTML #p0075；原PDF物理7 [0070]",
+                  "html_anchor": "p0075",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "在一些实施方式中，所述过滤网122采用耐磨材料制成；优选地，所述过滤网122采用不锈钢材料制成。"
+                },
+                {
+                  "locator": "HTML #p0076；原PDF物理7 [0071]",
+                  "html_anchor": "p0076",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以理解的是，过滤网122还可以采用锰钢合金、碳化硅材料等其它耐磨材料制成。"
+                },
+                {
+                  "locator": "HTML #p0079；原PDF物理7 [0074]",
+                  "html_anchor": "p0079",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "过滤袋可以周向设置在微纤维收集装置127的内侧壁上，当过滤袋中的微纤维累积的较多时，可以更换过滤网122，方便用户直接进行清理。"
+                },
+                {
+                  "locator": "HTML #p0083；原PDF物理7 [0078]",
+                  "html_anchor": "p0083",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。"
+                }
+              ],
+              "interpretation": "耐磨/不锈钢、锰钢合金或碳化硅是材料选择，不能据此断定载体已干燥。[0074]原文更换过滤网122不改成更换袋；开门取袋另由[0078]支持。全文未定位维护中独立载体排水/干燥步骤、结构或终点。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T17:44:59.424195+08:00",
+              "old_value": null,
+              "new_value": "耐磨/不锈钢、锰钢合金或碳化硅是材料选择，不能据此断定载体已干燥。[0074]原文更换过滤网122不改成更换袋；开门取袋另由[0078]支持。全文未定位维护中独立载体排水/干燥步骤、结构或终点。",
+              "change_reason": "补完整原A剩余页并裁定五个未填字段；未读B与资格独立保留",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 11,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-11.png",
+                "image_sha256": "e6292001ea40b45a71ef067accd0c17a2c56248e5416b4545ae66e9861e8bd67",
+                "checked_at": "2026-10-01T17:44:59.424195+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原A全文与原图；未定位仅针对该版本，不代表同族全文或行业不存在"
+              },
+              "review_scope": "原A物理1—11；权1—10、[0001]—[0079]及图1—6；原B未读"
+            }
+          ],
           "prior_field": null
         }
       },
@@ -3425,6 +3784,41 @@
             "liquid_route",
             "state_switch"
           ]
+        },
+        "original_A_complete_readback": {
+          "checked_at": "2026-10-01T17:44:59.424195+08:00",
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+          "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+          "physical_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "claims_read": "1—10",
+          "description_read": "[0001]—[0079]",
+          "drawing_pages_visually_read": [
+            9,
+            10,
+            11
+          ],
+          "new_remaining_text_pages_read": [
+            1,
+            3,
+            4,
+            5,
+            8
+          ],
+          "all_13_fields_addressed_in_A_scope": true,
+          "related_B_full_text_read": false,
+          "qualification_pending": true
         }
       }
     },
