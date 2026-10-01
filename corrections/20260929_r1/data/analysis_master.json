@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T01:41:36.629416+08:00",
+  "updated_at": "2026-10-02T01:43:50.585662+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -8972,9 +8972,100 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115700309A-performance-embodiment4_effect_claims_unverified-20261002",
+              "publication_id": "CN115700309A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "embodiment4_effect_claims_unverified",
+              "stage": "performance",
+              "technical_feature": "实施例四p0187/0212的完全排出、无污水残留、避免细菌滋生及延长循环泵寿命是文本效果主张，不转成残液量、菌数或寿命实测。p0190/0195写t1/t2与ΔH可预先通过大量实验得出，是取值建议，不能冒实际实验已执行、N/误差/测量方法或独立验证。p0211中间漂洗/洗涤可不排净，主张只保留末次漂洗边界。本次仅五锚点范围，不能断言整件完全没有其他数据；缺测量/独立可比证据在此范围保留未知。",
+              "object": "实施例四末次漂洗空气压排效果主张与控制参数取值建议",
+              "start": "原文无残液、避免细菌、减少启停、延长泵寿命的陈述",
+              "end": "本范围实测/独立验证未知；保持文本主张",
+              "boundary": "实施例四末次漂洗效果主张；本条五锚点不替代全文性能核验",
+              "operation_order": [
+                "末次漂洗先停泵进气再开泵压排",
+                "原文主张无残留及泵寿命等效果；与中间漂洗允许不排净区分",
+                "参数可预先大量实验得出是建议，没有在这些锚点给实际试验记录"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：本条以所列说明书锚点为据，不并入授权独立项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0187",
+                  "html_anchor": "p0187",
+                  "evidence_excerpt": "开启循环泵400的同时，也打开排污控制阀241，使排污管路240导通，过滤装置600内的污水可以从排污口6103排出。循环泵400的开启将排水管路210和循环管路220中的空气压入过滤装置600，进而使过滤装置600中携带线屑的污水在空气压力下由排污口6103完全排出，避免过滤装置600中存在污水残留，对过滤装置600的清理效果好。排污控制阀241在循环泵400开启的同时打开，保证了空气通入过滤装置600中时所产生的压力，进而可确保过滤装置600中的污水充分排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:43:50.585662+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0190",
+                  "html_anchor": "p0190",
+                  "evidence_excerpt": "在上述方案中，第一设定时间t 1 和第二设定时间t 2 的具体取值可以预先通过大量实验得出并直接写入洗衣机的控制程序中。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:43:50.585662+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0195",
+                  "html_anchor": "p0195",
+                  "evidence_excerpt": "从洗衣机接收到排水管路210中的水位上升至第二设定值H 2 的信号，直至切换装置270导通排水管路210与外排管路250之间一般具有一定时间差。为避免响应延迟造成循环泵400开启后有水进入过滤装置600，第二设定值H 2 的取值与排水管路210的顶端所对应的水位高度之间需要具有一定差值ΔH。所述差值ΔH的具体取值可通过预先进行的大量实验得出，从而保证洗衣机接收到水位达到第二设定值H 2 的信号后，具有足够的响应时间控制切换装置270完成水路的切换。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:43:50.585662+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0211",
+                  "html_anchor": "p0211",
+                  "evidence_excerpt": "由于洗涤结束后，在洗衣程序的后续过程中还需进行循环过滤漂洗，与中间漂洗类似，也不需要将过滤装置600中的污水完全排出，循环泵400可以保持运行状态，不需要关闭。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:43:50.585662+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0212",
+                  "html_anchor": "p0212",
+                  "evidence_excerpt": "本实施例中，洗衣机在洗涤及中间漂洗结束后，控制循环泵400保持运行状态，将盛水筒100中的水输送至过滤装置600进行冲洗，冲洗后的污水从过滤装置600的排污口6103排出。最后一次漂洗结束后，先关闭循环泵400，等待管路中进入空气，再重新开启循环泵400，将管路中空气压入过滤装置600，从而将其中的污水完全排净，保证洗衣机停止运行后过滤装置600内无污水残留，可有效避免细菌滋生。同时，洗衣机仅在最后一次漂洗结束后执行先关闭循环泵400并再开启的操作，减少了循环泵400不必要的开启关闭操作，延长了循环泵400的使用寿命。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:43:50.585662+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                }
+              ],
+              "interpretation": "实施例四p0187/0212的完全排出、无污水残留、避免细菌滋生及延长循环泵寿命是文本效果主张，不转成残液量、菌数或寿命实测。p0190/0195写t1/t2与ΔH可预先通过大量实验得出，是取值建议，不能冒实际实验已执行、N/误差/测量方法或独立验证。p0211中间漂洗/洗涤可不排净，主张只保留末次漂洗边界。本次仅五锚点范围，不能断言整件完全没有其他数据；缺测量/独立可比证据在此范围保留未知。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T01:43:50.585662+08:00",
+              "old_value": null,
+              "new_value": "实施例四p0187/0212的完全排出、无污水残留、避免细菌滋生及延长循环泵寿命是文本效果主张，不转成残液量、菌数或寿命实测。p0190/0195写t1/t2与ΔH可预先通过大量实验得出，是取值建议，不能冒实际实验已执行、N/误差/测量方法或独立验证。p0211中间漂洗/洗涤可不排净，主张只保留末次漂洗边界。本次仅五锚点范围，不能断言整件完全没有其他数据；缺测量/独立可比证据在此范围保留未知。",
+              "change_reason": "补此前空字段正向定位，限定保存文本；原件/法律资格缺口保持。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": null
         },
         "endpoint": {
@@ -9171,6 +9262,18 @@
             ],
             "field": "seals_connections",
             "at": "2026-10-02T01:41:36.629416+08:00"
+          },
+          {
+            "publication": "CN115700309A",
+            "anchors": [
+              "p0187",
+              "p0190",
+              "p0195",
+              "p0211",
+              "p0212"
+            ],
+            "field": "performance",
+            "at": "2026-10-02T01:43:50.585662+08:00"
           }
         ],
         "saved_text_drainage_20261002": {
@@ -9339,6 +9442,23 @@
           "original_pdf_checked": false,
           "not_a_full_text_completion": true,
           "verified_at": "2026-10-02T01:41:36.629416+08:00"
+        },
+        "saved_text_performance_claims_20261002": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+          "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+          "read_anchors": [
+            "p0187",
+            "p0190",
+            "p0195",
+            "p0211",
+            "p0212"
+          ],
+          "fields_added": [
+            "performance"
+          ],
+          "original_pdf_checked": false,
+          "not_a_full_text_completion": true,
+          "verified_at": "2026-10-02T01:43:50.585662+08:00"
         }
       }
     },

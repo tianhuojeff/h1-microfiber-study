@@ -1,0 +1,37 @@
+{
+  "verified": true,
+  "baseline": "73669dc0d0c6094d87333bd0f4c1e315253999bc",
+  "observations": 135,
+  "added": 1,
+  "old_134_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "all_14_pending": true,
+  "master_sha256": "b2d55fadb769ebbe226a843d7ef6c61ecd94543c9ed9612602f5cf97dfcdc9bc",
+  "source_html_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+  "CSV_verified": true,
+  "full_text_complete_count": 0,
+  "original_pdf_checked": false,
+  "fields": [
+    "performance"
+  ],
+  "formal_statistics_allowed": false,
+  "executor_read_anchors": [
+    "p0187",
+    "p0190",
+    "p0195",
+    "p0211",
+    "p0212"
+  ],
+  "checked_at": "2026-10-02T01:49:42.9839175+08:00",
+  "weekly_used_percent": 40,
+  "weekly_remaining_percent": 60,
+  "initial_QA_failed": true,
+  "initial_failure": "Repeated empty field patch landed in CN222043626U; no commit or push",
+  "wrong_master_sha256": "74d5cadc5e7cd72410b02eb9e2e0b05168704097511617f5f0615497a7d840eb",
+  "CN222_complete_object_restored": true,
+  "rules_sha256_before": "30036b76201d5e15028200eeab142e13219cac2664cd685b2b161eb8044da15d",
+  "rules_sha256_after": "7f31a86fddf323380ef7030deacba1497187c3f37fea3bc6422dddfc3008ea75",
+  "generator_unique_publication_skip_anchor": true,
+  "generator_baseline_simulation": "CRLF normalized to match Path.read_text, then passed"
+}
