@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-01T18:17:50.400947+08:00",
+  "updated_at": "2026-10-01T18:26:24.967282+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -5178,9 +5178,10 @@
         "new_online_query_performed": false
       },
       "scene_material": {
-        "classification": "明确包括洗衣微纤维或微塑料",
-        "review_status": "primary_text_scope_reviewed",
-        "scope_note": "压实器还适用其他流出物，不把所有用途自动称为洗衣；CN222043626U亦可截留其他相近尺寸杂质。"
+        "classification": "laundry_and_other_microplastic_effluent_compaction",
+        "review_status": "checked_original_A_scope",
+        "verified_at": "2026-10-01T18:26:24.967282+08:00",
+        "evidence": "原[0001]/[0044]/[0045]洗衣及其他设备、工业/废水/道路径流；本发明对象含微纤维的微塑料，不把全部流出物都只含塑料。"
       },
       "publications": [
         {
@@ -5548,16 +5549,150 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_checked_original_A_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115087774A-capture-permeable_plate_or_wall-20261001",
+              "publication_id": "CN115087774A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "permeable_plate_or_wall",
+              "stage": "capture",
+              "technical_feature": "原A从属权15/16的板或壁可渗透、权17网状物；[0052]板/后壁/翻板分别可渗透，图7另为无孔板+下壁网705，保留不同实施方式，不能把板面可渗透设成所有形式的必要结构。孔径与比例为设计/文本陈述，非实测。",
+              "object": "流出物微塑料纤维",
+              "start": "腔201含固液流出物",
+              "end": "可渗透板面/腔壁截留并形成压缩固体",
+              "boundary": "原CN A本发明各实施方式分别保留；历史WO同族观察不覆盖或复计",
+              "operation_order": [
+                "原A从属权15/16的板或壁可渗透、权17网状物；[0052]板/后壁/翻板分别可渗透，图7另为无孔板+下壁网705，保留不同实施方式，不能把板面可渗透设成所有形式的必要结构。孔径与比例为设计/文本陈述，非实测。"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_checked_original_A_scope",
+              "claim_dependency": "独立权1/方法24与所引从属项分别保留；各分支见interpretation",
+              "evidence": [
+                {
+                  "locator": "保存HTML #cl0015；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "cl0015",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "15.根据前述权利要求中任一项所述的压实器，其中所述至少一个板包括可渗透材料。"
+                },
+                {
+                  "locator": "保存HTML #cl0016；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "cl0016",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "16.根据前述权利要求中任一项所述的压实器，其中所述腔室的壁包含可渗透材料。"
+                },
+                {
+                  "locator": "保存HTML #cl0017；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "cl0017",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "17.根据权利要求15或16所述的压实器，其中所述可渗透材料是网状物。"
+                },
+                {
+                  "locator": "保存HTML #p0057；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0057",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "压实器200的元件是可渗透的以允许水在腔室被压缩时逸出。可渗透结构的孔隙直径可达50微米左右，使得大于此大小的所有微纤维都不能通过。如下文所论述，其它大小是可能的。可渗透结构可为板204，所述板可由刚性网状物或由框架支撑的柔性网状物制成。在此实施例中，水通过排水通道208从板204后方的腔室后部逸出，如图3d中所展示。替代地，腔室201的后壁211可为可渗透的，且提供排水通道212以将废水远离压实器而转移，如图3e中所展示。替代地或另外，排放出口206可为可通过可渗透翻板213关闭的，如图3d和3e中所展示，所述翻板在流出物的压缩期间处于关闭位置，并且打开以允许压缩的颗粒掉落。可在入口处提供翻板214以防止流出物在压缩阶段期间从入口逸出。"
+                },
+                {
+                  "locator": "保存HTML #p0068；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0068",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "图6a、6b和6c展示废料流出物203在处于非压缩配置、其压缩配置且接着处于其排放配置时通过压实器200的通道。在排空洗涤机集水槽，或通过未展示的废料软管后，废料流出物203通过入口202进入压实器200的腔室201。驱动构件205经激活以沿着腔室201驱动第一板204a，从而在废料流出物203通过其网状物型板行进时从所述废料流出物内收集微塑料纤维。经过滤的水或废水209通过板204a，以用于通过废水出口208排放。积聚的微塑料纤维一起被驱动，并且被驱动到彼此中并且被驱动到第二板204b中，如图6b中所展示。通过在板204a与204b之间压缩微塑料纤维，挤出任何其余的液体，且纤维自身变为压实的，从而形成固体块或盘。此固体块包括压缩的微塑料207，所述压缩的微塑料已通过挤压有效地干燥，因此形成颗粒或盘。"
+                }
+              ],
+              "interpretation": "原A从属权15/16的板或壁可渗透、权17网状物；[0052]板/后壁/翻板分别可渗透，图7另为无孔板+下壁网705，保留不同实施方式，不能把板面可渗透设成所有形式的必要结构。孔径与比例为设计/文本陈述，非实测。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T18:26:24.967282+08:00",
+              "old_value": null,
+              "new_value": "原A从属权15/16的板或壁可渗透、权17网状物；[0052]板/后壁/翻板分别可渗透，图7另为无孔板+下壁网705，保留不同实施方式，不能把板面可渗透设成所有形式的必要结构。孔径与比例为设计/文本陈述，非实测。",
+              "change_reason": "补八空字段；不重复旧CN/WO十观察，不把本发明处置正向文本当未披露",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+                "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+                "physical_page": 8,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_8.png",
+                "image_sha256": "e634a1be9faa4d415b1ce4c93766296a98e76976d59d183cb127813686e20572",
+                "checked_at": "2026-10-01T18:26:24.967282+08:00",
+                "verification_method": "original_Chinese_text_readback_and_manual_visual_pages",
+                "scope": "执行者原文字2—11及视觉8/10/13/17/19/20/21；未冒称全部10图页均由执行者视觉读完"
+              },
+              "review_scope": "原A24权项/[0001]—[0071]文字完整读取及本次7页目视；关联授权文本/资格独立待核。"
+            }
+          ],
           "prior_field": null
         },
         "cleaning": {
           "label": "清理／脱离",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_checked_original_A_scope",
+          "support_status": "partial_explicit_plate_release_not_mesh_regeneration",
+          "observations": [
+            {
+              "observation_id": "CN115087774A-cleaning-plate_face_pellet_release-20261001",
+              "publication_id": "CN115087774A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "plate_face_pellet_release",
+              "stage": "cleaning",
+              "technical_feature": "[0050]抽回板释放固体块；[0067]图6d改变板/腔相对姿态使颗粒更易从第一板面重力释放，可如实记录板面脱块。未由此证明网孔被清洗再生、完整清洗程序或堵塞恢复实测；背景网过滤器手清/水冲不是本发明机制。",
+              "object": "压实板面上的固体块",
+              "start": "板面附着压实物",
+              "end": "抽回板/重力释放固体块",
+              "boundary": "原CN A本发明各实施方式分别保留；历史WO同族观察不覆盖或复计",
+              "operation_order": [
+                "[0050]抽回板释放固体块；[0067]图6d改变板/腔相对姿态使颗粒更易从第一板面重力释放，可如实记录板面脱块。未由此证明网孔被清洗再生、完整清洗程序或堵塞恢复实测；背景网过滤器手清/水冲不是本发明机制。"
+              ],
+              "support_status": "partial_explicit_plate_release_not_mesh_regeneration",
+              "review_status": "complete_in_checked_original_A_scope",
+              "claim_dependency": "独立权1/方法24与所引从属项分别保留；各分支见interpretation",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0055；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0055",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以打开和关闭排放出口206。在操作循环期间，打开入口阀以使流出物进入腔室201，同时关闭出口以使得流出物无法逸出。如图3b中所展示，驱动单元205可驱动板204穿过已进入腔室201的废料流出物203，在所述腔室中，所述板将微塑料物质压实，确切地说是通过板204与腔室201的壁之间的压缩来进行的。从废料流出物203中有效地收集微塑料物质，并进行挤压，去除所有液体，且产生压缩的微塑料的固体块。可通过操作驱动单元205在相反的方向上抽出板204，以释放固体块，如图3c中所展示。打开出口以释放压缩的微塑料和分离的流体两者。压缩的微塑料呈用户可以轻松方便地处置的形式。"
+                },
+                {
+                  "locator": "保存HTML #p0072；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0072",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "在图6d中所展示的实施例中，以一定角度安装腔室，从而允许废水从出口208排出，但竖直地定向板204a、204b，使得其与腔室的侧部形成平行四边形。这允许压实的颗粒在重力作用下更容易地从第一板204a的面释放。"
+                }
+              ],
+              "interpretation": "[0050]抽回板释放固体块；[0067]图6d改变板/腔相对姿态使颗粒更易从第一板面重力释放，可如实记录板面脱块。未由此证明网孔被清洗再生、完整清洗程序或堵塞恢复实测；背景网过滤器手清/水冲不是本发明机制。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T18:26:24.967282+08:00",
+              "old_value": null,
+              "new_value": "[0050]抽回板释放固体块；[0067]图6d改变板/腔相对姿态使颗粒更易从第一板面重力释放，可如实记录板面脱块。未由此证明网孔被清洗再生、完整清洗程序或堵塞恢复实测；背景网过滤器手清/水冲不是本发明机制。",
+              "change_reason": "补八空字段；不重复旧CN/WO十观察，不把本发明处置正向文本当未披露",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+                "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+                "physical_page": 10,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_10.png",
+                "image_sha256": "5129064a2dec59702a9ea8afb99fb79a6e3cc14d77255cba6b4203cb192f0b49",
+                "checked_at": "2026-10-01T18:26:24.967282+08:00",
+                "verification_method": "original_Chinese_text_readback_and_manual_visual_pages",
+                "scope": "执行者原文字2—11及视觉8/10/13/17/19/20/21；未冒称全部10图页均由执行者视觉读完"
+              },
+              "review_scope": "原A24权项/[0001]—[0071]文字完整读取及本次7页目视；关联授权文本/资格独立待核。"
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "板移动收集并压实微塑料；不能据此认定主滤网再生，所核段未说明滤面清理动作。",
@@ -5585,9 +5720,88 @@
         },
         "transfer": {
           "label": "转移",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_checked_original_A_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115087774A-transfer-plate_driven_solid_to_outlet-20261001",
+              "publication_id": "CN115087774A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "plate_driven_solid_to_outlet",
+              "stage": "transfer",
+              "technical_feature": "权1板运动将压缩微塑料移动到出口并自动排放。[0054]往返冲程、图4双独立驱动板、图5/6偏置锁存板为各自实现，不串成同一必需机构。记录固体而不是只描述排水；对准与释放的原文步骤见各锚点。",
+              "object": "积聚纤维及压实颗粒",
+              "start": "腔内板面/板间",
+              "end": "对准出口206并经重力或机构排出",
+              "boundary": "原CN A本发明各实施方式分别保留；历史WO同族观察不覆盖或复计",
+              "operation_order": [
+                "权1板运动将压缩微塑料移动到出口并自动排放。[0054]往返冲程、图4双独立驱动板、图5/6偏置锁存板为各自实现，不串成同一必需机构。记录固体而不是只描述排水；对准与释放的原文步骤见各锚点。"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_checked_original_A_scope",
+              "claim_dependency": "独立权1/方法24与所引从属项分别保留；各分支见interpretation",
+              "evidence": [
+                {
+                  "locator": "保存HTML #cl0001；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "cl0001",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "independent_claim",
+                  "evidence_excerpt": "1.一种用于从废料流出物中提取并压缩微塑料的压实器，所述压实器包括： 腔室； 入口，其用于将废料流出物供应到所述腔室中； 在所述腔室内的至少一个板，其能够在非压缩位置与压缩位置之间移动；以及 驱动单元，其用于在所述非压缩位置与所述压缩位置之间驱动所述至少一个板； 以及排放出口，其被布置成允许压缩的微塑料的排放， 其中所述压实器在使用中用于从废料流出物中提取并压缩所述微塑料，且其中所述至少一个板被布置成将所述压缩的微塑料移动到所述排放出口， 其中所述压实器被布置成使得在使用中，所述压缩的微塑料通过所述至少一个板的所述移动经由所述排放出口从所述压实器自动排放。"
+                },
+                {
+                  "locator": "保存HTML #p0059；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0059",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "驱动单元205可包括用于将板204从非压缩位置移动到压缩位置的线性致动器。线性致动器可被冲压驱动，从而产生线性往复运动。在前向冲程中，板204通过腔室201内的任何废料流出物203从非压缩位置移动到压缩位置，收集任何积聚的废料物质，且抵靠着腔室201的壁移动并挤压此积聚的废料物质。在后向冲程中，板204从压缩位置移动回到非压缩位置，释放现压缩的废料物质，所述废料物质被推动到用于通过排放出口206排放的位置中。"
+                },
+                {
+                  "locator": "保存HTML #p0065；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0065",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "积聚的微塑料在板204a与204b之间压缩以形成压缩的固体盘。板204a和204b返回到其非压缩位置，且在这样做时，移动压缩的微塑料207以通过适当致动驱动单元204a和204b而对准以便通过排放出口206进行排放。"
+                },
+                {
+                  "locator": "保存HTML #p0069；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0069",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "第一板204a进一步沿着腔室201且抵靠着偏置元件210驱动第二板204b，直到其到达其行进的末端为止，此时第二板204b锁存在打开位置中。"
+                },
+                {
+                  "locator": "保存HTML #p0070；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0070",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "当驱动构件205a反转时，第一板204a被远离第二板204b驱动，且第一板204a返回到其起始位置，如图6c中所展示。锁存的第二板保持在其所在的位置，且接着压缩的微塑料颗粒自由地从排放出口206掉落。循环通过第二板移动回到其未锁存的起始位置而复位。这可以通过在第一板204a返回到其起始点时释放锁存器的推杆实现。"
+                }
+              ],
+              "interpretation": "权1板运动将压缩微塑料移动到出口并自动排放。[0054]往返冲程、图4双独立驱动板、图5/6偏置锁存板为各自实现，不串成同一必需机构。记录固体而不是只描述排水；对准与释放的原文步骤见各锚点。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T18:26:24.967282+08:00",
+              "old_value": null,
+              "new_value": "权1板运动将压缩微塑料移动到出口并自动排放。[0054]往返冲程、图4双独立驱动板、图5/6偏置锁存板为各自实现，不串成同一必需机构。记录固体而不是只描述排水；对准与释放的原文步骤见各锚点。",
+              "change_reason": "补八空字段；不重复旧CN/WO十观察，不把本发明处置正向文本当未披露",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+                "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+                "physical_page": 17,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_17.png",
+                "image_sha256": "aa8410bf1f24a9ef6bf583061e906675b2786bbbcccf88a232a82f92c2d1b321",
+                "checked_at": "2026-10-01T18:26:24.967282+08:00",
+                "verification_method": "original_Chinese_text_readback_and_manual_visual_pages",
+                "scope": "执行者原文字2—11及视觉8/10/13/17/19/20/21；未冒称全部10图页均由执行者视觉读完"
+              },
+              "review_scope": "原A24权项/[0001]—[0071]文字完整读取及本次7页目视；关联授权文本/资格独立待核。"
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "板向压缩位移动收集/挤压微塑料，返程释放或使固体与排放口对准，再排出。",
@@ -6186,9 +6400,64 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_checked_original_A_scope",
+          "support_status": "explicit_temporary_chamber_retention",
+          "observations": [
+            {
+              "observation_id": "CN115087774A-storage-intermittent_chamber_retention-20261001",
+              "publication_id": "CN115087774A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "intermittent_chamber_retention",
+              "stage": "storage",
+              "technical_feature": "[0049]/[0050]腔内间歇接收、入口阀填后关闭，压缩前出料口关闭使流出物不逸出；可记录循环中的腔内暂存。原A未由此披露独立长期储渣箱、密封防漏贮存或自动装袋，不把压缩腔改名最终收集桶。",
+              "object": "含纤维流出物与压实固体",
+              "start": "入口202间歇灌入",
+              "end": "腔201内暂存/压实后出口206排放",
+              "boundary": "原CN A本发明各实施方式分别保留；历史WO同族观察不覆盖或复计",
+              "operation_order": [
+                "[0049]/[0050]腔内间歇接收、入口阀填后关闭，压缩前出料口关闭使流出物不逸出；可记录循环中的腔内暂存。原A未由此披露独立长期储渣箱、密封防漏贮存或自动装袋，不把压缩腔改名最终收集桶。"
+              ],
+              "support_status": "explicit_temporary_chamber_retention",
+              "review_status": "complete_in_checked_original_A_scope",
+              "claim_dependency": "独立权1/方法24与所引从属项分别保留；各分支见interpretation",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0054；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0054",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "图3a到3c展示处于基本形式的压实器200的一个实施例，其包括用于通过入口202接收废料流出物203的腔室201。排放出口206设置于腔室201内。板204安置于腔室201内且联接到驱动单元205。图3a展示在接合驱动构件之前处于缩回位置或非压缩位置的板。在入口202附近提供入口阀(未展示)，其可控制流出物到腔室201中的流动。流出物的流动是不连续的；其由入口阀控制，以填充腔室，然后关闭。替代地，入口阀可经操作以使得分离器的集水槽被排空到腔室201中，然后关闭，以使得集水槽可再填充。"
+                },
+                {
+                  "locator": "保存HTML #p0055；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0055",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以打开和关闭排放出口206。在操作循环期间，打开入口阀以使流出物进入腔室201，同时关闭出口以使得流出物无法逸出。如图3b中所展示，驱动单元205可驱动板204穿过已进入腔室201的废料流出物203，在所述腔室中，所述板将微塑料物质压实，确切地说是通过板204与腔室201的壁之间的压缩来进行的。从废料流出物203中有效地收集微塑料物质，并进行挤压，去除所有液体，且产生压缩的微塑料的固体块。可通过操作驱动单元205在相反的方向上抽出板204，以释放固体块，如图3c中所展示。打开出口以释放压缩的微塑料和分离的流体两者。压缩的微塑料呈用户可以轻松方便地处置的形式。"
+                }
+              ],
+              "interpretation": "[0049]/[0050]腔内间歇接收、入口阀填后关闭，压缩前出料口关闭使流出物不逸出；可记录循环中的腔内暂存。原A未由此披露独立长期储渣箱、密封防漏贮存或自动装袋，不把压缩腔改名最终收集桶。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T18:26:24.967282+08:00",
+              "old_value": null,
+              "new_value": "[0049]/[0050]腔内间歇接收、入口阀填后关闭，压缩前出料口关闭使流出物不逸出；可记录循环中的腔内暂存。原A未由此披露独立长期储渣箱、密封防漏贮存或自动装袋，不把压缩腔改名最终收集桶。",
+              "change_reason": "补八空字段；不重复旧CN/WO十观察，不把本发明处置正向文本当未披露",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+                "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+                "physical_page": 13,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_13.png",
+                "image_sha256": "9b7dfd9f7ae7a6f390ef868d70be75cf3c4eaf1150e15d1f691ee21a751aa561",
+                "checked_at": "2026-10-01T18:26:24.967282+08:00",
+                "verification_method": "original_Chinese_text_readback_and_manual_visual_pages",
+                "scope": "执行者原文字2—11及视觉8/10/13/17/19/20/21；未冒称全部10图页均由执行者视觉读完"
+              },
+              "review_scope": "原A24权项/[0001]—[0071]文字完整读取及本次7页目视；关联授权文本/资格独立待核。"
+            }
+          ],
           "prior_field": null
         },
         "removal": {
@@ -6417,9 +6686,104 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_checked_original_A_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115087774A-state_switch-separate_compression_cycles-20261001",
+              "publication_id": "CN115087774A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "separate_compression_cycles",
+              "stage": "state_switch",
+              "technical_feature": "权24接收→板前进分水压缩→板返回→排放。图3入口填后关/出口压缩时关；图6偏置锁存第二板/释放复位；图7末端翻板由推杆开再关闭；图8/10抽屉可手动驱动、或其他驱动自动操作，各分支独立。不能写全装置必须自动控制器或唯一停机清渣顺序。",
+              "object": "板/进出阀/锁存翻板",
+              "start": "非压缩接收位置",
+              "end": "压缩→板返回→颗粒排放/复位",
+              "boundary": "原CN A本发明各实施方式分别保留；历史WO同族观察不覆盖或复计",
+              "operation_order": [
+                "权24接收→板前进分水压缩→板返回→排放。图3入口填后关/出口压缩时关；图6偏置锁存第二板/释放复位；图7末端翻板由推杆开再关闭；图8/10抽屉可手动驱动、或其他驱动自动操作，各分支独立。不能写全装置必须自动控制器或唯一停机清渣顺序。"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_checked_original_A_scope",
+              "claim_dependency": "独立权1/方法24与所引从属项分别保留；各分支见interpretation",
+              "evidence": [
+                {
+                  "locator": "保存HTML #cl0024；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "cl0024",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "method_claim",
+                  "evidence_excerpt": "24.一种操作根据权利要求1至23所述的类型的压实器的方法，其包括以下步骤： 接收流出物的流动； 将板从非压缩位置驱动穿过所述流出物到压缩位置，以用于将水与所述流出物分离且压缩包含微塑料的所得材料； 将所述板返回到非压缩位置； 排放压缩的微塑料。"
+                },
+                {
+                  "locator": "保存HTML #p0054；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0054",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "图3a到3c展示处于基本形式的压实器200的一个实施例，其包括用于通过入口202接收废料流出物203的腔室201。排放出口206设置于腔室201内。板204安置于腔室201内且联接到驱动单元205。图3a展示在接合驱动构件之前处于缩回位置或非压缩位置的板。在入口202附近提供入口阀(未展示)，其可控制流出物到腔室201中的流动。流出物的流动是不连续的；其由入口阀控制，以填充腔室，然后关闭。替代地，入口阀可经操作以使得分离器的集水槽被排空到腔室201中，然后关闭，以使得集水槽可再填充。"
+                },
+                {
+                  "locator": "保存HTML #p0055；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0055",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以打开和关闭排放出口206。在操作循环期间，打开入口阀以使流出物进入腔室201，同时关闭出口以使得流出物无法逸出。如图3b中所展示，驱动单元205可驱动板204穿过已进入腔室201的废料流出物203，在所述腔室中，所述板将微塑料物质压实，确切地说是通过板204与腔室201的壁之间的压缩来进行的。从废料流出物203中有效地收集微塑料物质，并进行挤压，去除所有液体，且产生压缩的微塑料的固体块。可通过操作驱动单元205在相反的方向上抽出板204，以释放固体块，如图3c中所展示。打开出口以释放压缩的微塑料和分离的流体两者。压缩的微塑料呈用户可以轻松方便地处置的形式。"
+                },
+                {
+                  "locator": "保存HTML #p0069；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0069",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "第一板204a进一步沿着腔室201且抵靠着偏置元件210驱动第二板204b，直到其到达其行进的末端为止，此时第二板204b锁存在打开位置中。"
+                },
+                {
+                  "locator": "保存HTML #p0070；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0070",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "当驱动构件205a反转时，第一板204a被远离第二板204b驱动，且第一板204a返回到其起始位置，如图6c中所展示。锁存的第二板保持在其所在的位置，且接着压缩的微塑料颗粒自由地从排放出口206掉落。循环通过第二板移动回到其未锁存的起始位置而复位。这可以通过在第一板204a返回到其起始点时释放锁存器的推杆实现。"
+                },
+                {
+                  "locator": "保存HTML #p0075；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0075",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "图8中所展示的另一添加为当单元安装于洗涤机中时连接到洗涤粉抽屉803的活塞204a。用户打开抽屉的动作使流出物被吸入到腔室201中，而用户关闭抽屉的动作使板204a移动通过流出物，将水挤出且抵靠着翻板702压缩所述水，直到翻板释放且颗粒被释放。"
+                },
+                {
+                  "locator": "保存HTML #p0076；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0076",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "图10中展示压缩循环由打开和关闭洗涤机的洗涤粉抽屉的动作驱动的设置。抽屉1001在导轨1007上延伸且其末端按压致动器1002。致动器连接到圆筒1003内部的活塞。流出物通过入口(未展示)进入，且所提取的水通过出口(未展示)排出，其可能返回到洗涤机滚筒中以用于下一次洗涤。圆筒1003的末端具有包含弹簧的翻板1004，所述弹簧在锁存器1005操作时使其弹开。锁存器1005通过激活器1006释放，所述激活器连接到抽屉1001。"
+                }
+              ],
+              "interpretation": "权24接收→板前进分水压缩→板返回→排放。图3入口填后关/出口压缩时关；图6偏置锁存第二板/释放复位；图7末端翻板由推杆开再关闭；图8/10抽屉可手动驱动、或其他驱动自动操作，各分支独立。不能写全装置必须自动控制器或唯一停机清渣顺序。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T18:26:24.967282+08:00",
+              "old_value": null,
+              "new_value": "权24接收→板前进分水压缩→板返回→排放。图3入口填后关/出口压缩时关；图6偏置锁存第二板/释放复位；图7末端翻板由推杆开再关闭；图8/10抽屉可手动驱动、或其他驱动自动操作，各分支独立。不能写全装置必须自动控制器或唯一停机清渣顺序。",
+              "change_reason": "补八空字段；不重复旧CN/WO十观察，不把本发明处置正向文本当未披露",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+                "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+                "physical_page": 21,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_21.png",
+                "image_sha256": "f874ea09e8cabe9cc1021ff08cb8885ac34e926d626b6c2605071222bcb444b9",
+                "checked_at": "2026-10-01T18:26:24.967282+08:00",
+                "verification_method": "original_Chinese_text_readback_and_manual_visual_pages",
+                "scope": "执行者原文字2—11及视觉8/10/13/17/19/20/21；未冒称全部10图页均由执行者视觉读完"
+              },
+              "review_scope": "原A24权项/[0001]—[0071]文字完整读取及本次7页目视；关联授权文本/资格独立待核。"
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "图3入口阀开启接收流出物/排放口关闭，板压缩后返程并打开出口；图6两板与锁存器产生压缩、回程掉落、复位；图8—9止回阀方案单列。",
@@ -6672,16 +7036,142 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_checked_original_A_scope",
+          "support_status": "explicit_text_claim_test_support_unlocated",
+          "observations": [
+            {
+              "observation_id": "CN115087774A-performance-unverified_efficiency_and_dryness_claims-20261001",
+              "publication_id": "CN115087774A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "unverified_efficiency_and_dryness_claims",
+              "stage": "performance",
+              "technical_feature": "[0053]80um网可阻止99.4%的25um微纤维，是原文比例但未附计量方法、工况、重复样本或误差；[0050]/[0063]去所有液体/有效干燥也无含水率测定。背景98%水处理/99%理论和一次性套筒重量不能移成本装置实测；不补实验或填0。",
+              "object": "孔径/去除比例/固体含水状态",
+              "start": "设计和作用文字",
+              "end": "99.4%等文本陈述，完整测试条件unknown",
+              "boundary": "原CN A本发明各实施方式分别保留；历史WO同族观察不覆盖或复计",
+              "operation_order": [
+                "[0053]80um网可阻止99.4%的25um微纤维，是原文比例但未附计量方法、工况、重复样本或误差；[0050]/[0063]去所有液体/有效干燥也无含水率测定。背景98%水处理/99%理论和一次性套筒重量不能移成本装置实测；不补实验或填0。"
+              ],
+              "support_status": "explicit_text_claim_test_support_unlocated",
+              "review_status": "complete_in_checked_original_A_scope",
+              "claim_dependency": "独立权1/方法24与所引从属项分别保留；各分支见interpretation",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0052；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0052",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "本发明的实施例提供如图2a中所展示的微塑料提取并压缩腔室，用于从包含在集水槽内的流出物中去除积聚的微塑料纤维，并且将这些微纤维压实为颗粒形式，以便于通过家用垃圾收集处置。这减少了封装大小和重量，以提高为循环经济运输纤维的能力。在从与流出物分离的物质中去除所有水之后，保留可极有效地处置的轻质材料盘。"
+                },
+                {
+                  "locator": "保存HTML #p0055；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0055",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以打开和关闭排放出口206。在操作循环期间，打开入口阀以使流出物进入腔室201，同时关闭出口以使得流出物无法逸出。如图3b中所展示，驱动单元205可驱动板204穿过已进入腔室201的废料流出物203，在所述腔室中，所述板将微塑料物质压实，确切地说是通过板204与腔室201的壁之间的压缩来进行的。从废料流出物203中有效地收集微塑料物质，并进行挤压，去除所有液体，且产生压缩的微塑料的固体块。可通过操作驱动单元205在相反的方向上抽出板204，以释放固体块，如图3c中所展示。打开出口以释放压缩的微塑料和分离的流体两者。压缩的微塑料呈用户可以轻松方便地处置的形式。"
+                },
+                {
+                  "locator": "保存HTML #p0058；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0058",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "合适的可渗透材料包含网状物。理想的网状孔径为80um，其可阻止99.4％的大小为25um的微纤维。然而，小孔径大小意味着其可更快速地被堵塞，并且还降低流动速率。大网孔大小可在高达400um的任何地方使用。使用较大网状孔径的优点为其比较小孔径的网状物更稳固，且可通过模制而便宜地制造。然而，通过此网状物去除的水将包含大量的微纤维，且因此将需要返回到过滤阶段以进行分离。"
+                },
+                {
+                  "locator": "保存HTML #p0068；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0068",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "图6a、6b和6c展示废料流出物203在处于非压缩配置、其压缩配置且接着处于其排放配置时通过压实器200的通道。在排空洗涤机集水槽，或通过未展示的废料软管后，废料流出物203通过入口202进入压实器200的腔室201。驱动构件205经激活以沿着腔室201驱动第一板204a，从而在废料流出物203通过其网状物型板行进时从所述废料流出物内收集微塑料纤维。经过滤的水或废水209通过板204a，以用于通过废水出口208排放。积聚的微塑料纤维一起被驱动，并且被驱动到彼此中并且被驱动到第二板204b中，如图6b中所展示。通过在板204a与204b之间压缩微塑料纤维，挤出任何其余的液体，且纤维自身变为压实的，从而形成固体块或盘。此固体块包括压缩的微塑料207，所述压缩的微塑料已通过挤压有效地干燥，因此形成颗粒或盘。"
+                }
+              ],
+              "interpretation": "[0053]80um网可阻止99.4%的25um微纤维，是原文比例但未附计量方法、工况、重复样本或误差；[0050]/[0063]去所有液体/有效干燥也无含水率测定。背景98%水处理/99%理论和一次性套筒重量不能移成本装置实测；不补实验或填0。",
+              "performance_status": "text_claim_test_support_unlocated",
+              "verified_at": "2026-10-01T18:26:24.967282+08:00",
+              "old_value": null,
+              "new_value": "[0053]80um网可阻止99.4%的25um微纤维，是原文比例但未附计量方法、工况、重复样本或误差；[0050]/[0063]去所有液体/有效干燥也无含水率测定。背景98%水处理/99%理论和一次性套筒重量不能移成本装置实测；不补实验或填0。",
+              "change_reason": "补八空字段；不重复旧CN/WO十观察，不把本发明处置正向文本当未披露",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+                "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+                "physical_page": 8,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_8.png",
+                "image_sha256": "e634a1be9faa4d415b1ce4c93766296a98e76976d59d183cb127813686e20572",
+                "checked_at": "2026-10-01T18:26:24.967282+08:00",
+                "verification_method": "original_Chinese_text_readback_and_manual_visual_pages",
+                "scope": "执行者原文字2—11及视觉8/10/13/17/19/20/21；未冒称全部10图页均由执行者视觉读完"
+              },
+              "review_scope": "原A24权项/[0001]—[0071]文字完整读取及本次7页目视；关联授权文本/资格独立待核。"
+            }
+          ],
           "prior_field": null
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_checked_original_A_scope",
+          "support_status": "explicit_downstream_route_not_verified_completion",
+          "observations": [
+            {
+              "observation_id": "CN115087774A-endpoint-household_collection_or_recycling-20261001",
+              "publication_id": "CN115087774A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "household_collection_or_recycling",
+              "stage": "endpoint",
+              "technical_feature": "原[0047]明确颗粒形式便于通过家用垃圾收集处置；[0048]续段给例如转移回收设施。下游处置方向是正向披露，不能判未定位；但未提供分类标准、设施接收条件、封装运输验证或真实完成记录，不据目的文字宣称安全处置已实际闭合。",
+              "object": "压实微纤维颗粒/盘",
+              "start": "板排出或用户取得后的固体",
+              "end": "文本指向家用垃圾收集或转移回收设施",
+              "boundary": "原CN A本发明各实施方式分别保留；历史WO同族观察不覆盖或复计",
+              "operation_order": [
+                "原[0047]明确颗粒形式便于通过家用垃圾收集处置；[0048]续段给例如转移回收设施。下游处置方向是正向披露，不能判未定位；但未提供分类标准、设施接收条件、封装运输验证或真实完成记录，不据目的文字宣称安全处置已实际闭合。"
+              ],
+              "support_status": "explicit_downstream_route_not_verified_completion",
+              "review_status": "complete_in_checked_original_A_scope",
+              "claim_dependency": "独立权1/方法24与所引从属项分别保留；各分支见interpretation",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0052；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0052",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "本发明的实施例提供如图2a中所展示的微塑料提取并压缩腔室，用于从包含在集水槽内的流出物中去除积聚的微塑料纤维，并且将这些微纤维压实为颗粒形式，以便于通过家用垃圾收集处置。这减少了封装大小和重量，以提高为循环经济运输纤维的能力。在从与流出物分离的物质中去除所有水之后，保留可极有效地处置的轻质材料盘。"
+                },
+                {
+                  "locator": "保存HTML #p0053；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0053",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "图2a展示作为家用洗涤机100的一部分的压实器200的一个实施例。制造商可将此压实器200合并到洗涤机100的工作区内。替代地，压实器200为可添加到如图2b中所展示的现有洗涤机100的废水出口中的独立单元，通常与外部过滤器单元110结合以从过滤器单元110接收并处理经过滤的废料。过滤器单元110可具有英国专利申请第GB1914545.7号和第GB1914548.1号中所描述的类型。压实器200被配置成从洗涤机100或过滤器单元110内的任何集水槽或经过滤的流出物出口接收废料流出物203。此压实器200从废料流出物203产生呈颗粒形式的压缩的微塑料207废料产品。压实器200将额外过滤过程提供到废料流出物，去除所有微塑料粒子，从而从废水出口208产生废水209，所述废水出口适合连接到家用排水系统。所得压缩的颗粒接着可由用户方便地处置且以对环境负责的方式(例如，通过将其转移到回收设施)进行处置。"
+                }
+              ],
+              "interpretation": "原[0047]明确颗粒形式便于通过家用垃圾收集处置；[0048]续段给例如转移回收设施。下游处置方向是正向披露，不能判未定位；但未提供分类标准、设施接收条件、封装运输验证或真实完成记录，不据目的文字宣称安全处置已实际闭合。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T18:26:24.967282+08:00",
+              "old_value": null,
+              "new_value": "原[0047]明确颗粒形式便于通过家用垃圾收集处置；[0048]续段给例如转移回收设施。下游处置方向是正向披露，不能判未定位；但未提供分类标准、设施接收条件、封装运输验证或真实完成记录，不据目的文字宣称安全处置已实际闭合。",
+              "change_reason": "补八空字段；不重复旧CN/WO十观察，不把本发明处置正向文本当未披露",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+                "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+                "physical_page": 8,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_8.png",
+                "image_sha256": "e634a1be9faa4d415b1ce4c93766296a98e76976d59d183cb127813686e20572",
+                "checked_at": "2026-10-01T18:26:24.967282+08:00",
+                "verification_method": "original_Chinese_text_readback_and_manual_visual_pages",
+                "scope": "执行者原文字2—11及视觉8/10/13/17/19/20/21；未冒称全部10图页均由执行者视觉读完"
+              },
+              "review_scope": "原A24权项/[0001]—[0071]文字完整读取及本次7页目视；关联授权文本/资格独立待核。"
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "压缩成块便于用户处置为文本陈述；所核段未确定最终处置介质/设施或环境绩效。",
@@ -6701,9 +7191,72 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_checked_original_A_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN115087774A-carrier_conditioning-independent_carrier_drying_unlocated-20261001",
+              "publication_id": "CN115087774A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "independent_carrier_drying_unlocated",
+              "stage": "carrier_conditioning",
+              "technical_feature": "完整原A权1—24、[0001]—[0071]文本及本次图页范围未定位载体自身独立排水/干燥步骤和终点。网让水通过是运行液路；[0063]干燥对象是压实微塑料固体，不能挪到过滤载体；[0067]板面脱块不等于介质调理。",
+              "object": "板/网载体自身",
+              "start": "压缩运行/脱块后的载体",
+              "end": "unknown：独立载体排水干燥工序未定位",
+              "boundary": "原CN A本发明各实施方式分别保留；历史WO同族观察不覆盖或复计",
+              "operation_order": [
+                "完整原A权1—24、[0001]—[0071]文本及本次图页范围未定位载体自身独立排水/干燥步骤和终点。网让水通过是运行液路；[0063]干燥对象是压实微塑料固体，不能挪到过滤载体；[0067]板面脱块不等于介质调理。"
+              ],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_checked_original_A_scope",
+              "claim_dependency": "独立权1/方法24与所引从属项分别保留；各分支见interpretation",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0057；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0057",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "压实器200的元件是可渗透的以允许水在腔室被压缩时逸出。可渗透结构的孔隙直径可达50微米左右，使得大于此大小的所有微纤维都不能通过。如下文所论述，其它大小是可能的。可渗透结构可为板204，所述板可由刚性网状物或由框架支撑的柔性网状物制成。在此实施例中，水通过排水通道208从板204后方的腔室后部逸出，如图3d中所展示。替代地，腔室201的后壁211可为可渗透的，且提供排水通道212以将废水远离压实器而转移，如图3e中所展示。替代地或另外，排放出口206可为可通过可渗透翻板213关闭的，如图3d和3e中所展示，所述翻板在流出物的压缩期间处于关闭位置，并且打开以允许压缩的颗粒掉落。可在入口处提供翻板214以防止流出物在压缩阶段期间从入口逸出。"
+                },
+                {
+                  "locator": "保存HTML #p0068；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0068",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "图6a、6b和6c展示废料流出物203在处于非压缩配置、其压缩配置且接着处于其排放配置时通过压实器200的通道。在排空洗涤机集水槽，或通过未展示的废料软管后，废料流出物203通过入口202进入压实器200的腔室201。驱动构件205经激活以沿着腔室201驱动第一板204a，从而在废料流出物203通过其网状物型板行进时从所述废料流出物内收集微塑料纤维。经过滤的水或废水209通过板204a，以用于通过废水出口208排放。积聚的微塑料纤维一起被驱动，并且被驱动到彼此中并且被驱动到第二板204b中，如图6b中所展示。通过在板204a与204b之间压缩微塑料纤维，挤出任何其余的液体，且纤维自身变为压实的，从而形成固体块或盘。此固体块包括压缩的微塑料207，所述压缩的微塑料已通过挤压有效地干燥，因此形成颗粒或盘。"
+                },
+                {
+                  "locator": "保存HTML #p0072；原PDF交叉页见下（各锚点不一定同页）",
+                  "html_anchor": "p0072",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.html",
+                  "source_sha256": "ac305984da6b9842eb21bad93569a11859686992ed1c6f2e6efd90fbc9364bb2",
+                  "source_role": "description",
+                  "evidence_excerpt": "在图6d中所展示的实施例中，以一定角度安装腔室，从而允许废水从出口208排出，但竖直地定向板204a、204b，使得其与腔室的侧部形成平行四边形。这允许压实的颗粒在重力作用下更容易地从第一板204a的面释放。"
+                }
+              ],
+              "interpretation": "完整原A权1—24、[0001]—[0071]文本及本次图页范围未定位载体自身独立排水/干燥步骤和终点。网让水通过是运行液路；[0063]干燥对象是压实微塑料固体，不能挪到过滤载体；[0067]板面脱块不等于介质调理。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T18:26:24.967282+08:00",
+              "old_value": null,
+              "new_value": "完整原A权1—24、[0001]—[0071]文本及本次图页范围未定位载体自身独立排水/干燥步骤和终点。网让水通过是运行液路；[0063]干燥对象是压实微塑料固体，不能挪到过滤载体；[0067]板面脱块不等于介质调理。",
+              "change_reason": "补八空字段；不重复旧CN/WO十观察，不把本发明处置正向文本当未披露",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+                "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+                "physical_page": 10,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_10.png",
+                "image_sha256": "5129064a2dec59702a9ea8afb99fb79a6e3cc14d77255cba6b4203cb192f0b49",
+                "checked_at": "2026-10-01T18:26:24.967282+08:00",
+                "verification_method": "original_Chinese_text_readback_and_manual_visual_pages",
+                "scope": "执行者原文字2—11及视觉8/10/13/17/19/20/21；未冒称全部10图页均由执行者视觉读完"
+              },
+              "review_scope": "原A24权项/[0001]—[0071]文字完整读取及本次7页目视；关联授权文本/资格独立待核。"
+            }
+          ],
           "prior_field": null
         }
       },
@@ -6794,8 +7347,114 @@
             "field": "liquid_route",
             "at": "2026-09-29T23:13:03.436332+08:00"
           }
-        ]
-      }
+        ],
+        "original_targeted_readback_20261001": {
+          "checked_at": "2026-10-01T18:26:24.967282+08:00",
+          "pdf_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+          "executor_text_pages": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "claims_read": "1—24",
+          "description_read": "[0001]—[0071]",
+          "executor_visual_pages": [
+            8,
+            10,
+            13,
+            17,
+            19,
+            20,
+            21
+          ],
+          "all_fields_have_scoped_observations": true,
+          "candidate_full_text_accepted": false,
+          "related_grant_text_pending": true,
+          "note": "旧10条CN/WO证据和法律保持；执行者未目视原12/14/15/16/18图页，不能宣称个人全图阅读。",
+          "readonly_reviewer": "/root/h1_source_review",
+          "reviewer_reported_text_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "reviewer_reported_visual_pages": [
+            2,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      },
+      "source_conflicts_20261001": [
+        {
+          "conflict_id": "CN115087774A-description0059-outlet-number",
+          "locator": "原物理9 [0059]",
+          "original_quote": "废水209通过废水出口207",
+          "status": "unresolved",
+          "automatically_corrected": false,
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+          "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+          "boundary": "207通常为压实颗粒，液路正向锚点用[0052]/[0068]/[0069]明确208；不默修原编号"
+        },
+        {
+          "conflict_id": "CN115087774A-description0060-drive-number",
+          "locator": "原物理9 [0060]",
+          "original_quote": "适当致动驱动单元204a和204b",
+          "status": "unresolved",
+          "automatically_corrected": false,
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+          "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+          "boundary": "204a/b通常是板，205a/b是驱动；不默修原编号"
+        },
+        {
+          "conflict_id": "CN115087774A-description0070-compressed-object",
+          "locator": "原物理10 [0070]",
+          "original_quote": "抵靠着翻板702压缩所述水",
+          "status": "unresolved",
+          "automatically_corrected": false,
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115087774A.pdf",
+          "source_sha256": "5a1649bc0de1a541dda8a360b3e259142da20a713b187e6c7b4d06501de3004c",
+          "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115087774A_review_20261001_10.png",
+          "page_image_sha256": "5129064a2dec59702a9ea8afb99fb79a6e3cc14d77255cba6b4203cb192f0b49",
+          "boundary": "保留原文对象表述；不自行改成压缩固体。图3基础版本[0050]同出口放固体与分离流体，不推广每个版本液固独立出口"
+        }
+      ]
     },
     {
       "sample_id": "H1-F85120837",

@@ -11,23 +11,24 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-01T18:17:50.400947+08:00",
+  "updated_at": "2026-10-01T18:26:24.967282+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
     "P2 full-text and unfilled field review pending",
     "CN116282270A direction wording conflict; CN120500565A original PDF missing",
     "P3 genuine search evidence; P4 statistics; P5 report; P6 generation; P7 final QA pending",
-    "WO2024250011A1 claim23 self-reference and layer-number/material conflict unresolved"
+    "WO2024250011A1 claim23 self-reference and layer-number/material conflict unresolved",
+    "CN115087774A description0059/0060 numbering and 0070 object wording preserved unresolved"
   ],
   "usage_stop_remaining_percent": 60,
   "no_delegation": false,
   "delegation_authority": "2026-10-01 用户在10月1日总控明确要求：开始下放6.1sol高做H1，严格执行规则。覆盖旧本人执行与H1研究暂停；不覆盖壁纸暂停或周额度剩余60%停止线。",
   "technical_review_index": "corrections/20260929_r1/evidence/技术复核入口.md",
-  "current_observations": 116,
+  "current_observations": 124,
   "full_text_review_complete": false,
   "execution_status": "in_progress_delegated_P2",
-  "weekly_used_percent": 28,
-  "weekly_remaining_percent": 72,
-  "master_sha256": "88b77c4f62981004f5542f549a3e1696381d87c568f409d35c07c29bdca50d5c"
+  "weekly_used_percent": 30,
+  "weekly_remaining_percent": 70,
+  "master_sha256": "00961bd4ce58ef77f145c111a100cf2b63826e2187da71b326c7d01814ca1749"
 }
