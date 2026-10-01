@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T01:30:16.966052+08:00",
+  "updated_at": "2026-10-02T01:36:25.884596+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -8648,9 +8648,126 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115700309A-state_switch-embodiment1_filter_selfclean_discharge-20261002",
+              "publication_id": "CN115700309A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "embodiment1_filter_selfclean_discharge",
+              "stage": "state_switch",
+              "technical_feature": "实施例一p0125—0130明确循环过滤、自清理和排污三种控制状态。自清理规定旋转滤网；一般排污允许驱动旋转或不旋转，不能将转网作为一切排污必需条件。一次洗衣程序至少一次自清理和/或排污；每洗涤/漂洗末期均执行为优选方案。p0129给阶段临近排水的自清理再排污顺序，p0130的预设水位启动及270导通外排是具体描述；不把实施例四末次漂洗停启泵空气压排强合并为每轮唯一动作链，不补自动残液检测、先全干再取出或实际性能结论。",
+              "object": "过滤装置600的循环过滤、自清理与排污状态",
+              "start": "循环过滤：241关/231开/400泵开",
+              "end": "自清理及排污：231关/241开，滤网驱动依操作区分",
+              "boundary": "仅实施例一所列模式，实施例四末次漂洗空气压排另列；非最终处置边界",
+              "operation_order": [
+                "循环过滤：污阀241关、回水阀231开、循环泵400开",
+                "自清理：回水阀231关、污阀241开、400开、660带动620转动",
+                "排污：241开，660转动或保持关闭均允许"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：本条以所列说明书锚点为据，不并入授权独立项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0125",
+                  "html_anchor": "p0125",
+                  "evidence_excerpt": "具体地，如图1和图2所示，所述循环过滤操作包括：排污控制阀241关闭，同时回水控制阀231打开导通回水管路230；开启循环泵400，将盛水筒100中的水导入循环过滤管路中，经过滤装置600除去过滤杂质后，重新回到盛水筒100中。在以上过程中，清洗颗粒680在过滤腔体610中随水流运动，不断摩擦过滤腔体610内壁和过滤机构620外壁，防止过滤杂质沉积。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:36:25.884596+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0126",
+                  "html_anchor": "p0126",
+                  "evidence_excerpt": "如图3所示，所述自清理操作包括：回水控制阀231关闭，排污控制阀241打开导通排污管路240，循环泵400开启，将盛水筒100中的水导入过滤装置600中，清洗过滤装置600后排入回收装置500。还包括：控制驱动机构660带动过滤机构620在过滤腔体610中转动。在以上过程中，清洗颗粒680随水流运动，摩擦过滤腔体610内壁和过滤机构620外壁，协助过滤杂质的剥离。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:36:25.884596+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0127",
+                  "html_anchor": "p0127",
+                  "evidence_excerpt": "如图4和图5所示，所述排污操作包括：排污控制阀241打开导通排污管路240，将过滤装置600中的携带过滤杂质501的污水排入回收装置500。执行排污操作时，可控制驱动机构660开启带动过滤机构620转动，也可以不开启驱动机构660，使过滤机构620在过滤腔体610内保持静止。在以上过程中，清洗颗粒680随污水排出过滤腔体610，经过拦截机构670时，水流及携带的过滤杂质501可以通过，沿排污管路240进入回收装置500，清洗颗粒680被阻挡件671拦截，从而收集于颗粒收集腔中。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:36:25.884596+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0128",
+                  "html_anchor": "p0128",
+                  "evidence_excerpt": "本实施例中，所述循环过滤操作在洗衣程序的洗涤阶段及一次至多次漂洗阶段中均执行，自清理操作和/或排污操作在一次完整的洗衣程序中至少执行一次。优选地，在洗涤阶段及每次漂洗阶段的末期均执行自清理操作和排污操作。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:36:25.884596+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0129",
+                  "html_anchor": "p0129",
+                  "evidence_excerpt": "具体地，在洗涤阶段及每次漂洗阶段开始进水一定时长后开启循环泵400，开始执行循环过滤操作。所述循环过滤操作持续执行直至洗涤或漂洗阶段接近完成，即将进行排水时，关闭回水控制阀231、打开排污控制阀241并启动驱动机构660，以执行自清理操作。自清理操作持续一定时长后，洗衣机再执行排污操作。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:36:25.884596+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0130",
+                  "html_anchor": "p0130",
+                  "evidence_excerpt": "详细地，洗衣机开始进水后，对盛水筒100中的水位进行检测，当所述水位达到预设水位时，开启循环泵400，开始执行循环过滤操作。如此可以防止盛水筒100中水量过少，循环泵400内部吸入空气产生运行噪音。洗衣机执行排污操作的同时，还控制切换装置270动作，导通排水管路210与外排管路250，循环泵400持续运行，将盛水筒100中剩余的水排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:36:25.884596+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                }
+              ],
+              "interpretation": "实施例一p0125—0130明确循环过滤、自清理和排污三种控制状态。自清理规定旋转滤网；一般排污允许驱动旋转或不旋转，不能将转网作为一切排污必需条件。一次洗衣程序至少一次自清理和/或排污；每洗涤/漂洗末期均执行为优选方案。p0129给阶段临近排水的自清理再排污顺序，p0130的预设水位启动及270导通外排是具体描述；不把实施例四末次漂洗停启泵空气压排强合并为每轮唯一动作链，不补自动残液检测、先全干再取出或实际性能结论。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T01:36:25.884596+08:00",
+              "old_value": {
+                "judgment": "explicit",
+                "summary": "循环过滤时回水控制阀导通、排污控制阀关闭；排污时反向切换。",
+                "evidence": [
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+                    "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                    "locator": "说明书[n0108] (HTML p0113)",
+                    "quote": "在上述方案中，对盛水筒100中的洗涤水进行循环过滤时，回水控制阀231打开导通回水管路230，排污控制阀关闭241切断排污管路240，在循环泵400的作用下，洗涤水依次通过盛水筒排水管260、排水管路210、循环管路220、过滤装置600，最终由回水管路230重新回到盛水筒100中。当需要排出过滤装置600中残留的过滤杂质501时，回水控制阀231关闭切断回水管路230，洗涤水无法从过滤水出口6102流出，同时排污控制阀241打开导通排污管路240，可以保证进入过滤装置600的水均由排污口6103流出，将过滤杂质501从过滤装置600中充分带出。",
+                    "evidence_type": "description"
+                  }
+                ],
+                "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+                "review_scope": "本地保存全文待精确引文复核"
+              },
+              "new_value": "实施例一p0125—0130明确循环过滤、自清理和排污三种控制状态。自清理规定旋转滤网；一般排污允许驱动旋转或不旋转，不能将转网作为一切排污必需条件。一次洗衣程序至少一次自清理和/或排污；每洗涤/漂洗末期均执行为优选方案。p0129给阶段临近排水的自清理再排污顺序，p0130的预设水位启动及270导通外排是具体描述；不把实施例四末次漂洗停启泵空气压排强合并为每轮唯一动作链，不补自动残液检测、先全干再取出或实际性能结论。",
+              "change_reason": "补此前空字段正向定位，限定保存文本；原件/法律资格缺口保持。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "循环过滤时回水控制阀导通、排污控制阀关闭；排污时反向切换。",
@@ -8803,6 +8920,19 @@
             ],
             "field": "storage",
             "at": "2026-10-02T01:30:16.966052+08:00"
+          },
+          {
+            "publication": "CN115700309A",
+            "anchors": [
+              "p0125",
+              "p0126",
+              "p0127",
+              "p0128",
+              "p0129",
+              "p0130"
+            ],
+            "field": "state_switch",
+            "at": "2026-10-02T01:36:25.884596+08:00"
           }
         ],
         "saved_text_drainage_20261002": {
@@ -8907,6 +9037,24 @@
           "original_pdf_checked": false,
           "not_a_full_text_completion": true,
           "verified_at": "2026-10-02T01:30:16.966052+08:00"
+        },
+        "saved_text_state_switch_20261002": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+          "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+          "read_anchors": [
+            "p0125",
+            "p0126",
+            "p0127",
+            "p0128",
+            "p0129",
+            "p0130"
+          ],
+          "fields_added": [
+            "state_switch"
+          ],
+          "original_pdf_checked": false,
+          "not_a_full_text_completion": true,
+          "verified_at": "2026-10-02T01:36:25.884596+08:00"
         }
       }
     },
