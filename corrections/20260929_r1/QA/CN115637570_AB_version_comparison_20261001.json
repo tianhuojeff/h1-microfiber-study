@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "baseline": "6293443625854f63e131e2425d40816067171f2a",
+  "master_sha256": "1d4732f37ffde3a11fadd35a5a72da3dcc1c700db96b9cbbe06b2f82330bb1f8",
+  "comparison_sha256": "bf3df067a848eec4082355ad94578462ebab308fef114410fae9010c71a709fd",
+  "observations_unchanged": 91,
+  "all_14_legal_evidence_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "original_B_pdf_read": false,
+  "formal_statistics_allowed": false
+}
