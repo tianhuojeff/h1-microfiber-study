@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T01:39:16.517657+08:00",
+  "updated_at": "2026-10-02T01:41:36.629416+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -8786,9 +8786,174 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115700309A-seals_connections-embodiment3_outlet_bearing_flange-20261002",
+              "publication_id": "CN115700309A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "embodiment3_outlet_bearing_flange",
+              "stage": "seals_connections",
+              "technical_feature": "实施例三作为实施例一进一步限定，p0137—0142明确621/611可转动密封、第一轴承631及第一密封641；第二密封642为进一步方案，不能当所有构型必需双密封。p0149—0152给650法兰、651回水连接、优选插接652及螺钉固定，属于连接结构而非用户拆管开盖维护流程。p0139保护轴承及避免未滤水旁路为文本目的/效果，未有防漏实测；不从螺钉和插接自动补维护步骤、无水环境已验证或长期密封保证。",
+              "object": "620出水接头621与密封支撑部611、轴承631及法兰650",
+              "start": "过滤水出口6102外延密封支撑611",
+              "end": "出水接头转动密封及650/651接回水管路",
+              "boundary": "实施例三出水连接进一步限定，第二密封及插接保留可选/优选层级；不推维护顺序",
+              "operation_order": [
+                "621插入611，第一轴承631支撑转动",
+                "第一密封641封堵621与611间隙；第二密封642是进一步方案",
+                "法兰650插接定位并由螺钉固定，连接部651连接回水管路"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：本条以所列说明书锚点为据，不并入授权独立项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0137",
+                  "html_anchor": "p0137",
+                  "evidence_excerpt": "如图6和图7所示，本实施例为上述实施例一中过滤装置600的进一步限定，所述的过滤水出口6102的外周向过滤腔体610外部延伸形成密封支撑部611。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0138",
+                  "html_anchor": "p0138",
+                  "evidence_excerpt": "过滤机构620具有可转动的插设在密封支撑部611中的出水接头621，出水接头621上套设第一轴承631。第一轴承631朝向过滤腔体610内部的一侧设置有第一密封件641，第一密封件641封堵出水接头621与密封支撑部611之间的间隙。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0139",
+                  "html_anchor": "p0139",
+                  "evidence_excerpt": "在上述方案中，出水接头621与密封支撑部611之间设置第一轴承631，对出水接头621进行支撑，使出水接头621在密封支撑部611内的转动更加顺畅，同时结构稳定，可以保证过滤机构620在过滤腔体610内的稳定转动。在第一轴承631的右侧设置第一密封件641，过滤腔体610内的洗涤水无法进入出水接头621与密封支撑部611之间的间隙，防止了第一轴承631与水接触，避免了第一轴承631失效，保证了第一轴承631的作用效果。同时，第一密封件641还防止了未经过滤的洗涤水从过滤水出口6102经密封支撑部611流出，影响过滤装置600对线屑等过滤杂质的清除效率。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0140",
+                  "html_anchor": "p0140",
+                  "evidence_excerpt": "本实施例的具体方案中，第一密封件641套设在出水接头621上，第一密封件641的内壁与出水接头621的外壁密封连接，第一密封件641的外壁与密封支撑部611的内壁可转动的密封连接。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0141",
+                  "html_anchor": "p0141",
+                  "evidence_excerpt": "本实施例的进一步方案中，过滤装置600还包括第二密封件642，第二密封件642设置在第一轴承631背向过滤腔体610内部的一侧，封堵出水接头621与密封支撑部611之间的间隙。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0142",
+                  "html_anchor": "p0142",
+                  "evidence_excerpt": "具体地，第二密封件642套设在出水接头621上，第二密封件642的内壁与出水接头621的外壁密封连接，第二密封件642的外壁与密封支撑部611的内壁可转动的密封连接。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0149",
+                  "html_anchor": "p0149",
+                  "evidence_excerpt": "本实施例中，密封支撑部611远离过滤腔体610的一端，也即密封支撑部611的左端连接过滤腔法兰650，过滤腔法兰650中部具有与出水接头621连通的贯通口653。贯通口653的外周背向密封支撑部611延伸形成连接部651。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0150",
+                  "html_anchor": "p0150",
+                  "evidence_excerpt": "优选地，过滤腔法兰650朝向密封支撑部611一侧的表面具有凸起的插接部652，插接部652插设在密封支撑部611左端的开口内。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0151",
+                  "html_anchor": "p0151",
+                  "evidence_excerpt": "在上述方案中，密封支撑部611左端连接过滤腔法兰650，并在过滤腔法兰650上形成连接部651，连接部651的外径小于密封支撑部611的外径，连接部651的内径优选等于出水接头621的内径。过滤装置600安装于洗衣机中时，通过连接部651与回水管路连接，相较于回水管路直接连接在密封支撑部611左端的方式，安装更加容易。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                },
+                {
+                  "locator": "保存HTML #p0152",
+                  "html_anchor": "p0152",
+                  "evidence_excerpt": "过滤腔法兰650右侧具有插入密封支撑部611左端开口的插接部652，便于过滤腔法兰650与密封支撑部611装配时的定位。过滤腔法兰650和密封支撑部611外周分别设置若干固定部，通过螺钉穿过所述固定部，实现过滤腔法兰650和密封支撑部611的固定。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:41:36.629416+08:00",
+                  "extraction_note": "Saved mirror, whitespace normalized; no original PDF checked."
+                }
+              ],
+              "interpretation": "实施例三作为实施例一进一步限定，p0137—0142明确621/611可转动密封、第一轴承631及第一密封641；第二密封642为进一步方案，不能当所有构型必需双密封。p0149—0152给650法兰、651回水连接、优选插接652及螺钉固定，属于连接结构而非用户拆管开盖维护流程。p0139保护轴承及避免未滤水旁路为文本目的/效果，未有防漏实测；不从螺钉和插接自动补维护步骤、无水环境已验证或长期密封保证。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T01:41:36.629416+08:00",
+              "old_value": {
+                "judgment": "explicit",
+                "summary": "出水接头与密封支撑部之间由密封件封堵。",
+                "evidence": [
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN115700309A.html",
+                    "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                    "locator": "说明书[n0024] (HTML p0027)",
+                    "quote": "所述过滤机构具有可转动的插设在所述密封支撑部中的出水接头，所述出水接头上套设轴承；所述轴承朝向过滤腔体内部的一侧设置有密封件，所述密封件封堵出水接头与密封支撑部之间的间隙。",
+                    "evidence_type": "description"
+                  }
+                ],
+                "unknown_reason": "初轮引文含省略、改写或定位不精确，已撤回，不能作为编码依据。",
+                "review_scope": "本地保存全文待精确引文复核"
+              },
+              "new_value": "实施例三作为实施例一进一步限定，p0137—0142明确621/611可转动密封、第一轴承631及第一密封641；第二密封642为进一步方案，不能当所有构型必需双密封。p0149—0152给650法兰、651回水连接、优选插接652及螺钉固定，属于连接结构而非用户拆管开盖维护流程。p0139保护轴承及避免未滤水旁路为文本目的/效果，未有防漏实测；不从螺钉和插接自动补维护步骤、无水环境已验证或长期密封保证。",
+              "change_reason": "补此前空字段正向定位，限定保存文本；原件/法律资格缺口保持。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "出水接头与密封支撑部之间由密封件封堵。",
@@ -8989,6 +9154,23 @@
             ],
             "field": "endpoint",
             "at": "2026-10-02T01:39:16.517657+08:00"
+          },
+          {
+            "publication": "CN115700309A",
+            "anchors": [
+              "p0137",
+              "p0138",
+              "p0139",
+              "p0140",
+              "p0141",
+              "p0142",
+              "p0149",
+              "p0150",
+              "p0151",
+              "p0152"
+            ],
+            "field": "seals_connections",
+            "at": "2026-10-02T01:41:36.629416+08:00"
           }
         ],
         "saved_text_drainage_20261002": {
@@ -9124,6 +9306,39 @@
           "original_pdf_checked": false,
           "not_a_full_text_completion": true,
           "verified_at": "2026-10-02T01:39:16.517657+08:00"
+        },
+        "saved_text_seals_connections_20261002": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+          "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+          "read_anchors": [
+            "p0136",
+            "p0137",
+            "p0138",
+            "p0139",
+            "p0140",
+            "p0141",
+            "p0142",
+            "p0143",
+            "p0144",
+            "p0145",
+            "p0146",
+            "p0147",
+            "p0148",
+            "p0149",
+            "p0150",
+            "p0151",
+            "p0152",
+            "p0153",
+            "p0154",
+            "p0155",
+            "p0156"
+          ],
+          "fields_added": [
+            "seals_connections"
+          ],
+          "original_pdf_checked": false,
+          "not_a_full_text_completion": true,
+          "verified_at": "2026-10-02T01:41:36.629416+08:00"
         }
       }
     },

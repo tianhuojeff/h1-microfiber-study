@@ -1,0 +1,43 @@
+{
+  "verified": true,
+  "baseline": "77ace912ef5a92eff2aecbfc616b40ac051f4bda",
+  "observations": 134,
+  "added": 1,
+  "old_133_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "all_14_pending": true,
+  "master_sha256": "f86930edfa347691402e31fe701d796a80bcdf3904865059902624decde4319b",
+  "source_html_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+  "CSV_verified": true,
+  "full_text_complete_count": 0,
+  "original_pdf_checked": false,
+  "fields": [
+    "seals_connections"
+  ],
+  "formal_statistics_allowed": false,
+  "executor_read_anchors": [
+    "p0136",
+    "p0137",
+    "p0138",
+    "p0139",
+    "p0140",
+    "p0141",
+    "p0142",
+    "p0143",
+    "p0144",
+    "p0145",
+    "p0146",
+    "p0147",
+    "p0148",
+    "p0149",
+    "p0150",
+    "p0151",
+    "p0152",
+    "p0153",
+    "p0154",
+    "p0155",
+    "p0156"
+  ],
+  "checked_at": "2026-10-02T01:41:37+08:00"
+}
