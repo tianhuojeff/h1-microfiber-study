@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T01:18:48.511606+08:00",
+  "updated_at": "2026-10-02T01:23:13.386460+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -7878,9 +7878,190 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115700309A-chamber_drainage-embodiment4_air_pressure-20261002",
+              "publication_id": "CN115700309A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "embodiment4_air_pressure",
+              "stage": "chamber_drainage",
+              "technical_feature": "实施例四在停泵后利用管路水重力回落形成空气，过滤腔610因回水阀231及排污阀241关闭仍存水；滤机构旋转剥屑后，启泵并开排污阀把管路空气压入过滤腔，含线屑污水经排污口6103排出。第二条件切断循环进水以免重新灌满；可切换外排管路或关闭泵。时间t1/t2与水位H1/H2为替代条件，最后漂洗停启泵排净与中间漂洗/洗涤可持续泵冲洗分开。完全排出、无残留及寿命延长是文本效果主张，未实测；对象是腔游离污水，不能改成滤渣压干/含水率。",
+              "object": "过滤腔610内携带线屑的游离污水",
+              "start": "过滤腔610闭阀保留的水",
+              "end": "排污口6103→排污管路240（本次不追加最终终点）",
+              "boundary": "过滤腔边界→排污管路；非固体脱水或最终处置边界",
+              "operation_order": [
+                "停泵后管路水回落形成空气，闭阀使过滤腔留水",
+                "滤机构转动剥屑入水",
+                "第一条件达到：启泵并开排污阀，空气压入并排出含屑污水",
+                "第二条件达到：切断循环进水，避免重注；时间或水位条件分开"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "不适用：实施例四所列保存说明书锚点，不自动并入独立权项",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0182",
+                  "html_anchor": "p0182",
+                  "evidence_excerpt": "本实施例中，所述的导通循环过滤管路包括：切换装置270导通过滤装置600和循环泵400的出水端，打开回水控制阀231导通回水管路230。所述的切断循环过滤管路包括：切换装置270导通外排管路250和循环泵400的出水端。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0183",
+                  "html_anchor": "p0183",
+                  "evidence_excerpt": "可以理解的是，所述的切断循环过滤管路也可以通过关闭循环泵400实现。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0185",
+                  "html_anchor": "p0185",
+                  "evidence_excerpt": "漂洗结束关闭循环泵400后，排水管路210和循环管路220中的水在重力作用下向下回流，最多可回流至排水管路210中水面高度与盛水筒100中水位高度平齐，水面以上直至过滤装置600之间的管路中充满空气。但过滤装置600低于循环管路220，其中的水不会经循环管路220回流。关闭循环泵400的同时也关闭回水控制阀231，且此时排污控制阀241为关闭状态，过滤装置600内部的水留存在过滤腔体610内，不会向外排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0186",
+                  "html_anchor": "p0186",
+                  "evidence_excerpt": "驱动机构660开启后，带动过滤机构620高速转动，使表面附着的线屑等过滤杂质在离心力作用下从过滤机构620表面剥离。此时，由于回水控制阀231与排污控制阀241均为关闭状态，过滤腔体610内的水不流出，高速转动的过滤机构620还可以搅动过滤腔体610内的水流，形成的激荡水流对过滤机构620表面造成一定冲击力，也可以使线屑脱落。从过滤机构620表面剥离的线屑等过滤杂质融入过滤腔体610内的水中。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0187",
+                  "html_anchor": "p0187",
+                  "evidence_excerpt": "开启循环泵400的同时，也打开排污控制阀241，使排污管路240导通，过滤装置600内的污水可以从排污口6103排出。循环泵400的开启将排水管路210和循环管路220中的空气压入过滤装置600，进而使过滤装置600中携带线屑的污水在空气压力下由排污口6103完全排出，避免过滤装置600中存在污水残留，对过滤装置600的清理效果好。排污控制阀241在循环泵400开启的同时打开，保证了空气通入过滤装置600中时所产生的压力，进而可确保过滤装置600中的污水充分排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0188",
+                  "html_anchor": "p0188",
+                  "evidence_excerpt": "为避免过滤装置600中的污水排净后，盛水筒100中的水又经过循环管路220进入过滤装置600，洗衣机预设有第二设定条件，当达到第二设定条件时，切断循环过滤管路，停止盛水筒100中的水向过滤装置600输送。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0189",
+                  "html_anchor": "p0189",
+                  "evidence_excerpt": "本实施例的具体方案中，所述第一设定条件可以为循环泵400关闭达到第一设定时间t 1 ，所述第二设定条件可以为循环泵400开启达到第二设定时间t 2 。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0192",
+                  "html_anchor": "p0192",
+                  "evidence_excerpt": "本实施例的另一种方案中，还可以采用水位高度作为第一设定条件和第二设定条件。具体地，所述第一设定条件为：循环泵400与过滤装置600之间的管路中，水位达到第一设定值H 1 。所述第二设定条件为：循环泵400与过滤装置600之间的管路中，水位达到第二设定值H 2 。其中，H 1 <H 2 。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0196",
+                  "html_anchor": "p0196",
+                  "evidence_excerpt": "本实施例的进一步方案中，洗衣机判断当前运行进程为本次洗衣程序中最后一次漂洗阶段，则在漂洗结束后关闭循环泵400，并在达到第一设定条件后开启循环泵400。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0200",
+                  "html_anchor": "p0200",
+                  "evidence_excerpt": "在上述方案中，对于中间漂洗阶段，由于洗衣机之后还需要继续运行，也即还会有漂洗水循环经过过滤装置600进行过滤，此时可以不将过滤装置600中携带有线屑的污水排净，只需将过滤机构620表面附着的线屑除去即可。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0205",
+                  "html_anchor": "p0205",
+                  "evidence_excerpt": "本实施例中，洗衣机仅在最后一次漂洗结束时执行先关闭循环泵400，然后再开启循环泵400的操作，以将过滤装置600中的污水完全排净。而在中间漂洗结束时，循环泵400保持运行状态，避免了循环泵400在洗衣机运行过程中频繁开启关闭，影响其使用寿命。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0211",
+                  "html_anchor": "p0211",
+                  "evidence_excerpt": "由于洗涤结束后，在洗衣程序的后续过程中还需进行循环过滤漂洗，与中间漂洗类似，也不需要将过滤装置600中的污水完全排出，循环泵400可以保持运行状态，不需要关闭。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                },
+                {
+                  "locator": "保存HTML #p0212",
+                  "html_anchor": "p0212",
+                  "evidence_excerpt": "本实施例中，洗衣机在洗涤及中间漂洗结束后，控制循环泵400保持运行状态，将盛水筒100中的水输送至过滤装置600进行冲洗，冲洗后的污水从过滤装置600的排污口6103排出。最后一次漂洗结束后，先关闭循环泵400，等待管路中进入空气，再重新开启循环泵400，将管路中空气压入过滤装置600，从而将其中的污水完全排净，保证洗衣机停止运行后过滤装置600内无污水残留，可有效避免细菌滋生。同时，洗衣机仅在最后一次漂洗结束后执行先关闭循环泵400并再开启的操作，减少了循环泵400不必要的开启关闭操作，延长了循环泵400的使用寿命。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+                  "source_url": "https://patents.google.com/patent/CN115700309A/zh",
+                  "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+                  "verified_at": "2026-10-02T01:23:13.386460+08:00"
+                }
+              ],
+              "interpretation": "实施例四在停泵后利用管路水重力回落形成空气，过滤腔610因回水阀231及排污阀241关闭仍存水；滤机构旋转剥屑后，启泵并开排污阀把管路空气压入过滤腔，含线屑污水经排污口6103排出。第二条件切断循环进水以免重新灌满；可切换外排管路或关闭泵。时间t1/t2与水位H1/H2为替代条件，最后漂洗停启泵排净与中间漂洗/洗涤可持续泵冲洗分开。完全排出、无残留及寿命延长是文本效果主张，未实测；对象是腔游离污水，不能改成滤渣压干/含水率。",
+              "performance_status": "text_claim_not_measured",
+              "verified_at": "2026-10-02T01:23:13.386460+08:00",
+              "old_value": {
+                "judgment": "unresolved",
+                "summary": "进水冲污/排污流路不足以证明维护阶段腔体排空。",
+                "evidence": [],
+                "unknown_reason": "未找到真正腔体排空的连续原文。",
+                "review_scope": "HTML全文及权项"
+              },
+              "new_value": "实施例四在停泵后利用管路水重力回落形成空气，过滤腔610因回水阀231及排污阀241关闭仍存水；滤机构旋转剥屑后，启泵并开排污阀把管路空气压入过滤腔，含线屑污水经排污口6103排出。第二条件切断循环进水以免重新灌满；可切换外排管路或关闭泵。时间t1/t2与水位H1/H2为替代条件，最后漂洗停启泵排净与中间漂洗/洗涤可持续泵冲洗分开。完全排出、无残留及寿命延长是文本效果主张，未实测；对象是腔游离污水，不能改成滤渣压干/含水率。",
+              "change_reason": "此前空字段补正向腔排液，保存文本定向范围；未知不转零、实施例分支不合并。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "进水冲污/排污流路不足以证明维护阶段腔体排空。",
@@ -8203,8 +8384,59 @@
             ],
             "field": "liquid_route",
             "at": "2026-09-29T23:17:25.116858+08:00"
+          },
+          {
+            "publication": "CN115700309A",
+            "field": "chamber_drainage",
+            "anchors": [
+              "p0182",
+              "p0183",
+              "p0185",
+              "p0186",
+              "p0187",
+              "p0188",
+              "p0189",
+              "p0192",
+              "p0196",
+              "p0200",
+              "p0205",
+              "p0211",
+              "p0212"
+            ],
+            "at": "2026-10-02T01:23:13.386460+08:00"
           }
-        ]
+        ],
+        "saved_text_drainage_20261002": {
+          "read_anchors": [
+            "p0177",
+            "p0178",
+            "p0179",
+            "p0180",
+            "p0181",
+            "p0182",
+            "p0183",
+            "p0184",
+            "p0185",
+            "p0186",
+            "p0187",
+            "p0188",
+            "p0189",
+            "p0190",
+            "p0191",
+            "p0192",
+            "p0193",
+            "p0194",
+            "p0195",
+            "p0196",
+            "p0200",
+            "p0205",
+            "p0211",
+            "p0212"
+          ],
+          "original_pdf_checked": false,
+          "full_text_read_claimed": false,
+          "verified_at": "2026-10-02T01:23:13.386460+08:00"
+        }
       }
     },
     {
