@@ -1,0 +1,25 @@
+{
+  "verified": true,
+  "master_sha256": "06d74a20ba2cdefffa3c69fcea8e16d0726fd6b94345643dcc3a5cdfb84508e4",
+  "observations": 86,
+  "old_81_observations_unchanged": true,
+  "all_other_samples_unchanged": true,
+  "CSV_verified": true,
+  "source_pdf_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+  "all_14_pending": true,
+  "full_text_complete_count": 0,
+  "baseline_commit": "aa08b3a6ab5b6360114aefbedce5f1ad3a8a5d3e",
+  "read_text_physical_pages": [
+    2,
+    6,
+    7
+  ],
+  "visually_read_drawing_pages": [
+    9,
+    10,
+    11
+  ],
+  "full_text_rechecked": false,
+  "formal_statistics_allowed": false,
+  "final_report_ready": false
+}

@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-01T13:05:58.324892+08:00",
+  "updated_at": "2026-10-01T13:14:45.934445+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -2366,9 +2366,177 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115637570A-capture-tubular_claim3-20261001",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "tubular_claim3",
+              "stage": "capture",
+              "technical_feature": "筒状网沿轴线周向设置，螺杆在网内，上部叶片与网的间隙大于下部；原权3的构造不能被半筒图6替代。",
+              "object": "筒状过滤网122内的微纤维",
+              "start": "进水/滤网或传感器",
+              "end": "对应滤网/正常出水或电机动作",
+              "boundary": "过滤器筒体121各自实施方式",
+              "operation_order": [
+                "按相应原文的构造/运行路径读取"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "权3→2→1；图3/4/5",
+              "evidence": [
+                {
+                  "locator": "HTML #cl0003；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "cl0003",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "3.根据权利要求2所述的一种微纤维过滤器，其特征在于： 所述过滤网(122)为筒状结构，沿所述过滤器筒体(121)中轴线的延伸方向周向设置，所述螺杆(125)插设在过滤网(122)内； 所述旋转叶片(126)与靠近所述过滤器筒体(121)上部侧壁(128)的过滤网(122)之间的间隙大于所述旋转叶片(126)与靠近所述过滤器筒体(121)下部侧壁(129)的过滤网(122)之间的间隙。"
+                },
+                {
+                  "locator": "HTML #p0060；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0060",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "在一些实施方式中，所述过滤网122为筒状结构，沿所述过滤器筒体121中轴线的延伸方向周向设置，所述螺杆125插设在过滤网122内；所述旋转叶片与靠近所述过滤器筒体121上部侧壁128的过滤网122之间的间隙130大于所述旋转叶片与靠近所述过滤器筒体121下部侧壁129的过滤网122之间的间隙130。"
+                }
+              ],
+              "interpretation": "筒状网沿轴线周向设置，螺杆在网内，上部叶片与网的间隙大于下部；原权3的构造不能被半筒图6替代。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:14:45.934445+08:00",
+              "old_value": null,
+              "new_value": "筒状网沿轴线周向设置，螺杆在网内，上部叶片与网的间隙大于下部；原权3的构造不能被半筒图6替代。",
+              "change_reason": "原A权页/实施方式/图页定向复核；保留分支区别和未读字段",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 10,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-10.png",
+                "image_sha256": "453399fa5832a04865a2ad65e860459ac8a41b00f9e1113dc32ae0effd09d198",
+                "checked_at": "2026-10-01T13:14:45.934445+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原PDF物理2、6—7页和9—11图页；未宣称全文读取"
+              }
+            },
+            {
+              "observation_id": "CN115637570A-capture-open_upper_claim4-20261001",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "open_upper_claim4",
+              "stage": "capture",
+              "technical_feature": "权4及[0059]—[0061]上部沿轴线敞开，图6为半筒形；保留下部过滤载体和上部较大流动空间，不能与完整筒状权3当成相同几何。",
+              "object": "下部半筒网122截留微纤维",
+              "start": "进水/滤网或传感器",
+              "end": "对应滤网/正常出水或电机动作",
+              "boundary": "过滤器筒体121各自实施方式",
+              "operation_order": [
+                "按相应原文的构造/运行路径读取"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "权4→3→2→1；图2/6",
+              "evidence": [
+                {
+                  "locator": "HTML #cl0004；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "cl0004",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "4.根据权利要求3所述的一种微纤维过滤器，其特征在于： 所述过滤网(122)靠近所述过滤器筒体(121)上部侧壁(128)的部分，沿所述过滤器筒体(121)中轴线的延伸方向敞开设置； 所述旋转叶片(126)与所述过滤器筒体(121)上部侧壁(128)之间的间隙大于所述旋转叶片(126)与靠近所述过滤器筒体(121)下部侧壁(129)的过滤网(122)之间的间隙。"
+                },
+                {
+                  "locator": "HTML #p0064；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0064",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "在一些实施方式中，所述过滤网122靠近所述过滤器筒体121上部侧壁128的部分，沿所述过滤器筒体122中轴线的延伸方向敞开设置；"
+                },
+                {
+                  "locator": "HTML #p0066；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0066",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "在上述方案中，如图2和图6所示，过滤网设置成半筒状，将所述过滤网靠近所述过滤器筒体上部侧壁的部分，沿所述过滤器筒体中轴线的延伸方向敞开设置，可以为滤器筒体的上部区域提供更大的流动空间，能够更好的稀释微纤维的浓度，延缓下部过滤网上微纤维的沉积。"
+                }
+              ],
+              "interpretation": "权4及[0059]—[0061]上部沿轴线敞开，图6为半筒形；保留下部过滤载体和上部较大流动空间，不能与完整筒状权3当成相同几何。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:14:45.934445+08:00",
+              "old_value": null,
+              "new_value": "权4及[0059]—[0061]上部沿轴线敞开，图6为半筒形；保留下部过滤载体和上部较大流动空间，不能与完整筒状权3当成相同几何。",
+              "change_reason": "原A权页/实施方式/图页定向复核；保留分支区别和未读字段",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 11,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-11.png",
+                "image_sha256": "e6292001ea40b45a71ef067accd0c17a2c56248e5416b4545ae66e9861e8bd67",
+                "checked_at": "2026-10-01T13:14:45.934445+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原PDF物理2、6—7页和9—11图页；未宣称全文读取"
+              }
+            },
+            {
+              "observation_id": "CN115637570A-capture-local_inlet_open_claim5-20261001",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "local_inlet_open_claim5",
+              "stage": "capture",
+              "technical_feature": "权5只使靠上部进水口的部分沿轴线敞开；不是权4全上部敞开的同一限定，二者为不同从属分支。原件未给孔径或量化分级截留数据。",
+              "object": "进水口附近网区域的微纤维",
+              "start": "进水/滤网或传感器",
+              "end": "对应滤网/正常出水或电机动作",
+              "boundary": "过滤器筒体121各自实施方式",
+              "operation_order": [
+                "按相应原文的构造/运行路径读取"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "权5→3→2→1；不依附权4",
+              "evidence": [
+                {
+                  "locator": "HTML #cl0005；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "cl0005",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "5.根据权利要求3所述的一种微纤维过滤器，其特征在于： 所述过滤网(122)靠近所述过滤器筒体(121)上部侧壁(128)进水口(123)的部分，沿所述过滤器筒体(121)中轴线的延伸方向敞开设置。"
+                },
+                {
+                  "locator": "HTML #p0067；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0067",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "在一些实施方式中，所述过滤网122靠近所述过滤器筒体121上部侧壁128进水口123的部分，沿所述过滤器筒体121中轴线的延伸方向敞开设置。。"
+                }
+              ],
+              "interpretation": "权5只使靠上部进水口的部分沿轴线敞开；不是权4全上部敞开的同一限定，二者为不同从属分支。原件未给孔径或量化分级截留数据。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:14:45.934445+08:00",
+              "old_value": null,
+              "new_value": "权5只使靠上部进水口的部分沿轴线敞开；不是权4全上部敞开的同一限定，二者为不同从属分支。原件未给孔径或量化分级截留数据。",
+              "change_reason": "原A权页/实施方式/图页定向复核；保留分支区别和未读字段",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 10,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-10.png",
+                "image_sha256": "453399fa5832a04865a2ad65e860459ac8a41b00f9e1113dc32ae0effd09d198",
+                "checked_at": "2026-10-01T13:14:45.934445+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原PDF物理2、6—7页和9—11图页；未宣称全文读取"
+              }
+            }
+          ],
           "prior_field": null
         },
         "cleaning": {
@@ -2621,9 +2789,63 @@
         },
         "liquid_route": {
           "label": "液体路径",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115637570A-liquid_route-normal_lower_drain_channel-20261001",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "normal_lower_drain_channel",
+              "stage": "liquid_route",
+              "technical_feature": "进水123连网内，过滤后经下部滤网与筒体下壁之间的排水流道到出口124；这是正常滤后水流，不是专用维护腔排空、固体脱水或过滤袋已排干。",
+              "object": "滤后水",
+              "start": "进水/滤网或传感器",
+              "end": "对应滤网/正常出水或电机动作",
+              "boundary": "过滤器筒体121各自实施方式",
+              "operation_order": [
+                "按相应原文的构造/运行路径读取"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "[0056]/[0058]图3运行流路",
+              "evidence": [
+                {
+                  "locator": "HTML #p0061；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0061",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "如图3所示，进水口与过滤网的内部连通，水流从进水口123流入到过滤网122中进行过滤后，沿着箭头指示的方向从出水口124流出。"
+                },
+                {
+                  "locator": "HTML #p0063；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0063",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以理解的是，靠近所述过滤器筒体121下部侧壁129的过滤网122与过滤器筒体121下部侧壁129之间设有排水流道。过滤后的水经排水流道从排水口流出。"
+                }
+              ],
+              "interpretation": "进水123连网内，过滤后经下部滤网与筒体下壁之间的排水流道到出口124；这是正常滤后水流，不是专用维护腔排空、固体脱水或过滤袋已排干。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:14:45.934445+08:00",
+              "old_value": null,
+              "new_value": "进水123连网内，过滤后经下部滤网与筒体下壁之间的排水流道到出口124；这是正常滤后水流，不是专用维护腔排空、固体脱水或过滤袋已排干。",
+              "change_reason": "原A权页/实施方式/图页定向复核；保留分支区别和未读字段",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 10,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-10.png",
+                "image_sha256": "453399fa5832a04865a2ad65e860459ac8a41b00f9e1113dc32ae0effd09d198",
+                "checked_at": "2026-10-01T13:14:45.934445+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原PDF物理2、6—7页和9—11图页；未宣称全文读取"
+              }
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "进水口进入滤网内部，过滤水经筒下部与网之间排水流道至出水口；收集物受水流辅助迁移。",
@@ -2868,9 +3090,79 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115637570A-state_switch-optional_sensor_motor-20261001",
+              "publication_id": "CN115637570A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "optional_sensor_motor",
+              "stage": "state_switch",
+              "technical_feature": "可选传感器/控制器按微纤维较多启动电机，较少停机，可间歇转动；列举不同传感器或组合，没有统一阈值或已验证自动完全清空状态。",
+              "object": "沉积微纤维量及电机131",
+              "start": "进水/滤网或传感器",
+              "end": "对应滤网/正常出水或电机动作",
+              "boundary": "过滤器筒体121各自实施方式",
+              "operation_order": [
+                "按相应原文的构造/运行路径读取"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_scope",
+              "claim_dependency": "说明书[0066]—[0069]；不加到独立权1",
+              "evidence": [
+                {
+                  "locator": "HTML #p0071；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0071",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "在一些实施方式中，所述微纤维过滤器12还包括传感器，安装在所述过滤器筒体121内，用于检测所述过滤网122上的微纤维含量；"
+                },
+                {
+                  "locator": "HTML #p0072；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0072",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "控制器，与所述传感器和驱动电机131电连接，用于控制驱动电机131的运转。"
+                },
+                {
+                  "locator": "HTML #p0073；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0073",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "在上述方案中，当传感器检测到微纤维过滤器12中微纤维较多时，控制器控制驱动电机131开始运转，此时螺杆125按照顺时针方向旋转，使螺旋叶片126的旋进方向与过滤器筒体121内水流的流动方向相同，以将过滤网122上的微纤维刮入到微纤维收集装置127中。当传感器检测到微纤维过滤器12中微纤维较少时，控制器控制驱动电机131停止运转。可以理解的是，驱动电机131可以间歇性地转动。"
+                },
+                {
+                  "locator": "HTML #p0074；原PDF权页2/说明书物理6—7页",
+                  "html_anchor": "p0074",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html",
+                  "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                  "source_role": "description",
+                  "evidence_excerpt": "可以理解的是，传感器可以为压力传感器、光学传感器、浊度计传感器、颜色变化指示传感器、沉淀分析传感器、通量传感器、红外线传感器等其它传感器，或者是任意组合。"
+                }
+              ],
+              "interpretation": "可选传感器/控制器按微纤维较多启动电机，较少停机，可间歇转动；列举不同传感器或组合，没有统一阈值或已验证自动完全清空状态。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-01T13:14:45.934445+08:00",
+              "old_value": null,
+              "new_value": "可选传感器/控制器按微纤维较多启动电机，较少停机，可间歇转动；列举不同传感器或组合，没有统一阈值或已验证自动完全清空状态。",
+              "change_reason": "原A权页/实施方式/图页定向复核；保留分支区别和未读字段",
+              "pdf_visual_crosscheck": {
+                "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+                "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+                "physical_page": 9,
+                "image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-09.png",
+                "image_sha256": "6bb2dd87ed0d266621ced902ac52431a5a679274854a95aaf0c8520452f1a882",
+                "checked_at": "2026-10-01T13:14:45.934445+08:00",
+                "verification_method": "manual_visual_readback_original_Chinese",
+                "scope": "原PDF物理2、6—7页和9—11图页；未宣称全文读取"
+              }
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "可选传感器检测积聚量，控制器启停电机进行间歇旋转清理；不据此推断取袋时阀门联锁。",
@@ -3112,7 +3404,28 @@
             "field": "seals_connections",
             "at": "2026-09-29T23:13:03.436332+08:00"
           }
-        ]
+        ],
+        "original_A_targeted_readback": {
+          "checked_at": "2026-10-01T13:14:45.934445+08:00",
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+          "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+          "text_physical_pages_read": [
+            2,
+            6,
+            7
+          ],
+          "drawing_pages_read": [
+            9,
+            10,
+            11
+          ],
+          "full_text_rechecked": false,
+          "new_fields": [
+            "capture",
+            "liquid_route",
+            "state_switch"
+          ]
+        }
       }
     },
     {

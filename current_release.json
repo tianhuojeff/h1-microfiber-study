@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-01T13:05:58.324892+08:00",
+  "updated_at": "2026-10-01T13:14:45.934445+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "P2 full-text and unfilled field review pending",
@@ -22,10 +22,10 @@
   "no_delegation": false,
   "delegation_authority": "2026-10-01 用户在10月1日总控明确要求：开始下放6.1sol高做H1，严格执行规则。覆盖旧本人执行与H1研究暂停；不覆盖壁纸暂停或周额度剩余60%停止线。",
   "technical_review_index": "corrections/20260929_r1/evidence/技术复核入口.md",
-  "current_observations": 81,
+  "current_observations": 86,
   "full_text_review_complete": false,
   "execution_status": "in_progress_delegated_P2",
-  "weekly_used_percent": 14,
-  "weekly_remaining_percent": 86,
-  "master_sha256": "e049908b8677defd31775ff2678588ee76f422404cf1bd6b0fcb913fe824970a"
+  "weekly_used_percent": 15,
+  "weekly_remaining_percent": 85,
+  "master_sha256": "06d74a20ba2cdefffa3c69fcea8e16d0726fd6b94345643dcc3a5cdfb84508e4"
 }
