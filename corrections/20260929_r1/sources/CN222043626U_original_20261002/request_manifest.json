@@ -1,0 +1,17 @@
+{
+  "label": "CN222043626U_original",
+  "requested_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+  "started_at": "2026-10-02T11:54:38.705962+08:00",
+  "timeout_seconds": 25,
+  "access_control_bypass": false,
+  "purpose": "necessary original PDF retrieval only",
+  "status": 200,
+  "final_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+  "content_type": "application/pdf",
+  "content_length_header": "869902",
+  "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\work_logs\\artifacts\\controller-20261002\\PDF补源\\CN222043626U_original\\response.pdf",
+  "bytes": 869902,
+  "sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+  "pdf_magic": true,
+  "ended_at": "2026-10-02T11:54:39.961754+08:00"
+}

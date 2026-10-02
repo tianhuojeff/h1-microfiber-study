@@ -34,6 +34,14 @@
   "no_delegation": false,
   "delegation_authority": "2026-10-01 用户在10月1日总控明确要求：开始下放6.1sol高做H1，严格执行规则。覆盖旧本人执行与H1研究暂停；不覆盖壁纸暂停或周额度剩余60%停止线。",
   "technical_review_index": "corrections/20260929_r1/evidence/技术复核入口.md",
+  "new_original_source_receipt": {
+    "publication": "CN222043626U",
+    "path": "patents/CN222043626U.pdf",
+    "sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+    "source_QA": "corrections/20260929_r1/QA/CN222043626U_original_source_20261002.json",
+    "technical_review_complete": false,
+    "current_legal_status_verified": false
+  },
   "current_observations": 137,
   "full_text_review_complete": false,
   "execution_status": "in_progress_delegated_P2",

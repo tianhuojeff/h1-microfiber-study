@@ -1,0 +1,48 @@
+{
+  "verified": true,
+  "baseline": "9c60e12970692d273b46e3a92e269f52045e0d1f",
+  "original_pdf_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+  "original_pdf_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+  "bytes": 869902,
+  "physical_pages": 14,
+  "all_14_pages_parsed": true,
+  "extracted_page_lengths": [
+    659,
+    1166,
+    1117,
+    1231,
+    1601,
+    1569,
+    1719,
+    1331,
+    40,
+    39,
+    39,
+    39,
+    39,
+    39
+  ],
+  "cover_identity_verified": true,
+  "executor_visual_pages": [
+    1
+  ],
+  "drawings_visual_checked": false,
+  "page_partition_cover_claims_description_drawings": [
+    1,
+    1,
+    6,
+    6
+  ],
+  "original_download_manifest_sha256": "426f7adbfe0987877aee8e0d3ce78aa3fcf41eebe48f362059c5e62f3f7b9c73",
+  "saved_html_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+  "original_download_url_matches_saved_html": true,
+  "cover_image_sha256": "dfbb0bb1474416fb0b5aad34a785ccb61ac0987f56eec25b385f6320f19f71c7",
+  "technical_master_and_coverage_bytes_unchanged": true,
+  "all_137_observations_unchanged": true,
+  "all_14_pending": true,
+  "current_legal_status_verified": false,
+  "full_text_complete_count": 0,
+  "formal_statistics_allowed": false,
+  "limits": "Source adoption/integrity only; no complete technical review or maintenance/legal validity conclusion.",
+  "checked_at": "2026-10-02T12:10:13.422503+08:00"
+}

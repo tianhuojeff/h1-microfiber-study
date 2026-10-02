@@ -1,0 +1,36 @@
+{
+  "verified_at": "2026-10-02T11:55:09.437633+08:00",
+  "source_file": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\work_logs\\artifacts\\controller-20261002\\PDF补源\\CN222043626U_original\\response.pdf",
+  "bytes": 869902,
+  "sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+  "pages": 14,
+  "all_pages_parsed": true,
+  "page_text_lengths": [
+    659,
+    1166,
+    1117,
+    1231,
+    1601,
+    1569,
+    1719,
+    1331,
+    40,
+    39,
+    39,
+    39,
+    39,
+    39
+  ],
+  "checks": {
+    "magic": true,
+    "pages_14": true,
+    "cover_publication": true,
+    "cover_application": true,
+    "cover_title": true,
+    "cover_date": true,
+    "last_page_publication": true,
+    "page_count_matches_cover": true
+  },
+  "all_checks_passed": true,
+  "limitations": "Source/integrity check only. Not current legal status or complete technical review."
+}
