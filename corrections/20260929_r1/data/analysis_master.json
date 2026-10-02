@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T12:19:47.648477+08:00",
+  "updated_at": "2026-10-02T12:27:56.556838+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -4388,9 +4388,82 @@
         },
         "cleaning": {
           "label": "清理／脱离",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_U_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-cleaning-original_U_scope-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "original_U_complete_scope_distinct_objects",
+              "stage": "cleaning",
+              "technical_feature": "原U权1—10、[0001]—[0072]及图1—7完整范围：0059/0063支持取盒/取网以清理的目的与界面，但未定位具体洗、刷、反洗或使固体脱离滤面的动作程序。开盖取盒不自动证明滤面清理再生已实现，具体清理机制保留未知，不填0。",
+              "object": "过滤网330表面截留物的清除动作",
+              "start": "原件明确对象/范围",
+              "end": "该具体功能未定位，未知不填0",
+              "boundary": "原U完整技术范围；不同盒/网形态可选，维护目的与具体动作分开",
+              "operation_order": [],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_original_U_scope",
+              "availability_judgment": "unknown",
+              "claim_dependency": "全部权1—10已读；权2→1、3→2、4→1-3之一、5/6/9→4、7/8→6、10→1-9之一，不跨从属强合并",
+              "evidence": [
+                {
+                  "locator": "原U PDF物理7页，说明书5/6页，[0059]；未定位结论范围为权1—10/0001—0072/图1—7",
+                  "pdf_physical_page": 7,
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+                  "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+                  "source_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "evidence_excerpt": "当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开",
+                  "extraction_note": "Whitespace removed only; excerpt supplies object boundary, absence limited to the complete original U technical scope.",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-07.png",
+                  "page_image_sha256": "9098af0fbea0a69e7ca6c2456ad7f732c44104b4c347e25bf55f9380d5b67af6",
+                  "verified_at": "2026-10-02T12:27:56.556838+08:00"
+                }
+              ],
+              "interpretation": "原U权1—10、[0001]—[0072]及图1—7完整范围：0059/0063支持取盒/取网以清理的目的与界面，但未定位具体洗、刷、反洗或使固体脱离滤面的动作程序。开盖取盒不自动证明滤面清理再生已实现，具体清理机制保留未知，不填0。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T12:27:56.556838+08:00",
+              "old_value": {
+                "judgment": "unresolved",
+                "summary": "明确取盒/取网后进行人工清理的维护安排；未披露自动清网机构，具体除渣动作仍未限定。",
+                "evidence": [
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0052]",
+                    "html_id": "p0057",
+                    "quote": "本申请实施例提供的过滤组件300和洗衣机1中，通过在洗衣机1的排水管200路上设置过滤组件300，可以实现对微塑料的过滤与收集，减少微塑料对生态的污染；在壳体310中设置收集盒320，可以在清洗过滤网330时只拆出收集盒320，无需将壳体310与排水管200进行拆卸，既方便清洁，又能提高壳体310与排水管200连接的稳定性和可靠性，减少漏水情况的发生。",
+                    "evidence_type": "description"
+                  },
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0059]",
+                    "html_id": "p0064",
+                    "quote": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳313之间增加密封圈来实现。",
+                    "evidence_type": "description"
+                  },
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0063]",
+                    "html_id": "p0068",
+                    "quote": "示例性的，收集盒320包括盒体323和安装管324。盒体323是收集盒320的主要组成部分，盒体323可以适应主壳313的形状而进行设计，比如盒体323可以为方柱形、圆柱形等。至少一个过滤网330设置于盒体323内，盒体323可以设置有门盖(图中未示意出)，以便于将其内部的过滤网330取出进行清理。",
+                    "evidence_type": "description"
+                  }
+                ],
+                "unknown_reason": "人工清理意图明确，但主过滤表面的具体去除动作待核，不能编码自动清理。",
+                "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+              },
+              "new_value": "原U权1—10、[0001]—[0072]及图1—7完整范围：0059/0063支持取盒/取网以清理的目的与界面，但未定位具体洗、刷、反洗或使固体脱离滤面的动作程序。开盖取盒不自动证明滤面清理再生已实现，具体清理机制保留未知，不填0。",
+              "change_reason": "新取得原U全文及6图页复核后补空字段；原值与未知保留，资格不放行。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "明确取盒/取网后进行人工清理的维护安排；未披露自动清网机构，具体除渣动作仍未限定。",
@@ -4426,9 +4499,82 @@
         },
         "transfer": {
           "label": "转移",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_U_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-transfer-original_U_scope-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "original_U_complete_scope_distinct_objects",
+              "stage": "transfer",
+              "technical_feature": "原U完整范围：微塑料直接在收集盒内330截留，0048/0059的载物盒取出对应移出，未定位将固体从330剥离再转储至另一独立盒/袋/腔的起终点或动力。水进入盒过滤属于截留液路，不充作脱离后固体转移；不否认含物组件可取出。",
+              "object": "截留微塑料从330到另独立承载容器的转移",
+              "start": "原件明确对象/范围",
+              "end": "该具体功能未定位，未知不填0",
+              "boundary": "原U完整技术范围；不同盒/网形态可选，维护目的与具体动作分开",
+              "operation_order": [],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_original_U_scope",
+              "availability_judgment": "unknown",
+              "claim_dependency": "全部权1—10已读；权2→1、3→2、4→1-3之一、5/6/9→4、7/8→6、10→1-9之一，不跨从属强合并",
+              "evidence": [
+                {
+                  "locator": "原U PDF物理5页，说明书3/6页，[0048]；未定位结论范围为权1—10/0001—0072/图1—7",
+                  "pdf_physical_page": 5,
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+                  "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+                  "source_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "evidence_excerpt": "收集盒320用于收集过滤出的微塑料，以便于统一进行清理",
+                  "extraction_note": "Whitespace removed only; excerpt supplies object boundary, absence limited to the complete original U technical scope.",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-05.png",
+                  "page_image_sha256": "facb6564def0f383240b3ff1a89fb4135bb5baf9b8674339dacdb21c5e1431f4",
+                  "verified_at": "2026-10-02T12:27:56.556838+08:00"
+                }
+              ],
+              "interpretation": "原U完整范围：微塑料直接在收集盒内330截留，0048/0059的载物盒取出对应移出，未定位将固体从330剥离再转储至另一独立盒/袋/腔的起终点或动力。水进入盒过滤属于截留液路，不充作脱离后固体转移；不否认含物组件可取出。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T12:27:56.556838+08:00",
+              "old_value": {
+                "judgment": "unresolved",
+                "summary": "微塑料在盒内过滤网上就地拦截；取盒是维护移出，未在所核段找到从主滤面到另一独立收集位置的转移机构。",
+                "evidence": [
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "权利要求1",
+                    "html_id": "zh-cl0001",
+                    "quote": "1.一种过滤组件，应用于洗衣机中，所述洗衣机包括可拆卸连接的本体和排水管，所述过滤组件安装于所述排水管上；其特征在于，所述过滤组件包括： 壳体，设置有相对的第一进水口和第一出水口； 收集盒，设置于所述壳体内，且与所述壳体可拆卸连接，所述收集盒对应所述第一进水口设有第二进水口，对应所述第一出水口设置有第二出水口； 至少一个过滤网，设置于所述收集盒内，且每一所述过滤网均正对所述第二进水口和所述第二出水口，以拦截进入所述收集盒的微塑料。",
+                    "evidence_type": "claim"
+                  },
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0048]",
+                    "html_id": "p0053",
+                    "quote": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集盒320进行拆出。示例性的，收集盒320对应第一进水口311设有第二进水口321，对应第一出水口312设有第二出水口322，以便于排水管200内的水进入收集盒320进行过滤。",
+                    "evidence_type": "description"
+                  },
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0050]",
+                    "html_id": "p0055",
+                    "quote": "至少一个过滤网330设置在收集盒320内，且每一过滤网330均正对第二进水口321和第二出水口322，以拦截进入收集盒320的微塑料。",
+                    "evidence_type": "description"
+                  }
+                ],
+                "unknown_reason": "进水带颗粒入盒不等同截留后独立转移。",
+                "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+              },
+              "new_value": "原U完整范围：微塑料直接在收集盒内330截留，0048/0059的载物盒取出对应移出，未定位将固体从330剥离再转储至另一独立盒/袋/腔的起终点或动力。水进入盒过滤属于截留液路，不充作脱离后固体转移；不否认含物组件可取出。",
+              "change_reason": "新取得原U全文及6图页复核后补空字段；原值与未知保留，资格不放行。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "微塑料在盒内过滤网上就地拦截；取盒是维护移出，未在所核段找到从主滤面到另一独立收集位置的转移机构。",
@@ -4464,9 +4610,57 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_U_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-chamber_drainage-original_U_scope-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "original_U_complete_scope_distinct_objects",
+              "stage": "chamber_drainage",
+              "technical_feature": "原U完整范围未定位维护前专门排空腔内游离液的动作、出口和终点。311/312、321/322及可选网状盒是普通过滤液路，0059开盖/取盒没有先排空条件；不能从正常出水推完全无残液。限定原件范围，保持未知。",
+              "object": "维护前壳体或盒内游离液",
+              "start": "原件明确对象/范围",
+              "end": "该具体功能未定位，未知不填0",
+              "boundary": "原U完整技术范围；不同盒/网形态可选，维护目的与具体动作分开",
+              "operation_order": [],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_original_U_scope",
+              "availability_judgment": "unknown",
+              "claim_dependency": "全部权1—10已读；权2→1、3→2、4→1-3之一、5/6/9→4、7/8→6、10→1-9之一，不跨从属强合并",
+              "evidence": [
+                {
+                  "locator": "原U PDF物理8页，说明书6/6页，[0068]；未定位结论范围为权1—10/0001—0072/图1—7",
+                  "pdf_physical_page": 8,
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+                  "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+                  "source_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "evidence_excerpt": "通过第二进水口321和第二出水口322实现进水过滤与排出",
+                  "extraction_note": "Whitespace removed only; excerpt supplies object boundary, absence limited to the complete original U technical scope.",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-08.png",
+                  "page_image_sha256": "69bc886802eecf3164915054a363d54876e29acf2e7425c1bd71d0c3e8591704",
+                  "verified_at": "2026-10-02T12:27:56.556838+08:00"
+                }
+              ],
+              "interpretation": "原U完整范围未定位维护前专门排空腔内游离液的动作、出口和终点。311/312、321/322及可选网状盒是普通过滤液路，0059开盖/取盒没有先排空条件；不能从正常出水推完全无残液。限定原件范围，保持未知。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T12:27:56.556838+08:00",
+              "old_value": {
+                "judgment": "unresolved",
+                "summary": "所核维护段未给拆盖取盒前排空腔内液体的程序。",
+                "evidence": [],
+                "unknown_reason": "正常排水通路不等同维护排空。",
+                "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+              },
+              "new_value": "原U完整范围未定位维护前专门排空腔内游离液的动作、出口和终点。311/312、321/322及可选网状盒是普通过滤液路，0059开盖/取盒没有先排空条件；不能从正常出水推完全无残液。限定原件范围，保持未知。",
+              "change_reason": "新取得原U全文及6图页复核后补空字段；原值与未知保留，资格不放行。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "所核维护段未给拆盖取盒前排空腔内液体的程序。",
@@ -4477,9 +4671,74 @@
         },
         "solids_dewatering": {
           "label": "固体脱水",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_U_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-solids_dewatering-original_U_scope-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "original_U_complete_scope_distinct_objects",
+              "stage": "solids_dewatering",
+              "technical_feature": "原U完整范围未定位对已截留固体夹带/附着液体的挤压、离心或其他脱水步骤；0050过滤拦截及0068网孔通水不能转成滤渣已脱水。0038离心力/烘干对象为洗衣滚筒与衣物，非截留固体；残余含水率无实测支持，未知不填0。",
+              "object": "已收集微塑料附着或夹带液体",
+              "start": "原件明确对象/范围",
+              "end": "该具体功能未定位，未知不填0",
+              "boundary": "原U完整技术范围；不同盒/网形态可选，维护目的与具体动作分开",
+              "operation_order": [],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_original_U_scope",
+              "availability_judgment": "unknown",
+              "claim_dependency": "全部权1—10已读；权2→1、3→2、4→1-3之一、5/6/9→4、7/8→6、10→1-9之一，不跨从属强合并",
+              "evidence": [
+                {
+                  "locator": "原U PDF物理6页，说明书4/6页，[0050]；未定位结论范围为权1—10/0001—0072/图1—7",
+                  "pdf_physical_page": 6,
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+                  "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+                  "source_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "evidence_excerpt": "以拦截进入收集盒320的微塑料",
+                  "extraction_note": "Whitespace removed only; excerpt supplies object boundary, absence limited to the complete original U technical scope.",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-06.png",
+                  "page_image_sha256": "9807ba6e5a32cb101fa94ffc1108b76b7523a6044afceaa6a9632d9554a5754d",
+                  "verified_at": "2026-10-02T12:27:56.556838+08:00"
+                }
+              ],
+              "interpretation": "原U完整范围未定位对已截留固体夹带/附着液体的挤压、离心或其他脱水步骤；0050过滤拦截及0068网孔通水不能转成滤渣已脱水。0038离心力/烘干对象为洗衣滚筒与衣物，非截留固体；残余含水率无实测支持，未知不填0。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T12:27:56.556838+08:00",
+              "old_value": {
+                "judgment": "unresolved",
+                "summary": "收集盒网孔及双滤网用于过滤；当前所核段没有独立降低已收集固体含水量的操作说明。",
+                "evidence": [
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0049]",
+                    "html_id": "p0054",
+                    "quote": "其中，水进入收集盒320的方式并不限于上述第二进水口321和第二出水口322，还可以将收集盒320整体设置为具有网孔的结构，从而既可以方便水进入收集盒320，又可以实现对水的多重过滤效果，提高微塑料的收集效率。",
+                    "evidence_type": "description"
+                  },
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0068]",
+                    "html_id": "p0073",
+                    "quote": "需要说明的是，本申请实施例的收集盒320既可以是上述封闭的盒状结构，通过第二进水口321和第二出水口322实现进水过滤与排出，收集盒320还可以是具有网孔的网状结构，从而可以实现对微塑料的多重过滤效果。",
+                    "evidence_type": "description"
+                  }
+                ],
+                "unknown_reason": "不能仅凭滤网/网孔归为脱水。",
+                "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+              },
+              "new_value": "原U完整范围未定位对已截留固体夹带/附着液体的挤压、离心或其他脱水步骤；0050过滤拦截及0068网孔通水不能转成滤渣已脱水。0038离心力/烘干对象为洗衣滚筒与衣物，非截留固体；残余含水率无实测支持，未知不填0。",
+              "change_reason": "新取得原U全文及6图页复核后补空字段；原值与未知保留，资格不放行。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "收集盒网孔及双滤网用于过滤；当前所核段没有独立降低已收集固体含水量的操作说明。",
@@ -5182,16 +5441,115 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_U_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-performance-original_U_scope-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "original_U_complete_scope_distinct_objects",
+              "stage": "performance",
+              "technical_feature": "0054/0055齿状增加接触面积、降低堵塞和延长清理间隔，以及0056大小孔双重过滤、0052/0071便利和减少漏水均为原文效果主张。完整原U未定位本装置效率/压差/清理时长/漏水/含水率实测、样本量、误差或独立验证。0002的35%为背景引用，非本机捕获率；第一网孔大于或等于第二是设计关系，非实测粒径。",
+              "object": "可选齿状滤网的堵塞/清理间隔等文本效果",
+              "start": "原件明确对象/范围",
+              "end": "效果主张未验证",
+              "boundary": "原U完整技术范围；不同盒/网形态可选，维护目的与具体动作分开",
+              "operation_order": [],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_original_U_scope",
+              "availability_judgment": "text_claim_only",
+              "claim_dependency": "全部权1—10已读；权2→1、3→2、4→1-3之一、5/6/9→4、7/8→6、10→1-9之一，不跨从属强合并",
+              "evidence": [
+                {
+                  "locator": "原U PDF物理6页，说明书4/6页，[0054]；未定位结论范围为权1—10/0001—0072/图1—7",
+                  "pdf_physical_page": 6,
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+                  "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+                  "source_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "evidence_excerpt": "可以减小第一过滤网331和/或第二过滤网332堵塞的速度",
+                  "extraction_note": "Whitespace removed only; excerpt supplies object boundary, absence limited to the complete original U technical scope.",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-06.png",
+                  "page_image_sha256": "9807ba6e5a32cb101fa94ffc1108b76b7523a6044afceaa6a9632d9554a5754d",
+                  "verified_at": "2026-10-02T12:27:56.556838+08:00"
+                }
+              ],
+              "interpretation": "0054/0055齿状增加接触面积、降低堵塞和延长清理间隔，以及0056大小孔双重过滤、0052/0071便利和减少漏水均为原文效果主张。完整原U未定位本装置效率/压差/清理时长/漏水/含水率实测、样本量、误差或独立验证。0002的35%为背景引用，非本机捕获率；第一网孔大于或等于第二是设计关系，非实测粒径。",
+              "performance_status": "text_claim_only",
+              "verified_at": "2026-10-02T12:27:56.556838+08:00",
+              "old_value": null,
+              "new_value": "0054/0055齿状增加接触面积、降低堵塞和延长清理间隔，以及0056大小孔双重过滤、0052/0071便利和减少漏水均为原文效果主张。完整原U未定位本装置效率/压差/清理时长/漏水/含水率实测、样本量、误差或独立验证。0002的35%为背景引用，非本机捕获率；第一网孔大于或等于第二是设计关系，非实测粒径。",
+              "change_reason": "新取得原U全文及6图页复核后补空字段；原值与未知保留，资格不放行。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": null
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_U_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-endpoint-original_U_scope-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "original_U_complete_scope_distinct_objects",
+              "stage": "endpoint",
+              "technical_feature": "原U完整范围0048/0059/0063有统一清理及取出目的，但未定位固体交垃圾、回收、销毁或安全环境终点。0044下水道/回收供水是滤后水液体路径，不能补成截留固体后续处置；移出不等于安全最终处置，未知不填0。",
+              "object": "取出后截留微塑料或已用滤网的最终去向",
+              "start": "原件明确对象/范围",
+              "end": "该具体功能未定位，未知不填0",
+              "boundary": "原U完整技术范围；不同盒/网形态可选，维护目的与具体动作分开",
+              "operation_order": [],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_original_U_scope",
+              "availability_judgment": "unknown",
+              "claim_dependency": "全部权1—10已读；权2→1、3→2、4→1-3之一、5/6/9→4、7/8→6、10→1-9之一，不跨从属强合并",
+              "evidence": [
+                {
+                  "locator": "原U PDF物理5页，说明书3/6页，[0048]；未定位结论范围为权1—10/0001—0072/图1—7",
+                  "pdf_physical_page": 5,
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+                  "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+                  "source_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "evidence_excerpt": "以便于统一进行清理",
+                  "extraction_note": "Whitespace removed only; excerpt supplies object boundary, absence limited to the complete original U technical scope.",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-05.png",
+                  "page_image_sha256": "facb6564def0f383240b3ff1a89fb4135bb5baf9b8674339dacdb21c5e1431f4",
+                  "verified_at": "2026-10-02T12:27:56.556838+08:00"
+                }
+              ],
+              "interpretation": "原U完整范围0048/0059/0063有统一清理及取出目的，但未定位固体交垃圾、回收、销毁或安全环境终点。0044下水道/回收供水是滤后水液体路径，不能补成截留固体后续处置；移出不等于安全最终处置，未知不填0。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T12:27:56.556838+08:00",
+              "old_value": {
+                "judgment": "unresolved",
+                "summary": "可拆盒便于统一清理，但所核段未给盒内纤维清理后的最终去向。",
+                "evidence": [
+                  {
+                    "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN222043626U.html",
+                    "source_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
+                    "locator": "说明书[0048]",
+                    "html_id": "p0053",
+                    "quote": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集盒320进行拆出。示例性的，收集盒320对应第一进水口311设有第二进水口321，对应第一出水口312设有第二出水口322，以便于排水管200内的水进入收集盒320进行过滤。",
+                    "evidence_type": "description"
+                  }
+                ],
+                "unknown_reason": "不能将可拆出清理扩展为环保最终处置实证。",
+                "review_scope": "本版本权利要求及本记录引用的说明书段落；未引用实施例未作穷尽性否定。"
+              },
+              "new_value": "原U完整范围0048/0059/0063有统一清理及取出目的，但未定位固体交垃圾、回收、销毁或安全环境终点。0044下水道/回收供水是滤后水液体路径，不能补成截留固体后续处置；移出不等于安全最终处置，未知不填0。",
+              "change_reason": "新取得原U全文及6图页复核后补空字段；原值与未知保留，资格不放行。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "unresolved",
             "summary": "可拆盒便于统一清理，但所核段未给盒内纤维清理后的最终去向。",
@@ -5211,9 +5569,51 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_original_U_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN222043626U-carrier_conditioning-original_U_scope-20261002",
+              "publication_id": "CN222043626U",
+              "grant_publication_id": "CN222043626U",
+              "sample_role": "pending",
+              "embodiment_id": "original_U_complete_scope_distinct_objects",
+              "stage": "carrier_conditioning",
+              "technical_feature": "原U完整范围未定位过滤介质自身独立排水、干燥或调理工序。0063取网清理和0068/0069网状承载物正常通水不足证明滤材已排干；0038洗衣烘干对象为衣物，不推滤网或滤渣干燥。保持对象限定与未知，不填0。",
+              "object": "过滤网330/331/332自身排水或干燥",
+              "start": "原件明确对象/范围",
+              "end": "该具体功能未定位，未知不填0",
+              "boundary": "原U完整技术范围；不同盒/网形态可选，维护目的与具体动作分开",
+              "operation_order": [],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_original_U_scope",
+              "availability_judgment": "unknown",
+              "claim_dependency": "全部权1—10已读；权2→1、3→2、4→1-3之一、5/6/9→4、7/8→6、10→1-9之一，不跨从属强合并",
+              "evidence": [
+                {
+                  "locator": "原U PDF物理7页，说明书5/6页，[0063]；未定位结论范围为权1—10/0001—0072/图1—7",
+                  "pdf_physical_page": 7,
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+                  "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+                  "source_url": "https://patentimages.storage.googleapis.com/0c/27/f7/b98ebf05098854/CN222043626U.pdf",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "evidence_excerpt": "以便于将其内部的过滤网330取出进行清理",
+                  "extraction_note": "Whitespace removed only; excerpt supplies object boundary, absence limited to the complete original U technical scope.",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-07.png",
+                  "page_image_sha256": "9098af0fbea0a69e7ca6c2456ad7f732c44104b4c347e25bf55f9380d5b67af6",
+                  "verified_at": "2026-10-02T12:27:56.556838+08:00"
+                }
+              ],
+              "interpretation": "原U完整范围未定位过滤介质自身独立排水、干燥或调理工序。0063取网清理和0068/0069网状承载物正常通水不足证明滤材已排干；0038洗衣烘干对象为衣物，不推滤网或滤渣干燥。保持对象限定与未知，不填0。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T12:27:56.556838+08:00",
+              "old_value": null,
+              "new_value": "原U完整范围未定位过滤介质自身独立排水、干燥或调理工序。0063取网清理和0068/0069网状承载物正常通水不足证明滤材已排干；0038洗衣烘干对象为衣物，不推滤网或滤渣干燥。保持对象限定与未知，不填0。",
+              "change_reason": "新取得原U全文及6图页复核后补空字段；原值与未知保留，资格不放行。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": null
         }
       },
@@ -5275,6 +5675,153 @@
             ],
             "field": "state_switch",
             "at": "2026-10-02T01:18:48.511606+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "field": "cleaning",
+            "physical_pages_scope": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "at": "2026-10-02T12:27:56.556838+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "field": "transfer",
+            "physical_pages_scope": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "at": "2026-10-02T12:27:56.556838+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "field": "chamber_drainage",
+            "physical_pages_scope": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "at": "2026-10-02T12:27:56.556838+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "field": "solids_dewatering",
+            "physical_pages_scope": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "at": "2026-10-02T12:27:56.556838+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "field": "performance",
+            "physical_pages_scope": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "at": "2026-10-02T12:27:56.556838+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "field": "endpoint",
+            "physical_pages_scope": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "at": "2026-10-02T12:27:56.556838+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "field": "carrier_conditioning",
+            "physical_pages_scope": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "at": "2026-10-02T12:27:56.556838+08:00"
           }
         ],
         "saved_text_targeted_20261002": {
@@ -5293,6 +5840,138 @@
           "original_pdf_checked": false,
           "not_a_full_text_completion": true,
           "verified_at": "2026-10-02T01:18:48.511606+08:00"
+        },
+        "original_U_readback_20261002": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+          "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+          "physical_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "visual_physical_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "description_paragraphs": "0001-0072",
+          "claims": "1-10",
+          "drawings": "1-7, physical9-14",
+          "rendered_pages": [
+            {
+              "physical_page": 1,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-01.png",
+              "sha256": "b74e5a66fcd46a9982703100f6adb160e679a80d449ed168040747fdb02b520d"
+            },
+            {
+              "physical_page": 2,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-02.png",
+              "sha256": "0303a9606b4f7ae5e3bfcd958df43e210cf05c16241758e33fc27e657cba4688"
+            },
+            {
+              "physical_page": 3,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-03.png",
+              "sha256": "6db89901edbcf7ee76bf0652fab53912c246864acfb9a11818e2fc8edeb0b242"
+            },
+            {
+              "physical_page": 4,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-04.png",
+              "sha256": "db066d29ed098b36d1b03872e8d875c8ea1d2fe98a3b235d20b64e863115e4c4"
+            },
+            {
+              "physical_page": 5,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-05.png",
+              "sha256": "facb6564def0f383240b3ff1a89fb4135bb5baf9b8674339dacdb21c5e1431f4"
+            },
+            {
+              "physical_page": 6,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-06.png",
+              "sha256": "9807ba6e5a32cb101fa94ffc1108b76b7523a6044afceaa6a9632d9554a5754d"
+            },
+            {
+              "physical_page": 7,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-07.png",
+              "sha256": "9098af0fbea0a69e7ca6c2456ad7f732c44104b4c347e25bf55f9380d5b67af6"
+            },
+            {
+              "physical_page": 8,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-08.png",
+              "sha256": "69bc886802eecf3164915054a363d54876e29acf2e7425c1bd71d0c3e8591704"
+            },
+            {
+              "physical_page": 9,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-09.png",
+              "sha256": "b8cd7bbc81100947b212d76bec49103e392dcaf1570f0499a521f3e90e619ffb"
+            },
+            {
+              "physical_page": 10,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-10.png",
+              "sha256": "fd99ffd0fd6afc4d3f1e5cad500e2098071a2ee39d2d62e3add06a824ec1dc1a"
+            },
+            {
+              "physical_page": 11,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-11.png",
+              "sha256": "6714b5abe55113555ad5bb8dabf5bdbbe6971211312718125df6d7f7238c031b"
+            },
+            {
+              "physical_page": 12,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-12.png",
+              "sha256": "dba5328d12801b3f84cee2469b96fb95e79aeaa0d8635deab0d32a668bda0351"
+            },
+            {
+              "physical_page": 13,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-13.png",
+              "sha256": "f3e30a0b6a09b7a5c372790ab518bb105f5a6e02ba2b277d060041709bbeafe9"
+            },
+            {
+              "physical_page": 14,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-14.png",
+              "sha256": "dd1702347b68cea8e82c4093bf6b770b58bce18426fb87930924cf3c91dfad00"
+            }
+          ],
+          "all_13_fields_addressed": true,
+          "prior_6_original_crosscheck": {
+            "capture": "0050, claim1, figure3 physical10",
+            "liquid_route": "0043-0044 physical5",
+            "storage": "0048 physical5;0068 physical8 closed/mesh alternatives",
+            "removal": "0059 physical7;0066-0067 physical7-8",
+            "state_switch": "0059 physical7;0067 physical8",
+            "seals_connections": "0066-0067 physical7-8;figure7 physical14"
+          },
+          "source_conflicts": [
+            {
+              "paragraph": "0055",
+              "physical_page": 6,
+              "original_wording": "第一过滤网331和第二过滤网331均设置为齿状",
+              "comparison": "Claim3 and figure3 identify second filter332",
+              "resolution": "Original typo preserved; do not rewrite publication or treat both filters as same part"
+            }
+          ],
+          "full_candidate_acceptance": false,
+          "legal_current_status": "unknown",
+          "verified_at": "2026-10-02T12:27:56.556838+08:00"
         }
       }
     },

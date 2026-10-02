@@ -1,0 +1,119 @@
+{
+  "verified": true,
+  "baseline": "9750db0a6107f705fd1a33326226e0c780232858",
+  "observations": 148,
+  "added": 7,
+  "old_141_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "all_source_bytes_and_excerpts_verified": true,
+  "source_pdf_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+  "master_sha256": "ffcb8f59e920e55e4302372a796bf439b65e8da9b0cd7d095753a3b39f1141f4",
+  "CSV_verified": true,
+  "fields": [
+    "cleaning",
+    "transfer",
+    "chamber_drainage",
+    "solids_dewatering",
+    "performance",
+    "endpoint",
+    "carrier_conditioning"
+  ],
+  "executor_visual_physical_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "text_scope": "cover; claims1-10 physical2; paragraphs0001-0072 physical3-8; drawings1-7 physical9-14",
+  "all_6_drawing_pages_visually_read": true,
+  "rendered_pages": [
+    {
+      "physical_page": 1,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-01.png",
+      "sha256": "b74e5a66fcd46a9982703100f6adb160e679a80d449ed168040747fdb02b520d"
+    },
+    {
+      "physical_page": 2,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-02.png",
+      "sha256": "0303a9606b4f7ae5e3bfcd958df43e210cf05c16241758e33fc27e657cba4688"
+    },
+    {
+      "physical_page": 3,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-03.png",
+      "sha256": "6db89901edbcf7ee76bf0652fab53912c246864acfb9a11818e2fc8edeb0b242"
+    },
+    {
+      "physical_page": 4,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-04.png",
+      "sha256": "db066d29ed098b36d1b03872e8d875c8ea1d2fe98a3b235d20b64e863115e4c4"
+    },
+    {
+      "physical_page": 5,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-05.png",
+      "sha256": "facb6564def0f383240b3ff1a89fb4135bb5baf9b8674339dacdb21c5e1431f4"
+    },
+    {
+      "physical_page": 6,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-06.png",
+      "sha256": "9807ba6e5a32cb101fa94ffc1108b76b7523a6044afceaa6a9632d9554a5754d"
+    },
+    {
+      "physical_page": 7,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-07.png",
+      "sha256": "9098af0fbea0a69e7ca6c2456ad7f732c44104b4c347e25bf55f9380d5b67af6"
+    },
+    {
+      "physical_page": 8,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-08.png",
+      "sha256": "69bc886802eecf3164915054a363d54876e29acf2e7425c1bd71d0c3e8591704"
+    },
+    {
+      "physical_page": 9,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-09.png",
+      "sha256": "b8cd7bbc81100947b212d76bec49103e392dcaf1570f0499a521f3e90e619ffb"
+    },
+    {
+      "physical_page": 10,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-10.png",
+      "sha256": "fd99ffd0fd6afc4d3f1e5cad500e2098071a2ee39d2d62e3add06a824ec1dc1a"
+    },
+    {
+      "physical_page": 11,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-11.png",
+      "sha256": "6714b5abe55113555ad5bb8dabf5bdbbe6971211312718125df6d7f7238c031b"
+    },
+    {
+      "physical_page": 12,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-12.png",
+      "sha256": "dba5328d12801b3f84cee2469b96fb95e79aeaa0d8635deab0d32a668bda0351"
+    },
+    {
+      "physical_page": 13,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-13.png",
+      "sha256": "f3e30a0b6a09b7a5c372790ab518bb105f5a6e02ba2b277d060041709bbeafe9"
+    },
+    {
+      "physical_page": 14,
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN222043626U_original_pages_20261002\\physical-14.png",
+      "sha256": "dd1702347b68cea8e82c4093bf6b770b58bce18426fb87930924cf3c91dfad00"
+    }
+  ],
+  "all_13_fields_addressed_in_original_U_scope": true,
+  "old_6_observations_unchanged_and_original_crosschecked": true,
+  "source_conflict_preserved": "0055 second filter331 vs claims3 and figure3 label332; original wording not rewritten",
+  "all_14_pending": true,
+  "full_text_complete_count": 0,
+  "formal_statistics_allowed": false,
+  "checked_at": "2026-10-02T12:30:46.237102+08:00"
+}
