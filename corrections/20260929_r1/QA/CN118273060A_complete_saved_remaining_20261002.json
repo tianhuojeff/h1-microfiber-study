@@ -1,0 +1,49 @@
+{
+  "verified": true,
+  "baseline": "a39d4403abd6cf4baf58bc5eceb01ac04da1d125",
+  "observations": 156,
+  "added": 8,
+  "old_148_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "old_target_6_observations_and_field_objects_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "master_sha256": "15a16bc36cede222a97c5fef01c3a6be6c6c0c2561b4116a3b2519731b8ec43e",
+  "source_html_sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5",
+  "all_source_bytes_and_excerpts_verified": true,
+  "CSV_verified": true,
+  "fields": [
+    "cleaning",
+    "transfer",
+    "chamber_drainage",
+    "solids_dewatering",
+    "storage",
+    "performance",
+    "endpoint",
+    "carrier_conditioning"
+  ],
+  "executor_read_anchor_count": 263,
+  "executor_read_ranges": [
+    "p0001-p0244",
+    "zh-cl0001-zh-cl0019"
+  ],
+  "executor_complete_saved_text_read": true,
+  "read_method": "Four complete normalized saved-HTML blocks read directly by executor; key boundary anchors reread",
+  "original_pdf_checked": false,
+  "drawings_checked": false,
+  "source_conflicts_preserved": [
+    "p0134 protrusion406/groove516 vs zh-cl0009 groove406/protrusion516; p0216/p0229 both slots",
+    "p0147 sidewall52/p0174 bottomwall52 vs zh-cl0010 sidewall513/bottom512",
+    "p0176 medium2 vs medium50; p0181/p0182 pump560 vs pump960; original PDF/figures needed, no silent correction"
+  ],
+  "unknown_not_zero": true,
+  "all_14_pending": true,
+  "full_text_complete_count": 0,
+  "formal_statistics_allowed": false,
+  "checked_at": "2026-10-02T12:45:35.182435+08:00",
+  "first_attempt": {
+    "failure": "Patch-output truncation; apply_patch rejected invalid first line",
+    "data_mutations": 0,
+    "commits": 0,
+    "recovery": "Full output budget, complete first/last-line readback, newline normalization, apply and fixed-Git scope verification from first item"
+  }
+}
