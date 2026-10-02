@@ -43,6 +43,15 @@
     "current_legal_status_verified": false
   },
   "current_observations": 137,
+  "P3_parallel_source_progress": {
+    "target": "CN222043626U",
+    "evidence": "corrections/20260929_r1/evidence/CN222043626U_P3_status_sources_20261002.md",
+    "grant_event_date": "2024-11-22",
+    "current_legal_status": "unknown",
+    "official_case_query_submitted": false,
+    "P3_complete": false,
+    "main_phase_remains": "P2"
+  },
   "full_text_review_complete": false,
   "execution_status": "in_progress_delegated_P2",
   "quota_pause": {
