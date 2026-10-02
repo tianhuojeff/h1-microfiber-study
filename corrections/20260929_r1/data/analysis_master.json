@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T12:43:36.184003+08:00",
+  "updated_at": "2026-10-02T12:48:48.094283+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -21307,9 +21307,120 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN117702432A-capture-selected_chamber_net-20261002",
+              "publication_id": "CN117702432A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "selected_chamber_filter_net",
+              "stage": "capture",
+              "technical_feature": "洗衣排水管上的盒体310设至少两个过滤腔室313，每腔对应过滤网320；阀330选通其中一个腔与进出水，水通过该腔网320时过滤并收集至少部分微塑料。依据权1与权10及p0053—56，不拼成每次水必经全部网的串联过滤，不把背景35%或减少清理/寿命效果当实测捕获率；末端或分段夹装是可选位置，原PDF/图未核。",
+              "object": "洗衣排水微塑料、过滤网320",
+              "start": "水进入盒体310当前选通腔313",
+              "end": "网320过滤并收集至少部分微塑料",
+              "boundary": "仅已读保存锚点；选通腔不拼全部网串联；未核原PDF/图或效率",
+              "operation_order": [],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "权1基本过滤组件；权10洗衣机包括权1—9任一过滤组件",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0047",
+                  "html_anchor": "p0047",
+                  "evidence_excerpt": "过滤组件300设置于排水管200上，或者说，过滤组件300设置于排水管200的排水路径上，在安装时，可以将排水管200分为两段，将过滤组件300夹在两段排水管之间，以使水通过过滤组件300，来过滤以及收集排水管200中的微塑料。当然，也可以将过滤组件300连接于排水管200的末端，从而过滤组件300过滤后的水直接排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:48:48.094283+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #p0053",
+                  "html_anchor": "p0053",
+                  "evidence_excerpt": "盒体310是过滤组件300的外形结构，盒体310用于容纳至少两个过滤网320以及至少一个控制阀门330。盒体310设有进水口311和出水口312。进水口311和出水口312分别用于与排水管200连通，以使得本体100排出的水经过盒体310后排出，在过滤网320的过滤作用下，可以过滤出至少部分微塑料，以减少对生态环境的污染。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:48:48.094283+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #p0054",
+                  "html_anchor": "p0054",
+                  "evidence_excerpt": "其中，盒体310具有至少两个过滤腔室313，每一过滤腔室313可以独立的进行微塑料的过滤，至少两个过滤腔室313可以实现过滤的配合，诸如在一个过滤腔室313中由于堆积的微塑料过多而使得过滤腔室313内的压力过大时，可以通过其他过滤腔室313进行过滤，从而无需清理过滤组件300，可以减少人工清理过滤组件300的频率，提高用户使用体验。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:48:48.094283+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #p0055",
+                  "html_anchor": "p0055",
+                  "evidence_excerpt": "至少两个过滤网320是对应至少两个过滤腔室313而设置的，也即是说过滤网320的数量与过滤腔室313的数量相对应，且每一过滤网320可以是围设形成一个过滤腔室313的一部分，从进水口311进入的水，经任一过滤腔室313，并经过滤腔室313对应的过滤网320后，从出水口312流出，在水从盒体310通过的过程中，可以实现对微塑料的过滤与收集。示例性的，每一过滤网320分别对应一个过滤腔室313设置，且至少两个过滤网320均位于进水口311和出水口312之间。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:48:48.094283+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #p0056",
+                  "html_anchor": "p0056",
+                  "evidence_excerpt": "至少一个控制阀门330，每一控制阀门330设置于相邻两个过滤腔室313之间，也即是相邻两个过滤腔室313共用一个控制阀门330。每一控制阀门330能够开启或关闭，以将相邻两个过滤腔室313中的一个连通于进水口311和出水口312，并通过连通的对应过滤腔室313的过滤网320进行微塑料的过滤。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:48:48.094283+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #zh-cl0001",
+                  "html_anchor": "zh-cl0001",
+                  "evidence_excerpt": "1.一种过滤组件，应用于洗衣机，所述洗衣机包括可拆卸连接的本体和排水管，所述过滤组件安装于所述排水管上；其特征在于，所述过滤组件包括： 盒体，设有进水口和出水口，所述盒体具有至少两个过滤腔室； 至少两个过滤网，每一所述过滤网分别对应一个所述过滤腔室设置，且所述至少两个过滤网均位于所述进水口和所述出水口之间； 至少一个控制阀门，每一所述控制阀门设置于相邻两个过滤腔室之间，每一所述控制阀门能够开启或关闭，以将相邻两个过滤腔室中的一个连通于所述进水口和所述出水口，并通过所述连通的对应过滤腔室的过滤网进行过滤。",
+                  "source_role": "claim",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:48:48.094283+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #zh-cl0010",
+                  "html_anchor": "zh-cl0010",
+                  "evidence_excerpt": "10.一种洗衣机，其特征在于，包括： 本体，用于盛装以及处理衣物； 排水管，与所述本体可拆卸连接，以将所述本体排出的废水排出； 过滤组件，设置于所述排水管上，以过滤并收集所述排水管中的微塑料，所述过滤组件如权利要求1-9任一项所述的过滤组件。",
+                  "source_role": "claim",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:48:48.094283+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                }
+              ],
+              "interpretation": "洗衣排水管上的盒体310设至少两个过滤腔室313，每腔对应过滤网320；阀330选通其中一个腔与进出水，水通过该腔网320时过滤并收集至少部分微塑料。依据权1与权10及p0053—56，不拼成每次水必经全部网的串联过滤，不把背景35%或减少清理/寿命效果当实测捕获率；末端或分段夹装是可选位置，原PDF/图未核。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T12:48:48.094283+08:00",
+              "old_value": null,
+              "new_value": "洗衣排水管上的盒体310设至少两个过滤腔室313，每腔对应过滤网320；阀330选通其中一个腔与进出水，水通过该腔网320时过滤并收集至少部分微塑料。依据权1与权10及p0053—56，不拼成每次水必经全部网的串联过滤，不把背景35%或减少清理/寿命效果当实测捕获率；末端或分段夹装是可选位置，原PDF/图未核。",
+              "change_reason": "明确正向原句补单一空字段，保留原值及未知。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": null
         },
         "cleaning": {
@@ -21640,8 +21751,57 @@
             ],
             "field": "removal",
             "at": "2026-09-29T23:21:07.441015+08:00"
+          },
+          {
+            "publication": "CN117702432A",
+            "anchors": [
+              "p0047",
+              "p0053",
+              "p0054",
+              "p0055",
+              "p0056",
+              "zh-cl0001",
+              "zh-cl0010"
+            ],
+            "field": "capture",
+            "at": "2026-10-02T12:48:48.094283+08:00"
           }
-        ]
+        ],
+        "capture_saved_targeted_20261002": {
+          "executor_read_anchor_ids": [
+            "p0004",
+            "p0005",
+            "p0029",
+            "p0030",
+            "p0047",
+            "p0049",
+            "p0050",
+            "p0051",
+            "p0053",
+            "p0054",
+            "p0055",
+            "p0056",
+            "p0058",
+            "p0070",
+            "p0075",
+            "p0076",
+            "zh-cl0001",
+            "zh-cl0002",
+            "zh-cl0003",
+            "zh-cl0004",
+            "zh-cl0005",
+            "zh-cl0006",
+            "zh-cl0007",
+            "zh-cl0008",
+            "zh-cl0009",
+            "zh-cl0010"
+          ],
+          "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+          "executor_complete_saved_text_read": false,
+          "original_pdf_checked": false,
+          "drawings_checked": false,
+          "not_a_full_text_completion": true
+        }
       }
     },
     {
