@@ -55,7 +55,7 @@ H1-F85120837,CN115700309A,capture,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,cleaning,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,transfer,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,chamber_drainage,partial_saved_text_targeted,explicit,1
-H1-F85120837,CN115700309A,solids_dewatering,not_reviewed_this_revision,,0
+H1-F85120837,CN115700309A,solids_dewatering,complete_saved_text_scope,not_located_in_reviewed_scope,1
 H1-F85120837,CN115700309A,liquid_route,partial,same_embodiment_combination,1
 H1-F85120837,CN115700309A,storage,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,removal,partial,same_embodiment_combination,1
@@ -63,7 +63,7 @@ H1-F85120837,CN115700309A,state_switch,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,seals_connections,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,performance,partial_saved_text_targeted,explicit,1
 H1-F85120837,CN115700309A,endpoint,partial_saved_text_targeted,explicit,1
-H1-F85120837,CN115700309A,carrier_conditioning,not_reviewed_this_revision,,0
+H1-F85120837,CN115700309A,carrier_conditioning,complete_saved_text_scope,not_located_in_reviewed_scope,1
 H1-F91644784,CN118273060A,capture,not_reviewed_this_revision,,0
 H1-F91644784,CN118273060A,cleaning,not_reviewed_this_revision,,0
 H1-F91644784,CN118273060A,transfer,not_reviewed_this_revision,,0

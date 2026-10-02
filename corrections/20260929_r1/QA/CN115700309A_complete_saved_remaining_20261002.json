@@ -1,0 +1,32 @@
+{
+  "verified": true,
+  "baseline": "bcba9794b91c6f4334895cbffcc274cb007e9e50",
+  "observations": 137,
+  "added": 2,
+  "old_135_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "all_14_pending": true,
+  "master_sha256": "5c02127669d765806f38647cb27ecbe8d2ab4e5e564c9e9f94c3c0697ae1b0ff",
+  "source_html_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+  "all_source_bytes_and_excerpts_verified": true,
+  "CSV_verified": true,
+  "full_text_complete_count": 0,
+  "original_pdf_checked": false,
+  "drawings_checked": false,
+  "fields": [
+    "solids_dewatering",
+    "carrier_conditioning"
+  ],
+  "executor_read_anchor_count": 223,
+  "executor_read_ranges": [
+    "p0001-p0213",
+    "cl0001-cl0010"
+  ],
+  "unknown_not_zero": true,
+  "formal_statistics_allowed": false,
+  "checked_at": "2026-10-02T12:06:47.017024+08:00",
+  "initial_patch_rejected": true,
+  "initial_patch_rejection": "Repeated same publication skip anchor cannot seek backward; atomic zero-data-write rejection",
+  "generator_scope": "Single sample_id+publication; one publication jump then forward groups; fixed Git non-target13 and old135 compared immediately"
+}
