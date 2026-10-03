@@ -1,0 +1,66 @@
+{
+  "verified": true,
+  "baseline": "72fa269a442d158dabbb958b5d23c0b6e811d209",
+  "observations": 168,
+  "added_observations": 0,
+  "all_old_168_features_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "CSV_bytes_unchanged": true,
+  "master_sha256": "ddefdb0c6c7ba53f81048706feafb7622ae391889d449e9348fd63a0323e7984",
+  "source_pdf_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+  "executor_visual_pages_this_transaction": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "cumulative_drawing_visual_pages": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "remaining_drawing_visual_pages": [
+    38,
+    39,
+    40,
+    41
+  ],
+  "all_27_drawing_pages_read": false,
+  "all_image_bytes_verified": true,
+  "all_14_pending": true,
+  "formal_statistics_allowed": false,
+  "reset_consumed": false,
+  "checked_at": "2026-10-03T12:17:02.061221+08:00",
+  "generation_failures_before_success": {
+    "name_error_missing_target": 1,
+    "range_or_exact_source_assertions": 2,
+    "patch_validation_rejections": 2,
+    "master_or_csv_writes_in_failed_attempts": 0,
+    "failed_attempt_commits": 0,
+    "fix": "Decode exact original uniquely selected sample block; diff only that block, preserve trailing comma/newline, fixed-object QA from first step"
+  }
+}
+
