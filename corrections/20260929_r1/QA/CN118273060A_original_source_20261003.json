@@ -1,0 +1,54 @@
+{
+  "verified": true,
+  "checked_at": "2026-10-03T11:50:30+08:00",
+  "baseline": "ccc7c418955b759695f481ed9ff92b9aac07a1e0",
+  "publication": "CN118273060A",
+  "source_url": "https://patentimages.storage.googleapis.com/bc/2d/90/60ea9009786be4/CN118273060A.pdf",
+  "requested_at": "2026-10-03T11:46:40.260007+08:00",
+  "http_status": 200,
+  "source_role": "Published original via traceable Google Patents mirror",
+  "saved_locator_html_sha256": "3705139d2c2b2357c39e824de5ad1586fe93c2ef22a591a3fdb8a46a92b79bf5",
+  "path": "patents/CN118273060A.pdf",
+  "sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+  "bytes": 3295789,
+  "pages": 41,
+  "executor_all_pages_parse_succeeded": true,
+  "executor_cover_visual_review": true,
+  "cover_application": "202211732838.0",
+  "publication_date": "2024-07-02",
+  "cover_title": "过滤器组件及洗衣机",
+  "physical_ranges": {
+    "cover": [
+      1,
+      1
+    ],
+    "claims": [
+      2,
+      3
+    ],
+    "description": [
+      4,
+      14
+    ],
+    "drawings": [
+      15,
+      41
+    ]
+  },
+  "source_manifest_hashes": {
+    "request_manifest.json": "131db252c128730746de7c89cf21d6476c4f9a8657fdd3215640d25190ece1c9",
+    "local_source_manifest.json": "9097c865c65a3f448a206fc48ba5a2b395e88e09d0255a4bdd6e06cfd1333888",
+    "verification_manifest.json": "a04aee8207372ccdab057ef96e2a5a1791fa280e5d39a0609e3d2882bff276bd",
+    "cover.png": "8084651f250a2959d168a2c2e43c639882544aed94d686b54bb96c13b42b36ad"
+  },
+  "source_manifest_directory": "work_logs/artifacts/controller-20261003/PDF补源/CN118273060A",
+  "source_copy_exact_bytes": true,
+  "master_and_CSV_unchanged": true,
+  "observations": 168,
+  "technical_full_review_completed": false,
+  "all_drawings_visually_read": false,
+  "current_legal_status_verified": false,
+  "all_14_pending": true,
+  "formal_statistics_allowed": false,
+  "reset_consumed": false
+}

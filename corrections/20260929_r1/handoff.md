@@ -189,3 +189,7 @@ p0048明确过滤水下水道排放或可选分支回本体供水，不改旧液
 ## 2026-10-03 11:49：CN117原PDF独立补源
 
 patents/CN117702432A.pdf原公布镜像837316bytes/SHAe22fdc6e0d024314eea78668846b860ee3cb031fa35e484cfa446e8a06070458，既存citation直链HTTP200，执行者14页解析/封面视觉通过；2—3权、4—9说明、10—14图。仅来源及版本验收，技术全读/附图/现时资格未完成。主表/CSV固定202a8d8精确bytes/168保持；源QA与卡CN117702432A_original_source_20261003。下一CN118原PDF独立来源采纳，再分事务原件技术复核；14pending、草稿与统计终稿/noreset不降。
+
+## 2026-10-03 11:50：CN118原PDF独立补源
+
+patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d，既存citation直链HTTP200；执行者41页parse及封面目视版本通过，2—3权/4—14说明/15—41图。仅来源，27图页与全技术未核，法律仍pending；固定ccc7c41主表/CSV168精确bytes保持，QA/卡CN118273060A_original_source_20261003。下一先CN11714页完整原件图文分事务复核，CN118随后，保存编号冲突不得未经原件默修，无reset。
