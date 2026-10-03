@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-03T11:25:07+08:00",
+  "updated_at": "2026-10-03T11:27:40+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -54,7 +54,18 @@
     "main_phase_remains": "P2"
   },
   "full_text_review_complete": false,
-  "execution_status": "in_progress_delegated_P2",
+  "execution_status": "awaiting_controller_public_visibility_verification",
+  "repository_visibility_authority": {
+    "authority_date": "2026-10-03",
+    "authority_quote": "继续做，然后先把做的都提交好，我要那个仓库是公开仓库",
+    "repository": "tianhuojeff/h1-microfiber-study",
+    "desired_visibility": "public",
+    "actual_public_visibility_verified": false,
+    "status": "authorized_pending_controller_setting_and_readback",
+    "previous_private_restriction_preserved_as_history": true,
+    "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
+    "reset_authorized": false
+  },
   "quota_pause": {
     "at": "2026-10-02T01:50:34.4131436+08:00",
     "weekly_used_percent": 40,
