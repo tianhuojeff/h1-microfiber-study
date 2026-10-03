@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-03T12:25:44.190453+08:00",
+  "updated_at": "2026-10-03T12:28:22.845092+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -16556,6 +16556,117 @@
               "sha256": "b4a9d1472346d0cb4b6facab170311c1f8d2e44ef794df6a2269ac2d19090760"
             }
           ]
+        },
+        "original_capture_binding_20261003": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN118273060A.pdf",
+          "source_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+          "at": "2026-10-03T12:28:22.845092+08:00",
+          "executor_visual_pages_this_transaction": [],
+          "source_text_pages_revisited_this_transaction": [
+            8
+          ],
+          "cumulative_original_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "remaining_original_visual_pages": [],
+          "cumulative_drawing_visual_pages": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "remaining_drawing_visual_pages": [],
+          "all_original_pages_visually_read": true,
+          "original_technical_full_review_complete": false,
+          "bound_field": "capture",
+          "old_observation_ids_preserved": [
+            "CN118273060A-capture-filter_medium_and_optional_layers-20261002"
+          ],
+          "original_printed_paragraphs": [
+            70,
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "original_claims": [
+            12,
+            13,
+            14
+          ],
+          "visual_confirmations": [
+            {
+              "field": "capture",
+              "judgment": "原物理8[0070]介质50联结构51，[0074]-[0078]多层500/开孔泡沫/流向孔径减小/聚氨酯均优选。原权12/13分别从属、14仅←13；原图11物理39四片为所画例，12/13介质方式分别保留。孔示意/设计文本不转实测粒径或捕获率，旧观察保持。"
+            }
+          ],
+          "rendered_pages": [],
+          "previous_full_visual_receipt": "corrections/20260929_r1/QA/CN118273060A_original_body_20261003.json",
+          "next_action": "Bind other12 fields to original paragraphs/claims/figures; no current legal qualification or whole-project acceptance."
         }
       }
     },

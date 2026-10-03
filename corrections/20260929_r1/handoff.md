@@ -221,3 +221,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-03 12:26：CN118剩4正文页
 
 本人实际物理6—9全目视，跨[0031]/[0050]/[0069]结合相邻页，[0119]续此前已看物理10。泵阀/压力信号/介质/密封各可选范围保留。累计1—41全页视觉及239段/19权文字阅读已齐，但13字段原段/图完整映射待。固定bd9c9c2旧168/features/其他13/all法律/CSVbytes保持；master实SHA18361b778c93dc83b8b87c7ad43bba681cb319aa0f14abd704d550325a4c3f34，卡/QA CN118273060A_original_body_20261003。下一独立13字段原件绑定，不凑观察、不改14pending/统计终稿false/noreset。
+
+## 2026-10-03 12:28：CN118捕获原件绑定
+
+原物理8[0070]/[0074]—[0078]、权12/13/14及图11—13绑定capture；保留多层/泡沫/梯度/聚氨酯各优选，权14仅←13，不推实测粒径率。固定4103ae0旧168/features/非目标13/all法律/CSVbytes保持，master实SHA5ebe61787ac6fa72836bc6ceda2c287ee4b4efe01e18cec926463e41e38f8a2d，卡/QA CN118273060A_capture_binding_20261003。下一其他12字段完整原件映射，无新增图读/观察，不冒整件/全项目验收；14pending/统计终稿false/noreset。
