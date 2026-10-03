@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-03T12:22:50.917025+08:00",
+  "updated_at": "2026-10-03T12:25:44.190453+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -16425,6 +16425,135 @@
               "physical_page": 5,
               "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_earlytext_20261003-5.png",
               "sha256": "59800e5ab46776f233777a198f384cb28f0b380658ea265532e272ff9572a768"
+            }
+          ]
+        },
+        "original_remaining_body_visual_20261003": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN118273060A.pdf",
+          "source_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+          "at": "2026-10-03T12:25:44.190453+08:00",
+          "executor_visual_pages_this_transaction": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "cumulative_original_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "remaining_original_visual_pages": [],
+          "cumulative_drawing_visual_pages": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "remaining_drawing_visual_pages": [],
+          "all_drawings_visually_read": true,
+          "all_original_pages_visually_read": true,
+          "original_technical_full_review_complete": false,
+          "visual_confirmations": [
+            {
+              "physical_page": 6,
+              "judgment": "承接[0031]图题至[0050]前部，图12与13分别第一/第二介质方式；[0039]-[0049]排放/再循环、内外及泵作用保持各优选条件。[0050]泵组960跨物理7，不能留页眉作原段。"
+            },
+            {
+              "physical_page": 7,
+              "judgment": "接[0050]至[0069]前部，原再循环段95121仍在文字[0053]/[0055]，保留其与图9521差异；[0051]/[0052]泵前后位置为不同方式。压差阈值信号/闭塞且洗衣机停止信号/灯或显示报警为优选选项，不推所有装置强制自动停机。"
+            },
+            {
+              "physical_page": 8,
+              "judgment": "接[0069]至[0097]，介质50/结构51/多层500/开孔泡沫/沿流孔径减小/聚氨酯均按各原文优选；壳体棱柱/柱状及内外位置不同时必需。"
+            },
+            {
+              "physical_page": 9,
+              "judgment": "[0098]-[0119]前部，41穿401接511促进510与40密封；T1/T2/T3与轴向/径向各优选界面/方式保留，不据文字推实测漏率；[0119]装配续下一物理10（此前已读），不冒本页独含完整段。"
+            }
+          ],
+          "boundaries": "原41页累计实际目视已齐，239编号段/19权此前文字读齐；仍需全13字段原段/图映射及独立验收，不把视觉范围完成等同完整技术编码、法律资格或正式统计/终稿完成。",
+          "rendered_pages": [
+            {
+              "physical_page": 6,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_body_20261003-6.png",
+              "sha256": "2d9aac2060902b6e2e585099fd1b8e7a7fb772804afbfc7c54986d9b317b1364"
+            },
+            {
+              "physical_page": 7,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_body_20261003-7.png",
+              "sha256": "5ef97dd0897bf5c02a033d173f26708d426ec4d086102f22591a9a9f75a9229e"
+            },
+            {
+              "physical_page": 8,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_body_20261003-8.png",
+              "sha256": "ca5e1d71dd4a6a84229a9227446ab0648e3db27d6dd10819ce78568e7c4e2165"
+            },
+            {
+              "physical_page": 9,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_body_20261003-9.png",
+              "sha256": "b4a9d1472346d0cb4b6facab170311c1f8d2e44ef794df6a2269ac2d19090760"
             }
           ]
         }
