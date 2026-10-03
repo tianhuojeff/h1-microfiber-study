@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-02T12:51:06.331266+08:00",
+  "updated_at": "2026-10-02T12:53:54.128372+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -21808,9 +21808,129 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "partial_saved_text_targeted",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN117702432A-seals_connections-shell_latches_optional_seal-20261002",
+              "publication_id": "CN117702432A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "shell_latches_optional_seal",
+              "stage": "seals_connections",
+              "technical_feature": "主壳314与盖315可拆卸，权9经权2到权1限定主壳第一卡扣与盖第二卡扣卡接。p0061凸块318/槽319是示例；p0062至少两对分置侧壁为可选以减晃动/漏水风险，p0063硅胶等密封件可选且文字称图未示。不得把多对卡扣与硅胶都作权9必需、不得补断管先排干维护顺序或防漏实测，原PDF/图未核。",
+              "object": "主壳314与盖315连接界面、卡扣318/319、可选密封件",
+              "start": "可拆盖与主壳的连接界面",
+              "end": "卡扣连接；可选密封件防漏为文本目的",
+              "boundary": "权9→2→1，说明多对卡扣与密封件是可选；非防漏实测或维护顺序",
+              "operation_order": [],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "权9依权2，权2依权1；说明书密封件非权9必要结构",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0059",
+                  "html_anchor": "p0059",
+                  "evidence_excerpt": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:53:54.128372+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #p0061",
+                  "html_anchor": "p0061",
+                  "evidence_excerpt": "对于盖体315和主壳314的可拆卸连接，可以通过卡扣件来实现。示例性的，盒体310还包括第一卡扣件318和第二卡扣件319，第一卡扣件318设置于主壳314上，第二卡扣件319设置于盖体315上，第二卡扣件319与第一卡扣件318卡接连接，以将盖体315安装到主壳314上。第一卡扣件318可以为凸块，第二卡扣件319可以为卡槽，卡槽与凸块配合，以实现盖体315与主壳314的连接。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:53:54.128372+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #p0062",
+                  "html_anchor": "p0062",
+                  "evidence_excerpt": "其中，可以设置至少两对第一卡扣件318和第二卡扣件319，分别对应主壳314的不同侧壁，从而可以将主壳314与盖体315连接紧密，减少盖体315相对于主壳314的晃动，从而来降低漏水风险。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:53:54.128372+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #p0063",
+                  "html_anchor": "p0063",
+                  "evidence_excerpt": "其中，盖体315与主壳314之间可以设置有密封件(图中未示意出)，诸如硅胶密封件，以防止盒体310漏水。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:53:54.128372+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #zh-cl0002",
+                  "html_anchor": "zh-cl0002",
+                  "evidence_excerpt": "2.根据权利要求1所述的过滤组件，其特征在于，所述盒体包括： 主壳，用于容纳所述至少两个过滤网，所述出水口设置于所述主壳上； 盖体，与所述主壳可拆卸连接，以盖封或者露出所述主壳，所述进水口设置于所述盖体上。",
+                  "source_role": "claim",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:53:54.128372+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                },
+                {
+                  "locator": "保存HTML #zh-cl0009",
+                  "html_anchor": "zh-cl0009",
+                  "evidence_excerpt": "9.根据权利要求2所述的过滤组件，其特征在于，所述盒体还包括： 第一卡扣件，设置于所述主壳上； 第二卡扣件，设置于所述盖体上，所述第二卡扣件与所述第一卡扣件卡接连接，以将所述盖体安装到所述主壳上。",
+                  "source_role": "claim",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-02T12:53:54.128372+08:00",
+                  "extraction_note": "Positive saved-text anchor, not physical page; no complete-text negative judgment."
+                }
+              ],
+              "interpretation": "主壳314与盖315可拆卸，权9经权2到权1限定主壳第一卡扣与盖第二卡扣卡接。p0061凸块318/槽319是示例；p0062至少两对分置侧壁为可选以减晃动/漏水风险，p0063硅胶等密封件可选且文字称图未示。不得把多对卡扣与硅胶都作权9必需、不得补断管先排干维护顺序或防漏实测，原PDF/图未核。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-02T12:53:54.128372+08:00",
+              "old_value": {
+                "judgment": "explicit",
+                "summary": "盖体与主壳可拆卸连接以盖封或露出主壳，另以第一、第二卡扣件卡接。",
+                "evidence": [
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+                    "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+                    "locator": "claim 2",
+                    "quote": "盖体，与所述主壳可拆卸连接，以盖封或者露出所述主壳，",
+                    "evidence_type": "claim"
+                  },
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+                    "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+                    "locator": "claim 9",
+                    "quote": "所述第二卡扣件与所述第一卡扣件卡接连接，",
+                    "evidence_type": "claim"
+                  }
+                ],
+                "unknown_reason": null,
+                "review_scope": "claims 1-10"
+              },
+              "new_value": "主壳314与盖315可拆卸，权9经权2到权1限定主壳第一卡扣与盖第二卡扣卡接。p0061凸块318/槽319是示例；p0062至少两对分置侧壁为可选以减晃动/漏水风险，p0063硅胶等密封件可选且文字称图未示。不得把多对卡扣与硅胶都作权9必需、不得补断管先排干维护顺序或防漏实测，原PDF/图未核。",
+              "change_reason": "明确正向原句补单一空字段，保留原值及未知。",
+              "removal_kind": null
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "盖体与主壳可拆卸连接以盖封或露出主壳，另以第一、第二卡扣件卡接。",
@@ -21911,6 +22031,19 @@
             ],
             "field": "liquid_route",
             "at": "2026-10-02T12:51:06.331266+08:00"
+          },
+          {
+            "publication": "CN117702432A",
+            "anchors": [
+              "p0059",
+              "p0061",
+              "p0062",
+              "p0063",
+              "zh-cl0002",
+              "zh-cl0009"
+            ],
+            "field": "seals_connections",
+            "at": "2026-10-02T12:53:54.128372+08:00"
           }
         ],
         "capture_saved_targeted_20261002": {
@@ -21941,6 +22074,48 @@
             "zh-cl0008",
             "zh-cl0009",
             "zh-cl0010"
+          ],
+          "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+          "executor_complete_saved_text_read": false,
+          "original_pdf_checked": false,
+          "drawings_checked": false,
+          "not_a_full_text_completion": true
+        },
+        "seals_connections_saved_targeted_20261002": {
+          "executor_read_anchor_ids": [
+            "p0004",
+            "p0005",
+            "p0029",
+            "p0030",
+            "p0047",
+            "p0049",
+            "p0050",
+            "p0051",
+            "p0053",
+            "p0054",
+            "p0055",
+            "p0056",
+            "p0058",
+            "p0070",
+            "p0075",
+            "p0076",
+            "zh-cl0001",
+            "zh-cl0002",
+            "zh-cl0003",
+            "zh-cl0004",
+            "zh-cl0005",
+            "zh-cl0006",
+            "zh-cl0007",
+            "zh-cl0008",
+            "zh-cl0009",
+            "zh-cl0010",
+            "p0014",
+            "p0024",
+            "p0025",
+            "p0059",
+            "p0061",
+            "p0062",
+            "p0063"
           ],
           "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
           "executor_complete_saved_text_read": false,
