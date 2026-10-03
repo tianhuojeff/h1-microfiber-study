@@ -1,0 +1,76 @@
+{
+  "verified": true,
+  "baseline": "3faa3576021452510bfbeb275102b1f316fe7b62",
+  "observations": 168,
+  "new_observations": 0,
+  "all_old_168_observations_and_feature_objects_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "CSV_exact_bytes_unchanged": true,
+  "master_sha256": "9d035d1bd3e7242097f223c332b880b0070a8f06b5bf66632ea398e3ed3473fe",
+  "original_pdf_sha256": "e22fdc6e0d024314eea78668846b860ee3cb031fa35e484cfa446e8a06070458",
+  "original_pdf_pages": 14,
+  "executor_text_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "executor_visual_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "printed_description_paragraphs": [
+    1,
+    74
+  ],
+  "claim_numbers": [
+    1,
+    10
+  ],
+  "drawing_pages": [
+    10,
+    14
+  ],
+  "figures_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "original_field_bindings_count": 13,
+  "all_binding_excerpts_and_image_bytes_verified": true,
+  "full_text_complete_count": 0,
+  "all_14_pending": true,
+  "formal_statistics_allowed": false,
+  "reset_consumed": false,
+  "checked_at": "2026-10-03T11:56:43.699197+08:00",
+  "all_168_prior_source_bytes_and_excerpts_rechecked": true,
+  "scope_note": "Original A full text/visual reading completed; full_text_rechecked acceptance flags preserved pending current project acceptance; legal eligibility still pending."
+}

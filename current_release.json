@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-03T11:50:30+08:00",
+  "updated_at": "2026-10-03T11:56:44+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -48,7 +48,9 @@
       "path": "patents/CN117702432A.pdf",
       "sha256": "e22fdc6e0d024314eea78668846b860ee3cb031fa35e484cfa446e8a06070458",
       "source_QA": "corrections/20260929_r1/QA/CN117702432A_original_source_20261003.json",
-      "technical_review_complete": false,
+      "technical_review_complete": true,
+      "technical_completion_scope": "Published A all14 text/visual pages and all8 figures read; project full-text acceptance and legal qualification remain pending",
+      "technical_QA": "corrections/20260929_r1/QA/CN117702432A_original_review_20261003.json",
       "current_legal_status_verified": false
     },
     {
@@ -97,5 +99,5 @@
   },
   "weekly_used_percent": 42,
   "weekly_remaining_percent": 58,
-  "master_sha256": "612a0c8450d1fc0dac82ecac4184c1d02a3d21392310ddfec4eed50a355932d4"
+  "master_sha256": "9d035d1bd3e7242097f223c332b880b0070a8f06b5bf66632ea398e3ed3473fe"
 }

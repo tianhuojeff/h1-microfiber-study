@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-03T11:47:00.153961+08:00",
+  "updated_at": "2026-10-03T11:56:24.278729+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -23801,6 +23801,584 @@
           "drawings_checked": false,
           "not_a_full_text_completion": true,
           "verified_at": "2026-10-03T11:43:37.850272+08:00"
+        },
+        "original_published_A_full_review_20261003": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN117702432A.pdf",
+          "source_sha256": "e22fdc6e0d024314eea78668846b860ee3cb031fa35e484cfa446e8a06070458",
+          "source_bytes": 837316,
+          "at": "2026-10-03T11:56:24.278729+08:00",
+          "executor_text_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "executor_visual_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "printed_description_paragraphs": [
+            1,
+            74
+          ],
+          "claim_numbers": [
+            1,
+            10
+          ],
+          "drawing_pages": [
+            10,
+            14
+          ],
+          "figures_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "original_published_A_technical_scope_complete": true,
+          "full_text_acceptance_flag_unchanged": true,
+          "completion_scope": "All published A pages and figures personally read; no grant/current legal/family qualification or overall P2 acceptance.",
+          "original_field_bindings": {
+            "capture": {
+              "accepted_observation_ids": [
+                "CN117702432A-capture-selected_chamber_net-20261002"
+              ],
+              "printed_paragraphs": [
+                48,
+                50,
+                51
+              ],
+              "physical_text_pages": [
+                7
+              ],
+              "scope_judgment": "权1与说明书过滤网320截留至少部分微塑料；图3/6—8分选通腔，不推同时全网串联。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 48,
+                  "excerpt_normalized": "盒体310是过滤组件300的外形结构，盒体310用于容纳至少两个过滤网320以及至少一个控制阀门330。盒体310设有进水口311和出水口312。进水口311和出水口312分别用于与排水管200连通，以使得本体100排出的水经过盒体310后排出，在过滤网320的过滤作用下，可以过滤出至少部分微塑料，以减少对生态环境的污染。"
+                },
+                {
+                  "printed_paragraph": 50,
+                  "excerpt_normalized": "至少两个过滤网320是对应至少两个过滤腔室313而设置的，也即是说过滤网320的数量与过滤腔室313的数量相对应，且每一过滤网320可以是围设形成一个过滤腔室313的一部分，从进水口311进入的水，经任一过滤腔室313，并经过滤腔室313对应的过滤网320后，从出水口312流出，在水从盒体310通过的过程中，可以实现对微塑料的过滤与收集。示例性的，每一过滤网320分别对应一个过滤腔室313设置，且至少两个过滤网320均位于进水口311和出水口312之间。"
+                },
+                {
+                  "printed_paragraph": 51,
+                  "excerpt_normalized": "至少一个控制阀门330，每一控制阀门330设置于相邻两个过滤腔室313之间，也即是相邻两个过滤腔室313共用一个控制阀门330。每一控制阀门330能够开启或关闭，以将相邻两个过滤腔室313中的一个连通于进水口311和出水口312，并通过连通的对应过滤腔室313的过滤网320进行微塑料的过滤。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "cleaning": {
+              "accepted_observation_ids": [
+                "CN117702432A-cleaning-complete_saved_scope-20261003"
+              ],
+              "printed_paragraphs": [
+                54,
+                55
+              ],
+              "physical_text_pages": [
+                7,
+                8
+              ],
+              "scope_judgment": "取出滤网清理可达性明确；完整74段/全10权/8图未定位具体清洗沉积物分离方法。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 54,
+                  "excerpt_normalized": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。"
+                },
+                {
+                  "printed_paragraph": 55,
+                  "excerpt_normalized": "其中，主壳314的侧壁可以设置滑槽3140，以将过滤网320进行安装。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "transfer": {
+              "accepted_observation_ids": [
+                "CN117702432A-transfer-complete_saved_scope-20261003"
+              ],
+              "printed_paragraphs": [
+                49,
+                50,
+                54
+              ],
+              "physical_text_pages": [
+                7,
+                8
+              ],
+              "scope_judgment": "含物载体可拆取，完整原件未定位松散固体卸下并向独立收集盒转移；不是判功能绝对不存在。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 49,
+                  "excerpt_normalized": "其中，盒体310具有至少两个过滤腔室313，每一过滤腔室313可以独立的进行微塑料的过滤，至少两个过滤腔室313可以实现过滤的配合，诸如在一个过滤腔室313中由于堆积的微塑料过多而使得过滤腔室313内的压力过大时，可以通过其他过滤腔室313进行过滤，从而无需清理过滤组件300，可以减少人工清理过滤组件300的频率，提高用户使用体验。"
+                },
+                {
+                  "printed_paragraph": 50,
+                  "excerpt_normalized": "至少两个过滤网320是对应至少两个过滤腔室313而设置的，也即是说过滤网320的数量与过滤腔室313的数量相对应，且每一过滤网320可以是围设形成一个过滤腔室313的一部分，从进水口311进入的水，经任一过滤腔室313，并经过滤腔室313对应的过滤网320后，从出水口312流出，在水从盒体310通过的过程中，可以实现对微塑料的过滤与收集。示例性的，每一过滤网320分别对应一个过滤腔室313设置，且至少两个过滤网320均位于进水口311和出水口312之间。"
+                },
+                {
+                  "printed_paragraph": 54,
+                  "excerpt_normalized": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "chamber_drainage": {
+              "accepted_observation_ids": [
+                "CN117702432A-chamber_drainage-complete_saved_scope-20261003"
+              ],
+              "printed_paragraphs": [
+                54,
+                62,
+                69
+              ],
+              "physical_text_pages": [
+                7,
+                8,
+                9
+              ],
+              "scope_judgment": "普通过滤重力出口与阀切换，不是维护前腔游离液排空；完整原件未定位专门排空。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 54,
+                  "excerpt_normalized": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。"
+                },
+                {
+                  "printed_paragraph": 62,
+                  "excerpt_normalized": "请结合图1至图5并参阅图3和图6所示，图6为图2所示的过滤组件沿A‑A剖面的第二状态结构示意图。可以理解的是，控制阀门330的初始状态也即是其关闭状态。以至少两个过滤腔室313包括第一过滤腔室313a和第二过滤腔室313b为例，第一过滤腔室313a位于第二过滤腔室313b上方。在控制阀门330关闭状态时，从进水口311进的水进入第一过滤腔室313a，并通过第一过滤腔室313a对应的过滤网320进行过滤后，再经出水口312排出。在控制阀门330开启状态时，控制阀门330转动至与隔板316呈预设角度，预设角度可以为90°，此时控制阀门330可以将第一过滤腔室313a进行隔断，也即进水口311进入的水不能通过第一过滤腔室313a对应的过滤网320进行过滤，而由于控制阀门330转动上去，此时第二过滤腔室313b可以与进水口311连通，从进水口311进入的水通过第二过滤腔室313b，并经过第二过滤腔室313b对应的过滤网320过滤后，经出水口312排出。"
+                },
+                {
+                  "printed_paragraph": 69,
+                  "excerpt_normalized": "可以理解的是，本申请实施例的进水口311和出水口312也错位设置，以延长水的流动路径，使得水流可以经过过滤网320进行过滤，提高对过滤精度。示例性的，进水口311的进水方向正对隔板316，出水口312的出水方向正对过滤网320，以使得水流在重力作用下流进主壳314内，在经过滤网320过滤后从出水口312流出。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "solids_dewatering": {
+              "accepted_observation_ids": [
+                "CN117702432A-solids_dewatering-complete_saved_scope-20261003"
+              ],
+              "printed_paragraphs": [
+                39,
+                49,
+                50,
+                54
+              ],
+              "physical_text_pages": [
+                6,
+                7,
+                8
+              ],
+              "scope_judgment": "衣物运动/烘干或过滤出水不转滤渣脱水；完整原件范围未定位固体含水降低动作。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 39,
+                  "excerpt_normalized": "请参阅图1所示，图1为本申请实施例提供的洗衣机的结构示意图。本申请实施例提供一种洗衣机1，洗衣机1可以是滚筒洗衣机，也可以是波轮洗衣机，本申请实施例不做具体限制。为了便于说明，本申请实施例以滚筒洗衣机为例进行说明。滚筒洗衣机的洗衣方法是模仿棒槌击打衣物原理设计，由不锈钢内筒，机械程序控制器，经过磷化、电泳、喷涂三重保护的外壳，和若干笨重的水泥块用于平衡滚筒旋转时产生的巨大离心力做重复运动，加上洗衣粉和水的共同作用使衣物洗涤干净。也即是说，滚筒洗衣机的内筒处于卧式，内筒的开口朝向水平方向，内筒可以绕水平方向的轴线转动，结合内筒内的提升筋来带动衣物翻转，从而将衣物均匀的洗涤或者烘干。"
+                },
+                {
+                  "printed_paragraph": 49,
+                  "excerpt_normalized": "其中，盒体310具有至少两个过滤腔室313，每一过滤腔室313可以独立的进行微塑料的过滤，至少两个过滤腔室313可以实现过滤的配合，诸如在一个过滤腔室313中由于堆积的微塑料过多而使得过滤腔室313内的压力过大时，可以通过其他过滤腔室313进行过滤，从而无需清理过滤组件300，可以减少人工清理过滤组件300的频率，提高用户使用体验。"
+                },
+                {
+                  "printed_paragraph": 50,
+                  "excerpt_normalized": "至少两个过滤网320是对应至少两个过滤腔室313而设置的，也即是说过滤网320的数量与过滤腔室313的数量相对应，且每一过滤网320可以是围设形成一个过滤腔室313的一部分，从进水口311进入的水，经任一过滤腔室313，并经过滤腔室313对应的过滤网320后，从出水口312流出，在水从盒体310通过的过程中，可以实现对微塑料的过滤与收集。示例性的，每一过滤网320分别对应一个过滤腔室313设置，且至少两个过滤网320均位于进水口311和出水口312之间。"
+                },
+                {
+                  "printed_paragraph": 54,
+                  "excerpt_normalized": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "liquid_route": {
+              "accepted_observation_ids": [
+                "CN117702432A-liquid_route-selected_chamber_net-20261002",
+                "CN117702432A-liquid_route-sewer_or_optional_reuse-20261003"
+              ],
+              "printed_paragraphs": [
+                42,
+                43,
+                48,
+                50,
+                69
+              ],
+              "physical_text_pages": [
+                6,
+                7,
+                9
+              ],
+              "scope_judgment": "管段夹装或末端、过滤水下水道或分支回供水均为各可选，原[0043]不补控制阀/水质保证。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 42,
+                  "excerpt_normalized": "过滤组件300设置于排水管200上，或者说，过滤组件300设置于排水管200的排水路径上，在安装时，可以将排水管200分为两段，将过滤组件300夹在两段排水管之间，以使水通过过滤组件300，来过滤以及收集排水管200中的微塑料。当然，也可以将过滤组件300连接于排水管200的末端，从而过滤组件300过滤后的水直接排出。"
+                },
+                {
+                  "printed_paragraph": 43,
+                  "excerpt_normalized": "需要说明的是，本申请实施例经过过滤组件300过滤后的水，可以直接排放到下水道中，由于经过了过滤，可以过滤出至少部分微纤维，由此可以减少对生态的污染。当然，还可以将经过过滤组件300过滤后的水进行回收，如将排水管200的末端一端与下水道连接，再将排水管200的末端分支与本体100的供水系统连接，从而可以实现水的回收再利用，减少资源的浪费。"
+                },
+                {
+                  "printed_paragraph": 48,
+                  "excerpt_normalized": "盒体310是过滤组件300的外形结构，盒体310用于容纳至少两个过滤网320以及至少一个控制阀门330。盒体310设有进水口311和出水口312。进水口311和出水口312分别用于与排水管200连通，以使得本体100排出的水经过盒体310后排出，在过滤网320的过滤作用下，可以过滤出至少部分微塑料，以减少对生态环境的污染。"
+                },
+                {
+                  "printed_paragraph": 50,
+                  "excerpt_normalized": "至少两个过滤网320是对应至少两个过滤腔室313而设置的，也即是说过滤网320的数量与过滤腔室313的数量相对应，且每一过滤网320可以是围设形成一个过滤腔室313的一部分，从进水口311进入的水，经任一过滤腔室313，并经过滤腔室313对应的过滤网320后，从出水口312流出，在水从盒体310通过的过程中，可以实现对微塑料的过滤与收集。示例性的，每一过滤网320分别对应一个过滤腔室313设置，且至少两个过滤网320均位于进水口311和出水口312之间。"
+                },
+                {
+                  "printed_paragraph": 69,
+                  "excerpt_normalized": "可以理解的是，本申请实施例的进水口311和出水口312也错位设置，以延长水的流动路径，使得水流可以经过过滤网320进行过滤，提高对过滤精度。示例性的，进水口311的进水方向正对隔板316，出水口312的出水方向正对过滤网320，以使得水流在重力作用下流进主壳314内，在经过滤网320过滤后从出水口312流出。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "storage": {
+              "accepted_observation_ids": [
+                "CN117702432A-storage-complete_saved_scope-20261003"
+              ],
+              "printed_paragraphs": [
+                49,
+                50,
+                52
+              ],
+              "physical_text_pages": [
+                7
+              ],
+              "scope_judgment": "过滤腔/网内堆积暂留与堵塞后换腔，不是专用储渣盒或长期防漏干储。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 49,
+                  "excerpt_normalized": "其中，盒体310具有至少两个过滤腔室313，每一过滤腔室313可以独立的进行微塑料的过滤，至少两个过滤腔室313可以实现过滤的配合，诸如在一个过滤腔室313中由于堆积的微塑料过多而使得过滤腔室313内的压力过大时，可以通过其他过滤腔室313进行过滤，从而无需清理过滤组件300，可以减少人工清理过滤组件300的频率，提高用户使用体验。"
+                },
+                {
+                  "printed_paragraph": 50,
+                  "excerpt_normalized": "至少两个过滤网320是对应至少两个过滤腔室313而设置的，也即是说过滤网320的数量与过滤腔室313的数量相对应，且每一过滤网320可以是围设形成一个过滤腔室313的一部分，从进水口311进入的水，经任一过滤腔室313，并经过滤腔室313对应的过滤网320后，从出水口312流出，在水从盒体310通过的过程中，可以实现对微塑料的过滤与收集。示例性的，每一过滤网320分别对应一个过滤腔室313设置，且至少两个过滤网320均位于进水口311和出水口312之间。"
+                },
+                {
+                  "printed_paragraph": 52,
+                  "excerpt_normalized": "需要说明的是，本申请实施例的相邻两个过滤腔室313之间通过控制阀门330进行联系，在过滤组件300进行过滤时，单次只有一个过滤腔室313进行过滤工作，其余的过滤腔室313在上述过滤腔室313被堵塞时启用工作，其余过滤腔室313的启用工作正是通过控制阀门330来实现的。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "removal": {
+              "accepted_observation_ids": [
+                "CN117702432A-removal-split_box_filter"
+              ],
+              "printed_paragraphs": [
+                54,
+                55
+              ],
+              "physical_text_pages": [
+                7,
+                8
+              ],
+              "scope_judgment": "分体壳盖可取出网清理；图5爆炸仅结构可达性，不补固体卸载/最终处置/先排干顺序。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 54,
+                  "excerpt_normalized": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。"
+                },
+                {
+                  "printed_paragraph": 55,
+                  "excerpt_normalized": "其中，主壳314的侧壁可以设置滑槽3140，以将过滤网320进行安装。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "state_switch": {
+              "accepted_observation_ids": [
+                "CN117702432A-state_switch-alternate_chambers"
+              ],
+              "printed_paragraphs": [
+                60,
+                61,
+                62,
+                63,
+                65,
+                66
+              ],
+              "physical_text_pages": [
+                8,
+                9
+              ],
+              "scope_judgment": "权4依3依2依1给开关状态；[0063]/[0066]压力达到阈值触发，90度为例，未给控制器/压力数值/自动程度实测。图3→6→7→8分别选通腔，不作四腔同时过滤。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 60,
+                  "excerpt_normalized": "其中，控制阀门330的初始位置或者说初始状态是与隔板316齐平的位置，控制阀门330与隔板316共同将主壳314分隔形成至少两个过滤腔室313，且过滤网320设置于隔板316上，以对过滤网320进行限位。"
+                },
+                {
+                  "printed_paragraph": 61,
+                  "excerpt_normalized": "其中，每一控制阀门330分别与隔板316转动连接。每一控制阀门330具有开启状态和关闭状态。在开启状态，控制阀门330与隔板316之间具有预设夹角，以将隔板316上方的过滤腔室313与进水口311隔断，并将隔板316下方的过滤腔室313与进水口311连通。在关闭状态，控制阀门330与隔板316齐平设置，以将隔板316上方的过滤腔室313与进水口311导通，并将隔板316下方的过滤腔室313与进水口311隔断。"
+                },
+                {
+                  "printed_paragraph": 62,
+                  "excerpt_normalized": "请结合图1至图5并参阅图3和图6所示，图6为图2所示的过滤组件沿A‑A剖面的第二状态结构示意图。可以理解的是，控制阀门330的初始状态也即是其关闭状态。以至少两个过滤腔室313包括第一过滤腔室313a和第二过滤腔室313b为例，第一过滤腔室313a位于第二过滤腔室313b上方。在控制阀门330关闭状态时，从进水口311进的水进入第一过滤腔室313a，并通过第一过滤腔室313a对应的过滤网320进行过滤后，再经出水口312排出。在控制阀门330开启状态时，控制阀门330转动至与隔板316呈预设角度，预设角度可以为90°，此时控制阀门330可以将第一过滤腔室313a进行隔断，也即进水口311进入的水不能通过第一过滤腔室313a对应的过滤网320进行过滤，而由于控制阀门330转动上去，此时第二过滤腔室313b可以与进水口311连通，从进水口311进入的水通过第二过滤腔室313b，并经过第二过滤腔室313b对应的过滤网320过滤后，经出水口312排出。"
+                },
+                {
+                  "printed_paragraph": 63,
+                  "excerpt_normalized": "其中，控制阀门330的转动条件为：当第一过滤腔室313a内的压力值大于或等于压力阈值时，也即说明此时第一过滤腔室313a对应的过滤网320被堵塞，因此在持续进水时会导致第一过滤腔室313a内的压力上升，则控制上述控制阀门330转动至与隔板316呈预设角度诸如90°。"
+                },
+                {
+                  "printed_paragraph": 65,
+                  "excerpt_normalized": "请参阅图3、图6至图8所示，图7为图2所示的过滤组件沿A‑A剖面的第三状态结构示意图，图8为图2所示的过滤组件沿A‑A剖面的第四状态结构示意图。其中，本申请实施例的过滤组件300具有四个过滤腔室313，也即可以实现四级过滤功能，在前三个过滤网320被堵塞时，可以通过第四个过滤网320进行微塑料的过滤，从而可以延长对过滤组件300的清洁周期，也可以由此延长过滤组件300的使用寿命。"
+                },
+                {
+                  "printed_paragraph": 66,
+                  "excerpt_normalized": "其中，每一控制阀门330开启状态的启动条件均为其上的过滤腔室313内的压力值大于或等于压力阈值时，由此可以实现逐级过滤，提高过滤组件300的清理周期与使用寿命。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "seals_connections": {
+              "accepted_observation_ids": [
+                "CN117702432A-seals_connections-shell_latches_optional_seal-20261002"
+              ],
+              "printed_paragraphs": [
+                54,
+                56,
+                57,
+                58
+              ],
+              "physical_text_pages": [
+                7,
+                8
+              ],
+              "scope_judgment": "权9依2依1卡扣；多对卡扣/硅胶说明书可选。图5未编号环轮廓不自动认定硅胶，原[0058]称图未示保持。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 54,
+                  "excerpt_normalized": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。"
+                },
+                {
+                  "printed_paragraph": 56,
+                  "excerpt_normalized": "对于盖体315和主壳314的可拆卸连接，可以通过卡扣件来实现。示例性的，盒体310还包括第一卡扣件318和第二卡扣件319，第一卡扣件318设置于主壳314上，第二卡扣件319设置于盖体315上，第二卡扣件319与第一卡扣件318卡接连接，以将盖体315安装到主壳314上。第一卡扣件318可以为凸块，第二卡扣件319可以为卡槽，卡槽与凸块配合，以实现盖体315与主壳314的连接。"
+                },
+                {
+                  "printed_paragraph": 57,
+                  "excerpt_normalized": "其中，可以设置至少两对第一卡扣件318和第二卡扣件319，分别对应主壳314的不同侧壁，从而可以将主壳314与盖体315连接紧密，减少盖体315相对于主壳314的晃动，从而来降低漏水风险。"
+                },
+                {
+                  "printed_paragraph": 58,
+                  "excerpt_normalized": "其中，盖体315与主壳314之间可以设置有密封件(图中未示意出)，诸如硅胶密封件，以防止盒体310漏水。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "performance": {
+              "accepted_observation_ids": [
+                "CN117702432A-performance-complete_saved_scope-20261003"
+              ],
+              "printed_paragraphs": [
+                4,
+                27,
+                53,
+                65,
+                70,
+                71
+              ],
+              "physical_text_pages": [
+                4,
+                5,
+                7,
+                9
+              ],
+              "scope_judgment": "周期/寿命/精度都是本件效果主张；完整原件未定位本装置效率、寿命实验方法/N/误差。背景35%不作效率。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 4,
+                  "excerpt_normalized": "本申请实施例提供一种过滤组件和洗衣机，可以延长过滤组件的清洗周期以及使用寿命。"
+                },
+                {
+                  "printed_paragraph": 27,
+                  "excerpt_normalized": "本申请实施例的过滤组件和洗衣机中，通过在过滤组件中设置至少两个过滤腔室以及至少两个过滤网，且至少两个过滤腔室与进水口和出水口的导通状态可以通过控制阀门进行变换，从而可以在一个过滤腔室中的过滤网被堵塞时，使用其他过滤网以及过滤腔室进行微塑料的过滤，可以延长用户清理过滤组件的周期，降低用户清理的繁琐。此外，清理频次减少也可以降低对过滤组件的损伤，由此可以延长过滤组件的使用寿命。附图说明"
+                },
+                {
+                  "printed_paragraph": 53,
+                  "excerpt_normalized": "本申请实施例的过滤组件300中，通过在过滤组件300中设置至少两个过滤腔室313以及至少两个过滤网320，且至少两个过滤腔室313与进水口311和出水口312的导通状态可以通过控制阀门330进行变换，从而可以在一个过滤腔室313中的过滤网320被堵塞时，使用其他过滤网320以及过滤腔室313进行微塑料的过滤，可以延长用户清理过滤组件300的周期，降低用户清理的繁琐。此外，清理频次减少也可以降低对过滤组件300的损伤，由此可以延长过滤组件300的使用寿命。"
+                },
+                {
+                  "printed_paragraph": 65,
+                  "excerpt_normalized": "请参阅图3、图6至图8所示，图7为图2所示的过滤组件沿A‑A剖面的第三状态结构示意图，图8为图2所示的过滤组件沿A‑A剖面的第四状态结构示意图。其中，本申请实施例的过滤组件300具有四个过滤腔室313，也即可以实现四级过滤功能，在前三个过滤网320被堵塞时，可以通过第四个过滤网320进行微塑料的过滤，从而可以延长对过滤组件300的清洁周期，也可以由此延长过滤组件300的使用寿命。"
+                },
+                {
+                  "printed_paragraph": 70,
+                  "excerpt_normalized": "示例性的，隔板316上方的过滤网320的网孔尺寸大于或等于隔板316下方的过滤网320的网孔尺寸，从而可以实现对微塑料的多级过滤，以提高对微塑料的过滤精度。"
+                },
+                {
+                  "printed_paragraph": 71,
+                  "excerpt_normalized": "本申请实施例提供的过滤组件300和洗衣机1中，通过在过滤组件300中设置至少两个过滤腔室313以及至少两个过滤网320，且至少两个过滤腔室313与进水口311和出水口312的导通状态可以通过控制阀门330进行变换，从而可以在一个过滤腔室313中的过滤网320被堵塞时，使用其他过滤网320以及过滤腔室313进行微塑料的过滤，可以延长用户清理过滤组件300的周期，降低用户清理的繁琐。此外，清理频次减少也可以降低对过滤组件300的损伤，由此可以延长过滤组件300的使用寿命。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "endpoint": {
+              "accepted_observation_ids": [
+                "CN117702432A-endpoint-complete_saved_scope-20261003"
+              ],
+              "printed_paragraphs": [
+                43,
+                54
+              ],
+              "physical_text_pages": [
+                6,
+                7,
+                8
+              ],
+              "scope_judgment": "[0043]液体去向不是固体处置；完整原件未定位含物固体/废网最终处置。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 43,
+                  "excerpt_normalized": "需要说明的是，本申请实施例经过过滤组件300过滤后的水，可以直接排放到下水道中，由于经过了过滤，可以过滤出至少部分微纤维，由此可以减少对生态的污染。当然，还可以将经过过滤组件300过滤后的水进行回收，如将排水管200的末端一端与下水道连接，再将排水管200的末端分支与本体100的供水系统连接，从而可以实现水的回收再利用，减少资源的浪费。"
+                },
+                {
+                  "printed_paragraph": 54,
+                  "excerpt_normalized": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            },
+            "carrier_conditioning": {
+              "accepted_observation_ids": [
+                "CN117702432A-carrier_conditioning-complete_saved_scope-20261003"
+              ],
+              "printed_paragraphs": [
+                39,
+                54,
+                55,
+                69
+              ],
+              "physical_text_pages": [
+                6,
+                7,
+                8,
+                9
+              ],
+              "scope_judgment": "衣物烘干/取网清理/普通水流不作网320排水干燥，完整原件未定位该介质调理。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 39,
+                  "excerpt_normalized": "请参阅图1所示，图1为本申请实施例提供的洗衣机的结构示意图。本申请实施例提供一种洗衣机1，洗衣机1可以是滚筒洗衣机，也可以是波轮洗衣机，本申请实施例不做具体限制。为了便于说明，本申请实施例以滚筒洗衣机为例进行说明。滚筒洗衣机的洗衣方法是模仿棒槌击打衣物原理设计，由不锈钢内筒，机械程序控制器，经过磷化、电泳、喷涂三重保护的外壳，和若干笨重的水泥块用于平衡滚筒旋转时产生的巨大离心力做重复运动，加上洗衣粉和水的共同作用使衣物洗涤干净。也即是说，滚筒洗衣机的内筒处于卧式，内筒的开口朝向水平方向，内筒可以绕水平方向的轴线转动，结合内筒内的提升筋来带动衣物翻转，从而将衣物均匀的洗涤或者烘干。"
+                },
+                {
+                  "printed_paragraph": 54,
+                  "excerpt_normalized": "示例性的，请结合图1至图3并参阅图4和图5所示，图4为本申请实施例提供的过滤组件的第二角度的结构示意图，图5为本申请实施例提供的过滤组件的爆炸结构示意图。盒体310为分体式结构，以便于取出盒体310内的零部件诸如过滤网320进行清理。比如，盒体310包括主壳314和盖体315。主壳314用于容纳至少两个过滤网320，出水口312设置于主壳314上，比如出水口312可以设置在主壳314与盖体315相对的底壁上，或者设置在主壳314的侧壁上，以便于水在重力作用下流出。盖体315与主壳314可拆卸连接，以盖封或者露出主壳314，进水口311设置于盖体315上，也即进水口311设置在较高位置，以便于水流入进行过滤。"
+                },
+                {
+                  "printed_paragraph": 55,
+                  "excerpt_normalized": "其中，主壳314的侧壁可以设置滑槽3140，以将过滤网320进行安装。"
+                },
+                {
+                  "printed_paragraph": 69,
+                  "excerpt_normalized": "可以理解的是，本申请实施例的进水口311和出水口312也错位设置，以延长水的流动路径，使得水流可以经过过滤网320进行过滤，提高对过滤精度。示例性的，进水口311的进水方向正对隔板316，出水口312的出水方向正对过滤网320，以使得水流在重力作用下流进主壳314内，在经过滤网320过滤后从出水口312流出。"
+                }
+              ],
+              "evidence_role": "Original paragraph object/claim boundary validation; an individual contrast excerpt does not prove whole-document absence."
+            }
+          },
+          "figure_boundary_notes": [
+            "Figure5 physical12 has unnumbered rectangular ring-like outline below cover; description0058 says seal not shown; identity/material not independently specified.",
+            "Figures3/6/7/8 each illustrate different selected chamber; pressure switching description0063/0066 is not an efficiency measurement or a mandatory controller structure."
+          ],
+          "rendered_pages": [
+            {
+              "physical_page": 1,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-01.png",
+              "sha256": "26838e3d96c58a477a89be478d3acf718d72c2c3278ff503282509286ff4e847"
+            },
+            {
+              "physical_page": 2,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-02.png",
+              "sha256": "4bc4947839fb1309602f5e773d06013d736e7292004d2db5d238dd9ee6ced36f"
+            },
+            {
+              "physical_page": 3,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-03.png",
+              "sha256": "2d7a4f1c019900ac8cdb4d66406617b43ba1f2f05b0157df25634e67ad6331a1"
+            },
+            {
+              "physical_page": 4,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-04.png",
+              "sha256": "1393c390fd3918d89726145b13c8409acbc18dcdb16365deca7b982bdb4498a9"
+            },
+            {
+              "physical_page": 5,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-05.png",
+              "sha256": "cde286818c85674eeaa3665578b3396c8160cc290e8c914541a166305771d087"
+            },
+            {
+              "physical_page": 6,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-06.png",
+              "sha256": "bbfb559fa3cb2dba28ee3793886495a1c30e18f97db2e6cbe90a69da7bcea45d"
+            },
+            {
+              "physical_page": 7,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-07.png",
+              "sha256": "1575adafd5ca70bcbfdbb9c6a1eaf201bc3471b89cc45ad677aa6840f86ba629"
+            },
+            {
+              "physical_page": 8,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-08.png",
+              "sha256": "3a2163f1c7d463d949be26160c96463003375042961040a4ffbee36e3e4af312"
+            },
+            {
+              "physical_page": 9,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-09.png",
+              "sha256": "0be34befab374fabff6cc63c26d78bfc1468ae58f4a6a4257267f7f8d94b0a04"
+            },
+            {
+              "physical_page": 10,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-10.png",
+              "sha256": "2e45e649877475d9cc9435a3eeb428e3c6e5402d605fe272e9f1b73162d57751"
+            },
+            {
+              "physical_page": 11,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-11.png",
+              "sha256": "13f32d3c5f2c792d6a7cd0f2615ffe9c9c0bb9138890407b3328babb7672f88b"
+            },
+            {
+              "physical_page": 12,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-12.png",
+              "sha256": "42ee48a1e411ee1e4c7953abf09b9c6de4e758efa5e9b19ae3e5bd57abaa2a2f"
+            },
+            {
+              "physical_page": 13,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-13.png",
+              "sha256": "78afd3673a01bc26170a1260a7e6bf2a1c791c8401052f2e5562a9d82f0c80d9"
+            },
+            {
+              "physical_page": 14,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-14.png",
+              "sha256": "51b0f4de95e55ba26529eadc274061b44300b103179b1707bd1c5da770024932"
+            }
+          ]
         }
       }
     },

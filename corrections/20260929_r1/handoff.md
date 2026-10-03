@@ -193,3 +193,7 @@ patents/CN117702432A.pdf原公布镜像837316bytes/SHAe22fdc6e0d024314eea7866884
 ## 2026-10-03 11:50：CN118原PDF独立补源
 
 patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d，既存citation直链HTTP200；执行者41页parse及封面目视版本通过，2—3权/4—14说明/15—41图。仅来源，27图页与全技术未核，法律仍pending；固定ccc7c41主表/CSV168精确bytes保持，QA/卡CN118273060A_original_source_20261003。下一先CN11714页完整原件图文分事务复核，CN118随后，保存编号冲突不得未经原件默修，无reset。
+
+## 2026-10-03 11:56：CN117原A14页完整图文绑定
+
+本人全部14页text+visual、全10权/74编号段/图1—8全读，13字段原段绑定及14渲染bytes回读通过；不凑数增观察，原168/allfeatures/其他13/all法律保持，CSV精确bytes不变。物理7—8原[0054]取网清理对应HTMLp0059；原[0056—0058]卡扣/密封可选；图5未编号环不擅定硅胶，原文图未示保留。四腔图3/6/7/8是分次选通，不转同时全腔过滤。master实际SHA9d035d1bd3e7242097f223c332b880b0070a8f06b5bf66632ea398e3ed3473fe，QA/卡CN117702432A_original_review_20261003。公开已验，原A阅读完成与当前全项目全文/法律验收分开，14pending/统计终稿false/noreset保持；下一CN118原41页27图独立复核。
