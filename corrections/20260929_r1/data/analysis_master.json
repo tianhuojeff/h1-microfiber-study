@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-03T11:56:24.278729+08:00",
+  "updated_at": "2026-10-03T12:02:20.277625+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -15527,6 +15527,322 @@
             "p0147 sidewall52/p0174 bottomwall52 vs zh-cl0010 sidewall513/bottom512",
             "p0176 medium2 vs medium50; p0181/p0182 pump560 vs pump960; original PDF/figures needed, no silent correction"
           ]
+        },
+        "original_numbering_conflict_review_20261003": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN118273060A.pdf",
+          "source_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+          "at": "2026-10-03T12:02:20.277625+08:00",
+          "executor_text_pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "printed_description_paragraphs_read": [
+            1,
+            239
+          ],
+          "claims_text_read": [
+            1,
+            19
+          ],
+          "executor_visual_pages_read": [
+            2,
+            10,
+            11,
+            12,
+            13,
+            14,
+            26,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "previous_cover_visual_read_receipt": "corrections/20260929_r1/QA/CN118273060A_original_source_20261003.json",
+          "drawing_titles_read_pages": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "drawing_pages_visually_read": [
+            26,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "all_drawings_visually_read": false,
+          "original_technical_full_review_complete": false,
+          "original_claim9_excerpt": "9.根据前述权利要求中任一项所述的过滤器组件(1)，其中，所述帽构件(40)和所述封头板(510)包括相互面对且能相互接合的实体器件，所述实体器件包括彼此互补的至少一个实体槽(406)和至少一个实体突起(516)。",
+          "conflicts": [
+            {
+              "id": "406/516 roles",
+              "printed_paragraphs": [
+                129,
+                130,
+                133,
+                211,
+                224
+              ],
+              "physical_text_pages": [
+                2,
+                10,
+                13,
+                14
+              ],
+              "judgment": "原权9物理2写槽406/突起516，原说明[0129]/[0130]物理10写突起406/槽516，列表[0211]/[0224]分别都写实体槽。原[0133]另述器件在滤组或插塞上的另一实施方式，须区分部件位置选项与编号/名称文本差异。图3/7″/8所选例516指前端凹槽区域，不能据此静默改权9或统一所有实施方式。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 129,
+                  "excerpt_normalized": "根据优选实施方式，实体器件包括彼此面对的至少一个实体突起406和至少一个实体槽516，它们彼此互补。"
+                },
+                {
+                  "printed_paragraph": 130,
+                  "excerpt_normalized": "换句话说，实体突起406和实体槽516确保了过滤器组5相对于盖装置4的正确定位，并且同时确保了过滤器组5与盖装置4的正确的机械和密封联接。"
+                },
+                {
+                  "printed_paragraph": 133,
+                  "excerpt_normalized": "根据其他实施方式，实体突起406定位在过滤器组5上，并且实体槽516定位在插塞构件上。"
+                },
+                {
+                  "printed_paragraph": 211,
+                  "excerpt_normalized": "406实体槽"
+                },
+                {
+                  "printed_paragraph": 224,
+                  "excerpt_normalized": "516实体槽"
+                }
+              ]
+            },
+            {
+              "id": "side/bottom 52 vs513/512",
+              "printed_paragraphs": [
+                73,
+                142,
+                169,
+                220,
+                222
+              ],
+              "physical_text_pages": [
+                3,
+                8,
+                10,
+                12,
+                14
+              ],
+              "judgment": "原[0142]物理10侧壁52、[0169]物理12底壁52仍在原PDF；原权10物理3及[0073]/列表使用侧壁513/底板512。图6″/图7′/图8分别可见512或513标注，支持这些所画结构的标签，不据此把52原文默改或宣称所有版本修正。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 73,
+                  "excerpt_normalized": "根据优选实施方式，过滤介质50基本上是板形的，并且联接到过滤介质50的过滤器结构51具有基本上在周边的、优选地矩形的形状，该过滤器结构包括封头板510和底板512以及侧壁513。"
+                },
+                {
+                  "printed_paragraph": 142,
+                  "excerpt_normalized": "优选地，接合元件409接合过滤器结构51的侧壁52。"
+                },
+                {
+                  "printed_paragraph": 169,
+                  "excerpt_normalized": "优选地，所述联接肋5121在过滤器结构51的底壁52上获得。"
+                },
+                {
+                  "printed_paragraph": 220,
+                  "excerpt_normalized": "512底板"
+                },
+                {
+                  "printed_paragraph": 222,
+                  "excerpt_normalized": "513侧壁"
+                }
+              ]
+            },
+            {
+              "id": "medium2 vs50",
+              "printed_paragraphs": [
+                70,
+                171,
+                196,
+                216
+              ],
+              "physical_text_pages": [
+                8,
+                12,
+                13
+              ],
+              "judgment": "原[0171]物理12确写过滤介质2；原[0070]介质50，列表[0196]2为壳体组、[0216]50为过滤介质。图7″/8中50指介质；原PDF文字差异保留，不能把一般壳体组当介质功能或自动改2为50。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 70,
+                  "excerpt_normalized": "过滤器组5包括过滤介质50和联接到过滤介质50的过滤器结构51。"
+                },
+                {
+                  "printed_paragraph": 171,
+                  "excerpt_normalized": "优选地，所述滑动肋5131通过在相对于封头板510的三个其余侧上围绕过滤介质2的连接部分而结合到联接肋5121。"
+                },
+                {
+                  "printed_paragraph": 196,
+                  "excerpt_normalized": "2壳体组"
+                },
+                {
+                  "printed_paragraph": 216,
+                  "excerpt_normalized": "50过滤介质"
+                }
+              ]
+            },
+            {
+              "id": "pump560 vs960",
+              "printed_paragraphs": [
+                48,
+                176,
+                177,
+                232
+              ],
+              "physical_text_pages": [
+                6,
+                12,
+                14
+              ],
+              "judgment": "原[0176]/[0177]物理12确写泵组560，前文[0048]及权18/列表[0232]为960。模块集成方式与泵前后位置各选项不能互相强合，所读6图页未确认560号身份，差异作为未决编号线索保留，不自动判新独立泵或改成960。",
+              "paragraph_evidence": [
+                {
+                  "printed_paragraph": 48,
+                  "excerpt_normalized": "根据优选实施方式，洗衣机900包括泵组960，其沿着洗衣机管道950定位，以将水从滚筒910朝向排放系统排放。根据这种优选实施方式，因此所述泵组960的目的是通过也称为排放管道的洗衣机管道950将水朝向排放系统排放。"
+                },
+                {
+                  "printed_paragraph": 176,
+                  "excerpt_normalized": "根据优选实施方式，壳体组2包括用于安装泵组560的座。"
+                },
+                {
+                  "printed_paragraph": 177,
+                  "excerpt_normalized": "换句话说，根据所述优选实施方式，泵组560和过滤器组件1形成整体模块。"
+                },
+                {
+                  "printed_paragraph": 232,
+                  "excerpt_normalized": "960泵组"
+                }
+              ]
+            }
+          ],
+          "rendered_pages": [
+            {
+              "physical_page": 2,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-02.png",
+              "sha256": "6dcb83828b91ff6aaba9eff2109c0e2f1f6f06226e1446a4bda5356c1e6430e2"
+            },
+            {
+              "physical_page": 10,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-10.png",
+              "sha256": "a442c667b2d61a47e6275bc9dc0249d4e4b78ad3883138175b31393c7780c9d4"
+            },
+            {
+              "physical_page": 11,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-11.png",
+              "sha256": "a2ff3b5485d3b92e4444e9170a927fc5323059d7b9ae22734c1b354d946d4b39"
+            },
+            {
+              "physical_page": 12,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-12.png",
+              "sha256": "2e911ac5c6fa1f7e836dfdd6efa2cab5171765ab970601d3c56fcbe3180c9f67"
+            },
+            {
+              "physical_page": 13,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-13.png",
+              "sha256": "27b3c9f33ccec62b90f1104324827cc936ed50bbee4f666b8b18d7856fdf03aa"
+            },
+            {
+              "physical_page": 14,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-14.png",
+              "sha256": "aaf507e907ebd9e5b2fb1c66e420b5967f6c03419dc5e68f3293f760f5e0b2ce"
+            },
+            {
+              "physical_page": 26,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-26.png",
+              "sha256": "e909aeb7a384566fa63864ea045ca1188e4634adc5006d4cc5ad7cabee75e044"
+            },
+            {
+              "physical_page": 33,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-33.png",
+              "sha256": "126fde4006e374e671631dbaee81ea436d6cde784f6a933d02c4a3c1e5c9a7b5"
+            },
+            {
+              "physical_page": 34,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-34.png",
+              "sha256": "421666784432e67c3dc13c299d3820483405b61bc03b40a46f31efff7970f63a"
+            },
+            {
+              "physical_page": 35,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-35.png",
+              "sha256": "8417e0c26ee4fafbb2dbe30e93dda99ed8877c858576410ce595b667ffc72200"
+            },
+            {
+              "physical_page": 36,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-36.png",
+              "sha256": "499a9abbcf122b9c45cba9db2693fd7dae9bcd523f56be6ea990d676139ef3b2"
+            },
+            {
+              "physical_page": 37,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_conflict_20261003-37.png",
+              "sha256": "6d6e8a21ff3f143134bd562a944d91cc9994ee9cb340ae5f01a2dc6b46d2ba4f"
+            }
+          ],
+          "next_drawing_visual_pages": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            38,
+            39,
+            40,
+            41
+          ],
+          "not_a_whole_project_or_legal_acceptance": true
         }
       }
     },

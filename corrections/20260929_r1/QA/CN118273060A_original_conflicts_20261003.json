@@ -1,0 +1,64 @@
+{
+  "verified": true,
+  "baseline": "849eeb8e885935a83a8ecc49acd4807e14465627",
+  "observations": 168,
+  "added_observations": 0,
+  "all_old_168_features_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "CSV_bytes_unchanged": true,
+  "master_sha256": "26faaea490a7abb0d9d8c325ab76cca1fd6b1c763b022bc0b0dd0f3989db989f",
+  "source_pdf_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+  "printed_description_paragraphs_read": [
+    1,
+    239
+  ],
+  "all_claims_text_read": [
+    1,
+    19
+  ],
+  "executor_text_pages_read": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "executor_visual_pages_read": [
+    2,
+    10,
+    11,
+    12,
+    13,
+    14,
+    26,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "drawing_pages_visually_read": [
+    26,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "all_27_drawings_pages_visually_read": false,
+  "four_original_numbering_conflicts_preserved": true,
+  "all_new_original_excerpts_and_image_bytes_verified": true,
+  "all_14_pending": true,
+  "formal_statistics_allowed": false,
+  "reset_consumed": false,
+  "checked_at": "2026-10-03T12:02:38.631288+08:00"
+}
