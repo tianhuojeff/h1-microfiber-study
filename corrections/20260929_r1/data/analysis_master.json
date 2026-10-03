@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-03T12:16:44.048678+08:00",
+  "updated_at": "2026-10-03T12:19:37.431518+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -16201,6 +16201,102 @@
               "physical_page": 32,
               "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_structure_20261003-32.png",
               "sha256": "e6ee4725a35b0fc674d1980831088bcd371042acf48258eae6317045c392a17c"
+            }
+          ]
+        },
+        "original_final_drawing_review_20261003": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN118273060A.pdf",
+          "source_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+          "at": "2026-10-03T12:19:37.431518+08:00",
+          "executor_visual_pages_this_transaction": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "figures_this_transaction": [
+            "10prime",
+            "10doubleprime",
+            "11",
+            "12",
+            "12prime",
+            "13",
+            "13prime"
+          ],
+          "cumulative_drawing_visual_pages": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "remaining_drawing_visual_pages": [],
+          "all_drawings_visually_read": true,
+          "original_technical_full_review_complete": false,
+          "figure_observations": [
+            {
+              "pages": [
+                38
+              ],
+              "judgment": "图10′/10″给连接510/定心511/516前端凹形与介质50/滤组5，支持所画标签，不静默裁定权9槽406/突起516文字矛盾。"
+            },
+            {
+              "pages": [
+                39
+              ],
+              "judgment": "图11分解展示4片标500叠置及512底板、513侧壁、510连接和516；这是所画多层构型，不把所有实施方式数量统一为4，不根据孔图推实测尺寸或捕获率。"
+            },
+            {
+              "pages": [
+                40,
+                41
+              ],
+              "judgment": "图12/12′与图13/13′分别显示多层介质50/层500的外观与断面；图13一侧露出的各层几何不同，配合正文理解选项，不从示意比例推测精确孔隙梯度、材料或脱水/干燥。"
+            }
+          ],
+          "boundaries": "累计27/27附图页实际目视已完成，全19权与239段文字此前读完；仍待13字段原段/图完整映射和说明书其他正文页视觉复核，不能将图读完成冒充全项目全文、资格或统计终稿验收。",
+          "rendered_pages": [
+            {
+              "physical_page": 38,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_finalfigs_20261003-38.png",
+              "sha256": "f457d1fbea4a0cd747171007de28805aa4a6ca5963860482c6ac498e62362ed1"
+            },
+            {
+              "physical_page": 39,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_finalfigs_20261003-39.png",
+              "sha256": "fbc72a1765ab8992d3f80a30b12b56912e9f79b7ccb4112eabcb0ec3b3684e85"
+            },
+            {
+              "physical_page": 40,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_finalfigs_20261003-40.png",
+              "sha256": "5a3091453680f6094ec3bee8ab0457843bc8c0cd106d983755dd42b34d117de3"
+            },
+            {
+              "physical_page": 41,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_finalfigs_20261003-41.png",
+              "sha256": "37aadfb18b7cbb5798c194375704e398c4140b4c893def29a0c2fa8b31f45251"
             }
           ]
         }
