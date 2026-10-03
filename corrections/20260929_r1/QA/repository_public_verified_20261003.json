@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "baseline": "2834a5fba058fb61f5df9ab2d2cf5c4af1e79e9c",
+  "master_and_CSV_bytes_unchanged": true,
+  "all_159_and_14_objects_unchanged": true,
+  "public_official_and_anonymous_verified": true,
+  "receipt_sha256": "0e261e5d1fdce284d0a9b9d7cee62b371b9e26a7ce973784657e7f0bc860cba8",
+  "master_sha256": "de29118d0cc3426ed2180727cb83df000f5f14627504d2ea34161330bd8ae266",
+  "no_reset": true
+}

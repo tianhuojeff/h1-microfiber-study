@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-10-03T11:38:37+08:00",
+  "repository": "tianhuojeff/h1-microfiber-study",
+  "repository_url": "https://github.com/tianhuojeff/h1-microfiber-study",
+  "fixed_commit": "2834a5fba058fb61f5df9ab2d2cf5c4af1e79e9c",
+  "setting_executor": "controller 01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
+  "official_executor_readback": {
+    "tool": "github_get_repo",
+    "repository_id": "1396834870",
+    "visibility": "public",
+    "default_branch": "main",
+    "isError": false
+  },
+  "anonymous_executor_readback": {
+    "url": "https://raw.githubusercontent.com/tianhuojeff/h1-microfiber-study/2834a5fba058fb61f5df9ab2d2cf5c4af1e79e9c/current_release.json",
+    "http": 200,
+    "observations": 159,
+    "response_sha256": "776940e0aebb1bf9e88f2f21ecb774a0d6de96d75431e015b82612114b7b49b7"
+  },
+  "controller_source_receipts": [
+    {
+      "name": "anonymous_public_receipt.json",
+      "sha256": "226c662fbc5a10d05d95fe744fdf9891857145067976eeca6b1950a43c728645"
+    },
+    {
+      "name": "source_receipt.json",
+      "sha256": "a91a72fa0ef7bef92090b53818d95365741f25967ef4d6ed0844a2c6f08b4bc8"
+    },
+    {
+      "name": "公开前检查报告.md",
+      "sha256": "2ff24937c8b62ddb0e08e1d32e80127b81f616a950c10fba5d069e7a30270d80"
+    }
+  ],
+  "controller_artifact_directory": "work_logs/artifacts/controller-20261003/公开前检查",
+  "controller_followup_API_403": "Parent reports subsequent anonymous REST validation hit API rate limit; it did not establish a setting failure. Official connector and anonymous raw content independently confirm public.",
+  "audit_scope_note": "Bounded history/current blob audit reported no confirmed user secret/private chat/bill; not an absolute leakage guarantee. Scan scripts and candidate values not copied.",
+  "actual_public_visibility_verified": true,
+  "technical_data_changed": false,
+  "legal_pending_count": 14,
+  "formal_statistics_allowed": false,
+  "reset_consumed": false
+}

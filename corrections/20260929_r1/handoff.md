@@ -173,3 +173,7 @@ CN222授权事件2024-11-22由原PDF与CNIPA第21297581行互证；执行者独�
 ## 2026-10-03 11:27：当日规则接续与公开意图授权
 
 全局37行、项目574行、H1 61行、详细规范742行及当日release/handoff均完整分块回读；接续后H1追加公开授权原话，旧private历史不删除。用户“继续做，然后先把做的都提交好，我要那个仓库是公开仓库”授权本仓库公开；实际设置由主控负责，当前只记desired public、尚未取得公开完成证据。CN117事务安全基线2db4842e6adf2e5d9c451423116582b7bb1ce926，两端一致、159条，技术数据/CSV本接续逻辑字节保持；缓存留存不提交。真实执行者/主控/来源全hash见controller_acknowledgements/20261003_01a0f5bd_接续与公开授权.json。没有使用reset，也没有另设额度停线。P2仍草稿，P3已有独立来源项不等于整体完成；14pending、正式统计/终稿/项目完成false。当前全部事务推送后冻结H1写入供总控固定历史/可见性验收；主控释放后下一动作是CN117完整保存文本剩余字段及有证据可完成的P2/P3原件和资格补证，不把本次短范围阅读冒全文。
+
+## 2026-10-03 11:38：仓库公开实际验收与恢复写锁
+
+主控设置后释放冻结锁；执行者独立GitHub官方connector get_repo回读visibility=public、default_branch=main，并匿名取固定2834a5f/current_release.json得HTTP200/159，响应SHA776940e0aebb1bf9e88f2f21ecb774a0d6de96d75431e015b82612114b7b49b7。主控后续匿名API验证403为额度限制，不能把已确认public写成设置失败。公开前有限覆盖检查未确认具体用户secret/实际聊天账单，不宣称绝对无泄漏。回执evidence/repository_public_receipt_20261003.json仅保存安全元数据和源报告hash，无token/扫描script/候选值。此独立元数据事务保持159主表/CSV精确bytes与14pending；资格统计及终稿未放行，无reset。下一恢复CN117保存全文范围余项，本次公开不代表H1完成。
