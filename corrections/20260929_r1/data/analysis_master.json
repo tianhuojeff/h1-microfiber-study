@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-03T12:02:20.277625+08:00",
+  "updated_at": "2026-10-03T12:09:34.360207+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -15841,6 +15841,259 @@
             39,
             40,
             41
+          ],
+          "not_a_whole_project_or_legal_acceptance": true
+        },
+        "original_routes_drawing_review_20261003": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN118273060A.pdf",
+          "source_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+          "at": "2026-10-03T12:09:34.360207+08:00",
+          "executor_visual_pages_read_this_transaction": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "drawing_sheet_numbers_this_transaction": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "figure_titles_this_transaction": [
+            "1a",
+            "1b",
+            "1c",
+            "1d",
+            "1e",
+            "1f",
+            "1g",
+            "1h",
+            "1i",
+            "1j",
+            "1k",
+            "1l",
+            "1m",
+            "1n",
+            "1o",
+            "1p",
+            "1q",
+            "1r",
+            "1s",
+            "1t",
+            "1u",
+            "2prime"
+          ],
+          "cumulative_drawing_visual_pages": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "remaining_drawing_visual_pages": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            38,
+            39,
+            40,
+            41
+          ],
+          "all_drawings_visually_read": false,
+          "original_technical_full_review_complete": false,
+          "figure_observations": [
+            {
+              "pages": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "figures": "1a-1n",
+              "judgment": "分别画出过滤器1在900外/内及靠近970的不同布局，950/951/952、960与部分955的位置各不相同；图1a外置与图1b内置不合成同时必需两过滤器。"
+            },
+            {
+              "pages": [
+                22,
+                23,
+                24,
+                25
+              ],
+              "figures": "1o-1u",
+              "judgment": "图1o-1u继续给出滤组与泵/阀前后及分支的独立路线变型；图1p/1s可见9521、9522分支标签。说明[0053]/[0055]还使用95121/9522，图和文字标签照原保留，不默修或据此新增维护排腔液。"
+            },
+            {
+              "pages": [
+                25
+              ],
+              "figures": "2prime",
+              "judgment": "图2′装配外观可见壳体组2、外壳3、闭合盖4和7；外观线条不证明排干、固体脱水、密封实测或内部流向。"
+            }
+          ],
+          "route_boundary": "按[0045]-[0056]保持外/内、泵上/下游、阀位第一/第二管段及排出/再循环各可选布局独立。图示连线配合文字理解，不补未标箭头、强制先后、所有方案同一链或处理后水质/零排放。",
+          "paragraph_evidence": [
+            {
+              "printed_paragraph": 39,
+              "excerpt_normalized": "根据优选实施方式，洗衣机管道950是洗衣机900的排放管道，其流体地连接到滚筒910(或者更一般地，连接到滚筒壳体)，并且可流体地连接到家用或工业排放系统，以用于排放在滚筒910中使用的水。"
+            },
+            {
+              "printed_paragraph": 40,
+              "excerpt_normalized": "根据优选实施方式，洗衣机管道950是滚筒水再循环管道，即，接收离开滚筒910的水以将其带回到滚筒910的管道。"
+            },
+            {
+              "printed_paragraph": 41,
+              "excerpt_normalized": "根据优选实施方式，洗衣机还包括洗涤剂抽屉970。优选地，洗衣机管道950流体地连接到所述洗涤剂抽屉970。"
+            },
+            {
+              "printed_paragraph": 42,
+              "excerpt_normalized": "优选地，洗衣机管道950是流体地连接到所述洗涤剂抽屉970的滚筒水再循环管道。"
+            },
+            {
+              "printed_paragraph": 43,
+              "excerpt_normalized": "根据优选实施方式，过滤器组件1可流体地连接到所述洗衣机管道950。"
+            },
+            {
+              "printed_paragraph": 44,
+              "excerpt_normalized": "根据优选实施方式，过滤器组件1沿着所述洗衣机管道950定位。"
+            },
+            {
+              "printed_paragraph": 45,
+              "excerpt_normalized": "优选地，过滤器组件1容纳在洗衣机900的外部。"
+            },
+            {
+              "printed_paragraph": 46,
+              "excerpt_normalized": "优选地，过滤器组件1容纳在洗衣机900的外部，就流体而言位于泵组960的下游。"
+            },
+            {
+              "printed_paragraph": 47,
+              "excerpt_normalized": "优选地，过滤器组件1容纳在洗衣机900的内部。"
+            },
+            {
+              "printed_paragraph": 48,
+              "excerpt_normalized": "根据优选实施方式，洗衣机900包括泵组960，其沿着洗衣机管道950定位，以将水从滚筒910朝向排放系统排放。根据这种优选实施方式，因此所述泵组960的目的是通过也称为排放管道的洗衣机管道950将水朝向排放系统排放。"
+            },
+            {
+              "printed_paragraph": 49,
+              "excerpt_normalized": "根据优选实施方式，洗衣机900包括沿着所述洗衣机管道950定位的泵组960，所述泵组960适于执行水朝向滚筒910的再循环。根据这种优选实施方式，因此所述泵组960的目的是使滚筒910中的水通过洗衣机管道950再循环。根据优选实施方式，洗衣机900包括沿着所述洗衣机管道950定位的泵组960，所述泵组960适于执行水朝向排放系统的排放和水朝向滚筒910的再循环。特别地，根据这种优选实施方式，根据需要，排放管道950分叉并连接到滚筒910和排放系统。"
+            },
+            {
+              "printed_paragraph": 50,
+                "excerpt_normalized": "根据优选实施方式，所述泵组960相对于转筒910以抽吸方式操作。优选地，排放泵组960包括叶轮，该叶轮的旋转控制抽吸作用。"
+            },
+            {
+              "printed_paragraph": 51,
+              "excerpt_normalized": "根据优选实施方式，洗衣机900包括就流体而言定位在滚筒910的下游并且就流体而言定位在过滤器组件1的上游的泵组960。"
+            },
+            {
+              "printed_paragraph": 52,
+              "excerpt_normalized": "根据优选实施方式，洗衣机900包括就流体而言定位在滚筒910的下游并且就流体而言定位在过滤器组件1的下游的泵组960。"
+            },
+            {
+              "printed_paragraph": 53,
+              "excerpt_normalized": "根据优选实施方式，洗衣机900还包括阀955，其流体地连接到洗衣机管道950的再循环段9511、95121，流体地连接到滚筒910，并且流体地连接到洗衣机管道950的排放段9512、9522，流体地连接到排放系统。"
+            },
+            {
+              "printed_paragraph": 54,
+              "excerpt_normalized": "根据优选实施方式，过滤器组1沿着所述洗衣机管道950定位并将洗衣机管道分成第一段951和第二段952。第一段951流体地连接到滚筒910，并且第二段952可流体地连接到排放系统或再次连接到滚筒910。“脏”水(即，含有水、溶解的洗涤剂、污物、天然纤维和尤其是微塑料的水)在第一段951中流动，而“处理过的水”(即，过滤掉微塑料的水)在第二段952中流动。"
+            },
+            {
+              "printed_paragraph": 55,
+              "excerpt_normalized": "优选地，在优选实施方式中，阀955就流体而言定位在第二段952中，其中阀955控制再循环段95121中或排放段9522中的流动。"
+            },
+            {
+              "printed_paragraph": 56,
+              "excerpt_normalized": "优选地，在一个实施方式中，阀955就流体而言定位在第一段951中，其中阀955控制再循环段9511中或排放段9512中的流动。"
+            }
+          ],
+          "rendered_pages": [
+            {
+              "physical_page": 15,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-15.png",
+              "sha256": "08fb5bf1108808a34caaac86655c79aff254b2b28262858570835d6a065dea9e"
+            },
+            {
+              "physical_page": 16,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-16.png",
+              "sha256": "933955ede73a0d7cdc1f3e8e53beec5db1c1f71bc081aeb386dafbcc25b33a53"
+            },
+            {
+              "physical_page": 17,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-17.png",
+              "sha256": "860e151d13ac34df92ce9af1f0fd9da9722fb667dac64b579e8176396ad3c711"
+            },
+            {
+              "physical_page": 18,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-18.png",
+              "sha256": "6013a3b985fe8572b6100a473729fa3be03d452110d0ad8896eb29a617757db5"
+            },
+            {
+              "physical_page": 19,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-19.png",
+              "sha256": "d9e3f4e58160888c1b68b87c517959483c4f36b8525725f9378b8524149a923b"
+            },
+            {
+              "physical_page": 20,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-20.png",
+              "sha256": "ba60ffef425bde8bae258806f3d593a1a5394b550d8cf69f0e79997981631517"
+            },
+            {
+              "physical_page": 21,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-21.png",
+              "sha256": "85ab7583c550b0717b2dc403b53c996a4b581868ea3f17a4902ea10287acee4e"
+            },
+            {
+              "physical_page": 22,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-22.png",
+              "sha256": "cfa3198d58b863ca60c8ebf899b18fab0b2437c2a84a3d1fd40dc5fe239e8f7a"
+            },
+            {
+              "physical_page": 23,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-23.png",
+              "sha256": "3a0c628e6d28cc22e3bf6efc2e89816ff9725c7bce840dea0a918a8ee34fb675"
+            },
+            {
+              "physical_page": 24,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-24.png",
+              "sha256": "ae09275479b5e3cf3c5acd14d1d741cad7b7929d9fc7cfd9a1bd284fb4587ce5"
+            },
+            {
+              "physical_page": 25,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN118273060A_routes_20261003-25.png",
+              "sha256": "bf08848d56afb3334addeb7f7f5d3d36a336f00f75fcc6a5cfc2e4ba37986ce9"
+            }
           ],
           "not_a_whole_project_or_legal_acceptance": true
         }
