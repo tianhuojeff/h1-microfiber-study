@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-03T11:43:37.850272+08:00",
+  "updated_at": "2026-10-03T11:47:00.153961+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -21942,6 +21942,89 @@
               "new_value": "洗衣排水经200进入盒体310入口311，经过当前阀330选通腔313对应网320，再从出口312流出；p0047说明组件可夹于两段排水管之间，或置排水管末端使过滤后水直接排出，是替代安装位置，不拼成同一必经链。仅明确装置内过滤水路及文本所述排出，不补污水厂/环境终点、零颗粒、零排放或独立维护排空；原PDF/图未核。",
               "change_reason": "明确正向原句补单一空字段，保留原值及未知。",
               "removal_kind": null
+            },
+            {
+              "observation_id": "CN117702432A-liquid_route-sewer_or_optional_reuse-20261003",
+              "publication_id": "CN117702432A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "filtrate_sewer_or_optional_reuse",
+              "stage": "liquid_route",
+              "technical_feature": "p0048明确经过组件过滤的水可直接排下水道；另可选排水管末端一端接下水道、末端分支接本体100供水系统回收再利用。两种液体去向是原文可选，不作同时必需或零颗粒/安全实测。对象是经过过滤的水，不是截留固体后续处置，也不是维护前腔排空；未明分流控制阀、比例、再利用水质或最终环境安全，不能自行补画。",
+              "object": "组件过滤后的水",
+              "start": "过滤组件300后的排水管末端",
+              "end": "可选下水道或末端分支接本体供水系统",
+              "boundary": "说明书p0048可选液体目的地，不是固体处置或质量/安全实测",
+              "operation_order": [],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "说明书可选方式；未把分支再利用作为权1/10必需结构",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0045",
+                  "html_anchor": "p0045",
+                  "evidence_excerpt": "示例性的，洗衣机1包括本体100和排水管200，本体100也即是包括箱体、内筒、显示面板以及控制板等部件的结构。本体100可以对衣物进行盛装以及处理，也即本体100是清洗衣物的主要部件。排水管200与本体100可拆卸连接，诸如通过插接管进行插接连接，排水管200用于将本体100处理衣物完成后的污水排出，诸如通过排水口排到下水道中。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-03T11:47:00.153961+08:00",
+                  "extraction_note": "Saved text positive filtrate destination; physical original/figures not checked."
+                },
+                {
+                  "locator": "保存HTML #p0047",
+                  "html_anchor": "p0047",
+                  "evidence_excerpt": "过滤组件300设置于排水管200上，或者说，过滤组件300设置于排水管200的排水路径上，在安装时，可以将排水管200分为两段，将过滤组件300夹在两段排水管之间，以使水通过过滤组件300，来过滤以及收集排水管200中的微塑料。当然，也可以将过滤组件300连接于排水管200的末端，从而过滤组件300过滤后的水直接排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-03T11:47:00.153961+08:00",
+                  "extraction_note": "Saved text positive filtrate destination; physical original/figures not checked."
+                },
+                {
+                  "locator": "保存HTML #p0048",
+                  "html_anchor": "p0048",
+                  "evidence_excerpt": "需要说明的是，本申请实施例经过过滤组件300过滤后的水，可以直接排放到下水道中，由于经过了过滤，可以过滤出至少部分微纤维，由此可以减少对生态的污染。当然，还可以将经过过滤组件300过滤后的水进行回收，如将排水管200的末端一端与下水道连接，再将排水管200的末端分支与本体100的供水系统连接，从而可以实现水的回收再利用，减少资源的浪费。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN117702432A.html",
+                  "source_url": "https://patents.google.com/patent/CN117702432A/zh",
+                  "source_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+                  "verified_at": "2026-10-03T11:47:00.153961+08:00",
+                  "extraction_note": "Saved text positive filtrate destination; physical original/figures not checked."
+                }
+              ],
+              "interpretation": "p0048明确经过组件过滤的水可直接排下水道；另可选排水管末端一端接下水道、末端分支接本体100供水系统回收再利用。两种液体去向是原文可选，不作同时必需或零颗粒/安全实测。对象是经过过滤的水，不是截留固体后续处置，也不是维护前腔排空；未明分流控制阀、比例、再利用水质或最终环境安全，不能自行补画。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-03T11:47:00.153961+08:00",
+              "old_value": {
+                "judgment": "explicit",
+                "summary": "控制阀使一个过滤腔连通进、出水口，导流筋引导水由进水口流向出水口。",
+                "evidence": [
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+                    "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+                    "locator": "claim 1",
+                    "quote": "以将相邻两个过滤腔室中的一个连通于所述进水口和所述出水口，",
+                    "evidence_type": "claim"
+                  },
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN117702432A_claims.txt",
+                    "source_sha256": "DF14109752632B06E5EFA0CA8BCF7E5A9EC91C5E3C8E2ABC48B82D348E08CF81",
+                    "locator": "claim 6",
+                    "quote": "以引导水流自所述进水口流向所述出水口。",
+                    "evidence_type": "claim"
+                  }
+                ],
+                "unknown_reason": null,
+                "review_scope": "claims 1-10"
+              },
+              "new_value": "p0048明确经过组件过滤的水可直接排下水道；另可选排水管末端一端接下水道、末端分支接本体100供水系统回收再利用。两种液体去向是原文可选，不作同时必需或零颗粒/安全实测。对象是经过过滤的水，不是截留固体后续处置，也不是维护前腔排空；未明分流控制阀、比例、再利用水质或最终环境安全，不能自行补画。",
+              "change_reason": "完整保存文本识别明确后续滤液去向，另添观察，旧已验路线不改写。",
+              "removal_kind": null
             }
           ],
           "prior_field": {
@@ -23482,6 +23565,16 @@
             ],
             "field": "carrier_conditioning",
             "at": "2026-10-03T11:43:37.850272+08:00"
+          },
+          {
+            "publication": "CN117702432A",
+            "anchors": [
+              "p0045",
+              "p0047",
+              "p0048"
+            ],
+            "field": "liquid_route",
+            "at": "2026-10-03T11:47:00.153961+08:00"
           }
         ],
         "capture_saved_targeted_20261002": {

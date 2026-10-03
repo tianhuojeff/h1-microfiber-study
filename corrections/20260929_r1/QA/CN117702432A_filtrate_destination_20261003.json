@@ -1,0 +1,25 @@
+{
+  "verified": true,
+  "baseline": "2e745e69c2a48dd98d77abed63c3e80955ea80cf",
+  "observations": 168,
+  "added": 1,
+  "old_167_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "other_12_target_fields_and_legal_unchanged": true,
+  "master_sha256": "612a0c8450d1fc0dac82ecac4184c1d02a3d21392310ddfec4eed50a355932d4",
+  "source_html_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+  "all_source_bytes_and_excerpts_verified": true,
+  "CSV_only_target_count_changed": true,
+  "quoted_anchors": [
+    "p0045",
+    "p0047",
+    "p0048"
+  ],
+  "full_saved_text_read_anchor_count": 89,
+  "original_pdf_checked": false,
+  "drawings_checked": false,
+  "all_14_pending": true,
+  "formal_statistics_allowed": false,
+  "checked_at": "2026-10-03T11:47:13.380614+08:00",
+  "reset_consumed": false
+}
