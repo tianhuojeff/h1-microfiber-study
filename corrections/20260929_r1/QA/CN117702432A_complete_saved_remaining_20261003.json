@@ -1,0 +1,40 @@
+{
+  "verified": true,
+  "baseline": "bf95975fac9c8a6ba3aa8568fe8a477a49103030",
+  "observations": 167,
+  "added": 8,
+  "old_159_unchanged": true,
+  "other_13_candidates_unchanged": true,
+  "old_target_5_observations_and_fields_unchanged": true,
+  "all_legal_evidence_unchanged": true,
+  "master_sha256": "cb4e973562b7f5a052bb358eb29d68f031c56f6bd5ac156de64079513995a394",
+  "source_html_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
+  "all_source_bytes_and_excerpts_verified": true,
+  "CSV_verified": true,
+  "fields": [
+    "cleaning",
+    "transfer",
+    "chamber_drainage",
+    "solids_dewatering",
+    "storage",
+    "performance",
+    "endpoint",
+    "carrier_conditioning"
+  ],
+  "executor_read_anchor_count": 89,
+  "executor_read_ranges": [
+    "p0001-p0079",
+    "zh-cl0001-zh-cl0010"
+  ],
+  "executor_complete_saved_text_read": true,
+  "read_method": "Two complete description blocks and all claims read directly by executor; no missing normalized anchors",
+  "original_pdf_checked": false,
+  "drawings_checked": false,
+  "unknown_not_zero": true,
+  "all_14_pending": true,
+  "full_text_complete_count": 0,
+  "formal_statistics_allowed": false,
+  "checked_at": "2026-10-03T11:43:52.031587+08:00",
+  "initial_failure": "Generator first lacked difflib imported for pure patch helper; exited before printing/applying patch, zero master/CSV writes. Import corrected, generator and whole QA rerun from first item passed.",
+  "reset_consumed": false
+}

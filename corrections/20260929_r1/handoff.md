@@ -177,3 +177,7 @@ CN222授权事件2024-11-22由原PDF与CNIPA第21297581行互证；执行者独�
 ## 2026-10-03 11:38：仓库公开实际验收与恢复写锁
 
 主控设置后释放冻结锁；执行者独立GitHub官方connector get_repo回读visibility=public、default_branch=main，并匿名取固定2834a5f/current_release.json得HTTP200/159，响应SHA776940e0aebb1bf9e88f2f21ecb774a0d6de96d75431e015b82612114b7b49b7。主控后续匿名API验证403为额度限制，不能把已确认public写成设置失败。公开前有限覆盖检查未确认具体用户secret/实际聊天账单，不宣称绝对无泄漏。回执evidence/repository_public_receipt_20261003.json仅保存安全元数据和源报告hash，无token/扫描script/候选值。此独立元数据事务保持159主表/CSV精确bytes与14pending；资格统计及终稿未放行，无reset。下一恢复CN117保存全文范围余项，本次公开不代表H1完成。
+
+## 2026-10-03 11:43：CN117完整保存文本剩余8字段
+
+本人完整两块读79描述+全10权项，共89锚点；清理可达性、网腔暂留、作者性能主张与五项范围内未定位分开，未知非0。旧159/旧目标5完整字段/非目标13/all法律保持，8新到167；master实际SHA cb4e973562b7f5a052bb358eb29d68f031c56f6bd5ac156de64079513995a394，全源字节/引文及CSV QA通过，卡/QA CN117702432A_complete_saved_remaining_20261003。初次缺difflib在输出补丁前失败，主表零写入，修复从首项重跑。保存文本不冒原PDF/图或全文完成，14pending/草稿统计终稿false/noreset保持。下一单独补p0048过滤水排下水道或回本体供水，不能误作固体处置；之后已有原件/来源可完成项继续。
