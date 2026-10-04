@@ -1,0 +1,25 @@
+{
+  "verified": true,
+  "baseline": "6cb6d617166280b39eaa57edf14c7a4768c3c804",
+  "observations": 168,
+  "added_observations": 0,
+  "bindings_added": 12,
+  "all13_fields_original_bound": true,
+  "all_old_features_and_observations_unchanged": true,
+  "other13_complete_objects_unchanged": true,
+  "all_legal_unchanged": true,
+  "CSV_bytes_unchanged": true,
+  "master_sha256": "55e84dfe5b446c01185d5b8c01483452e7661df7be75a5cd70e5c1186d691f9b",
+  "source_pdf_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+  "239_original_paragraph_ids_verified": true,
+  "original_paragraph_excerpt_checks": 53,
+  "existing_original_render_hashes_verified": 40,
+  "all27_drawing_pages_previously_read": true,
+  "new_visual_reading_claimed": false,
+  "full_text_flags_not_automatically_promoted": true,
+  "failure_notes": [
+    "Oversized field-read output and first displayed generator output truncated; neither applied. Compact field projection/page blocks reread fully. Preview found overescaped page-header cleanup and background paragraph2 role; generator corrected before first data apply, then real-byte QA from first item."
+  ],
+  "checked_at": "2026-10-04T09:49:43.464283+08:00",
+  "reset_consumed": false
+}

@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-03T12:28:22.845092+08:00",
+  "updated_at": "2026-10-04T09:47:51.132641+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -16667,6 +16667,824 @@
           "rendered_pages": [],
           "previous_full_visual_receipt": "corrections/20260929_r1/QA/CN118273060A_original_body_20261003.json",
           "next_action": "Bind other12 fields to original paragraphs/claims/figures; no current legal qualification or whole-project acceptance."
+        },
+        "original_remaining_field_bindings_20261004": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN118273060A.pdf",
+          "source_sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
+          "at": "2026-10-04T09:47:51.132641+08:00",
+          "source_text_pages_revisited_this_transaction": [
+            3,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "cumulative_original_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "cumulative_drawing_visual_pages": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "new_visual_reading_claimed": false,
+          "bindings": {
+            "cleaning": {
+              "observation_ids_preserved": [
+                "CN118273060A-cleaning-complete_saved_scope-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 165,
+                  "physical_pages": [
+                    11
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，在过滤器组至少部分地从壳体主体抽出的情况下，滑动引导件和滑动肋之间的纵向联接限定盖装置4相对于壳体主体3的正确位置。根据优选实施方式，滑动引导件和滑动肋之间的纵向联接便于在操作者继续组装过滤器组件1之前识别盖装置4的正确位置，并且因此识别过滤器组5的正确位置，从而避免了包括在过滤器组件1上的部件的损坏，并且使过滤器的更换操作简单。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 186,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组的维护和更换操作被简化，并且可以由没有特定经验的操作者执行。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 189,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，操作构件和过滤器组之间的接合引导过滤器组和盖装置之间的正确联接，从而简化过滤器组在插入步骤期间和过滤器组从壳体主体抽出步骤期间的操纵操作。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [],
+              "original_figure_physical_pages": [
+                26
+              ],
+              "judgment": "具体清洗/剥离/反洗程序未定位；可取出维护更换不补介质再生。",
+              "support_status": "not_located_in_full_original_scope",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "unknown",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "transfer": {
+              "observation_ids_preserved": [
+                "CN118273060A-transfer-complete_saved_scope-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 119,
+                  "physical_pages": [
+                    9
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，首先，过滤器组5，即过滤器组5的定心元件511，通过操作构件41接合在盖装置4处，并且它们一起同时沿着轴线X‑X插入到壳体主体3中。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 174,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，壳体组2还包括可定位在锁定位置和解锁位置的止动构件7，在锁定位置中，盖装置4和过滤器组5的轴向运动被锁定，在解锁位置中，盖装置4和过滤器组5可沿着轴线X‑X从壳体3轴向移动和轴向移动到壳体3。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 189,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，操作构件和过滤器组之间的接合引导过滤器组和盖装置之间的正确联接，从而简化过滤器组在插入步骤期间和过滤器组从壳体主体抽出步骤期间的操纵操作。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [
+                16
+              ],
+              "original_figure_physical_pages": [
+                26
+              ],
+              "judgment": "含物滤组随盖轴向移动为载体移出；未定位松散截留固体卸下后转独立容器。",
+              "support_status": "not_located_in_full_original_scope",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "unknown",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "chamber_drainage": {
+              "observation_ids_preserved": [
+                "CN118273060A-chamber_drainage-complete_saved_scope-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 88,
+                  "physical_pages": [
+                    8
+                  ],
+                  "evidence_excerpt": "此外，根据本发明，壳体主体3包括待过滤的水流过的入口口部301以及已过滤的水流过的出口口部302。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 166,
+                  "physical_pages": [
+                    11,
+                    12
+                  ],
+                  "evidence_excerpt": "此外，根据优选实施方式，滑动引导件和滑动肋之间的联接保持过滤器组5在过滤室20内的位置。优选地，过滤器组5中的水的交叉作用从滑动肋排放到滑动引导件上。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 174,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，壳体组2还包括可定位在锁定位置和解锁位置的止动构件7，在锁定位置中，盖装置4和过滤器组5的轴向运动被锁定，在解锁位置中，盖装置4和过滤器组5可沿着轴线X‑X从壳体3轴向移动和轴向移动到壳体3。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [],
+              "original_figure_physical_pages": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
+              ],
+              "judgment": "301/302为正常液路；166跨页水交叉作用措辞保持，不补维护腔排空、去向或先排空联锁。",
+              "support_status": "not_located_in_full_original_scope",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "unknown",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "solids_dewatering": {
+              "observation_ids_preserved": [
+                "CN118273060A-solids_dewatering-complete_saved_scope-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 37,
+                  "physical_pages": [
+                    6
+                  ],
+                  "evidence_excerpt": "优选地，洗衣机900包括滚筒910，在该滚筒中执行洗涤操作。应注意，本发明不限于该滚筒的类型、形状、尺寸、定位、定向(即，旋转轴线)、操作模式(例如，旋转速度和离心率)。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 70,
+                  "physical_pages": [
+                    8
+                  ],
+                  "evidence_excerpt": "过滤器组5包括过滤介质50和联接到过滤介质50的过滤器结构51。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 187,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组件配置为使得过滤器组安装在正确的位置，并且迫使水通过过滤介质。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [],
+              "original_figure_physical_pages": [
+                39,
+                40,
+                41
+              ],
+              "judgment": "滚筒离心和介质过滤对象分别；未定位截留固体压滤/离心去夹带水及含水率实测。",
+              "support_status": "not_located_in_full_original_scope",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "unknown",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "liquid_route": {
+              "observation_ids_preserved": [
+                "CN118273060A-liquid_route-wash_pipe"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 39,
+                  "physical_pages": [
+                    6
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，洗衣机管道950是洗衣机900的排放管道，其流体地连接到滚筒910(或者更一般地，连接到滚筒壳体)，并且可流体地连接到家用或工业排放系统，以用于排放在滚筒910中使用的水。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 40,
+                  "physical_pages": [
+                    6
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，洗衣机管道950是滚筒水再循环管道，即，接收离开滚筒910的水以将其带回到滚筒910的管道。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 54,
+                  "physical_pages": [
+                    7
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，过滤器组1沿着所述洗衣机管道950定位并将洗衣机管道分成第一段951和第二段952。第一段951流体地连接到滚筒910，并且第二段952可流体地连接到排放系统或再次连接到滚筒910。“脏”水(即，含有水、溶解的洗涤剂、污物、天然纤维和尤其是微塑料的水)在第一段951中流动，而“处理过的水”(即，过滤掉微塑料的水)在第二段952中流动。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 55,
+                  "physical_pages": [
+                    7
+                  ],
+                  "evidence_excerpt": "优选地，在优选实施方式中，阀955就流体而言定位在第二段952中，其中阀955控制再循环段95121中或排放段9522中的流动。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 56,
+                  "physical_pages": [
+                    7
+                  ],
+                  "evidence_excerpt": "优选地，在一个实施方式中，阀955就流体而言定位在第一段951中，其中阀955控制再循环段9511中或排放段9512中的流动。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [
+                17
+              ],
+              "original_figure_physical_pages": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "judgment": "950可排放或再循环；951/952分脏净。泵前后、阀在第一/第二段、各出口为分别选项；95121原字对图9521冲突保留，不判零颗粒。",
+              "support_status": "explicit_original_optional_routes",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "explicit_original_optional_routes",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "storage": {
+              "observation_ids_preserved": [
+                "CN118273060A-storage-complete_saved_scope-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 70,
+                  "physical_pages": [
+                    8
+                  ],
+                  "evidence_excerpt": "过滤器组5包括过滤介质50和联接到过滤介质50的过滤器结构51。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 135,
+                  "physical_pages": [
+                    10
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，插塞构件40包括至少一个接合元件409，其适于接合过滤器组5以相对于插塞构件40锁定其位置。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 140,
+                  "physical_pages": [
+                    10
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，所述接合元件409形成过滤器组5搁置于其上的支撑部。换句话说，接合元件409适于为过滤器组5提供搁置表面。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 144,
+                  "physical_pages": [
+                    10
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，接合元件409具有盒状容器的形状。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [],
+              "original_figure_physical_pages": [
+                26,
+                39,
+                40,
+                41
+              ],
+              "judgment": "组5介质50的含物暂留边界；409盒状接合支撑件不判集渣容器；未定位独立松散固体长期干储。",
+              "support_status": "in_filter_carrier_boundary_only",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "in_filter_carrier_boundary_only",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "removal": {
+              "observation_ids_preserved": [
+                "CN118273060A-removal-unlock_axial"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 119,
+                  "physical_pages": [
+                    9
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，首先，过滤器组5，即过滤器组5的定心元件511，通过操作构件41接合在盖装置4处，并且它们一起同时沿着轴线X‑X插入到壳体主体3中。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 165,
+                  "physical_pages": [
+                    11
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，在过滤器组至少部分地从壳体主体抽出的情况下，滑动引导件和滑动肋之间的纵向联接限定盖装置4相对于壳体主体3的正确位置。根据优选实施方式，滑动引导件和滑动肋之间的纵向联接便于在操作者继续组装过滤器组件1之前识别盖装置4的正确位置，并且因此识别过滤器组5的正确位置，从而避免了包括在过滤器组件1上的部件的损坏，并且使过滤器的更换操作简单。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 174,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，壳体组2还包括可定位在锁定位置和解锁位置的止动构件7，在锁定位置中，盖装置4和过滤器组5的轴向运动被锁定，在解锁位置中，盖装置4和过滤器组5可沿着轴线X‑X从壳体3轴向移动和轴向移动到壳体3。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 180,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组件允许容易地管理过滤器组从壳体主体的抽出和插入，例如从洗衣机的前侧，使得操作者容易接近过滤器组。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 181,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组件允许容易地管理过滤器组从壳体主体的抽出和插入，例如从洗衣机的上侧，使得操作者容易接近过滤器组。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 189,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，操作构件和过滤器组之间的接合引导过滤器组和盖装置之间的正确联接，从而简化过滤器组在插入步骤期间和过滤器组从壳体主体抽出步骤期间的操纵操作。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [
+                16
+              ],
+              "original_figure_physical_pages": [
+                26
+              ],
+              "judgment": "止动7解锁后盖4和组5轴向抽移；前侧/上侧位置各可选，不等同独立集渣盒或安全处置。",
+              "support_status": "explicit_original_carrier_removal",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "explicit_original_carrier_removal",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "state_switch": {
+              "observation_ids_preserved": [
+                "CN118273060A-state_switch-mechanical_two_angle_lock-20261002",
+                "CN118273060A-state_switch-optional_pressure_notice-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 57,
+                  "physical_pages": [
+                    7
+                  ],
+                  "evidence_excerpt": "根据另一优选实施方式，洗衣机900还包括压力传感器组，其适于检测水流的压力，优选地适于检测过滤器组1的入口和出口之间的水压差。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 60,
+                  "physical_pages": [
+                    7
+                  ],
+                  "evidence_excerpt": "‑过滤器要堵塞信号，即，过滤器几乎耗尽，其中检测的压力值(优选地压差)大于第一预设值并且低于第二预设值；",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 61,
+                  "physical_pages": [
+                    7
+                  ],
+                  "evidence_excerpt": "‑过滤器闭塞信号，即，过滤器耗尽，其中检测到的压力值(优选地压差)大于所述第二预设值；",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 62,
+                  "physical_pages": [
+                    7
+                  ],
+                  "evidence_excerpt": "‑过滤器闭塞且洗衣机停止信号，即，过滤器将被更换，其中压差大于所述第二预设值。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 63,
+                  "physical_pages": [
+                    7
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，命令单元连接到或对应于包括在洗衣机900中的命令面板。因此，通过一个或多个报警灯的点亮或通过洗衣机900的显示器，对操作者警告过滤器组1的维护状态。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 174,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，壳体组2还包括可定位在锁定位置和解锁位置的止动构件7，在锁定位置中，盖装置4和过滤器组5的轴向运动被锁定，在解锁位置中，盖装置4和过滤器组5可沿着轴线X‑X从壳体3轴向移动和轴向移动到壳体3。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 175,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "优选地，止动构件7是突出旋转元件，其可在两个不同的角位置处定位在锁定位置和解锁位置。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [
+                16
+              ],
+              "original_figure_physical_pages": [
+                26,
+                34,
+                35
+              ],
+              "judgment": "机械两角锁解锁与另一优选压差/压力信号通知分开；闭塞且停机是示例，不拼强制停泵排空开盖联锁。",
+              "support_status": "explicit_original_distinct_optional_states",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "explicit_original_distinct_optional_states",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "seals_connections": {
+              "observation_ids_preserved": [
+                "CN118273060A-seals_connections-centering_seals_with_numbering_conflict-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 103,
+                  "physical_pages": [
+                    9
+                  ],
+                  "evidence_excerpt": "根据本发明，操作构件41可通过贯通开口401接合到定心元件511。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 104,
+                  "physical_pages": [
+                    9
+                  ],
+                  "evidence_excerpt": "根据本发明，在前述接合中，操作构件41接合插塞构件40，并且迫使封头板510与插塞构件40密封接合。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 107,
+                  "physical_pages": [
+                    9
+                  ],
+                  "evidence_excerpt": "优选地，封头板510与插塞构件40的密封接合发生在沿着轴线X‑X的轴向方向上。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 109,
+                  "physical_pages": [
+                    9
+                  ],
+                  "evidence_excerpt": "优选地，封头板510与插塞构件40的密封接合发生在径向方向上。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 115,
+                  "physical_pages": [
+                    9
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，盖装置4和开口边缘313之间的接合如所述的那样是密封接合，其形成第三密封区域T3。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 118,
+                  "physical_pages": [
+                    9
+                  ],
+                  "evidence_excerpt": "优选地，在过滤器组5处于安装位置的情况下，第二密封区域T2和第三密封区域T3沿着轴线X‑X基本上对准。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 124,
+                  "physical_pages": [
+                    10
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，操作构件41和定心元件511可通过螺纹联接而相互接合。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 126,
+                  "physical_pages": [
+                    10
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，操作构件41和定心元件511可通过卡口联接而相互接合。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 173,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，过滤器组5和/或盖装置4与壳体3的壁的所述周边接合限定第四密封区域T4。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [
+                1,
+                5
+              ],
+              "original_figure_physical_pages": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38
+              ],
+              "judgment": "41经401接511促510/40密封；T1-T4界面和不同轴径向位置、螺纹或卡口各可选，编号矛盾不默修，不补防漏实测。",
+              "support_status": "explicit_original_optional_connections",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "explicit_original_optional_connections",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "performance": {
+              "observation_ids_preserved": [
+                "CN118273060A-performance-complete_saved_scope-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 179,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组件具有紧凑的尺寸，与洗衣机内部可用的空间相兼容，有利于过滤器组件在排放管线和再循环管线两者上在洗衣机自身中的集成。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 180,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组件允许容易地管理过滤器组从壳体主体的抽出和插入，例如从洗衣机的前侧，使得操作者容易接近过滤器组。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 181,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组件允许容易地管理过滤器组从壳体主体的抽出和插入，例如从洗衣机的上侧，使得操作者容易接近过滤器组。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 184,
+                  "physical_pages": [
+                    12
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组件包括用于使过滤器组和盖装置定心并相互接合的系统，其能够保持过滤器组的结构简单并减少经受定期更换的部件的数量，从而提供具有减小的环境影响的解决方案。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 186,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组的维护和更换操作被简化，并且可以由没有特定经验的操作者执行。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 190,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，操作构件和定心元件之间的接合确保过滤器组和盖装置之间的气密联接。有利地，允许将过滤器组气密地联接到壳体主体和过滤器组件的封闭所需的力被减小。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [],
+              "original_figure_physical_pages": [
+                26
+              ],
+              "judgment": "紧凑、维护/抽插便利、减力、环境影响为作者文本主张；原全文未定位量化截留/装配力协议、N、误差或独立验证。",
+              "support_status": "text_claim_only",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "text_claim_only",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "endpoint": {
+              "observation_ids_preserved": [
+                "CN118273060A-endpoint-complete_saved_scope-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 186,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，过滤器组的维护和更换操作被简化，并且可以由没有特定经验的操作者执行。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 189,
+                  "physical_pages": [
+                    13
+                  ],
+                  "evidence_excerpt": "有利地，操作构件和过滤器组之间的接合引导过滤器组和盖装置之间的正确联接，从而简化过滤器组在插入步骤期间和过滤器组从壳体主体抽出步骤期间的操纵操作。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [],
+              "original_figure_physical_pages": [
+                26
+              ],
+              "judgment": "维护更换与抽移明确；原技术全文及图未定位收集固体/含物滤材垃圾分类、回收、销毁或安全最终去向。",
+              "support_status": "not_located_in_full_original_scope",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "unknown",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            },
+            "carrier_conditioning": {
+              "observation_ids_preserved": [
+                "CN118273060A-carrier_conditioning-complete_saved_scope-20261002"
+              ],
+              "original_paragraph_evidence": [
+                {
+                  "printed_paragraph": 36,
+                  "physical_pages": [
+                    6
+                  ],
+                  "evidence_excerpt": "另外，参考附图，附图标记900表示根据本发明的洗衣机。如已经提到的，术语洗衣机也指洗衣烘干机解决方案，即，也具有干燥功能的洗衣机。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                },
+                {
+                  "printed_paragraph": 165,
+                  "physical_pages": [
+                    11
+                  ],
+                  "evidence_excerpt": "根据优选实施方式，在过滤器组至少部分地从壳体主体抽出的情况下，滑动引导件和滑动肋之间的纵向联接限定盖装置4相对于壳体主体3的正确位置。根据优选实施方式，滑动引导件和滑动肋之间的纵向联接便于在操作者继续组装过滤器组件1之前识别盖装置4的正确位置，并且因此识别过滤器组5的正确位置，从而避免了包括在过滤器组件1上的部件的损坏，并且使过滤器的更换操作简单。",
+                  "excerpt_is_prefix_of_original_paragraph": true,
+                  "source_role": "description_of_this_invention_or_optional_embodiment"
+                }
+              ],
+              "original_claims": [],
+              "original_figure_physical_pages": [
+                39,
+                40,
+                41
+              ],
+              "judgment": "洗衣烘干功能对象非介质50；未定位使用后介质自身排水、干燥或调理程序，不由过滤或拆卸推出已干。",
+              "support_status": "not_located_in_full_original_scope",
+              "reviewed_scope": "Published A description0001-0239/claims1-19/figures all27pages read Oct3; no new exhaustive visual reading claimed.",
+              "availability_judgment": "unknown",
+              "claim_role_note": "Claims and optional descriptions separately scoped; no counterpart/granted claim borrowing."
+            }
+          },
+          "capture_prior_binding": "original_capture_binding_20261003",
+          "original_field_binding_complete": true,
+          "original_technical_acceptance_pending_separate_logic": true,
+          "existing_conflicts_preserved": "406/516 role;52 versus512/513;medium2 versus50;pump560 versus960;route95121 versus9521",
+          "previous_full_visual_receipt": "corrections/20260929_r1/QA/CN118273060A_original_body_20261003.json",
+          "next_action": "Separately accept candidate technical full-text scope with scene/coverage/QA invariants; legal pending and formal statistics gates unchanged."
         }
       }
     },

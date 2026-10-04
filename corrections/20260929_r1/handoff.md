@@ -233,3 +233,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 本人完整分块读当前全局37行/项目574行/H1 65行AGENTS、详细规范742行、release及上述227行handoff，并窄读H1记忆与完整PDF技能；仅追加本次授权，所有旧门槛保留。基线HEAD=remote8181b9e1fe10fa252523364c693210cbebf8517f，168观察/master实际SHA5ebe61787ac6fa72836bc6ceda2c287ee4b4efe01e18cec926463e41e38f8a2d，tracked清洁，唯一旧pyc保留不提交。10月3日真实额度耗尽未留下未验技术事务。本次恢复不修改主表或CSV。真实thread/全源hash/证据与下一动作见controller_acknowledgements/20261004_01a0f5bd_接续与五小时收尾.json。
 
 下一先绑定CN118其余12字段原件与已有观察；41原页/27图页已实际阅读，不重复下载或冒新阅读。技术全文完成须按本身证据独立验收，不能仅因法律pending永远置0，也不能自动从读页齐晋级；14资格pending、正式统计/终稿及项目完成门槛保持。公开仓库已实际验收，主控仍唯一taskline/work_logs写者，执行者只写H1。09:41实时primary剩69%、weekly剩80%、ordinaryUsageAllowed true。
+
+## 2026-10-04 09:48：CN118其余12字段原件绑定
+
+固定6cb6d61原168/features/其他13完整对象/all法律/CSV bytes保持。既有41原页/27附图页全部已读，本项只回访原文物理3/7/9/10/11/12/13，补cleaning至carrier_conditioning的12映射，连同昨日capture为13字段全绑定，不增观察。维护抽移、松散固体转储、正常液路、维护排空、固体脱水、介质调理和最终去向分开；限定未定位保持unknown，不补0。原[0166]跨11—12页文字/全部编号矛盾保留；可选阀路/密封/报警不强合。master真实SHA55e84dfe5b446c01185d5b8c01483452e7661df7be75a5cd70e5c1186d691f9b，QA/卡CN118273060A_remaining_original_bindings_20261004。首次输出过大未应用，预览页眉/背景角色修正后才首次数据写入，完整实际bytesQA重跑。下一独立候选技术全文验收闭合需同步scene/coverage/脚本不变量；法律pending独立，正式统计/终稿和项目完成保持false，不使用reset。
