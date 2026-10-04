@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T10:36:11.135662+08:00",
+  "updated_at": "2026-10-04T10:39:02.997457+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -24698,9 +24698,60 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_targeted_original_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN116282270A-seals_connections-threaded_chamber58-20261004",
+              "publication_id": "CN116282270A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "cyclone_retention58",
+              "stage": "seals_connections",
+              "technical_feature": "收集腔5-8采用分体式螺纹连接，位于旋流器底流且穿洗衣机外壁对应孔，可拧松取出定期清理；接口支持可拆维护，不推另有必需密封圈、默认断全部管路或实测无泄漏。",
+              "object": "带固体的收集腔5-8及底流接口",
+              "start": "收集腔与底流连接",
+              "end": "螺纹拧松后可取腔",
+              "boundary": "分体螺纹维护界面，非实测密封性",
+              "operation_order": [
+                "螺纹连接安装收集腔",
+                "可从底流口拧松",
+                "通过对应外壁孔取出以清理"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_targeted_original_scope",
+              "claim_dependency": "权4→3→独立组件权2；不拼方法权1的传动方向或额外密封要求",
+              "evidence": [
+                {
+                  "locator": "原PDF物理7 [0047]底流收集腔与防回流挡筒",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN116282270A.pdf",
+                  "source_sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186",
+                  "source_role": "description_of_this_invention",
+                  "evidence_excerpt": "旋流器底流出口安装一个带有螺纹的微塑料收集腔5‑8",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_capture_20261004-7.png",
+                  "page_image_sha256": "aba3b4da717baba813c1edb7ed1f719777e36727ce6c24510bff0cbabe391d76",
+                  "printed_paragraph": 47
+                },
+                {
+                  "locator": "原PDF物理2 从属权4分体螺纹",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN116282270A.pdf",
+                  "source_sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186",
+                  "source_role": "dependent_claim",
+                  "evidence_excerpt": "所述收集腔采用分体式螺纹连接结构",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_physical2.png",
+                  "page_image_sha256": "ff28b7624069516621449e94e69e18fd8ec92f84121dae6c06eedc3e76e18912",
+                  "claim_number": 4
+                }
+              ],
+              "interpretation": "收集腔5-8采用分体式螺纹连接，位于旋流器底流且穿洗衣机外壁对应孔，可拧松取出定期清理；接口支持可拆维护，不推另有必需密封圈、默认断全部管路或实测无泄漏。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T10:39:02.997457+08:00",
+              "old_value": null,
+              "new_value": "收集腔5-8采用分体式螺纹连接，位于旋流器底流且穿洗衣机外壁对应孔，可拧松取出定期清理；接口支持可拆维护，不推另有必需密封圈、默认断全部管路或实测无泄漏。",
+              "change_reason": "原A正向螺纹维护接口字段补空；保留旧传动方向冲突及全部法律门槛",
+              "review_scope": "本轮原A物理1/2/7/8文字、2/7/10视觉，仅连接接口锚点；非全文完成"
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "收集腔采用分体式螺纹连接。",
@@ -24941,6 +24992,66 @@
           "reviewed_field": "liquid_route",
           "full_candidate_acceptance": false,
           "unread_this_round": "other physical pages/remaining six empty fields; previous direction-conflict review unchanged",
+          "previous_scene": {
+            "classification": "laundry_rinse_spin_water_explicit_microplastics",
+            "review_status": "original_targeted_scope_reviewed",
+            "publication_id": "CN116282270A",
+            "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN116282270A.pdf",
+            "source_sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186",
+            "basis": [
+              {
+                "printed_paragraph": 48,
+                "physical_page": 7,
+                "evidence_excerpt": "以常规涡轮式全自动洗衣机为例，第一部分过滤模块处理漂洗污水的原理是：洗衣机漂洗结束后，污水活塞开关21开启，漂洗过程产生的污水首先由洗涤内水管3流入污水总管17，在重力的作用下，污水将通过过滤网18，微塑料等固体杂质将被滤网18所截留，通过过滤网18的净化水则从过滤净化出水管20排出。微塑料等固体杂质则被成功截留在过滤网18上。"
+              }
+            ],
+            "boundary": "原件明确洗衣机漂洗/甩干水微塑料等固体杂质；不把所有固体自动判塑料，不放行有效核心或统计。"
+          }
+        },
+        "original_seals_readback_20261004": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN116282270A.pdf",
+          "source_sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186",
+          "executor_text_pages_read": [
+            1,
+            2,
+            7,
+            8
+          ],
+          "executor_visual_pages_read": [
+            2,
+            7,
+            10
+          ],
+          "rendered_pages": [
+            {
+              "physical_page": 2,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_physical2.png",
+              "sha256": "ff28b7624069516621449e94e69e18fd8ec92f84121dae6c06eedc3e76e18912"
+            },
+            {
+              "physical_page": 7,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_capture_20261004-7.png",
+              "sha256": "aba3b4da717baba813c1edb7ed1f719777e36727ce6c24510bff0cbabe391d76"
+            },
+            {
+              "physical_page": 10,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_physical10.png",
+              "sha256": "346123626a544ccda0585d0dadad7f508ad35564cd15c0b71b95241875eb6640"
+            }
+          ],
+          "printed_paragraphs_used": [
+            47
+          ],
+          "claims_used": [
+            4
+          ],
+          "figures_used": [
+            3,
+            4
+          ],
+          "reviewed_field": "seals_connections",
+          "full_candidate_acceptance": false,
+          "unread_this_round": "other physical pages/remaining five empty fields; previous direction-conflict review unchanged",
           "previous_scene": {
             "classification": "laundry_rinse_spin_water_explicit_microplastics",
             "review_status": "original_targeted_scope_reviewed",

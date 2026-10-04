@@ -273,3 +273,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-04 10:37：CN116原件liquid_route正向补空
 
 复用已读原2权3/原7[0048]/原8[0050]，漂洗滤后20与甩干旋流溢流19→溢水管2分阶段，不推环境最终去向或维护排空/固体脱水。仅新增液路1、旧170/all其他字段/scene/publication/all法律/conflict/其他13保持，非目标CSV bytes不变。当前171/34真空格/4scope，非全13页/9图、flagfalse/14pending/statisticsfalse。masterb9d53b0d8e36c6f6e01b47227d542552995f3b160f23b0d1c46d5dd53c5f4887，卡/QA CN116282270A_liquid_route_20261004。primary近10只短闭合，下一如额度>5可权4/原[0047]螺纹接口单一seals正向项，<=5保存精确停止记录后独立push，不开剩余全文/图；noreset保持。
+
+## 2026-10-04 10:39：CN116分体螺纹接口正向补空
+
+仅复用原2权4与原7[0047]，权4→3→2分体螺纹/底流腔5-8对应外壁孔可拧松取出清理；不增密封圈/必断管或实测无漏。seals_connections新增1、旧171/其他13/all其他字段/scene/publication/all法律及directionconflict保持，CSV仅本格改变。当前172/33真空格/4scope，flagfalse/14pending/statisticsfalse；master98dae05d15c6a8290e923afa3e49f0d6e53437f474b311ebd8df655117df55a2，卡/QA CN116282270A_seals_20261004。当前primary剩6仅关闭本事务；随后实时查<=5即保存停止记录/精确接续，不开新研究。下轮原CN116尚未本轮读过3/4/5/6及12/13文字/图需按实际范围补齐，原9/11历史图可按旧证据复用；五空字段chamber/solids/performance/endpoint/carrier_conditioning须全文范围再裁定，有限阅读不填0。noreset保持。
