@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T09:47:51.132641+08:00",
+  "updated_at": "2026-10-04T09:55:49.502233+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -23110,8 +23110,32 @@
         "new_online_query_performed": false
       },
       "scene_material": {
-        "classification": null,
-        "review_status": "pending_primary_text"
+        "classification": "laundry_wastewater_microplastic_microfibre_with_other_optional_scenes",
+        "review_status": "accepted_in_original_published_scope",
+        "publication_id": "CN117702432A",
+        "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN117702432A.pdf",
+        "source_sha256": "e22fdc6e0d024314eea78668846b860ee3cb031fa35e484cfa446e8a06070458",
+        "boundary": "本件明确洗衣排水微塑料/其称微纤维；清洗池/其他微塑料场景另为可选，不把所有衣物纤维都判塑料。背景35%不是本装置捕获率。",
+        "basis": [
+          {
+            "printed_paragraph": 42,
+            "physical_page": 6,
+            "evidence_excerpt": "过滤组件300设置于排水管200上，或者说，过滤组件300设置于排水管200的排水路径上，在安装时，可以将排水管200分为两段，将过滤组件300夹在两段排水管之间，以使水通过过滤组件300，来过滤以及收集排水管200中的微塑料。当然，也可以将过滤组件300连接于排水管200的末端，从而过滤组件300过滤后的水直接排出。",
+            "source_role": "description_of_this_invention_or_optional_use"
+          },
+          {
+            "printed_paragraph": 43,
+            "physical_page": 6,
+            "evidence_excerpt": "需要说明的是，本申请实施例经过过滤组件300过滤后的水，可以直接排放到下水道中，由于经过了过滤，可以过滤出至少部分微纤维，由此可以减少对生态的污染。当然，还可以将经过过滤组件300过滤后的水进行回收，如将排水管200的末端一端与下水道连接，再将排水管200的末端分支与本体100的供水系统连接，从而可以实现水的回收再利用，减少资源的浪费。",
+            "source_role": "description_of_this_invention_or_optional_use"
+          },
+          {
+            "printed_paragraph": 44,
+            "physical_page": 6,
+            "evidence_excerpt": "其中，过滤组件300并不限于应用在洗衣机1中，比如，过滤组件300还可以设置在清洗池的排水管处，从而可以去除清洗池清洗东西中的微塑料，也可以减少微塑料对生态的污染。当然，过滤组件300还可以应用在其他场景中，能过滤微塑料的场景均可，这里不再一一举例。",
+            "source_role": "description_of_this_invention_or_optional_use"
+          }
+        ]
       },
       "publications": [
         {
@@ -23122,7 +23146,11 @@
           "local_exists": true,
           "historical_corpus_sha256": "9fa4ff02688811243b49ac3fee8c9c6f5f4966f7dd72f06e01d7663c07714438",
           "text_role": "application_publication",
-          "review_status": "partial_claims_and_targeted_description_reviewed"
+          "review_status": "accepted_in_original_published_scope",
+          "previous_review_status": "partial_claims_and_targeted_description_reviewed",
+          "original_source_path": "patents/CN117702432A.pdf",
+          "original_source_sha256": "e22fdc6e0d024314eea78668846b860ee3cb031fa35e484cfa446e8a06070458",
+          "technical_acceptance_record": "publication_technical_acceptance"
         }
       ],
       "prior_working_evidence": {
@@ -23265,7 +23293,7 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "partial_saved_text_targeted",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -23383,7 +23411,7 @@
         },
         "cleaning": {
           "label": "清理／脱离",
-          "review_status": "complete_saved_text_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -23482,7 +23510,7 @@
         },
         "transfer": {
           "label": "转移",
-          "review_status": "complete_saved_text_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -23569,7 +23597,7 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "complete_saved_text_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -23668,7 +23696,7 @@
         },
         "solids_dewatering": {
           "label": "固体脱水",
-          "review_status": "complete_saved_text_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -23767,7 +23795,7 @@
         },
         "liquid_route": {
           "label": "液体路径",
-          "review_status": "partial_saved_text_targeted",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -24010,7 +24038,7 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "complete_saved_text_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -24085,7 +24113,7 @@
         },
         "removal": {
           "label": "移出",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -24159,7 +24187,7 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -24249,7 +24277,7 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "partial_saved_text_targeted",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -24397,7 +24425,7 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "complete_saved_text_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -24520,7 +24548,7 @@
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "complete_saved_text_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -24607,7 +24635,7 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "complete_saved_text_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -24695,7 +24723,7 @@
       },
       "routes": [],
       "review_completeness": {
-        "full_text_rechecked": false,
+        "full_text_rechecked": true,
         "current_scope": [
           {
             "publication": "CN117702432A",
@@ -25533,6 +25561,12 @@
             ],
             "field": "liquid_route",
             "at": "2026-10-03T11:47:00.153961+08:00"
+          },
+          {
+            "publication": "CN117702432A",
+            "scope": "representative_published_document_only",
+            "acceptance_record": "publication_technical_acceptance",
+            "at": "2026-10-04T09:55:49.502233+08:00"
           }
         ],
         "capture_saved_targeted_20261002": {
@@ -26336,6 +26370,151 @@
               "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN117702432A_original_20261003_page-14.png",
               "sha256": "51b0f4de95e55ba26529eadc274061b44300b103179b1707bd1c5da770024932"
             }
+          ]
+        },
+        "full_text_rechecked_scope": "representative_published_document_only",
+        "publication_technical_acceptance": {
+          "accepted": true,
+          "publication": "CN117702432A",
+          "scope": "representative_published_document_only",
+          "accepted_at": "2026-10-04T09:55:49.502233+08:00",
+          "source_path": "patents/CN117702432A.pdf",
+          "source_sha256": "e22fdc6e0d024314eea78668846b860ee3cb031fa35e484cfa446e8a06070458",
+          "source_page_count": 14,
+          "text_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "visual_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "description_paragraphs": [
+            1,
+            74
+          ],
+          "claims": [
+            1,
+            10
+          ],
+          "figures": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "field_bindings": {
+            "capture": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "capture"
+            },
+            "cleaning": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "cleaning"
+            },
+            "transfer": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "transfer"
+            },
+            "chamber_drainage": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "chamber_drainage"
+            },
+            "solids_dewatering": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "solids_dewatering"
+            },
+            "liquid_route": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "liquid_route"
+            },
+            "storage": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "storage"
+            },
+            "removal": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "removal"
+            },
+            "state_switch": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "state_switch"
+            },
+            "seals_connections": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "seals_connections"
+            },
+            "performance": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "performance"
+            },
+            "endpoint": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "endpoint"
+            },
+            "carrier_conditioning": {
+              "review_record_key": "original_published_A_full_review_20261003",
+              "binding_key": "carrier_conditioning"
+            }
+          },
+          "previous_review_QA": "corrections\\20260929_r1\\QA\\CN117702432A_original_review_20261003.json",
+          "previous_review_QA_sha256": "410d932831bbfb7049775a7806a45e69ef6fe561db685f2c3702df775a450158",
+          "previous_feature_review_statuses": {
+            "capture": "partial_saved_text_targeted",
+            "cleaning": "complete_saved_text_scope",
+            "transfer": "complete_saved_text_scope",
+            "chamber_drainage": "complete_saved_text_scope",
+            "solids_dewatering": "complete_saved_text_scope",
+            "liquid_route": "partial_saved_text_targeted",
+            "storage": "complete_saved_text_scope",
+            "removal": "partial",
+            "state_switch": "partial",
+            "seals_connections": "partial_saved_text_targeted",
+            "performance": "complete_saved_text_scope",
+            "endpoint": "complete_saved_text_scope",
+            "carrier_conditioning": "complete_saved_text_scope"
+          },
+          "previous_scene": {
+            "classification": null,
+            "review_status": "pending_primary_text"
+          },
+          "prior_evidence_preserved": true,
+          "legal_qualification_granted_by_this_acceptance": false,
+          "does_not_accept": [
+            "family member completeness",
+            "current legal status",
+            "measured performance",
+            "formal statistics",
+            "final report",
+            "whole project completion"
           ]
         }
       }

@@ -1,0 +1,13 @@
+# CN117702432A：公布A技术范围独立验收
+
+固定c959b6000dcf76edf556d6557e70e3d9d285f6b5，168旧观察保持。原A14物理页文字/目视、权1—10、编号段[0001]—[0074]、图1—8已于10月3日实际读完；13原字段绑定与14原图hash回读记录original_published_A_full_review_20261003及原QA保持历史，未重新声称新增全文阅读。原PDF SHAe22fdc6e0d024314eea78668846b860ee3cb031fa35e484cfa446e8a06070458。
+
+本次以规范7.1/7.3/8.3/15的读取/技术/法律独立口径，验收范围严格为CN117702432A代表公布文本。full_text_rechecked=true附publication_technical_acceptance及representative_published_document_only，绝不表示所有同族/授权全文或现时有效。法律14pending、formal_statistics_allowed=false、final_report_ready=false、project_completion_accepted=false均保持。
+
+原物理6[0042]明确洗衣排水微塑料，[0043]至少部分微纤维，[0044]清洗池/其他场景为可选，已回访原页并为scene_material保存原句/原hash。背景35%非装置效率，不能把全部衣物纤维判塑料。13字段仅review_status升级到accepted_in_original_published_scope，原支持状态/未知/全部观察及解释/evidence不改；publication旧镜像源留存，另绑定原PDF与技术验收记录。非目标13完整对象不变，CSV仅此件13状态值更新。
+
+旧不变量：补录未正式独立验收时全部全文flag为false。新不变量：只有具体公布文本完整读取/字段绑定/场景与明确receipt齐才true，法律pending独立、其他样本flag/旧观察保持。现行verify_and_export去除改观察/更新时间落盘/自动升旗标，默认纯只读；显式导出只返回补丁，当前技术卡/入口/coverage和QA随主表实际范围生成，不能再固定写每件永远全文未完成。历史一次性脚本和QA原证据不改。
+
+门禁验证：pending法律仍能通过该技术验收；移除receipt、删除场景、改原件hash三种错误均拒绝。全168原来源bytes/489HTML引文/11原图证据、现行读取记录原图hash及CSV版本一致性重跑。首次工具替换重复路径补丁拒绝零执行；空support的CSV空字符串差异、hash helper字符串类型问题均在候选数据写入前修复；过大元数据读输出截断，缩窄13绑定清单与完整场景页补读后才采纳。
+
+当前公布技术范围验收1件；不是正式样本统计，不宣称P2完成。下一CN118原41页与13绑定已齐，按同一独立验收口径闭合其场景/publication/coverage；然后CN222/U与CN115637/A既有完整范围，保留法律/B原件缺口。五小时5%硬线与no reset保持。

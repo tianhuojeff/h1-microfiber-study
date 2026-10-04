@@ -1,65 +1,115 @@
-"""Readback validation and readable derived cards. No semantic auto-acceptance."""
+"""Current read-only trace and scoped technical-acceptance QA.
+No observation edits or file writes. --export-patch emits review-derived text.
+Historical one-off QA scripts retain their recorded stage invariants.
+"""
 from pathlib import Path
-import json,hashlib,datetime,re,csv
+import argparse,csv,datetime,difflib,hashlib,io,json,re,sys
 from local_source import read_anchors
 R=Path(__file__).resolve().parents[1];H=R.parents[1]
-p=R/'data/analysis_master.json';m=json.loads(p.read_text(encoding='utf-8'))
-now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat()
-def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
-def save(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-cache={};ids=[];checks=[];images=[];errors=[];paths={}
-independent={'CN112914464A':{1,21,22},'CN115637570A':{1,9},'CN222043626U':{1,10},'CN115087774A':{1,23,24},'WO2021116933A1':{1,23,24},'CN115700309A':{1,8},'CN118273060A':{1,17},'WO2022084677A1':{1},'WO2024250011A1':{1,17},'CN115298383A':{1,14,20},'CN116282270A':{1,2,5},'CN117702432A':{1,10},'CN120500565A':{1,2,19},'WO2024143783A1':{1,2,19},'WO2023047385A1':{1,17,34},'WO2024199585A1':{1,12,15}}
-for s in m['samples']:
- for field in s['features'].values():
-  for o in field['observations']:
-   ids.append(o['observation_id'])
-   for key in ['publication_id','embodiment_id','object','start','end','boundary','operation_order','support_status','review_status','claim_dependency','evidence','old_value','new_value','change_reason']:
-    if key not in o:errors.append([o['observation_id'],'missing',key])
-   for e in o['evidence']:
-    src=Path(e['source_path']);paths[str(src)]=sha(src)
-    ok=paths[str(src)]==e['source_sha256']
-    if not ok:errors.append([o['observation_id'],'hash_mismatch',str(src)])
-    if e.get('html_anchor'):
-     rows=cache.setdefault(str(src),read_anchors(src));literal=e['evidence_excerpt'] in rows.get(e['html_anchor'],'')
-     if not literal:errors.append([o['observation_id'],'quote_mismatch',e['html_anchor']])
-     checks.append({'id':o['observation_id'],'anchor':e['html_anchor'],'source_hash_match':ok,'literal_match':literal})
-     if e['source_role']=='claim':
-      num=int(re.search(r'(\d+)$',e['html_anchor']).group(1));e['source_role']='independent_claim' if num in independent[o['publication_id']] else 'dependent_claim'
-      e['claim_number']=num
-    else:
-     img=Path(e['page_image_path']);images.append({'id':o['observation_id'],'page':e['physical_page'],'image_hash_match':sha(img)==e['page_image_sha256'],'manual_review_recorded':e.get('verification_method')=='manual_visual_readback_original_German'})
-     if not images[-1]['image_hash_match']:errors.append([o['observation_id'],'image_mismatch'])
-     if e['source_role']=='claim':
-      num=int(re.search(r'权(\d+)',e['locator']).group(1));e['source_role']='independent_claim' if num in independent[o['publication_id']] else 'dependent_claim';e['claim_number']=num
-   if 'pdf_visual_crosscheck' in o:
-    q=o['pdf_visual_crosscheck'];assert sha(Path(q['source_path']))==q['source_sha256'];assert sha(Path(q['image_path']))==q['image_sha256']
-assert len(ids)==len(set(ids));assert not errors,errors
-assert not m['formal_statistics_allowed'] and not m['final_report_ready']
-assert all(s['sample_role']=='pending' for s in m['samples'])
-m['updated_at']=now;save(p,m)
-qa={'verified_at':now,'master_sha256':sha(p),'observations':len(ids),'family_candidates_with_some_review':sum(any(f['observations'] for f in s['features'].values()) for s in m['samples']),'full_text_complete_count':sum(s['review_completeness']['full_text_rechecked'] for s in m['samples']),'html_quote_checks':checks,'pdf_manual_records':images,'source_hashes':paths,'errors':errors,'what_this_proves':'Source bytes, excerpts, references and minimum record structure match. Semantic findings are manually read within their stated scope; this is not full-text or legal-status completion.','formal_statistics_allowed':False}
-save(R/'QA/current_evidence_readback.json',qa)
-
-cards=R/'evidence/technical_cards';cards.mkdir(exist_ok=True)
-index=['# 当前技术复核入口\n',f'更新：{now}。本轮{len(ids)}条定点判断覆盖14个候选同族；不代表14件全文复核完成。全部资格仍pending，未生成正式统计。\n','|文献|已记录判断|仍待处理|','|---|---:|---|']
-for s in m['samples']:
- pub=s['representative_publication'];obs=[o for f in s['features'].values() for o in f['observations']]
- missing=[f['label'] for f in s['features'].values() if not f['observations']]
- lines=[f'# {pub} — {s["title"]}\n',f'样本：{s["sample_id"]}；角色：pending。状态来源为既有2026-09-29登记，本轮未新增当前法律核验。\n','复核范围：权项和实施方式的定点争议；未作全文穷尽否定。未填字段保留待核，不是无该功能。\n']
- for o in obs:
-  lines += [f'## {o["publication_id"]} / {o["stage"]} / {o["embodiment_id"]}\n',o['interpretation']+'\n',f'支持：{o["support_status"]}；读取：{o["review_status"]}。',f'对象：{o["object"]}。起点：{o["start"]}。终点：{o["end"]}。',f'边界：{o["boundary"]}。','顺序：'+' → '.join(o['operation_order'])+'。','权项/实施方式：'+o['claim_dependency']+'。']
-  for e in o['evidence']:lines += ['- '+e['locator']+'（'+e['source_role']+'）：'+e['evidence_excerpt']]
-  lines+=['修订理由：'+o['change_reason']+'。\n','来源哈希：'+', '.join(dict.fromkeys(e['source_sha256'] for e in o['evidence']))+'。\n']
- lines+=['## 未完成\n','尚未单独裁定：'+'、'.join(missing)+'。这些未完成项不能自动记为否。','全文/图文穷尽复核、当前有效授权资格、正式统计与报告传播仍待完成。']
- (cards/(pub+'.md')).write_text('\n\n'.join(lines)+'\n',encoding='utf-8')
- index.append(f'|[{pub}](technical_cards/{pub}.md)|{len(obs)}|全文、资格及未填字段|')
-(R/'evidence/技术复核入口.md').write_text('\n'.join(index)+'\n',encoding='utf-8')
-with (R/'data/review_coverage.csv').open('w',encoding='utf-8-sig',newline='') as f:
- w=csv.writer(f);w.writerow(['sample_id','publication','field','review_status','support_status','observation_count'])
+M=R/'data/analysis_master.json'
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def dump(o):return json.dumps(o,ensure_ascii=False,indent=2)+'\n'
+def validate_acceptance(s):
+ rc=s['review_completeness'];a=rc.get('publication_technical_acceptance')
+ if not rc['full_text_rechecked']:
+  assert not a or not a.get('accepted'), 'accepted publication must have matching technical flag'
+  return False
+ assert a and a.get('accepted'), 'technical flag requires explicit scoped acceptance'
+ assert a['scope']=='representative_published_document_only'
+ assert a['publication']==s['representative_publication']
+ assert sha(H/a['source_path'])==a['source_sha256']
+ assert a['source_page_count']>0
+ assert a['text_pages_read']==a['visual_pages_read']==list(range(1,a['source_page_count']+1))
+ assert set(a['field_bindings'])==set(s['features']) and s['scene_material']['classification']
+ assert s['scene_material']['review_status']=='accepted_in_original_published_scope'
+ for f,b in a['field_bindings'].items():
+  v=rc[b['review_record_key']]
+  assert v['source_sha256']==a['source_sha256']
+  if 'original_field_bindings' in v:binding=v['original_field_bindings'][b['binding_key']]
+  elif 'bindings' in v:binding=v['bindings'][b['binding_key']]
+  else:assert v.get('bound_field')==f;binding=v
+  ids=binding.get('accepted_observation_ids',binding.get('observation_ids_preserved',binding.get('old_observation_ids_preserved')))
+  assert ids==[o['observation_id'] for o in s['features'][f]['observations']]
+  assert s['features'][f]['review_status']=='accepted_in_original_published_scope'
+ assert any(p['publication_id']==a['publication'] and p['review_status']=='accepted_in_original_published_scope' for p in s['publications'])
+ assert a['legal_qualification_granted_by_this_acceptance'] is False
+ return True
+def validate(m=None,check_coverage=True):
+ m=m or json.loads(M.read_bytes());ids=[];errors=[];cache={};checks=0;images=0;paths={};accepted=[]
+ assert not m['formal_statistics_allowed'] and not m['final_report_ready']
  for s in m['samples']:
-  for key,v in s['features'].items():w.writerow([s['sample_id'],s['representative_publication'],key,v['review_status'],v['support_status'],len(v['observations'])])
-diff=json.loads((R/'data/matrix_conflict_decisions.json').read_text(encoding='utf-8'))
-lines=['# 旧两矩阵六字段裁定\n','仅为本轮字段级技术裁定；正式数据导出和报告尚未发布。原两矩阵保留历史，不再作为当前输入。\n','|文献/旧字段|训练矩阵旧值|团队矩阵旧值|当前原文裁定|','|---|---|---|---|']
-for d in diff:lines.append('|'+d['publication']+'/'+d['legacy_field']+'|'+d['training_matrix_value']+'|'+d['team_matrix_value']+'|'+'；'.join(d['decision'])+'|')
-(R/'data/矩阵差异裁定.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
-print(json.dumps({k:qa[k] for k in ['observations','family_candidates_with_some_review','full_text_complete_count','errors','master_sha256']},ensure_ascii=False))
+  assert s['sample_role']=='pending'
+  if validate_acceptance(s):accepted.append(s['representative_publication'])
+  for f in s['features'].values():
+   for o in f['observations']:
+    ids.append(o['observation_id'])
+    for k in ['publication_id','embodiment_id','object','start','end','boundary','operation_order','support_status','review_status','claim_dependency','evidence','old_value','new_value','change_reason']:assert k in o
+    for e in o['evidence']:
+     p=Path(e['source_path']);paths[str(p)]=sha(p);assert paths[str(p)]==e['source_sha256']
+     if e.get('html_anchor'):
+      if str(p) not in cache:cache[str(p)]=read_anchors(p)
+      assert e['evidence_excerpt'] in cache[str(p)].get(e['html_anchor'],'');checks+=1
+     elif e.get('page_image_path'):
+      assert sha(e['page_image_path'])==e['page_image_sha256'];images+=1
+    if 'pdf_visual_crosscheck' in o:
+     q=o['pdf_visual_crosscheck'];assert sha(q['source_path'])==q['source_sha256'];assert sha(q['image_path'])==q['image_sha256']
+  for v in s['review_completeness'].values():
+   if isinstance(v,dict):
+    for im in v.get('rendered_pages',[]):assert sha(im['path'])==im['sha256']
+ assert len(ids)==len(set(ids))
+ if check_coverage:
+  rows=list(csv.DictReader((R/'data/review_coverage.csv').read_text(encoding='utf-8-sig').splitlines()))
+  expected=[(s['sample_id'],s['representative_publication'],k,f['review_status'],f['support_status'] or '',str(len(f['observations']))) for s in m['samples'] for k,f in s['features'].items()]
+  assert [tuple(z[k] for k in ['sample_id','publication','field','review_status','support_status','observation_count']) for z in rows]==expected
+ return {'verified':True,'verified_at':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),
+ 'master_sha256':sha(M),'observations':len(ids),'full_text_complete_count':len(accepted),
+ 'accepted_representative_publications':accepted,'full_text_flag_scope':'representative_published_document_only',
+ 'html_quote_checks':checks,'pdf_image_checks':images,'source_hashes':paths,'errors':errors,
+ 'formal_statistics_allowed':False,'final_report_ready':False,
+ 'what_this_proves':'Traceability plus explicit previously read publication technical acceptance; no legal qualification, family-wide technical completion, or project completion.'}
+def patch(p,new):
+ prior=p.read_text(encoding='utf-8') if p.exists() else None
+ if prior==new:return ''
+ if prior is None:return '*** Add File: '+p.as_posix()+'\n'+''.join('+'+x+'\n' for x in new.splitlines())
+ body=[]
+ for line in list(difflib.unified_diff(prior.splitlines(True),new.splitlines(True),n=3))[2:]:
+  body.append('@@\n' if line.startswith('@@') else line)
+ return '*** Update File: '+p.as_posix()+'\n'+''.join(body)
+def card(s):
+ pub=s['representative_publication'];a=s['review_completeness'].get('publication_technical_acceptance')
+ scope=('公布文本'+pub+'完整技术范围已独立验收；范围只限本公布文本，非同族全部成员。' if a and a.get('accepted') else '本候选技术全文尚未独立验收；逐项范围以当前读取记录为准。')
+ lines=[f'# {pub} — {s["title"]}',f'样本：{s["sample_id"]}；法律角色：{s["sample_role"]}。',scope,'法律资格仍pending；正式统计、终稿和项目验收仍未放行。']
+ if a:lines+=['原件：'+a['source_path']+'；SHA256 '+a['source_sha256']+'。','场景：'+str(s['scene_material']['classification'])+'；'+s['scene_material'].get('boundary','')]
+ for key,f in s['features'].items():
+  lines+=[f'## {f["label"]} / {key}', '当前技术范围：'+f['review_status']+'；支持：'+str(f['support_status'])+'。']
+  if a:
+   b=a['field_bindings'][key];v=s['review_completeness'][b['review_record_key']]
+   z=v.get('original_field_bindings',v.get('bindings',{})).get(b['binding_key'],v)
+   lines+=['原件绑定：'+b['review_record_key']+' / '+b['binding_key']+'。',z.get('scope_judgment',z.get('judgment',''))]
+  for o in f['observations']:
+   lines += ['### '+o['observation_id'],o['interpretation'],'对象：'+o['object']+'。边界：'+o['boundary']+'。']
+   lines+=['- '+e['locator']+'：'+e['evidence_excerpt'] for e in o['evidence']]
+ lines+=['## 仍有限制','未定位只限所列已读技术范围，unknown不转0；作者性能主张非实测验证。法律、正式统计及报告终稿仍待闭合。']
+ return '\n\n'.join(lines)+'\n'
+def export_patch(publications):
+ m=json.loads(M.read_bytes());q=validate(m,False);out=[]
+ for pub in publications:
+  s=next(s for s in m['samples'] if s['representative_publication']==pub)
+  out.append(patch(R/'evidence/technical_cards'/(pub+'.md'),card(s)))
+ rows=io.StringIO(newline='');w=csv.writer(rows);w.writerow(['sample_id','publication','field','review_status','support_status','observation_count'])
+ for s in m['samples']:
+  for k,f in s['features'].items():w.writerow([s['sample_id'],s['representative_publication'],k,f['review_status'],f['support_status'],len(f['observations'])])
+ out.append(patch(R/'data/review_coverage.csv','\ufeff'+rows.getvalue()))
+ index=['# 当前技术复核入口','168条当前观察；公布文本技术范围验收'+str(q['full_text_complete_count'])+'件；其余范围待核。法律14pending，非正式专利统计。','|文献|已记录判断|技术范围与剩余|','|---|---:|---|']
+ for s in m['samples']:
+  pub=s['representative_publication'];n=sum(len(f['observations']) for f in s['features'].values());a=s['review_completeness'].get('publication_technical_acceptance')
+  status=(pub+'公布文本已独立验收；资格待核' if a and a.get('accepted') else '技术全文待独立验收；资格及未填字段待核')
+  index.append(f'|[{pub}](technical_cards/{pub}.md)|{n}|{status}|')
+ out.append(patch(R/'evidence/技术复核入口.md','\n\n'.join(index[:2])+'\n\n'+'\n'.join(index[2:])+'\n'))
+ out.append(patch(R/'QA/current_evidence_readback.json',dump(q)))
+ return '*** Begin Patch\n'+''.join(out)+'*** End Patch\n'
+if __name__=='__main__':
+ ap=argparse.ArgumentParser();ap.add_argument('--export-patch',action='store_true');ap.add_argument('--publication',action='append',default=[]);a=ap.parse_args()
+ if a.export_patch:
+  assert a.publication, 'explicit publication scope required';print(export_patch(a.publication))
+ else:print(dump(validate()))

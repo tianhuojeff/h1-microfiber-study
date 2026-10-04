@@ -237,3 +237,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-04 09:48：CN118其余12字段原件绑定
 
 固定6cb6d61原168/features/其他13完整对象/all法律/CSV bytes保持。既有41原页/27附图页全部已读，本项只回访原文物理3/7/9/10/11/12/13，补cleaning至carrier_conditioning的12映射，连同昨日capture为13字段全绑定，不增观察。维护抽移、松散固体转储、正常液路、维护排空、固体脱水、介质调理和最终去向分开；限定未定位保持unknown，不补0。原[0166]跨11—12页文字/全部编号矛盾保留；可选阀路/密封/报警不强合。master真实SHA55e84dfe5b446c01185d5b8c01483452e7661df7be75a5cd70e5c1186d691f9b，QA/卡CN118273060A_remaining_original_bindings_20261004。首次输出过大未应用，预览页眉/背景角色修正后才首次数据写入，完整实际bytesQA重跑。下一独立候选技术全文验收闭合需同步scene/coverage/脚本不变量；法律pending独立，正式统计/终稿和项目完成保持false，不使用reset。
+
+## 2026-10-04 09:56：CN117公布A技术范围独立验收
+
+基于昨日实际14原页/8图/13字段全绑定、原QA与原图bytes，本次不重读全件；回访原物理4/6明确洗衣排水微塑料/微纤维与其他可选场景。仅CN117 full_text_rechecked=true，scope=representative_published_document_only，并附显式publication_technical_acceptance，scene/publication/13字段状态与派生CSV/当前卡/入口/QA一致。原168全部观察/支持/未知、其他13完整对象和all法律保持；当前技术范围验收1件，非同族全部文本/现时有效/正式统计或P2整体完成。master真实SHA95934c0f1f7f2f6ee134ec29c50bbb306cf3d36d0e5a294f3891bb5c004d8527，卡/QA CN117702432A_technical_acceptance_20261004。现行verify_and_export改为默认纯只读、显式生成补丁，不再改旧观察或固定每件永远全文未完；历史QA/一次性脚本不篡改。旧新不变量及无receipt/无scene/错hash拒绝门禁已验证，法律pending不能冒技术未读。下一CN118同口径验收后CN222/U与CN115637/A；14pending/正式统计终稿项目false、primary5硬线/noreset保持。

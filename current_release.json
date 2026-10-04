@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T09:48:00+08:00",
+  "updated_at": "2026-10-04T09:55:53+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -85,6 +85,9 @@
     "main_phase_remains": "P2"
   },
   "full_text_review_complete": false,
+  "accepted_publication_technical_scopes": ["CN117702432A"],
+  "accepted_publication_technical_scope_count": 1,
+  "technical_acceptance_scope_note": "Independent representative published-document technical acceptance; not all family members, legal eligibility, whole P2 or project completion.",
   "execution_status": "in_progress_delegated_P2",
   "repository_visibility_authority": {
     "authority_date": "2026-10-03",
@@ -110,5 +113,5 @@
   },
   "weekly_used_percent": 42,
   "weekly_remaining_percent": 58,
-  "master_sha256": "55e84dfe5b446c01185d5b8c01483452e7661df7be75a5cd70e5c1186d691f9b"
+  "master_sha256": "95934c0f1f7f2f6ee134ec29c50bbb306cf3d36d0e5a294f3891bb5c004d8527"
 }
