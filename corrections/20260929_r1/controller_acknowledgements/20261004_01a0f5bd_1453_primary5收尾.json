@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-04",
+  "at": "2026-10-04T14:53:17.811441+08:00",
+  "executor_agent": "/root/h1_p2_executor",
+  "executor_thread_id": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
+  "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
+  "baseline_local_and_remote_sha": "bbda030228c4a5f295e5c92ad89d1a183a7fd0bd",
+  "primary_used_percent": 95,
+  "primary_remaining_percent": 5,
+  "weekly_remaining_percent": 54,
+  "threshold_reached": true,
+  "effective_rule": "five-hour primary remaining<=5: stop new technical/read/search actions, finish necessary QA and exact handoff push",
+  "reset_consumed": false,
+  "sources": [
+    {
+      "path": "C:\\Users\\tianhuo\\.codex\\AGENTS.md",
+      "sha256": "b274d8f0e7c240ffaacab24a9fecad0d115e3222aa35e9db89a222eab8cdc91e"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\AGENTS.md",
+      "sha256": "eeba729ac4c100dba8fae06b49026c5c41260d81d5dd14c6ae63902ab68ea31c"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\AGENTS.md",
+      "sha256": "00115374d2caf5bce1b14b77f7602edba997a36a40e059eea60bc8ce54c0352f"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\H1_现有任务纠偏执行命令与长期规则.md",
+      "sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\current_release.json",
+      "sha256": "d486cda4dc60d68d3626c218da30128c9a7e2d91ad2764871aac94f0b7a4aae2"
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\handoff.md",
+      "sha256": "9e329a8507ad090ac015d8ecc14ea64567d333f154e47525aed12716959c4376"
+    }
+  ],
+  "full_rule_reads_receipt": "controller_acknowledgements/20261004_01a0f5bd_1424恢复.json",
+  "master_sha256": "802905d2e7121555e42ff679536a6403f8c73f278126600d1aa11607afb2819a",
+  "observations": 186,
+  "accepted_publication_scopes": 6,
+  "unfilled_fields": 19,
+  "legal_pending": 14,
+  "phase": "P2",
+  "P3_actual_source_process_started": true,
+  "P2_P3_complete": false,
+  "statistics_final_project_completion_allowed": false,
+  "new_research_stopped": true,
+  "next_action": "After fresh quota permits authorized resume, local WO2022084677A1 9empty fields/full original scope or WO2023047385A1 prepared108description/48claims10empty; all adequate local source reading first, no new web/download. WO208 savedp0001-p0012 read, scene patch generator IndentationError zeroexecution: no scene/master/CSV write.",
+  "working_state": "only preexisting untracked local_source.cpython-312.pyc; no unaccepted technical mutation",
+  "QA": {
+    "verified": true,
+    "fixed_baseline_master_and_CSV_exact_bytes_preserved": true,
+    "all14_whole_objects_unchanged": true,
+    "P3_all7_original_bytes_exact_equal_previously_verified": true
+  }
+}

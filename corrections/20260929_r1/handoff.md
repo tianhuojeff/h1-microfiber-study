@@ -327,3 +327,9 @@ QA/CN115298383A_complete_saved_review_20261004.json固定7a14b55与全部来源/
 主控指出首源采纳以apply_patch文本复制添加末尾换行：前QA分别记录source/local不同hash、仅text_preserved，不满足原始响应bytes门槛。原work_logs源未损坏。本轮按主控明确授权对7源执行原文件机械复制，逐对read_bytes/SHA完全相等，QA增加all7_original_source_bytes_exact_equal及每源exact_bytes_equal，保存前后hash/真实修复时间。主表/CSV固定34083510全部字节不变，186观察/6件/19空/14pending保持；新网络0，未将失败当无效或零命中。
 
 预算实时primary剩7/周54，准备闭合必要修复及<=5收尾，不开长项。WO2022084677只实际读保存p0001—p0012，场景明确纤维素微粒，背景合成塑料不能自动套给纤维素；生成场景命令因多余缩进解析失败整段零执行，没有scene/主表/CSV写入、没有新增字段或提交，未验场景不得算成果。下一恢复优先该场景与本地90页原件充分有界9字段，或WO2023047385已有完整机械准备全文108描述/48权项十空；不重复已读范围、不为缺原件上网。noreset，primary<=5有效。
+
+## 2026-10-04 14:53：primary剩5%研究停止及接续
+
+真实fresh primary used95/剩5，周剩54，按用户现行primary5线停止所有新研究/阅读/网络，reset未使用。最后技术及源修复安全本地=远端bbda030228c4a5f295e5c92ad89d1a183a7fd0bd，186观察/6代表公布范围/19空/14pending；P2与P3来源过程交叉已有成果，P2/P3整套均未完成，统计终稿项目false保持。收尾receipt 20261004_01a0f5bd_1453_primary5收尾.json保存真实时间/thread/规则与入口hash/下一范围/固定master及CSV精确字节QA。仅旧pyc未跟踪，不删除不提交，无未验技术修改。历史10:41收尾和旧weekly暂停保持历史。
+
+下一必须fresh额度与授权门禁后恢复：本地WO208九空充分原件范围（本轮仅保存p0001—12，scene失败零写不计验收），或WO304已准备108描述/48权十空完整有界复核；源缺口不再触发额外上网。父总控负责即时waiting/taskline/log/自动化后续接续，本代理不写共享日志。当前仅收尾QA/提交push可继续，不开下一技术项。
