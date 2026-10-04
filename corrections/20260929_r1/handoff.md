@@ -265,3 +265,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-04 10:30：CN116原件capture正向补空
 
 实际读取原1/2/7/8文字、2/7/10目视，独立方法权1/组件权2与[0048]图3/4共同支持第一过滤模块网18截留漂洗水微塑料等固体，另甩干反洗/旋流分离阶段分开。仅新增capture观察1并填明确原件洗衣微塑料场景；旧168观察/all其他字段/方向conflict/其他13/all法律保持，新增字段非目标CSV bytes不动。原件13页是总页数，不宣称本轮全读/全9图；flagfalse，当前169条/36真空格/4原公布scope，资格统计终稿项目门槛不降。master21fd098d87fce11736caf4c369360a5b6c59c01b751adfee567122391f9fdd4c，卡/QA CN116282270A_capture_20261004。派生入口总数由QA实际值生成不再写死168。下一在同已读原件正向锚点先storage，再liquid_route；其他未读范围不作未定位。primary5/noreset保持。
+
+## 2026-10-04 10:34：CN116原件storage正向补空
+
+复用原2权3/原7[0047]实际已读范围，收集腔5-8承载底流微塑料固体、腔内5-7为防回流文字方案；不推干储、密闭防漏或已实测零回流，仅新增storage1条，旧169/所有其他features/scene/publication/all法律/方向冲突/其他13保持，CSV仅本storage格改变。当前170条/35真空格/4独立技术验收，flagfalse/14pending/正式统计终稿项目false保持。masterac1412e871427f8c0e99a40c6b6ead6c6baad3c6cdcee225ae0af757f1ad27d7，卡/QA CN116282270A_storage_20261004。预览ID前缀已在首次主表应用前规范，不曾应用错误条目。下一原已读[0048]/[0050]的liquid_route最短项；近10仅短项，<=5保存准确handoff再push，不reset。

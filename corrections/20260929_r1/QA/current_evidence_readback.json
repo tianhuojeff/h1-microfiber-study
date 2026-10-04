@@ -1,8 +1,8 @@
 {
   "verified": true,
-  "verified_at": "2026-10-04T10:30:21.115314+08:00",
-  "master_sha256": "21fd098d87fce11736caf4c369360a5b6c59c01b751adfee567122391f9fdd4c",
-  "observations": 169,
+  "verified_at": "2026-10-04T10:33:28.597555+08:00",
+  "master_sha256": "ac1412e871427f8c0e99a40c6b6ead6c6baad3c6cdcee225ae0af757f1ad27d7",
+  "observations": 170,
   "full_text_complete_count": 4,
   "accepted_representative_publications": [
     "CN115637570A",
@@ -12,7 +12,7 @@
   ],
   "full_text_flag_scope": "representative_published_document_only",
   "html_quote_checks": 489,
-  "pdf_image_checks": 13,
+  "pdf_image_checks": 15,
   "source_hashes": {
     "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
     "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115637570A.html": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",

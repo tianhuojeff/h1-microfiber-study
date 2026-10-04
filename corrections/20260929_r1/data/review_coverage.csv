@@ -135,7 +135,7 @@ H1-F86813332,CN116282270A,transfer,partial,explicit,1
 H1-F86813332,CN116282270A,chamber_drainage,not_reviewed_this_revision,,0
 H1-F86813332,CN116282270A,solids_dewatering,not_reviewed_this_revision,,0
 H1-F86813332,CN116282270A,liquid_route,not_reviewed_this_revision,,0
-H1-F86813332,CN116282270A,storage,not_reviewed_this_revision,,0
+H1-F86813332,CN116282270A,storage,complete_in_targeted_original_scope,explicit,1
 H1-F86813332,CN116282270A,removal,partial,same_embodiment_combination,1
 H1-F86813332,CN116282270A,state_switch,partial,conflict,1
 H1-F86813332,CN116282270A,seals_connections,not_reviewed_this_revision,,0
