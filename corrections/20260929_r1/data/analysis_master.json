@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T14:30:03.220223+08:00",
+  "updated_at": "2026-10-04T14:38:18.928686+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -138,8 +138,28 @@
       },
       "scene_material": {
         "classification": "明确包括洗衣微纤维或微塑料",
-        "review_status": "primary_text_scope_reviewed",
-        "scope_note": "压实器还适用其他流出物，不把所有用途自动称为洗衣；CN222043626U亦可截留其他相近尺寸杂质。"
+        "review_status": "accepted_in_original_published_scope",
+        "publication_id": "CN112914464A",
+        "source_path": "patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+        "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+        "scope_note": "本件洗衣机/洗干一体机排出或循环洗衣水，过滤衣物磨损颗粒，尤其塑料纤维或微塑料；本件未把所有衣物颗粒自动等同塑料。",
+        "basis": [
+          {
+            "printed_paragraph": 1,
+            "physical_page": 5,
+            "evidence_excerpt": "本发明涉及一种导水家庭用具，特别是洗衣机或洗衣机‑烘干机，并且涉及用于该导水家庭用具的操作的可能方法。背景技术"
+          },
+          {
+            "printed_paragraph": 6,
+            "physical_page": 5,
+            "evidence_excerpt": "提供了用于将颗粒从导水装置中过滤出的过滤器设备。所述颗粒特别是塑料纤维和/或微塑料。有利地，在导水装置中引导的水被过滤，使得过滤器设备也连接到导水装置。家庭用具具有用于来自过滤器设备的过滤物质的接收器，该接收器可连接或连接到过滤器设备。用于过滤物质的接收器和过滤器设备可相对靠近地布置在一起，由此过滤物质必须仅被运送短的距离而到达接收器。这可为几厘米，例如1厘米到5厘米。备选地，该距离也可大于10厘米或大于30厘米，如例如从申请日为2019年4月25日的同一申请人的德国专利申请DE102019205919.8中已知的"
+          },
+          {
+            "printed_paragraph": 33,
+            "physical_page": 11,
+            "evidence_excerpt": "水管线22从转换抽屉20导引至滚筒14，或者导引至滚筒14中，或者导引至在其中布置滚筒的滚筒接收器中。水流入物16在这里通向转换抽屉20，其中流入的新鲜水也可仅流过。备选地，水流入物16也可通向水管线22。贮槽出口23从滚筒14或对应的滚筒接收器导引出，并借助于出口管线24导引至过滤器设备26中。所述过滤器设备26呈精细过滤器的形式，并且它特别地用于从排放的或循环的水中过滤出小颗粒，诸如洗涤衣物的纤维磨损颗粒，特别是在由塑料或所谓的微纤维(也就是说微塑料)构成的纤维的情况下。经过滤的水可通过水管线29流到泵31。过"
+          }
+        ]
       },
       "publications": [
         {
@@ -150,7 +170,11 @@
           "local_exists": true,
           "historical_corpus_sha256": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
           "text_role": "application_publication",
-          "review_status": "claims_read_and_targeted_description_reviewed"
+          "review_status": "accepted_in_original_published_scope",
+          "previous_review_status": "claims_read_and_targeted_description_reviewed",
+          "original_source_path": "patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+          "original_source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+          "technical_acceptance_record": "publication_technical_acceptance"
         }
       ],
       "prior_working_evidence": {
@@ -481,7 +505,7 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -536,7 +560,7 @@
         },
         "cleaning": {
           "label": "清理／脱离",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -615,7 +639,7 @@
         },
         "transfer": {
           "label": "转移",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -723,7 +747,7 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -817,7 +841,7 @@
         },
         "solids_dewatering": {
           "label": "固体脱水",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -920,7 +944,7 @@
         },
         "liquid_route": {
           "label": "液体路径",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -1047,7 +1071,7 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -1110,7 +1134,7 @@
         },
         "removal": {
           "label": "移出",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -1263,7 +1287,7 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -1504,7 +1528,7 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -1616,7 +1640,7 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -1679,7 +1703,7 @@
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -1792,7 +1816,7 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -1864,7 +1888,7 @@
       },
       "routes": [],
       "review_completeness": {
-        "full_text_rechecked": false,
+        "full_text_rechecked": true,
         "current_scope": [
           {
             "publication": "CN112914464A",
@@ -1925,6 +1949,12 @@
             ],
             "field": "liquid_route",
             "at": "2026-09-29T23:13:03.436332+08:00"
+          },
+          {
+            "publication": "CN112914464A",
+            "scope": "representative_published_document_only",
+            "acceptance_record": "publication_technical_acceptance",
+            "at": "2026-10-04T14:38:18.928686+08:00"
           }
         ],
         "original_A_readback": {
@@ -2136,7 +2166,444 @@
           ],
           "new_visual_page_read": 6,
           "extraction_boundary": "0009 printed intact on physical6; PDF extracted [0 linebreak009], whitespace-normalized parser restored only extraction token, original bytes unchanged"
-        }
+        },
+        "original_remaining6_bindings_20261004": {
+          "source_path": "patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+          "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+          "new_visual_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "previous_visual_page6_record": "original_old7_bindings_20261004",
+          "previous_full_text_and_drawing_record": "original_A_readback",
+          "cumulative_text_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "cumulative_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "rendered_pages": [
+            {
+              "physical_page": 1,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-1.png",
+              "sha256": "798f94360d75dac322cc67e8c52fc4f65eaeb34b72b1d81e01921ed18e31c8ea"
+            },
+            {
+              "physical_page": 2,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-2.png",
+              "sha256": "a7639d65e80a6a516b2013305ded702b73781efbaab3f4c3b80af2019321d0ec"
+            },
+            {
+              "physical_page": 3,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-3.png",
+              "sha256": "9bea6898a327b80037e9bc4c2b62485d5fce800046e954fd7ad498487a6c4fef"
+            },
+            {
+              "physical_page": 4,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-4.png",
+              "sha256": "64a6320aec1afb8dfe546c4ca1709a3a6680e8d3eb9f0d156832abbc28368981"
+            },
+            {
+              "physical_page": 5,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-5.png",
+              "sha256": "d9ca57f1fc047656d87b82ec35581e6b1cc33c813e414c2a2166a63e3d2b1a00"
+            },
+            {
+              "physical_page": 7,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-7.png",
+              "sha256": "0331e52932c033c2aa905a41b905cf6c102b0b7e9aabf0e77cbd4163334dc3c4"
+            },
+            {
+              "physical_page": 8,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-8.png",
+              "sha256": "2896b3121faae31c8252a4c9b2eaa523e8ea2f7b143cdcfaf124dee4f31ecabd"
+            },
+            {
+              "physical_page": 9,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-9.png",
+              "sha256": "4cd9a1d9e2e26ffd4a06bf47f47dd5363edbede84a631187e7fe8157f9c1d33c"
+            },
+            {
+              "physical_page": 10,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-10.png",
+              "sha256": "72ac8bf085d540a53c705983aca12b2aa635f845068c254cd958d47e39eaafdd"
+            },
+            {
+              "physical_page": 11,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-11.png",
+              "sha256": "0e80ca383e3f9bd9b871d8a4223b054519d29f581314cb1121811a23068c0f7c"
+            },
+            {
+              "physical_page": 12,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-12.png",
+              "sha256": "37665963486043654fae4e7abc9057dfbfbacf14c848dc3a597f7f518190f2cd"
+            },
+            {
+              "physical_page": 13,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-13.png",
+              "sha256": "19459593ec48beec5afee30a8c01fd3109e8aecaf86299b003e196aa039d41a6"
+            },
+            {
+              "physical_page": 14,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-14.png",
+              "sha256": "86da62ae563d04323684c29139bf99c5b6872537cb49bf10eca977dd4cb5cd11"
+            },
+            {
+              "physical_page": 15,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_accept_20261004-15.png",
+              "sha256": "e2c6ec3131435c287ab1e1969fc5fa59f8ae72fccbeacc3c4e1cba5c96bb00e2"
+            }
+          ],
+          "original_field_bindings": {
+            "capture": {
+              "observation_ids_preserved": [
+                "CN112914464A-capture-fig1_fine_filter26-20261001"
+              ],
+              "scope_judgment": "图1过滤器26从排出或循环洗衣水中截留衣物磨损颗粒，尤其塑料微纤维；非所有衣物颗粒均塑料。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 33,
+                  "physical_page": 11,
+                  "evidence_excerpt": "水管线22从转换抽屉20导引至滚筒14，或者导引至滚筒14中，或者导引至在其中布置滚筒的滚筒接收器中。水流入物16在这里通向转换抽屉20，其中流入的新鲜水也可仅流过。备选地，水流入物16也可通向水管线22。贮槽出口23从滚筒14或对应的滚筒接收器导引出，并借助于出口管线24导引至过滤器设备26中。所述过滤器设备26呈精细过滤器的形式，并且它特别地用于从排放的或循环的水中过滤出小颗粒，诸如洗涤衣物的纤维磨损颗粒，特别是在由塑料或所谓的微纤维(也就是说微塑料)构成的纤维的情况下。经过滤的水可通过水管线29流到泵31。过"
+                }
+              ]
+            },
+            "chamber_drainage": {
+              "observation_ids_preserved": [
+                "CN112914464A-chamber_drainage-dedicated_maintenance_emptying_not_located-20261001"
+              ],
+              "scope_judgment": "全原A权1—29、说明0001—0064及图1—12范围未定位维护前专门排空某腔游离液动作；可选62正常分水及容器排空不自动等于该程序，保留unknown。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 38,
+                  "physical_page": 11,
+                  "evidence_excerpt": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或"
+                },
+                {
+                  "printed_paragraph": 40,
+                  "physical_page": 12,
+                  "evidence_excerpt": "为了能够检测过滤物质容器63的填充水平66，填充水平传感器61在过滤物质容器63处布置在高处。由虚线图示的填充水平66'由填充水平传感器61检测为“满的”，因为然后过滤物质容器63几乎完全利用过滤物质65填充。用于过滤物质的填充水平传感器61也向控制器46发送该填充水平66'的信号，然后控制器46与用于洗涤剂55的填充水平传感器51的另一个填充水平组合或者特别优选地在每种情况下独立于另一个填充水平而向使用者发送必须移除转换抽屉20的信号。使用者然后可通过视觉检验容易地检查是否必须补充洗涤剂55或者是否必须处置过滤物"
+                }
+              ]
+            },
+            "storage": {
+              "observation_ids_preserved": [
+                "CN112914464A-storage-fig2_closed_container63-20261001"
+              ],
+              "scope_judgment": "图2闭合容器63接收并集中暂留滤物65，入口68；独立袋体/刚性结构单元是其他可选方式，不能全部拼为统一储存结构。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 37,
+                  "physical_page": 11,
+                  "evidence_excerpt": "在左手侧区域中，转换抽屉20具有呈一种凹入腔室的形式的过滤物质接收器60或过滤物质容器63，类似于右侧上的洗涤剂接收器50或洗涤剂容器53。收集的过滤物质65被直接引入到过滤物质接收器60或过滤物质容器63中，使得过滤物质65与过滤物质接收器60或过滤物质容器63的壁接触。示意性地图示的过滤物质入口68用于引入过滤物质65，并延伸通过闭合的过滤物质容器63的原本闭合的上壁。如上文已解释的，所述过滤物质65由泵31经由反冲洗管线42移动到过滤器设备26的反冲洗入口27中，并因此从过滤器设备26移动出。因此，所述过滤物"
+                }
+              ]
+            },
+            "state_switch": {
+              "observation_ids_preserved": [
+                "CN112914464A-state_switch-fig1_pump_valves-20261001",
+                "CN112914464A-state_switch-level_indication_not_mandatory_stop-20261001",
+                "CN112914464A-state_switch-fig11_12_rotary_head677-20261001"
+              ],
+              "scope_judgment": "图1泵31/阀33、38路由，满位信号提示移出；0050明确可继续使用并非强制停机。图11/12头677旋转180度是另一独立分配实施方式，不拼为同一动作链。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 34,
+                  "physical_page": 11,
+                  "evidence_excerpt": "可呈三通阀或四通阀的形式的阀33位于泵31的后方。直路径导引至从洗衣机11出来的流出物18。朝向顶部的路径导引至返回管线36，返回管线36导引至呈三通阀的形式的阀38。因此，泵31可将水直接泵回到滚筒14中。备选地，泵31可将水通过另外的返回管线36泵送到转换抽屉20，例如，以便以这种方式将洗涤剂从所述转换抽屉冲洗或输送到水管线22中，并且因此输送到滚筒14中。"
+                },
+                {
+                  "printed_paragraph": 35,
+                  "physical_page": 11,
+                  "evidence_excerpt": "在阀33的最底位置处，泵31可借助于反冲洗管线42将水泵送到过滤器设备26的反冲洗入口27中。因此，过滤设备26可被反冲洗，或者积聚在其中的过滤物质可从其中移除，这是非常重要的。所述过滤物质可通过过滤物质管线44朝向转换抽屉20输送，以便在转换抽屉20处被收集，如引言中已解释的。泵31以及阀33和38还由洗衣机11的控制器46致动。"
+                },
+                {
+                  "printed_paragraph": 40,
+                  "physical_page": 12,
+                  "evidence_excerpt": "为了能够检测过滤物质容器63的填充水平66，填充水平传感器61在过滤物质容器63处布置在高处。由虚线图示的填充水平66'由填充水平传感器61检测为“满的”，因为然后过滤物质容器63几乎完全利用过滤物质65填充。用于过滤物质的填充水平传感器61也向控制器46发送该填充水平66'的信号，然后控制器46与用于洗涤剂55的填充水平传感器51的另一个填充水平组合或者特别优选地在每种情况下独立于另一个填充水平而向使用者发送必须移除转换抽屉20的信号。使用者然后可通过视觉检验容易地检查是否必须补充洗涤剂55或者是否必须处置过滤物"
+                },
+                {
+                  "printed_paragraph": 50,
+                  "physical_page": 14,
+                  "evidence_excerpt": "如果过滤物质容器163和洗涤剂容器153不是同时为满的和空的，而是两者中的仅一个必须更换，特别是过滤物质容器163必须被排空，则洗衣机11的控制器46可基于最后洗涤过程的历史来另外决定是否以及何时进行转换是适宜的。这可指示给操作者，并且然后所述操作者可作出反应或执行转换。这可例如以类似于针对激光打印机的程序的方式来实现，在激光打印机中给出了针对设备转换的建议。然而，对于操作者来说，遵循该第一个建议并不是绝对必要的，洗衣机仍然有可能使用一定的时间。"
+                },
+                {
+                  "printed_paragraph": 62,
+                  "physical_page": 15,
+                  "evidence_excerpt": "朝向右手侧，再次提供连接套环648，通过该连接套环，洗涤剂出口658在底部处导引，并且过滤物质入口668在顶部处导引。朝向右侧，连接套环648被密封件678封闭。所述密封件678设置在可旋转的分配器头677上。可旋转的分配器头677能够围绕水平旋转轴线旋转，这里由点划线图示该水平旋转轴线。在图11中所图示的位置，分配器头677旋转，使得洗涤剂655通过洗涤剂出口658和分配器头677中的对应通道的方式来流入抽吸提取喷嘴657或某一其它管线。特别地，对应的管线可对应于图1中的水管线22。可看出，用于过滤物质的填充喷嘴"
+                },
+                {
+                  "printed_paragraph": 63,
+                  "physical_page": 15,
+                  "evidence_excerpt": "在移除洗涤剂655期间，空气入口679(这里以简单形式由虚线图示)可导引至过滤物质入口668，并且因此导引至过滤物质容器663中，空气入口空气可流过过滤物质容器663。洗涤剂655然后可毫无问题地流出。"
+                },
+                {
+                  "printed_paragraph": 64,
+                  "physical_page": 15,
+                  "evidence_excerpt": "如果分配器头677然后旋转通过180°，如图12中所图示的，则洗涤剂出口658被密封件678堵塞。因此，另外的洗涤剂655不可能随后流入抽吸提取喷嘴657。这里可看出，过滤物质665然后可通过填充喷嘴667、分配器头677的方式并且通过密封件678中的对应开口的方式以及通过连接套环648中的过滤物质入口668的方式来引入到过滤物质容器663中。所述过滤物质665压靠分离隔膜664，并且因此压靠洗涤剂容器653中的洗涤剂655。因此，这可减小作为通风装置的上文所提到的空气入口，或者在一些情况下甚至使上文所提到的空气入"
+                }
+              ]
+            },
+            "performance": {
+              "observation_ids_preserved": [
+                "CN112914464A-performance-capacity_design_not_test-20261001"
+              ],
+              "scope_judgment": "0027至少5/10等洗涤周期及30/40为容量设计陈述；0038集中增稠、较少水为目的。全本件未定位相应独立测试方法/N/误差或实测含水率，保留原文本主张语义。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 27,
+                  "physical_page": 9,
+                  "evidence_excerpt": "这里，可设置的是，洗涤剂容器的容量足以用于至少五个或至少十个洗涤过程，例如高达至多30个或40个洗涤过程。过滤物质容器的容量或尺寸应当被调适成使得例如在所述过滤物质容器是满的并且不可接收更多过滤物质之前，典型量的过滤物质可从至少五个或至少十个洗涤过程被引入到过滤物质容器中。"
+                },
+                {
+                  "printed_paragraph": 38,
+                  "physical_page": 11,
+                  "evidence_excerpt": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或"
+                }
+              ]
+            },
+            "carrier_conditioning": {
+              "observation_ids_preserved": [
+                "CN112914464A-carrier_conditioning-separate_carrier_drying_not_located-20261001"
+              ],
+              "scope_judgment": "0038可选滤纸/非织造材料弃置或保留；0060袋体清洁/替换不等于过滤介质自身排水干燥。全原件范围未定位独立介质调理步骤，unknown不转0。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 38,
+                  "physical_page": 11,
+                  "evidence_excerpt": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且，对于随后的处置，特别是由家庭本身的操作者进行的处置，如果过滤物质是液体较少的或"
+                },
+                {
+                  "printed_paragraph": 40,
+                  "physical_page": 12,
+                  "evidence_excerpt": "为了能够检测过滤物质容器63的填充水平66，填充水平传感器61在过滤物质容器63处布置在高处。由虚线图示的填充水平66'由填充水平传感器61检测为“满的”，因为然后过滤物质容器63几乎完全利用过滤物质65填充。用于过滤物质的填充水平传感器61也向控制器46发送该填充水平66'的信号，然后控制器46与用于洗涤剂55的填充水平传感器51的另一个填充水平组合或者特别优选地在每种情况下独立于另一个填充水平而向使用者发送必须移除转换抽屉20的信号。使用者然后可通过视觉检验容易地检查是否必须补充洗涤剂55或者是否必须处置过滤物"
+                },
+                {
+                  "printed_paragraph": 60,
+                  "physical_page": 15,
+                  "evidence_excerpt": "如果袋状容器553或563中的一个可容易地从连接套环548上移除，则它可被清洁或者单独地被新袋替换。"
+                }
+              ]
+            }
+          }
+        },
+        "publication_technical_acceptance": {
+          "accepted": true,
+          "publication": "CN112914464A",
+          "scope": "representative_published_document_only",
+          "accepted_at": "2026-10-04T14:38:18.928686+08:00",
+          "source_path": "patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+          "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+          "source_page_count": 23,
+          "text_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "visual_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "claims": [
+            1,
+            29
+          ],
+          "description_paragraphs": [
+            1,
+            64
+          ],
+          "drawing_pages_read": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "field_bindings": {
+            "capture": {
+              "review_record_key": "original_remaining6_bindings_20261004",
+              "binding_key": "capture"
+            },
+            "cleaning": {
+              "review_record_key": "original_old7_bindings_20261004",
+              "binding_key": "cleaning"
+            },
+            "transfer": {
+              "review_record_key": "original_old7_bindings_20261004",
+              "binding_key": "transfer"
+            },
+            "chamber_drainage": {
+              "review_record_key": "original_remaining6_bindings_20261004",
+              "binding_key": "chamber_drainage"
+            },
+            "solids_dewatering": {
+              "review_record_key": "original_old7_bindings_20261004",
+              "binding_key": "solids_dewatering"
+            },
+            "liquid_route": {
+              "review_record_key": "original_old7_bindings_20261004",
+              "binding_key": "liquid_route"
+            },
+            "storage": {
+              "review_record_key": "original_remaining6_bindings_20261004",
+              "binding_key": "storage"
+            },
+            "removal": {
+              "review_record_key": "original_old7_bindings_20261004",
+              "binding_key": "removal"
+            },
+            "state_switch": {
+              "review_record_key": "original_remaining6_bindings_20261004",
+              "binding_key": "state_switch"
+            },
+            "seals_connections": {
+              "review_record_key": "original_old7_bindings_20261004",
+              "binding_key": "seals_connections"
+            },
+            "performance": {
+              "review_record_key": "original_remaining6_bindings_20261004",
+              "binding_key": "performance"
+            },
+            "endpoint": {
+              "review_record_key": "original_old7_bindings_20261004",
+              "binding_key": "endpoint"
+            },
+            "carrier_conditioning": {
+              "review_record_key": "original_remaining6_bindings_20261004",
+              "binding_key": "carrier_conditioning"
+            }
+          },
+          "previous_scene": {
+            "classification": "明确包括洗衣微纤维或微塑料",
+            "review_status": "primary_text_scope_reviewed",
+            "scope_note": "压实器还适用其他流出物，不把所有用途自动称为洗衣；CN222043626U亦可截留其他相近尺寸杂质。"
+          },
+          "previous_feature_review_statuses": {
+            "capture": "complete_in_original_A_scope",
+            "cleaning": "partial",
+            "transfer": "partial",
+            "chamber_drainage": "complete_in_original_A_scope",
+            "solids_dewatering": "partial",
+            "liquid_route": "partial",
+            "storage": "complete_in_original_A_scope",
+            "removal": "partial",
+            "state_switch": "complete_in_original_A_scope",
+            "seals_connections": "partial",
+            "performance": "complete_in_original_A_scope",
+            "endpoint": "partial",
+            "carrier_conditioning": "complete_in_original_A_scope"
+          },
+          "legal_qualification_granted_by_this_acceptance": false,
+          "does_not_accept": [
+            "family member completeness",
+            "current legal status",
+            "measured performance",
+            "formal statistics",
+            "final report",
+            "whole P2/project completion"
+          ]
+        },
+        "full_text_rechecked_scope": "representative_published_document_only"
       }
     },
     {

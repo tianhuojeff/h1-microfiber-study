@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T14:30:36+08:00",
+  "updated_at": "2026-10-04T14:38:39+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -89,8 +89,9 @@
     "main_phase_remains": "P2"
   },
   "full_text_review_complete": false,
-  "accepted_publication_technical_scopes": ["CN117702432A", "CN118273060A", "CN222043626U", "CN115637570A", "CN116282270A"],
-  "accepted_publication_technical_scope_count": 5,
+  "accepted_publication_technical_scopes": ["CN117702432A", "CN118273060A", "CN222043626U", "CN115637570A", "CN116282270A", "CN112914464A"],
+  "accepted_publication_technical_scope_count": 6,
+  "CN112_complete_original_QA": "corrections/20260929_r1/QA/CN112914464A_technical_acceptance_20261004.json",
   "CN116_complete_original_QA": "corrections/20260929_r1/QA/CN116282270A_complete_original_20261004.json",
   "true_unfilled_technical_fields": 28,
   "additional_published_A_technical_acceptance": {
@@ -139,5 +140,5 @@
   },
   "weekly_used_percent": 42,
   "weekly_remaining_percent": 58,
-  "master_sha256": "102c278accf371935132317af1726e5b0a33db0e6183feaf554eb82342774a9e"
+  "master_sha256": "0979a1353e06524b451464b568d7560196410c4925c138b4dde76381fd758b58"
 }
