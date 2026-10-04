@@ -1,10 +1,11 @@
 {
   "verified": true,
-  "verified_at": "2026-10-04T09:59:56.934408+08:00",
-  "master_sha256": "5fe79f16adc57f873dbad9da46c1cc7e7de873b83ade04847192285bcc34ec3b",
+  "verified_at": "2026-10-04T10:11:09.273670+08:00",
+  "master_sha256": "351b744ec62a1a13cb57bd9295279b31f37bf5ad512895a276e3147f5b26d92e",
   "observations": 168,
-  "full_text_complete_count": 2,
+  "full_text_complete_count": 3,
   "accepted_representative_publications": [
+    "CN222043626U",
     "CN118273060A",
     "CN117702432A"
   ],

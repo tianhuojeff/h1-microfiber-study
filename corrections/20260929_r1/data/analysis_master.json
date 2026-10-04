@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T09:59:54.776543+08:00",
+  "updated_at": "2026-10-04T10:08:56.659679+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -3973,9 +3973,44 @@
         "scope": "新增版本事实纠错；既有入口阻塞和关联待核见previous_values，不代表现时法律状态核验"
       },
       "scene_material": {
-        "classification": "明确包括洗衣微纤维或微塑料",
-        "review_status": "primary_text_scope_reviewed",
-        "scope_note": "压实器还适用其他流出物，不把所有用途自动称为洗衣；CN222043626U亦可截留其他相近尺寸杂质。"
+        "classification": "laundry_drainage_microplastics_with_optional_other_impurities_and_uses",
+        "review_status": "accepted_in_original_published_scope",
+        "publication_id": "CN222043626U",
+        "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\patents\\CN222043626U.pdf",
+        "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+        "boundary": "本件洗衣机排水微塑料过滤收集；还可处理相近尺寸杂质或可选清洁池出水，不把所有杂质/所有用途自动称洗衣微塑料。背景35%来源比例不是本装置实测。",
+        "basis": [
+          {
+            "printed_paragraph": 4,
+            "physical_page": 3,
+            "evidence_excerpt": "本申请实施例提供一种过滤组件和洗衣机，可以对洗衣机排出的水进行微塑料的过滤与收集，减少微塑料对生态的污染。",
+            "source_role": "description_of_this_invention_or_optional_use"
+          },
+          {
+            "printed_paragraph": 43,
+            "physical_page": 5,
+            "evidence_excerpt": "过滤组件300设置于排水管200上，或者说，过滤组件300设置于排水管200的排水路径上，在安装时，可以将排水管200分为两段，将过滤组件300夹在两段排水管之间，以使水通过过滤组件300，来过滤以及收集排水管200中的微塑料。当然，也可以将过滤组件300连接在排水管200的末端，经过滤组件300处理的水可以直接排放出去。",
+            "source_role": "description_of_this_invention_or_optional_use"
+          },
+          {
+            "printed_paragraph": 44,
+            "physical_page": 5,
+            "evidence_excerpt": "需要说明的是，本申请实施例经过过滤组件300过滤后的水，可以直接排放到下水道中，由于经过了过滤，可以过滤出至少部分微纤维，由此可以减少对生态的污染。当然，还可以将经过过滤组件300过滤后的水进行回收，如将排水管200的末端一端与下水道连接，再将排水管200的末端分支与本体100的供水系统连接，从而可以实现水的回收再利用，减少资源的浪费。",
+            "source_role": "description_of_this_invention_or_optional_use"
+          },
+          {
+            "printed_paragraph": 45,
+            "physical_page": 5,
+            "evidence_excerpt": "其中，过滤组件300并不限于应用在洗衣机1中，比如，过滤组件300还可以设置在清洗池的排水管处，从而可以去除清洗池清洗东西中的微塑料，也可以减少微塑料对生态的污染。当然，过滤组件300还可以应用在其他场景中，能过滤微塑料的场景均可，这里不再一一举例。",
+            "source_role": "description_of_this_invention_or_optional_use"
+          },
+          {
+            "printed_paragraph": 51,
+            "physical_page": 6,
+            "evidence_excerpt": "需要说明的是，过滤网330并不限于拦截微塑料，与微塑料尺寸相近的其他杂质也可以被过滤并拦截，也可以与微塑料一同进行收集。",
+            "source_role": "description_of_this_invention_or_optional_use"
+          }
+        ]
       },
       "publications": [
         {
@@ -3986,7 +4021,11 @@
           "local_exists": true,
           "historical_corpus_sha256": "0b33a8ec1dbee2049d6577493caf639d76b76326200c6725dc99c958f89ee621",
           "text_role": "utility_model_grant_publication",
-          "review_status": "claims_read_and_targeted_description_reviewed"
+          "review_status": "accepted_in_original_published_scope",
+          "previous_review_status": "claims_read_and_targeted_description_reviewed",
+          "original_source_path": "patents/CN222043626U.pdf",
+          "original_source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+          "technical_acceptance_record": "publication_technical_acceptance"
         }
       ],
       "prior_working_evidence": {
@@ -4326,7 +4365,7 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -4388,7 +4427,7 @@
         },
         "cleaning": {
           "label": "清理／脱离",
-          "review_status": "complete_in_original_U_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -4499,7 +4538,7 @@
         },
         "transfer": {
           "label": "转移",
-          "review_status": "complete_in_original_U_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -4610,7 +4649,7 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "complete_in_original_U_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -4671,7 +4710,7 @@
         },
         "solids_dewatering": {
           "label": "固体脱水",
-          "review_status": "complete_in_original_U_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -4766,7 +4805,7 @@
         },
         "liquid_route": {
           "label": "液体路径",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -4937,7 +4976,7 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "partial_saved_text_targeted",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -4998,7 +5037,7 @@
         },
         "removal": {
           "label": "移出",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -5162,7 +5201,7 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "partial_saved_text_targeted",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -5273,7 +5312,7 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "partial",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -5441,7 +5480,7 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "complete_in_original_U_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -5490,7 +5529,7 @@
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "complete_in_original_U_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -5569,7 +5608,7 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "complete_in_original_U_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -5619,7 +5658,7 @@
       },
       "routes": [],
       "review_completeness": {
-        "full_text_rechecked": false,
+        "full_text_rechecked": true,
         "current_scope": [
           {
             "publication": "CN222043626U",
@@ -5822,6 +5861,12 @@
               14
             ],
             "at": "2026-10-02T12:27:56.556838+08:00"
+          },
+          {
+            "publication": "CN222043626U",
+            "scope": "representative_published_document_only",
+            "acceptance_record": "publication_technical_acceptance",
+            "at": "2026-10-04T10:08:56.659679+08:00"
           }
         ],
         "saved_text_targeted_20261002": {
@@ -5972,6 +6017,475 @@
           "full_candidate_acceptance": false,
           "legal_current_status": "unknown",
           "verified_at": "2026-10-02T12:27:56.556838+08:00"
+        },
+        "original_U_field_bindings_20261004": {
+          "source_path": "patents/CN222043626U.pdf",
+          "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+          "text_scope": "all paragraphs0001-0072, claims1-10, figures1-7; full14visual receipt retained",
+          "original_field_bindings": {
+            "capture": {
+              "accepted_observation_ids": [
+                "CN222043626U-capture-collection_box"
+              ],
+              "printed_paragraphs": [
+                50
+              ],
+              "scope_judgment": "盒内330过滤网截留微塑料；另相近尺寸杂质可同时截留。图3两网及孔径可选关系不推实测效率。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 50,
+                  "physical_page": 6,
+                  "evidence_excerpt": "至少一个过滤网330设置在收集盒320内，且每一过滤网330均正对第二进水口321和第二出水口322，以拦截进入收集盒320的微塑料。"
+                }
+              ]
+            },
+            "cleaning": {
+              "accepted_observation_ids": [
+                "CN222043626U-cleaning-original_U_scope-20261002"
+              ],
+              "printed_paragraphs": [
+                59,
+                63
+              ],
+              "scope_judgment": "开盖或可选盒门可取出盒/网以清洗，仅支持维护可达及清洗目的；没有具体刷洗、反洗或孔再生程序。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 59,
+                  "physical_page": 7,
+                  "evidence_excerpt": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳31"
+                },
+                {
+                  "printed_paragraph": 63,
+                  "physical_page": 7,
+                  "evidence_excerpt": "示例性的，收集盒320包括盒体323和安装管324。盒体323是收集盒320的主要组成部分，盒体323可以适应主壳313的形状而进行设计，比如盒体323可以为方柱形、圆柱形等。至少一个过滤网330设置于盒体323内，盒体323可以设置有门盖(图中未示意出)，以便于将其内部的过滤网330取出进行清理。"
+                }
+              ]
+            },
+            "transfer": {
+              "accepted_observation_ids": [
+                "CN222043626U-transfer-original_U_scope-20261002"
+              ],
+              "printed_paragraphs": [
+                48
+              ],
+              "scope_judgment": "微塑料随盒320取出以统一清理；本公布全文未定位松散固体另转独立容器的专用动作。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 48,
+                  "physical_page": 5,
+                  "evidence_excerpt": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集"
+                }
+              ]
+            },
+            "chamber_drainage": {
+              "accepted_observation_ids": [
+                "CN222043626U-chamber_drainage-original_U_scope-20261002"
+              ],
+              "printed_paragraphs": [
+                59,
+                68
+              ],
+              "scope_judgment": "开盖取盒与正常过水均已披露；全文0001—0072、权1—10及图1—7未定位维护前独立排空腔游离液的动作，unknown保持。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 59,
+                  "physical_page": 7,
+                  "evidence_excerpt": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳31"
+                },
+                {
+                  "printed_paragraph": 68,
+                  "physical_page": 8,
+                  "evidence_excerpt": "需要说明的是，本申请实施例的收集盒320既可以是上述封闭的盒状结构，通过第二进水口321和第二出水口322实现进水过滤与排出，收集盒320还可以是具有网孔的网状结构，从而可以实现对微塑料的多重过滤效果。"
+                }
+              ]
+            },
+            "solids_dewatering": {
+              "accepted_observation_ids": [
+                "CN222043626U-solids_dewatering-original_U_scope-20261002"
+              ],
+              "printed_paragraphs": [
+                38,
+                50
+              ],
+              "scope_judgment": "0038脱水/烘干对象是衣物；过滤及盒内收集不能当滤渣脱水。本原件完整范围未定位收集固体脱水，unknown保持。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 38,
+                  "physical_page": 4,
+                  "evidence_excerpt": "请参阅图1所示，图1为本申请实施例提供的洗衣机的结构示意图。本申请实施例提供一种洗衣机1，洗衣机1可以是滚筒洗衣机，也可以是波轮洗衣机，本申请实施例不做具体限制。为了便于说明，本申请实施例以滚筒洗衣机为例进行说明。滚筒洗衣机的洗衣方法是模仿棒槌击打衣物原理设计，由不锈钢内筒，机械程序控制器，经过磷化、电泳、喷涂三重保护的外壳，和若干笨重的水泥块用于平衡滚筒旋"
+                },
+                {
+                  "printed_paragraph": 50,
+                  "physical_page": 6,
+                  "evidence_excerpt": "至少一个过滤网330设置在收集盒320内，且每一过滤网330均正对第二进水口321和第二出水口322，以拦截进入收集盒320的微塑料。"
+                }
+              ]
+            },
+            "liquid_route": {
+              "accepted_observation_ids": [
+                "CN222043626U-liquid_route-drain_line"
+              ],
+              "printed_paragraphs": [
+                43,
+                44
+              ],
+              "scope_judgment": "接排水管中间或末端为替代安装位置；过滤出水入下水道或可选支路回机体给水，不合并必需双终点。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 43,
+                  "physical_page": 5,
+                  "evidence_excerpt": "过滤组件300设置于排水管200上，或者说，过滤组件300设置于排水管200的排水路径上，在安装时，可以将排水管200分为两段，将过滤组件300夹在两段排水管之间，以使水通过过滤组件300，来过滤以及收集排水管200中的微塑料。当然，也可以将过滤组件300连接在排水管200的末端，经过滤组件300处理的水可以直接排放出去。"
+                },
+                {
+                  "printed_paragraph": 44,
+                  "physical_page": 5,
+                  "evidence_excerpt": "需要说明的是，本申请实施例经过过滤组件300过滤后的水，可以直接排放到下水道中，由于经过了过滤，可以过滤出至少部分微纤维，由此可以减少对生态的污染。当然，还可以将经过过滤组件300过滤后的水进行回收，如将排水管200的末端一端与下水道连接，再将排水管200的末端分支与本体100的供水系统连接，从而可以实现水的回收再利用，减少资源的浪费。"
+                }
+              ]
+            },
+            "storage": {
+              "accepted_observation_ids": [
+                "CN222043626U-storage-box_retention-20261002"
+              ],
+              "printed_paragraphs": [
+                48,
+                68
+              ],
+              "scope_judgment": "320盒暂存微塑料以统一清理；0068闭合进出盒与网状盒为可选分支，不推所有盒密闭、干储或长期防漏。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 48,
+                  "physical_page": 5,
+                  "evidence_excerpt": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集"
+                },
+                {
+                  "printed_paragraph": 68,
+                  "physical_page": 8,
+                  "evidence_excerpt": "需要说明的是，本申请实施例的收集盒320既可以是上述封闭的盒状结构，通过第二进水口321和第二出水口322实现进水过滤与排出，收集盒320还可以是具有网孔的网状结构，从而可以实现对微塑料的多重过滤效果。"
+                }
+              ]
+            },
+            "removal": {
+              "accepted_observation_ids": [
+                "CN222043626U-removal-box_lid"
+              ],
+              "printed_paragraphs": [
+                59,
+                66,
+                67
+              ],
+              "scope_judgment": "拆314取盒，或安装管324沿313a滑动并经319弹性限位拆装。内部安装管不等于外接排水管；不推默认断外管。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 59,
+                  "physical_page": 7,
+                  "evidence_excerpt": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳31"
+                },
+                {
+                  "printed_paragraph": 66,
+                  "physical_page": 7,
+                  "evidence_excerpt": "其中，请结合图1至图5并参阅图6和图7所示，图6为本申请实施例提供的壳体中部分结构的结构示意图，图7为图2所示的过滤组件沿B‑B的剖面结构示意图。主壳313设置有滑槽313a，滑槽313a的一端贯通主壳313，以便于安装管324滑入；滑槽313a的另一端适应安装管324的形状而设置，可以起到对安装管324向下运动的限位。壳体310还包括弹性件319，弹性件3"
+                },
+                {
+                  "printed_paragraph": 67,
+                  "physical_page": 8,
+                  "evidence_excerpt": "需要说明的是，将收集盒320安装进入主壳313的过程为：安装管324沿滑槽313a进入直至到滑槽313a底部，在这个过程中，安装管324将弹性件319压缩至主壳313内，也即不凸出于主壳313，待安装管324达到滑槽313a底部时，弹性件319在自身弹性力作用下回复到初始位置，也即凸出于主壳313，从而滑槽313a与弹性件319配合实现对安装管324上下方向"
+                }
+              ]
+            },
+            "state_switch": {
+              "accepted_observation_ids": [
+                "CN222043626U-state_switch-manual_cover_modes-20261002"
+              ],
+              "printed_paragraphs": [
+                59,
+                67
+              ],
+              "scope_judgment": "开盖维护、装盒合盖密封恢复过滤明确；滑管弹性限位复位是结构分支，不推强制先排干或自动控制。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 59,
+                  "physical_page": 7,
+                  "evidence_excerpt": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳31"
+                },
+                {
+                  "printed_paragraph": 67,
+                  "physical_page": 8,
+                  "evidence_excerpt": "需要说明的是，将收集盒320安装进入主壳313的过程为：安装管324沿滑槽313a进入直至到滑槽313a底部，在这个过程中，安装管324将弹性件319压缩至主壳313内，也即不凸出于主壳313，待安装管324达到滑槽313a底部时，弹性件319在自身弹性力作用下回复到初始位置，也即凸出于主壳313，从而滑槽313a与弹性件319配合实现对安装管324上下方向"
+                }
+              ]
+            },
+            "seals_connections": {
+              "accepted_observation_ids": [
+                "CN222043626U-seals_connections-sliding_pipe"
+              ],
+              "printed_paragraphs": [
+                66,
+                67
+              ],
+              "scope_judgment": "324滑动、313a导向和319弹性限位定位；可选盖密封圈/卡扣另行披露，不推实测防漏或强制断外管。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 66,
+                  "physical_page": 7,
+                  "evidence_excerpt": "其中，请结合图1至图5并参阅图6和图7所示，图6为本申请实施例提供的壳体中部分结构的结构示意图，图7为图2所示的过滤组件沿B‑B的剖面结构示意图。主壳313设置有滑槽313a，滑槽313a的一端贯通主壳313，以便于安装管324滑入；滑槽313a的另一端适应安装管324的形状而设置，可以起到对安装管324向下运动的限位。壳体310还包括弹性件319，弹性件3"
+                },
+                {
+                  "printed_paragraph": 67,
+                  "physical_page": 8,
+                  "evidence_excerpt": "需要说明的是，将收集盒320安装进入主壳313的过程为：安装管324沿滑槽313a进入直至到滑槽313a底部，在这个过程中，安装管324将弹性件319压缩至主壳313内，也即不凸出于主壳313，待安装管324达到滑槽313a底部时，弹性件319在自身弹性力作用下回复到初始位置，也即凸出于主壳313，从而滑槽313a与弹性件319配合实现对安装管324上下方向"
+                }
+              ]
+            },
+            "performance": {
+              "accepted_observation_ids": [
+                "CN222043626U-performance-original_U_scope-20261002"
+              ],
+              "printed_paragraphs": [
+                54,
+                55,
+                56,
+                71
+              ],
+              "scope_judgment": "齿状增面积/减堵、延长周期及便于清洗是作者文字主张，孔径为设计关系；无可复制性能试验/N/误差/独立验证。0055第二网331原编号冲突保留，不默改。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 54,
+                  "physical_page": 6,
+                  "evidence_excerpt": "示例性的，第一过滤网331和/或第二过滤网332呈齿状，也即是从侧面来看，第一过滤网331和/或第二过滤网332呈齿形，从正面或背面来看，第一过滤网331和/或第二过滤网332呈凸凹不平整的表面，如此可以增大第一过滤网331和/或第二过滤网332与水的接触面积，可以减小第一过滤网331和/或第二过滤网332堵塞的速度，延长对第一过滤网331和/或第二过滤网3"
+                },
+                {
+                  "printed_paragraph": 55,
+                  "physical_page": 6,
+                  "evidence_excerpt": "其中，第一过滤网331可以靠近第二进水口321设置，第二过滤网332可以靠近第二出水口322设置。可以仅将第一过滤网331设置为齿状结构，此时第二过滤网332为呈平整状态的过滤网，因第一过滤网331为第一道过滤，其拦截的微塑料相对较多，为了降低第一过滤网331堵塞的风险，因此将第一过滤网331设置为齿状，来增加第一过滤网331与水接触的面积。当然，也可以仅将"
+                },
+                {
+                  "printed_paragraph": 56,
+                  "physical_page": 6,
+                  "evidence_excerpt": "示例性的，第一过滤网331的网孔尺寸大于或等于第二过滤网332的网孔尺寸。第一过滤网331与第二过滤网332的网孔尺寸设置为相同，可以方便制作，也可以实现对排出污水的双重过滤。第一过滤网331的网孔尺寸大于第二过滤网332的网孔尺寸，从而第一过滤网331可以先收集微塑料中尺寸较大的，第二过滤网332收集微塑料中尺寸较小的，双重精细过滤，可以提高过滤精度。"
+                },
+                {
+                  "printed_paragraph": 71,
+                  "physical_page": 8,
+                  "evidence_excerpt": "本申请实施例提供的过滤组件300和洗衣机1中，通过在洗衣机1的排水管200路上设置过滤组件300，可以实现对微塑料的过滤与收集，减少微塑料对生态的污染；在壳体310中设置收集盒320，可以在清洗过滤网330时只拆出收集盒320，无需将壳体310与排水管200进行拆卸，既方便清洁，又能提高壳体310与排水管200连接的稳定性和可靠性，减少漏水情况的发生。"
+                }
+              ]
+            },
+            "endpoint": {
+              "accepted_observation_ids": [
+                "CN222043626U-endpoint-original_U_scope-20261002"
+              ],
+              "printed_paragraphs": [
+                44,
+                48,
+                59
+              ],
+              "scope_judgment": "0044下水道/回机体对象是液体；0048/0059统一清理与取盒不证明固体安全终点。原件完整范围未定位滤渣最终分类、回收或销毁，unknown保持。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 44,
+                  "physical_page": 5,
+                  "evidence_excerpt": "需要说明的是，本申请实施例经过过滤组件300过滤后的水，可以直接排放到下水道中，由于经过了过滤，可以过滤出至少部分微纤维，由此可以减少对生态的污染。当然，还可以将经过过滤组件300过滤后的水进行回收，如将排水管200的末端一端与下水道连接，再将排水管200的末端分支与本体100的供水系统连接，从而可以实现水的回收再利用，减少资源的浪费。"
+                },
+                {
+                  "printed_paragraph": 48,
+                  "physical_page": 5,
+                  "evidence_excerpt": "收集盒320设置于壳体310内，收集盒320用于收集过滤出的微塑料，以便于统一进行清理。将收集盒320独立于壳体310设置，可以便于后续直接将收集盒320拆出进行清理，无需将壳体310与排水管200拆卸，可以避免壳体310与排水管200由于连接不可靠导致的漏水等问题。其中，收集盒320与壳体310可拆卸连接，既可以在安装时对收集盒320进行固定，又方便对收集"
+                },
+                {
+                  "printed_paragraph": 59,
+                  "physical_page": 7,
+                  "evidence_excerpt": "盖板314与主壳313配合，比如，盖板314与主壳313可拆卸连接，以盖封或者露出收集盒320。也即是说，当需要将收集盒320拆出进行清洁时，可以将盖板314与主壳313拆卸开，以露出收集盒320供用户取出。当需要将收集盒320放入进行微塑料的过滤与收集时，可以将盖板314与主壳313连接且密封，以减少漏水现象的发生，密封的方式可以采用在盖板314和主壳31"
+                }
+              ]
+            },
+            "carrier_conditioning": {
+              "accepted_observation_ids": [
+                "CN222043626U-carrier_conditioning-original_U_scope-20261002"
+              ],
+              "printed_paragraphs": [
+                38,
+                63,
+                68
+              ],
+              "scope_judgment": "衣物脱水/烘干与取网清洗不同于滤介质自身排水或干燥；本原件完整范围未定位该独立工序，unknown保持。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 38,
+                  "physical_page": 4,
+                  "evidence_excerpt": "请参阅图1所示，图1为本申请实施例提供的洗衣机的结构示意图。本申请实施例提供一种洗衣机1，洗衣机1可以是滚筒洗衣机，也可以是波轮洗衣机，本申请实施例不做具体限制。为了便于说明，本申请实施例以滚筒洗衣机为例进行说明。滚筒洗衣机的洗衣方法是模仿棒槌击打衣物原理设计，由不锈钢内筒，机械程序控制器，经过磷化、电泳、喷涂三重保护的外壳，和若干笨重的水泥块用于平衡滚筒旋"
+                },
+                {
+                  "printed_paragraph": 63,
+                  "physical_page": 7,
+                  "evidence_excerpt": "示例性的，收集盒320包括盒体323和安装管324。盒体323是收集盒320的主要组成部分，盒体323可以适应主壳313的形状而进行设计，比如盒体323可以为方柱形、圆柱形等。至少一个过滤网330设置于盒体323内，盒体323可以设置有门盖(图中未示意出)，以便于将其内部的过滤网330取出进行清理。"
+                },
+                {
+                  "printed_paragraph": 68,
+                  "physical_page": 8,
+                  "evidence_excerpt": "需要说明的是，本申请实施例的收集盒320既可以是上述封闭的盒状结构，通过第二进水口321和第二出水口322实现进水过滤与排出，收集盒320还可以是具有网孔的网状结构，从而可以实现对微塑料的多重过滤效果。"
+                }
+              ]
+            }
+          },
+          "historical_original_readback_record": "original_U_readback_20261002",
+          "source_conflicts_preserved": [
+            {
+              "paragraph": "0055",
+              "physical_page": 6,
+              "original_wording": "第一过滤网331和第二过滤网331均设置为齿状",
+              "comparison": "Claim3 and figure3 identify second filter332",
+              "resolution": "Original typo preserved; do not rewrite publication or treat both filters as same part"
+            }
+          ]
+        },
+        "full_text_rechecked_scope": "representative_published_document_only",
+        "publication_technical_acceptance": {
+          "accepted": true,
+          "publication": "CN222043626U",
+          "scope": "representative_published_document_only",
+          "accepted_at": "2026-10-04T10:08:56.659679+08:00",
+          "source_path": "patents/CN222043626U.pdf",
+          "source_sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
+          "source_page_count": 14,
+          "text_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "visual_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "description_paragraphs": [
+            1,
+            72
+          ],
+          "claims": [
+            1,
+            10
+          ],
+          "drawing_pages_read": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "figures_read": [
+            1,
+            7
+          ],
+          "field_bindings": {
+            "capture": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "capture"
+            },
+            "cleaning": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "cleaning"
+            },
+            "transfer": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "transfer"
+            },
+            "chamber_drainage": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "chamber_drainage"
+            },
+            "solids_dewatering": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "solids_dewatering"
+            },
+            "liquid_route": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "liquid_route"
+            },
+            "storage": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "storage"
+            },
+            "removal": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "removal"
+            },
+            "state_switch": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "state_switch"
+            },
+            "seals_connections": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "seals_connections"
+            },
+            "performance": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "performance"
+            },
+            "endpoint": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "endpoint"
+            },
+            "carrier_conditioning": {
+              "review_record_key": "original_U_field_bindings_20261004",
+              "binding_key": "carrier_conditioning"
+            }
+          },
+          "previous_review_QA": "corrections\\20260929_r1\\QA\\CN222043626U_original_review_20261002.json",
+          "previous_review_QA_sha256": "a653096668ff00963c0b6bcb5251dd19be24e9eb344942784d49a6581574b020",
+          "previous_feature_review_statuses": {
+            "capture": "partial",
+            "cleaning": "complete_in_original_U_scope",
+            "transfer": "complete_in_original_U_scope",
+            "chamber_drainage": "complete_in_original_U_scope",
+            "solids_dewatering": "complete_in_original_U_scope",
+            "liquid_route": "partial",
+            "storage": "partial_saved_text_targeted",
+            "removal": "partial",
+            "state_switch": "partial_saved_text_targeted",
+            "seals_connections": "partial",
+            "performance": "complete_in_original_U_scope",
+            "endpoint": "complete_in_original_U_scope",
+            "carrier_conditioning": "complete_in_original_U_scope"
+          },
+          "previous_scene": {
+            "classification": "明确包括洗衣微纤维或微塑料",
+            "review_status": "primary_text_scope_reviewed",
+            "scope_note": "压实器还适用其他流出物，不把所有用途自动称为洗衣；CN222043626U亦可截留其他相近尺寸杂质。"
+          },
+          "prior_evidence_preserved": true,
+          "legal_qualification_granted_by_this_acceptance": false,
+          "does_not_accept": [
+            "family-wide completion",
+            "current legal validity",
+            "measured performance",
+            "formal statistics",
+            "final report",
+            "whole project completion"
+          ]
         }
       }
     },

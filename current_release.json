@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T09:59:59+08:00",
+  "updated_at": "2026-10-04T10:10:06+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -50,7 +50,9 @@
     "path": "patents/CN222043626U.pdf",
     "sha256": "27b93dc08a6e684face981d4b2d7afedbb8dfad39b59c222d91c09132b0b08b2",
     "source_QA": "corrections/20260929_r1/QA/CN222043626U_original_source_20261002.json",
-    "technical_review_complete": false,
+    "technical_review_complete": true,
+    "technical_completion_scope": "CN222 published U all14 original pages/all6drawingpages/13field bindings independently accepted; current legal validity remains unknown.",
+    "technical_QA": "corrections/20260929_r1/QA/CN222043626U_technical_acceptance_20261004.json",
     "current_legal_status_verified": false
   },
   "additional_original_sources": [
@@ -87,8 +89,8 @@
     "main_phase_remains": "P2"
   },
   "full_text_review_complete": false,
-  "accepted_publication_technical_scopes": ["CN117702432A", "CN118273060A"],
-  "accepted_publication_technical_scope_count": 2,
+  "accepted_publication_technical_scopes": ["CN117702432A", "CN118273060A", "CN222043626U"],
+  "accepted_publication_technical_scope_count": 3,
   "technical_acceptance_scope_note": "Independent representative published-document technical acceptance; not all family members, legal eligibility, whole P2 or project completion.",
   "execution_status": "in_progress_delegated_P2",
   "repository_visibility_authority": {
@@ -115,5 +117,5 @@
   },
   "weekly_used_percent": 42,
   "weekly_remaining_percent": 58,
-  "master_sha256": "5fe79f16adc57f873dbad9da46c1cc7e7de873b83ade04847192285bcc34ec3b"
+  "master_sha256": "351b744ec62a1a13cb57bd9295279b31f37bf5ad512895a276e3147f5b26d92e"
 }
