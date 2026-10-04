@@ -1,0 +1,58 @@
+[
+  {
+    "name": "ggfw",
+    "url": "https://ggfw.cnipa.gov.cn/",
+    "started_at": "2026-10-04T14:24:43.554877+08:00",
+    "method": "GET",
+    "case_query_submitted": false,
+    "screenshot": null,
+    "http_status": 412,
+    "final_url": "https://ggfw.cnipa.gov.cn/",
+    "bytes": 2970,
+    "sha256": "11a3741fa797f970d0bdd816466ed376ec33d6e68b528bea5bd5d75458db6078",
+    "raw_file": "ggfw_response.html",
+    "finished_at": "2026-10-04T14:24:43.811454+08:00"
+  },
+  {
+    "name": "cpquery",
+    "url": "https://cpquery.cponline.cnipa.gov.cn/chinesepatent/index",
+    "started_at": "2026-10-04T14:24:43.811471+08:00",
+    "method": "GET",
+    "case_query_submitted": false,
+    "screenshot": null,
+    "http_status": 412,
+    "final_url": "https://cpquery.cponline.cnipa.gov.cn/chinesepatent/index",
+    "bytes": 2435,
+    "sha256": "301aae1a393fc51d3e8dd6463fb058e476f84dce855fc249bf44eaad402c8361",
+    "raw_file": "cpquery_response.html",
+    "finished_at": "2026-10-04T14:24:43.905974+08:00"
+  },
+  {
+    "name": "pss",
+    "url": "https://pss-system.cponline.cnipa.gov.cn/",
+    "started_at": "2026-10-04T14:24:43.905986+08:00",
+    "method": "GET",
+    "case_query_submitted": false,
+    "screenshot": null,
+    "http_status": 412,
+    "final_url": "https://pss-system.cponline.cnipa.gov.cn/",
+    "bytes": 2458,
+    "sha256": "5e23593f7d0fe525c1c5d522cee7e9e0727e7ce92dce83a81f5a06743900ba4e",
+    "raw_file": "pss_response.html",
+    "finished_at": "2026-10-04T14:24:44.111013+08:00"
+  },
+  {
+    "name": "epo",
+    "url": "https://register.epo.org/smartSearch?searchMode=smart&query=ap%3DEP20198101.6",
+    "started_at": "2026-10-04T14:24:44.111032+08:00",
+    "method": "GET",
+    "case_query_submitted": true,
+    "screenshot": null,
+    "http_status": 403,
+    "final_url": "https://register.epo.org/application?number=EP20198101",
+    "bytes": 5509,
+    "sha256": "9e99143490f4ecd09d83b6f6d8677ffd63e3a7c18bb87d0cbfb7dc7d2d8cb461",
+    "raw_file": "epo_response.html",
+    "finished_at": "2026-10-04T14:24:51.370666+08:00"
+  }
+]

@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T14:44:55+08:00",
+  "updated_at": "2026-10-04T14:48:29+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -87,6 +87,20 @@
     "official_case_query_submitted": false,
     "P3_complete": false,
     "main_phase_remains": "P2"
+  },
+  "P3_current_source_continuation_20261004": {
+    "QA": "corrections/20260929_r1/QA/P3_sources_readback_20261004.json",
+    "evidence_directory": "corrections/20260929_r1/evidence/P3_sources_20261004",
+    "actual_access_date": "2026-10-04",
+    "tracks": ["P2 technical review", "P3 official-source continuation"],
+    "http_response_count": 4,
+    "CN_official_case_queries_submitted": false,
+    "EPO_exact_application_query_sent_but_case_unread_403": true,
+    "status_case_record_obtained": false,
+    "current_legal_status_verified": false,
+    "P3_complete": false,
+    "P2_complete": false,
+    "boundary": "CNIPA three entrance GETs412; EPO precise application query403; IAB timeout and current Chrome/Edge surfaces unavailable. Raw responses are access evidence, not zero hits, invalidity or official current status. No new network by executor."
   },
   "full_text_review_complete": false,
   "accepted_publication_technical_scopes": ["CN117702432A", "CN118273060A", "CN222043626U", "CN115637570A", "CN116282270A", "CN112914464A"],
