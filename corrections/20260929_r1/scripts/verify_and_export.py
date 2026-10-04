@@ -100,7 +100,7 @@ def export_patch(publications):
  for s in m['samples']:
   for k,f in s['features'].items():w.writerow([s['sample_id'],s['representative_publication'],k,f['review_status'],f['support_status'],len(f['observations'])])
  out.append(patch(R/'data/review_coverage.csv','\ufeff'+rows.getvalue()))
- index=['# 当前技术复核入口','168条当前观察；公布文本技术范围验收'+str(q['full_text_complete_count'])+'件；其余范围待核。法律14pending，非正式专利统计。','|文献|已记录判断|技术范围与剩余|','|---|---:|---|']
+ index=['# 当前技术复核入口',str(q['observations'])+'条当前观察；公布文本技术范围验收'+str(q['full_text_complete_count'])+'件；其余范围待核。法律14pending，非正式专利统计。','|文献|已记录判断|技术范围与剩余|','|---|---:|---|']
  for s in m['samples']:
   pub=s['representative_publication'];n=sum(len(f['observations']) for f in s['features'].values());a=s['review_completeness'].get('publication_technical_acceptance')
   status=(pub+'公布文本已独立验收；资格待核' if a and a.get('accepted') else '技术全文待独立验收；资格及未填字段待核')

@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T10:25:29.535098+08:00",
+  "updated_at": "2026-10-04T10:30:01.272185+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -23815,8 +23815,19 @@
         "new_online_query_performed": false
       },
       "scene_material": {
-        "classification": null,
-        "review_status": "pending_primary_text"
+        "classification": "laundry_rinse_spin_water_explicit_microplastics",
+        "review_status": "original_targeted_scope_reviewed",
+        "publication_id": "CN116282270A",
+        "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN116282270A.pdf",
+        "source_sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186",
+        "basis": [
+          {
+            "printed_paragraph": 48,
+            "physical_page": 7,
+            "evidence_excerpt": "以常规涡轮式全自动洗衣机为例，第一部分过滤模块处理漂洗污水的原理是：洗衣机漂洗结束后，污水活塞开关21开启，漂洗过程产生的污水首先由洗涤内水管3流入污水总管17，在重力的作用下，污水将通过过滤网18，微塑料等固体杂质将被滤网18所截留，通过过滤网18的净化水则从过滤净化出水管20排出。微塑料等固体杂质则被成功截留在过滤网18上。"
+          }
+        ],
+        "boundary": "原件明确洗衣机漂洗/甩干水微塑料等固体杂质；不把所有固体自动判塑料，不放行有效核心或统计。"
       },
       "publications": [
         {
@@ -24023,9 +24034,60 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_in_targeted_original_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN116282270A-capture-rinse_filter18-20261004",
+              "publication_id": "CN116282270A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "rinse_filter18",
+              "stage": "capture",
+              "technical_feature": "漂洗水经3/17进入过滤净化出水管20中的滤网18，微塑料等固体杂质截留在18；甩干反洗/旋流收集为另一阶段，不把它当第一网的初始截留。原件没有在本已读锚点给孔径或实测截留率。",
+              "object": "漂洗污水中微塑料等固体杂质",
+              "start": "洗涤内水管3/污水总管17",
+              "end": "滤网18表面",
+              "boundary": "第一过滤模块；下游反洗旋流另阶段",
+              "operation_order": [
+                "漂洗结束打开污水活塞开关21",
+                "污水重力通过滤网18",
+                "固体截留、滤后水经20排出"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_targeted_original_scope",
+              "claim_dependency": "独立方法权1、独立组件权2共有过滤网关系；方向冲突不改写",
+              "evidence": [
+                {
+                  "locator": "原PDF物理7 [0048]；图3/4物理10",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN116282270A.pdf",
+                  "source_sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186",
+                  "source_role": "description_of_this_invention",
+                  "evidence_excerpt": "以常规涡轮式全自动洗衣机为例，第一部分过滤模块处理漂洗污水的原理是：洗衣机漂洗结束后，污水活塞开关21开启，漂洗过程产生的污水首先由洗涤内水管3流入污水总管17，在重力的作用下，污水将通过过滤网18，微塑料等固体杂质将被滤网18所截留，通过过滤网18的净化水则从过滤净化出水管20排出。微塑料等固体杂质则被成功截留在过滤网18上。",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_capture_20261004-7.png",
+                  "page_image_sha256": "aba3b4da717baba813c1edb7ed1f719777e36727ce6c24510bff0cbabe391d76",
+                  "printed_paragraph": 48
+                },
+                {
+                  "locator": "原PDF物理2 独立权1漂洗过滤段",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN116282270A.pdf",
+                  "source_sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186",
+                  "source_role": "independent_claim",
+                  "evidence_excerpt": "从洗衣机内流出的漂洗污水首先通过过滤网，包括微塑料的固体杂质被截留在所述微塑料过滤网上",
+                  "page_image_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_physical2.png",
+                  "page_image_sha256": "ff28b7624069516621449e94e69e18fd8ec92f84121dae6c06eedc3e76e18912",
+                  "claim_number": 1
+                }
+              ],
+              "interpretation": "漂洗水经3/17进入过滤净化出水管20中的滤网18，微塑料等固体杂质截留在18；甩干反洗/旋流收集为另一阶段，不把它当第一网的初始截留。原件没有在本已读锚点给孔径或实测截留率。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T10:30:01.272185+08:00",
+              "old_value": null,
+              "new_value": "漂洗水经3/17进入过滤净化出水管20中的滤网18，微塑料等固体杂质截留在18；甩干反洗/旋流收集为另一阶段，不把它当第一网的初始截留。原件没有在本已读锚点给孔径或实测截留率。",
+              "change_reason": "原A正向截留字段补空；保留旧传动方向冲突及全部法律门槛",
+              "review_scope": "本轮原A物理1/2/7/8文字、2/7/10视觉，仅截留/场景锚点；非全文完成"
+            }
+          ],
           "prior_field": null
         },
         "cleaning": {
@@ -24620,7 +24682,58 @@
             "field": "state_switch",
             "at": "2026-09-29T23:21:07.441015+08:00"
           }
-        ]
+        ],
+        "original_capture_readback_20261004": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN116282270A.pdf",
+          "source_sha256": "27a8dd557b3b5d1b9c66fe52ba0d2e5ea4b8efc627f4b1318553d7323fce9186",
+          "executor_text_pages_read": [
+            1,
+            2,
+            7,
+            8
+          ],
+          "executor_visual_pages_read": [
+            2,
+            7,
+            10
+          ],
+          "rendered_pages": [
+            {
+              "physical_page": 2,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_physical2.png",
+              "sha256": "ff28b7624069516621449e94e69e18fd8ec92f84121dae6c06eedc3e76e18912"
+            },
+            {
+              "physical_page": 7,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_capture_20261004-7.png",
+              "sha256": "aba3b4da717baba813c1edb7ed1f719777e36727ce6c24510bff0cbabe391d76"
+            },
+            {
+              "physical_page": 10,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN116282270A_physical10.png",
+              "sha256": "346123626a544ccda0585d0dadad7f508ad35564cd15c0b71b95241875eb6640"
+            }
+          ],
+          "printed_paragraphs_used": [
+            47,
+            48
+          ],
+          "claims_used": [
+            1,
+            2
+          ],
+          "figures_used": [
+            3,
+            4
+          ],
+          "reviewed_field": "capture",
+          "full_candidate_acceptance": false,
+          "unread_this_round": "other physical pages/remaining eight empty fields; previous direction-conflict review unchanged",
+          "previous_scene": {
+            "classification": null,
+            "review_status": "pending_primary_text"
+          }
+        }
       },
       "application_number_primary_text": {
         "value": "202310406372.3",
