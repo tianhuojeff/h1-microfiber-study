@@ -269,3 +269,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-04 10:34：CN116原件storage正向补空
 
 复用原2权3/原7[0047]实际已读范围，收集腔5-8承载底流微塑料固体、腔内5-7为防回流文字方案；不推干储、密闭防漏或已实测零回流，仅新增storage1条，旧169/所有其他features/scene/publication/all法律/方向冲突/其他13保持，CSV仅本storage格改变。当前170条/35真空格/4独立技术验收，flagfalse/14pending/正式统计终稿项目false保持。masterac1412e871427f8c0e99a40c6b6ead6c6baad3c6cdcee225ae0af757f1ad27d7，卡/QA CN116282270A_storage_20261004。预览ID前缀已在首次主表应用前规范，不曾应用错误条目。下一原已读[0048]/[0050]的liquid_route最短项；近10仅短项，<=5保存准确handoff再push，不reset。
+
+## 2026-10-04 10:37：CN116原件liquid_route正向补空
+
+复用已读原2权3/原7[0048]/原8[0050]，漂洗滤后20与甩干旋流溢流19→溢水管2分阶段，不推环境最终去向或维护排空/固体脱水。仅新增液路1、旧170/all其他字段/scene/publication/all法律/conflict/其他13保持，非目标CSV bytes不变。当前171/34真空格/4scope，非全13页/9图、flagfalse/14pending/statisticsfalse。masterb9d53b0d8e36c6f6e01b47227d542552995f3b160f23b0d1c46d5dd53c5f4887，卡/QA CN116282270A_liquid_route_20261004。primary近10只短闭合，下一如额度>5可权4/原[0047]螺纹接口单一seals正向项，<=5保存精确停止记录后独立push，不开剩余全文/图；noreset保持。

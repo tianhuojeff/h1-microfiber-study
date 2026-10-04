@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T10:33:31+08:00",
+  "updated_at": "2026-10-04T10:36:35+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -77,7 +77,7 @@
       "current_legal_status_verified": false
     }
   ],
-  "current_observations": 170,
+  "current_observations": 171,
   "original_U_technical_scope_receipt": "corrections/20260929_r1/QA/CN222043626U_original_review_20261002.json",
   "P3_parallel_source_progress": {
     "target": "CN222043626U",
@@ -124,5 +124,5 @@
   },
   "weekly_used_percent": 42,
   "weekly_remaining_percent": 58,
-  "master_sha256": "ac1412e871427f8c0e99a40c6b6ead6c6baad3c6cdcee225ae0af757f1ad27d7"
+  "master_sha256": "b9d53b0d8e36c6f6e01b47227d542552995f3b160f23b0d1c46d5dd53c5f4887"
 }
