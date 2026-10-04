@@ -277,3 +277,9 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-04 10:39：CN116分体螺纹接口正向补空
 
 仅复用原2权4与原7[0047]，权4→3→2分体螺纹/底流腔5-8对应外壁孔可拧松取出清理；不增密封圈/必断管或实测无漏。seals_connections新增1、旧171/其他13/all其他字段/scene/publication/all法律及directionconflict保持，CSV仅本格改变。当前172/33真空格/4scope，flagfalse/14pending/statisticsfalse；master98dae05d15c6a8290e923afa3e49f0d6e53437f474b311ebd8df655117df55a2，卡/QA CN116282270A_seals_20261004。当前primary剩6仅关闭本事务；随后实时查<=5即保存停止记录/精确接续，不开新研究。下轮原CN116尚未本轮读过3/4/5/6及12/13文字/图需按实际范围补齐，原9/11历史图可按旧证据复用；五空字段chamber/solids/performance/endpoint/carrier_conditioning须全文范围再裁定，有限阅读不填0。noreset保持。
+
+## 2026-10-04 10:41：五小时primary真实剩5%收尾
+
+最新工具primary remaining5、weekly69，真实达到用户新硬线；此前主控在6要求准备收尾，未冒当时已到5。已停止新技术/阅读/检索，技术最后安全两端49692871d703a4dc902d13d5a99c481dd32e9332。172观察、4独立代表公布技术范围、33真空格、14法律pending、P2草稿/统计终稿项目false保持。主表SHA98dae05d15c6a8290e923afa3e49f0d6e53437f474b311ebd8df655117df55a2与CSV全部字节保持，本项仅预算停止/精确接续元数据。日期/thread/四规则hash/真实额度/resetfalse/已读未读页在controller_acknowledgements/20261004_01a0f5bd_primary5收尾.json。
+
+下一CN116先原3权项续页、4—6说明和12—13附图，旧本轮文字1/2/7/8、视觉2/7/10与历史方向图9/10/11可复用；五空字段chamber_drainage/solids_dewatering/performance/endpoint/carrier_conditioning在充分原件完整范围后分逻辑裁定，不从有限阅读补0。之后CN112 scene/剩余绑定/准确视觉范围验收、其余三候选28空格及法律/P3来源工作；CN120原CN PDF缺口保持。自动化每5小时接续由主控既有ACTIVE配置维护，须fresh quota及接续门禁后工作；不使用reset，旧周60暂停保留历史。仅旧pyc未跟踪，未删未提交，无未验技术事务。

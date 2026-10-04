@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T10:39:07+08:00",
+  "updated_at": "2026-10-04T10:41:13+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -99,7 +99,19 @@
     "current_legal_status_verified": false
   },
   "technical_acceptance_scope_note": "Independent representative published-document technical acceptance; not all family members, legal eligibility, whole P2 or project completion.",
-  "execution_status": "in_progress_delegated_P2",
+  "execution_status": "waiting_primary_budget_remaining5",
+  "primary_budget_close_20261004": {
+    "threshold_reached": true,
+    "primary_remaining_percent": 5,
+    "weekly_remaining_percent": 69,
+    "stopped_at": "2026-10-04T10:41:13+08:00",
+    "last_verified_technical_commit": "49692871d703a4dc902d13d5a99c481dd32e9332",
+    "receipt": "corrections/20260929_r1/controller_acknowledgements/20261004_01a0f5bd_primary5收尾.json",
+    "new_research_stopped": true,
+    "reset_consumed": false,
+    "historical_weekly_pause_preserved": true,
+    "next_action": "CN116 remaining original3/4/5/6 anddrawing12/13; five empty fields only after adequate complete scoped reading, do not repeat already read pages or convert unknown to0."
+  },
   "repository_visibility_authority": {
     "authority_date": "2026-10-03",
     "authority_quote": "继续做，然后先把做的都提交好，我要那个仓库是公开仓库",
