@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T10:41:13+08:00",
+  "updated_at": "2026-10-04T14:24:22+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -99,7 +99,8 @@
     "current_legal_status_verified": false
   },
   "technical_acceptance_scope_note": "Independent representative published-document technical acceptance; not all family members, legal eligibility, whole P2 or project completion.",
-  "execution_status": "waiting_primary_budget_remaining5",
+  "execution_status": "active_authorized_resume_20261004_1424",
+  "latest_resume": {"verified_at":"2026-10-04T14:24:22+08:00","authority_quote":"怎么没有继续","primary_remaining_percent":83,"weekly_remaining_percent":66,"reset_consumed":false,"ack":"corrections/20260929_r1/controller_acknowledgements/20261004_01a0f5bd_1424恢复.json","historical_primary_close_preserved":true,"effective_primary5_rule_unchanged":true},
   "primary_budget_close_20261004": {
     "threshold_reached": true,
     "primary_remaining_percent": 5,
