@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T09:55:53+08:00",
+  "updated_at": "2026-10-04T09:59:59+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -69,7 +69,9 @@
       "path": "patents/CN118273060A.pdf",
       "sha256": "fcfde50da413b25f2b5dadcca389a44fc41a3aa682027825617ef51c309be80d",
       "source_QA": "corrections/20260929_r1/QA/CN118273060A_original_source_20261003.json",
-      "technical_review_complete": false,
+      "technical_review_complete": true,
+      "technical_completion_scope": "CN118 published A all41 original pages/all27drawingpages and 13field bindings independently accepted; other family/granted versions and legal qualification remain separate.",
+      "technical_QA": "corrections/20260929_r1/QA/CN118273060A_technical_acceptance_20261004.json",
       "current_legal_status_verified": false
     }
   ],
@@ -85,8 +87,8 @@
     "main_phase_remains": "P2"
   },
   "full_text_review_complete": false,
-  "accepted_publication_technical_scopes": ["CN117702432A"],
-  "accepted_publication_technical_scope_count": 1,
+  "accepted_publication_technical_scopes": ["CN117702432A", "CN118273060A"],
+  "accepted_publication_technical_scope_count": 2,
   "technical_acceptance_scope_note": "Independent representative published-document technical acceptance; not all family members, legal eligibility, whole P2 or project completion.",
   "execution_status": "in_progress_delegated_P2",
   "repository_visibility_authority": {
@@ -113,5 +115,5 @@
   },
   "weekly_used_percent": 42,
   "weekly_remaining_percent": 58,
-  "master_sha256": "95934c0f1f7f2f6ee134ec29c50bbb306cf3d36d0e5a294f3891bb5c004d8527"
+  "master_sha256": "5fe79f16adc57f873dbad9da46c1cc7e7de873b83ade04847192285bcc34ec3b"
 }

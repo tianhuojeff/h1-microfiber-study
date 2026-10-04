@@ -241,3 +241,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-04 09:56：CN117公布A技术范围独立验收
 
 基于昨日实际14原页/8图/13字段全绑定、原QA与原图bytes，本次不重读全件；回访原物理4/6明确洗衣排水微塑料/微纤维与其他可选场景。仅CN117 full_text_rechecked=true，scope=representative_published_document_only，并附显式publication_technical_acceptance，scene/publication/13字段状态与派生CSV/当前卡/入口/QA一致。原168全部观察/支持/未知、其他13完整对象和all法律保持；当前技术范围验收1件，非同族全部文本/现时有效/正式统计或P2整体完成。master真实SHA95934c0f1f7f2f6ee134ec29c50bbb306cf3d36d0e5a294f3891bb5c004d8527，卡/QA CN117702432A_technical_acceptance_20261004。现行verify_and_export改为默认纯只读、显式生成补丁，不再改旧观察或固定每件永远全文未完；历史QA/一次性脚本不篡改。旧新不变量及无receipt/无scene/错hash拒绝门禁已验证，法律pending不能冒技术未读。下一CN118同口径验收后CN222/U与CN115637/A；14pending/正式统计终稿项目false、primary5硬线/noreset保持。
+
+## 2026-10-04 10:00：CN118公布A技术范围独立验收
+
+既有41原页/27图页真实读取与capture+余12绑定回执已齐，不新增下载/全件视觉阅读；只回访原4[0003—0005]明确合成/天然纤维洗衣水与微塑料角色。代表公布A技术验收scope=representative_published_document_only，只CN118新flagtrue，13字段/publication/scene/派生范围一致，原168观察/支持/未知、其他13完整对象及法律保持，CSV仅本件13状态值变更。现已CN117/CN118两件独立公布技术范围，不是有效核心数/全同族/整体P2完成。master真实SHA5fe79f16adc57f873dbad9da46c1cc7e7de873b83ade04847192285bcc34ec3b，卡/QA CN118273060A_technical_acceptance_20261004。五组原编号差异保留，实测与当前资格独立，正式统计/终稿项目false。下一CN222/U旧6交叉+7全范围短验收后CN115637/A，primary5收尾/noreset不变。
