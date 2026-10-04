@@ -257,3 +257,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-04 10:22：CN112旧7字段原件绑定
 
 旧cleaning/transfer/solids_dewatering/liquid_route/removal/seals_connections/endpoint七字段新增9段/权原件绑定，回访物理3/4/6/11/12，原图8张hash保持。首次过大组合输出拆块完整回读；0009被抽取为[0换行009]导致预览断言失败、主表零应用，原6目视确认印刷段号无缺，再消除抽取空白全链重验。只新review_completeness绑定元数据，原168观察/features/场景/publication/法律/其他13完整对象与CSV bytes保持；flag仍false，不伪造全23页视觉或正式候选验收。master7f08da22ca364c61ea816aa338ab58bec0ad5e04c40563b8065bce7c360f5a42，卡/QA CN112914464A_old7_original_bindings_20261004。下一CN115700保存全文scene短项；CN112需后续准确视觉/scene/13绑定整体验收，当前4件scope、14pending/statisticsfalse、primary5/noreset不变。
+
+## 2026-10-04 10:26：CN115700保存全文场景/材料判定
+
+此前213描述+10权全保存文本实际读取保留，本轮回访p0001—0020/0070/0090/0150—0152并全223源锚点扫描：明确洗衣/漂洗循环水衣物线屑及杂物，未定位明确微塑料/微纤维称谓，材料不自动判塑料。4句场景正向来源逐字通过，只scene/来源publication状态/范围元数据改变，原168观察/features/支持/all法律/其他13/CSV bytes保持。原PDF/附图未核、flagfalse、仍4件技术独立验收/14pending/statisticsfalse。当前卡按已有13字段派生展示纠正旧未填展示，不新增判断。mastera032710d3627dc25cc7f1907202c10800a4524fe0e8655afda7c6f5aa4a8c27d，卡/QA CN115700309A_saved_scene_20261004。下一CN116原13页的少量未填正向字段按余量分独立事务；primary5硬线/noreset保持。

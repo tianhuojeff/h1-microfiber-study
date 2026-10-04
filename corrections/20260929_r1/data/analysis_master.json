@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T10:21:45.654449+08:00",
+  "updated_at": "2026-10-04T10:25:29.535098+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -9596,8 +9596,34 @@
         "new_online_query_performed": false
       },
       "scene_material": {
-        "classification": null,
-        "review_status": "pending_primary_text"
+        "classification": "laundry_lint_and_impurities_material_not_explicit_in_saved_text",
+        "review_status": "saved_text_scope_reviewed_original_pending",
+        "publication_id": "CN115700309A",
+        "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+        "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+        "basis": [
+          {
+            "html_anchor": "p0002",
+            "source_role": "description_of_this_invention",
+            "evidence_excerpt": "本发明属于洗衣机技术领域，具体地说，涉及一种过滤装置及洗衣机。"
+          },
+          {
+            "html_anchor": "p0004",
+            "source_role": "background_context",
+            "evidence_excerpt": "洗衣机对衣物进行洗涤的过程中，由于衣物与衣物之间，以及衣物与洗衣机本身存在摩擦，会造成衣物产生线屑脱落并混入洗涤水中。洗涤水中的线屑若不能除去，很可能在洗衣完成后附着在衣物表面，影响衣物的洗净效果。为此，现有的洗衣机上安装用于过滤线屑的过滤器，在洗衣过程中使洗涤水循环经过过滤器，将线屑从洗涤水中除去。"
+          },
+          {
+            "html_anchor": "p0070",
+            "source_role": "description_of_this_invention",
+            "evidence_excerpt": "本实施例中，过滤机构620将过滤腔体610内部分隔为外容腔和内容腔。过滤腔体610上的入水口6101与所述外容腔连通，洗衣机盛水筒100中待过滤的水被输送至入水口6101，进而进入过滤腔体610内部的外容腔。外容腔中的水被过滤机构620过滤后进入所述内容腔，再经与内容腔连通的过滤水出口6102流出。水中的过滤杂质501无法通过过滤机构620而残留在所述外容腔中。"
+          },
+          {
+            "html_anchor": "p0090",
+            "source_role": "description_of_this_invention",
+            "evidence_excerpt": "具体地，所述循环过滤管路的进水端与过滤装置600的入水口6101之间设置循环泵400，开启循环泵400，可将盛水筒100中的水抽入循环过滤管路中，沿循环过滤管路流动并经过过滤装置600进行过滤，过滤后的水再回到盛水筒100中。在洗衣机的洗涤/漂洗过程中，由循环泵400带动盛水筒100中的水不断经过过滤装置600，可以减少盛水筒100内水中的线屑含量，改善洗衣效果。"
+          }
+        ],
+        "boundary": "明确洗衣/漂洗循环水线屑及杂物；已存213描述+10权项未明确微塑料/微纤维材料称谓，不把全部线屑自动判塑料或已核微塑料核心。该未定位仅保存文本范围，原PDF/图仍缺。"
       },
       "publications": [
         {
@@ -9608,7 +9634,8 @@
           "local_exists": true,
           "historical_corpus_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
           "text_role": "application_publication",
-          "review_status": "not_reviewed_this_revision"
+          "review_status": "complete_saved_text_scope_original_pending",
+          "previous_review_status": "not_reviewed_this_revision"
         }
       ],
       "prior_working_evidence": {
@@ -12310,6 +12337,33 @@
           "drawings_checked": false,
           "not_a_full_text_completion": true,
           "verified_at": "2026-10-02T12:05:04.575260+08:00"
+        },
+        "saved_text_scene_classification_20261004": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115700309A.html",
+          "source_sha256": "38adeb9c51ddfdc9acf91a091a12cb2ec8ad16e78b346d0df3e5df27970066e5",
+          "previous_full_saved_read_record": "saved_text_complete_remaining_fields_20261002",
+          "read_scope": "p0001-p0213 and cl0001-cl0010 saved HTML; not original physical pages",
+          "executor_revisited_anchors": [
+            "p0001-p0020",
+            "p0070",
+            "p0090",
+            "p0150-p0152"
+          ],
+          "positive_scene_basis": [
+            "p0002",
+            "p0004",
+            "p0070",
+            "p0090"
+          ],
+          "saved_material_term_scan_anchors": 223,
+          "microplastic_microfibre_terms_found": 0,
+          "original_pdf_checked": false,
+          "drawings_checked": false,
+          "full_text_acceptance": false,
+          "previous_scene": {
+            "classification": null,
+            "review_status": "pending_primary_text"
+          }
         }
       }
     },
