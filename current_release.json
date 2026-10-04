@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T14:48:29+08:00",
+  "updated_at": "2026-10-04T14:51:39+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -94,6 +94,7 @@
     "actual_access_date": "2026-10-04",
     "tracks": ["P2 technical review", "P3 official-source continuation"],
     "http_response_count": 4,
+    "all7_source_files_exact_original_bytes_verified": true,
     "CN_official_case_queries_submitted": false,
     "EPO_exact_application_query_sent_but_case_unread_403": true,
     "status_case_record_obtained": false,

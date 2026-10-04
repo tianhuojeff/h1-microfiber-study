@@ -13,23 +13,26 @@
       "source_sha256": "301aae1a393fc51d3e8dd6463fb058e476f84dce855fc249bf44eaad402c8361",
       "local_sha256": "301aae1a393fc51d3e8dd6463fb058e476f84dce855fc249bf44eaad402c8361",
       "local_bytes": 2435,
-      "text_preserved": true
+      "text_preserved": true,
+      "exact_bytes_equal": true
     },
     {
       "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\endpoint_results.json",
       "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\work_logs\\artifacts\\controller-20261004\\P3来源接续\\endpoint_results.json",
       "source_sha256": "2e5ba3dababc4b52041f22ca7682c04fcab75e1cd1778010e403fa23f2e7a12f",
-      "local_sha256": "b723781f5d2a82621b48d5196f604827d34374a9b55179616aee6e671d83fd2a",
-      "local_bytes": 2047,
-      "text_preserved": true
+      "local_sha256": "2e5ba3dababc4b52041f22ca7682c04fcab75e1cd1778010e403fa23f2e7a12f",
+      "local_bytes": 2103,
+      "text_preserved": true,
+      "exact_bytes_equal": true
     },
     {
       "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\epo_response.html",
       "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\work_logs\\artifacts\\controller-20261004\\P3来源接续\\epo_response.html",
       "source_sha256": "9e99143490f4ecd09d83b6f6d8677ffd63e3a7c18bb87d0cbfb7dc7d2d8cb461",
-      "local_sha256": "20d8ea1c3d0a9d44e97c5d48fdd17c1fdcadd655e5c7f280d685163719d5e445",
-      "local_bytes": 5510,
-      "text_preserved": true
+      "local_sha256": "9e99143490f4ecd09d83b6f6d8677ffd63e3a7c18bb87d0cbfb7dc7d2d8cb461",
+      "local_bytes": 5509,
+      "text_preserved": true,
+      "exact_bytes_equal": true
     },
     {
       "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\ggfw_response.html",
@@ -37,7 +40,8 @@
       "source_sha256": "11a3741fa797f970d0bdd816466ed376ec33d6e68b528bea5bd5d75458db6078",
       "local_sha256": "11a3741fa797f970d0bdd816466ed376ec33d6e68b528bea5bd5d75458db6078",
       "local_bytes": 2970,
-      "text_preserved": true
+      "text_preserved": true,
+      "exact_bytes_equal": true
     },
     {
       "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\pss_response.html",
@@ -45,7 +49,8 @@
       "source_sha256": "5e23593f7d0fe525c1c5d522cee7e9e0727e7ce92dce83a81f5a06743900ba4e",
       "local_sha256": "5e23593f7d0fe525c1c5d522cee7e9e0727e7ce92dce83a81f5a06743900ba4e",
       "local_bytes": 2458,
-      "text_preserved": true
+      "text_preserved": true,
+      "exact_bytes_equal": true
     },
     {
       "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\接续结果.md",
@@ -53,7 +58,8 @@
       "source_sha256": "add9db945316886452b78208a1d80cbc41e1b504f470a3f3b6f9e9347c2219a2",
       "local_sha256": "add9db945316886452b78208a1d80cbc41e1b504f470a3f3b6f9e9347c2219a2",
       "local_bytes": 4115,
-      "text_preserved": true
+      "text_preserved": true,
+      "exact_bytes_equal": true
     },
     {
       "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\浏览器恢复补充.md",
@@ -61,7 +67,8 @@
       "source_sha256": "4882b431326592dd4ab4174c8e882ba882893afb0bbc12d0bbf99512f6a758ce",
       "local_sha256": "4882b431326592dd4ab4174c8e882ba882893afb0bbc12d0bbf99512f6a758ce",
       "local_bytes": 2129,
-      "text_preserved": true
+      "text_preserved": true,
+      "exact_bytes_equal": true
     }
   ],
   "endpoint_results": [
@@ -132,5 +139,60 @@
   "main_P2_complete": false,
   "formal_statistics_allowed": false,
   "final_report_ready": false,
-  "reset_consumed": false
+  "reset_consumed": false,
+  "all7_original_source_bytes_exact_equal": true,
+  "previous_acceptance_boundary": "Initial3408351 preserved text and recorded differing local hashes due added final newline; exact response bytes not yet accepted. This repair copies original files unchanged.",
+  "byte_repair_verified_at": "2026-10-04T14:51:39.068976+08:00",
+  "byte_repair_baseline": "34083510ed09979509767d162966f62af64174ea",
+  "byte_repair_changes": [
+    {
+      "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\cpquery_response.html",
+      "before_sha256": "301aae1a393fc51d3e8dd6463fb058e476f84dce855fc249bf44eaad402c8361",
+      "after_sha256": "301aae1a393fc51d3e8dd6463fb058e476f84dce855fc249bf44eaad402c8361",
+      "source_sha256": "301aae1a393fc51d3e8dd6463fb058e476f84dce855fc249bf44eaad402c8361",
+      "exact_bytes_equal": true
+    },
+    {
+      "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\endpoint_results.json",
+      "before_sha256": "b723781f5d2a82621b48d5196f604827d34374a9b55179616aee6e671d83fd2a",
+      "after_sha256": "2e5ba3dababc4b52041f22ca7682c04fcab75e1cd1778010e403fa23f2e7a12f",
+      "source_sha256": "2e5ba3dababc4b52041f22ca7682c04fcab75e1cd1778010e403fa23f2e7a12f",
+      "exact_bytes_equal": true
+    },
+    {
+      "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\epo_response.html",
+      "before_sha256": "20d8ea1c3d0a9d44e97c5d48fdd17c1fdcadd655e5c7f280d685163719d5e445",
+      "after_sha256": "9e99143490f4ecd09d83b6f6d8677ffd63e3a7c18bb87d0cbfb7dc7d2d8cb461",
+      "source_sha256": "9e99143490f4ecd09d83b6f6d8677ffd63e3a7c18bb87d0cbfb7dc7d2d8cb461",
+      "exact_bytes_equal": true
+    },
+    {
+      "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\ggfw_response.html",
+      "before_sha256": "11a3741fa797f970d0bdd816466ed376ec33d6e68b528bea5bd5d75458db6078",
+      "after_sha256": "11a3741fa797f970d0bdd816466ed376ec33d6e68b528bea5bd5d75458db6078",
+      "source_sha256": "11a3741fa797f970d0bdd816466ed376ec33d6e68b528bea5bd5d75458db6078",
+      "exact_bytes_equal": true
+    },
+    {
+      "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\pss_response.html",
+      "before_sha256": "5e23593f7d0fe525c1c5d522cee7e9e0727e7ce92dce83a81f5a06743900ba4e",
+      "after_sha256": "5e23593f7d0fe525c1c5d522cee7e9e0727e7ce92dce83a81f5a06743900ba4e",
+      "source_sha256": "5e23593f7d0fe525c1c5d522cee7e9e0727e7ce92dce83a81f5a06743900ba4e",
+      "exact_bytes_equal": true
+    },
+    {
+      "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\接续结果.md",
+      "before_sha256": "add9db945316886452b78208a1d80cbc41e1b504f470a3f3b6f9e9347c2219a2",
+      "after_sha256": "add9db945316886452b78208a1d80cbc41e1b504f470a3f3b6f9e9347c2219a2",
+      "source_sha256": "add9db945316886452b78208a1d80cbc41e1b504f470a3f3b6f9e9347c2219a2",
+      "exact_bytes_equal": true
+    },
+    {
+      "path": "corrections\\20260929_r1\\evidence\\P3_sources_20261004\\浏览器恢复补充.md",
+      "before_sha256": "4882b431326592dd4ab4174c8e882ba882893afb0bbc12d0bbf99512f6a758ce",
+      "after_sha256": "4882b431326592dd4ab4174c8e882ba882893afb0bbc12d0bbf99512f6a758ce",
+      "source_sha256": "4882b431326592dd4ab4174c8e882ba882893afb0bbc12d0bbf99512f6a758ce",
+      "exact_bytes_equal": true
+    }
+  ]
 }
