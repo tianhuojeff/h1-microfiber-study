@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T10:16:04.266202+08:00",
+  "updated_at": "2026-10-04T10:21:45.654449+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -2001,6 +2001,141 @@
           ],
           "all_13_fields_addressed": true,
           "limitation": "仅原A技术文本范围；相关授权成员及资格未闭合，不计已核有效核心，不宣称整套P2完成"
+        },
+        "original_old7_bindings_20261004": {
+          "source_path": "patents\\verification\\20260928_cn112914464a_ep3832001b1\\CN112914464A.pdf",
+          "source_sha256": "d784ea097857f7d3799ea36e49d7e3d89c1ec1501a2adb9cdb6aefa61e97460c",
+          "executor_text_pages_revisited": [
+            3,
+            4,
+            6,
+            11,
+            12
+          ],
+          "previous_complete_text_and_all_drawings_receipt": "original_A_readback",
+          "full_candidate_acceptance": false,
+          "original_field_bindings": {
+            "cleaning": {
+              "observation_ids_preserved": [
+                "CN112914464A-cleaning-fig1"
+              ],
+              "scope_judgment": "图1泵31经42到27反冲洗剥离，控制器46致动；非其他图分配器共同链。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 35,
+                  "physical_page": 11,
+                  "evidence_excerpt": "在阀33的最底位置处，泵31可借助于反冲洗管线42将水泵送到过滤器设备26的反冲洗入口27中。因此，过滤设备26可被反冲洗，或者积聚在其中的过滤物质可从其中移除，这是非常重要的。所述过滤物质可通过过滤物质管线44朝向转换抽屉20输送，以便在转换抽屉20处被收集，如引言中已解释的。泵31以及阀33和38还由洗衣机11的控制器46致动。"
+                }
+              ]
+            },
+            "transfer": {
+              "observation_ids_preserved": [
+                "CN112914464A-transfer-fig1_fig2"
+              ],
+              "scope_judgment": "图1滤物经44转入抽屉20并在图2容器63集中收集，未在容器内首次产生。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 35,
+                  "physical_page": 11,
+                  "evidence_excerpt": "在阀33的最底位置处，泵31可借助于反冲洗管线42将水泵送到过滤器设备26的反冲洗入口27中。因此，过滤设备26可被反冲洗，或者积聚在其中的过滤物质可从其中移除，这是非常重要的。所述过滤物质可通过过滤物质管线44朝向转换抽屉20输送，以便在转换抽屉20处被收集，如引言中已解释的。泵31以及阀33和38还由洗衣机11的控制器46致动。"
+                },
+                {
+                  "printed_paragraph": 37,
+                  "physical_page": 11,
+                  "evidence_excerpt": "在左手侧区域中，转换抽屉20具有呈一种凹入腔室的形式的过滤物质接收器60或过滤物质容器63，类似于右侧上的洗涤剂接收器50或洗涤剂容器53。收集的过滤物质65被直接引入到过滤物质接收器60或过滤物质容器63中，使得过滤物质65与过滤物质接收器60或过滤物质容器63的壁接触。示意性地图示的过滤物质入口68用于引入过滤物质65，并延伸通过闭合的过滤物质容器63的原本闭合的上壁。如上文已解释的，所述过滤物质65由泵31经由反冲洗管线42移动到"
+                }
+              ]
+            },
+            "solids_dewatering": {
+              "observation_ids_preserved": [
+                "CN112914464A-solids_dewatering-fig2_optional62"
+              ],
+              "scope_judgment": "图2可选额外62使水流走以集中/增稠滤物，原文目的为较少水，不给含水率实测。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 38,
+                  "physical_page": 11,
+                  "evidence_excerpt": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且"
+                }
+              ]
+            },
+            "liquid_route": {
+              "observation_ids_preserved": [
+                "CN112914464A-liquid_route-fig2_optional62"
+              ],
+              "scope_judgment": "可选62分离水回导水装置，例如22；不是据此认定固体排环境或净水零颗粒。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 38,
+                  "physical_page": 11,
+                  "evidence_excerpt": "还可设置的是，在转换抽屉20中或在过滤物质容器63中，将设置又一另外的额外过滤器作为另外的精细过滤器，在这种情况下，该过滤器由虚线图示为在过滤物质容器63的底部处的额外过滤器62，以及朝向底部的出口。与过滤器设备26相比，尽管以这种方式意图是微纤维和/或微塑料也保留在过滤物质容器63中并且意图是水可流走，所述水能够流回到导水装置中，例如流入水管线22中，但这旨在首先用于减小过滤物质65的体积，使得可接收更多的过滤出的微纤维或微塑料。并且"
+                }
+              ]
+            },
+            "removal": {
+              "observation_ids_preserved": [
+                "CN112914464A-removal-method22"
+              ],
+              "scope_judgment": "权22移出并排空/移出以排空，图2正文40另处置滤物再用容器；不同对象路径保留。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 40,
+                  "physical_page": 12,
+                  "evidence_excerpt": "为了能够检测过滤物质容器63的填充水平66，填充水平传感器61在过滤物质容器63处布置在高处。由虚线图示的填充水平66'由填充水平传感器61检测为“满的”，因为然后过滤物质容器63几乎完全利用过滤物质65填充。用于过滤物质的填充水平传感器61也向控制器46发送该填充水平66'的信号，然后控制器46与用于洗涤剂55的填充水平传感器51的另一个填充水平组合或者特别优选地在每种情况下独立于另一个填充水平而向使用者发送必须移除转换抽屉20的信号"
+                },
+                {
+                  "claim": 22,
+                  "physical_pages": [
+                    3
+                  ],
+                  "evidence_excerpt": "用于操作根据权利要求1所述的家庭用具的方法，其中，所述过滤物质容器和/或所述洗涤剂容器从所述家庭用具移除，其中所述过滤物质容器被排空或被移除以用于排空，并且其中所述洗涤剂容器被排空或被移除以用于填充满。",
+                  "dependency": "method using claim1"
+                }
+              ]
+            },
+            "seals_connections": {
+              "observation_ids_preserved": [
+                "CN112914464A-seals_connections-method24"
+              ],
+              "scope_judgment": "权24直接依附22：拆分容器替换、结构单元插回；与权23同级，不拼23→24强制链。",
+              "original_excerpt_bindings": [
+                {
+                  "claim": 24,
+                  "physical_pages": [
+                    4
+                  ],
+                  "evidence_excerpt": "根据权利要求22所述的方法，其特征在于，从所述结构单元拆分的所述容器由填充的洗涤剂容器和/或由空的过滤物质容器替换，其中具有填充的洗涤剂容器和/或空的过滤物质容器的所述结构单元随后被插回到所述家庭用具中。",
+                  "dependency": "direct claim22"
+                }
+              ]
+            },
+            "endpoint": {
+              "observation_ids_preserved": [
+                "CN112914464A-endpoint-method23"
+              ],
+              "scope_judgment": "权23直接依附22：先移整个结构单元再机械拆容器，处置或交处置公司；是公开技术建议，不是实际安全处置效果。",
+              "original_excerpt_bindings": [
+                {
+                  "claim": 23,
+                  "physical_pages": [
+                    3,
+                    4
+                  ],
+                  "evidence_excerpt": "根据权利要求22所述的方法，其特征在于，当移除所述过滤物质容器和/或所述洗涤剂容器时，在从所述家庭用具移除所述整个结构单元之后，将相应的所述容器从所述结构单元机械地拆分，其中所述拆分的容器或两个容器被处置或被交给处置公司。",
+                  "dependency": "direct claim22"
+                }
+              ]
+            }
+          },
+          "rendered_pages": [
+            {
+              "physical_page": 6,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN112914464A_numbering_20261004-6.png",
+              "sha256": "708bcf26ba55d0ef1c3bf1b5faf37845549cf060fce81f115fed7594c219abd9"
+            }
+          ],
+          "new_visual_page_read": 6,
+          "extraction_boundary": "0009 printed intact on physical6; PDF extracted [0 linebreak009], whitespace-normalized parser restored only extraction token, original bytes unchanged"
         }
       }
     },

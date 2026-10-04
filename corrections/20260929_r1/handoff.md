@@ -253,3 +253,7 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-04 10:17：CN115637公布A技术范围独立验收
 
 旧11原页全文/79段/10权项与3图页6图已实读，本次仅补视觉1/2/6/7/8五页并保留旧3/4/5及9/10/11；累计11页视觉范围真实齐，13字段均显式原件段落绑定。完整筒形/上部敞开/入口局部敞开分支及0074网/袋用词保留；未知不转0，正常出水不冒维护排空或固体脱水，材料不冒干燥。只本A技术flag/scene/publication/13格状态改变，原168观察/支持/未知、其他13完整对象/all法律和非目标CSV bytes保持。master真实SHA35d1ae51350f66470182c89c17652d957d7e1af5fbad6f21664243c7d1d9cd77，卡/QA CN115637570A_technical_acceptance_20261004。4件独立公布技术范围，B原件/现时法律仍pending；统计/终稿/P2整体/项目未放行。fitz探测缺模块没有取源或写入，改既有Poppler五页成功后QA首项重跑。下一CN112旧7字段原件绑定小项及CN115700保存全文scene；新9格候选CN116原13页后续按余量分逻辑，primary5/noreset保持。
+
+## 2026-10-04 10:22：CN112旧7字段原件绑定
+
+旧cleaning/transfer/solids_dewatering/liquid_route/removal/seals_connections/endpoint七字段新增9段/权原件绑定，回访物理3/4/6/11/12，原图8张hash保持。首次过大组合输出拆块完整回读；0009被抽取为[0换行009]导致预览断言失败、主表零应用，原6目视确认印刷段号无缺，再消除抽取空白全链重验。只新review_completeness绑定元数据，原168观察/features/场景/publication/法律/其他13完整对象与CSV bytes保持；flag仍false，不伪造全23页视觉或正式候选验收。master7f08da22ca364c61ea816aa338ab58bec0ad5e04c40563b8065bce7c360f5a42，卡/QA CN112914464A_old7_original_bindings_20261004。下一CN115700保存全文scene短项；CN112需后续准确视觉/scene/13绑定整体验收，当前4件scope、14pending/statisticsfalse、primary5/noreset不变。
