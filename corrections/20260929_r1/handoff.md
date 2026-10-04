@@ -225,3 +225,11 @@ patents/CN118273060A.pdf 3295789bytes/SHAfcfde50da413b25f2b5dadcca389a44fc41a3aa
 ## 2026-10-03 12:28：CN118捕获原件绑定
 
 原物理8[0070]/[0074]—[0078]、权12/13/14及图11—13绑定capture；保留多层/泡沫/梯度/聚氨酯各优选，权14仅←13，不推实测粒径率。固定4103ae0旧168/features/非目标13/all法律/CSVbytes保持，master实SHA5ebe61787ac6fa72836bc6ceda2c287ee4b4efe01e18cec926463e41e38f8a2d，卡/QA CN118273060A_capture_binding_20261003。下一其他12字段完整原件映射，无新增图读/观察，不冒整件/全项目验收；14pending/统计终稿false/noreset。
+
+## 2026-10-04 09:41：规则接续与五小时5%收尾授权
+
+用户“继续，剩百分之5的时候就推送，然后弄个自动化，每五小时自动开始工作”授权继续H1；本轮硬线为五小时primary剩余5%，10%附近仅做可闭合短项，每个独立逻辑仍立即QA/提交/推送，不攒批。达到或低于5%不启新技术、阅读或检索，闭合当前修复与QA后保存精确停止接续、提交推送远端回读；不消费reset。旧周60暂停及10月2日覆盖均为历史保留，不用weekly冒充本轮primary。主控已维护每五小时接续自动化，执行者不另建。
+
+本人完整分块读当前全局37行/项目574行/H1 65行AGENTS、详细规范742行、release及上述227行handoff，并窄读H1记忆与完整PDF技能；仅追加本次授权，所有旧门槛保留。基线HEAD=remote8181b9e1fe10fa252523364c693210cbebf8517f，168观察/master实际SHA5ebe61787ac6fa72836bc6ceda2c287ee4b4efe01e18cec926463e41e38f8a2d，tracked清洁，唯一旧pyc保留不提交。10月3日真实额度耗尽未留下未验技术事务。本次恢复不修改主表或CSV。真实thread/全源hash/证据与下一动作见controller_acknowledgements/20261004_01a0f5bd_接续与五小时收尾.json。
+
+下一先绑定CN118其余12字段原件与已有观察；41原页/27图页已实际阅读，不重复下载或冒新阅读。技术全文完成须按本身证据独立验收，不能仅因法律pending永远置0，也不能自动从读页齐晋级；14资格pending、正式统计/终稿及项目完成门槛保持。公开仓库已实际验收，主控仍唯一taskline/work_logs写者，执行者只写H1。09:41实时primary剩69%、weekly剩80%、ordinaryUsageAllowed true。

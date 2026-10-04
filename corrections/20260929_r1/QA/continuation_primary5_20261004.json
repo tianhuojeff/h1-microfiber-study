@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "logic": "Oct4 rule continuation and primary5 threshold only",
+  "baseline": "8181b9e1fe10fa252523364c693210cbebf8517f",
+  "observations": 168,
+  "master_sha256": "5ebe61787ac6fa72836bc6ceda2c287ee4b4efe01e18cec926463e41e38f8a2d",
+  "master_csv_exact_bytes_unchanged": true,
+  "release_changed_keys": ["effective_budget_rule", "previous_budget_rule_20261002", "updated_at", "usage_stop_remaining_percent"],
+  "old_budget_and_quota_pause_preserved": true,
+  "rule_handoff_previous_content_preserved": true,
+  "ack_sources_real_bytes_verified": true,
+  "no_unverified_technical_transaction": true,
+  "no_reset": true,
+  "legal_statistics_final_gates_unchanged": true,
+  "excluded_cache_not_staged": true
+}
