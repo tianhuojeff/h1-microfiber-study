@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T10:08:56.659679+08:00",
+  "updated_at": "2026-10-04T10:16:04.266202+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -2079,23 +2079,37 @@
       },
       "scene_material": {
         "classification": "laundry_wastewater_microfibres_with_microplastic_focus",
-        "review_status": "complete_in_original_A_scope",
-        "verified_at": "2026-10-01T17:44:59.424195+08:00",
+        "review_status": "accepted_in_original_published_scope",
+        "publication_id": "CN115637570A",
+        "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\revision_20260929\\legal\\cn115637570_probe_20260929_2112\\CN115637570A_original.pdf",
+        "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+        "boundary": "本件洗衣机微纤维过滤；背景微塑料/微纤维与1900引述不是本装置试验，不把所有衣物纤维判塑料。",
         "basis": [
           {
-            "anchor": "p0004",
-            "excerpt": "微塑料、微纤维通常是指尺寸在5mm以下的纤维或颗粒，其对海洋环境的污染越来越严重。微塑料、微纤维由于其体积小、比表面积大的特点，因此吸附污染物能力很强。微塑料、微纤维就像海洋污染物的坐骑，当微塑料、微纤维和海洋污染物结合后在海洋中游荡的过程中极易被海洋生物摄入，这会直接危害海洋生态系统，而人类站在食物链的顶端，微塑料、微纤维可以通过生态循环进入人体内对人类健康产生重大威胁。",
-            "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
-            "physical_page": 3
+            "printed_paragraph": 2,
+            "physical_page": 3,
+            "evidence_excerpt": "微塑料、微纤维通常是指尺寸在5mm以下的纤维或颗粒，其对海洋环境的污染越来越严重。微塑料、微纤维由于其体积小、比表面积大的特点，因此吸附污染物能力很强。微塑料、微纤维就像海洋污染物的坐骑，当微塑料、微纤维和海洋污染物结合后在海洋中游荡的过程中极易被海洋生物摄入，这会直接危害海洋生态系统，而人类站在食物链的顶端，微塑料、微纤维可以通过生态循环进入人体内对人类健康产生重大威胁。",
+            "source_role": "background_context"
           },
           {
-            "anchor": "p0005",
-            "excerpt": "参照悉尼大学沿海城市生态影响研究中心的研究，海洋中微塑料、微纤维的主要来源之一是从洗衣机排出的废水。如研究指出，每洗一件衣服就会有1900多根微小的纤维被冲洗掉，在洗衣机在全球范围内普及且洗衣频率普遍较高的大前提下，如何避免微塑料的排放成为亟待解决的技术问题。",
-            "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
-            "physical_page": 3
+            "printed_paragraph": 3,
+            "physical_page": 3,
+            "evidence_excerpt": "参照悉尼大学沿海城市生态影响研究中心的研究，海洋中微塑料、微纤维的主要来源之一是从洗衣机排出的废水。如研究指出，每洗一件衣服就会有1900多根微小的纤维被冲洗掉，在洗衣机在全球范围内普及且洗衣频率普遍较高的大前提下，如何避免微塑料的排放成为亟待解决的技术问题。",
+            "source_role": "background_context"
+          },
+          {
+            "printed_paragraph": 7,
+            "physical_page": 3,
+            "evidence_excerpt": "本发明另一方面提供了一种具有上述微纤维过滤器的洗衣机。",
+            "source_role": "description_of_this_invention"
+          },
+          {
+            "printed_paragraph": 30,
+            "physical_page": 4,
+            "evidence_excerpt": "一种洗衣机，具有如上述任一所述的微纤维过滤器。",
+            "source_role": "description_of_this_invention"
           }
-        ],
-        "boundary": "背景谈小于5mm微塑料/微纤维与洗衣废水；不把所有衣物纤维都视为塑料，1900背景引述不是本装置性能测试。"
+        ]
       },
       "publications": [
         {
@@ -2106,7 +2120,11 @@
           "local_exists": true,
           "historical_corpus_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
           "text_role": "application_publication",
-          "review_status": "complete_original_A_scope_related_B_pending"
+          "review_status": "accepted_in_original_published_scope",
+          "previous_review_status": "complete_original_A_scope_related_B_pending",
+          "original_source_path": "revision_20260929/legal/cn115637570_probe_20260929_2112/CN115637570A_original.pdf",
+          "original_source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+          "technical_acceptance_record": "publication_technical_acceptance"
         }
       ],
       "prior_working_evidence": {
@@ -2381,7 +2399,7 @@
       "features": {
         "capture": {
           "label": "截留位置与承载物",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -2556,7 +2574,7 @@
         },
         "cleaning": {
           "label": "清理／脱离",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -2667,7 +2685,7 @@
         },
         "transfer": {
           "label": "转移",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -2778,7 +2796,7 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -2855,7 +2873,7 @@
         },
         "solids_dewatering": {
           "label": "固体脱水",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -2932,7 +2950,7 @@
         },
         "liquid_route": {
           "label": "液体路径",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -3024,7 +3042,7 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -3085,7 +3103,7 @@
         },
         "removal": {
           "label": "移出",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "same_embodiment_combination",
           "observations": [
             {
@@ -3233,7 +3251,7 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -3341,7 +3359,7 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -3464,7 +3482,7 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "explicit",
           "observations": [
             {
@@ -3535,7 +3553,7 @@
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -3629,7 +3647,7 @@
         },
         "carrier_conditioning": {
           "label": "过滤载体排水/干燥",
-          "review_status": "complete_in_original_A_scope",
+          "review_status": "accepted_in_original_published_scope",
           "support_status": "not_located_in_reviewed_scope",
           "observations": [
             {
@@ -3717,7 +3735,7 @@
       },
       "routes": [],
       "review_completeness": {
-        "full_text_rechecked": false,
+        "full_text_rechecked": true,
         "current_scope": [
           {
             "publication": "CN115637570A",
@@ -3762,6 +3780,12 @@
             ],
             "field": "seals_connections",
             "at": "2026-09-29T23:13:03.436332+08:00"
+          },
+          {
+            "publication": "CN115637570A",
+            "scope": "representative_published_document_only",
+            "acceptance_record": "publication_technical_acceptance",
+            "at": "2026-10-04T10:16:04.266202+08:00"
           }
         ],
         "original_A_targeted_readback": {
@@ -3924,6 +3948,591 @@
           ],
           "original_B_pdf_read": false,
           "qualification_pending": true
+        },
+        "original_A_field_bindings_20261004": {
+          "source_path": "revision_20260929/legal/cn115637570_probe_20260929_2112/CN115637570A_original.pdf",
+          "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+          "text_scope": "all paragraphs0001-0079, claims1-10, figures1-6; previous fulltext/drawings plus actual five-page visual completion",
+          "original_field_bindings": {
+            "capture": {
+              "accepted_observation_ids": [
+                "CN115637570A-capture-tubular_claim3-20261001",
+                "CN115637570A-capture-open_upper_claim4-20261001",
+                "CN115637570A-capture-local_inlet_open_claim5-20261001"
+              ],
+              "printed_paragraphs": [
+                55,
+                59,
+                61,
+                62,
+                63
+              ],
+              "scope_judgment": "筒形权3、上部敞开半筒权4、仅上部进水口局部敞开权5为不同从属构造；3→2→1、4→3、5→3，不把互斥几何拼为单一实施方式。孔径/捕获率未给。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 55,
+                  "physical_page": 6,
+                  "evidence_excerpt": "在一些实施方式中，所述过滤网122为筒状结构，沿所述过滤器筒体121中轴线的延伸方向周向设置，所述螺杆125插设在过滤网122内；所述旋转叶片与靠近所述过滤器筒体121上部侧壁128的过滤网122之间的间隙130大于所述旋转叶片与靠近所述过滤器筒体121下部侧壁129的过滤网122之间的间隙130。"
+                },
+                {
+                  "printed_paragraph": 59,
+                  "physical_page": 6,
+                  "evidence_excerpt": "在一些实施方式中，所述过滤网122靠近所述过滤器筒体121上部侧壁128的部分，沿所述过滤器筒体122中轴线的延伸方向敞开设置；"
+                },
+                {
+                  "printed_paragraph": 61,
+                  "physical_page": 7,
+                  "evidence_excerpt": "在上述方案中，如图2和图6所示，过滤网设置成半筒状，将所述过滤网靠近所述过滤器筒体上部侧壁的部分，沿所述过滤器筒体中轴线的延伸方向敞开设置，可以为滤器筒体的上部区域提供更大的流动空间，能够更好的稀释微纤维的浓度，延缓下部过滤网上微纤维的沉积。"
+                },
+                {
+                  "printed_paragraph": 62,
+                  "physical_page": 7,
+                  "evidence_excerpt": "在一些实施方式中，所述过滤网122靠近所述过滤器筒体121上部侧壁128进水口123的部分，沿所述过滤器筒体121中轴线的延伸方向敞开设置。。"
+                },
+                {
+                  "printed_paragraph": 63,
+                  "physical_page": 7,
+                  "evidence_excerpt": "在上述方案中，在上述方案中，将过滤网靠近所述过滤器筒体上部侧壁进水口的部分沿过滤器筒体中轴线的延伸方向敞开设置，避免微纤维附着在进水口附近，导致微纤维的沉积。"
+                }
+              ]
+            },
+            "cleaning": {
+              "accepted_observation_ids": [
+                "CN115637570A-cleaning-claim1"
+              ],
+              "printed_paragraphs": [
+                51,
+                52
+              ],
+              "scope_judgment": "螺旋叶片同水流旋进刮掉网面纤维，借水带入127；刮离动作不等于全部孔隙再生或固体干燥。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 51,
+                  "physical_page": 6,
+                  "evidence_excerpt": "如图1至图6所示，本发明提供了一种微纤维过滤器，包括，过滤器筒体121，两端分别设有进水口123和出水口124；过滤网122，安装在所述过滤器筒体内，沿所述过滤器筒体中轴线的延伸方向设置；螺杆125，一端沿所述过滤器筒体121的轴向插设在所述过滤器筒体121内；螺旋叶片126，设置在所述螺杆125的外周上，与所述过滤网122之间留有间隙130；还包括：微纤维"
+                },
+                {
+                  "printed_paragraph": 52,
+                  "physical_page": 6,
+                  "evidence_excerpt": "在上述方案中，通过螺杆125的转动使螺旋叶片126旋转推进，刮掉沉积在过滤网122上的微纤维，借助水流的流动，将微纤维收集到微纤维收集装置127内，延长微纤维过滤器12的使用寿命。"
+                }
+              ]
+            },
+            "transfer": {
+              "accepted_observation_ids": [
+                "CN115637570A-transfer-claim1"
+              ],
+              "printed_paragraphs": [
+                51,
+                52
+              ],
+              "scope_judgment": "126把网122纤维刮送至靠出水口的127；模块内转移，不是最终处置。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 51,
+                  "physical_page": 6,
+                  "evidence_excerpt": "如图1至图6所示，本发明提供了一种微纤维过滤器，包括，过滤器筒体121，两端分别设有进水口123和出水口124；过滤网122，安装在所述过滤器筒体内，沿所述过滤器筒体中轴线的延伸方向设置；螺杆125，一端沿所述过滤器筒体121的轴向插设在所述过滤器筒体121内；螺旋叶片126，设置在所述螺杆125的外周上，与所述过滤网122之间留有间隙130；还包括：微纤维"
+                },
+                {
+                  "printed_paragraph": 52,
+                  "physical_page": 6,
+                  "evidence_excerpt": "在上述方案中，通过螺杆125的转动使螺旋叶片126旋转推进，刮掉沉积在过滤网122上的微纤维，借助水流的流动，将微纤维收集到微纤维收集装置127内，延长微纤维过滤器12的使用寿命。"
+                }
+              ]
+            },
+            "chamber_drainage": {
+              "accepted_observation_ids": [
+                "CN115637570A-chamber_drainage-dedicated_maintenance_emptying_unlocated-20261001-fullA"
+              ],
+              "printed_paragraphs": [
+                58,
+                78
+              ],
+              "scope_judgment": "正常下部排水与开门取袋分开；完整A0001—0079、权1—10、图1—6未定位维护前专用腔排空/残液确认，unknown保持。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 58,
+                  "physical_page": 6,
+                  "evidence_excerpt": "可以理解的是，靠近所述过滤器筒体121下部侧壁129的过滤网122与过滤器筒体121下部侧壁129之间设有排水流道。过滤后的水经排水流道从排水口流出。"
+                },
+                {
+                  "printed_paragraph": 78,
+                  "physical_page": 7,
+                  "evidence_excerpt": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。"
+                }
+              ]
+            },
+            "solids_dewatering": {
+              "accepted_observation_ids": [
+                "CN115637570A-solids_dewatering-no_dedicated_solids_dewatering_in_A-20261001-fullA"
+              ],
+              "printed_paragraphs": [
+                52,
+                58,
+                74
+              ],
+              "scope_judgment": "刮离、借水输送、袋收集不是独立固体压榨/离心/干燥；完整A范围未定位该工序，unknown保持。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 52,
+                  "physical_page": 6,
+                  "evidence_excerpt": "在上述方案中，通过螺杆125的转动使螺旋叶片126旋转推进，刮掉沉积在过滤网122上的微纤维，借助水流的流动，将微纤维收集到微纤维收集装置127内，延长微纤维过滤器12的使用寿命。"
+                },
+                {
+                  "printed_paragraph": 58,
+                  "physical_page": 6,
+                  "evidence_excerpt": "可以理解的是，靠近所述过滤器筒体121下部侧壁129的过滤网122与过滤器筒体121下部侧壁129之间设有排水流道。过滤后的水经排水流道从排水口流出。"
+                },
+                {
+                  "printed_paragraph": 74,
+                  "physical_page": 7,
+                  "evidence_excerpt": "过滤袋可以周向设置在微纤维收集装置127的内侧壁上，当过滤袋中的微纤维累积的较多时，可以更换过滤网122，方便用户直接进行清理。"
+                }
+              ]
+            },
+            "liquid_route": {
+              "accepted_observation_ids": [
+                "CN115637570A-liquid_route-normal_lower_drain_channel-20261001"
+              ],
+              "printed_paragraphs": [
+                56,
+                58
+              ],
+              "scope_judgment": "进水连网内，滤后水经下网与筒下壁间流道到124；仅正常液路，不推维护腔或袋已排干。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 56,
+                  "physical_page": 6,
+                  "evidence_excerpt": "如图3所示，进水口与过滤网的内部连通，水流从进水口123流入到过滤网122中进行过滤后，沿着箭头指示的方向从出水口124流出。"
+                },
+                {
+                  "printed_paragraph": 58,
+                  "physical_page": 6,
+                  "evidence_excerpt": "可以理解的是，靠近所述过滤器筒体121下部侧壁129的过滤网122与过滤器筒体121下部侧壁129之间设有排水流道。过滤后的水经排水流道从排水口流出。"
+                }
+              ]
+            },
+            "storage": {
+              "accepted_observation_ids": [
+                "CN115637570A-storage-optional_bag"
+              ],
+              "printed_paragraphs": [
+                73,
+                74
+              ],
+              "scope_judgment": "可拆过滤袋与袋中纤维积累明确；0074原文随后说更换过滤网122，原文保留不默修成袋。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 73,
+                  "physical_page": 7,
+                  "evidence_excerpt": "过滤袋，可拆卸地设置在所述微纤维收集装置127中。"
+                },
+                {
+                  "printed_paragraph": 74,
+                  "physical_page": 7,
+                  "evidence_excerpt": "过滤袋可以周向设置在微纤维收集装置127的内侧壁上，当过滤袋中的微纤维累积的较多时，可以更换过滤网122，方便用户直接进行清理。"
+                }
+              ]
+            },
+            "removal": {
+              "accepted_observation_ids": [
+                "CN115637570A-removal-front_door_bag"
+              ],
+              "printed_paragraphs": [
+                77,
+                78
+              ],
+              "scope_judgment": "前板安装口和可选门盖使取袋或取整个过滤器可达；不同取出选项分开，不推安全终点。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 77,
+                  "physical_page": 7,
+                  "evidence_excerpt": "外壳10，所述外壳10的前面板上开设有安装口11，所述微纤维收集装置127可拆卸地设置在所述微纤维过滤器12与所述安装口11对应的位置。"
+                },
+                {
+                  "printed_paragraph": 78,
+                  "physical_page": 7,
+                  "evidence_excerpt": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。"
+                }
+              ]
+            },
+            "state_switch": {
+              "accepted_observation_ids": [
+                "CN115637570A-state_switch-optional_sensor_motor-20261001"
+              ],
+              "printed_paragraphs": [
+                66,
+                67,
+                68,
+                69
+              ],
+              "scope_judgment": "可选传感器/控制器按较多开电机、较少停并可间歇；不同传感器或组合无统一量化阈值，不强加独立权1。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 66,
+                  "physical_page": 7,
+                  "evidence_excerpt": "在一些实施方式中，所述微纤维过滤器12还包括传感器，安装在所述过滤器筒体121内，用于检测所述过滤网122上的微纤维含量；"
+                },
+                {
+                  "printed_paragraph": 67,
+                  "physical_page": 7,
+                  "evidence_excerpt": "控制器，与所述传感器和驱动电机131电连接，用于控制驱动电机131的运转。"
+                },
+                {
+                  "printed_paragraph": 68,
+                  "physical_page": 7,
+                  "evidence_excerpt": "在上述方案中，当传感器检测到微纤维过滤器12中微纤维较多时，控制器控制驱动电机131开始运转，此时螺杆125按照顺时针方向旋转，使螺旋叶片126的旋进方向与过滤器筒体121内水流的流动方向相同，以将过滤网122上的微纤维刮入到微纤维收集装置127中。当传感器检测到微纤维过滤器12中微纤维较少时，控制器控制驱动电机131停止运转。可以理解的是，驱动电机131可"
+                },
+                {
+                  "printed_paragraph": 69,
+                  "physical_page": 7,
+                  "evidence_excerpt": "可以理解的是，传感器可以为压力传感器、光学传感器、浊度计传感器、颜色变化指示传感器、沉淀分析传感器、通量传感器、红外线传感器等其它传感器，或者是任意组合。"
+                }
+              ]
+            },
+            "seals_connections": {
+              "accepted_observation_ids": [
+                "CN115637570A-seals_connections-front_door_bag"
+              ],
+              "printed_paragraphs": [
+                77,
+                78
+              ],
+              "scope_judgment": "前面板安装口11与可选门盖是维护界面，不自动补断管、先排水或防漏实测。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 77,
+                  "physical_page": 7,
+                  "evidence_excerpt": "外壳10，所述外壳10的前面板上开设有安装口11，所述微纤维收集装置127可拆卸地设置在所述微纤维过滤器12与所述安装口11对应的位置。"
+                },
+                {
+                  "printed_paragraph": 78,
+                  "physical_page": 7,
+                  "evidence_excerpt": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。"
+                }
+              ]
+            },
+            "performance": {
+              "accepted_observation_ids": [
+                "CN115637570A-performance-qualitative_benefits_without_tests-20261001-fullA"
+              ],
+              "printed_paragraphs": [
+                34,
+                35,
+                36,
+                54
+              ],
+              "scope_judgment": "0034—0036寿命/浓度/沉积及0054效率为作者有益效果陈述，无完整试验协议/N/误差/独立验证；背景1900非本装置实验。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 34,
+                  "physical_page": 4,
+                  "evidence_excerpt": "本发明提供的微纤维过滤器，通过螺杆的转动使螺旋叶片旋转推进，刮掉沉积在过滤网上的微纤维，借助水流的流动，将微纤维收集到微纤维收集装置内，延长微纤维过滤器的使用寿命。"
+                },
+                {
+                  "printed_paragraph": 35,
+                  "physical_page": 4,
+                  "evidence_excerpt": "本发明提供的微纤维过滤器，通过将旋转叶片与靠近过滤器筒体上部侧壁的过滤网之间的间隙设置成大于旋转叶片与靠近过滤器筒体下部侧壁的过滤网之间的间隙，可以为进水水流的流动提供较大空间；并且随着旋转叶片的旋转推进，可以搅动附着在下部过滤网上的微纤维沉积层，使其翻滚到过滤器筒体的上部区域内，不仅可以稀释微纤维的浓度，延缓下部过滤网上微纤维的沉积，使微纤维分布地更加均匀"
+                },
+                {
+                  "printed_paragraph": 36,
+                  "physical_page": 5,
+                  "evidence_excerpt": "本发明提供的微纤维过滤器，将所述过滤网靠近所述过滤器筒体上部侧壁的部分，沿所述过滤器筒体中轴线的延伸方向敞开设置，可以为滤器筒体的上部区域提供更大的流动空间，能够更好的稀释微纤维的浓度，延缓下部过滤网上微纤维的沉积。"
+                },
+                {
+                  "printed_paragraph": 54,
+                  "physical_page": 6,
+                  "evidence_excerpt": "通过将进水口123和出水口124分别设置在过滤器筒体121的两端，可以延长水流的流动路径。螺杆125可以顺时针旋转，使螺旋叶片126的旋进方向与过滤器筒体121内水流的流动方向相同，以将过滤网122上的微纤维刮入到微纤维收集装置127中。本发明由于借助了水流的流动，可以提高微纤维的收集效率。"
+                }
+              ]
+            },
+            "endpoint": {
+              "accepted_observation_ids": [
+                "CN115637570A-endpoint-final_disposal_after_cleaning_unlocated-20261001-fullA"
+              ],
+              "printed_paragraphs": [
+                73,
+                78
+              ],
+              "scope_judgment": "袋和安装口仅取出/清理支持；完整A范围未定位微纤维最终垃圾分类/回收/封装外运去向，unknown保持。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 73,
+                  "physical_page": 7,
+                  "evidence_excerpt": "过滤袋，可拆卸地设置在所述微纤维收集装置127中。"
+                },
+                {
+                  "printed_paragraph": 78,
+                  "physical_page": 7,
+                  "evidence_excerpt": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。"
+                }
+              ]
+            },
+            "carrier_conditioning": {
+              "accepted_observation_ids": [
+                "CN115637570A-carrier_conditioning-carrier_drainage_drying_unlocated-20261001-fullA"
+              ],
+              "printed_paragraphs": [
+                70,
+                71,
+                74,
+                78
+              ],
+              "scope_judgment": "耐磨材料选择、取袋与0074更换网122不等于介质自身干燥；完整A范围未定位独立载体排水干燥，unknown保持。",
+              "original_excerpt_bindings": [
+                {
+                  "printed_paragraph": 70,
+                  "physical_page": 7,
+                  "evidence_excerpt": "在一些实施方式中，所述过滤网122采用耐磨材料制成；优选地，所述过滤网122采用不锈钢材料制成。"
+                },
+                {
+                  "printed_paragraph": 71,
+                  "physical_page": 7,
+                  "evidence_excerpt": "可以理解的是，过滤网122还可以采用锰钢合金、碳化硅材料等其它耐磨材料制成。"
+                },
+                {
+                  "printed_paragraph": 74,
+                  "physical_page": 7,
+                  "evidence_excerpt": "过滤袋可以周向设置在微纤维收集装置127的内侧壁上，当过滤袋中的微纤维累积的较多时，可以更换过滤网122，方便用户直接进行清理。"
+                },
+                {
+                  "printed_paragraph": 78,
+                  "physical_page": 7,
+                  "evidence_excerpt": "当然，也可以在前面板上在安装口11处设置对应的门盖，用户可以打开门盖将微纤维过滤器12或者微纤维过滤装置中的过滤袋取出，以进行清理。"
+                }
+              ]
+            }
+          },
+          "historical_original_readback_record": "original_A_complete_readback",
+          "source_conflicts_preserved": [
+            "0074 filter bag accumulation then replace filter net122; original not silently corrected"
+          ],
+          "rendered_pages": [
+            {
+              "physical_page": 1,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_visual_completion_20261004-1.png",
+              "sha256": "a7b79bc778cf00b5501f4cd602a7e97441aa23e25db505e937bacc91983d318f"
+            },
+            {
+              "physical_page": 2,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_visual_completion_20261004-2.png",
+              "sha256": "92574e6a103cf6b5e21f17d2ac8718798360839f91493ddb279a01347e9f3fb7"
+            },
+            {
+              "physical_page": 3,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_full_A_20261001-03.png",
+              "sha256": "8a59fd2c53ff07b7b0af81f41676f8bba3c6cc864259b414be71993bb03fabd7"
+            },
+            {
+              "physical_page": 4,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_full_A_20261001-04.png",
+              "sha256": "8a7133c2b664cb0f296c9e0ee452d78ce620d44fd76166255bf0ade6aabb903c"
+            },
+            {
+              "physical_page": 5,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_full_A_20261001-05.png",
+              "sha256": "ff1f196de9634a56cfb2085ca35e9191a18f4362dca58ebf8c30f85821a0f271"
+            },
+            {
+              "physical_page": 6,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_visual_completion_20261004-6.png",
+              "sha256": "4d7d301a1703f7b01e6c6d26d98463b90a4026e4beca870666d3dccb499cf1ee"
+            },
+            {
+              "physical_page": 7,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_visual_completion_20261004-7.png",
+              "sha256": "25fd55df0d47955594f3244f0ad152ae85b3e1cfbb5d1c44e0cab41d6a6b8492"
+            },
+            {
+              "physical_page": 8,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_visual_completion_20261004-8.png",
+              "sha256": "88d1e1037b60ea3218184d9fa634cf03fa69adca4095a9ef626b43a74f3d65f3"
+            },
+            {
+              "physical_page": 9,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-09.png",
+              "sha256": "6bb2dd87ed0d266621ced902ac52431a5a679274854a95aaf0c8520452f1a882"
+            },
+            {
+              "physical_page": 10,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-10.png",
+              "sha256": "453399fa5832a04865a2ad65e860459ac8a41b00f9e1113dc32ae0effd09d198"
+            },
+            {
+              "physical_page": 11,
+              "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\corrections\\20260929_r1\\evidence\\CN115637570A_20261001-11.png",
+              "sha256": "e6292001ea40b45a71ef067accd0c17a2c56248e5416b4545ae66e9861e8bd67"
+            }
+          ],
+          "new_visual_pages_read_20261004": [
+            1,
+            2,
+            6,
+            7,
+            8
+          ],
+          "previous_visual_pages_read": [
+            3,
+            4,
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "full_text_rechecked_scope": "representative_published_document_only",
+        "publication_technical_acceptance": {
+          "accepted": true,
+          "publication": "CN115637570A",
+          "scope": "representative_published_document_only",
+          "accepted_at": "2026-10-04T10:16:04.266202+08:00",
+          "source_path": "revision_20260929/legal/cn115637570_probe_20260929_2112/CN115637570A_original.pdf",
+          "source_sha256": "ce0112648ae509c464bb45ab3fb639cbc98f53b3a3f4f146a80abc48de43d456",
+          "source_page_count": 11,
+          "text_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "visual_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "description_paragraphs": [
+            1,
+            79
+          ],
+          "claims": [
+            1,
+            10
+          ],
+          "drawing_pages_read": [
+            9,
+            10,
+            11
+          ],
+          "figures_read": [
+            1,
+            6
+          ],
+          "field_bindings": {
+            "capture": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "capture"
+            },
+            "cleaning": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "cleaning"
+            },
+            "transfer": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "transfer"
+            },
+            "chamber_drainage": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "chamber_drainage"
+            },
+            "solids_dewatering": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "solids_dewatering"
+            },
+            "liquid_route": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "liquid_route"
+            },
+            "storage": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "storage"
+            },
+            "removal": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "removal"
+            },
+            "state_switch": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "state_switch"
+            },
+            "seals_connections": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "seals_connections"
+            },
+            "performance": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "performance"
+            },
+            "endpoint": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "endpoint"
+            },
+            "carrier_conditioning": {
+              "review_record_key": "original_A_field_bindings_20261004",
+              "binding_key": "carrier_conditioning"
+            }
+          },
+          "previous_review_QA": "corrections\\20260929_r1\\QA\\CN115637570A_complete_A_20261001.json",
+          "previous_review_QA_sha256": "9f3117b294b731e56d370804bfa15611e626a1b8d9d308ab6ee9cff01ee66096",
+          "previous_feature_review_statuses": {
+            "capture": "complete_in_original_A_scope",
+            "cleaning": "complete_in_original_A_scope",
+            "transfer": "complete_in_original_A_scope",
+            "chamber_drainage": "complete_in_original_A_scope",
+            "solids_dewatering": "complete_in_original_A_scope",
+            "liquid_route": "complete_in_original_A_scope",
+            "storage": "complete_in_original_A_scope",
+            "removal": "complete_in_original_A_scope",
+            "state_switch": "complete_in_original_A_scope",
+            "seals_connections": "complete_in_original_A_scope",
+            "performance": "complete_in_original_A_scope",
+            "endpoint": "complete_in_original_A_scope",
+            "carrier_conditioning": "complete_in_original_A_scope"
+          },
+          "previous_scene": {
+            "classification": "laundry_wastewater_microfibres_with_microplastic_focus",
+            "review_status": "complete_in_original_A_scope",
+            "verified_at": "2026-10-01T17:44:59.424195+08:00",
+            "basis": [
+              {
+                "anchor": "p0004",
+                "excerpt": "微塑料、微纤维通常是指尺寸在5mm以下的纤维或颗粒，其对海洋环境的污染越来越严重。微塑料、微纤维由于其体积小、比表面积大的特点，因此吸附污染物能力很强。微塑料、微纤维就像海洋污染物的坐骑，当微塑料、微纤维和海洋污染物结合后在海洋中游荡的过程中极易被海洋生物摄入，这会直接危害海洋生态系统，而人类站在食物链的顶端，微塑料、微纤维可以通过生态循环进入人体内对人类健康产生重大威胁。",
+                "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                "physical_page": 3
+              },
+              {
+                "anchor": "p0005",
+                "excerpt": "参照悉尼大学沿海城市生态影响研究中心的研究，海洋中微塑料、微纤维的主要来源之一是从洗衣机排出的废水。如研究指出，每洗一件衣服就会有1900多根微小的纤维被冲洗掉，在洗衣机在全球范围内普及且洗衣频率普遍较高的大前提下，如何避免微塑料的排放成为亟待解决的技术问题。",
+                "source_sha256": "7e2731e82b601fb6f16d2c30e96f538c1b9f3533de4406e515402e2b4c3336c1",
+                "physical_page": 3
+              }
+            ],
+            "boundary": "背景谈小于5mm微塑料/微纤维与洗衣废水；不把所有衣物纤维都视为塑料，1900背景引述不是本装置性能测试。"
+          },
+          "prior_evidence_preserved": true,
+          "legal_qualification_granted_by_this_acceptance": false,
+          "does_not_accept": [
+            "family-wide completion",
+            "current legal validity",
+            "measured performance",
+            "formal statistics",
+            "final report",
+            "whole project completion"
+          ]
         }
       }
     },
