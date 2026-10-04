@@ -4,7 +4,7 @@
   "status": "draft",
   "phase": "P2_in_progress",
   "created_at": "2026-09-29T23:06:59.473020+08:00",
-  "updated_at": "2026-10-04T14:38:18.928686+08:00",
+  "updated_at": "2026-10-04T14:44:35.914576+08:00",
   "spec_sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
   "single_source_of_current_analysis": true,
   "historical_baseline": {
@@ -23593,8 +23593,62 @@
         "new_online_query_performed": false
       },
       "scene_material": {
-        "classification": null,
-        "review_status": "pending_primary_text"
+        "classification": "洗衣/纺织处理流出液，天然和合成微纤维均包括",
+        "review_status": "complete_saved_text_scope_pending_original",
+        "publication_id": "CN115298383A",
+        "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+        "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+        "basis": [
+          {
+            "locator": "保存HTML #p0002",
+            "html_anchor": "p0002",
+            "evidence_excerpt": "本发明涉及清除纺织品处理设备(如洗衣机、洗衣房(工业或非工业)、纺织品染色设备或防水纺织品设备)的排出液中含有的微纤维的领域。",
+            "source_role": "description_embodiment",
+            "subject_role": "this_invention_or_optional_embodiment",
+            "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+            "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+            "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+            "verified_at": "2026-10-04T14:44:35.914576+08:00",
+            "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+          },
+          {
+            "locator": "保存HTML #p0048",
+            "html_anchor": "p0048",
+            "evidence_excerpt": "\"微纤维\"被理解为来自编织或针织材料的颗粒，由天然(棉、羊毛......)或合成(聚酯、聚酰胺、丙烯酸......)纤维组成，如私人或工业界在服装业中使用的衣服或织物，或用于任何其他用途(床单、窗帘等)。微纤维通常夹杂在洗衣机的废水中，通常具有细长的形状，其直径通常在0.1至50微米之间。纤维的长度可以从一些纤维的直径到几毫米不等，这取决于先前洗涤的材料的性质和状况。",
+            "source_role": "description_embodiment",
+            "subject_role": "this_invention_or_optional_embodiment",
+            "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+            "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+            "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+            "verified_at": "2026-10-04T14:44:35.914576+08:00",
+            "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+          },
+          {
+            "locator": "保存HTML #p0049",
+            "html_anchor": "p0049",
+            "evidence_excerpt": "\"纺织品处理设备\"特别可以理解为纺织品洗涤装置，例如用于家庭或商业用途的单独的洗衣机、洗衣机组(例如在洗衣房)、工业洗衣房(例如配有工作人员的洗衣房)等。然而，根据本发明的纺织品处理设备通常包含在纺织品和液体之间提供接触的任何装置，所述液体随后与纺织品分离，例如纺织品染色装置或纺织品防水装置。",
+            "source_role": "description_embodiment",
+            "subject_role": "this_invention_or_optional_embodiment",
+            "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+            "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+            "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+            "verified_at": "2026-10-04T14:44:35.914576+08:00",
+            "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+          },
+          {
+            "locator": "保存HTML #p0050",
+            "html_anchor": "p0050",
+            "evidence_excerpt": "\"来自至少一个纺织品处理设备的流出液\"被理解为在排出纺织品处理设备后得到的液体(例如，在纺织品洗涤设备的情况下，在洗涤和/或漂洗和/或脱水后的液体)。它在下文中以同等方式被称为\"排出液\"。传统上，纺织品处理设备出口处的流出液中的微纤维含量通常是有限的，含量在0.1至1000ppm(重量)之间，一般在1至100ppm(重量)之间。",
+            "source_role": "description_embodiment",
+            "subject_role": "this_invention_or_optional_embodiment",
+            "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+            "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+            "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+            "verified_at": "2026-10-04T14:44:35.914576+08:00",
+            "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+          }
+        ],
+        "scope_note": "明确家庭/工业洗衣、染色/防水等可选纺织处理用途；天然棉毛和合成聚酯/聚酰胺/丙烯酸均包括，不把全部微纤维自动判塑料。"
       },
       "publications": [
         {
@@ -23605,7 +23659,7 @@
           "local_exists": true,
           "historical_corpus_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
           "text_role": "application_publication",
-          "review_status": "partial_claims_and_targeted_description_reviewed"
+          "review_status": "complete_saved_text_scope_pending_original"
         }
       ],
       "prior_working_evidence": {
@@ -23982,9 +24036,73 @@
         },
         "chamber_drainage": {
           "label": "腔体排液",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-chamber_drainage-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "fig9_drainage",
+              "stage": "chamber_drainage",
+              "technical_feature": "图9描述排水前/期间阀111可打开排放蓄积液；0111明确残液穿床/支撑件后积聚在130下方，开111经110排出。这是再生前下部游离液排放正向路径，不能沿旧有限权项未定位。床层排水另属carrier_conditioning，非收集滤渣脱水；完全排空/剩余量未实测。",
+              "object": "支撑件20下方空间蓄积的游离流出液",
+              "start": "下部空间",
+              "end": "管道110及废水系统",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [
+                "再生前床层排水",
+                "开启111排出下部积液"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0110",
+                  "html_anchor": "p0110",
+                  "evidence_excerpt": "一个额外的开口130，其高度高于外壳的下壁，所述开口130意在通过管道130'连接到气体抽吸装置(未显示)。此外，所述开口130的上方为导流装置130\"，所述导流装置允许液体依靠重力流过颗粒介质30，在开口130周围分流，同时允许气体通过，所述气体受重力的影响要小得多。允许将开口110连接至废水排放系统(未显示)的管道110'配有阀门111，所述阀门111可以排放(打开阀门)排水阶段之前和期间蓄积的流出液。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0111",
+                  "html_anchor": "p0111",
+                  "evidence_excerpt": "更确切地，在颗粒介质排水阶段，所述系统通过开口130和管线130'与气体抽吸装置连接，空气通过开口120从环境介质中吸进。在进行抽吸操作时，气流穿过床层，速度优选为0.1到5m/s，更优选为0.3到3m/s之间。在后续的过滤阶段，气体促进了积累在颗粒介质中的液体的流动。因此，残留的液体流经颗粒介质30和支撑件20，并在位于支撑件20下方的系统10的空间中的开口130下方的管道130'周围积聚。排水后，可以持续几分钟随后停止气体抽吸。通过打开阀门111，积聚在管道130'周围的液体通过管道110排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "图9描述排水前/期间阀111可打开排放蓄积液；0111明确残液穿床/支撑件后积聚在130下方，开111经110排出。这是再生前下部游离液排放正向路径，不能沿旧有限权项未定位。床层排水另属carrier_conditioning，非收集滤渣脱水；完全排空/剩余量未实测。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": {
+                "judgment": "not_found",
+                "summary": "已审文本披露正常出液与旁路，未见维护或移出阶段排空过滤腔的步骤。",
+                "evidence": [],
+                "unknown_reason": "normal liquid outlet is not chamber drainage under the manual.",
+                "review_scope": "claims 1-20"
+              },
+              "new_value": "图9描述排水前/期间阀111可打开排放蓄积液；0111明确残液穿床/支撑件后积聚在130下方，开111经110排出。这是再生前下部游离液排放正向路径，不能沿旧有限权项未定位。床层排水另属carrier_conditioning，非收集滤渣脱水；完全排空/剩余量未实测。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ]
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "已审文本披露正常出液与旁路，未见维护或移出阶段排空过滤腔的步骤。",
@@ -23995,9 +24113,95 @@
         },
         "solids_dewatering": {
           "label": "固体脱水",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-solids_dewatering-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "complete_saved_scope",
+              "stage": "solids_dewatering",
+              "technical_feature": "完整保存134描述/20权项未定位下游已收集微纤维另行压滤、离心或干燥减水动作。权17/0108/0109排水干燥对象是颗粒介质，0132先床层排水干燥再气流将纤维送袋；不能把介质残湿95%或床层液体体积分数<10%赋给袋中滤渣。未知不转0，结论仅保存文本。",
+              "object": "已被下游收集的微纤维夹带液",
+              "start": "下游袋/膜/旋流所收纤维",
+              "end": "unknown",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #cl0017",
+                  "html_anchor": "cl0017",
+                  "evidence_excerpt": "17.如权利要求14至16中任一项所述的方法，包含在步骤B)前的利用连接至所述系统以产生通过所述颗粒介质的下降气流的气体抽吸装置来进行所述颗粒介质的排出的阶段，和/或利用提高所述颗粒介质温度的装置来进行所述颗粒介质的干燥的阶段。",
+                  "source_role": "claim",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0108",
+                  "html_anchor": "p0108",
+                  "evidence_excerpt": "有利地，根据本发明的方法可以包含，在步骤B)之前，使用连接至根据本发明的系统的气体抽吸装置进行颗粒介质排出阶段，使得产生通过颗粒介质的下降气流。换句话说，气体抽吸装置与根据本发明的系统连接在位于颗粒介质下方的开口处，优选在外壳的下壁上方。根据本发明的实施方式，所述气体抽吸装置可以连接至所述流出液排出装置的开口，或者，如果有，可以连接至用于连接所述颗粒介质流化再生装置的装置的附加开口。通过位于外壳下部的开口进行气体抽吸，可通过颗粒介质强制向下进行气体对流。所述强制气体对流夹带着颗粒介质间隙中存在的大部分残余液体，从而",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0109",
+                  "html_anchor": "p0109",
+                  "evidence_excerpt": "发明的另一个实施方式，所述颗粒介质的干燥阶段可以通过使热液体渗滤通过颗粒介质来提高颗粒介质的温度，或者通过加热颗粒介质的壁来进行。例如，加热颗粒介质的壁可以通过放置与颗粒介质壁接触的加热电阻来实现，甚至可以直接放置在颗粒介质的壁上。有利地，颗粒介质被加热到30℃至90℃的温度，优选至少50℃至70℃。所述温度可以使在干燥过程开始时存在于颗粒介质中的95％以上的残余湿气在30分钟以内，或甚至10分钟以内排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0132",
+                  "html_anchor": "p0132",
+                  "evidence_excerpt": "在大约一百次洗涤后，驱动三通阀58以再生过滤介质。在最后一次清洗后，开口100关闭，开口120打开。等待5个小时，在颗粒介质30排水和干燥后，将开口120与配备有一次性过滤袋的商业吸尘器连接，使得在颗粒介质30中形成上升的对流气流，空气通过配备有止回阀59的开口130进入，所述止回阀59打开，开口110由止回阀60自动关闭。真空吸尘器允许抽吸速率为30l/s，吸力为40kPa。颗粒的流化速度为19.5cm/s。因此，要使床层流化，至少需要10l/s的流速。因此，使用抽吸速率为30l/s的真空吸尘器可以使床层以相当于",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "完整保存134描述/20权项未定位下游已收集微纤维另行压滤、离心或干燥减水动作。权17/0108/0109排水干燥对象是颗粒介质，0132先床层排水干燥再气流将纤维送袋；不能把介质残湿95%或床层液体体积分数<10%赋给袋中滤渣。未知不转0，结论仅保存文本。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": {
+                "judgment": "not_found",
+                "summary": "已审权项只写颗粒介质干燥，未见明确降低已收集微纤维/固体含水量。",
+                "evidence": [],
+                "unknown_reason": "claim 17 concerns drying the particle medium, not expressly captured solids.",
+                "review_scope": "claims 1-20；HTML说明书中脱水/排液相关段落"
+              },
+              "new_value": "完整保存134描述/20权项未定位下游已收集微纤维另行压滤、离心或干燥减水动作。权17/0108/0109排水干燥对象是颗粒介质，0132先床层排水干燥再气流将纤维送袋；不能把介质残湿95%或床层液体体积分数<10%赋给袋中滤渣。未知不转0，结论仅保存文本。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ],
+              "availability_judgment": "unknown"
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "已审权项只写颗粒介质干燥，未见明确降低已收集微纤维/固体含水量。",
@@ -24008,9 +24212,125 @@
         },
         "liquid_route": {
           "label": "液体路径",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-liquid_route-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "normal_outlet_optional_bypass",
+              "stage": "liquid_route",
+              "technical_feature": "正常过滤水经支撑件下方110可接废水系统/主排水上游虹吸；外部140和内部140分别是积液旁路可选变体，绕过介质的一部分水不得称已滤净。图9积液通过111/110排出；应用例重力排放。不同变体不默认同时具备，不补零颗粒或零排放。",
+              "object": "过滤流出液、可选旁路未过滤积液及排水残液",
+              "start": "床层上方/下方",
+              "end": "废水排放系统",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [
+                "向下渗滤",
+                "110出液或可选旁路",
+                "图9开111排液"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0057",
+                  "html_anchor": "p0057",
+                  "evidence_excerpt": "此外，根据本发明的系统还包含用于排放流出液的装置，所述排放装置包含至少一个开口，所述开口设置在外壳的下部和颗粒介质的支撑件下方。术语\"下部\"是相对于流出液在外壳中向下流动的方向。因此，液体流出装置的所述开口为颗粒介质过滤的流出液提供了出口，所述出口位于外壳的下部，颗粒介质的支撑件下方。有利地，液体流出装置的开口被设置在根据本发明的系统的外壳的下壁，以避免过滤后的流出液在外壳的底部蓄积。根据本发明的一个实施方式，所述开口可以连接到废水排放系统，例如主排水装置上游的虹吸管。根据几何结构的不同，可以使用提升泵(lift ",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0085",
+                  "html_anchor": "p0085",
+                  "evidence_excerpt": "有利地，根据本发明的从系统中排出流出液的装置还包含与外壳连接的外壳外部回路，用于在流出液积聚在外壳的自由体积内，颗粒介质的上方时从旁路绕过颗粒介质。换句话说，根据所述设计，一部分可能积聚在颗粒介质上方的流出液(在流出液流速超过颗粒介质的过滤速度和/或颗粒介质堵塞的情况下)通过外壳外部的所述回路排出，以避免流出液通过外壳上部的开口回流。有利地，所述外部回路的连接包含位于颗粒介质上方的开口，部分流出液(高于开口水平)可以通过所述开口排出，以及位于颗粒介质下方的开口，由此这部分流出液就可以通过位于外壳下部，颗粒介质的下方",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0086",
+                  "html_anchor": "p0086",
+                  "evidence_excerpt": "另外，根据本发明的系统的流出液排放装置还包含至少穿过颗粒介质的管道，以允许排放在颗粒介质上方的外壳的自由体积内的流出液积聚。换句话说，根据所述设计，可能在颗粒介质上方积聚的部分流出液(在流出液流速相对于颗粒介质的过滤速度过高和/或颗粒介质堵塞的情况下)通过位于颗粒介质上方的所述管道的开口进入，并通过位于颗粒介质下方的所述管道的开口排出。所述管道作为内部短回路，可以防止流出液通过外壳上部的开口回流。优选地，根据所述设计的管道优选在其上部设有导流装置，以防止通过外壳上部进入的流出液直接进入所述管道。有利地，如下文所述，",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0111",
+                  "html_anchor": "p0111",
+                  "evidence_excerpt": "更确切地，在颗粒介质排水阶段，所述系统通过开口130和管线130'与气体抽吸装置连接，空气通过开口120从环境介质中吸进。在进行抽吸操作时，气流穿过床层，速度优选为0.1到5m/s，更优选为0.3到3m/s之间。在后续的过滤阶段，气体促进了积累在颗粒介质中的液体的流动。因此，残留的液体流经颗粒介质30和支撑件20，并在位于支撑件20下方的系统10的空间中的开口130下方的管道130'周围积聚。排水后，可以持续几分钟随后停止气体抽吸。通过打开阀门111，积聚在管道130'周围的液体通过管道110排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0130",
+                  "html_anchor": "p0130",
+                  "evidence_excerpt": "根据所述应用实施例，过滤系统通过软管100'连接至洗衣机，所述软管100'将排水管100\"与三通阀58连接，所述三通阀58位于洗衣机排放口上方105cm的高点，即离地面110cm。因此，开口110被设置在洗衣机排放口的上方，由此可以用虹吸管将开口110连接至常用废水排放系统，并在重力作用下排放过滤后的漂洗液。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "正常过滤水经支撑件下方110可接废水系统/主排水上游虹吸；外部140和内部140分别是积液旁路可选变体，绕过介质的一部分水不得称已滤净。图9积液通过111/110排出；应用例重力排放。不同变体不默认同时具备，不补零颗粒或零排放。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": {
+                "judgment": "explicit",
+                "summary": "流出液穿过颗粒介质后，经支撑件下方开口排出；积液时可由旁路绕过介质。",
+                "evidence": [
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+                    "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+                    "locator": "claim 1",
+                    "quote": "用于排放所述流出液的装置(110)，包含至少一个提供在所述外壳(10)中并置于所述颗粒介质(30)的所述支撑件(20)的下方的开口(110)，",
+                    "evidence_type": "claim"
+                  },
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+                    "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+                    "locator": "claim 3",
+                    "quote": "以便在所述流出液积聚在所述外壳(10)中的位于所述颗粒介质(30)上方的所述自由体积(40)中时从旁路绕过所述颗粒介质。",
+                    "evidence_type": "claim"
+                  }
+                ],
+                "unknown_reason": null,
+                "review_scope": "claims 1-20"
+              },
+              "new_value": "正常过滤水经支撑件下方110可接废水系统/主排水上游虹吸；外部140和内部140分别是积液旁路可选变体，绕过介质的一部分水不得称已滤净。图9积液通过111/110排出；应用例重力排放。不同变体不默认同时具备，不补零颗粒或零排放。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ]
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "流出液穿过颗粒介质后，经支撑件下方开口排出；积液时可由旁路绕过介质。",
@@ -24036,16 +24356,160 @@
         },
         "storage": {
           "label": "暂存",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-storage-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "downstream_collection_example",
+              "stage": "storage",
+              "technical_feature": "文本明确再生下游膜过滤器/旋流室收集；应用例商业吸尘器一次性过滤袋接收纤维，可记录含物载体暂留。上游腔11储的是流出液非专门储渣盒，外壳40供积液/床膨胀，不能冒长期安全干储、防漏或所有变体内置收集袋。",
+              "object": "再生带出的微纤维",
+              "start": "上升气流",
+              "end": "下游膜/旋流或应用例一次性过滤袋",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [
+                "再生释放",
+                "下游收集暂留"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0077",
+                  "html_anchor": "p0077",
+                  "evidence_excerpt": "体抽吸装置下游的颗粒分离系统完成，例如旋流室或膜过滤器，用于收集微纤维颗粒。需要指出的是，家用真空吸尘器一般包含所述颗粒分离系统。颗粒介质上方的空间，在过滤阶段作为积聚区，在床层再生阶段，允许容纳与其流化有关的床层的膨胀。在床层再生阶段之后，停止抽吸流，随后颗粒沉淀，从而再次形成不含之前过滤阶段中沉积的纤维的新过滤床层。有利地，在再生阶段收集的纤维可以作为回收材料使用，或作为无害废料在适当的收集系统中处理。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0120",
+                  "html_anchor": "p0120",
+                  "evidence_excerpt": "有利地，根据本发明的方法还包含再生步骤之后的至少一个步骤，包含从再生阶段收集微纤维，例如通过放置在上述颗粒介质流化再生装置的下游的旋流室或过滤器(例如膜过滤器)。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0132",
+                  "html_anchor": "p0132",
+                  "evidence_excerpt": "在大约一百次洗涤后，驱动三通阀58以再生过滤介质。在最后一次清洗后，开口100关闭，开口120打开。等待5个小时，在颗粒介质30排水和干燥后，将开口120与配备有一次性过滤袋的商业吸尘器连接，使得在颗粒介质30中形成上升的对流气流，空气通过配备有止回阀59的开口130进入，所述止回阀59打开，开口110由止回阀60自动关闭。真空吸尘器允许抽吸速率为30l/s，吸力为40kPa。颗粒的流化速度为19.5cm/s。因此，要使床层流化，至少需要10l/s的流速。因此，使用抽吸速率为30l/s的真空吸尘器可以使床层以相当于",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "文本明确再生下游膜过滤器/旋流室收集；应用例商业吸尘器一次性过滤袋接收纤维，可记录含物载体暂留。上游腔11储的是流出液非专门储渣盒，外壳40供积液/床膨胀，不能冒长期安全干储、防漏或所有变体内置收集袋。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": null,
+              "new_value": "文本明确再生下游膜过滤器/旋流室收集；应用例商业吸尘器一次性过滤袋接收纤维，可记录含物载体暂留。上游腔11储的是流出液非专门储渣盒，外壳40供积液/床膨胀，不能冒长期安全干储、防漏或所有变体内置收集袋。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ]
+            }
+          ],
           "prior_field": null
         },
         "removal": {
           "label": "移出",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "not_located_in_reviewed_scope",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-removal-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "complete_saved_scope",
+              "stage": "removal",
+              "technical_feature": "全保存文本有气流把纤维带出滤床进入收集器/一次性袋，但未定位用户如何取出袋、清空器或排出已收集固体的具体界面/程序。不能由一次性自动补拆袋扔垃圾；保留正向transfer/storage，移出具体程序unknown不转0。",
+              "object": "下游收集的纤维或载物袋",
+              "start": "下游收集器",
+              "end": "用户侧具体移出界面unknown",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [],
+              "support_status": "not_located_in_reviewed_scope",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0077",
+                  "html_anchor": "p0077",
+                  "evidence_excerpt": "体抽吸装置下游的颗粒分离系统完成，例如旋流室或膜过滤器，用于收集微纤维颗粒。需要指出的是，家用真空吸尘器一般包含所述颗粒分离系统。颗粒介质上方的空间，在过滤阶段作为积聚区，在床层再生阶段，允许容纳与其流化有关的床层的膨胀。在床层再生阶段之后，停止抽吸流，随后颗粒沉淀，从而再次形成不含之前过滤阶段中沉积的纤维的新过滤床层。有利地，在再生阶段收集的纤维可以作为回收材料使用，或作为无害废料在适当的收集系统中处理。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0120",
+                  "html_anchor": "p0120",
+                  "evidence_excerpt": "有利地，根据本发明的方法还包含再生步骤之后的至少一个步骤，包含从再生阶段收集微纤维，例如通过放置在上述颗粒介质流化再生装置的下游的旋流室或过滤器(例如膜过滤器)。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0132",
+                  "html_anchor": "p0132",
+                  "evidence_excerpt": "在大约一百次洗涤后，驱动三通阀58以再生过滤介质。在最后一次清洗后，开口100关闭，开口120打开。等待5个小时，在颗粒介质30排水和干燥后，将开口120与配备有一次性过滤袋的商业吸尘器连接，使得在颗粒介质30中形成上升的对流气流，空气通过配备有止回阀59的开口130进入，所述止回阀59打开，开口110由止回阀60自动关闭。真空吸尘器允许抽吸速率为30l/s，吸力为40kPa。颗粒的流化速度为19.5cm/s。因此，要使床层流化，至少需要10l/s的流速。因此，使用抽吸速率为30l/s的真空吸尘器可以使床层以相当于",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "全保存文本有气流把纤维带出滤床进入收集器/一次性袋，但未定位用户如何取出袋、清空器或排出已收集固体的具体界面/程序。不能由一次性自动补拆袋扔垃圾；保留正向transfer/storage，移出具体程序unknown不转0。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": {
+                "judgment": "not_found",
+                "summary": "虽披露再生后收集微纤维，未见承载目标物的容器移出或固体向用户侧排出的路径。",
+                "evidence": [],
+                "unknown_reason": "collection alone does not establish a user removal path.",
+                "review_scope": "claims 1-20；HTML说明书"
+              },
+              "new_value": "全保存文本有气流把纤维带出滤床进入收集器/一次性袋，但未定位用户如何取出袋、清空器或排出已收集固体的具体界面/程序。不能由一次性自动补拆袋扔垃圾；保留正向transfer/storage，移出具体程序unknown不转0。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ],
+              "availability_judgment": "unknown"
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "虽披露再生后收集微纤维，未见承载目标物的容器移出或固体向用户侧排出的路径。",
@@ -24056,9 +24520,144 @@
         },
         "state_switch": {
           "label": "操作与驱动",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-state_switch-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "alternative_control_variants",
+              "stage": "state_switch",
+              "technical_feature": "过滤与再生分态；图6两三通阀58/61和图7六通阀62是可选不同控制配置，不拼必须全部阀。应用例58关100开120、等待5h床排水干燥、120接吸尘器，130进气/110止回关闭；停抽后床粒沉降再开100关120。正文0105为20—150，权15/0034为50—150；触发百分比0106原文保留，不改为统一次数或强制全部触发。",
+              "object": "流出液/再生气体及床层",
+              "start": "过滤状态",
+              "end": "再生状态再返回过滤",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [
+                "按不同变体切换阀路",
+                "床层再生",
+                "停止抽吸沉降恢复"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0092",
+                  "html_anchor": "p0092",
+                  "evidence_excerpt": "根据一个实施方式，根据本发明的系统进一步包含用于控制以下装置的装置：用于流出液渗滤通过颗粒介质的通道装置和/或所述流出液排放装置和/或用于连接所述颗粒介质流化再生装置的装置。所述控制装置可以包含双通阀、三通阀、旋转六通阀和/或止回阀。所述控制装置可以对根据本发明的方法的两个阶段进行控制：1)在过滤阶段，只有流出液可以进入和离开外壳，并且只能通过用于流出液渗滤通过颗粒介质的通道装置和流出液排放装置；2)在再生阶段，只有颗粒介质流化再生装置的气体可以在外壳内循环。当然，这些控制手段的组合是可能的。图3至图7b中介绍了各",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0096",
+                  "html_anchor": "p0096",
+                  "evidence_excerpt": "图6通过非限制性的实施例，示意性地说明了图5的一个变体，其中颗粒介质流化再生装置的连接装置和流出液排放装置的开口110、130也是共同的，并且在管道110'、130'、110\"、130\"的交界处设置了三通阀61，以根据本发明的方法中的程序阶段来控制通过这些管道110'、130'、110\"、130\"的流体。因此，在所述变体中，使用三通阀58、61使得根据本发明的系统可以在过滤阶段或再生阶段使用。更准确地说，在过滤阶段，通过阀门58打开开口100并关闭开口120，通过阀门61打开开口110并关闭开口130。在再生阶段，",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0097",
+                  "html_anchor": "p0097",
+                  "evidence_excerpt": "图7a和7b通过非限制性的实施例，示意性地说明了本发明的一个实施方式，其中控制用于流出液渗滤通过颗粒介质的通道装置、流出液排放装置和流化再生装置的连接装置这三者的装置是由旋转六通阀62控制的。在本实施方式中，用于流出液渗滤通过颗粒介质的通道装置和颗粒介质流化再生装置的连接装置的开口100、120是共同的，流出液排放装置和颗粒介质流化再生装置的连接装置的开口110、130也是共同的。图7a通过虚线示意了六通阀62的元件62a、62b、62c和62d的位置，在过滤阶段，这些元件只连接开口100和开口110。图7b通过虚",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0105",
+                  "html_anchor": "p0105",
+                  "evidence_excerpt": "有利地，在进行步骤B)之前，重复步骤A)20至150次，优选大约100次。事实上，为了防止堵塞，定期对过滤介质进行再生是很重要的，但是没有必要在每个过滤阶段后系统地进行再生阶段，这取决于流出液中的微纤维载量。例如，再生阶段的触发频率可以通过每次洗衣后流出液中的微纤维浓度来估计由于微纤维积累堵塞滤床孔隙的速度。所述实施方式通过避免系统性的再生阶段，可以明显地节省能源。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0106",
+                  "html_anchor": "p0106",
+                  "evidence_excerpt": "优选地，在多个过滤阶段之后，当检测到流出液的渗滤速率减慢时，进行颗粒介质流化再生阶段。根据一个实施方式，颗粒介质的再生阶段可以按以下方式开始：对于每个过滤阶段，测量颗粒介质上方自由体积中的流出液水平随时间的变化；将所述测量值与例如在颗粒介质不含微纤维时的测量获得的渗滤速率的参考值进行比较；当测量值至少比参考值低100％，或优选至少比参考值低50％时，在进行中的过滤阶段结束后进行颗粒介质的流化再生阶段。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0132",
+                  "html_anchor": "p0132",
+                  "evidence_excerpt": "在大约一百次洗涤后，驱动三通阀58以再生过滤介质。在最后一次清洗后，开口100关闭，开口120打开。等待5个小时，在颗粒介质30排水和干燥后，将开口120与配备有一次性过滤袋的商业吸尘器连接，使得在颗粒介质30中形成上升的对流气流，空气通过配备有止回阀59的开口130进入，所述止回阀59打开，开口110由止回阀60自动关闭。真空吸尘器允许抽吸速率为30l/s，吸力为40kPa。颗粒的流化速度为19.5cm/s。因此，要使床层流化，至少需要10l/s的流速。因此，使用抽吸速率为30l/s的真空吸尘器可以使床层以相当于",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "过滤与再生分态；图6两三通阀58/61和图7六通阀62是可选不同控制配置，不拼必须全部阀。应用例58关100开120、等待5h床排水干燥、120接吸尘器，130进气/110止回关闭；停抽后床粒沉降再开100关120。正文0105为20—150，权15/0034为50—150；触发百分比0106原文保留，不改为统一次数或强制全部触发。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": {
+                "judgment": "explicit",
+                "summary": "过滤与流化再生为分列阶段，控制装置列出双通阀、三通阀、止回阀和旋转六通阀。",
+                "evidence": [
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+                    "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+                    "locator": "claim 8",
+                    "quote": "所述控制装置包含至少一个双通阀(51，52，53，54，55)和/或至少一个三通阀(58，61)和/或至少一个止回阀(57，59，60)和/或旋转六通阀(62)。",
+                    "evidence_type": "claim"
+                  },
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+                    "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+                    "locator": "claim 14",
+                    "quote": "A.进行至少一个过滤所述微纤维的阶段，",
+                    "evidence_type": "claim"
+                  },
+                  {
+                    "source_path": "h1-study/team_package_20260928/sources/CN115298383A_claims.txt",
+                    "source_sha256": "4BCBF01122FD44E56C9D942A3FD75D9900D2C38D63FC5463D2AB4953A03FE748",
+                    "locator": "claim 14",
+                    "quote": "B)通过将用于连接至所述颗粒介质(30)流化再生装置的所述装置(120，130)与所述颗粒介质(30)流化再生装置连接，进行流化再生的阶段。",
+                    "evidence_type": "claim"
+                  }
+                ],
+                "unknown_reason": null,
+                "review_scope": "claims 1-20"
+              },
+              "new_value": "过滤与再生分态；图6两三通阀58/61和图7六通阀62是可选不同控制配置，不拼必须全部阀。应用例58关100开120、等待5h床排水干燥、120接吸尘器，130进气/110止回关闭；停抽后床粒沉降再开100关120。正文0105为20—150，权15/0034为50—150；触发百分比0106原文保留，不改为统一次数或强制全部触发。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ]
+            }
+          ],
           "prior_field": {
             "judgment": "explicit",
             "summary": "过滤与流化再生为分列阶段，控制装置列出双通阀、三通阀、止回阀和旋转六通阀。",
@@ -24091,9 +24690,109 @@
         },
         "seals_connections": {
           "label": "维护接口",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-seals_connections-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "external_regeneration_connections",
+              "stage": "seals_connections",
+              "technical_feature": "明确外接气抽吸/吹气装置开口连接及应用例120接商业吸尘器；图9下部130抽吸、上部120热气，干燥后抽吸改接120是该独立方式。0082密封废水连接时额外通风口、开放虹吸时可无需额外口是替代条件，不默认全密封。未定位必须开盖/断管取袋、防漏实测或统一拆装方式。",
+              "object": "外壳开口及外接再生设备",
+              "start": "过滤连接",
+              "end": "气抽吸/热气设备接口",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [
+                "按变体连接120或130",
+                "改变过滤/再生阀路"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0059",
+                  "html_anchor": "p0059",
+                  "evidence_excerpt": "用于连接根据本发明的系统的颗粒介质流化再生装置的装置包含至少一个开口，所述开口位于颗粒介质的上方，外壳的上部。所述开口允许通过流化从颗粒介质中释放出微纤维。优选地，所述用于连接颗粒介质流化再生装置的装置的开口位于根据本发明的系统的外壳的上壁，优选位于所述上壁的中心部分(例如位于以上壁重心为中心的区域，其半径对应上壁最小尺寸的30％)。与偏离中心的开口相比，设置在外壳上壁中心部分的开口可以使颗粒介质的横向再生更加均匀。如以下实施方式所述，用于流出液渗滤通过颗粒介质的通道装置的开口和用于连接颗粒介质流化再生装置的装置的",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0082",
+                  "html_anchor": "p0082",
+                  "evidence_excerpt": "根据本发明的一个实施方式，其中气体抽吸装置用于颗粒介质的再生，所使用的气体是空气，并且在液体排放装置和根据本发明的系统外部的废水排放装置之间的连接是完全密封的情况下，用于连接气体抽吸装置的装置可以包含在外壳的下部、颗粒介质支撑件下方提供额外的开口。所述额外的开口可以连接至通风管。当液体排放装置和根据本发明的系统外部的废水排放系统之间的连接不是密闭的，例如连接是通过开放的虹吸管实现的时候，则所述额外开口不是必要的。事实上，在所述情况下，可以直接通过液体排放装置的开口进行抽吸，而不需要通风管。有利地，微纤维过滤系统可以",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0112",
+                  "html_anchor": "p0112",
+                  "evidence_excerpt": "经过排水的颗粒介质在再生之前被干燥。在所述配置中，气体抽吸装置可以保持与开口130的连接，而吹风机(未显示)可以通过管道120'与开口120连接。然后，被加热至大约50℃的环境空气通过开口120进入系统，其流经过滤介质，发出其热量，并逐渐充满由当地热力学平衡条件所控制的水蒸发产生的湿气。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0113",
+                  "html_anchor": "p0113",
+                  "evidence_excerpt": "一旦完成所述干燥阶段，颗粒介质的再生不在可能会干扰颗粒流化的过高湿度的情况下进行。随后，气体抽吸装置与开口120连接，用于流化颗粒介质的气体通过开口110流入。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0132",
+                  "html_anchor": "p0132",
+                  "evidence_excerpt": "在大约一百次洗涤后，驱动三通阀58以再生过滤介质。在最后一次清洗后，开口100关闭，开口120打开。等待5个小时，在颗粒介质30排水和干燥后，将开口120与配备有一次性过滤袋的商业吸尘器连接，使得在颗粒介质30中形成上升的对流气流，空气通过配备有止回阀59的开口130进入，所述止回阀59打开，开口110由止回阀60自动关闭。真空吸尘器允许抽吸速率为30l/s，吸力为40kPa。颗粒的流化速度为19.5cm/s。因此，要使床层流化，至少需要10l/s的流速。因此，使用抽吸速率为30l/s的真空吸尘器可以使床层以相当于",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "明确外接气抽吸/吹气装置开口连接及应用例120接商业吸尘器；图9下部130抽吸、上部120热气，干燥后抽吸改接120是该独立方式。0082密封废水连接时额外通风口、开放虹吸时可无需额外口是替代条件，不默认全密封。未定位必须开盖/断管取袋、防漏实测或统一拆装方式。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": {
+                "judgment": "not_found",
+                "summary": "未见为移出收集物必须拆开的盖、密封或连接。",
+                "evidence": [],
+                "unknown_reason": "connections to regeneration apparatus do not identify a user-removal seal.",
+                "review_scope": "claims 1-20"
+              },
+              "new_value": "明确外接气抽吸/吹气装置开口连接及应用例120接商业吸尘器；图9下部130抽吸、上部120热气，干燥后抽吸改接120是该独立方式。0082密封废水连接时额外通风口、开放虹吸时可无需额外口是替代条件，不默认全密封。未定位必须开盖/断管取袋、防漏实测或统一拆装方式。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ]
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "未见为移出收集物必须拆开的盖、密封或连接。",
@@ -24104,16 +24803,231 @@
         },
         "performance": {
           "label": "实际性能",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "text_claim_only",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-performance-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "application_example_not_independent_validation",
+              "stage": "performance",
+              "technical_feature": "文本有具体应用例：5kg/最多50L、沙床尺寸粒径、流量压降、100g及约100次洗涤设计，80—90%长于约50μm纤维捕获自述；不是完全无方法或参数。全文未给这些效率/残湿对应可复现实验计量协议、样本量、误差或独立验证。0108<10%为床中液体体积分数，0109>95%为介质残湿排出主张，均非收集固体含水率；保留设计/计算与性能主张区别。",
+              "object": "捕获效率/床层残湿/运行参数",
+              "start": "专利参数与应用例",
+              "end": "独立验证未核",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [],
+              "support_status": "text_claim_only",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0060",
+                  "html_anchor": "p0060",
+                  "evidence_excerpt": "所述通过颗粒介质的流化进行再生的装置，可以增加本发明所述系统的使用寿命。有利地，当积累的微纤维体积为颗粒介质孔隙率的0.1至10％，优选颗粒介质孔隙率的0.5至5％时，使用颗粒介质流化再生的装置来清除颗粒介质中的微纤维。因此，在更换根据本发明的系统的颗粒介质之前，可以进行一百个再生阶段。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0108",
+                  "html_anchor": "p0108",
+                  "evidence_excerpt": "有利地，根据本发明的方法可以包含，在步骤B)之前，使用连接至根据本发明的系统的气体抽吸装置进行颗粒介质排出阶段，使得产生通过颗粒介质的下降气流。换句话说，气体抽吸装置与根据本发明的系统连接在位于颗粒介质下方的开口处，优选在外壳的下壁上方。根据本发明的实施方式，所述气体抽吸装置可以连接至所述流出液排出装置的开口，或者，如果有，可以连接至用于连接所述颗粒介质流化再生装置的装置的附加开口。通过位于外壳下部的开口进行气体抽吸，可通过颗粒介质强制向下进行气体对流。所述强制气体对流夹带着颗粒介质间隙中存在的大部分残余液体，从而",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0109",
+                  "html_anchor": "p0109",
+                  "evidence_excerpt": "发明的另一个实施方式，所述颗粒介质的干燥阶段可以通过使热液体渗滤通过颗粒介质来提高颗粒介质的温度，或者通过加热颗粒介质的壁来进行。例如，加热颗粒介质的壁可以通过放置与颗粒介质壁接触的加热电阻来实现，甚至可以直接放置在颗粒介质的壁上。有利地，颗粒介质被加热到30℃至90℃的温度，优选至少50℃至70℃。所述温度可以使在干燥过程开始时存在于颗粒介质中的95％以上的残余湿气在30分钟以内，或甚至10分钟以内排出。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0121",
+                  "html_anchor": "p0121",
+                  "evidence_excerpt": "因此，根据本发明的系统和方法可以过滤流出液中的微纤维，所述流出液是由纺织品处理设备的洗涤、漂洗和/或脱水产生的，对大于50微米的微纤维的捕获效率至少超过80％。根据本发明的系统和方法不需要消耗品，而且可以长期使用，这要归功于微纤维可能会在其中随时间积累的颗粒介质的再生可能性。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0126",
+                  "html_anchor": "p0126",
+                  "evidence_excerpt": "更确切地，本实施例中的洗衣机的洗涤容量为5kg衣物，每次洗涤最多使用50升水。不同程序阶段的废水排放周期根据用户的选择而不同，但所述洗衣机的特点是，在洗涤阶段可排放的最大水量为15升，液体在3分钟内排放完。两个洗衣机排水周期之间的时间最短约为15min。废水的平均纤维含量接近0.02g/l，相当于平均纤维释放率为0.02％(相对于清洗过的衣物重量)，对于5kg的清洗过的衣物，由过滤器收集的每次洗涤的平均纤维量为1g。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0128",
+                  "html_anchor": "p0128",
+                  "evidence_excerpt": "在所述应用实施例中，根据图5中描述的设计，过滤系统被直接整合到洗衣机中。因此，下文中提到的附图标记与图5中的附图标记相对应。在所述应用实施例中，含有颗粒介质30的外壳10是圆柱形的，内径25cm，高60cm。颗粒介质30在外壳10中的高度为25cm。其上方有一个30cm高的自由体积40，其体积可以蓄积15升流出液。颗粒介质放置在网格形式的支撑件20上，网格的大小为0.15mm。在网格下方，有50mm的空间，可以将液体收集到过滤床下方。颗粒介质30由平均直径为0.5mm的沙子组成，90％的沙子颗粒的尺寸在0.3和0.",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0131",
+                  "html_anchor": "p0131",
+                  "evidence_excerpt": "起初，三通阀58处于使得排出液被过滤的位置，换句话说，开口100是打开的并且开口120是关闭的。当颗粒介质30是干净且刚再生的，通过创造一个低于2000Pa的压降，对应的静水高度比自由体积40的高度小20cm，床层的特性使过滤速度达到6l/min。因此，通过床层渗滤的过滤可以在小于4min内进行。当颗粒介质30在积累了大约100g的微纤维后被堵塞，压降翻倍，相当于大约4000Pa，即静水高度为40cm，仍然低于自由体积40的高度。这些特性确保了排出液在大约一百次洗涤中的有效过滤。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0133",
+                  "html_anchor": "p0133",
+                  "evidence_excerpt": "根据所述设计的微纤维过滤系统和方法可以去除80％至90％的长于约50微米的纤维。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "文本有具体应用例：5kg/最多50L、沙床尺寸粒径、流量压降、100g及约100次洗涤设计，80—90%长于约50μm纤维捕获自述；不是完全无方法或参数。全文未给这些效率/残湿对应可复现实验计量协议、样本量、误差或独立验证。0108<10%为床中液体体积分数，0109>95%为介质残湿排出主张，均非收集固体含水率；保留设计/计算与性能主张区别。",
+              "performance_status": "text_claim_only",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": null,
+              "new_value": "文本有具体应用例：5kg/最多50L、沙床尺寸粒径、流量压降、100g及约100次洗涤设计，80—90%长于约50μm纤维捕获自述；不是完全无方法或参数。全文未给这些效率/残湿对应可复现实验计量协议、样本量、误差或独立验证。0108<10%为床中液体体积分数，0109>95%为介质残湿排出主张，均非收集固体含水率；保留设计/计算与性能主张区别。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ]
+            }
+          ],
           "prior_field": null
         },
         "endpoint": {
           "label": "后续处置",
-          "review_status": "not_reviewed_this_revision",
-          "support_status": null,
-          "observations": [],
+          "review_status": "complete_saved_text_scope",
+          "support_status": "explicit",
+          "observations": [
+            {
+              "observation_id": "CN115298383A-endpoint-complete_saved_scope-20261004",
+              "publication_id": "CN115298383A",
+              "grant_publication_id": null,
+              "sample_role": "pending",
+              "embodiment_id": "optional_recycling_or_collection_route",
+              "stage": "endpoint",
+              "technical_feature": "0077明确收集纤维可作回收材料或作为无害废料在适当收集系统处理，是本发明建议后续路径，不能继续称只创造可能无任何去向。无害是作者用语，未有污染安全/实际回收处置效果验证；具体分类/交接/处理设施未明，不把一次性袋自动写入生活垃圾。",
+              "object": "再生收集的微纤维",
+              "start": "下游收集器",
+              "end": "回收材料或适当收集系统的建议处置",
+              "boundary": "保存p0001—0134/cl0001—0020完整；不同图变体分别限定；原PDF/图未核",
+              "operation_order": [
+                "再生收集",
+                "可选回收/收集系统处理"
+              ],
+              "support_status": "explicit",
+              "review_status": "complete_in_stated_saved_text_scope",
+              "claim_dependency": "本文说明实施方式与权项分别限定，不把权17/19的多项择一依附拼成全部必需；权18错引5/6保留待原件核",
+              "evidence": [
+                {
+                  "locator": "保存HTML #p0012",
+                  "html_anchor": "p0012",
+                  "evidence_excerpt": "本发明涉及一种系统和方法，用于在纺织品处理设备的出口处以高效和廉价的方式过滤微纤维(塑料或其他)，其所需的消耗品很少。事实上，根据本发明的系统可以再生，这可以大大减少根据本发明的过滤系统的过滤器的周期性更换。根据本发明的系统和方法可以进一步在纺织品处理设备的出口处收集至少部分微纤维，为后续回收创造可能性。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0077",
+                  "html_anchor": "p0077",
+                  "evidence_excerpt": "体抽吸装置下游的颗粒分离系统完成，例如旋流室或膜过滤器，用于收集微纤维颗粒。需要指出的是，家用真空吸尘器一般包含所述颗粒分离系统。颗粒介质上方的空间，在过滤阶段作为积聚区，在床层再生阶段，允许容纳与其流化有关的床层的膨胀。在床层再生阶段之后，停止抽吸流，随后颗粒沉淀，从而再次形成不含之前过滤阶段中沉积的纤维的新过滤床层。有利地，在再生阶段收集的纤维可以作为回收材料使用，或作为无害废料在适当的收集系统中处理。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0120",
+                  "html_anchor": "p0120",
+                  "evidence_excerpt": "有利地，根据本发明的方法还包含再生步骤之后的至少一个步骤，包含从再生阶段收集微纤维，例如通过放置在上述颗粒介质流化再生装置的下游的旋流室或过滤器(例如膜过滤器)。",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                },
+                {
+                  "locator": "保存HTML #p0132",
+                  "html_anchor": "p0132",
+                  "evidence_excerpt": "在大约一百次洗涤后，驱动三通阀58以再生过滤介质。在最后一次清洗后，开口100关闭，开口120打开。等待5个小时，在颗粒介质30排水和干燥后，将开口120与配备有一次性过滤袋的商业吸尘器连接，使得在颗粒介质30中形成上升的对流气流，空气通过配备有止回阀59的开口130进入，所述止回阀59打开，开口110由止回阀60自动关闭。真空吸尘器允许抽吸速率为30l/s，吸力为40kPa。颗粒的流化速度为19.5cm/s。因此，要使床层流化，至少需要10l/s的流速。因此，使用抽吸速率为30l/s的真空吸尘器可以使床层以相当于",
+                  "source_role": "description_embodiment",
+                  "subject_role": "this_invention_or_optional_embodiment",
+                  "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+                  "source_url": "https://patents.google.com/patent/CN115298383A/zh",
+                  "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+                  "verified_at": "2026-10-04T14:44:35.914576+08:00",
+                  "extraction_note": "Exact saved mirror anchor excerpt; HTML id is not PDF page or printed paragraph. Scope read all154 anchors; original PDF/figures not obtained/read."
+                }
+              ],
+              "interpretation": "0077明确收集纤维可作回收材料或作为无害废料在适当收集系统处理，是本发明建议后续路径，不能继续称只创造可能无任何去向。无害是作者用语，未有污染安全/实际回收处置效果验证；具体分类/交接/处理设施未明，不把一次性袋自动写入生活垃圾。",
+              "performance_status": "not_verified",
+              "verified_at": "2026-10-04T14:44:35.914576+08:00",
+              "old_value": {
+                "judgment": "not_found",
+                "summary": "文本仅称收集为后续回收创造可能，未见实际处置、再利用操作或效果实测。",
+                "evidence": [],
+                "unknown_reason": "possibility is not endpoint evidence.",
+                "review_scope": "claims 1-20；HTML说明书"
+              },
+              "new_value": "0077明确收集纤维可作回收材料或作为无害废料在适当收集系统处理，是本发明建议后续路径，不能继续称只创造可能无任何去向。无害是作者用语，未有污染安全/实际回收处置效果验证；具体分类/交接/处理设施未明，不把一次性袋自动写入生活垃圾。",
+              "change_reason": "完整保存文本补齐该空字段，保留未知与所有旧观察/实施方式边界。",
+              "removal_kind": null,
+              "reviewed_anchor_ranges": [
+                "p0001-p0134",
+                "cl0001-cl0020"
+              ]
+            }
+          ],
           "prior_field": {
             "judgment": "not_found",
             "summary": "文本仅称收集为后续回收创造可能，未见实际处置、再利用操作或效果实测。",
@@ -24235,8 +25149,512 @@
             ],
             "field": "carrier_conditioning",
             "at": "2026-09-29T23:21:07.441015+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "p0110",
+              "p0111"
+            ],
+            "field": "chamber_drainage",
+            "at": "2026-10-04T14:44:35.914576+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "cl0017",
+              "p0108",
+              "p0109",
+              "p0132"
+            ],
+            "field": "solids_dewatering",
+            "at": "2026-10-04T14:44:35.914576+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "p0057",
+              "p0085",
+              "p0086",
+              "p0111",
+              "p0130"
+            ],
+            "field": "liquid_route",
+            "at": "2026-10-04T14:44:35.914576+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "p0077",
+              "p0120",
+              "p0132"
+            ],
+            "field": "storage",
+            "at": "2026-10-04T14:44:35.914576+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "p0077",
+              "p0120",
+              "p0132"
+            ],
+            "field": "removal",
+            "at": "2026-10-04T14:44:35.914576+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "p0092",
+              "p0096",
+              "p0097",
+              "p0105",
+              "p0106",
+              "p0132"
+            ],
+            "field": "state_switch",
+            "at": "2026-10-04T14:44:35.914576+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "p0059",
+              "p0082",
+              "p0112",
+              "p0113",
+              "p0132"
+            ],
+            "field": "seals_connections",
+            "at": "2026-10-04T14:44:35.914576+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "p0060",
+              "p0108",
+              "p0109",
+              "p0121",
+              "p0126",
+              "p0128",
+              "p0131",
+              "p0133"
+            ],
+            "field": "performance",
+            "at": "2026-10-04T14:44:35.914576+08:00"
+          },
+          {
+            "publication": "CN115298383A",
+            "anchors": [
+              "p0012",
+              "p0077",
+              "p0120",
+              "p0132"
+            ],
+            "field": "endpoint",
+            "at": "2026-10-04T14:44:35.914576+08:00"
           }
-        ]
+        ],
+        "complete_saved_text_review_20261004": {
+          "source_path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN115298383A.html",
+          "source_sha256": "78e6bc2d1f0f5828a42891071f7ca12c54df153e1957438f2f944c3e3e50285d",
+          "read_anchor_ids": [
+            "p0001",
+            "p0002",
+            "p0003",
+            "p0004",
+            "p0005",
+            "p0006",
+            "p0007",
+            "p0008",
+            "p0009",
+            "p0010",
+            "p0011",
+            "p0012",
+            "p0013",
+            "p0014",
+            "p0015",
+            "p0016",
+            "p0017",
+            "p0018",
+            "p0019",
+            "p0020",
+            "p0021",
+            "p0022",
+            "p0023",
+            "p0024",
+            "p0025",
+            "p0026",
+            "p0027",
+            "p0028",
+            "p0029",
+            "p0030",
+            "p0031",
+            "p0032",
+            "p0033",
+            "p0034",
+            "p0035",
+            "p0036",
+            "p0037",
+            "p0038",
+            "p0039",
+            "p0040",
+            "p0041",
+            "p0042",
+            "p0043",
+            "p0044",
+            "p0045",
+            "p0046",
+            "p0047",
+            "p0048",
+            "p0049",
+            "p0050",
+            "p0051",
+            "p0052",
+            "p0053",
+            "p0054",
+            "p0055",
+            "p0056",
+            "p0057",
+            "p0058",
+            "p0059",
+            "p0060",
+            "p0061",
+            "p0062",
+            "p0063",
+            "p0064",
+            "p0065",
+            "p0066",
+            "p0067",
+            "p0068",
+            "p0069",
+            "p0070",
+            "p0071",
+            "p0072",
+            "p0073",
+            "p0074",
+            "p0075",
+            "p0076",
+            "p0077",
+            "p0078",
+            "p0079",
+            "p0080",
+            "p0081",
+            "p0082",
+            "p0083",
+            "p0084",
+            "p0085",
+            "p0086",
+            "p0087",
+            "p0088",
+            "p0089",
+            "p0090",
+            "p0091",
+            "p0092",
+            "p0093",
+            "p0094",
+            "p0095",
+            "p0096",
+            "p0097",
+            "p0098",
+            "p0099",
+            "p0100",
+            "p0101",
+            "p0102",
+            "p0103",
+            "p0104",
+            "p0105",
+            "p0106",
+            "p0107",
+            "p0108",
+            "p0109",
+            "p0110",
+            "p0111",
+            "p0112",
+            "p0113",
+            "p0114",
+            "p0115",
+            "p0116",
+            "p0117",
+            "p0118",
+            "p0119",
+            "p0120",
+            "p0121",
+            "p0122",
+            "p0123",
+            "p0124",
+            "p0125",
+            "p0126",
+            "p0127",
+            "p0128",
+            "p0129",
+            "p0130",
+            "p0131",
+            "p0132",
+            "p0133",
+            "p0134",
+            "cl0001",
+            "cl0002",
+            "cl0003",
+            "cl0004",
+            "cl0005",
+            "cl0006",
+            "cl0007",
+            "cl0008",
+            "cl0009",
+            "cl0010",
+            "cl0011",
+            "cl0012",
+            "cl0013",
+            "cl0014",
+            "cl0015",
+            "cl0016",
+            "cl0017",
+            "cl0018",
+            "cl0019",
+            "cl0020"
+          ],
+          "description_anchors": 134,
+          "claim_anchors": 20,
+          "read_method": "Executor read all prepared normalized text in four complete blocks and verified every anchor against source HTML; mechanical index not used for judgments.",
+          "fields_added": [
+            "chamber_drainage",
+            "solids_dewatering",
+            "liquid_route",
+            "storage",
+            "removal",
+            "state_switch",
+            "seals_connections",
+            "performance",
+            "endpoint"
+          ],
+          "bindings": {
+            "capture": {
+              "observation_ids_preserved": [
+                "CN115298383A-capture-granular_bed"
+              ],
+              "scope_judgment": "既有观察保留；本轮完整保存范围补源，颗粒介质/目标纤维对象区分。",
+              "saved_anchor_ids": [
+                "p0048",
+                "p0052",
+                "p0065",
+                "cl0001"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "cleaning": {
+              "observation_ids_preserved": [
+                "CN115298383A-cleaning-fluidization"
+              ],
+              "scope_judgment": "既有观察保留；本轮完整保存范围补源，颗粒介质/目标纤维对象区分。",
+              "saved_anchor_ids": [
+                "p0077",
+                "cl0014"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "transfer": {
+              "observation_ids_preserved": [
+                "CN115298383A-transfer-downstream_collector"
+              ],
+              "scope_judgment": "既有观察保留；本轮完整保存范围补源，颗粒介质/目标纤维对象区分。",
+              "saved_anchor_ids": [
+                "p0077",
+                "p0120",
+                "p0132",
+                "cl0019"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "chamber_drainage": {
+              "observation_ids_preserved": [
+                "CN115298383A-chamber_drainage-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "图9描述排水前/期间阀111可打开排放蓄积液；0111明确残液穿床/支撑件后积聚在130下方，开111经110排出。这是再生前下部游离液排放正向路径，不能沿旧有限权项未定位。床层排水另属carrier_conditioning，非收集滤渣脱水；完全排空/剩余量未实测。",
+              "saved_anchor_ids": [
+                "p0110",
+                "p0111"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "solids_dewatering": {
+              "observation_ids_preserved": [
+                "CN115298383A-solids_dewatering-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "完整保存134描述/20权项未定位下游已收集微纤维另行压滤、离心或干燥减水动作。权17/0108/0109排水干燥对象是颗粒介质，0132先床层排水干燥再气流将纤维送袋；不能把介质残湿95%或床层液体体积分数<10%赋给袋中滤渣。未知不转0，结论仅保存文本。",
+              "saved_anchor_ids": [
+                "cl0017",
+                "p0108",
+                "p0109",
+                "p0132"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "liquid_route": {
+              "observation_ids_preserved": [
+                "CN115298383A-liquid_route-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "正常过滤水经支撑件下方110可接废水系统/主排水上游虹吸；外部140和内部140分别是积液旁路可选变体，绕过介质的一部分水不得称已滤净。图9积液通过111/110排出；应用例重力排放。不同变体不默认同时具备，不补零颗粒或零排放。",
+              "saved_anchor_ids": [
+                "p0057",
+                "p0085",
+                "p0086",
+                "p0111",
+                "p0130"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "storage": {
+              "observation_ids_preserved": [
+                "CN115298383A-storage-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "文本明确再生下游膜过滤器/旋流室收集；应用例商业吸尘器一次性过滤袋接收纤维，可记录含物载体暂留。上游腔11储的是流出液非专门储渣盒，外壳40供积液/床膨胀，不能冒长期安全干储、防漏或所有变体内置收集袋。",
+              "saved_anchor_ids": [
+                "p0077",
+                "p0120",
+                "p0132"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "removal": {
+              "observation_ids_preserved": [
+                "CN115298383A-removal-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "全保存文本有气流把纤维带出滤床进入收集器/一次性袋，但未定位用户如何取出袋、清空器或排出已收集固体的具体界面/程序。不能由一次性自动补拆袋扔垃圾；保留正向transfer/storage，移出具体程序unknown不转0。",
+              "saved_anchor_ids": [
+                "p0077",
+                "p0120",
+                "p0132"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "state_switch": {
+              "observation_ids_preserved": [
+                "CN115298383A-state_switch-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "过滤与再生分态；图6两三通阀58/61和图7六通阀62是可选不同控制配置，不拼必须全部阀。应用例58关100开120、等待5h床排水干燥、120接吸尘器，130进气/110止回关闭；停抽后床粒沉降再开100关120。正文0105为20—150，权15/0034为50—150；触发百分比0106原文保留，不改为统一次数或强制全部触发。",
+              "saved_anchor_ids": [
+                "p0092",
+                "p0096",
+                "p0097",
+                "p0105",
+                "p0106",
+                "p0132"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "seals_connections": {
+              "observation_ids_preserved": [
+                "CN115298383A-seals_connections-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "明确外接气抽吸/吹气装置开口连接及应用例120接商业吸尘器；图9下部130抽吸、上部120热气，干燥后抽吸改接120是该独立方式。0082密封废水连接时额外通风口、开放虹吸时可无需额外口是替代条件，不默认全密封。未定位必须开盖/断管取袋、防漏实测或统一拆装方式。",
+              "saved_anchor_ids": [
+                "p0059",
+                "p0082",
+                "p0112",
+                "p0113",
+                "p0132"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "performance": {
+              "observation_ids_preserved": [
+                "CN115298383A-performance-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "文本有具体应用例：5kg/最多50L、沙床尺寸粒径、流量压降、100g及约100次洗涤设计，80—90%长于约50μm纤维捕获自述；不是完全无方法或参数。全文未给这些效率/残湿对应可复现实验计量协议、样本量、误差或独立验证。0108<10%为床中液体体积分数，0109>95%为介质残湿排出主张，均非收集固体含水率；保留设计/计算与性能主张区别。",
+              "saved_anchor_ids": [
+                "p0060",
+                "p0108",
+                "p0109",
+                "p0121",
+                "p0126",
+                "p0128",
+                "p0131",
+                "p0133"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "endpoint": {
+              "observation_ids_preserved": [
+                "CN115298383A-endpoint-complete_saved_scope-20261004"
+              ],
+              "scope_judgment": "0077明确收集纤维可作回收材料或作为无害废料在适当收集系统处理，是本发明建议后续路径，不能继续称只创造可能无任何去向。无害是作者用语，未有污染安全/实际回收处置效果验证；具体分类/交接/处理设施未明，不把一次性袋自动写入生活垃圾。",
+              "saved_anchor_ids": [
+                "p0012",
+                "p0077",
+                "p0120",
+                "p0132"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            },
+            "carrier_conditioning": {
+              "observation_ids_preserved": [
+                "CN115298383A-carrier_conditioning-fig9"
+              ],
+              "scope_judgment": "既有观察保留；本轮完整保存范围补源，颗粒介质/目标纤维对象区分。",
+              "saved_anchor_ids": [
+                "p0107",
+                "p0108",
+                "p0109",
+                "p0110",
+                "p0111",
+                "p0112",
+                "p0113",
+                "cl0017"
+              ],
+              "evidence_location": "Current observation evidence; old4 original observations preserved"
+            }
+          },
+          "original_pdf_checked": false,
+          "drawings_checked": false,
+          "not_a_full_original_document_acceptance": true,
+          "verified_at": "2026-10-04T14:44:35.914576+08:00",
+          "source_conflicts": [
+            {
+              "anchors": [
+                "p0034",
+                "p0105",
+                "cl0015"
+              ],
+              "detail": "步骤A次数前者/权15为50—150，后段20—150；不统一改写。"
+            },
+            {
+              "anchors": [
+                "cl0018",
+                "cl0005",
+                "cl0006",
+                "cl0007",
+                "cl0008"
+              ],
+              "detail": "权18所述控制装置引用权5—6，控制装置正文权7—8；保留原引用不默修。"
+            },
+            {
+              "anchors": [
+                "p0070",
+                "p0128"
+              ],
+              "detail": "前段密度单位kg/m2，应用例kg/m3；不默改原单位或实测身份。"
+            },
+            {
+              "anchors": [
+                "p0106"
+              ],
+              "detail": "渗滤率低于参考100%或优选50%原句保留，不自行修百分比触发。"
+            },
+            {
+              "anchors": [
+                "p0127"
+              ],
+              "detail": "连接点高度描述5cm、上方15cm、因此离地40cm内部不一致，原句保持待原件。"
+            },
+            {
+              "anchors": [
+                "p0128",
+                "p0129"
+              ],
+              "detail": "应用例称图5设计又引用图4短回路，保留原文出处，未看原图不判断是否绘图错误。"
+            }
+          ]
+        }
       }
     },
     {

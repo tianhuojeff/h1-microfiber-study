@@ -1,8 +1,8 @@
 {
   "verified": true,
-  "verified_at": "2026-10-04T14:38:27.578844+08:00",
-  "master_sha256": "0979a1353e06524b451464b568d7560196410c4925c138b4dde76381fd758b58",
-  "observations": 177,
+  "verified_at": "2026-10-04T14:44:45.541929+08:00",
+  "master_sha256": "802905d2e7121555e42ff679536a6403f8c73f278126600d1aa11607afb2819a",
+  "observations": 186,
   "full_text_complete_count": 6,
   "accepted_representative_publications": [
     "CN112914464A",
@@ -13,7 +13,7 @@
     "CN117702432A"
   ],
   "full_text_flag_scope": "representative_published_document_only",
-  "html_quote_checks": 489,
+  "html_quote_checks": 529,
   "pdf_image_checks": 32,
   "source_hashes": {
     "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\team_package_20260928\\sources\\CN112914464A.html": "e53dd8bddd8608d606f271527410ed07fa59d452c9f5b1b2036f55745e457c18",
