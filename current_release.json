@@ -11,7 +11,7 @@
   "authority_note": "Previous master is imported working evidence, not accepted current results.",
   "current_owner": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
   "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
-  "updated_at": "2026-10-04T14:53:17+08:00",
+  "updated_at": "2026-10-07T20:33:01.823207+08:00",
   "unresolved": [
     "14 candidate legal eligibilities pending",
     "CN115637570 saved A/B mirror version comparison completed; original B PDF and current legal record pending",
@@ -92,7 +92,10 @@
     "QA": "corrections/20260929_r1/QA/P3_sources_readback_20261004.json",
     "evidence_directory": "corrections/20260929_r1/evidence/P3_sources_20261004",
     "actual_access_date": "2026-10-04",
-    "tracks": ["P2 technical review", "P3 official-source continuation"],
+    "tracks": [
+      "P2 technical review",
+      "P3 official-source continuation"
+    ],
     "http_response_count": 4,
     "all7_source_files_exact_original_bytes_verified": true,
     "CN_official_case_queries_submitted": false,
@@ -104,7 +107,14 @@
     "boundary": "CNIPA three entrance GETs412; EPO precise application query403; IAB timeout and current Chrome/Edge surfaces unavailable. Raw responses are access evidence, not zero hits, invalidity or official current status. No new network by executor."
   },
   "full_text_review_complete": false,
-  "accepted_publication_technical_scopes": ["CN117702432A", "CN118273060A", "CN222043626U", "CN115637570A", "CN116282270A", "CN112914464A"],
+  "accepted_publication_technical_scopes": [
+    "CN117702432A",
+    "CN118273060A",
+    "CN222043626U",
+    "CN115637570A",
+    "CN116282270A",
+    "CN112914464A"
+  ],
   "accepted_publication_technical_scope_count": 6,
   "CN112_complete_original_QA": "corrections/20260929_r1/QA/CN112914464A_technical_acceptance_20261004.json",
   "CN116_complete_original_QA": "corrections/20260929_r1/QA/CN116282270A_complete_original_20261004.json",
@@ -118,7 +128,7 @@
     "current_legal_status_verified": false
   },
   "technical_acceptance_scope_note": "Independent representative published-document technical acceptance; not all family members, legal eligibility, whole P2 or project completion.",
-  "execution_status": "waiting_primary_budget_remaining5",
+  "execution_status": "closed_by_user",
   "latest_primary_budget_close": {
     "at": "2026-10-04T14:53:17.811441+08:00",
     "primary_remaining_percent": 5,
@@ -130,7 +140,16 @@
     "reset_consumed": false,
     "next_action": "Local WO2022084677A1 9 empty fields with complete sufficient original scope, or WO2023047385A1 prepared108description/48claims10empty; WO208 savedp0001-p0012 read only, scene generator failed before any write. Fresh quota/authorization gate first; no new web/download."
   },
-  "latest_resume": {"verified_at":"2026-10-04T14:24:22+08:00","authority_quote":"怎么没有继续","primary_remaining_percent":83,"weekly_remaining_percent":66,"reset_consumed":false,"ack":"corrections/20260929_r1/controller_acknowledgements/20261004_01a0f5bd_1424恢复.json","historical_primary_close_preserved":true,"effective_primary5_rule_unchanged":true},
+  "latest_resume": {
+    "verified_at": "2026-10-04T14:24:22+08:00",
+    "authority_quote": "怎么没有继续",
+    "primary_remaining_percent": 83,
+    "weekly_remaining_percent": 66,
+    "reset_consumed": false,
+    "ack": "corrections/20260929_r1/controller_acknowledgements/20261004_01a0f5bd_1424恢复.json",
+    "historical_primary_close_preserved": true,
+    "effective_primary5_rule_unchanged": true
+  },
   "primary_budget_close_20261004": {
     "threshold_reached": true,
     "primary_remaining_percent": 5,
@@ -167,5 +186,29 @@
   },
   "weekly_used_percent": 42,
   "weekly_remaining_percent": 58,
-  "master_sha256": "802905d2e7121555e42ff679536a6403f8c73f278126600d1aa11607afb2819a"
+  "master_sha256": "802905d2e7121555e42ff679536a6403f8c73f278126600d1aa11607afb2819a",
+  "further_research_authorized": false,
+  "daily_controller_continuation_required": false,
+  "automatic_research_continuation_authorized": false,
+  "user_closure": {
+    "authority_quote": "H1工作宣布结束",
+    "authority_date": "2026-10-07",
+    "recorded_at": "2026-10-07T20:33:01.823207+08:00",
+    "executor_thread_id": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
+    "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
+    "baseline_local_remote_sha": "9e3c846bb4a9f90e50692d3a9fc89279e5080ff6",
+    "receipt": "corrections/20260929_r1/controller_acknowledgements/20261007_01a0f5bd_用户终止.json",
+    "QA": "corrections/20260929_r1/QA/user_closure_20261007.json",
+    "termination_is_not_technical_completion": true,
+    "prior_budget_and_continuation_rules_preserved_as_history": true,
+    "next_action": "No further research or automatic continuation. Preserve existing results; future work requires a new explicit user authorization."
+  },
+  "effective_execution_rule": {
+    "mode": "closed_by_user",
+    "priority": "2026-10-07 latest explicit user termination overrides prior continuation and budget-resume authority",
+    "further_research_authorized": false,
+    "automatic_resume_authorized": false,
+    "daily_continuation_obligation_active": false,
+    "reset_authorized": false
+  }
 }

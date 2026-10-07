@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "action": "user_termination_only",
+  "authority_quote": "H1工作宣布结束",
+  "authority_date": "2026-10-07",
+  "recorded_at": "2026-10-07T20:33:01.823207+08:00",
+  "executor_agent": "/root/h1_p2_executor",
+  "executor_thread_id": "01a0f5bd-5786-7293-a694-ba1f7d717b6b",
+  "controller_thread_id": "01a0f584-5f3c-77a1-bd9a-bc4b1669a7f1",
+  "baseline_local_sha": "9e3c846bb4a9f90e50692d3a9fc89279e5080ff6",
+  "baseline_remote_sha": "9e3c846bb4a9f90e50692d3a9fc89279e5080ff6",
+  "rule_sources": [
+    {
+      "path": "C:/Users/tianhuo/.codex/AGENTS.md",
+      "sha256": "b274d8f0e7c240ffaacab24a9fecad0d115e3222aa35e9db89a222eab8cdc91e",
+      "full_read_basis": "Previously completely read source; current bytes hash unchanged. Global/H1 rules additionally fully reread on 2026-10-07."
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\AGENTS.md",
+      "sha256": "eeba729ac4c100dba8fae06b49026c5c41260d81d5dd14c6ae63902ab68ea31c",
+      "full_read_basis": "Previously completely read source; current bytes hash unchanged. Global/H1 rules additionally fully reread on 2026-10-07."
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\AGENTS.md",
+      "sha256": "00115374d2caf5bce1b14b77f7602edba997a36a40e059eea60bc8ce54c0352f",
+      "full_read_basis": "Previously completely read source; current bytes hash unchanged. Global/H1 rules additionally fully reread on 2026-10-07."
+    },
+    {
+      "path": "C:\\Users\\tianhuo\\Documents\\codex第一个项目\\h1-study\\H1_现有任务纠偏执行命令与长期规则.md",
+      "sha256": "4440213052d9e952b4e414654b3a9b54cc4d81a53f2120371d1c30d0edc2f517",
+      "full_read_basis": "Previously completely read source; current bytes hash unchanged. Global/H1 rules additionally fully reread on 2026-10-07."
+    }
+  ],
+  "release_before_sha256": "ee49fa98a1c8cab6457d91d07b71898f23542aca7d0e25d18de445db2158f4b5",
+  "handoff_before_sha256": "b986722df135433d940f2304193ec3223e9c994a773247e3c388d54206f4ca65",
+  "current_release_and_all335_handoff_lines_fully_read": true,
+  "execution_status": "closed_by_user",
+  "further_research_authorized": false,
+  "daily_controller_continuation_required": false,
+  "automatic_research_continuation_authorized": false,
+  "preserved_state": {
+    "phase": "P2",
+    "status": "draft",
+    "observations": 186,
+    "accepted_representative_publication_scopes": 6,
+    "unfilled_fields": 19,
+    "legal_pending": 14,
+    "formal_statistics_allowed": false,
+    "final_report_ready": false,
+    "project_completion_accepted": false
+  },
+  "overrides": [
+    "Ongoing research authorization",
+    "Daily mandatory H1 continuation until technical completion",
+    "Automatic five-hour research restart",
+    "Quota recovery as grounds to resume research"
+  ],
+  "history_preserved": true,
+  "termination_is_not_technical_completion": true,
+  "new_research_or_source_requests": 0,
+  "reset_consumed": false,
+  "watchdog_and_automation_shutdown_owner": "controller; this executor does not claim independently verified shutdown",
+  "QA": "corrections/20260929_r1/QA/user_closure_20261007.json",
+  "preserved_master_and_all_tracked_CSV_sha256": {
+    "corrections/20260929_r1/baseline/h1-study/patents/training_20260927/Gephi_edges.csv": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c",
+    "corrections/20260929_r1/baseline/h1-study/patents/training_20260927/Gephi_nodes.csv": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052",
+    "corrections/20260929_r1/baseline/h1-study/patents/training_20260927/同族去重题录.csv": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8",
+    "corrections/20260929_r1/baseline/h1-study/team_package_20260928/inputs/Gephi_edges.csv": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c",
+    "corrections/20260929_r1/baseline/h1-study/team_package_20260928/inputs/Gephi_nodes.csv": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052",
+    "corrections/20260929_r1/baseline/h1-study/team_package_20260928/inputs/同族去重题录.csv": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8",
+    "corrections/20260929_r1/data/official_publication_corrections_20261001.csv": "b817d339fc42799abfa58fb50fa8bb50f24d6baa7752b80e46f60369e709299a",
+    "corrections/20260929_r1/data/review_coverage.csv": "4985d1c937cc217b6e7f584544953376e58585f7c72098b3dd9ea040eee6820d",
+    "corrections/20260929_r1/data/sample_status.csv": "adb952983fc9c0ca6e2d59583ae88d4c9c7522437cd87a2b0868347722d92b94",
+    "patents/training_20260927/Gephi_edges.csv": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c",
+    "patents/training_20260927/Gephi_nodes.csv": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052",
+    "patents/training_20260927/同族去重题录.csv": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8",
+    "team_package_20260928/inputs/Gephi_edges.csv": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c",
+    "team_package_20260928/inputs/Gephi_nodes.csv": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052",
+    "team_package_20260928/inputs/同族去重题录.csv": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8",
+    "corrections/20260929_r1/data/analysis_master.json": "802905d2e7121555e42ff679536a6403f8c73f278126600d1aa11607afb2819a"
+  },
+  "preexisting_untracked_cache_preserved_excluded": true
+}

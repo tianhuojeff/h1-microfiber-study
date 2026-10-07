@@ -71,3 +71,7 @@ Python统一diff的带行号区块头不能直接作为apply_patch格式；首�
 ## 2026-10-04 独立公布文本技术验收口径
 
 按规范7.1/7.3/8.3/15，法律资格pending与技术阅读/分类验收分别记录。full_text_rechecked只在明确publication_technical_acceptance、代表公布文本完整原文/权项/附图已实际读、13字段原件绑定及场景/publication/coverage一致时可置true，范围为representative_published_document_only，不表示同族所有成员或授权文本均已读。未定位保留unknown；合法性、实测、正式统计、终稿与项目完成仍独立待核。旧补录阶段防误完成的allflagsfalse断言只适用于其历史阶段，历史QA及一次性脚本不篡改；现行verify_and_export默认只读验收，不修改观察或自行升旗标，显式export-patch仅生成当前范围派生补丁，经apply_patch及回读后才提交。改变验收语义须同时验证无receipt/无场景/源hash错不能放行；合法待核不自动阻已充分技术范围。
+
+## 2026-10-07 用户终止H1：当前最高优先级执行状态
+
+用户在主控明确说：“H1工作宣布结束”。自本次指令起，H1执行状态为closed_by_user，further_research_authorized=false；停止持续研究、自动研究接续以及此前“项目彻底完成前每日总控必须接续”的义务，额度恢复不能自动恢复H1。旧研究授权、预算暂停和接续规则均保留为历史；今后研究须有用户新的明确授权。本条仅关闭工作，不将用户终止冒充技术验收或项目完成：P2草稿、未完成技术/法律资格/正式统计/终稿门槛与project_completion_accepted=false全部保留。现有主表、观察、CSV、原件与历史证据保持原字节。守护/计划任务/自动化关闭由主控另行实施验收，本执行者只完成H1关闭元数据的独立QA、提交和推送，不使用重置。真实日期/thread/规则与版本hash及关闭依据见current_release.user_closure和对应关闭receipt。

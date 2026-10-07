@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "logical_change": "Explicit user termination, metadata only",
+  "verified_at": "2026-10-07T20:33:47.489129+08:00",
+  "baseline_local_remote_sha": "9e3c846bb4a9f90e50692d3a9fc89279e5080ff6",
+  "authority_quote": "H1工作宣布结束",
+  "checks": {
+    "old_release_values_preserved_except_update_and_execution": true,
+    "all_master_and_tracked_CSV_exact_bytes_unchanged": true,
+    "tracked_diffs_only_three_closure_metadata_files": true,
+    "all_existing_original_source_and_evidence_paths_absent_from_diff": true,
+    "old_AGENTS_and_handoff_text_retained_in_full": true,
+    "unmodified_rule_hashes_current": true,
+    "closed_by_user_no_research_no_daily_no_automatic_resume": true,
+    "project_completion_accepted_false_P2_draft_legal_gates_preserved": true,
+    "formal_statistics_allowed_false_and_final_report_ready_false": true,
+    "no_new_research_or_network_evidence": true,
+    "no_reset": true,
+    "diff_check_passed": true
+  },
+  "state": {
+    "phase": "P2",
+    "status": "draft",
+    "observations": 186,
+    "accepted_representative_publication_scopes": 6,
+    "unfilled_fields": 19,
+    "legal_pending": 14,
+    "formal_statistics_allowed": false,
+    "final_report_ready": false,
+    "project_completion_accepted": false
+  },
+  "preserved_bytes": [
+    {
+      "path": "corrections/20260929_r1/baseline/h1-study/patents/training_20260927/Gephi_edges.csv",
+      "sha256": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/baseline/h1-study/patents/training_20260927/Gephi_nodes.csv",
+      "sha256": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/baseline/h1-study/patents/training_20260927/同族去重题录.csv",
+      "sha256": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/baseline/h1-study/team_package_20260928/inputs/Gephi_edges.csv",
+      "sha256": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/baseline/h1-study/team_package_20260928/inputs/Gephi_nodes.csv",
+      "sha256": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/baseline/h1-study/team_package_20260928/inputs/同族去重题录.csv",
+      "sha256": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/data/official_publication_corrections_20261001.csv",
+      "sha256": "b817d339fc42799abfa58fb50fa8bb50f24d6baa7752b80e46f60369e709299a",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/data/review_coverage.csv",
+      "sha256": "4985d1c937cc217b6e7f584544953376e58585f7c72098b3dd9ea040eee6820d",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/data/sample_status.csv",
+      "sha256": "adb952983fc9c0ca6e2d59583ae88d4c9c7522437cd87a2b0868347722d92b94",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "patents/training_20260927/Gephi_edges.csv",
+      "sha256": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "patents/training_20260927/Gephi_nodes.csv",
+      "sha256": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "patents/training_20260927/同族去重题录.csv",
+      "sha256": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "team_package_20260928/inputs/Gephi_edges.csv",
+      "sha256": "cee69184d31567710d547d1597d8a1ba2e5ca8d82191827d502c4a3f0c43670c",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "team_package_20260928/inputs/Gephi_nodes.csv",
+      "sha256": "033b6b4852f9bf80babaa86957f28f4fefb957b05ca0d8334af343bbb9788052",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "team_package_20260928/inputs/同族去重题录.csv",
+      "sha256": "b3772d218c2d9d0974875682222a05e838ffdf8d8e6650895d46279f2122c4c8",
+      "exact_bytes_unchanged": true
+    },
+    {
+      "path": "corrections/20260929_r1/data/analysis_master.json",
+      "sha256": "802905d2e7121555e42ff679536a6403f8c73f278126600d1aa11607afb2819a",
+      "exact_bytes_unchanged": true
+    }
+  ],
+  "changed_old_release_fields": [
+    "updated_at",
+    "execution_status"
+  ],
+  "new_release_fields": [
+    "automatic_research_continuation_authorized",
+    "daily_controller_continuation_required",
+    "effective_execution_rule",
+    "further_research_authorized",
+    "user_closure"
+  ],
+  "current_metadata_sha256": {
+    "AGENTS.md": "6559f9da92114d71d2ef8424fc44f2ac50c1f89dd6204955cb93a7d0bc1b9870",
+    "current_release.json": "af1897aa236bccd0a356f915a0e4311a1ae3e94c48a824b7494cebacfd3bef6a",
+    "corrections/20260929_r1/handoff.md": "d88e3be6c290d6849b8d3a9c6d2e87a55584133f0e89d38e63bb008f335b64ee",
+    "corrections/20260929_r1/controller_acknowledgements/20261007_01a0f5bd_用户终止.json": "500a3ef795dd366ac63d91bc7fff8b1144297540c97380f1918420aa9871e963"
+  },
+  "AGENTS_before_sha256": "00115374d2caf5bce1b14b77f7602edba997a36a40e059eea60bc8ce54c0352f",
+  "allowed_commit_paths": [
+    "AGENTS.md",
+    "current_release.json",
+    "corrections/20260929_r1/handoff.md",
+    "corrections/20260929_r1/controller_acknowledgements/20261007_01a0f5bd_用户终止.json",
+    "corrections/20260929_r1/QA/user_closure_20261007.json"
+  ],
+  "preexisting_cache_excluded_preserved": true,
+  "automation_shutdown_verified_by_this_executor": false,
+  "automation_shutdown_owner": "controller",
+  "passed": true
+}
